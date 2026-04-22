@@ -365,13 +365,40 @@ def rug_check(t):
     return {"safe": True, "detail": "unchecked"}
 
 
+# ── Buy links per chain ───────────────────────────────────────────────────────
+
+GMGN_CHAIN = {
+    "solana": "sol", "ethereum": "eth", "bsc": "bsc",
+    "base": "base", "arbitrum": "arb", "xlayer": None,
+}
+
+def buy_links(chain, addr, pair_url):
+    links = []
+    gmgn_slug = GMGN_CHAIN.get(chain)
+    if gmgn_slug:
+        links.append(f"<a href='https://gmgn.ai/{gmgn_slug}/token/{addr}'>GMGN</a>")
+
+    if chain == "solana":
+        links.append(f"<a href='https://photon-sol.tinyastro.io/en/lp/{addr}'>Photon</a>")
+        links.append(f"<a href='https://bullx.io/terminal?chainId=1399811149&address={addr}'>BullX</a>")
+    elif chain in ("ethereum", "bsc", "base", "arbitrum"):
+        links.append(f"<a href='https://app.uniswap.org/explore/tokens/{chain}/{addr}'>Uniswap</a>")
+        links.append(f"<a href='https://dextools.io/app/en/{chain}/pair-explorer/{addr}'>DEXTools</a>")
+
+    if pair_url:
+        links.append(f"<a href='{pair_url}'>DexScreener</a>")
+
+    return "  |  ".join(links)
+
+
 # ── Format alert ──────────────────────────────────────────────────────────────
 
 def format_alert(t, rc):
     verdict = t.get("verdict", "?")
     emoji   = {"BUY": "🟢", "WATCH": "🟡", "AVOID": "🔴"}.get(verdict, "⚪")
     sym     = t.get("symbol", "?")
-    chain   = t.get("chain", "?").upper()
+    chain   = t.get("chain", "?")
+    addr    = t.get("address", "")
     sc      = t.get("score", 0)
     price   = t.get("price_usd")
     liq     = t.get("liquidity_usd") or 0
@@ -404,7 +431,7 @@ def format_alert(t, rc):
     lines = [
         f"🆕 <b>EARLY SIGNAL — {age_str}</b>",
         f"",
-        f"{emoji} <b>{sym}</b> ({chain}) — Score <b>{sc}/100</b> {verdict}",
+        f"{emoji} <b>{sym}</b> ({chain.upper()}) — Score <b>{sc}/100</b> {verdict}",
         f"",
         f"💰 {price_str}  |  💧 ${liq:,.0f} liq  |  FDV {fdv_str}",
         f"📈 Vol 1h: ${vol1:,.0f}",
@@ -421,8 +448,13 @@ def format_alert(t, rc):
 
     lines.append(f"📡 {src_label}  |  🛡 {rug_str}")
 
-    if url:
-        lines.append(f"\n📉 <a href='{url}'>View Chart</a>")
+    # Contract address — tap to copy in Telegram
+    lines.append(f"\n📋 <b>CA:</b> <code>{addr}</code>")
+
+    # One-tap buy links
+    links = buy_links(chain, addr, url)
+    if links:
+        lines.append(f"🛒 {links}")
 
     return "\n".join(lines)
 
