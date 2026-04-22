@@ -1,0 +1,29 @@
+name: Signal Scout Monitor
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # every 10 minutes, 24/7, free on public repos
+  workflow_dispatch:           # also lets you trigger manually from GitHub UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scan and alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          OKX_API_KEY:        ${{ secrets.OKX_API_KEY }}
+          OKX_SECRET_KEY:     ${{ secrets.OKX_SECRET_KEY }}
+          OKX_PASSPHRASE:     ${{ secrets.OKX_PASSPHRASE }}
+        run: python scan_and_alert.py
