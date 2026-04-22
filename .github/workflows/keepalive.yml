@@ -1,0 +1,16 @@
+name: Keepalive
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours — prevents GitHub disabling the cron
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+
+    steps:
+      - name: Keep scheduled workflows alive
+        uses: liskin/gh-workflow-keepalive@v1
