@@ -19,10 +19,11 @@ from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-MAX_AGE_MINUTES  = 20     # only alert on tokens newer than this
+MAX_AGE_MINUTES  = 180    # alert on tokens up to 3 hours old
 MIN_SCORE        = 55     # minimum signal score to alert
 MIN_LIQUIDITY    = 5000   # skip tokens with less liquidity than this
 MAX_TOKENS       = 40     # cap tokens scored per run
+MIN_MOMENTUM_H1  = 15     # min 1h price change % to alert (filters stale tokens)
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -287,11 +288,12 @@ def main():
 
     print(f"  Enriched {len(enriched)}")
 
-    # Filter: only fresh tokens under MAX_AGE_MINUTES, enough liquidity
+    # Filter: fresh tokens with momentum, enough liquidity
     fresh = [t for t in enriched
-             if (t.get("pair_age_minutes") or 999) <= MAX_AGE_MINUTES
-             and (t.get("liquidity_usd") or 0) >= MIN_LIQUIDITY]
-    print(f"  Fresh (< {MAX_AGE_MINUTES}m, liq > ${MIN_LIQUIDITY}): {len(fresh)}")
+             if (t.get("pair_age_minutes") or 9999) <= MAX_AGE_MINUTES
+             and (t.get("liquidity_usd") or 0) >= MIN_LIQUIDITY
+             and abs(t.get("price_change_h1") or 0) >= MIN_MOMENTUM_H1]
+    print(f"  Fresh (< {MAX_AGE_MINUTES}m, liq > ${MIN_LIQUIDITY}, 1h > {MIN_MOMENTUM_H1}%): {len(fresh)}")
 
     # Score
     scored = [score(t) for t in fresh]
@@ -317,14 +319,33 @@ def main():
 
     print(f"  Done. {alerts_sent} alerts sent from {len(scored)} scored tokens.")
 
-    # Send a heartbeat every hour (when no alerts and run count is on the hour)
+    # Always send a status ping so you know it's alive
+    # Full summary every hour (minute 0-9), brief ping otherwise
+    minute = datetime.datetime.utcnow().minute
     if alerts_sent == 0:
-        minute = datetime.datetime.utcnow().minute
-        if minute < 10:  # roughly every hour
+        if minute < 10:
+            # Hourly summary
+            top = sorted(enriched, key=lambda t: t.get("price_change_h1") or 0, reverse=True)[:3]
+            top_lines = []
+            for t in top:
+                pc1 = t.get("price_change_h1") or 0
+                age = t.get("pair_age_minutes") or 0
+                top_lines.append(f"  • {t.get('symbol','?')} ({t.get('chain','?').upper()}) 1h:{pc1:+.0f}% {age:.0f}m old")
             tg_send(tg_token, tg_chat,
-                f"💓 Signal Scout running — {now}\n"
-                f"Scanned {len(enriched)} tokens, {len(fresh)} fresh.\n"
-                f"No strong signals this window.")
+                f"💓 <b>Signal Scout — Hourly Check</b>\n"
+                f"Time: {now}\n"
+                f"Scanned: {len(enriched)} tokens | Fresh signals: {len(fresh)}\n"
+                f"Alerts sent: {alerts_sent}\n\n"
+                f"Top movers this hour:\n" + "\n".join(top_lines) if top_lines else
+                f"💓 Signal Scout running — {now}\nNo strong early signals this hour."
+            )
+        else:
+            # Brief ping every scan so you know it's alive
+            tg_send(tg_token, tg_chat,
+                f"🔍 Scan complete — {now}\n"
+                f"{len(enriched)} tokens checked, {len(fresh)} qualify.\n"
+                f"No alerts — watching for strong signals..."
+            )
 
 
 if __name__ == "__main__":
