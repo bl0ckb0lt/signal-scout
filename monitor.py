@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-Signal Scout Monitor — Live continuous token scanner with Telegram alerts.
+Signal Scout Premium Monitor
+Live multi-chain meme token scanner with Telegram alerts + bot commands.
 
-Runs on a loop, scans for new tokens every N minutes, and fires Telegram
-alerts when early tokens (< 2h old) score above the threshold.
+Features:
+- Scans every N minutes across Solana, ETH, BSC, Base, X Layer
+- Rug/honeypot detection before alerting
+- Telegram commands: /scan /top10 /status /pause /resume /threshold /watch
+- Watchlist tracking for specific tokens
+- Railway/VPS ready (no GUI needed)
 """
 
 import os
@@ -12,9 +17,10 @@ import json
 import time
 import datetime
 import argparse
+import threading
 from pathlib import Path
 
-# Load .env
+# Load .env (works locally; on Railway use env vars directly)
 env_path = Path(__file__).parent / ".env"
 if env_path.exists():
     for line in env_path.read_text(encoding="utf-8").splitlines():
@@ -24,192 +30,216 @@ if env_path.exists():
 
 from fetcher import scan_all_signals
 from scorer import score_tokens
+from rugcheck import check_token, is_safe, rug_summary
 from telegram_bot import send_message, format_alert, format_scan_summary
+from bot_commands import load_state, save_state, start_command_listener
 
 
-# ── Config ───────────────────────────────────────────────────────────────────
-
-SCAN_INTERVAL_MINUTES = 5       # how often to scan
-ALERT_SCORE_THRESHOLD = 55      # minimum score to send alert
-EARLY_TOKEN_MAX_HOURS = 3       # tokens younger than this are "early"
-MAX_TOKENS_TO_SCORE = 30        # cap scoring per scan to save time
-SEEN_TOKENS_FILE = Path(__file__).parent / ".seen_tokens.json"
+SEEN_FILE     = Path(__file__).parent / ".seen_tokens.json"
+RESULTS_FILE  = Path(__file__).parent / "last_scan_results.json"
 
 
-# ── State ─────────────────────────────────────────────────────────────────────
+# ── Seen token tracking ───────────────────────────────────────────────────────
 
 def load_seen() -> dict:
-    """Load previously alerted tokens {address: first_seen_timestamp}."""
-    if SEEN_TOKENS_FILE.exists():
+    if SEEN_FILE.exists():
         try:
-            return json.loads(SEEN_TOKENS_FILE.read_text(encoding="utf-8"))
+            return json.loads(SEEN_FILE.read_text(encoding="utf-8"))
         except Exception:
-            return {}
+            pass
     return {}
 
 
 def save_seen(seen: dict):
-    SEEN_TOKENS_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
+    SEEN_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
 
 
-def prune_seen(seen: dict, max_age_hours: int = 48) -> dict:
-    """Remove tokens seen more than max_age_hours ago to keep the file small."""
-    cutoff = time.time() - max_age_hours * 3600
+def prune_seen(seen: dict, max_hours: int = 48) -> dict:
+    cutoff = time.time() - max_hours * 3600
     return {k: v for k, v in seen.items() if v > cutoff}
 
 
-# ── Core loop ─────────────────────────────────────────────────────────────────
+# ── Single scan ───────────────────────────────────────────────────────────────
 
-def run_monitor(
-    tg_token: str,
-    tg_chat_id: str,
-    okx_key: str,
-    okx_secret: str,
-    okx_pass: str,
-    score_threshold: int = ALERT_SCORE_THRESHOLD,
-    scan_interval: int = SCAN_INTERVAL_MINUTES,
-    early_hours: float = EARLY_TOKEN_MAX_HOURS,
-    dry_run: bool = False,
-):
-    seen = load_seen()
-    scan_number = 0
+def run_one_scan(creds: dict, state: dict, seen: dict,
+                 tg_token: str, tg_chat_id: str,
+                 early_hours: float = 3.0) -> tuple[dict, dict]:
+    """
+    Run a full scan cycle. Returns (updated_state, updated_seen).
+    """
+    state["scan_number"] = state.get("scan_number", 0) + 1
+    state["last_scan_time"] = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    now_str = state["last_scan_time"]
+    scan_n = state["scan_number"]
 
-    print(f"\n{'='*50}")
-    print(f"  Signal Scout Monitor — LIVE")
-    print(f"  Scan every {scan_interval} min | Alert threshold: {score_threshold}/100")
-    print(f"  Early token window: < {early_hours}h old")
-    print(f"  Telegram: {'DRY RUN (no alerts)' if dry_run else 'ACTIVE'}")
-    print(f"{'='*50}\n")
+    print(f"\n[{now_str}] Scan #{scan_n} starting...")
 
-    # Send startup message
-    if not dry_run:
-        send_message(tg_token, tg_chat_id,
-            f"🚀 <b>Signal Scout Monitor started</b>\n\n"
-            f"Scanning every {scan_interval} minutes\n"
-            f"Alert threshold: {score_threshold}/100\n"
-            f"Early token window: under {early_hours}h old\n\n"
-            f"I'll alert you the moment I find a strong early signal."
-        )
+    # 1. Fetch
+    tokens = scan_all_signals(
+        creds["okx_api_key"], creds["okx_secret"], creds["okx_passphrase"]
+    )
+    viable = [t for t in tokens if (t.get("liquidity_usd") or 0) > 5000]
+    print(f"  Fetched {len(tokens)} tokens, {len(viable)} viable")
 
-    while True:
-        scan_number += 1
-        now_str = datetime.datetime.utcnow().strftime("%H:%M UTC")
-        print(f"\n[{now_str}] Scan #{scan_number} starting...")
+    # 2. Score
+    scored = score_tokens(viable, top_n=30)
+    state["last_scan_count"] = len(scored)
 
-        try:
-            # 1. Fetch tokens
-            tokens = scan_all_signals(okx_key, okx_secret, okx_pass)
-            print(f"  Fetched {len(tokens)} tokens")
+    # 3. Rug-check top candidates before alerting
+    print(f"  Running rug checks...")
+    threshold = state.get("threshold", 55)
+    candidates = [t for t in scored if t.get("score_total", 0) >= threshold
+                  and t.get("verdict") != "AVOID"]
+    for t in candidates:
+        check_token(t)   # enriches in-place via dict reference won't work, do it properly:
+    candidates = [check_token(t) for t in candidates]
 
-            # 2. Filter: only tokens with enough liquidity
-            viable = [t for t in tokens if (t.get("liquidity_usd") or 0) > 5000]
+    # 4. Save results for /top10
+    RESULTS_FILE.write_text(
+        json.dumps(scored, indent=2, default=str), encoding="utf-8"
+    )
 
-            # 3. Score them
-            scored = score_tokens(viable, top_n=MAX_TOKENS_TO_SCORE)
-            print(f"  Scored {len(scored)} tokens")
+    # 5. Alert on new high-scoring tokens
+    new_alerts = 0
+    watchlist = [w.upper() for w in state.get("watchlist", [])]
 
-            # 4. Find new early high-scorers
-            new_alerts = []
-            for t in scored:
-                addr = t.get("address", "")
-                chain = t.get("chain", "")
-                key = f"{chain}:{addr}"
-                age = t.get("pair_age_hours")
-                score = t.get("score_total", 0)
-                verdict = t.get("verdict", "AVOID")
+    for t in scored:
+        addr    = t.get("address", "")
+        chain   = t.get("chain", "")
+        symbol  = (t.get("symbol") or "").upper()
+        key     = f"{chain}:{addr}"
+        age     = t.get("pair_age_hours")
+        score   = t.get("score_total", 0)
+        verdict = t.get("verdict", "AVOID")
 
-                is_early = age is not None and age <= early_hours
-                is_strong = score >= score_threshold
-                is_new = key not in seen
-                not_avoid = verdict != "AVOID"
+        on_watchlist = symbol in watchlist
+        is_strong    = score >= threshold
+        is_new       = key not in seen
+        not_avoid    = verdict != "AVOID"
+        not_rugged   = is_safe(t)
 
-                if is_strong and not_avoid and is_new:
-                    new_alerts.append(t)
-                    seen[key] = time.time()
-                    print(f"  *** NEW ALERT: {t.get('symbol')} score={score} age={age}h verdict={verdict}")
+        should_alert = not_avoid and is_new and not_rugged and (is_strong or on_watchlist)
 
-            # 5. Send individual alerts for new tokens
-            for t in new_alerts:
-                is_early = (t.get("pair_age_hours") or 99) <= early_hours
-                msg = format_alert(t, is_new=is_early)
-                print(f"  Sending Telegram alert for {t.get('symbol')}...")
-                if not dry_run:
-                    ok = send_message(tg_token, tg_chat_id, msg)
-                    if not ok:
-                        print(f"  WARNING: Telegram send failed for {t.get('symbol')}")
-                    time.sleep(1)  # avoid hitting TG rate limit
+        if should_alert and not state.get("paused"):
+            is_early = age is not None and age <= early_hours
+            msg = format_alert(t, is_new=is_early)
 
-            # 6. Send scan summary every 6 scans (every ~30 min)
-            if scan_number % 6 == 0 and scored:
-                summary = format_scan_summary(scored, scan_number)
-                print(f"  Sending scan summary...")
-                if not dry_run:
-                    send_message(tg_token, tg_chat_id, summary)
+            # Append rug check line
+            rug_line = rug_summary(t)
+            msg += f"\n\n🛡 {rug_line}"
 
-            if not new_alerts:
-                print(f"  No new alerts this scan. Top score: "
-                      f"{scored[0].get('score_total',0) if scored else 0}/100 "
-                      f"({scored[0].get('symbol','?') if scored else 'none'})")
+            if on_watchlist:
+                msg = "👁 <b>WATCHLIST ALERT</b>\n\n" + msg
 
-            # 7. Prune old seen tokens
-            seen = prune_seen(seen)
-            save_seen(seen)
+            ok = send_message(tg_token, tg_chat_id, msg)
+            if ok:
+                seen[key] = time.time()
+                new_alerts += 1
+                state["total_alerts_sent"] = state.get("total_alerts_sent", 0) + 1
+                print(f"  ✅ Alert sent: {symbol} score={score} age={age}h rug={rug_line}")
+                time.sleep(1)
+            else:
+                print(f"  ⚠️  Telegram send failed for {symbol}")
 
-        except KeyboardInterrupt:
-            print("\nMonitor stopped by user.")
-            if not dry_run:
-                send_message(tg_token, tg_chat_id, "⏹ Signal Scout Monitor stopped.")
-            break
-        except Exception as e:
-            print(f"  ERROR during scan: {e}")
-            if not dry_run:
-                send_message(tg_token, tg_chat_id, f"⚠️ Scan error: {e}")
+        elif is_new and is_strong and not not_rugged:
+            print(f"  🚨 SKIPPED (rugged): {symbol} — {rug_summary(t)}")
+            seen[key] = time.time()  # mark seen so we don't keep checking
 
-        # 8. Wait for next scan
-        print(f"  Next scan in {scan_interval} minutes...")
-        time.sleep(scan_interval * 60)
+    if new_alerts == 0:
+        top = scored[0] if scored else {}
+        print(f"  No new alerts. Top: {top.get('symbol','?')} {top.get('score_total',0)}/100")
+
+    # 6. Summary every 6 scans (~30 min)
+    if scan_n % 6 == 0 and scored and not state.get("paused"):
+        summary = format_scan_summary(scored, scan_n)
+        send_message(tg_token, tg_chat_id, summary)
+
+    seen = prune_seen(seen)
+    save_seen(seen)
+    save_state(state)
+
+    return state, seen
 
 
-# ── Entry point ───────────────────────────────────────────────────────────────
+# ── Main loop ─────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Signal Scout live monitor with Telegram alerts")
-    parser.add_argument("--interval", type=int, default=SCAN_INTERVAL_MINUTES,
-                        help=f"Scan interval in minutes (default: {SCAN_INTERVAL_MINUTES})")
-    parser.add_argument("--threshold", type=int, default=ALERT_SCORE_THRESHOLD,
-                        help=f"Minimum score to alert (default: {ALERT_SCORE_THRESHOLD})")
-    parser.add_argument("--early-hours", type=float, default=EARLY_TOKEN_MAX_HOURS,
-                        help=f"Max token age in hours to be 'early' (default: {EARLY_TOKEN_MAX_HOURS})")
-    parser.add_argument("--dry-run", action="store_true",
-                        help="Run without sending Telegram messages")
+    parser = argparse.ArgumentParser(description="Signal Scout Premium Monitor")
+    parser.add_argument("--interval",    type=int,   default=5,   help="Scan interval minutes")
+    parser.add_argument("--threshold",   type=int,   default=55,  help="Alert score threshold")
+    parser.add_argument("--early-hours", type=float, default=3.0, help="Max age for early alert")
+    parser.add_argument("--dry-run",     action="store_true",      help="No Telegram messages")
     args = parser.parse_args()
 
-    tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    # Credentials
+    tg_token   = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     tg_chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+    creds = {
+        "okx_api_key":    os.environ["OKX_API_KEY"],
+        "okx_secret":     os.environ["OKX_SECRET_KEY"],
+        "okx_passphrase": os.environ["OKX_PASSPHRASE"],
+    }
 
+    if not args.dry_run and (not tg_token or not tg_chat_id):
+        print("ERROR: Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env")
+        sys.exit(1)
+
+    # State
+    state = load_state()
+    state["threshold"] = args.threshold
+    seen  = load_seen()
+
+    print(f"\n{'='*52}")
+    print(f"  Signal Scout Premium — LIVE")
+    print(f"  Scan every {args.interval} min | Threshold: {args.threshold}/100")
+    print(f"  Early window: <{args.early_hours}h | Rug check: ON")
+    print(f"  Commands: /scan /top10 /status /pause /resume")
+    print(f"  Telegram: {'DRY RUN' if args.dry_run else 'ACTIVE'}")
+    print(f"{'='*52}\n")
+
+    # Scan trigger for /scan command
+    scan_lock = threading.Lock()
+    def trigger_scan():
+        with scan_lock:
+            nonlocal state, seen
+            state, seen = run_one_scan(
+                creds, state, seen, tg_token, tg_chat_id, args.early_hours
+            )
+
+    # Start command listener
     if not args.dry_run:
-        if not tg_token or tg_token == "your_telegram_bot_token":
-            print("ERROR: Set TELEGRAM_BOT_TOKEN in your .env file")
-            print("  1. Message @BotFather on Telegram")
-            print("  2. Send /newbot and follow the steps")
-            print("  3. Copy the token into .env")
-            sys.exit(1)
-        if not tg_chat_id or tg_chat_id == "your_telegram_chat_id":
-            print("ERROR: Set TELEGRAM_CHAT_ID in your .env file")
-            print("  Message @userinfobot on Telegram to get your Chat ID")
-            sys.exit(1)
+        start_command_listener(tg_token, tg_chat_id, state, trigger_scan)
 
-    run_monitor(
-        tg_token=tg_token,
-        tg_chat_id=tg_chat_id,
-        okx_key=os.environ.get("OKX_API_KEY", ""),
-        okx_secret=os.environ.get("OKX_SECRET_KEY", ""),
-        okx_pass=os.environ.get("OKX_PASSPHRASE", ""),
-        score_threshold=args.threshold,
-        scan_interval=args.interval,
-        early_hours=args.early_hours,
-        dry_run=args.dry_run,
-    )
+    # Startup message
+    if not args.dry_run:
+        send_message(tg_token, tg_chat_id,
+            f"🚀 <b>Signal Scout Premium — LIVE</b>\n\n"
+            f"Scanning every {args.interval} min\n"
+            f"Alert threshold: {args.threshold}/100\n"
+            f"Early token window: &lt;{args.early_hours}h old\n"
+            f"Rug/honeypot detection: ON\n\n"
+            f"Commands: /scan /top10 /status /pause /resume /threshold /watch /help\n\n"
+            f"First scan starting now..."
+        )
+
+    # Main loop
+    while True:
+        try:
+            state, seen = run_one_scan(
+                creds, state, seen, tg_token, tg_chat_id, args.early_hours
+            )
+        except KeyboardInterrupt:
+            print("\nStopped.")
+            if not args.dry_run:
+                send_message(tg_token, tg_chat_id, "⏹ Signal Scout stopped.")
+            break
+        except Exception as e:
+            print(f"Scan error: {e}")
+            if not args.dry_run:
+                send_message(tg_token, tg_chat_id, f"⚠️ Scan error: {e}")
+
+        print(f"  Sleeping {args.interval} min...")
+        time.sleep(args.interval * 60)
 
 
 if __name__ == "__main__":
