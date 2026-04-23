@@ -3,28 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PORINGMAN",
-      "chain": "solana",
-      "address": "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump",
-      "source": "new",
-      "entry_price": 0.0001389,
-      "peak_price": 0.0001389,
-      "trailing_active": false,
-      "entry_time": "2026-04-23T12:34:52.735778+00:00",
-      "score": 48,
-      "status": "open"
-    },
-    {
       "symbol": "ANON",
       "chain": "solana",
       "address": "Bs4QR1nQMc6s5XL93RL9wuDCV5vKAtFbtA4KVT2pump",
       "source": "new",
       "entry_price": 0.0002534,
-      "peak_price": 0.0002534,
-      "trailing_active": false,
+      "peak_price": 0.0003819,
+      "trailing_active": true,
       "entry_time": "2026-04-23T12:34:56.106432+00:00",
       "score": 38,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 50.71
     }
   ],
   "closed": [
@@ -104,6 +94,23 @@
       "exit_price": 4.29,
       "exit_pct": 65.64,
       "exit_time": "2026-04-23T09:50:18.381435+00:00"
+    },
+    {
+      "symbol": "PORINGMAN",
+      "chain": "solana",
+      "address": "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump",
+      "source": "new",
+      "entry_price": 0.0001389,
+      "peak_price": 0.0001389,
+      "trailing_active": false,
+      "entry_time": "2026-04-23T12:34:52.735778+00:00",
+      "score": 48,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -40.13,
+      "exit_price": 8.316e-05,
+      "exit_pct": -40.13,
+      "exit_time": "2026-04-23T12:45:10.560693+00:00"
     }
   ],
   "alerted": {
@@ -119,5 +126,8 @@
       "count": 0,
       "ts": "2026-04-23T12:34:55.494479+00:00"
     }
+  },
+  "cooldown": {
+    "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump": "2026-04-23T12:45:10.560693+00:00"
   }
 }
