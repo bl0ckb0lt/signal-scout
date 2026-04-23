@@ -1,7 +1,32 @@
 {
   "last_update_id": 146423228,
   "paused": false,
-  "open": [],
+  "open": [
+    {
+      "symbol": "PORINGMAN",
+      "chain": "solana",
+      "address": "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump",
+      "source": "new",
+      "entry_price": 0.0001389,
+      "peak_price": 0.0001389,
+      "trailing_active": false,
+      "entry_time": "2026-04-23T12:34:52.735778+00:00",
+      "score": 48,
+      "status": "open"
+    },
+    {
+      "symbol": "ANON",
+      "chain": "solana",
+      "address": "Bs4QR1nQMc6s5XL93RL9wuDCV5vKAtFbtA4KVT2pump",
+      "source": "new",
+      "entry_price": 0.0002534,
+      "peak_price": 0.0002534,
+      "trailing_active": false,
+      "entry_time": "2026-04-23T12:34:56.106432+00:00",
+      "score": 38,
+      "status": "open"
+    }
+  ],
   "closed": [
     {
       "symbol": "PIC",
@@ -81,6 +106,18 @@
       "exit_time": "2026-04-23T09:50:18.381435+00:00"
     }
   ],
-  "alerted": {},
-  "holder_counts": {}
+  "alerted": {
+    "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump": "2026-04-23T12:34:52.735695+00:00",
+    "Bs4QR1nQMc6s5XL93RL9wuDCV5vKAtFbtA4KVT2pump": "2026-04-23T12:34:56.106338+00:00"
+  },
+  "holder_counts": {
+    "G46yT2JNvWWvBi4AdrcmK1viwMT2eYoCrPE8T87tpump": {
+      "count": 0,
+      "ts": "2026-04-23T12:34:52.081564+00:00"
+    },
+    "Bs4QR1nQMc6s5XL93RL9wuDCV5vKAtFbtA4KVT2pump": {
+      "count": 0,
+      "ts": "2026-04-23T12:34:55.494479+00:00"
+    }
+  }
 }
