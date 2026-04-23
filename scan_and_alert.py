@@ -230,13 +230,12 @@ def _close_pos(pos, now_p, status, state):
     """Move position from open → closed with exit data."""
     entry = pos.get("entry_price") or 1
     pct   = round((now_p - entry) / entry * 100, 2)
-    pos.update({
-        "exit_price": now_p,
-        "exit_pct":   pct,
-        "status":     status,
-        "exit_time":  datetime.datetime.now(datetime.UTC).isoformat(),
-    })
+    now   = datetime.datetime.now(datetime.UTC).isoformat()
+    pos.update({"exit_price": now_p, "exit_pct": pct,
+                "status": status, "exit_time": now})
     state.setdefault("closed", []).append(pos)
+    # Set cooldown so we don't re-enter this token immediately
+    state.setdefault("cooldown", {})[pos["address"]] = now
 
 
 def check_exits(state, tg_token, tg_chat):
@@ -362,25 +361,40 @@ def check_exits(state, tg_token, tg_chat):
     return state
 
 
+COOLDOWN_MINUTES = 120   # don't re-enter a token for 2h after exit
+
 def log_paper_trade(state, t):
     """Add a new paper trade when a BUY signal fires."""
     if len(state.get("open", [])) >= MAX_OPEN_TRADES:
         return state
-    if any(p["address"] == t["address"] for p in state.get("open", [])):
-        return state  # already tracking
+
+    addr = t.get("address", "")
+
+    # Already tracking this token
+    if any(p["address"] == addr for p in state.get("open", [])):
+        return state
+
+    # Cooldown — don't re-enter a token we recently closed
+    cooldowns = state.get("cooldown", {})
+    if addr in cooldowns:
+        exited_at = datetime.datetime.fromisoformat(cooldowns[addr])
+        age_min   = (datetime.datetime.now(datetime.UTC) - exited_at).total_seconds() / 60
+        if age_min < COOLDOWN_MINUTES:
+            print(f"  Cooldown: {t.get('symbol')} skipped ({age_min:.0f}m since last exit)")
+            return state
 
     price = t.get("price_usd")
     state.setdefault("open", []).append({
-        "symbol":         t.get("symbol", "?"),
-        "chain":          t.get("chain", "?"),
-        "address":        t.get("address", ""),
-        "source":         t.get("source", ""),
-        "entry_price":    float(price) if price else None,
-        "peak_price":     float(price) if price else None,
+        "symbol":          t.get("symbol", "?"),
+        "chain":           t.get("chain", "?"),
+        "address":         addr,
+        "source":          t.get("source", ""),
+        "entry_price":     float(price) if price else None,
+        "peak_price":      float(price) if price else None,
         "trailing_active": False,
-        "entry_time":     datetime.datetime.now(datetime.UTC).isoformat(),
-        "score":          t.get("score", 0),
-        "status":         "open",
+        "entry_time":      datetime.datetime.now(datetime.UTC).isoformat(),
+        "score":           t.get("score", 0),
+        "status":          "open",
     })
     return state
 

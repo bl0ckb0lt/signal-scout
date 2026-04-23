@@ -1,0 +1,28 @@
+name: Command Handler
+
+on:
+  repository_dispatch:
+    types: [run-commands]   # cron-job.org fires this every 1 minute
+
+permissions:
+  contents: write
+
+jobs:
+  commands:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Handle commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python commands.py
