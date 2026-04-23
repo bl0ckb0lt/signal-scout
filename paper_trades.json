@@ -3,16 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PIC",
-      "chain": "solana",
-      "address": "HyKEeQGS2eWD3QyTiEQ7v23jUPZAqE9uQM98WHRZbrrr",
-      "source": "new",
-      "entry_price": 0.0002069,
-      "entry_time": "2026-04-23T08:15:29.204464",
-      "score": 57,
-      "status": "open"
-    },
-    {
       "symbol": "BURNIE",
       "chain": "ethereum",
       "address": "0x24E599a0960f80D30a6647e4c8ce9118b7CF6B30",
@@ -20,6 +10,21 @@
       "entry_price": 1.571e-05,
       "entry_time": "2026-04-23T08:15:31.959062",
       "score": 55,
+      "status": "open",
+      "peak_price": 1.656e-05,
+      "trailing_active": false,
+      "current_pct": 5.41
+    },
+    {
+      "symbol": "GALAXY",
+      "chain": "solana",
+      "address": "9M8vRvAejH6bgw6mUEgJw1vPMomHQex9qj1J2nAjpump",
+      "source": "boost",
+      "entry_price": 0.0002112,
+      "peak_price": 0.0002112,
+      "trailing_active": false,
+      "entry_time": "2026-04-23T08:30:31.944308+00:00",
+      "score": 57,
       "status": "open"
     }
   ],
@@ -36,6 +41,22 @@
       "exit_price": 0.0002215,
       "exit_pct": 20.32,
       "exit_time": "2026-04-23T08:14:44.181508"
+    },
+    {
+      "symbol": "PIC",
+      "chain": "solana",
+      "address": "HyKEeQGS2eWD3QyTiEQ7v23jUPZAqE9uQM98WHRZbrrr",
+      "source": "new",
+      "entry_price": 0.0002069,
+      "entry_time": "2026-04-23T08:15:29.204464",
+      "score": 57,
+      "status": "SL",
+      "peak_price": 0.0002069,
+      "trailing_active": false,
+      "current_pct": -32.62,
+      "exit_price": 0.0001394,
+      "exit_pct": -32.62,
+      "exit_time": "2026-04-23T08:29:49.458290+00:00"
     }
   ]
 }
