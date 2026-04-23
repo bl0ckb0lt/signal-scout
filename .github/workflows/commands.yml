@@ -23,9 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install base58 PyNaCl
+          cache: 'pip'
 
       - name: Handle commands
         env:
