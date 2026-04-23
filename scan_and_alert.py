@@ -38,8 +38,24 @@ PAPER_TRADES_FILE   = "paper_trades.json"
 
 # ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
-from whales import VERIFIED_WHALES, get_whale_buys, get_whale_exits, whale_summary
-from trader import maybe_trade, check_real_exits, real_trade_summary, handle_approve, TRADE_MODE
+try:
+    from whales import VERIFIED_WHALES, get_whale_buys, get_whale_exits, whale_summary
+except Exception as _we:
+    print(f"whales import failed: {_we}")
+    VERIFIED_WHALES = {}
+    def get_whale_buys(*a, **k): return []
+    def get_whale_exits(*a, **k): return set()
+    def whale_summary(): return "⚠️ Whale module unavailable."
+
+try:
+    from trader import maybe_trade, check_real_exits, real_trade_summary, handle_approve, TRADE_MODE
+except Exception as _te:
+    print(f"trader import failed: {_te}")
+    TRADE_MODE = "paper"
+    def maybe_trade(*a, **k): pass
+    def check_real_exits(*a, **k): pass
+    def real_trade_summary(): return "⚠️ Trader module unavailable."
+    def handle_approve(*a, **k): pass
 
 SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
@@ -943,28 +959,46 @@ def main():
         dex_count   = len(enriched) - pump_count - whale_count
         open_n      = len(state.get("open", []))
 
-        # Full summary once per hour (on the top-of-hour scan), brief ping otherwise
-        if minute < 35:   # first scan of each hour window
-            top = sorted(
-                [t for t in enriched if t.get("source") not in ("pump.fun", "whale_buy")],
-                key=lambda x: x.get("price_change_h1") or 0, reverse=True
-            )[:3]
+        # Top scored candidates — these went through all filters but didn't
+        # cross the alert threshold. Shows exactly what the bot evaluated.
+        near_misses = sorted(
+            [t for t in scored if t.get("source") not in ("pump.fun", "whale_buy")],
+            key=lambda x: x.get("score", 0), reverse=True
+        )[:5]
+
+        def _miss_reason(t):
+            reasons = []
+            if t["score"] < MIN_SCORE:
+                reasons.append(f"score {t['score']}<{MIN_SCORE}")
+            if t.get("verdict") == "AVOID":
+                reasons.append("verdict=AVOID")
+            liq = t.get("liquidity_usd") or 0
+            if liq < MIN_LIQUIDITY:
+                reasons.append(f"liq ${liq:,.0f}")
+            age = t.get("pair_age_minutes")
+            if age and age > MAX_AGE_MINUTES:
+                reasons.append(f"age {age:.0f}m")
+            return ", ".join(reasons) if reasons else "rug check"
+
+        if minute < 35:   # full summary on first scan of each hour window
             top_lines = [
-                f"  • {t.get('symbol','?')} ({t.get('chain','?').upper()}) "
-                f"1h:{t.get('price_change_h1') or 0:+.0f}%"
-                for t in top
+                f"  • <b>{t.get('symbol','?')}</b> ({t.get('chain','?').upper()})  "
+                f"score {t.get('score',0)}  1h:{t.get('price_change_h1') or 0:+.0f}%  "
+                f"⚠ {_miss_reason(t)}"
+                for t in near_misses
             ]
             body = (
                 f"💓 <b>Signal Scout v5</b>  —  {now}\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                 f"DEX: {dex_count}  ·  🔥 Pump: {pump_count}  ·  🐋 Whale: {whale_count}\n"
-                f"Fresh signals: {len(fresh)}  ·  📝 Open: {open_n}\n\n"
-                f"Top movers this scan:\n" + ("\n".join(top_lines) if top_lines else "  —  quiet market")
+                f"Candidates: {len(fresh)}  scored  ·  📝 Open: {open_n}\n\n"
+                f"─── Near misses (filtered out) ─\n" +
+                ("\n".join(top_lines) if top_lines else "  —  quiet market, nothing scored")
             )
             tg_send(tg_token, tg_chat, body)
         else:
             tg_send(tg_token, tg_chat,
-                f"🔍 {now}  |  Fresh: {len(fresh)}  |  📝 Open: {open_n}  |  No new signals"
+                f"🔍 {now}  |  Candidates: {len(fresh)}  |  📝 Open: {open_n}  |  No new signals"
             )
 
     # ── Save state ─────────────────────────────────────────────────────────────

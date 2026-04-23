@@ -6,10 +6,19 @@ Only processes Telegram commands, no full scan. Fast (~5 seconds).
 """
 import os, json, subprocess, datetime, sys
 
-# Allow importing whales / trader from the same directory
-sys.path.insert(0, os.path.dirname(__file__))
-from whales import whale_summary
-from trader import real_trade_summary, handle_approve, TRADE_MODE
+# Safe imports — commands still work even if these fail
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from whales import whale_summary
+except Exception as _e:
+    def whale_summary(): return f"⚠️ Whale module unavailable: {_e}"
+
+try:
+    from trader import real_trade_summary, handle_approve, TRADE_MODE
+except Exception as _e:
+    TRADE_MODE = "paper"
+    def real_trade_summary(): return f"⚠️ Trader module unavailable: {_e}"
+    def handle_approve(sym, tok, chat): pass
 
 PAPER_TRADES_FILE = "paper_trades.json"
 STOP_LOSS_PCT     = 15.0
