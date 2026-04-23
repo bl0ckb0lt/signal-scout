@@ -215,11 +215,15 @@ def check_exits(state, tg_token, tg_chat):
 
         if pct >= TAKE_PROFIT_PCT:
             tg_send(tg_token, tg_chat,
-                f"🎯 <b>TAKE PROFIT HIT!</b>  +{pct:.1f}%\n\n"
-                f"<b>{sym}</b> ({chain.upper()})\n"
-                f"Entry ${entry_price:.8f} → Now ${now_p:.8f}\n"
-                f"📋 CA: <code>{addr}</code>\n\n"
-                f"✅ Close your position on GMGN / Photon / BullX."
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  🎯 TAKE PROFIT HIT\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"💰 <b>{sym}</b> ({chain.upper()})  <b>+{pct:.1f}%</b>\n\n"
+                f"    Entry  ${entry_price:.8f}\n"
+                f"    Now    ${now_p:.8f}\n\n"
+                f"📋 <code>{addr}</code>\n\n"
+                f"✅ <b>Close your position</b> — target reached!\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
             pos.update({"exit_price": now_p, "exit_pct": round(pct, 2),
                         "status": "TP",
@@ -228,11 +232,15 @@ def check_exits(state, tg_token, tg_chat):
 
         elif pct <= -STOP_LOSS_PCT:
             tg_send(tg_token, tg_chat,
-                f"🛑 <b>STOP LOSS HIT</b>  {pct:.1f}%\n\n"
-                f"<b>{sym}</b> ({chain.upper()})\n"
-                f"Entry ${entry_price:.8f} → Now ${now_p:.8f}\n"
-                f"📋 CA: <code>{addr}</code>\n\n"
-                f"❌ Exit now to protect capital."
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  🛑 STOP LOSS HIT\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"📉 <b>{sym}</b> ({chain.upper()})  <b>{pct:.1f}%</b>\n\n"
+                f"    Entry  ${entry_price:.8f}\n"
+                f"    Now    ${now_p:.8f}\n\n"
+                f"📋 <code>{addr}</code>\n\n"
+                f"❌ <b>Exit now</b> — protect your capital.\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
             pos.update({"exit_price": now_p, "exit_pct": round(pct, 2),
                         "status": "SL",
@@ -502,30 +510,53 @@ def buy_links(chain, addr, pair_url):
     if chain == "solana":
         links.append(f"<a href='https://photon-sol.tinyastro.io/en/lp/{addr}'>Photon</a>")
         links.append(f"<a href='https://bullx.io/terminal?chainId=1399811149&address={addr}'>BullX</a>")
+        links.append(f"<a href='https://t.me/TrojanSwapBot?start={addr}'>Trojan</a>")
     elif chain in ("ethereum", "bsc", "base", "arbitrum"):
         links.append(f"<a href='https://dextools.io/app/en/{chain}/pair-explorer/{addr}'>DEXTools</a>")
+        links.append(f"<a href='https://app.uniswap.org/explore/tokens/{chain}/{addr}'>Uniswap</a>")
     if pair_url:
-        links.append(f"<a href='{pair_url}'>Chart</a>")
-    return "  |  ".join(links)
+        links.append(f"<a href='{pair_url}'>📊 Chart</a>")
+    return " · ".join(links)
+
+
+# ── Score bar helper ──────────────────────────────────────────────────────────
+
+def score_bar(sc):
+    filled = round(sc / 10)
+    empty  = 10 - filled
+    return "█" * filled + "░" * empty
+
+
+def momentum_arrow(pct):
+    if pct is None:    return "➖ N/A"
+    if pct >= 50:      return f"🚀 +{pct:.1f}%"
+    if pct >= 20:      return f"📈 +{pct:.1f}%"
+    if pct >= 5:       return f"↗️ +{pct:.1f}%"
+    if pct >= 0:       return f"➡️ +{pct:.1f}%"
+    if pct >= -10:     return f"↘️ {pct:.1f}%"
+    return f"📉 {pct:.1f}%"
 
 
 # ── Format alert ──────────────────────────────────────────────────────────────
 
 def format_alert(t, rc):
     verdict = t.get("verdict", "?")
-    emoji   = {"BUY": "🟢", "WATCH": "🟡", "AVOID": "🔴"}.get(verdict, "⚪")
     sym     = t.get("symbol", "?")
+    name    = t.get("name", "")
     chain   = t.get("chain", "?")
     addr    = t.get("address", "")
     sc      = t.get("score", 0)
     price   = t.get("price_usd")
     liq     = t.get("liquidity_usd") or 0
     vol1    = t.get("volume_h1") or 0
+    vol24   = t.get("volume_h24") or 0
+    pc5     = t.get("price_change_m5")
     pc1     = t.get("price_change_h1")
+    pc6     = t.get("price_change_h6")
     pc24    = t.get("price_change_h24")
     buys    = t.get("buys_h1") or 0
     sells   = t.get("sells_h1") or 0
-    bsr     = round(buys / sells, 2) if sells else 0
+    bsr     = round(buys / sells, 2) if sells else buys
     age     = t.get("pair_age_minutes")
     url     = t.get("pair_url", "")
     src     = t.get("source", "")
@@ -533,39 +564,88 @@ def format_alert(t, rc):
     prog    = t.get("pump_progress")
     fdv     = t.get("fdv")
 
-    age_str   = f"{age:.0f}m old" if age is not None else "age unknown"
-    price_str = f"${float(price):.8f}" if price else "N/A"
-    pc1_str   = f"{pc1:+.1f}%" if pc1 is not None else "N/A"
-    pc24_str  = f"{pc24:+.1f}%" if pc24 is not None else "N/A"
-    rug_str   = ("✅ Safe" if rc.get("safe")
-                 else ("🚨 HONEYPOT" if rc.get("honeypot")
-                       else f"⚠️ {rc.get('detail', '?')}"))
-    fdv_str   = f"${fdv:,.0f}" if fdv else "N/A"
-    src_label = ("🔥 PUMP.FUN pre-DEX" if src == "pump.fun"
-                 else "🚀 Boosted" if src == "boost" else "🆕 New")
+    # ── Labels
+    verdict_badge = {"BUY": "🟢 STRONG BUY", "WATCH": "🟡 WATCH", "AVOID": "🔴 AVOID"}.get(verdict, "⚪")
+    chain_upper   = chain.upper()
+    age_str       = f"{int(age)}m" if age is not None else "?"
+    price_str     = f"${float(price):.8f}" if price else "—"
+    fdv_str       = f"${fdv/1e6:.2f}M" if fdv and fdv >= 1e6 else (f"${fdv:,.0f}" if fdv else "—")
+    liq_str       = f"${liq/1e3:.1f}K" if liq < 1e6 else f"${liq/1e6:.2f}M"
+    vol1_str      = f"${vol1/1e3:.1f}K" if vol1 < 1e6 else f"${vol1/1e6:.2f}M"
+    vol24_str     = f"${vol24/1e3:.1f}K" if vol24 < 1e6 else f"${vol24/1e6:.2f}M"
+    vlr           = round(vol24 / liq, 1) if liq > 0 else 0
+    rug_icon      = "✅" if rc.get("safe") else ("🚨" if rc.get("honeypot") else "⚠️")
+    rug_label     = "Clean" if rc.get("safe") else ("HONEYPOT" if rc.get("honeypot") else rc.get("detail","?"))
+    src_badge     = "🔥 PUMP.FUN" if src == "pump.fun" else ("⚡ Boosted" if src == "boost" else "🆕 New Profile")
+    bar           = score_bar(sc)
 
     lines = [
-        f"🆕 <b>EARLY SIGNAL — {age_str}</b>",
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━",
+        f"  {verdict_badge}  ·  <b>{sym}</b>",
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━",
         f"",
-        f"{emoji} <b>{sym}</b> ({chain.upper()}) — Score <b>{sc}/100</b> {verdict}",
-        f"",
-        f"💰 {price_str}  |  💧 ${liq:,.0f} liq  |  FDV {fdv_str}",
-        f"📈 Vol 1h: ${vol1:,.0f}",
-        f"1h: {pc1_str}  |  24h: {pc24_str}",
-        f"Buys/Sells: {buys}/{sells} (BSR {bsr})",
+        f"🏷  <b>{sym}</b>",
     ]
-    if prog is not None:
-        bar = "█" * int(prog / 10) + "░" * (10 - int(prog / 10))
-        lines.append(f"🎯 Bonding curve: [{bar}] {prog:.0f}%")
-    if smart:
-        lines.append(f"🐋 <b>SMART MONEY: {', '.join(smart)}</b>")
+    if name and name != sym:
+        lines.append(f"    <i>{name}</i>")
+    lines += [
+        f"⛓  {chain_upper}  ·  {src_badge}",
+        f"⏱  Age: <b>{age_str}</b>  ·  Score: <b>{sc}/100</b>",
+        f"    [{bar}]",
+        f"",
+        f"─── 💰 PRICE ───────────────",
+        f"    {price_str}",
+        f"    FDV {fdv_str}  ·  Liq {liq_str}",
+        f"",
+        f"─── 📈 MOMENTUM ────────────",
+        f"    5m   {momentum_arrow(pc5)}",
+        f"    1h   {momentum_arrow(pc1)}",
+        f"    6h   {momentum_arrow(pc6)}",
+        f"    24h  {momentum_arrow(pc24)}",
+        f"",
+        f"─── 📊 VOLUME & FLOW ───────",
+        f"    1h  {vol1_str}  ·  24h {vol24_str}",
+        f"    Vol/Liq ratio: <b>{vlr}×</b>",
+        f"    Buys: <b>{buys}</b>  ·  Sells: <b>{sells}</b>  ·  BSR <b>{bsr}</b>",
+    ]
 
-    lines.append(f"📡 {src_label}  |  🛡 {rug_str}")
+    if prog is not None:
+        prog_bar = "█" * int(prog / 10) + "░" * (10 - int(prog / 10))
+        lines += [
+            f"",
+            f"─── 🎯 BONDING CURVE ───────",
+            f"    [{prog_bar}] {prog:.0f}%  to graduation",
+        ]
+
+    if smart:
+        lines += [
+            f"",
+            f"─── 🐋 SMART MONEY ─────────",
+        ]
+        for w in smart:
+            lines.append(f"    ✦ {w}")
+
+    lines += [
+        f"",
+        f"─── 🛡 SAFETY ──────────────",
+        f"    {rug_icon} {rug_label}  ·  {rc.get('detail','')}",
+    ]
 
     if PAPER_MODE:
-        lines.append(f"📝 Paper trade logged  (TP +{TAKE_PROFIT_PCT:.0f}% / SL -{STOP_LOSS_PCT:.0f}%)")
+        lines += [
+            f"",
+            f"─── 📝 PAPER TRADE ─────────",
+            f"    Logged at {price_str}",
+            f"    🎯 TP +{TAKE_PROFIT_PCT:.0f}%  ·  🛑 SL -{STOP_LOSS_PCT:.0f}%",
+        ]
 
-    lines.append(f"\n📋 <b>CA:</b> <code>{addr}</code>")
+    lines += [
+        f"",
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━",
+        f"📋 <code>{addr}</code>",
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━",
+    ]
+
     links = buy_links(chain, addr, url)
     if links:
         lines.append(f"🛒 {links}")
