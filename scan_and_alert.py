@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Signal Scout v3 — GitHub Actions runner.
-+ Paper trading mode  (PAPER_MODE = True)
-+ 20 % take-profit / 15 % stop-loss watcher
-+ Trade logger  (paper_trades.json committed back to repo each run)
-+ Telegram bot commands  (/status /trades /pause /resume)
-+ Token header image alerts
-+ CA copy button + chain-aware buy links
+Signal Scout v4 — GitHub Actions runner.
++ Trailing stop loss  (locks in gains as price rises)
++ Hard take-profit cap at +60 %
++ Fixed stop loss before trailing activates
++ Paper trading, trade logger, bot commands, token images
 Runs every 5 min via GitHub Actions cron. No server needed.
 """
 
@@ -28,11 +26,13 @@ PUMP_MIN_TRADES      = 8
 
 # ── Paper trading ─────────────────────────────────────────────────────────────
 
-PAPER_MODE        = True    # False = real alerts only, no position tracking
-TAKE_PROFIT_PCT   = 20.0    # close position at +20 %
-STOP_LOSS_PCT     = 15.0    # close position at -15 %
-MAX_OPEN_TRADES   = 10      # don't track more than this many at once
-PAPER_TRADES_FILE = "paper_trades.json"
+PAPER_MODE          = True   # False = alerts only, no position tracking
+STOP_LOSS_PCT       = 15.0   # fixed SL before trailing activates  (-15 %)
+TRAIL_ACTIVATE_PCT  = 15.0   # start trailing once up this much     (+15 %)
+TRAIL_PCT           = 10.0   # trail this far below the peak        (10 %)
+HARD_TP_PCT         = 60.0   # hard exit — never let a winner fully reverse (+60 %)
+MAX_OPEN_TRADES     = 10     # max positions tracked at once
+PAPER_TRADES_FILE   = "paper_trades.json"
 
 # ── Smart money wallets ───────────────────────────────────────────────────────
 
@@ -123,40 +123,81 @@ def poll_commands(tg_token, tg_chat, state):
 
         elif text in ("/status", "/status@signalscoutbot"):
             open_n   = len(state.get("open", []))
-            closed_n = len(state.get("closed", []))
-            wins  = sum(1 for t in state.get("closed", []) if t.get("status") == "TP")
-            losses= sum(1 for t in state.get("closed", []) if t.get("status") == "SL")
+            closed   = state.get("closed", [])
+            closed_n = len(closed)
+            wins     = sum(1 for t in closed if t.get("status") in ("TP", "TSL", "HARD_TP"))
+            losses   = sum(1 for t in closed if t.get("status") == "SL")
+            avg_win  = (sum(t.get("exit_pct", 0) for t in closed if t.get("exit_pct", 0) > 0)
+                        / max(wins, 1))
+            avg_loss = (sum(abs(t.get("exit_pct", 0)) for t in closed if t.get("exit_pct", 0) < 0)
+                        / max(losses, 1))
+            trailing = sum(1 for t in state.get("open", []) if t.get("trailing_active"))
             tg_send(tg_token, tg_chat,
-                f"📊 <b>Signal Scout Status</b>\n"
-                f"Mode: {'⏸ Paused' if state.get('paused') else '🟢 Active'}\n"
-                f"Open positions: {open_n}\n"
-                f"Closed: {closed_n} (✅ {wins} TP / ❌ {losses} SL)\n"
-                f"Win rate: {round(wins/max(closed_n,1)*100)}%"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  📊 SIGNAL SCOUT STATUS\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"Mode: {'⏸ Paused' if state.get('paused') else '🟢 Active'}\n\n"
+                f"─── Open Positions ─────────\n"
+                f"  Total: {open_n}  ·  🔒 Trailing: {trailing}\n\n"
+                f"─── Closed Trades ──────────\n"
+                f"  ✅ Winners: {wins}  ·  ❌ Losers: {losses}\n"
+                f"  Win rate:  {round(wins/max(closed_n,1)*100)}%\n"
+                f"  Avg win:   +{avg_win:.1f}%\n"
+                f"  Avg loss:  -{avg_loss:.1f}%\n\n"
+                f"─── Risk Settings ──────────\n"
+                f"  Fixed SL:      -{STOP_LOSS_PCT:.0f}%\n"
+                f"  Trail starts:  +{TRAIL_ACTIVATE_PCT:.0f}%\n"
+                f"  Trail gap:     {TRAIL_PCT:.0f}% from peak\n"
+                f"  Hard TP:       +{HARD_TP_PCT:.0f}%\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 
         elif text in ("/trades", "/trades@signalscoutbot"):
             open_pos = state.get("open", [])
             if not open_pos:
-                tg_send(tg_token, tg_chat, "📋 No open paper trades right now.")
+                tg_send(tg_token, tg_chat,
+                    "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                    "  📋 OPEN POSITIONS\n"
+                    "━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                    "No open paper trades right now."
+                )
             else:
-                lines = ["📋 <b>Open Paper Trades</b>\n"]
+                lines = [
+                    "━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    f"  📋 OPEN POSITIONS ({len(open_pos)})",
+                    "━━━━━━━━━━━━━━━━━━━━━━━━━",
+                ]
                 for p in open_pos:
+                    entry   = p.get("entry_price") or 0
+                    peak    = p.get("peak_price") or entry
+                    pct_now = p.get("current_pct", 0)
+                    trail   = peak * (1 - TRAIL_PCT / 100) if p.get("trailing_active") else None
+                    t_icon  = "🔒" if p.get("trailing_active") else "⏳"
                     lines.append(
-                        f"• <b>{p['symbol']}</b> ({p['chain'].upper()})\n"
-                        f"  Entry: ${p['entry_price']:.8f}  |  Score: {p['score']}\n"
-                        f"  <code>{p['address']}</code>"
+                        f"\n{t_icon} <b>{p['symbol']}</b> ({p['chain'].upper()})\n"
+                        f"  Entry  ${entry:.8f}\n"
+                        f"  Now    {pct_now:+.1f}%  ·  Score {p['score']}\n"
+                        + (f"  Trail SL  ${trail:.8f}\n" if trail else "")
+                        + f"  <code>{p['address']}</code>"
                     )
+                lines.append("\n━━━━━━━━━━━━━━━━━━━━━━━━━")
                 tg_send(tg_token, tg_chat, "\n".join(lines))
 
         elif text in ("/help", "/start"):
             tg_send(tg_token, tg_chat,
-                "🤖 <b>Signal Scout Commands</b>\n\n"
-                "/status — bot health + win rate\n"
-                "/trades — open paper positions\n"
-                "/pause  — stop sending alerts\n"
-                "/resume — restart alerts\n\n"
-                "Alerts fire automatically every 5 min.\n"
-                f"TP: +{TAKE_PROFIT_PCT:.0f}%  |  SL: -{STOP_LOSS_PCT:.0f}%"
+                "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                "  🤖 SIGNAL SCOUT v4\n"
+                "━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                "/status  — P&L, win rate, risk settings\n"
+                "/trades  — open positions + trail stops\n"
+                "/pause   — stop sending alerts\n"
+                "/resume  — restart scanning\n\n"
+                "─── Risk Management ────────\n"
+                f"  Fixed SL:     -{STOP_LOSS_PCT:.0f}%\n"
+                f"  Trail starts: +{TRAIL_ACTIVATE_PCT:.0f}%\n"
+                f"  Trail gap:     {TRAIL_PCT:.0f}% from peak\n"
+                f"  Hard TP:      +{HARD_TP_PCT:.0f}%\n"
+                "━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 
     return state
@@ -185,67 +226,132 @@ def save_state(state):
         subprocess.run(["git", "push"], capture_output=True)
 
 
-def check_exits(state, tg_token, tg_chat):
-    """Check every open position for TP / SL and alert."""
-    still_open = []
-    for pos in state.get("open", []):
-        addr         = pos["address"]
-        chain        = pos["chain"]
-        src          = pos.get("source", "")
-        entry_price  = pos.get("entry_price") or 0
+def _close_pos(pos, now_p, status, state):
+    """Move position from open → closed with exit data."""
+    entry = pos.get("entry_price") or 1
+    pct   = round((now_p - entry) / entry * 100, 2)
+    pos.update({
+        "exit_price": now_p,
+        "exit_pct":   pct,
+        "status":     status,
+        "exit_time":  datetime.datetime.now(datetime.UTC).isoformat(),
+    })
+    state.setdefault("closed", []).append(pos)
 
-        if not entry_price or chain == "xlayer" or src == "pump.fun":
+
+def check_exits(state, tg_token, tg_chat):
+    """
+    Trailing stop engine — runs every 5 min scan.
+
+    Flow per position:
+      ① Price rises → update peak_price
+      ② Once up TRAIL_ACTIVATE_PCT → switch to trailing mode (notify once)
+      ③ While trailing: stop = peak × (1 - TRAIL_PCT/100)
+         If price drops below stop → exit (TSL hit)
+      ④ Hard cap: if up HARD_TP_PCT → exit immediately (hard TP)
+      ⑤ Before trailing activates: fixed SL at -STOP_LOSS_PCT
+    """
+    still_open = []
+
+    for pos in state.get("open", []):
+        addr        = pos["address"]
+        chain       = pos["chain"]
+        src         = pos.get("source", "")
+        entry       = pos.get("entry_price") or 0
+        sym         = pos["symbol"]
+
+        # Skip pump.fun / xlayer (no reliable price feed yet)
+        if not entry or chain == "xlayer" or src == "pump.fun":
             still_open.append(pos)
             continue
 
+        # ── Current price ──────────────────────────────────────────────────
         data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
         pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
         if not pairs:
             still_open.append(pos)
             continue
-
         p     = max(pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
         now_p = float(p.get("priceUsd") or 0)
         if not now_p:
             still_open.append(pos)
             continue
 
-        pct = (now_p - entry_price) / entry_price * 100
-        sym = pos["symbol"]
+        pct_entry = (now_p - entry) / entry * 100          # % from entry
+        peak      = max(pos.get("peak_price") or entry, now_p)  # all-time peak
+        pct_peak  = (now_p - peak) / peak * 100            # % from peak (≤ 0)
+        trail_stop = peak * (1 - TRAIL_PCT / 100)
+        was_trailing = pos.get("trailing_active", False)
+        trailing_now = pct_entry >= TRAIL_ACTIVATE_PCT
 
-        if pct >= TAKE_PROFIT_PCT:
+        # Update peak
+        pos["peak_price"]      = peak
+        pos["trailing_active"] = trailing_now
+        pos["current_pct"]     = round(pct_entry, 2)
+
+        # ── ① Notify when trailing first kicks in ─────────────────────────
+        if trailing_now and not was_trailing:
             tg_send(tg_token, tg_chat,
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                f"  🎯 TAKE PROFIT HIT\n"
+                f"  🔒 TRAILING STOP LOCKED\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                f"💰 <b>{sym}</b> ({chain.upper()})  <b>+{pct:.1f}%</b>\n\n"
-                f"    Entry  ${entry_price:.8f}\n"
-                f"    Now    ${now_p:.8f}\n\n"
-                f"📋 <code>{addr}</code>\n\n"
-                f"✅ <b>Close your position</b> — target reached!\n"
+                f"<b>{sym}</b> ({chain.upper()})  up <b>+{pct_entry:.1f}%</b>\n\n"
+                f"    Entry     ${entry:.8f}\n"
+                f"    Peak      ${peak:.8f}\n"
+                f"    Trail SL  ${trail_stop:.8f}  (-{TRAIL_PCT:.0f}% from peak)\n\n"
+                f"🔒 Stop rises automatically as price climbs.\n"
+                f"📋 <code>{addr}</code>\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
-            pos.update({"exit_price": now_p, "exit_pct": round(pct, 2),
-                        "status": "TP",
-                        "exit_time": datetime.datetime.utcnow().isoformat()})
-            state.setdefault("closed", []).append(pos)
 
-        elif pct <= -STOP_LOSS_PCT:
+        # ── ② Hard TP ─────────────────────────────────────────────────────
+        if pct_entry >= HARD_TP_PCT:
+            tg_send(tg_token, tg_chat,
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  🚀 HARD TAKE PROFIT  +{pct_entry:.1f}%\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"<b>{sym}</b> ({chain.upper()})\n\n"
+                f"    Entry  ${entry:.8f}\n"
+                f"    Now    ${now_p:.8f}  🔥\n"
+                f"    Peak   ${peak:.8f}\n\n"
+                f"✅ <b>Close your position</b> — massive win!\n"
+                f"📋 <code>{addr}</code>\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+            )
+            _close_pos(pos, now_p, "HARD_TP", state)
+
+        # ── ③ Trailing stop hit ───────────────────────────────────────────
+        elif trailing_now and now_p <= trail_stop:
+            gain_locked = round((trail_stop - entry) / entry * 100, 1)
+            tg_send(tg_token, tg_chat,
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  🎯 TRAILING STOP HIT\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"<b>{sym}</b> ({chain.upper()})\n\n"
+                f"    Entry    ${entry:.8f}\n"
+                f"    Peak     ${peak:.8f}  (+{(peak-entry)/entry*100:.1f}%)\n"
+                f"    Exit     ${now_p:.8f}\n"
+                f"    Locked   <b>+{gain_locked:.1f}%</b> profit ✅\n\n"
+                f"🔒 Trailing stop protected your gains.\n"
+                f"📋 <code>{addr}</code>\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+            )
+            _close_pos(pos, now_p, "TSL", state)
+
+        # ── ④ Fixed SL (before trailing activates) ────────────────────────
+        elif not trailing_now and pct_entry <= -STOP_LOSS_PCT:
             tg_send(tg_token, tg_chat,
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                 f"  🛑 STOP LOSS HIT\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                f"📉 <b>{sym}</b> ({chain.upper()})  <b>{pct:.1f}%</b>\n\n"
-                f"    Entry  ${entry_price:.8f}\n"
+                f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>\n\n"
+                f"    Entry  ${entry:.8f}\n"
                 f"    Now    ${now_p:.8f}\n\n"
-                f"📋 <code>{addr}</code>\n\n"
                 f"❌ <b>Exit now</b> — protect your capital.\n"
+                f"📋 <code>{addr}</code>\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
-            pos.update({"exit_price": now_p, "exit_pct": round(pct, 2),
-                        "status": "SL",
-                        "exit_time": datetime.datetime.utcnow().isoformat()})
-            state.setdefault("closed", []).append(pos)
+            _close_pos(pos, now_p, "SL", state)
 
         else:
             still_open.append(pos)
@@ -257,23 +363,24 @@ def check_exits(state, tg_token, tg_chat):
 
 
 def log_paper_trade(state, t):
-    """Add a new paper trade position when a BUY signal fires."""
+    """Add a new paper trade when a BUY signal fires."""
     if len(state.get("open", [])) >= MAX_OPEN_TRADES:
         return state
-    # Don't double-add same token
     if any(p["address"] == t["address"] for p in state.get("open", [])):
-        return state
+        return state  # already tracking
 
     price = t.get("price_usd")
     state.setdefault("open", []).append({
-        "symbol":      t.get("symbol", "?"),
-        "chain":       t.get("chain", "?"),
-        "address":     t.get("address", ""),
-        "source":      t.get("source", ""),
-        "entry_price": float(price) if price else None,
-        "entry_time":  datetime.datetime.utcnow().isoformat(),
-        "score":       t.get("score", 0),
-        "status":      "open",
+        "symbol":         t.get("symbol", "?"),
+        "chain":          t.get("chain", "?"),
+        "address":        t.get("address", ""),
+        "source":         t.get("source", ""),
+        "entry_price":    float(price) if price else None,
+        "peak_price":     float(price) if price else None,
+        "trailing_active": False,
+        "entry_time":     datetime.datetime.now(datetime.UTC).isoformat(),
+        "score":          t.get("score", 0),
+        "status":         "open",
     })
     return state
 
@@ -635,8 +742,8 @@ def format_alert(t, rc):
         lines += [
             f"",
             f"─── 📝 PAPER TRADE ─────────",
-            f"    Logged at {price_str}",
-            f"    🎯 TP +{TAKE_PROFIT_PCT:.0f}%  ·  🛑 SL -{STOP_LOSS_PCT:.0f}%",
+            f"    Entry  {price_str}",
+            f"    🛑 SL -{STOP_LOSS_PCT:.0f}%  →  🔒 Trail +{TRAIL_ACTIVATE_PCT:.0f}% (-{TRAIL_PCT:.0f}% peak)  →  🚀 TP +{HARD_TP_PCT:.0f}%",
         ]
 
     lines += [
