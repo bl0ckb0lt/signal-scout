@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """
-Signal Scout v4 — GitHub Actions runner.
+Signal Scout v5 — GitHub Actions runner.
 + Trailing stop loss  (locks in gains as price rises)
-+ Hard take-profit cap at +60 %
++ Hard take-profit cap
 + Fixed stop loss before trailing activates
 + Paper trading, trade logger, bot commands, token images
++ Whale tracking (Helius API) with 80%+ win-rate wallets
++ Jupiter auto-trading (paper / semi / auto mode)
 Runs every 5 min via GitHub Actions cron. No server needed.
 """
 
-import os, json, time, datetime, subprocess, hmac, hashlib, base64
+import os, json, time, datetime, subprocess
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -34,16 +36,12 @@ HARD_TP_PCT         = 60.0   # hard exit — never let a winner fully reverse (+
 MAX_OPEN_TRADES     = 10     # max positions tracked at once
 PAPER_TRADES_FILE   = "paper_trades.json"
 
-# ── Smart money wallets ───────────────────────────────────────────────────────
+# ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
-SMART_WALLETS = {
-    "GKvqsuNcnwWqPzzuhLmGi4jx7PNyls4dpwfPkxhh4e2N": "Alpha Whale",
-    "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM": "Degen King",
-    "DfXygSm4jCyNCybVYYK6DwvWqjKee8pbDmJGcLWNDXjh": "Meme Sniper",
-    "E8cU1muzBbhsAFpTL8HoGEWRCdWFzPBDNbNMgEgdmKHH": "Sol Whale",
-    "5tzFkiKscXHK5ZXCGbGuygQhjouGYXfZMAAH5dJMxGr":  "Smart Trader A",
-    "7PGNXydRPtybHiMjkNBFGTVZMZGrTKaTi8RQKB9hjEN":  "Smart Trader B",
-}
+from whales import VERIFIED_WHALES, get_whale_buys, get_whale_exits, whale_summary
+from trader import maybe_trade, check_real_exits, real_trade_summary, handle_approve, TRADE_MODE
+
+SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -183,20 +181,34 @@ def poll_commands(tg_token, tg_chat, state):
                 lines.append("\n━━━━━━━━━━━━━━━━━━━━━━━━━")
                 tg_send(tg_token, tg_chat, "\n".join(lines))
 
+        elif text in ("/whales", "/whales@signalscoutbot"):
+            tg_send(tg_token, tg_chat, whale_summary())
+
+        elif text in ("/real", "/real@signalscoutbot"):
+            tg_send(tg_token, tg_chat, real_trade_summary())
+
+        elif text.startswith("/approve "):
+            sym = text.split(" ", 1)[1].strip().upper()
+            handle_approve(sym, tg_token, tg_chat)
+
         elif text in ("/help", "/start"):
             tg_send(tg_token, tg_chat,
                 "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                "  🤖 SIGNAL SCOUT v4\n"
+                "  🤖 SIGNAL SCOUT v5\n"
                 "━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                "/status  — P&L, win rate, risk settings\n"
-                "/trades  — open positions + trail stops\n"
-                "/pause   — stop sending alerts\n"
-                "/resume  — restart scanning\n\n"
+                "/status   — P&L, win rate, risk settings\n"
+                "/trades   — open positions + trail stops\n"
+                "/whales   — tracked whale wallets\n"
+                "/real     — real trade P&L (if enabled)\n"
+                "/pause    — stop sending alerts\n"
+                "/resume   — restart scanning\n\n"
                 "─── Risk Management ────────\n"
                 f"  Fixed SL:     -{STOP_LOSS_PCT:.0f}%\n"
                 f"  Trail starts: +{TRAIL_ACTIVATE_PCT:.0f}%\n"
                 f"  Trail gap:     {TRAIL_PCT:.0f}% from peak\n"
-                f"  Hard TP:      +{HARD_TP_PCT:.0f}%\n"
+                f"  Hard TP:      +{HARD_TP_PCT:.0f}%\n\n"
+                f"─── Trade Mode ─────────────\n"
+                f"  {TRADE_MODE.upper()}\n"
                 "━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 
@@ -399,18 +411,6 @@ def log_paper_trade(state, t):
     return state
 
 
-# ── OKX auth ──────────────────────────────────────────────────────────────────
-
-def okx_headers(path, key, secret, passphrase):
-    ts  = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%dT%H:%M:%S.000Z')
-    sig = base64.b64encode(
-        hmac.new(secret.encode(), (ts + "GET" + path).encode(), hashlib.sha256).digest()
-    ).decode()
-    return {
-        "OK-ACCESS-KEY": key, "OK-ACCESS-SIGN": sig,
-        "OK-ACCESS-TIMESTAMP": ts, "OK-ACCESS-PASSPHRASE": passphrase,
-        "Content-Type": "application/json",
-    }
 
 
 # ── Pump.fun ──────────────────────────────────────────────────────────────────
@@ -468,10 +468,16 @@ def fetch_pump_tokens():
     return tokens
 
 
-# ── DexScreener + OKX fetch ───────────────────────────────────────────────────
+# ── DexScreener fetch ─────────────────────────────────────────────────────────
 
-def fetch_tokens(okx_key, okx_secret, okx_pass):
+def fetch_tokens():
+    """
+    Pull candidates from DexScreener boosted tokens + new token profiles.
+    OKX X Layer removed — DexScreener already covers those chains.
+    """
     tokens = {}
+
+    # ① Boosted (paid promotions — teams that push here tend to have liquidity)
     boosted = curl("https://api.dexscreener.com/token-boosts/top/v1") or []
     for t in boosted:
         k = (t.get("chainId", ""), t.get("tokenAddress", ""))
@@ -480,6 +486,7 @@ def fetch_tokens(okx_key, okx_secret, okx_pass):
                          "description": t.get("description", ""),
                          "icon": t.get("icon", "") or t.get("header", "")}
 
+    # ② Freshest token profiles (new listings)
     profiles = curl("https://api.dexscreener.com/token-profiles/latest/v1") or []
     for t in profiles:
         k = (t.get("chainId", ""), t.get("tokenAddress", ""))
@@ -488,30 +495,12 @@ def fetch_tokens(okx_key, okx_secret, okx_pass):
                          "description": t.get("description", ""),
                          "icon": t.get("icon", "") or t.get("header", "")}
 
-    path = "/api/v6/dex/aggregator/all-tokens?chainIndex=196"
-    h    = okx_headers(path, okx_key, okx_secret, okx_pass)
-    xl   = (curl("https://web3.okx.com" + path, h) or {}).get("data", [])
-    for t in xl[:20]:
-        addr = t.get("tokenContractAddress", "")
-        if addr and addr != "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE":
-            k = ("xlayer", addr)
-            tokens[k] = {"chain": "xlayer", "address": addr, "source": "xlayer",
-                         "symbol": t.get("tokenSymbol", ""), "name": t.get("tokenName", ""),
-                         "description": "", "icon": t.get("tokenLogoUrl", "")}
     return list(tokens.values())
 
 
 def enrich(token):
     chain = token["chain"]
     addr  = token["address"]
-    if chain == "xlayer":
-        return {**token, "pair_age_minutes": None, "liquidity_usd": 0,
-                "volume_h1": None, "price_change_h1": None,
-                "buys_h1": None, "sells_h1": None, "price_usd": None,
-                "volume_h24": None, "price_change_h24": None,
-                "fdv": None, "pair_url": None, "dex_id": "okx_xlayer",
-                "symbol": token.get("symbol", "?"), "name": token.get("name", "?"),
-                "smart_money": [], "pump_progress": None}
 
     data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
     pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
@@ -585,9 +574,13 @@ def score(t):
     elif liq > 20000:s += 6
     elif liq > 5000: s += 3
 
-    if src == "boost":    s += 8
-    if src == "pump.fun": s += 10
-    if smart:             s += 12
+    if src == "boost":       s += 8
+    if src == "pump.fun":    s += 10
+    if src == "whale_buy":   s += 18   # direct whale buy — high confidence
+    if smart:                s += 12
+    # Extra boost if whale win-rate is very high
+    wr = t.get("whale_win_rate", 0)
+    if wr >= 0.85:           s += 5
     if age is not None and age < 60:    s += 7
     elif age is not None and age < 180: s += 3
     if prog is not None and 20 <= prog <= 70: s += 5
@@ -738,13 +731,23 @@ def format_alert(t, rc):
             f"    [{prog_bar}] {prog:.0f}%  to graduation",
         ]
 
-    if smart:
+    if smart or t.get("whale_label"):
         lines += [
             f"",
-            f"─── 🐋 SMART MONEY ─────────",
+            f"─── 🐋 WHALE SIGNAL ────────",
         ]
+        whale_label = t.get("whale_label")
+        whale_wr    = t.get("whale_win_rate")
+        whale_exit  = t.get("whale_exit_pct")
+        whale_tp    = t.get("whale_exit_tp")
+        if whale_label:
+            wr_str = f"  WR {whale_wr*100:.0f}%" if whale_wr else ""
+            lines.append(f"    🎯 <b>{whale_label}</b>{wr_str}")
+            if whale_exit:
+                lines.append(f"    Whale exits ~+{whale_exit}%  →  We exit ~+{whale_tp}%")
         for w in smart:
-            lines.append(f"    ✦ {w}")
+            if w != whale_label:
+                lines.append(f"    ✦ {w}")
 
     lines += [
         f"",
@@ -777,14 +780,12 @@ def format_alert(t, rc):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    tg_token = os.environ["TELEGRAM_BOT_TOKEN"]
-    tg_chat  = os.environ["TELEGRAM_CHAT_ID"]
-    okx_key  = os.environ["OKX_API_KEY"]
-    okx_sec  = os.environ["OKX_SECRET_KEY"]
-    okx_pass = os.environ["OKX_PASSPHRASE"]
+    tg_token   = os.environ["TELEGRAM_BOT_TOKEN"]
+    tg_chat    = os.environ["TELEGRAM_CHAT_ID"]
+    helius_key = os.environ.get("HELIUS_API_KEY", "")   # optional — enables whale scanning
 
     now = datetime.datetime.utcnow().strftime("%H:%M UTC")
-    print(f"[{now}] Signal Scout v3 scan starting...")
+    print(f"[{now}] Signal Scout v5 scan starting... (mode={TRADE_MODE})")
 
     # ── Load state + poll commands ─────────────────────────────────────────────
     state = load_state()
@@ -795,13 +796,43 @@ def main():
         save_state(state)
         return
 
-    # ── Check open positions for TP / SL ──────────────────────────────────────
+    # ── Check paper positions for TP / SL ─────────────────────────────────────
     if state.get("open"):
-        print(f"  Checking {len(state['open'])} open positions...")
+        print(f"  Checking {len(state['open'])} paper positions...")
         state = check_exits(state, tg_token, tg_chat)
 
-    # ── Fetch ──────────────────────────────────────────────────────────────────
-    raw = fetch_tokens(okx_key, okx_sec, okx_pass)
+    # ── Check real positions for TP / SL ──────────────────────────────────────
+    if TRADE_MODE != "paper":
+        check_real_exits(tg_token, tg_chat)
+
+    # ── Whale buy scanner (Helius) ─────────────────────────────────────────────
+    whale_signals = []
+    if helius_key:
+        print("  Scanning whale wallets...")
+        whale_signals = get_whale_buys(helius_key, lookback_minutes=15)
+        print(f"  Whale signals: {len(whale_signals)}")
+
+    # ── Whale exit check for open positions ───────────────────────────────────
+    if helius_key and state.get("open"):
+        open_mints = {p["address"] for p in state["open"] if p.get("chain") == "solana"}
+        if open_mints:
+            selling = get_whale_exits(helius_key, open_mints, lookback_minutes=10)
+            for pos in state.get("open", []):
+                if pos["address"] in selling:
+                    print(f"  🐋 Whale exiting {pos['symbol']} — sending alert")
+                    tg_send(tg_token, tg_chat,
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                        f"  🚨 WHALE SELLING ALERT\n"
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                        f"A tracked whale is <b>SELLING</b> <b>{pos['symbol']}</b>!\n\n"
+                        f"  Consider closing your position now.\n"
+                        f"  They typically exit at their target — front-run them.\n\n"
+                        f"📋 <code>{pos['address']}</code>\n"
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+                    )
+
+    # ── Fetch DEX candidates ───────────────────────────────────────────────────
+    raw = fetch_tokens()
     print(f"  DEX candidates: {len(raw)}")
 
     pump_tokens = fetch_pump_tokens()
@@ -818,17 +849,46 @@ def main():
             print(f"  enrich error {t.get('address','?')[:10]}: {ex}")
 
     enriched.extend(pump_tokens)
-    print(f"  Total enriched: {len(enriched)}")
+
+    # ── Enrich whale signals (fetch DexScreener data if available) ────────────
+    enriched_whale = []
+    for w in whale_signals:
+        try:
+            e = enrich(w)
+            if e:
+                # Preserve whale-specific fields
+                e["whale_label"]    = w.get("whale_label")
+                e["whale_win_rate"] = w.get("whale_win_rate")
+                e["whale_exit_pct"] = w.get("whale_exit_pct")
+                e["whale_exit_tp"]  = w.get("whale_exit_tp")
+                e["source"]         = "whale_buy"
+                e["smart_money"]    = w.get("smart_money", [])
+                enriched_whale.append(e)
+            else:
+                enriched_whale.append(w)   # use raw data if DexScreener has nothing yet
+            time.sleep(0.05)
+        except Exception as ex:
+            enriched_whale.append(w)       # keep whale signal even without DEX data
+
+    enriched.extend(enriched_whale)
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale)")
 
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
+    seen_addrs = set()
     for t in enriched:
+        addr  = t.get("address", "")
         age   = t.get("pair_age_minutes") or 9999
         liq   = t.get("liquidity_usd") or 0
         pc1   = abs(t.get("price_change_h1") or 0)
         src   = t.get("source", "")
         smart = t.get("smart_money", [])
-        if src == "pump.fun":
+        if addr in seen_addrs:
+            continue
+        seen_addrs.add(addr)
+        if src == "whale_buy":
+            fresh.append(t)   # always include whale buys
+        elif src == "pump.fun":
             if age <= PUMP_MAX_AGE_MINUTES and (t.get("buys_h1") or 0) >= PUMP_MIN_TRADES:
                 fresh.append(t)
         elif (age <= MAX_AGE_MINUTES and liq >= MIN_LIQUIDITY
@@ -844,7 +904,8 @@ def main():
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
     for t in scored[:MAX_TOKENS]:
-        has_smart = bool(t.get("smart_money"))
+        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label"))
+        is_whale  = t.get("source") == "whale_buy"
         if t["score"] < MIN_SCORE and not has_smart:
             continue
         if t["verdict"] == "AVOID" and not has_smart:
@@ -862,25 +923,28 @@ def main():
 
         if ok:
             alerts_sent += 1
-            flags  = " 🐋" if has_smart else ""
+            flags  = " 🐋" if is_whale else (" 💡" if has_smart else "")
             flags += " 🔥" if t.get("source") == "pump.fun" else ""
             print(f"  Alert: {t.get('symbol')} score={t['score']} age={t.get('pair_age_minutes')}m{flags}")
             if PAPER_MODE:
                 state = log_paper_trade(state, t)
+            # Auto/semi trading
+            maybe_trade(t, tg_token, tg_chat)
         time.sleep(1)
 
     print(f"  Done. {alerts_sent} alerts from {len(scored)} scored tokens.")
 
     # ── Status ping ────────────────────────────────────────────────────────────
     if alerts_sent == 0:
-        minute     = datetime.datetime.utcnow().minute
-        pump_count = sum(1 for t in enriched if t.get("source") == "pump.fun")
-        dex_count  = len(enriched) - pump_count
-        open_n     = len(state.get("open", []))
+        minute      = datetime.datetime.utcnow().minute
+        pump_count  = sum(1 for t in enriched if t.get("source") == "pump.fun")
+        whale_count = sum(1 for t in enriched if t.get("source") == "whale_buy")
+        dex_count   = len(enriched) - pump_count - whale_count
+        open_n      = len(state.get("open", []))
 
         if minute < 10:
             top = sorted(
-                [t for t in enriched if t.get("source") != "pump.fun"],
+                [t for t in enriched if t.get("source") not in ("pump.fun", "whale_buy")],
                 key=lambda t: t.get("price_change_h1") or 0, reverse=True
             )[:3]
             top_lines = [
@@ -890,17 +954,17 @@ def main():
                 for t in top
             ]
             body = (
-                f"💓 <b>Signal Scout v3 — Hourly</b>\n"
-                f"{now}  |  DEX: {dex_count}  |  🔥 Pump: {pump_count}\n"
+                f"💓 <b>Signal Scout v5 — Hourly</b>\n"
+                f"{now}  |  DEX: {dex_count}  |  🔥 Pump: {pump_count}  |  🐋 Whale: {whale_count}\n"
                 f"Fresh: {len(fresh)}  |  📝 Open trades: {open_n}\n\n"
                 f"Top movers:\n" + "\n".join(top_lines)
-            ) if top_lines else f"💓 Signal Scout v3 — {now}\nNo strong signals this hour."
+            ) if top_lines else f"💓 Signal Scout v5 — {now}\nNo strong signals this hour."
             tg_send(tg_token, tg_chat, body)
         else:
             tg_send(tg_token, tg_chat,
                 f"🔍 Scan — {now}\n"
-                f"DEX: {dex_count}  |  🔥 Pump: {pump_count}  |  Fresh: {len(fresh)}\n"
-                f"📝 Open trades: {open_n}  |  No new alerts"
+                f"DEX: {dex_count}  |  🔥 Pump: {pump_count}  |  🐋 Whale: {whale_count}\n"
+                f"📝 Open: {open_n}  |  No new alerts"
             )
 
     # ── Save state ─────────────────────────────────────────────────────────────

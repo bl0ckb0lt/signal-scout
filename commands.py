@@ -4,7 +4,12 @@ Signal Scout — instant command handler.
 Runs every 1 min via cron-job.org → repository_dispatch.
 Only processes Telegram commands, no full scan. Fast (~5 seconds).
 """
-import os, json, subprocess, datetime
+import os, json, subprocess, datetime, sys
+
+# Allow importing whales / trader from the same directory
+sys.path.insert(0, os.path.dirname(__file__))
+from whales import whale_summary
+from trader import real_trade_summary, handle_approve, TRADE_MODE
 
 PAPER_TRADES_FILE = "paper_trades.json"
 STOP_LOSS_PCT     = 15.0
@@ -156,20 +161,35 @@ def handle_commands(tg_token, tg_chat, state):
                     )
                 tg_send(tg_token, tg_chat, "\n".join(lines))
 
+        elif text == "/whales":
+            tg_send(tg_token, tg_chat, whale_summary())
+
+        elif text == "/real":
+            tg_send(tg_token, tg_chat, real_trade_summary())
+
+        elif text.startswith("/approve "):
+            sym = text.split(" ", 1)[1].strip().upper()
+            handle_approve(sym, tg_token, tg_chat)
+
         elif text in ("/help", "/start"):
             tg_send(tg_token, tg_chat,
                 "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                "  🤖 SIGNAL SCOUT v4\n"
+                "  🤖 SIGNAL SCOUT v5\n"
                 "━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                "/status   — P&L, win rate, settings\n"
-                "/trades   — open positions + trail stops\n"
-                "/history  — last 10 closed trades\n"
-                "/pause    — stop alerts\n"
-                "/resume   — restart alerts\n\n"
+                "/status         — P&L, win rate, settings\n"
+                "/trades         — open positions + trail stops\n"
+                "/history        — last 10 closed trades\n"
+                "/whales         — tracked whale wallets\n"
+                "/real           — real trade P&L\n"
+                "/approve <sym>  — approve semi-auto buy\n"
+                "/pause          — stop alerts\n"
+                "/resume         — restart alerts\n\n"
                 "─── Risk Ladder ────────────\n"
                 f"  🛑 SL       -{STOP_LOSS_PCT:.0f}%\n"
                 f"  🔒 Trail   +{TRAIL_ACTIVATE_PCT:.0f}% ({TRAIL_PCT:.0f}% from peak)\n"
-                f"  🚀 Hard TP +{HARD_TP_PCT:.0f}%\n"
+                f"  🚀 Hard TP +{HARD_TP_PCT:.0f}%\n\n"
+                f"─── Trade Mode ─────────────\n"
+                f"  {TRADE_MODE.upper()}\n"
                 "━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 

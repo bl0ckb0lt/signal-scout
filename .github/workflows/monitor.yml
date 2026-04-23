@@ -2,7 +2,7 @@ name: Signal Scout Monitor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'    # every 5 minutes, 24/7, free on public repos
+    - cron: '*/5 * * * *'    # every 5 minutes (backup — primary trigger is cron-job.org)
   workflow_dispatch:           # manual trigger from GitHub Actions UI
 
 permissions:
@@ -22,16 +22,24 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Pull latest state
+        run: git pull --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install base58 PyNaCl
+
       - name: Run scan and alert
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-          OKX_API_KEY:        ${{ secrets.OKX_API_KEY }}
-          OKX_SECRET_KEY:     ${{ secrets.OKX_SECRET_KEY }}
-          OKX_PASSPHRASE:     ${{ secrets.OKX_PASSPHRASE }}
+          HELIUS_API_KEY:     ${{ secrets.HELIUS_API_KEY }}
+          TRADE_MODE:         ${{ secrets.TRADE_MODE }}
+          SOLANA_PRIVATE_KEY: ${{ secrets.SOLANA_PRIVATE_KEY }}
+          MAX_TRADE_SOL:      ${{ secrets.MAX_TRADE_SOL }}
+          MAX_DAILY_LOSS_SOL: ${{ secrets.MAX_DAILY_LOSS_SOL }}
         run: python scan_and_alert.py
