@@ -14,27 +14,29 @@ import os, json, time, datetime, subprocess
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-MAX_AGE_MINUTES      = 180
-MIN_SCORE            = 55
-MIN_LIQUIDITY        = 5000
-MAX_TOKENS           = 40
-MIN_MOMENTUM_H1      = 15
+MAX_AGE_MINUTES      = 120   # tighter — fresher tokens only
+MIN_SCORE            = 65   # raised from 55 — cuts weak signals
+MIN_LIQUIDITY        = 25000 # raised from 5K — low liq = easy dump
+MAX_FDV              = 5_000_000  # skip if market cap already >$5M
+MAX_TOKENS           = 20   # fewer, higher quality
+MIN_MOMENTUM_H1      = 20   # raised from 15%
 
-PUMP_MIN_MCAP        = 8_000
-PUMP_MAX_PROGRESS    = 85
-PUMP_MIN_PROGRESS    = 3
-PUMP_MAX_AGE_MINUTES = 120
-PUMP_MIN_TRADES      = 8
+PUMP_MIN_MCAP        = 10_000
+PUMP_MAX_PROGRESS    = 80
+PUMP_MIN_PROGRESS    = 5
+PUMP_MAX_AGE_MINUTES = 90
+PUMP_MIN_TRADES      = 15   # more trades = real interest
 
 # ── Paper trading ─────────────────────────────────────────────────────────────
 
-PAPER_MODE          = True   # False = alerts only, no position tracking
-STOP_LOSS_PCT       = 15.0   # fixed SL before trailing activates  (-15 %)
-TRAIL_ACTIVATE_PCT  = 15.0   # start trailing once up this much     (+15 %)
-TRAIL_PCT           = 10.0   # trail this far below the peak        (10 %)
-HARD_TP_PCT         = 60.0   # hard exit — never let a winner fully reverse (+60 %)
-MAX_OPEN_TRADES     = 10     # max positions tracked at once
+PAPER_MODE          = True
+STOP_LOSS_PCT       = 15.0
+TRAIL_ACTIVATE_PCT  = 15.0
+TRAIL_PCT           = 10.0
+HARD_TP_PCT         = 60.0
+MAX_OPEN_TRADES     = 8
 PAPER_TRADES_FILE   = "paper_trades.json"
+MAX_SL_FAILURES     = 3     # alert after N consecutive API failures on a position
 
 # ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
@@ -287,22 +289,30 @@ def check_exits(state, tg_token, tg_chat):
         entry       = pos.get("entry_price") or 0
         sym         = pos["symbol"]
 
-        # Skip pump.fun / xlayer (no reliable price feed yet)
+        # Skip pump.fun / xlayer (no reliable price feed)
         if not entry or chain == "xlayer" or src == "pump.fun":
             still_open.append(pos)
             continue
 
-        # ── Current price ──────────────────────────────────────────────────
+        # ── Current price — track API failures ────────────────────────────
         data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
         pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
         if not pairs:
+            fails = pos.get("api_failures", 0) + 1
+            pos["api_failures"] = fails
+            if fails >= MAX_SL_FAILURES:
+                tg_send(tg_token, tg_chat,
+                    f"⚠️ <b>{sym}</b> — price feed down {fails} scans in a row.\n"
+                    f"Check manually: <code>{addr}</code>")
             still_open.append(pos)
             continue
         p     = max(pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
         now_p = float(p.get("priceUsd") or 0)
         if not now_p:
+            pos["api_failures"] = pos.get("api_failures", 0) + 1
             still_open.append(pos)
             continue
+        pos["api_failures"] = 0  # reset on successful price fetch
 
         pct_entry = (now_p - entry) / entry * 100          # % from entry
         peak      = max(pos.get("peak_price") or entry, now_p)  # all-time peak
@@ -904,12 +914,15 @@ def main():
         if addr in seen_addrs:
             continue
         seen_addrs.add(addr)
+        fdv = t.get("fdv") or 0
         if src == "whale_buy":
-            fresh.append(t)   # always include whale buys
+            fresh.append(t)   # always trust whale buys
         elif src == "pump.fun":
             if age <= PUMP_MAX_AGE_MINUTES and (t.get("buys_h1") or 0) >= PUMP_MIN_TRADES:
                 fresh.append(t)
-        elif (age <= MAX_AGE_MINUTES and liq >= MIN_LIQUIDITY
+        elif (age <= MAX_AGE_MINUTES
+              and liq >= MIN_LIQUIDITY
+              and (fdv == 0 or fdv <= MAX_FDV)   # skip if already pumped
               and (pc1 >= MIN_MOMENTUM_H1 or bool(smart))):
             fresh.append(t)
 

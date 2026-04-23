@@ -1,0 +1,37 @@
+name: Position Monitor
+
+on:
+  repository_dispatch:
+    types: [check-positions]   # cron-job.org fires this every 5 min
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  positions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest state
+        run: git pull --rebase
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install base58 PyNaCl
+
+      - name: Check positions only
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          TRADE_MODE:         ${{ secrets.TRADE_MODE }}
+          SOLANA_PRIVATE_KEY: ${{ secrets.SOLANA_PRIVATE_KEY }}
+        run: python check_positions.py
