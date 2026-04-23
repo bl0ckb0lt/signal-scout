@@ -1,0 +1,21 @@
+name: External Trigger
+
+on:
+  repository_dispatch:
+    types: [run-scan]   # cron-job.org hits this endpoint every 5 min
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run scan via workflow dispatch
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'monitor.yml',
+              ref: 'main'
+            })
