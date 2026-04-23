@@ -1,31 +1,19 @@
 {
-  "last_update_id": 146423223,
+  "last_update_id": 146423224,
   "paused": false,
   "open": [
-    {
-      "symbol": "GALAXY",
-      "chain": "solana",
-      "address": "9M8vRvAejH6bgw6mUEgJw1vPMomHQex9qj1J2nAjpump",
-      "source": "boost",
-      "entry_price": 0.0002112,
-      "peak_price": 0.0002112,
-      "trailing_active": false,
-      "entry_time": "2026-04-23T08:30:31.944308+00:00",
-      "score": 57,
-      "status": "open",
-      "current_pct": -10.84
-    },
     {
       "symbol": "EDGE",
       "chain": "bsc",
       "address": "0x7927e265f60B98df89Df3D8c010519B2218DD6ba",
       "source": "new",
       "entry_price": 2.59,
-      "peak_price": 2.59,
+      "peak_price": 2.62,
       "trailing_active": false,
       "entry_time": "2026-04-23T09:15:29.672046+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "current_pct": 1.16
     }
   ],
   "closed": [
@@ -73,6 +61,22 @@
       "exit_price": 5.814e-06,
       "exit_pct": -62.99,
       "exit_time": "2026-04-23T08:36:50.957079+00:00"
+    },
+    {
+      "symbol": "GALAXY",
+      "chain": "solana",
+      "address": "9M8vRvAejH6bgw6mUEgJw1vPMomHQex9qj1J2nAjpump",
+      "source": "boost",
+      "entry_price": 0.0002112,
+      "peak_price": 0.0002112,
+      "trailing_active": false,
+      "entry_time": "2026-04-23T08:30:31.944308+00:00",
+      "score": 57,
+      "status": "SL",
+      "current_pct": -27.13,
+      "exit_price": 0.0001539,
+      "exit_pct": -27.13,
+      "exit_time": "2026-04-23T09:20:16.113174+00:00"
     }
   ]
 }
