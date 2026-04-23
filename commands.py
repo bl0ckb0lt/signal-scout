@@ -38,6 +38,31 @@ def tg_send(token, chat_id, text):
     ], capture_output=True)
 
 
+def register_bot_menu(token):
+    """
+    Register the command list with Telegram so the '/' menu button
+    shows all available commands inside the chat.
+    Only needs to run once — safe to call every time (idempotent).
+    """
+    commands = [
+        {"command": "status",   "description": "📊 P&L, win rate, risk settings"},
+        {"command": "trades",   "description": "📋 Open positions + trailing stops"},
+        {"command": "history",  "description": "📜 Last 10 closed trades"},
+        {"command": "whales",   "description": "🐋 Tracked whale wallets"},
+        {"command": "real",     "description": "💰 Real trade P&L (when enabled)"},
+        {"command": "pause",    "description": "⏸ Stop sending alerts"},
+        {"command": "resume",   "description": "▶️ Restart scanning"},
+        {"command": "help",     "description": "🤖 Show all commands & settings"},
+    ]
+    payload = json.dumps({"commands": commands})
+    subprocess.run([
+        "curl", "-s", "-X", "POST",
+        f"https://api.telegram.org/bot{token}/setMyCommands",
+        "-H", "Content-Type: application/json", "-d", payload,
+    ], capture_output=True)
+    print("  Bot menu registered.")
+
+
 def load_state():
     try:
         with open(PAPER_TRADES_FILE, encoding="utf-8") as f:
@@ -201,6 +226,10 @@ def main():
     tg_chat  = os.environ["TELEGRAM_CHAT_ID"]
 
     print("Command handler starting...")
+
+    # Register the Telegram '/' menu on every run (idempotent, ~50ms)
+    register_bot_menu(tg_token)
+
     state = load_state()
     state, changed = handle_commands(tg_token, tg_chat, state)
 

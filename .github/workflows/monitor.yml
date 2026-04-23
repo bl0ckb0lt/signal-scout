@@ -2,7 +2,7 @@ name: Signal Scout Monitor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'    # every 5 minutes (backup — primary trigger is cron-job.org)
+    - cron: '*/30 * * * *'   # every 30 minutes (backup — primary trigger is cron-job.org)
   workflow_dispatch:           # manual trigger from GitHub Actions UI
 
 permissions:

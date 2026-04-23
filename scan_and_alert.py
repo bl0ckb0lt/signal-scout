@@ -117,7 +117,7 @@ def poll_commands(tg_token, tg_chat, state):
 
         elif text in ("/resume", "/resume@signalscoutbot"):
             state["paused"] = False
-            tg_send(tg_token, tg_chat, "▶️ <b>Signal Scout resumed.</b> Scanning every 5 min.")
+            tg_send(tg_token, tg_chat, "▶️ <b>Signal Scout resumed.</b> Scanning every 30 min.")
 
         elif text in ("/status", "/status@signalscoutbot"):
             open_n   = len(state.get("open", []))
@@ -784,7 +784,9 @@ def main():
     tg_chat    = os.environ["TELEGRAM_CHAT_ID"]
     helius_key = os.environ.get("HELIUS_API_KEY", "")   # optional — enables whale scanning
 
-    now = datetime.datetime.utcnow().strftime("%H:%M UTC")
+    now    = datetime.datetime.utcnow().strftime("%H:%M UTC")
+    hour   = datetime.datetime.utcnow().hour
+    minute = datetime.datetime.utcnow().minute
     print(f"[{now}] Signal Scout v5 scan starting... (mode={TRADE_MODE})")
 
     # ── Load state + poll commands ─────────────────────────────────────────────
@@ -936,35 +938,33 @@ def main():
 
     # ── Status ping ────────────────────────────────────────────────────────────
     if alerts_sent == 0:
-        minute      = datetime.datetime.utcnow().minute
         pump_count  = sum(1 for t in enriched if t.get("source") == "pump.fun")
         whale_count = sum(1 for t in enriched if t.get("source") == "whale_buy")
         dex_count   = len(enriched) - pump_count - whale_count
         open_n      = len(state.get("open", []))
 
-        if minute < 10:
+        # Full summary once per hour (on the top-of-hour scan), brief ping otherwise
+        if minute < 35:   # first scan of each hour window
             top = sorted(
                 [t for t in enriched if t.get("source") not in ("pump.fun", "whale_buy")],
-                key=lambda t: t.get("price_change_h1") or 0, reverse=True
+                key=lambda x: x.get("price_change_h1") or 0, reverse=True
             )[:3]
             top_lines = [
                 f"  • {t.get('symbol','?')} ({t.get('chain','?').upper()}) "
-                f"1h:{t.get('price_change_h1') or 0:+.0f}% "
-                f"{t.get('pair_age_minutes') or 0:.0f}m"
+                f"1h:{t.get('price_change_h1') or 0:+.0f}%"
                 for t in top
             ]
             body = (
-                f"💓 <b>Signal Scout v5 — Hourly</b>\n"
-                f"{now}  |  DEX: {dex_count}  |  🔥 Pump: {pump_count}  |  🐋 Whale: {whale_count}\n"
-                f"Fresh: {len(fresh)}  |  📝 Open trades: {open_n}\n\n"
-                f"Top movers:\n" + "\n".join(top_lines)
-            ) if top_lines else f"💓 Signal Scout v5 — {now}\nNo strong signals this hour."
+                f"💓 <b>Signal Scout v5</b>  —  {now}\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"DEX: {dex_count}  ·  🔥 Pump: {pump_count}  ·  🐋 Whale: {whale_count}\n"
+                f"Fresh signals: {len(fresh)}  ·  📝 Open: {open_n}\n\n"
+                f"Top movers this scan:\n" + ("\n".join(top_lines) if top_lines else "  —  quiet market")
+            )
             tg_send(tg_token, tg_chat, body)
         else:
             tg_send(tg_token, tg_chat,
-                f"🔍 Scan — {now}\n"
-                f"DEX: {dex_count}  |  🔥 Pump: {pump_count}  |  🐋 Whale: {whale_count}\n"
-                f"📝 Open: {open_n}  |  No new alerts"
+                f"🔍 {now}  |  Fresh: {len(fresh)}  |  📝 Open: {open_n}  |  No new signals"
             )
 
     # ── Save state ─────────────────────────────────────────────────────────────
