@@ -18,12 +18,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Pull latest state
-        run: git pull --rebase
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
+        run: git pull --rebase --autostash || (git rebase --abort && git pull --ff-only)
 
       - name: Handle commands
         env:

@@ -184,17 +184,21 @@ def poll_commands(tg_token, tg_chat, state):
                     "━━━━━━━━━━━━━━━━━━━━━━━━━",
                 ]
                 for p in open_pos:
+                    sym     = p.get("symbol", "?")
+                    chain   = p.get("chain", "?").upper()
+                    addr    = p.get("address", "")
+                    score   = p.get("score", 0)
                     entry   = p.get("entry_price") or 0
                     peak    = p.get("peak_price") or entry
                     pct_now = p.get("current_pct", 0)
                     trail   = peak * (1 - TRAIL_PCT / 100) if p.get("trailing_active") else None
                     t_icon  = "🔒" if p.get("trailing_active") else "⏳"
                     lines.append(
-                        f"\n{t_icon} <b>{p['symbol']}</b> ({p['chain'].upper()})\n"
+                        f"\n{t_icon} <b>{sym}</b> ({chain})\n"
                         f"  Entry  ${entry:.8f}\n"
-                        f"  Now    {pct_now:+.1f}%  ·  Score {p['score']}\n"
+                        f"  Now    {pct_now:+.1f}%  ·  Score {score}\n"
                         + (f"  Trail SL  ${trail:.8f}\n" if trail else "")
-                        + f"  <code>{p['address']}</code>"
+                        + f"  <code>{addr}</code>"
                     )
                 lines.append("\n━━━━━━━━━━━━━━━━━━━━━━━━━")
                 tg_send(tg_token, tg_chat, "\n".join(lines))
@@ -815,9 +819,8 @@ def main():
     minute = datetime.datetime.utcnow().minute
     print(f"[{now}] Signal Scout v5 scan starting... (mode={TRADE_MODE})")
 
-    # ── Load state + poll commands ─────────────────────────────────────────────
+    # ── Load state (commands handled exclusively by commands.py every 1 min) ───
     state = load_state()
-    state = poll_commands(tg_token, tg_chat, state)
 
     if state.get("paused"):
         print("  Bot is paused — skipping scan.")
