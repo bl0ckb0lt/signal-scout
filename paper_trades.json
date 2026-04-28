@@ -1,22 +1,7 @@
 {
   "last_update_id": 146423239,
   "paused": false,
-  "open": [
-    {
-      "symbol": "SES",
-      "chain": "solana",
-      "address": "59Ntdzm81rWKBshmuhJmuPFzczUy5e4zow2NNrpcDXTy",
-      "source": "boost",
-      "entry_price": 0.0006304,
-      "peak_price": 0.0006909,
-      "trailing_active": false,
-      "entry_time": "2026-04-27T21:00:54.589710+00:00",
-      "score": 66,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 5.62
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -468,6 +453,23 @@
       "exit_price": 0.000131,
       "exit_pct": 15.83,
       "exit_time": "2026-04-27T21:10:14.637170+00:00"
+    },
+    {
+      "symbol": "SES",
+      "chain": "solana",
+      "address": "59Ntdzm81rWKBshmuhJmuPFzczUy5e4zow2NNrpcDXTy",
+      "source": "boost",
+      "entry_price": 0.0006304,
+      "peak_price": 0.0006909,
+      "trailing_active": false,
+      "entry_time": "2026-04-27T21:00:54.589710+00:00",
+      "score": 66,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.88,
+      "exit_price": 0.0005177,
+      "exit_pct": -17.88,
+      "exit_time": "2026-04-28T00:25:10.564612+00:00"
     }
   ],
   "alerted": {
@@ -506,6 +508,7 @@
     "0x969626767b9ecBB2eb20727787C5b55EB08FE696": "2026-04-26T23:05:10.206199+00:00",
     "0x741dF542F6C17EBD6c1Beb2dfc22C9c96e0D4444": "2026-04-27T09:15:13.978084+00:00",
     "0xEFD660d6fDB9A157A3F6f4d9892af2FCDE081ad2": "2026-04-27T19:10:13.384690+00:00",
-    "0x3af004d4f591eaFe1b0A7b16539fDa7B6BC64444": "2026-04-27T21:10:14.637170+00:00"
+    "0x3af004d4f591eaFe1b0A7b16539fDa7B6BC64444": "2026-04-27T21:10:14.637170+00:00",
+    "59Ntdzm81rWKBshmuhJmuPFzczUy5e4zow2NNrpcDXTy": "2026-04-28T00:25:10.564612+00:00"
   }
 }
