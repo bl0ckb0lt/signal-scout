@@ -8,27 +8,13 @@
       "address": "8m9ska6uPw1xoFskyAWKaHnVqobC37F1okjve6L5pump",
       "source": "new",
       "entry_price": 0.0001082,
-      "peak_price": 0.0001292,
+      "peak_price": 0.000141,
       "trailing_active": true,
       "entry_time": "2026-05-01T18:56:13.668070+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 19.41
-    },
-    {
-      "symbol": "UNIPUMP",
-      "chain": "solana",
-      "address": "9KrdYnHHrsWYpWMxyzbmmrjcXRr7ERWpB3byNeb1pump",
-      "source": "new",
-      "entry_price": 0.0001641,
-      "peak_price": 0.0001836,
-      "trailing_active": false,
-      "entry_time": "2026-05-01T19:01:21.400836+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.88
+      "current_pct": 30.31
     }
   ],
   "closed": [
@@ -805,6 +791,23 @@
       "exit_price": 0.000196,
       "exit_pct": -21.85,
       "exit_time": "2026-05-01T19:05:16.709842+00:00"
+    },
+    {
+      "symbol": "UNIPUMP",
+      "chain": "solana",
+      "address": "9KrdYnHHrsWYpWMxyzbmmrjcXRr7ERWpB3byNeb1pump",
+      "source": "new",
+      "entry_price": 0.0001641,
+      "peak_price": 0.0001836,
+      "trailing_active": false,
+      "entry_time": "2026-05-01T19:01:21.400836+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.09,
+      "exit_price": 0.000118,
+      "exit_pct": -28.09,
+      "exit_time": "2026-05-01T19:10:16.617303+00:00"
     }
   ],
   "alerted": {
@@ -862,6 +865,7 @@
     "33xDbZM2bUHF841LKJauRZFrDtBJiUKhCH5yVh2KDWH2": "2026-04-30T20:55:18.681980+00:00",
     "hLokvfUnqYUztoVdA4gwZnpvTKsPNefkdn2DyxGpump": "2026-05-01T05:10:09.665949+00:00",
     "3QQQxazHaMb72d7N9iftT26vuk6A4Re31fYmkwA2pump": "2026-05-01T19:05:15.994739+00:00",
-    "Aa3MbWqcXCHw3CDXGcxsPKYkcxJwjaXfKyxsUDYaJN3P": "2026-05-01T19:05:16.709842+00:00"
+    "Aa3MbWqcXCHw3CDXGcxsPKYkcxJwjaXfKyxsUDYaJN3P": "2026-05-01T19:05:16.709842+00:00",
+    "9KrdYnHHrsWYpWMxyzbmmrjcXRr7ERWpB3byNeb1pump": "2026-05-01T19:10:16.617303+00:00"
   }
 }
