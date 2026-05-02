@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423240,
   "paused": false,
-  "open": [
-    {
-      "symbol": "MOGMAN",
-      "chain": "ethereum",
-      "address": "0x19bfd61c945CC61468bbC3ae4cd69A282A4E4Ed4",
-      "source": "new",
-      "entry_price": 3.13e-05,
-      "peak_price": 3.13e-05,
-      "trailing_active": false,
-      "entry_time": "2026-05-02T23:00:45.665344+00:00",
-      "score": 67,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -857,6 +844,23 @@
       "exit_price": 0.0002705,
       "exit_pct": -31.73,
       "exit_time": "2026-05-02T15:45:11.884488+00:00"
+    },
+    {
+      "symbol": "MOGMAN",
+      "chain": "ethereum",
+      "address": "0x19bfd61c945CC61468bbC3ae4cd69A282A4E4Ed4",
+      "source": "new",
+      "entry_price": 3.13e-05,
+      "peak_price": 6.177e-05,
+      "trailing_active": true,
+      "entry_time": "2026-05-02T23:00:45.665344+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 97.35,
+      "exit_price": 6.177e-05,
+      "exit_pct": 97.35,
+      "exit_time": "2026-05-02T23:06:54.650314+00:00"
     }
   ],
   "alerted": {
@@ -918,6 +922,7 @@
     "9KrdYnHHrsWYpWMxyzbmmrjcXRr7ERWpB3byNeb1pump": "2026-05-01T19:10:16.617303+00:00",
     "8m9ska6uPw1xoFskyAWKaHnVqobC37F1okjve6L5pump": "2026-05-01T19:20:16.881297+00:00",
     "0xd1f1a93eD587993E8a9573529E68d8C6Df2f4444": "2026-05-02T07:35:11.332399+00:00",
-    "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump": "2026-05-02T15:45:11.884488+00:00"
+    "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump": "2026-05-02T15:45:11.884488+00:00",
+    "0x19bfd61c945CC61468bbC3ae4cd69A282A4E4Ed4": "2026-05-02T23:06:54.650314+00:00"
   }
 }
