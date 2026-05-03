@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423240,
   "paused": false,
-  "open": [
-    {
-      "symbol": "MAKAM",
-      "chain": "ethereum",
-      "address": "0x477c961240F53AE59B28E6e7c8c3b5d767f09cC2",
-      "source": "new",
-      "entry_price": 0.000648,
-      "peak_price": 0.000648,
-      "trailing_active": false,
-      "entry_time": "2026-05-03T14:05:46.934951+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -925,6 +912,23 @@
       "exit_price": 0.0001365,
       "exit_pct": -16.05,
       "exit_time": "2026-05-03T02:45:09.737434+00:00"
+    },
+    {
+      "symbol": "MAKAM",
+      "chain": "ethereum",
+      "address": "0x477c961240F53AE59B28E6e7c8c3b5d767f09cC2",
+      "source": "new",
+      "entry_price": 0.000648,
+      "peak_price": 0.001274,
+      "trailing_active": true,
+      "entry_time": "2026-05-03T14:05:46.934951+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 96.6,
+      "exit_price": 0.001274,
+      "exit_pct": 96.6,
+      "exit_time": "2026-05-03T14:25:09.844691+00:00"
     }
   ],
   "alerted": {
@@ -990,6 +994,7 @@
     "0x19bfd61c945CC61468bbC3ae4cd69A282A4E4Ed4": "2026-05-02T23:06:54.650314+00:00",
     "0x5ebeE835F97d05F42fDA3B33d96414e13cD56838": "2026-05-03T00:15:11.363300+00:00",
     "DcSLSZkhxBECsJF4Jny57c1xTaMwKo9HQMKiyXYbpump": "2026-05-03T00:40:11.289376+00:00",
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": "2026-05-03T02:45:09.737434+00:00"
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": "2026-05-03T02:45:09.737434+00:00",
+    "0x477c961240F53AE59B28E6e7c8c3b5d767f09cC2": "2026-05-03T14:25:09.844691+00:00"
   }
 }
