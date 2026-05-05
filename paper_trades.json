@@ -9,24 +9,12 @@
       "source": "boost",
       "entry_price": 0.0003688,
       "peak_price": 0.0004398,
-      "trailing_active": true,
+      "trailing_active": false,
       "entry_time": "2026-05-05T20:31:07.373683+00:00",
       "score": 79,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 19.25
-    },
-    {
-      "symbol": "DENALI",
-      "chain": "solana",
-      "address": "AVoyHUFwCDj3JACP8WZjnhK4fw8pKugHTTXhEHH3pump",
-      "source": "new",
-      "entry_price": 0.0001192,
-      "peak_price": 0.0001192,
-      "trailing_active": false,
-      "entry_time": "2026-05-05T21:01:31.370422+00:00",
-      "score": 68,
-      "status": "open"
+      "current_pct": 13.2
     }
   ],
   "closed": [
@@ -1075,6 +1063,23 @@
       "exit_price": 5.456e-05,
       "exit_pct": -49.1,
       "exit_time": "2026-05-05T15:45:15.454877+00:00"
+    },
+    {
+      "symbol": "DENALI",
+      "chain": "solana",
+      "address": "AVoyHUFwCDj3JACP8WZjnhK4fw8pKugHTTXhEHH3pump",
+      "source": "new",
+      "entry_price": 0.0001192,
+      "peak_price": 0.0001192,
+      "trailing_active": false,
+      "entry_time": "2026-05-05T21:01:31.370422+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.86,
+      "exit_price": 9.195e-05,
+      "exit_pct": -22.86,
+      "exit_time": "2026-05-05T21:10:22.478921+00:00"
     }
   ],
   "alerted": {
@@ -1148,6 +1153,7 @@
     "EhDQzaHap2fBihPP6oqVmdrseNPNBwn3aZryC1ripump": "2026-05-04T21:55:16.666757+00:00",
     "0x1cde8DEd1b99C8E580A88BbA3f3B94247C69EeEE": "2026-05-05T01:55:11.356977+00:00",
     "BHnRgZG5CFM86wwhc4TSEQXB4JTMPWKhNNJDYS7Epump": "2026-05-05T12:00:13.680472+00:00",
-    "7ebpkp8S4Aqdpio3tJtqVpGkPP5W5rhsAx6V78HZpump": "2026-05-05T15:45:15.454877+00:00"
+    "7ebpkp8S4Aqdpio3tJtqVpGkPP5W5rhsAx6V78HZpump": "2026-05-05T15:45:15.454877+00:00",
+    "AVoyHUFwCDj3JACP8WZjnhK4fw8pKugHTTXhEHH3pump": "2026-05-05T21:10:22.478921+00:00"
   }
 }
