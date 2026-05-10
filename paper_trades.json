@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423241,
   "paused": false,
-  "open": [
-    {
-      "symbol": "GOBGPT",
-      "chain": "ethereum",
-      "address": "0x59cafC2CD85A700D77e222EfB2249fa2eD90fE47",
-      "source": "new",
-      "entry_price": 0.0004018,
-      "peak_price": 0.0004018,
-      "trailing_active": false,
-      "entry_time": "2026-05-10T23:40:16.559051+00:00",
-      "score": 67,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -1554,6 +1541,23 @@
       "exit_price": 0.0002082,
       "exit_pct": -28.06,
       "exit_time": "2026-05-10T21:15:12.880538+00:00"
+    },
+    {
+      "symbol": "GOBGPT",
+      "chain": "ethereum",
+      "address": "0x59cafC2CD85A700D77e222EfB2249fa2eD90fE47",
+      "source": "new",
+      "entry_price": 0.0004018,
+      "peak_price": 0.001005,
+      "trailing_active": true,
+      "entry_time": "2026-05-10T23:40:16.559051+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 150.12,
+      "exit_price": 0.001005,
+      "exit_pct": 150.12,
+      "exit_time": "2026-05-10T23:50:12.859093+00:00"
     }
   ],
   "alerted": {
@@ -1656,6 +1660,7 @@
     "8M4p2Gzi57X5TGqLv5nuNhBaRcmGKpKRsbkugkWbbonk": "2026-05-10T16:05:12.394416+00:00",
     "FsRNJGffLaQhK8PmUW4szNTBTCNQX8JMTECAJHY9bonk": "2026-05-10T19:45:13.303488+00:00",
     "GqmP8uGseERgZYa7NAvzNrFw9qbGzMM6YnpwWiH46TGX": "2026-05-10T20:35:17.317163+00:00",
-    "6qdzMx4c9rL2X3Ns3SwZ8uEo4zReDPjdXpAEmpo7pump": "2026-05-10T21:15:12.880538+00:00"
+    "6qdzMx4c9rL2X3Ns3SwZ8uEo4zReDPjdXpAEmpo7pump": "2026-05-10T21:15:12.880538+00:00",
+    "0x59cafC2CD85A700D77e222EfB2249fa2eD90fE47": "2026-05-10T23:50:12.859093+00:00"
   }
 }
