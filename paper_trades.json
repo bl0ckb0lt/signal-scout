@@ -3,28 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DUMACRATS",
-      "chain": "solana",
-      "address": "GqmP8uGseERgZYa7NAvzNrFw9qbGzMM6YnpwWiH46TGX",
-      "source": "new",
-      "entry_price": 8.613e-05,
-      "peak_price": 8.613e-05,
-      "trailing_active": false,
-      "entry_time": "2026-05-10T20:31:03.543191+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "BABYTROLL",
       "chain": "solana",
       "address": "6qdzMx4c9rL2X3Ns3SwZ8uEo4zReDPjdXpAEmpo7pump",
       "source": "boost",
       "entry_price": 0.0002894,
-      "peak_price": 0.0002894,
+      "peak_price": 0.0003192,
       "trailing_active": false,
       "entry_time": "2026-05-10T20:31:05.272117+00:00",
       "score": 66,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.3
     }
   ],
   "closed": [
@@ -1532,6 +1522,23 @@
       "exit_price": 0.0002361,
       "exit_pct": -22.34,
       "exit_time": "2026-05-10T19:45:13.303488+00:00"
+    },
+    {
+      "symbol": "DUMACRATS",
+      "chain": "solana",
+      "address": "GqmP8uGseERgZYa7NAvzNrFw9qbGzMM6YnpwWiH46TGX",
+      "source": "new",
+      "entry_price": 8.613e-05,
+      "peak_price": 8.613e-05,
+      "trailing_active": false,
+      "entry_time": "2026-05-10T20:31:03.543191+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.62,
+      "exit_price": 5.631e-05,
+      "exit_pct": -34.62,
+      "exit_time": "2026-05-10T20:35:17.317163+00:00"
     }
   ],
   "alerted": {
@@ -1632,6 +1639,7 @@
     "3qnF9Kys1Q4tsGd6bev3B8YkX7t8UyKNpxeyt6v5pump": "2026-05-10T14:20:12.668158+00:00",
     "0x0fB006Edd8D6c128b83D2461DBFE74B318952886": "2026-05-10T14:35:08.968341+00:00",
     "8M4p2Gzi57X5TGqLv5nuNhBaRcmGKpKRsbkugkWbbonk": "2026-05-10T16:05:12.394416+00:00",
-    "FsRNJGffLaQhK8PmUW4szNTBTCNQX8JMTECAJHY9bonk": "2026-05-10T19:45:13.303488+00:00"
+    "FsRNJGffLaQhK8PmUW4szNTBTCNQX8JMTECAJHY9bonk": "2026-05-10T19:45:13.303488+00:00",
+    "GqmP8uGseERgZYa7NAvzNrFw9qbGzMM6YnpwWiH46TGX": "2026-05-10T20:35:17.317163+00:00"
   }
 }
