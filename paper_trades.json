@@ -3,28 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PARTY",
-      "chain": "ethereum",
-      "address": "0xe23b6Ef27a7C29841353491Baa58c1A49AadC3d1",
-      "source": "new",
-      "entry_price": 0.000872,
-      "peak_price": 0.000872,
-      "trailing_active": false,
-      "entry_time": "2026-05-10T06:00:52.386126+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "BMNTP",
       "chain": "solana",
       "address": "6EQKNJD6KMTQv9KmhKDjs1jm1SRsNVGNqdKeEEiJpump",
       "source": "new",
       "entry_price": 0.0008065,
-      "peak_price": 0.0008065,
+      "peak_price": 0.0008439,
       "trailing_active": false,
       "entry_time": "2026-05-10T06:00:54.290934+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.64
     }
   ],
   "closed": [
@@ -1413,6 +1403,23 @@
       "exit_price": 0.0001403,
       "exit_pct": 38.5,
       "exit_time": "2026-05-09T20:33:30.388497+00:00"
+    },
+    {
+      "symbol": "PARTY",
+      "chain": "ethereum",
+      "address": "0xe23b6Ef27a7C29841353491Baa58c1A49AadC3d1",
+      "source": "new",
+      "entry_price": 0.000872,
+      "peak_price": 0.000872,
+      "trailing_active": false,
+      "entry_time": "2026-05-10T06:00:52.386126+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.44,
+      "exit_price": 0.0006589,
+      "exit_pct": -24.44,
+      "exit_time": "2026-05-10T06:05:17.298232+00:00"
     }
   ],
   "alerted": {
@@ -1506,6 +1513,7 @@
     "3jG3vjwbEuQCR3YkJKtLmH41jqHx9n36BBW1Kznkpump": "2026-05-08T14:15:21.035831+00:00",
     "0xdc0b77886c39aD66E0766Ef9E6d88762CFD22B07": "2026-05-08T18:40:18.701199+00:00",
     "4ZEzC3aX7yLv8VEBiuoT6PgEMPEoxGB7WS3Qt3iPpump": "2026-05-09T20:15:11.876660+00:00",
-    "8AgiyBcMbka9j6eqWdLs7GxsCbQVt5LTpg2QGr66pump": "2026-05-09T20:33:30.388497+00:00"
+    "8AgiyBcMbka9j6eqWdLs7GxsCbQVt5LTpg2QGr66pump": "2026-05-09T20:33:30.388497+00:00",
+    "0xe23b6Ef27a7C29841353491Baa58c1A49AadC3d1": "2026-05-10T06:05:17.298232+00:00"
   }
 }
