@@ -15,34 +15,6 @@
       "status": "open",
       "api_failures": 0,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "AWF",
-      "chain": "ethereum",
-      "address": "0x7a8B7bd622f9115effAFbB5F30c1953b6e37D133",
-      "source": "new",
-      "entry_price": 0.001043,
-      "peak_price": 0.001288,
-      "trailing_active": true,
-      "entry_time": "2026-05-12T08:30:53.389643+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 23.49
-    },
-    {
-      "symbol": "AWF",
-      "chain": "ethereum",
-      "address": "0x12a77658112Cf42914cB614D13653ed5852DA1e5",
-      "source": "new",
-      "entry_price": 0.003684,
-      "peak_price": 0.005656,
-      "trailing_active": true,
-      "entry_time": "2026-05-12T08:30:54.934654+00:00",
-      "score": 65,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.53
     }
   ],
   "closed": [
@@ -1788,6 +1760,40 @@
       "exit_price": 0.0002301,
       "exit_pct": -20.79,
       "exit_time": "2026-05-12T08:35:16.192861+00:00"
+    },
+    {
+      "symbol": "AWF",
+      "chain": "ethereum",
+      "address": "0x7a8B7bd622f9115effAFbB5F30c1953b6e37D133",
+      "source": "new",
+      "entry_price": 0.001043,
+      "peak_price": 0.001288,
+      "trailing_active": false,
+      "entry_time": "2026-05-12T08:30:53.389643+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.7,
+      "exit_price": 0.0008688,
+      "exit_pct": -16.7,
+      "exit_time": "2026-05-12T08:40:18.733616+00:00"
+    },
+    {
+      "symbol": "AWF",
+      "chain": "ethereum",
+      "address": "0x12a77658112Cf42914cB614D13653ed5852DA1e5",
+      "source": "new",
+      "entry_price": 0.003684,
+      "peak_price": 0.005656,
+      "trailing_active": true,
+      "entry_time": "2026-05-12T08:30:54.934654+00:00",
+      "score": 65,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 37.27,
+      "exit_price": 0.005057,
+      "exit_pct": 37.27,
+      "exit_time": "2026-05-12T08:40:19.444728+00:00"
     }
   ],
   "alerted": {
@@ -1902,6 +1908,8 @@
     "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": "2026-05-11T22:15:20.137817+00:00",
     "GPXY56UALMCnKkbPnWKRdEeG6DWvbFafySsG48MRpump": "2026-05-11T23:15:11.760798+00:00",
     "DtwuKwjSdBsABVMiWB4yWyGk1roPQvMnuSaEMf6Spump": "2026-05-12T00:40:16.054582+00:00",
-    "FSJjkoszKtrfacrv13oG8Mo5xVzWf2TewFUfqMpGpump": "2026-05-12T08:35:16.192861+00:00"
+    "FSJjkoszKtrfacrv13oG8Mo5xVzWf2TewFUfqMpGpump": "2026-05-12T08:35:16.192861+00:00",
+    "0x7a8B7bd622f9115effAFbB5F30c1953b6e37D133": "2026-05-12T08:40:18.733616+00:00",
+    "0x12a77658112Cf42914cB614D13653ed5852DA1e5": "2026-05-12T08:40:19.444728+00:00"
   }
 }
