@@ -15,18 +15,6 @@
       "status": "open",
       "api_failures": 0,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "DIAMOND",
-      "chain": "solana",
-      "address": "B5jkQN49W6oSWThPZu9y7HsgkabBawA7vxHJ3bpcpump",
-      "source": "new",
-      "entry_price": 0.001887,
-      "peak_price": 0.001887,
-      "trailing_active": false,
-      "entry_time": "2026-05-12T22:00:58.259931+00:00",
-      "score": 67,
-      "status": "open"
     }
   ],
   "closed": [
@@ -1857,6 +1845,23 @@
       "exit_price": 0.0004601,
       "exit_pct": 60.2,
       "exit_time": "2026-05-12T10:40:14.237245+00:00"
+    },
+    {
+      "symbol": "DIAMOND",
+      "chain": "solana",
+      "address": "B5jkQN49W6oSWThPZu9y7HsgkabBawA7vxHJ3bpcpump",
+      "source": "new",
+      "entry_price": 0.001887,
+      "peak_price": 0.001887,
+      "trailing_active": false,
+      "entry_time": "2026-05-12T22:00:58.259931+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -36.99,
+      "exit_price": 0.001189,
+      "exit_pct": -36.99,
+      "exit_time": "2026-05-12T22:04:24.055749+00:00"
     }
   ],
   "alerted": {
@@ -1976,6 +1981,7 @@
     "0x12a77658112Cf42914cB614D13653ed5852DA1e5": "2026-05-12T08:40:19.444728+00:00",
     "0x0e94FAA1F5e9e66bFfd89D8c86da037931dB272e": "2026-05-12T09:10:20.758315+00:00",
     "0x80978300E4E1b76706295654B834bA4B2AE4e8E2": "2026-05-12T09:55:15.652031+00:00",
-    "0x79850299671AF4651d777c2B19606df018124C10": "2026-05-12T10:40:14.237245+00:00"
+    "0x79850299671AF4651d777c2B19606df018124C10": "2026-05-12T10:40:14.237245+00:00",
+    "B5jkQN49W6oSWThPZu9y7HsgkabBawA7vxHJ3bpcpump": "2026-05-12T22:04:24.055749+00:00"
   }
 }
