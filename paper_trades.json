@@ -15,18 +15,6 @@
       "status": "open",
       "api_failures": 0,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "QTM",
-      "chain": "ethereum",
-      "address": "0x0e94FAA1F5e9e66bFfd89D8c86da037931dB272e",
-      "source": "new",
-      "entry_price": 1.382e-06,
-      "peak_price": 1.382e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-12T09:00:51.714195+00:00",
-      "score": 67,
-      "status": "open"
     }
   ],
   "closed": [
@@ -1806,6 +1794,23 @@
       "exit_price": 0.005057,
       "exit_pct": 37.27,
       "exit_time": "2026-05-12T08:40:19.444728+00:00"
+    },
+    {
+      "symbol": "QTM",
+      "chain": "ethereum",
+      "address": "0x0e94FAA1F5e9e66bFfd89D8c86da037931dB272e",
+      "source": "new",
+      "entry_price": 1.382e-06,
+      "peak_price": 1.382e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-12T09:00:51.714195+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.88,
+      "exit_price": 1.052e-06,
+      "exit_pct": -23.88,
+      "exit_time": "2026-05-12T09:10:20.758315+00:00"
     }
   ],
   "alerted": {
@@ -1922,6 +1927,7 @@
     "DtwuKwjSdBsABVMiWB4yWyGk1roPQvMnuSaEMf6Spump": "2026-05-12T00:40:16.054582+00:00",
     "FSJjkoszKtrfacrv13oG8Mo5xVzWf2TewFUfqMpGpump": "2026-05-12T08:35:16.192861+00:00",
     "0x7a8B7bd622f9115effAFbB5F30c1953b6e37D133": "2026-05-12T08:40:18.733616+00:00",
-    "0x12a77658112Cf42914cB614D13653ed5852DA1e5": "2026-05-12T08:40:19.444728+00:00"
+    "0x12a77658112Cf42914cB614D13653ed5852DA1e5": "2026-05-12T08:40:19.444728+00:00",
+    "0x0e94FAA1F5e9e66bFfd89D8c86da037931dB272e": "2026-05-12T09:10:20.758315+00:00"
   }
 }
