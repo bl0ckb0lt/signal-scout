@@ -13,20 +13,8 @@
       "entry_time": "2026-05-12T05:30:54.986565+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 6,
+      "api_failures": 7,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "BALLSACKDORKL",
-      "chain": "solana",
-      "address": "4LEydtM5terKDQJeUgx5mPB6NYR5maE9hnGnasekpump",
-      "source": "new",
-      "entry_price": 0.0001009,
-      "peak_price": 0.0001009,
-      "trailing_active": false,
-      "entry_time": "2026-05-13T08:01:00.778674+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -1891,6 +1879,23 @@
       "exit_price": 0.0001407,
       "exit_pct": 15.04,
       "exit_time": "2026-05-13T00:05:17.695017+00:00"
+    },
+    {
+      "symbol": "BALLSACKDORKL",
+      "chain": "solana",
+      "address": "4LEydtM5terKDQJeUgx5mPB6NYR5maE9hnGnasekpump",
+      "source": "new",
+      "entry_price": 0.0001009,
+      "peak_price": 0.0002165,
+      "trailing_active": true,
+      "entry_time": "2026-05-13T08:01:00.778674+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 114.57,
+      "exit_price": 0.0002165,
+      "exit_pct": 114.57,
+      "exit_time": "2026-05-13T08:10:18.457212+00:00"
     }
   ],
   "alerted": {
@@ -2012,6 +2017,7 @@
     "0x80978300E4E1b76706295654B834bA4B2AE4e8E2": "2026-05-12T09:55:15.652031+00:00",
     "0x79850299671AF4651d777c2B19606df018124C10": "2026-05-12T10:40:14.237245+00:00",
     "B5jkQN49W6oSWThPZu9y7HsgkabBawA7vxHJ3bpcpump": "2026-05-12T22:04:24.055749+00:00",
-    "6aztCndC8EZwD9KmHjL2WWezCx1ZhQnavLG3ZrEtpump": "2026-05-13T00:05:17.695017+00:00"
+    "6aztCndC8EZwD9KmHjL2WWezCx1ZhQnavLG3ZrEtpump": "2026-05-13T00:05:17.695017+00:00",
+    "4LEydtM5terKDQJeUgx5mPB6NYR5maE9hnGnasekpump": "2026-05-13T08:10:18.457212+00:00"
   }
 }
