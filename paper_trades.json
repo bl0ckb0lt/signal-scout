@@ -13,22 +13,8 @@
       "entry_time": "2026-05-12T05:30:54.986565+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 17,
+      "api_failures": 18,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "CHINA",
-      "chain": "solana",
-      "address": "FHfYY6sViy7G21a33JLtUPpvYj6oEwMBFNyeVkbbpump",
-      "source": "boost",
-      "entry_price": 0.0002832,
-      "peak_price": 0.0003685,
-      "trailing_active": true,
-      "entry_time": "2026-05-13T11:25:10.882290+00:00",
-      "score": 70,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 30.12
     }
   ],
   "closed": [
@@ -1910,6 +1896,23 @@
       "exit_price": 0.0002165,
       "exit_pct": 114.57,
       "exit_time": "2026-05-13T08:10:18.457212+00:00"
+    },
+    {
+      "symbol": "CHINA",
+      "chain": "solana",
+      "address": "FHfYY6sViy7G21a33JLtUPpvYj6oEwMBFNyeVkbbpump",
+      "source": "boost",
+      "entry_price": 0.0002832,
+      "peak_price": 0.0005639,
+      "trailing_active": true,
+      "entry_time": "2026-05-13T11:25:10.882290+00:00",
+      "score": 70,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 99.12,
+      "exit_price": 0.0005639,
+      "exit_pct": 99.12,
+      "exit_time": "2026-05-13T12:10:21.319301+00:00"
     }
   ],
   "alerted": {
@@ -2032,6 +2035,7 @@
     "0x79850299671AF4651d777c2B19606df018124C10": "2026-05-12T10:40:14.237245+00:00",
     "B5jkQN49W6oSWThPZu9y7HsgkabBawA7vxHJ3bpcpump": "2026-05-12T22:04:24.055749+00:00",
     "6aztCndC8EZwD9KmHjL2WWezCx1ZhQnavLG3ZrEtpump": "2026-05-13T00:05:17.695017+00:00",
-    "4LEydtM5terKDQJeUgx5mPB6NYR5maE9hnGnasekpump": "2026-05-13T08:10:18.457212+00:00"
+    "4LEydtM5terKDQJeUgx5mPB6NYR5maE9hnGnasekpump": "2026-05-13T08:10:18.457212+00:00",
+    "FHfYY6sViy7G21a33JLtUPpvYj6oEwMBFNyeVkbbpump": "2026-05-13T12:10:21.319301+00:00"
   }
 }
