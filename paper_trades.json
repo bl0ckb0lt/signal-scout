@@ -1,22 +1,7 @@
 {
   "last_update_id": 146423241,
   "paused": false,
-  "open": [
-    {
-      "symbol": "UA",
-      "chain": "base",
-      "address": "0x83A0c82bb1cdb8FFa6e775f84fda30A2993087A0",
-      "source": "new",
-      "entry_price": 91.48,
-      "peak_price": 133.34,
-      "trailing_active": true,
-      "entry_time": "2026-05-12T05:30:54.986565+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 105,
-      "current_pct": 45.76
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -2083,6 +2068,23 @@
       "exit_price": 1.327e-05,
       "exit_pct": -96.03,
       "exit_time": "2026-05-14T16:40:25.749759+00:00"
+    },
+    {
+      "symbol": "UA",
+      "chain": "base",
+      "address": "0x83A0c82bb1cdb8FFa6e775f84fda30A2993087A0",
+      "source": "new",
+      "entry_price": 91.48,
+      "peak_price": 133.34,
+      "trailing_active": true,
+      "entry_time": "2026-05-12T05:30:54.986565+00:00",
+      "score": 67,
+      "status": "STALE",
+      "api_failures": 106,
+      "current_pct": 45.76,
+      "exit_price": 0,
+      "exit_pct": -100.0,
+      "exit_time": "2026-05-14T20:15:18.065488+00:00"
     }
   ],
   "alerted": {
@@ -2216,6 +2218,7 @@
     "0xAf3bc0766b0Ac61C77F4Dd11CD1BAD21b2AeefD5": "2026-05-14T09:20:19.428808+00:00",
     "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN": "2026-05-14T11:15:13.229629+00:00",
     "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6": "2026-05-14T12:35:13.838152+00:00",
-    "0x64cEc1B31444dC287eeCc722598f3282A4d17E76": "2026-05-14T16:40:25.749759+00:00"
+    "0x64cEc1B31444dC287eeCc722598f3282A4d17E76": "2026-05-14T16:40:25.749759+00:00",
+    "0x83A0c82bb1cdb8FFa6e775f84fda30A2993087A0": "2026-05-14T20:15:18.065488+00:00"
   }
 }
