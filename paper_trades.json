@@ -13,20 +13,8 @@
       "entry_time": "2026-05-12T05:30:54.986565+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 85,
+      "api_failures": 86,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "EXEC",
-      "chain": "ethereum",
-      "address": "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6",
-      "source": "new",
-      "entry_price": 0.001969,
-      "peak_price": 0.001969,
-      "trailing_active": false,
-      "entry_time": "2026-05-14T12:31:00.086676+00:00",
-      "score": 67,
-      "status": "open"
     }
   ],
   "closed": [
@@ -2061,6 +2049,23 @@
       "exit_price": 0.0001244,
       "exit_pct": -17.72,
       "exit_time": "2026-05-14T11:15:13.229629+00:00"
+    },
+    {
+      "symbol": "EXEC",
+      "chain": "ethereum",
+      "address": "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6",
+      "source": "new",
+      "entry_price": 0.001969,
+      "peak_price": 0.001969,
+      "trailing_active": false,
+      "entry_time": "2026-05-14T12:31:00.086676+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.34,
+      "exit_price": 0.001214,
+      "exit_pct": -38.34,
+      "exit_time": "2026-05-14T12:35:13.838152+00:00"
     }
   ],
   "alerted": {
@@ -2192,6 +2197,7 @@
     "0x0008f07c52aE704C9861F4beC857D909d02DE847": "2026-05-13T23:05:14.045771+00:00",
     "0x8Ef699477219710Ac4540919A374621f1f855510": "2026-05-14T06:05:15.026096+00:00",
     "0xAf3bc0766b0Ac61C77F4Dd11CD1BAD21b2AeefD5": "2026-05-14T09:20:19.428808+00:00",
-    "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN": "2026-05-14T11:15:13.229629+00:00"
+    "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN": "2026-05-14T11:15:13.229629+00:00",
+    "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6": "2026-05-14T12:35:13.838152+00:00"
   }
 }
