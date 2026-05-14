@@ -13,20 +13,8 @@
       "entry_time": "2026-05-12T05:30:54.986565+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 96,
+      "api_failures": 97,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "MOONPEPE",
-      "chain": "ethereum",
-      "address": "0x64cEc1B31444dC287eeCc722598f3282A4d17E76",
-      "source": "new",
-      "entry_price": 0.0003344,
-      "peak_price": 0.0003344,
-      "trailing_active": false,
-      "entry_time": "2026-05-14T16:31:01.400322+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -2078,6 +2066,23 @@
       "exit_price": 0.001214,
       "exit_pct": -38.34,
       "exit_time": "2026-05-14T12:35:13.838152+00:00"
+    },
+    {
+      "symbol": "MOONPEPE",
+      "chain": "ethereum",
+      "address": "0x64cEc1B31444dC287eeCc722598f3282A4d17E76",
+      "source": "new",
+      "entry_price": 0.0003344,
+      "peak_price": 0.0003344,
+      "trailing_active": false,
+      "entry_time": "2026-05-14T16:31:01.400322+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -96.03,
+      "exit_price": 1.327e-05,
+      "exit_pct": -96.03,
+      "exit_time": "2026-05-14T16:40:25.749759+00:00"
     }
   ],
   "alerted": {
@@ -2210,6 +2215,7 @@
     "0x8Ef699477219710Ac4540919A374621f1f855510": "2026-05-14T06:05:15.026096+00:00",
     "0xAf3bc0766b0Ac61C77F4Dd11CD1BAD21b2AeefD5": "2026-05-14T09:20:19.428808+00:00",
     "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN": "2026-05-14T11:15:13.229629+00:00",
-    "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6": "2026-05-14T12:35:13.838152+00:00"
+    "0x591c040cbC9eB2401f17A1cC779AB240b7fEA5F6": "2026-05-14T12:35:13.838152+00:00",
+    "0x64cEc1B31444dC287eeCc722598f3282A4d17E76": "2026-05-14T16:40:25.749759+00:00"
   }
 }
