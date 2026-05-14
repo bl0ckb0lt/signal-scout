@@ -15,11 +15,19 @@ import os, json, time, datetime, subprocess
 # ── Config ────────────────────────────────────────────────────────────────────
 
 MAX_AGE_MINUTES      = 120   # tighter — fresher tokens only
-MIN_SCORE            = 65   # raised from 55 — cuts weak signals
+MIN_SCORE            = 70   # raised from 65 — 65-68 range had consistent losses
+WHALE_MIN_SCORE      = 58   # whale/smart override still needs minimum quality
+STRONG_BUY_SCORE     = 80   # premium tier shown in alert card
+EARLY_SL_MINUTES     = 20   # tighter SL window after entry (meme rugs happen fast)
+EARLY_SL_PCT         = 10.0 # SL used during EARLY_SL_MINUTES window
+NO_BOUNCE_AGE_MIN    = 10   # min minutes before no-bounce exit triggers
+NO_BOUNCE_DOWN_PCT   = 7.0  # exit early if down this much with no gain
+NO_BOUNCE_PEAK_PCT   = 4.0  # max peak gain to qualify as "no bounce" (straight dump)
 MIN_LIQUIDITY        = 25000 # raised from 5K — low liq = easy dump
 MAX_FDV              = 5_000_000  # skip if market cap already >$5M
 MAX_TOKENS           = 20   # fewer, higher quality
 MIN_MOMENTUM_H1      = 20   # raised from 15%
+MIN_MOMENTUM_M5      = -3.0 # 5m change must not be actively dumping at entry
 
 PUMP_MIN_MCAP        = 10_000
 PUMP_MAX_PROGRESS    = 80
@@ -37,6 +45,8 @@ HARD_TP_PCT         = 60.0
 MAX_OPEN_TRADES     = 8
 PAPER_TRADES_FILE   = "paper_trades.json"
 MAX_SL_FAILURES     = 3     # alert after N consecutive API failures on a position
+MAX_STALE_FAILURES  = 24    # force-close zombie position after ~2h of dead feed
+MIN_VOLUME_24H      = 50_000  # min 24h volume — filters low-conviction entries
 
 # ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
@@ -58,6 +68,25 @@ except Exception as _te:
     def check_real_exits(*a, **k): pass
     def real_trade_summary(): return "⚠️ Trader module unavailable."
     def handle_approve(*a, **k): pass
+
+try:
+    from sheets_logger import sheets_log_open, sheets_log_close
+except Exception as _se:
+    print(f"sheets_logger import failed: {_se}")
+    def sheets_log_open(*a, **k): pass
+    def sheets_log_close(*a, **k): pass
+
+try:
+    from twitter_alerts import post_tweet
+except Exception as _te:
+    print(f"twitter_alerts import failed: {_te}")
+    def post_tweet(*a, **k): pass
+
+try:
+    from twitter_search import fetch_x_tokens
+except Exception as _xs:
+    print(f"twitter_search import failed: {_xs}")
+    def fetch_x_tokens(): return []
 
 SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
@@ -268,8 +297,8 @@ def _close_pos(pos, now_p, status, state):
     pos.update({"exit_price": now_p, "exit_pct": pct,
                 "status": status, "exit_time": now})
     state.setdefault("closed", []).append(pos)
-    # Set cooldown so we don't re-enter this token immediately
     state.setdefault("cooldown", {})[pos["address"]] = now
+    sheets_log_close(pos)
 
 
 def check_exits(state, tg_token, tg_chat):
@@ -278,11 +307,12 @@ def check_exits(state, tg_token, tg_chat):
 
     Flow per position:
       ① Price rises → update peak_price
-      ② Once up TRAIL_ACTIVATE_PCT → switch to trailing mode (notify once)
-      ③ While trailing: stop = peak × (1 - TRAIL_PCT/100)
+      ② Once up TRAIL_ACTIVATE_PCT → trailing_active flips True (sticky, never resets)
+      ③ While trailing: stop = peak × (1 - trail_gap/100)
+         Gap tightens as peak gain grows: 10% → 7% → 5%
          If price drops below stop → exit (TSL hit)
-      ④ Hard cap: if up HARD_TP_PCT → exit immediately (hard TP)
-      ⑤ Before trailing activates: fixed SL at -STOP_LOSS_PCT
+      ④ Hard cap: if up HARD_TP_PCT → exit immediately (HARD_TP)
+      ⑤ Fixed SL only applies before trailing ever activates
     """
     still_open = []
 
@@ -304,6 +334,13 @@ def check_exits(state, tg_token, tg_chat):
         if not pairs:
             fails = pos.get("api_failures", 0) + 1
             pos["api_failures"] = fails
+            if fails >= MAX_STALE_FAILURES:
+                tg_send(tg_token, tg_chat,
+                    f"🪦 <b>{sym}</b> — price feed dead {fails} scans (~{fails*5//60}h).\n"
+                    f"Auto-closing as STALE — check manually.\n"
+                    f"📋 <code>{addr}</code>")
+                _close_pos(pos, 0, "STALE", state)
+                continue
             if fails >= MAX_SL_FAILURES:
                 tg_send(tg_token, tg_chat,
                     f"⚠️ <b>{sym}</b> — price feed down {fails} scans in a row.\n"
@@ -318,20 +355,31 @@ def check_exits(state, tg_token, tg_chat):
             continue
         pos["api_failures"] = 0  # reset on successful price fetch
 
-        pct_entry = (now_p - entry) / entry * 100          # % from entry
-        peak      = max(pos.get("peak_price") or entry, now_p)  # all-time peak
-        pct_peak  = (now_p - peak) / peak * 100            # % from peak (≤ 0)
-        trail_stop = peak * (1 - TRAIL_PCT / 100)
-        was_trailing = pos.get("trailing_active", False)
-        trailing_now = pct_entry >= TRAIL_ACTIVATE_PCT
+        pct_entry    = (now_p - entry) / entry * 100               # % from entry (current)
+        peak         = max(pos.get("peak_price") or entry, now_p)  # all-time high
+        pct_peak_gain = (peak - entry) / entry * 100               # best gain reached
 
-        # Update peak
+        # Tiered gap: tighten as the position has risen higher (use peak gain, not current)
+        if pct_peak_gain >= 45:
+            trail_gap = 5.0
+        elif pct_peak_gain >= 30:
+            trail_gap = 7.0
+        else:
+            trail_gap = TRAIL_PCT   # 10%
+        trail_stop = peak * (1 - trail_gap / 100)
+
+        was_trailing    = pos.get("trailing_active", False)
+        # Sticky: once trailing activates it never turns off — prevents the
+        # bug where a price pullback below TRAIL_ACTIVATE_PCT disables the
+        # trailing guard and exposes the position to the full fixed SL again.
+        trailing_active = was_trailing or (pct_entry >= TRAIL_ACTIVATE_PCT)
+
         pos["peak_price"]      = peak
-        pos["trailing_active"] = trailing_now
+        pos["trailing_active"] = trailing_active
         pos["current_pct"]     = round(pct_entry, 2)
 
         # ── ① Notify when trailing first kicks in ─────────────────────────
-        if trailing_now and not was_trailing:
+        if trailing_active and not was_trailing:
             tg_send(tg_token, tg_chat,
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                 f"  🔒 TRAILING STOP LOCKED\n"
@@ -339,7 +387,7 @@ def check_exits(state, tg_token, tg_chat):
                 f"<b>{sym}</b> ({chain.upper()})  up <b>+{pct_entry:.1f}%</b>\n\n"
                 f"    Entry     ${entry:.8f}\n"
                 f"    Peak      ${peak:.8f}\n"
-                f"    Trail SL  ${trail_stop:.8f}  (-{TRAIL_PCT:.0f}% from peak)\n\n"
+                f"    Trail SL  ${trail_stop:.8f}  (-{trail_gap:.0f}% from peak)\n\n"
                 f"🔒 Stop rises automatically as price climbs.\n"
                 f"📋 <code>{addr}</code>\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━"
@@ -362,7 +410,7 @@ def check_exits(state, tg_token, tg_chat):
             _close_pos(pos, now_p, "HARD_TP", state)
 
         # ── ③ Trailing stop hit ───────────────────────────────────────────
-        elif trailing_now and now_p <= trail_stop:
+        elif trailing_active and now_p <= trail_stop:
             gain_locked = round((trail_stop - entry) / entry * 100, 1)
             tg_send(tg_token, tg_chat,
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
@@ -370,7 +418,7 @@ def check_exits(state, tg_token, tg_chat):
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
                 f"<b>{sym}</b> ({chain.upper()})\n\n"
                 f"    Entry    ${entry:.8f}\n"
-                f"    Peak     ${peak:.8f}  (+{(peak-entry)/entry*100:.1f}%)\n"
+                f"    Peak     ${peak:.8f}  (+{pct_peak_gain:.1f}%)\n"
                 f"    Exit     ${now_p:.8f}\n"
                 f"    Locked   <b>+{gain_locked:.1f}%</b> profit ✅\n\n"
                 f"🔒 Trailing stop protected your gains.\n"
@@ -379,20 +427,55 @@ def check_exits(state, tg_token, tg_chat):
             )
             _close_pos(pos, now_p, "TSL", state)
 
-        # ── ④ Fixed SL (before trailing activates) ────────────────────────
-        elif not trailing_now and pct_entry <= -STOP_LOSS_PCT:
-            tg_send(tg_token, tg_chat,
-                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                f"  🛑 STOP LOSS HIT\n"
-                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>\n\n"
-                f"    Entry  ${entry:.8f}\n"
-                f"    Now    ${now_p:.8f}\n\n"
-                f"❌ <b>Exit now</b> — protect your capital.\n"
-                f"📋 <code>{addr}</code>\n"
-                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
-            )
-            _close_pos(pos, now_p, "SL", state)
+        # ── ④ Fixed SL — only while trailing has never activated ──────────
+        # Use tighter stop in the first EARLY_SL_MINUTES to catch fast rugs
+        elif not trailing_active:
+            try:
+                entry_dt  = datetime.datetime.fromisoformat(pos.get("entry_time", ""))
+                if entry_dt.tzinfo is None:
+                    entry_dt = entry_dt.replace(tzinfo=datetime.UTC)
+                age_min = (datetime.datetime.now(datetime.UTC) - entry_dt).total_seconds() / 60
+            except Exception:
+                age_min = EARLY_SL_MINUTES + 1  # unknown age → use standard SL
+
+            # ── No-bounce check: straight dump with no meaningful gain ────────
+            # If the token never went up and is already down hard → cut losses early
+            if (age_min >= NO_BOUNCE_AGE_MIN
+                    and pct_peak_gain < NO_BOUNCE_PEAK_PCT
+                    and pct_entry <= -NO_BOUNCE_DOWN_PCT):
+                tg_send(tg_token, tg_chat,
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                    f"  🛑 NO-BOUNCE EXIT\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                    f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>\n\n"
+                    f"    Entry  ${entry:.8f}\n"
+                    f"    Now    ${now_p:.8f}\n"
+                    f"    Peak   +{pct_peak_gain:.1f}%  (never bounced)\n\n"
+                    f"❌ Straight dump — exit early to protect capital.\n"
+                    f"📋 <code>{addr}</code>\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+                )
+                _close_pos(pos, now_p, "SL", state)
+
+            # ── Standard SL (early window or normal) ─────────────────────────
+            else:
+                sl_pct = EARLY_SL_PCT if age_min <= EARLY_SL_MINUTES else STOP_LOSS_PCT
+                if pct_entry <= -sl_pct:
+                    tg_send(tg_token, tg_chat,
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                        f"  🛑 STOP LOSS HIT\n"
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                        f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>\n\n"
+                        f"    Entry  ${entry:.8f}\n"
+                        f"    Now    ${now_p:.8f}\n"
+                        f"    SL     -{sl_pct:.0f}%{'  (early window)' if age_min <= EARLY_SL_MINUTES else ''}\n\n"
+                        f"❌ <b>Exit now</b> — protect your capital.\n"
+                        f"📋 <code>{addr}</code>\n"
+                        f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+                    )
+                    _close_pos(pos, now_p, "SL", state)
+                else:
+                    still_open.append(pos)
 
         else:
             still_open.append(pos)
@@ -420,6 +503,8 @@ def log_paper_trade(state, t):
     cooldowns = state.get("cooldown", {})
     if addr in cooldowns:
         exited_at = datetime.datetime.fromisoformat(cooldowns[addr])
+        if exited_at.tzinfo is None:
+            exited_at = exited_at.replace(tzinfo=datetime.UTC)
         age_min   = (datetime.datetime.now(datetime.UTC) - exited_at).total_seconds() / 60
         if age_min < COOLDOWN_MINUTES:
             print(f"  Cooldown: {t.get('symbol')} skipped ({age_min:.0f}m since last exit)")
@@ -438,6 +523,7 @@ def log_paper_trade(state, t):
         "score":           t.get("score", 0),
         "status":          "open",
     })
+    sheets_log_open(t)
     return state
 
 
@@ -495,6 +581,65 @@ def fetch_pump_tokens():
             "pump_progress": round(progress, 1),
             "smart_money": smart,
         })
+    return tokens
+
+
+# ── Graduated pump.fun tokens (bonding curve complete → Raydium) ─────────────
+
+GRAD_MAX_AGE_MINUTES = 240   # extended — organic pumps can take time to be discovered
+GRAD_MIN_MCAP        = 10_000  # lowered from $50K — don't miss early grads like SCAM ALTMAN
+
+def fetch_graduated_tokens():
+    """
+    Query pump.fun v3 API for tokens that completed the bonding curve and moved
+    to Raydium. These are invisible to DexScreener boost/profile feeds — this is
+    why we missed SCAM ALTMAN, CLAWD, etc.
+
+    Filter: complete=True, raydium_pool set, age < GRAD_MAX_AGE_MINUTES, mcap > GRAD_MIN_MCAP.
+    Returns seed dicts with source='graduated' for enrichment via enrich().
+    """
+    data = curl(
+        "https://frontend-api-v3.pump.fun/coins"
+        "?sort=last_trade_timestamp&order=DESC&limit=100&includeNsfw=false"
+    )
+    if not data or not isinstance(data, list):
+        return []
+
+    tokens  = []
+    now_ts  = time.time()
+
+    for coin in data:
+        # Must be fully graduated with a live Raydium pool
+        if not coin.get("complete"):
+            continue
+        pool = coin.get("raydium_pool") or coin.get("raydium_pool_address") or ""
+        if not pool:
+            continue
+
+        mint    = coin.get("mint", "")
+        if not mint:
+            continue
+
+        mcap    = coin.get("usd_market_cap") or coin.get("market_cap") or 0
+        created = coin.get("created_timestamp") or 0
+        age_min = (now_ts - created / 1000) / 60 if created else 9999
+
+        if mcap < GRAD_MIN_MCAP or age_min > GRAD_MAX_AGE_MINUTES:
+            continue
+
+        tokens.append({
+            "chain":           "solana",
+            "address":         mint,
+            "symbol":          coin.get("symbol", "?"),
+            "name":            coin.get("name", "?"),
+            "source":          "graduated",
+            "description":     coin.get("description", ""),
+            "icon":            coin.get("image_uri", ""),
+            "pair_age_minutes": round(age_min, 1),
+            "raydium_pool":    pool,
+        })
+
+    print(f"  Graduated candidates: {len(tokens)}")
     return tokens
 
 
@@ -606,7 +751,9 @@ def score(t):
 
     if src == "boost":       s += 8
     if src == "pump.fun":    s += 10
+    if src == "graduated":   s += 12   # completed bonding curve → organic community token
     if src == "whale_buy":   s += 18   # direct whale buy — high confidence
+    if src == "x_alpha":     s += 14   # trusted alpha caller call on X
     if smart:                s += 12
     # Extra boost if whale win-rate is very high
     wr = t.get("whale_win_rate", 0)
@@ -615,7 +762,10 @@ def score(t):
     elif age is not None and age < 180: s += 3
     if prog is not None and 20 <= prog <= 70: s += 5
 
-    verdict = "BUY" if s >= 65 else "WATCH" if s >= 45 else "AVOID"
+    if s >= STRONG_BUY_SCORE:    verdict = "STRONG_BUY"
+    elif s >= 65:                verdict = "BUY"
+    elif s >= 45:                verdict = "WATCH"
+    else:                        verdict = "AVOID"
     return {**t, "score": s, "verdict": verdict}
 
 
@@ -709,7 +859,12 @@ def format_alert(t, rc):
     fdv     = t.get("fdv")
 
     # ── Labels
-    verdict_badge = {"BUY": "🟢 STRONG BUY", "WATCH": "🟡 WATCH", "AVOID": "🔴 AVOID"}.get(verdict, "⚪")
+    verdict_badge = {
+        "STRONG_BUY": "🔥 STRONG BUY",
+        "BUY":        "🟢 BUY",
+        "WATCH":      "🟡 WATCH",
+        "AVOID":      "🔴 AVOID",
+    }.get(verdict, "⚪")
     chain_upper   = chain.upper()
     age_str       = f"{int(age)}m" if age is not None else "?"
     price_str     = f"${float(price):.8f}" if price else "—"
@@ -760,6 +915,19 @@ def format_alert(t, rc):
             f"─── 🎯 BONDING CURVE ───────",
             f"    [{prog_bar}] {prog:.0f}%  to graduation",
         ]
+
+    x_caller = t.get("x_caller", "")
+    if x_caller:
+        x_likes = t.get("x_likes", 0)
+        x_rts   = t.get("x_rts", 0)
+        lines += [
+            f"",
+            f"─── 🐦 X ALPHA CALL ────────",
+            f"    {x_caller}  ❤ {x_likes}  🔁 {x_rts}",
+        ]
+        snippet = t.get("x_snippet", "")
+        if snippet:
+            lines.append(f"    <i>{snippet[:80]}…</i>")
 
     if smart or t.get("whale_label"):
         lines += [
@@ -902,7 +1070,41 @@ def main():
             enriched_whale.append(w)       # keep whale signal even without DEX data
 
     enriched.extend(enriched_whale)
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale)")
+
+    # ── X/Twitter alpha signals ────────────────────────────────────────────────
+    x_raw = fetch_x_tokens()
+    enriched_x = []
+    for x in x_raw:
+        try:
+            e = enrich(x)
+            if e:
+                e["source"]    = "x_alpha"
+                e["x_caller"]  = x.get("x_caller", "")
+                e["x_likes"]   = x.get("x_likes", 0)
+                e["x_rts"]     = x.get("x_rts", 0)
+                e["x_snippet"] = x.get("x_snippet", "")
+                enriched_x.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  x enrich error {x.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_x)
+
+    # ── Graduated pump.fun tokens (bonding curve complete → Raydium) ──────────
+    grad_raw = fetch_graduated_tokens()
+    enriched_grad = []
+    for g in grad_raw:
+        try:
+            e = enrich(g)
+            if e:
+                e["source"]      = "graduated"
+                e["icon"]        = e.get("icon") or g.get("icon", "")
+                enriched_grad.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  grad enrich error {g.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_grad)
+
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  🎓 {len(enriched_grad)} graduated)")
 
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
@@ -911,7 +1113,9 @@ def main():
         addr  = t.get("address", "")
         age   = t.get("pair_age_minutes") or 9999
         liq   = t.get("liquidity_usd") or 0
-        pc1   = abs(t.get("price_change_h1") or 0)
+        vol24 = t.get("volume_h24") or 0
+        pc1   = t.get("price_change_h1") or 0      # signed — no abs(), declining tokens must not pass
+        m5    = t.get("price_change_m5") or 0       # 5m momentum check
         src   = t.get("source", "")
         smart = t.get("smart_money", [])
         if addr in seen_addrs:
@@ -923,10 +1127,16 @@ def main():
         elif src == "pump.fun":
             if age <= PUMP_MAX_AGE_MINUTES and (t.get("buys_h1") or 0) >= PUMP_MIN_TRADES:
                 fresh.append(t)
+        elif src == "graduated":
+            # Recently graduated pump.fun tokens — use relaxed age, skip FDV cap
+            if liq >= MIN_LIQUIDITY and (pc1 >= MIN_MOMENTUM_H1 or bool(smart)):
+                fresh.append(t)
         elif (age <= MAX_AGE_MINUTES
               and liq >= MIN_LIQUIDITY
-              and (fdv == 0 or fdv <= MAX_FDV)   # skip if already pumped
-              and (pc1 >= MIN_MOMENTUM_H1 or bool(smart))):
+              and vol24 >= MIN_VOLUME_24H
+              and (fdv == 0 or fdv <= MAX_FDV)
+              and (pc1 >= MIN_MOMENTUM_H1 or bool(smart))
+              and (m5 >= MIN_MOMENTUM_M5 or bool(smart))):   # 5m must not be actively dumping
             fresh.append(t)
 
     print(f"  Fresh signals: {len(fresh)}")
@@ -938,12 +1148,20 @@ def main():
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
     for t in scored[:MAX_TOKENS]:
-        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label"))
+        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") == "x_alpha"
         is_whale  = t.get("source") == "whale_buy"
-        if t["score"] < MIN_SCORE and not has_smart:
-            continue
-        if t["verdict"] == "AVOID" and not has_smart:
-            continue
+        # Non-whale path: need score >= MIN_SCORE and not AVOID/WATCH
+        if not has_smart:
+            if t["score"] < MIN_SCORE:
+                continue
+            if t["verdict"] not in ("BUY", "STRONG_BUY"):
+                continue
+        else:
+            # Whale/smart override: still needs a quality floor
+            if t["score"] < WHALE_MIN_SCORE:
+                continue
+            if t["verdict"] == "AVOID":
+                continue
 
         rc = rug_check(t)
         if not rc.get("safe"):
@@ -960,6 +1178,7 @@ def main():
             flags  = " 🐋" if is_whale else (" 💡" if has_smart else "")
             flags += " 🔥" if t.get("source") == "pump.fun" else ""
             print(f"  Alert: {t.get('symbol')} score={t['score']} age={t.get('pair_age_minutes')}m{flags}")
+            post_tweet(t)
             if PAPER_MODE:
                 state = log_paper_trade(state, t)
             # Auto/semi trading
