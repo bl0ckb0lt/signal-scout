@@ -1,28 +1,20 @@
 """
-birdeye.py — Birdeye new listings + trending scanner for Signal Scout.
+birdeye.py — DexScreener trending scanner (replaces Birdeye — no API key needed).
 
-Birdeye sees Solana new token listings and real-time trending before most
-other feeds. Free API key at https://birdeye.so (no credit card needed).
-
-Add to GitHub Secrets:
-  BIRDEYE_API_KEY   ← from birdeye.so dashboard
-
-Returns seed dicts with source='birdeye' for enrichment via enrich().
+Uses DexScreener's trending endpoint which shows tokens gaining real traction
+across all chains, sorted by score. Catches movers GMGN and boost feeds miss.
 """
 
-import os, time, subprocess, json
+import time, subprocess, json
 
-BIRDEYE_BASE = "https://public-api.birdeye.so"
+DEXSCREENER_TRENDING = "https://api.dexscreener.com/token-boosts/top/v1"
+DEXSCREENER_LATEST   = "https://api.dexscreener.com/tokens/trending/v1"
 
 
-def _curl(url, api_key):
+def _curl(url):
     try:
         r = subprocess.run(
-            ["curl", "-s", "-m", "10",
-             "-H", f"X-API-KEY: {api_key}",
-             "-H", "accept: application/json",
-             "-H", "x-chain: solana",
-             url],
+            ["curl", "-s", "-m", "10", "-H", "Accept: application/json", url],
             capture_output=True, text=True, timeout=15
         )
         return json.loads(r.stdout) if r.stdout.strip() else None
@@ -32,63 +24,34 @@ def _curl(url, api_key):
 
 def fetch_birdeye_tokens():
     """
-    Pull new listings and trending tokens from Birdeye.
-    Returns seed dicts with source='birdeye'.
+    Pull trending tokens from DexScreener trending endpoint.
+    Returns seed dicts with source='birdeye' (keeps existing wiring intact).
     """
-    api_key = os.getenv("BIRDEYE_API_KEY", "")
-    if not api_key:
-        print("  birdeye: BIRDEYE_API_KEY not set — skipping")
-        return []
-
     seen   = set()
     tokens = []
 
-    # ① New listings — tokens listed in last 2h on Solana
-    new_data = _curl(
-        f"{BIRDEYE_BASE}/defi/v2/tokens/new_listing"
-        f"?limit=20&meme_platform_enabled=true",
-        api_key
-    )
-    items = (new_data or {}).get("data", {}).get("items") or []
+    data = _curl(DEXSCREENER_LATEST)
+    items = data if isinstance(data, list) else (data or {}).get("pairs") or []
+
     for item in items:
-        addr = item.get("address") or ""
-        if not addr or addr in seen:
+        # trending endpoint returns pair objects
+        token = item.get("baseToken") or {}
+        addr  = token.get("address") or item.get("tokenAddress") or ""
+        chain = item.get("chainId") or ""
+        if not addr or not chain or addr in seen:
             continue
         seen.add(addr)
         tokens.append({
-            "chain":             "solana",
-            "address":           addr,
-            "symbol":            item.get("symbol") or "?",
-            "name":              item.get("name") or "",
-            "source":            "birdeye",
-            "birdeye_type":      "new_listing",
-            "birdeye_liquidity": item.get("liquidity") or 0,
-            "birdeye_volume":    item.get("volume24h") or 0,
+            "chain":          chain,
+            "address":        addr,
+            "symbol":         token.get("symbol") or "?",
+            "name":           token.get("name") or "",
+            "source":         "birdeye",
+            "birdeye_type":   "trending",
+            "birdeye_volume": float((item.get("volume") or {}).get("h24") or 0),
         })
-    time.sleep(0.3)
+        if len(tokens) >= 30:
+            break
 
-    # ② Trending — top tokens by real trading activity (not paid boost)
-    trend_data = _curl(
-        f"{BIRDEYE_BASE}/defi/trending_tokens/v2"
-        f"?sort_by=rank&sort_type=asc&offset=0&limit=20",
-        api_key
-    )
-    items = (trend_data or {}).get("data", {}).get("items") or []
-    for item in items:
-        addr = item.get("address") or ""
-        if not addr or addr in seen:
-            continue
-        seen.add(addr)
-        tokens.append({
-            "chain":             "solana",
-            "address":           addr,
-            "symbol":            item.get("symbol") or "?",
-            "name":              item.get("name") or "",
-            "source":            "birdeye",
-            "birdeye_type":      "trending",
-            "birdeye_liquidity": item.get("liquidity") or 0,
-            "birdeye_volume":    item.get("volume24h") or 0,
-        })
-
-    print(f"  Birdeye candidates: {len(tokens)}")
+    print(f"  DexScreener trending candidates: {len(tokens)}")
     return tokens
