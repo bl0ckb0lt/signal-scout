@@ -349,10 +349,20 @@ def check_exits(state, tg_token, tg_chat):
             still_open.append(pos)
             continue
 
-        # ── Current price — track API failures ────────────────────────────
+        # ── Current price — DexScreener + Jupiter fallback ────────────────
         data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
         pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
-        if not pairs:
+        jup_price_used = False
+        if not pairs and chain == "solana":
+            # DexScreener missed it — try Jupiter (covers every Solana DEX, no key needed)
+            jup = curl(f"https://api.jup.ag/price/v2?ids={addr}") or {}
+            jup_p = float((jup.get("data", {}).get(addr, {}) or {}).get("price") or 0)
+            if jup_p:
+                now_p          = jup_p
+                jup_price_used = True
+                pos["api_failures"] = 0
+                print(f"  Jupiter fallback: {sym} ${jup_p:.8f}")
+        if not pairs and not jup_price_used:
             fails = pos.get("api_failures", 0) + 1
             pos["api_failures"] = fails
             if fails >= MAX_STALE_FAILURES:
@@ -368,12 +378,13 @@ def check_exits(state, tg_token, tg_chat):
                     f"Check manually: <code>{addr}</code>")
             still_open.append(pos)
             continue
-        p     = max(pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
-        now_p = float(p.get("priceUsd") or 0)
-        if not now_p:
-            pos["api_failures"] = pos.get("api_failures", 0) + 1
-            still_open.append(pos)
-            continue
+        if not jup_price_used:
+            p     = max(pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
+            now_p = float(p.get("priceUsd") or 0)
+            if not now_p:
+                pos["api_failures"] = pos.get("api_failures", 0) + 1
+                still_open.append(pos)
+                continue
         pos["api_failures"] = 0  # reset on successful price fetch
 
         pct_entry     = (now_p - entry) / entry * 100               # % from entry (current)
@@ -404,8 +415,8 @@ def check_exits(state, tg_token, tg_chat):
         # trailing guard and exposes the position to the full fixed SL again.
         trailing_active = was_trailing or (pct_entry >= TRAIL_ACTIVATE_PCT)
 
-        # Track peak 5m volume — used for volume decay exit
-        vol_m5      = float((p.get("volume") or {}).get("m5") or 0)
+        # Track peak 5m volume — used for volume decay exit (skip if Jupiter fallback, no vol data)
+        vol_m5      = float((p.get("volume") or {}).get("m5") or 0) if not jup_price_used else 0
         peak_vol_m5 = max(pos.get("peak_volume_m5") or 0, vol_m5)
 
         pos["peak_price"]      = peak
