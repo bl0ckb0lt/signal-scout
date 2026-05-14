@@ -88,6 +88,12 @@ except Exception as _xs:
     print(f"twitter_search import failed: {_xs}")
     def fetch_x_tokens(): return []
 
+try:
+    from tg_alpha import fetch_tg_alpha_tokens
+except Exception as _ta:
+    print(f"tg_alpha import failed: {_ta}")
+    def fetch_tg_alpha_tokens(): return []
+
 SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -754,6 +760,7 @@ def score(t):
     if src == "graduated":   s += 12   # completed bonding curve → organic community token
     if src == "whale_buy":   s += 18   # direct whale buy — high confidence
     if src == "x_alpha":     s += 14   # trusted alpha caller call on X
+    if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
     if smart:                s += 12
     # Extra boost if whale win-rate is very high
     wr = t.get("whale_win_rate", 0)
@@ -1089,6 +1096,23 @@ def main():
             print(f"  x enrich error {x.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_x)
 
+    # ── Telegram alpha channel signals ────────────────────────────────────────
+    tg_raw = fetch_tg_alpha_tokens()
+    enriched_tg = []
+    for tg in tg_raw:
+        try:
+            e = enrich(tg)
+            if e:
+                e["source"]       = "tg_alpha"
+                e["tg_channels"]  = tg.get("tg_channels", "")
+                e["tg_mentions"]  = tg.get("tg_mentions", 1)
+                e["tg_snippet"]   = tg.get("tg_snippet", "")
+                enriched_tg.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  tg enrich error {tg.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_tg)
+
     # ── Graduated pump.fun tokens (bonding curve complete → Raydium) ──────────
     grad_raw = fetch_graduated_tokens()
     enriched_grad = []
@@ -1104,7 +1128,7 @@ def main():
             print(f"  grad enrich error {g.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_grad)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  🎓 {len(enriched_grad)} graduated)")
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  🎓 {len(enriched_grad)} graduated)")
 
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
@@ -1148,7 +1172,7 @@ def main():
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
     for t in scored[:MAX_TOKENS]:
-        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") == "x_alpha"
+        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") in ("x_alpha", "tg_alpha")
         is_whale  = t.get("source") == "whale_buy"
         # Non-whale path: need score >= MIN_SCORE and not AVOID/WATCH
         if not has_smart:
