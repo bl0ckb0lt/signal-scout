@@ -13,22 +13,8 @@
       "entry_time": "2026-05-12T05:30:54.986565+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 81,
+      "api_failures": 82,
       "current_pct": 45.76
-    },
-    {
-      "symbol": "MEMELON",
-      "chain": "solana",
-      "address": "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN",
-      "source": "new",
-      "entry_price": 0.0001512,
-      "peak_price": 0.0001512,
-      "trailing_active": false,
-      "entry_time": "2026-05-14T11:00:51.827856+00:00",
-      "score": 66,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -10.65
     }
   ],
   "closed": [
@@ -2046,6 +2032,23 @@
       "exit_price": 3.985e-06,
       "exit_pct": 63.05,
       "exit_time": "2026-05-14T09:20:19.428808+00:00"
+    },
+    {
+      "symbol": "MEMELON",
+      "chain": "solana",
+      "address": "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN",
+      "source": "new",
+      "entry_price": 0.0001512,
+      "peak_price": 0.0001512,
+      "trailing_active": false,
+      "entry_time": "2026-05-14T11:00:51.827856+00:00",
+      "score": 66,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.72,
+      "exit_price": 0.0001244,
+      "exit_pct": -17.72,
+      "exit_time": "2026-05-14T11:15:13.229629+00:00"
     }
   ],
   "alerted": {
@@ -2176,6 +2179,7 @@
     "0x9fE4Ad1BA6993012Cd457e2C39f867F45dBFd8fc": "2026-05-13T20:10:23.419657+00:00",
     "0x0008f07c52aE704C9861F4beC857D909d02DE847": "2026-05-13T23:05:14.045771+00:00",
     "0x8Ef699477219710Ac4540919A374621f1f855510": "2026-05-14T06:05:15.026096+00:00",
-    "0xAf3bc0766b0Ac61C77F4Dd11CD1BAD21b2AeefD5": "2026-05-14T09:20:19.428808+00:00"
+    "0xAf3bc0766b0Ac61C77F4Dd11CD1BAD21b2AeefD5": "2026-05-14T09:20:19.428808+00:00",
+    "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN": "2026-05-14T11:15:13.229629+00:00"
   }
 }
