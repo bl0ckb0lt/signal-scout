@@ -47,6 +47,9 @@ PAPER_TRADES_FILE   = "paper_trades.json"
 MAX_SL_FAILURES     = 3     # alert after N consecutive API failures on a position
 MAX_STALE_FAILURES  = 24    # force-close zombie position after ~2h of dead feed
 MIN_VOLUME_24H      = 50_000  # min 24h volume — filters low-conviction entries
+VOL_DECAY_THRESHOLD = 0.15   # exit if 5m vol < 15% of peak 5m vol seen since entry
+VOL_DECAY_MIN_PROFIT= 5.0    # only trigger volume decay exit if position is +5%+
+VOL_DECAY_MIN_AGE   = 15     # position must be at least 15 min old before vol decay fires
 
 # ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
@@ -99,6 +102,12 @@ try:
 except Exception as _gm:
     print(f"gmgn import failed: {_gm}")
     def fetch_gmgn_tokens(): return []
+
+try:
+    from birdeye import fetch_birdeye_tokens
+except Exception as _be:
+    print(f"birdeye import failed: {_be}")
+    def fetch_birdeye_tokens(): return []
 
 SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
@@ -367,9 +376,18 @@ def check_exits(state, tg_token, tg_chat):
             continue
         pos["api_failures"] = 0  # reset on successful price fetch
 
-        pct_entry    = (now_p - entry) / entry * 100               # % from entry (current)
-        peak         = max(pos.get("peak_price") or entry, now_p)  # all-time high
-        pct_peak_gain = (peak - entry) / entry * 100               # best gain reached
+        pct_entry     = (now_p - entry) / entry * 100               # % from entry (current)
+        peak          = max(pos.get("peak_price") or entry, now_p)  # all-time high
+        pct_peak_gain = (peak - entry) / entry * 100                # best gain reached
+
+        # Age of position (needed for multiple exit checks below)
+        try:
+            entry_dt = datetime.datetime.fromisoformat(pos.get("entry_time", ""))
+            if entry_dt.tzinfo is None:
+                entry_dt = entry_dt.replace(tzinfo=datetime.UTC)
+            age_min = (datetime.datetime.now(datetime.UTC) - entry_dt).total_seconds() / 60
+        except Exception:
+            age_min = EARLY_SL_MINUTES + 1
 
         # Tiered gap: tighten as the position has risen higher (use peak gain, not current)
         if pct_peak_gain >= 45:
@@ -386,9 +404,14 @@ def check_exits(state, tg_token, tg_chat):
         # trailing guard and exposes the position to the full fixed SL again.
         trailing_active = was_trailing or (pct_entry >= TRAIL_ACTIVATE_PCT)
 
+        # Track peak 5m volume — used for volume decay exit
+        vol_m5      = float((p.get("volume") or {}).get("m5") or 0)
+        peak_vol_m5 = max(pos.get("peak_volume_m5") or 0, vol_m5)
+
         pos["peak_price"]      = peak
         pos["trailing_active"] = trailing_active
         pos["current_pct"]     = round(pct_entry, 2)
+        pos["peak_volume_m5"]  = peak_vol_m5
 
         # ── ① Notify when trailing first kicks in ─────────────────────────
         if trailing_active and not was_trailing:
@@ -405,8 +428,30 @@ def check_exits(state, tg_token, tg_chat):
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 
-        # ── ② Hard TP ─────────────────────────────────────────────────────
-        if pct_entry >= HARD_TP_PCT:
+        # ── ② Volume decay exit — party is ending, take profit before dump ─
+        vol_exit = (
+            peak_vol_m5 > 500                              # had real volume at some point
+            and vol_m5 < peak_vol_m5 * VOL_DECAY_THRESHOLD  # volume collapsed >85%
+            and pct_entry >= VOL_DECAY_MIN_PROFIT          # we're in profit
+            and age_min >= VOL_DECAY_MIN_AGE               # not a false signal in first few min
+        )
+        if vol_exit:
+            tg_send(tg_token, tg_chat,
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                f"  📉 VOLUME DECAY EXIT\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"<b>{sym}</b> ({chain.upper()})  <b>+{pct_entry:.1f}%</b>\n\n"
+                f"    Entry       ${entry:.8f}\n"
+                f"    Exit        ${now_p:.8f}\n"
+                f"    Peak vol    ${peak_vol_m5:,.0f}  →  Now ${vol_m5:,.0f}\n\n"
+                f"Volume collapsed — exiting before the dump.\n"
+                f"📋 <code>{addr}</code>\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+            )
+            _close_pos(pos, now_p, "VOL_DECAY", state)
+
+        # ── ③ Hard TP ─────────────────────────────────────────────────────
+        elif pct_entry >= HARD_TP_PCT:
             tg_send(tg_token, tg_chat,
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                 f"  🚀 HARD TAKE PROFIT  +{pct_entry:.1f}%\n"
@@ -421,7 +466,7 @@ def check_exits(state, tg_token, tg_chat):
             )
             _close_pos(pos, now_p, "HARD_TP", state)
 
-        # ── ③ Trailing stop hit ───────────────────────────────────────────
+        # ── ④ Trailing stop hit ───────────────────────────────────────────
         elif trailing_active and now_p <= trail_stop:
             gain_locked = round((trail_stop - entry) / entry * 100, 1)
             tg_send(tg_token, tg_chat,
@@ -439,19 +484,9 @@ def check_exits(state, tg_token, tg_chat):
             )
             _close_pos(pos, now_p, "TSL", state)
 
-        # ── ④ Fixed SL — only while trailing has never activated ──────────
-        # Use tighter stop in the first EARLY_SL_MINUTES to catch fast rugs
+        # ── ⑤ Fixed SL — only while trailing has never activated ──────────
         elif not trailing_active:
-            try:
-                entry_dt  = datetime.datetime.fromisoformat(pos.get("entry_time", ""))
-                if entry_dt.tzinfo is None:
-                    entry_dt = entry_dt.replace(tzinfo=datetime.UTC)
-                age_min = (datetime.datetime.now(datetime.UTC) - entry_dt).total_seconds() / 60
-            except Exception:
-                age_min = EARLY_SL_MINUTES + 1  # unknown age → use standard SL
-
             # ── No-bounce check: straight dump with no meaningful gain ────────
-            # If the token never went up and is already down hard → cut losses early
             if (age_min >= NO_BOUNCE_AGE_MIN
                     and pct_peak_gain < NO_BOUNCE_PEAK_PCT
                     and pct_entry <= -NO_BOUNCE_DOWN_PCT):
@@ -768,6 +803,7 @@ def score(t):
     if src == "x_alpha":     s += 14   # trusted alpha caller call on X
     if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
     if src == "gmgn":        s += 10   # organically trending on Solana — no paid promotion
+    if src == "birdeye":     s += 11   # new listing or trending on Birdeye real-time feed
     if smart:                s += 12
     # Extra boost if whale win-rate is very high
     wr = t.get("whale_win_rate", 0)
@@ -1138,6 +1174,22 @@ def main():
             print(f"  tg enrich error {tg.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_tg)
 
+    # ── Birdeye new listings + trending ───────────────────────────────────────
+    birdeye_raw = fetch_birdeye_tokens()
+    enriched_birdeye = []
+    for be in birdeye_raw:
+        try:
+            e = enrich(be)
+            if e:
+                e["source"]          = "birdeye"
+                e["birdeye_type"]    = be.get("birdeye_type", "")
+                e["birdeye_volume"]  = be.get("birdeye_volume", 0)
+                enriched_birdeye.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  birdeye enrich error {be.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_birdeye)
+
     # ── GMGN trending Solana tokens ────────────────────────────────────────────
     gmgn_raw = fetch_gmgn_tokens()
     enriched_gmgn = []
@@ -1169,7 +1221,7 @@ def main():
             print(f"  grad enrich error {g.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_grad)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🎓 {len(enriched_grad)} graduated)")
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated)")
 
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
