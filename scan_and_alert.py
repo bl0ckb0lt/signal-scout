@@ -94,6 +94,12 @@ except Exception as _ta:
     print(f"tg_alpha import failed: {_ta}")
     def fetch_tg_alpha_tokens(): return []
 
+try:
+    from gmgn import fetch_gmgn_tokens
+except Exception as _gm:
+    print(f"gmgn import failed: {_gm}")
+    def fetch_gmgn_tokens(): return []
+
 SMART_WALLETS = {addr: info["label"] for addr, info in VERIFIED_WHALES.items()}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -761,6 +767,7 @@ def score(t):
     if src == "whale_buy":   s += 18   # direct whale buy — high confidence
     if src == "x_alpha":     s += 14   # trusted alpha caller call on X
     if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
+    if src == "gmgn":        s += 10   # organically trending on Solana — no paid promotion
     if smart:                s += 12
     # Extra boost if whale win-rate is very high
     wr = t.get("whale_win_rate", 0)
@@ -1023,19 +1030,37 @@ def main():
         open_mints = {p["address"] for p in state["open"] if p.get("chain") == "solana"}
         if open_mints:
             selling = get_whale_exits(helius_key, open_mints, lookback_minutes=10)
+            still_open_whale = []
             for pos in state.get("open", []):
                 if pos["address"] in selling:
-                    print(f"  🐋 Whale exiting {pos['symbol']} — sending alert")
+                    print(f"  Whale exiting {pos['symbol']} — force closing position")
+                    addr  = pos["address"]
+                    chain = pos["chain"]
+                    entry = pos.get("entry_price") or 0
+                    # get current price for clean exit record
+                    _d    = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
+                    _pairs = [_p for _p in (_d.get("pairs") or []) if _p.get("chainId") == chain]
+                    if _pairs:
+                        _best = max(_pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
+                        now_p = float(_best.get("priceUsd") or 0)
+                    else:
+                        now_p = entry * (1 + (pos.get("current_pct") or 0) / 100)
+                    pct_now = round((now_p - entry) / entry * 100, 2) if entry else 0
                     tg_send(tg_token, tg_chat,
                         f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                        f"  🚨 WHALE SELLING ALERT\n"
+                        f"  🐋 WHALE EXIT — CLOSING\n"
                         f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                        f"A tracked whale is <b>SELLING</b> <b>{pos['symbol']}</b>!\n\n"
-                        f"  Consider closing your position now.\n"
-                        f"  They typically exit at their target — front-run them.\n\n"
-                        f"📋 <code>{pos['address']}</code>\n"
+                        f"Tracked whale <b>SOLD {pos['symbol']}</b> — auto-closing position.\n\n"
+                        f"    Entry  ${entry:.8f}\n"
+                        f"    Exit   ${now_p:.8f}  (<b>{pct_now:+.1f}%</b>)\n\n"
+                        f"Front-ran the whale exit.\n"
+                        f"📋 <code>{addr}</code>\n"
                         f"━━━━━━━━━━━━━━━━━━━━━━━━━"
                     )
+                    _close_pos(pos, now_p, "WHALE_EXIT", state)
+                else:
+                    still_open_whale.append(pos)
+            state["open"] = still_open_whale
 
     # ── Fetch DEX candidates ───────────────────────────────────────────────────
     raw = fetch_tokens()
@@ -1113,6 +1138,22 @@ def main():
             print(f"  tg enrich error {tg.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_tg)
 
+    # ── GMGN trending Solana tokens ────────────────────────────────────────────
+    gmgn_raw = fetch_gmgn_tokens()
+    enriched_gmgn = []
+    for gm in gmgn_raw:
+        try:
+            e = enrich(gm)
+            if e:
+                e["source"]         = "gmgn"
+                e["gmgn_swaps_1h"]  = gm.get("gmgn_swaps_1h", 0)
+                e["gmgn_volume_1h"] = gm.get("gmgn_volume_1h", 0)
+                enriched_gmgn.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  gmgn enrich error {gm.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_gmgn)
+
     # ── Graduated pump.fun tokens (bonding curve complete → Raydium) ──────────
     grad_raw = fetch_graduated_tokens()
     enriched_grad = []
@@ -1128,7 +1169,7 @@ def main():
             print(f"  grad enrich error {g.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_grad)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  🎓 {len(enriched_grad)} graduated)")
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🎓 {len(enriched_grad)} graduated)")
 
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
