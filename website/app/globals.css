@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #00ff41;
+  --cyan: #00e5ff;
+  --bg: #050505;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #c8c8c8;
+  overflow-x: hidden;
+}
+
+/* CRT scanline overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Dot-grid background */
+.grid-bg {
+  background-image:
+    radial-gradient(rgba(0, 255, 65, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Glow text */
+.glow-green {
+  color: #00ff41;
+  text-shadow: 0 0 8px rgba(0, 255, 65, 0.75), 0 0 20px rgba(0, 255, 65, 0.3);
+}
+.glow-cyan {
+  color: #00e5ff;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.75), 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+.cursor {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  background: #00ff41;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  box-shadow: 0 0 8px rgba(0, 255, 65, 0.9);
+  animation: blink 1s step-end infinite;
+}
+
+/* Card hover */
+.card-hover {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+  border: 1px solid rgba(0, 255, 65, 0.1);
+}
+.card-hover:hover {
+  border-color: rgba(0, 255, 65, 0.45);
+  box-shadow: 0 0 28px rgba(0, 255, 65, 0.1), 0 0 56px rgba(0, 255, 65, 0.05);
+  transform: translateY(-2px);
+}
+
+/* Section divider */
+.section-divider {
+  border: none;
+  border-top: 1px solid rgba(0, 255, 65, 0.08);
+}
+
+/* Tag */
+.tag {
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid rgba(0, 255, 65, 0.22);
+  color: rgba(0, 255, 65, 0.75);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.tag-cyan {
+  border-color: rgba(0, 229, 255, 0.22);
+  color: rgba(0, 229, 255, 0.75);
+}
+.tag-gray {
+  border-color: rgba(200, 200, 200, 0.15);
+  color: rgba(200, 200, 200, 0.45);
+}
+
+/* Buttons */
+.btn-green {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 1px solid rgba(0, 255, 65, 0.45);
+  color: #00ff41;
+  background: rgba(0, 255, 65, 0.05);
+  font-family: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.btn-green:hover {
+  background: rgba(0, 255, 65, 0.12);
+  border-color: #00ff41;
+  box-shadow: 0 0 18px rgba(0, 255, 65, 0.25);
+}
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 1px solid rgba(200, 200, 200, 0.18);
+  color: #888;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  border-color: rgba(200, 200, 200, 0.4);
+  color: #c8c8c8;
+  background: rgba(200, 200, 200, 0.04);
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+  animation: fadeUp 0.65s ease forwards;
+}
+.delay-200 { animation-delay: 0.2s; opacity: 0; }
+.delay-400 { animation-delay: 0.4s; opacity: 0; }
+.delay-600 { animation-delay: 0.6s; opacity: 0; }
+.delay-900 { animation-delay: 0.9s; opacity: 0; }
+
+/* Hide scrollbar */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Social link card */
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  background: #0a0a0a;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(0, 255, 65, 0.1);
+}
+.social-card:hover {
+  border-color: rgba(0, 255, 65, 0.45);
+  box-shadow: 0 0 24px rgba(0, 255, 65, 0.1);
+  transform: translateY(-2px);
+}
