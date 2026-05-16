@@ -24,7 +24,7 @@ PAPER_TRADES_FILE = "paper_trades.json"
 STOP_LOSS_PCT     = 15.0
 TRAIL_ACTIVATE_PCT= 15.0
 TRAIL_PCT         = 10.0
-HARD_TP_PCT       = 60.0
+HARD_TP_PCT       = 250.0
 
 
 def curl(url, headers=None):

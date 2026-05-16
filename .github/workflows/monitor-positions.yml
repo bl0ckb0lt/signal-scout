@@ -2,8 +2,13 @@ name: Position Monitor
 
 on:
   repository_dispatch:
-    types: [check-positions]   # cron-job.org fires this every 5 min
+    types: [check-positions]   # cron-job.org fires this every 1 min
   workflow_dispatch:
+
+# Only one positions check runs at a time; new trigger cancels the queued one (not in-progress)
+concurrency:
+  group: position-monitor
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -11,7 +16,7 @@ permissions:
 jobs:
   positions:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 8
 
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -27,6 +32,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: pip install -r requirements.txt

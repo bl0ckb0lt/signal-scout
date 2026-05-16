@@ -1395,26 +1395,6 @@ def main():
     if multi_count:
         print(f"  Multi-source confirmed: {multi_count} tokens seen in 2+ feeds 🔥")
 
-    # ── Multi-source merge — same token in multiple feeds = high conviction ────
-    _src_priority = {"whale_buy":7,"tg_alpha":6,"x_alpha":5,"graduated":4,
-                     "gmgn":3,"birdeye":2,"boost":1,"pump.fun":1,"new":0}
-    _addr_map = {}
-    for t in enriched:
-        addr = t.get("address", "")
-        if not addr:
-            continue
-        if addr not in _addr_map:
-            _addr_map[addr] = []
-        _addr_map[addr].append(t)
-    enriched = []
-    for addr, tokens in _addr_map.items():
-        best = max(tokens, key=lambda t: _src_priority.get(t.get("source", ""), 0))
-        all_srcs = list({t.get("source", "") for t in tokens if t.get("source")})
-        enriched.append({**best, "source_count": len(tokens), "all_sources": all_srcs})
-    multi_count = sum(1 for t in enriched if t.get("source_count", 1) > 1)
-    if multi_count:
-        print(f"  Multi-source confirmed: {multi_count} tokens seen in 2+ feeds 🔥")
-
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
     seen_addrs = set()
