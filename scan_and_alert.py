@@ -41,7 +41,7 @@ PAPER_MODE          = True
 STOP_LOSS_PCT       = 15.0
 TRAIL_ACTIVATE_PCT  = 15.0
 TRAIL_PCT           = 10.0
-HARD_TP_PCT         = 60.0
+HARD_TP_PCT         = 250.0  # raised from 60% — trailing stop is the real exit, hard cap only kills moonshots early
 MAX_OPEN_TRADES     = 8
 PAPER_TRADES_FILE   = "paper_trades.json"
 MAX_SL_FAILURES     = 3     # alert after N consecutive API failures on a position
@@ -50,6 +50,9 @@ MIN_VOLUME_24H      = 50_000  # min 24h volume — filters low-conviction entrie
 VOL_DECAY_THRESHOLD = 0.15   # exit if 5m vol < 15% of peak 5m vol seen since entry
 VOL_DECAY_MIN_PROFIT= 5.0    # only trigger volume decay exit if position is +5%+
 VOL_DECAY_MIN_AGE   = 15     # position must be at least 15 min old before vol decay fires
+
+# ── Sniper milestones — Telegram alerts at key profit levels (no forced exit) ─
+MILESTONE_PCTS      = [50, 100, 200]  # alert at these % gains so you can decide manually
 
 # ── Smart money wallets (mirrors VERIFIED_WHALES in whales.py) ───────────────
 
@@ -441,6 +444,29 @@ def check_exits(state, tg_token, tg_chat):
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━"
             )
 
+        # ── ① b) Milestone alerts — celebrate gains, never force exit ─────
+        milestones_hit = set(pos.get("milestones_hit") or [])
+        for ms in MILESTONE_PCTS:
+            if pct_entry >= ms and ms not in milestones_hit:
+                milestones_hit.add(ms)
+                multiplier = 1 + ms / 100
+                emoji = "🚀" if ms >= 200 else ("💰" if ms >= 100 else "🎯")
+                tg_send(tg_token, tg_chat,
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                    f"  {emoji} +{ms}% MILESTONE HIT\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                    f"<b>{sym}</b> ({chain.upper()})  <b>+{pct_entry:.1f}%</b>  ({multiplier:.1f}x)\n\n"
+                    f"    Entry   ${entry:.8f}\n"
+                    f"    Now     ${now_p:.8f}\n"
+                    f"    Peak    ${peak:.8f}\n"
+                    f"    Trail SL ${trail_stop:.8f}\n\n"
+                    f"Still riding — trailing stop protecting gains.\n"
+                    f"Consider taking 50% off manually if you want to lock in profit.\n"
+                    f"📋 <code>{addr}</code>\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━"
+                )
+        pos["milestones_hit"] = list(milestones_hit)
+
         # ── ② Volume decay exit — party is ending, take profit before dump ─
         vol_exit = (
             peak_vol_m5 > 500                              # had real volume at some point
@@ -703,6 +729,48 @@ def fetch_graduated_tokens():
     return tokens
 
 
+# ── DexScreener new pairs — catches tokens before boost/profile feeds ─────────
+# DexScreener indexes new pools within 1-3 min of creation. This hits the
+# chain-level pair list sorted by creation time, giving us tokens 5-10 min
+# before they appear in the boost or profile feeds the main scan uses.
+
+NEW_PAIRS_CHAINS    = ["solana", "bsc", "base"]   # highest meme activity
+NEW_PAIRS_MAX_AGE   = 45                           # only pairs < 45 min old
+NEW_PAIRS_MIN_LIQ   = 5_000                        # $5K min — filters empty pools
+
+def fetch_new_dex_pairs():
+    tokens = {}
+    for chain in NEW_PAIRS_CHAINS:
+        data = curl(f"https://api.dexscreener.com/latest/dex/pairs/{chain}") or {}
+        pairs = data.get("pairs") or []
+        now_ms = time.time() * 1000
+        for p in pairs:
+            created = p.get("pairCreatedAt") or 0
+            if not created:
+                continue
+            age_min = (now_ms - created) / 60000
+            if age_min > NEW_PAIRS_MAX_AGE:
+                continue
+            liq = (p.get("liquidity") or {}).get("usd") or 0
+            if liq < NEW_PAIRS_MIN_LIQ:
+                continue
+            addr = (p.get("baseToken") or {}).get("address", "")
+            if not addr or addr in tokens:
+                continue
+            tokens[addr] = {
+                "chain":   chain,
+                "address": addr,
+                "symbol":  (p.get("baseToken") or {}).get("symbol", "?"),
+                "name":    (p.get("baseToken") or {}).get("name", "?"),
+                "source":  "new_pair",
+                "icon":    (p.get("info") or {}).get("imageUrl", ""),
+            }
+        time.sleep(0.1)
+    result = list(tokens.values())
+    print(f"  New DEX pairs (<{NEW_PAIRS_MAX_AGE}min): {len(result)}")
+    return result
+
+
 # ── DexScreener fetch ─────────────────────────────────────────────────────────
 
 def fetch_tokens():
@@ -817,6 +885,7 @@ def score(t):
     if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
     if src == "gmgn":        s += 10   # organically trending on Solana — no paid promotion
     if src == "birdeye":     s += 11   # new listing or trending on Birdeye real-time feed
+    if src == "new_pair":    s += 9    # brand-new pool (<45 min) — earliest possible entry
     if smart:                s += 12
     # Extra boost if whale win-rate is very high
     wr = t.get("whale_win_rate", 0)
@@ -1031,7 +1100,7 @@ def format_alert(t, rc):
             f"",
             f"─── 📝 PAPER TRADE ─────────",
             f"    Entry  {price_str}",
-            f"    🛑 SL -{STOP_LOSS_PCT:.0f}%  →  🔒 Trail +{TRAIL_ACTIVATE_PCT:.0f}% (-{TRAIL_PCT:.0f}% peak)  →  🚀 TP +{HARD_TP_PCT:.0f}%",
+            f"    🛑 SL -{STOP_LOSS_PCT:.0f}%  →  🔒 Trail +{TRAIL_ACTIVATE_PCT:.0f}% (-{TRAIL_PCT:.0f}% peak)  →  🎯 {MILESTONE_PCTS[0]}% / {MILESTONE_PCTS[1]}% / {MILESTONE_PCTS[2]}%  →  🚀 TP +{HARD_TP_PCT:.0f}%",
         ]
 
     if len(all_srcs) > 1:
@@ -1290,7 +1359,41 @@ def main():
             print(f"  grad enrich error {g.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_grad)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated)")
+    # ── New DEX pairs — freshest possible entries ──────────────────────────────
+    new_pairs_raw = fetch_new_dex_pairs()
+    enriched_new_pairs = []
+    for np in new_pairs_raw:
+        try:
+            e = enrich(np)
+            if e:
+                e["source"] = "new_pair"
+                enriched_new_pairs.append(e)
+            time.sleep(0.05)
+        except Exception as ex:
+            print(f"  new_pair enrich error {np.get('address','?')[:10]}: {ex}")
+    enriched.extend(enriched_new_pairs)
+
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated  🆕 {len(enriched_new_pairs)} new_pairs)")
+
+    # ── Multi-source merge — same token in multiple feeds = high conviction ────
+    _src_priority = {"whale_buy":7,"tg_alpha":6,"x_alpha":5,"graduated":4,
+                     "gmgn":3,"birdeye":2,"new_pair":2,"boost":1,"pump.fun":1,"new":0}
+    _addr_map = {}
+    for t in enriched:
+        addr = t.get("address", "")
+        if not addr:
+            continue
+        if addr not in _addr_map:
+            _addr_map[addr] = []
+        _addr_map[addr].append(t)
+    enriched = []
+    for addr, tokens in _addr_map.items():
+        best = max(tokens, key=lambda t: _src_priority.get(t.get("source", ""), 0))
+        all_srcs = list({t.get("source", "") for t in tokens if t.get("source")})
+        enriched.append({**best, "source_count": len(tokens), "all_sources": all_srcs})
+    multi_count = sum(1 for t in enriched if t.get("source_count", 1) > 1)
+    if multi_count:
+        print(f"  Multi-source confirmed: {multi_count} tokens seen in 2+ feeds 🔥")
 
     # ── Multi-source merge — same token in multiple feeds = high conviction ────
     _src_priority = {"whale_buy":7,"tg_alpha":6,"x_alpha":5,"graduated":4,
