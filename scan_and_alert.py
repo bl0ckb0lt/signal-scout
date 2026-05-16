@@ -19,9 +19,9 @@ MIN_SCORE            = 70   # raised from 65 — 65-68 range had consistent loss
 WHALE_MIN_SCORE      = 58   # whale/smart override still needs minimum quality
 STRONG_BUY_SCORE     = 80   # premium tier shown in alert card
 EARLY_SL_MINUTES     = 20   # tighter SL window after entry (meme rugs happen fast)
-EARLY_SL_PCT         = 10.0 # SL used during EARLY_SL_MINUTES window
-NO_BOUNCE_AGE_MIN    = 10   # min minutes before no-bounce exit triggers
-NO_BOUNCE_DOWN_PCT   = 7.0  # exit early if down this much with no gain
+EARLY_SL_PCT         = 8.0  # tightened from 10% — catch dumps faster in early window
+NO_BOUNCE_AGE_MIN    = 5    # reduced from 10 — meme crashes happen in 2-3 min not 10
+NO_BOUNCE_DOWN_PCT   = 5.0  # reduced from 7% — exit sooner on straight dump
 NO_BOUNCE_PEAK_PCT   = 4.0  # max peak gain to qualify as "no bounce" (straight dump)
 MIN_LIQUIDITY        = 25000 # raised from 5K — low liq = easy dump
 MAX_FDV              = 5_000_000  # skip if market cap already >$5M
