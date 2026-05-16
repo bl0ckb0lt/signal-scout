@@ -1,32 +1,7 @@
 {
   "last_update_id": 146423242,
   "paused": false,
-  "open": [
-    {
-      "symbol": "SPARKY",
-      "chain": "ethereum",
-      "address": "0x4513FdCD21F3c01030eff480Ef1410Ffb96D92Bd",
-      "source": "new",
-      "entry_price": 0.0002518,
-      "peak_price": 0.0002518,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T13:50:44.185441+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "SPARKY",
-      "chain": "ethereum",
-      "address": "0x8fE7806E7055a99DF40157eD505f8dA0CA958936",
-      "source": "new",
-      "entry_price": 3.873e-06,
-      "peak_price": 3.873e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T13:50:50.394094+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -2303,6 +2278,44 @@
       "exit_price": 0.000209,
       "exit_pct": 62.52,
       "exit_time": "2026-05-16T13:22:11.908339+00:00"
+    },
+    {
+      "symbol": "SPARKY",
+      "chain": "ethereum",
+      "address": "0x4513FdCD21F3c01030eff480Ef1410Ffb96D92Bd",
+      "source": "new",
+      "entry_price": 0.0002518,
+      "peak_price": 0.0002518,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T13:50:44.185441+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.84,
+      "peak_volume_m5": 9444.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001968,
+      "exit_pct": -21.84,
+      "exit_time": "2026-05-16T13:51:18.924755+00:00"
+    },
+    {
+      "symbol": "SPARKY",
+      "chain": "ethereum",
+      "address": "0x8fE7806E7055a99DF40157eD505f8dA0CA958936",
+      "source": "new",
+      "entry_price": 3.873e-06,
+      "peak_price": 3.873e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T13:50:50.394094+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.38,
+      "peak_volume_m5": 14954.35,
+      "milestones_hit": [],
+      "exit_price": 3.2e-06,
+      "exit_pct": -17.38,
+      "exit_time": "2026-05-16T13:51:19.734768+00:00"
     }
   ],
   "alerted": {
@@ -2447,6 +2460,8 @@
     "0x05d9fe6b71a77DbcAB841bEF1ef1a3406F33B62B": "2026-05-16T12:44:12.836745+00:00",
     "0x707266E2B21AD1921bdE5A8c5F4E1E034aFA7777": "2026-05-16T12:52:14.595507+00:00",
     "0x06e2300DebeFF884560aF935b3b0d68708556872": "2026-05-16T12:52:15.260693+00:00",
-    "BigGboBX6veMLQV6gzqgV9Pbx8LeobR6eDjUQicXpump": "2026-05-16T13:22:11.908339+00:00"
+    "BigGboBX6veMLQV6gzqgV9Pbx8LeobR6eDjUQicXpump": "2026-05-16T13:22:11.908339+00:00",
+    "0x4513FdCD21F3c01030eff480Ef1410Ffb96D92Bd": "2026-05-16T13:51:18.924755+00:00",
+    "0x8fE7806E7055a99DF40157eD505f8dA0CA958936": "2026-05-16T13:51:19.734768+00:00"
   }
 }
