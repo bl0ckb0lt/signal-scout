@@ -1,32 +1,7 @@
 {
   "last_update_id": 146423243,
   "paused": false,
-  "open": [
-    {
-      "symbol": "Spacepup",
-      "chain": "ethereum",
-      "address": "0x81DE3A992822Ab817Bc709aC0a1e48dbAe9bcf5D",
-      "source": "new",
-      "entry_price": 0.0004191,
-      "peak_price": 0.0004191,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T23:30:48.651689+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "EARL",
-      "chain": "solana",
-      "address": "2mY18qY8BpQqiJX9SQaVhbxnRwzyirgXaqpWPUdxpump",
-      "source": "new",
-      "entry_price": 0.0001246,
-      "peak_price": 0.0001246,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T23:30:50.457523+00:00",
-      "score": 76,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -2559,6 +2534,44 @@
       "exit_price": 0.0002742,
       "exit_pct": 281.31,
       "exit_time": "2026-05-16T23:26:14.306780+00:00"
+    },
+    {
+      "symbol": "Spacepup",
+      "chain": "ethereum",
+      "address": "0x81DE3A992822Ab817Bc709aC0a1e48dbAe9bcf5D",
+      "source": "new",
+      "entry_price": 0.0004191,
+      "peak_price": 0.0004191,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T23:30:48.651689+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.12,
+      "peak_volume_m5": 68054.56,
+      "milestones_hit": [],
+      "exit_price": 0.0003641,
+      "exit_pct": -13.12,
+      "exit_time": "2026-05-16T23:31:14.157619+00:00"
+    },
+    {
+      "symbol": "EARL",
+      "chain": "solana",
+      "address": "2mY18qY8BpQqiJX9SQaVhbxnRwzyirgXaqpWPUdxpump",
+      "source": "new",
+      "entry_price": 0.0001246,
+      "peak_price": 0.0001246,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T23:30:50.457523+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.43,
+      "peak_volume_m5": 72261.12,
+      "milestones_hit": [],
+      "exit_price": 0.0001116,
+      "exit_pct": -10.43,
+      "exit_time": "2026-05-16T23:31:14.985969+00:00"
     }
   ],
   "alerted": {
@@ -2716,6 +2729,8 @@
     "FjgXCL8ov5BkvZGoY2QthvhUmx82mVkSmhni6nCJpump": "2026-05-16T22:02:16.670037+00:00",
     "GA5HpgMukGNuxhgbkj5eHuBXbfVMKAzBhHdz8F4Fq6ML": "2026-05-16T22:55:15.269993+00:00",
     "0xC57dE05AAb3AdBA0dfE054E64354ee67B01763Ea": "2026-05-16T22:55:32.600808+00:00",
-    "0x60E2d2b4aF6De2238d517F2361680cA76C27DA3b": "2026-05-16T23:26:14.306780+00:00"
+    "0x60E2d2b4aF6De2238d517F2361680cA76C27DA3b": "2026-05-16T23:26:14.306780+00:00",
+    "0x81DE3A992822Ab817Bc709aC0a1e48dbAe9bcf5D": "2026-05-16T23:31:14.157619+00:00",
+    "2mY18qY8BpQqiJX9SQaVhbxnRwzyirgXaqpWPUdxpump": "2026-05-16T23:31:14.985969+00:00"
   }
 }
