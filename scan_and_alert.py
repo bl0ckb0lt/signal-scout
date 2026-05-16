@@ -822,6 +822,7 @@ def score(t):
     if age is not None and age < 60:    s += 7
     elif age is not None and age < 180: s += 3
     if prog is not None and 20 <= prog <= 70: s += 5
+    if t.get("parabolic"):   s += 15   # parabolic bypass tokens get conviction bonus
 
     if s >= STRONG_BUY_SCORE:    verdict = "STRONG_BUY"
     elif s >= 65:                verdict = "BUY"
@@ -937,6 +938,8 @@ def format_alert(t, rc):
     rug_icon      = "✅" if rc.get("safe") else ("🚨" if rc.get("honeypot") else "⚠️")
     rug_label     = "Clean" if rc.get("safe") else ("HONEYPOT" if rc.get("honeypot") else rc.get("detail","?"))
     src_badge     = "🔥 PUMP.FUN" if src == "pump.fun" else ("⚡ Boosted" if src == "boost" else "🆕 New Profile")
+    if t.get("parabolic"):
+        src_badge = "🚀 PARABOLIC"
     bar           = score_bar(sc)
 
     lines = [
@@ -1259,6 +1262,16 @@ def main():
             # Recently graduated pump.fun tokens — use relaxed age, skip FDV cap
             if liq >= MIN_LIQUIDITY and (pc1 >= MIN_MOMENTUM_H1 or bool(smart)):
                 fresh.append(t)
+        elif (pc1 >= 100
+              and age <= 360
+              and liq >= MIN_LIQUIDITY
+              and vol24 >= MIN_VOLUME_24H
+              and m5 >= MIN_MOMENTUM_M5):
+            # Parabolic bypass — skip FDV cap when token is flying +100% in 1h.
+            # FDV cap of $5M kills tokens like UHOOT that blast through it in the
+            # first few percent of a 95k% move. Still requires real liquidity/volume.
+            t["parabolic"] = True
+            fresh.append(t)
         elif (age <= MAX_AGE_MINUTES
               and liq >= MIN_LIQUIDITY
               and vol24 >= MIN_VOLUME_24H
@@ -1276,7 +1289,7 @@ def main():
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
     for t in scored[:MAX_TOKENS]:
-        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") in ("x_alpha", "tg_alpha")
+        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") in ("x_alpha", "tg_alpha") or t.get("parabolic")
         is_whale  = t.get("source") == "whale_buy"
         # Non-whale path: need score >= MIN_SCORE and not AVOID/WATCH
         if not has_smart:
