@@ -2,7 +2,9 @@ name: Signal Scout Monitor
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every 30 minutes (backup — primary trigger is cron-job.org)
+    - cron: '*/30 * * * *'   # every 30 min fallback if cron-job.org is down
+  repository_dispatch:
+    types: [run-scan]          # cron-job.org fires this every 10 min (free, no server needed)
   workflow_dispatch:           # manual trigger from GitHub Actions UI
 
 permissions:
