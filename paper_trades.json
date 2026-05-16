@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Schr\u00f6dinger",
-      "chain": "ethereum",
-      "address": "0x103B0BE5BcFF3B3290415b86FFcB986504fb2E59",
-      "source": "new",
-      "entry_price": 0.0002525,
-      "peak_price": 0.0002525,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T14:50:44.149196+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "BAGELS",
       "chain": "ethereum",
       "address": "0x5E5064FEf3f0a649E7F6409b09cd8243A38b3F6C",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-16T14:50:47.181005+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 772.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -2360,6 +2352,25 @@
       "exit_price": 7.844e-05,
       "exit_pct": -16.54,
       "exit_time": "2026-05-16T14:43:16.858562+00:00"
+    },
+    {
+      "symbol": "Schr\u00f6dinger",
+      "chain": "ethereum",
+      "address": "0x103B0BE5BcFF3B3290415b86FFcB986504fb2E59",
+      "source": "new",
+      "entry_price": 0.0002525,
+      "peak_price": 0.0002525,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T14:50:44.149196+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.92,
+      "peak_volume_m5": 53381.32,
+      "milestones_hit": [],
+      "exit_price": 0.0002022,
+      "exit_pct": -19.92,
+      "exit_time": "2026-05-16T14:52:15.357268+00:00"
     }
   ],
   "alerted": {
@@ -2507,6 +2518,7 @@
     "BigGboBX6veMLQV6gzqgV9Pbx8LeobR6eDjUQicXpump": "2026-05-16T13:22:11.908339+00:00",
     "0x4513FdCD21F3c01030eff480Ef1410Ffb96D92Bd": "2026-05-16T13:51:18.924755+00:00",
     "0x8fE7806E7055a99DF40157eD505f8dA0CA958936": "2026-05-16T13:51:19.734768+00:00",
-    "0x1A7d91785e08b67283020f8166D8A9Ec995b426F": "2026-05-16T14:43:16.858562+00:00"
+    "0x1A7d91785e08b67283020f8166D8A9Ec995b426F": "2026-05-16T14:43:16.858562+00:00",
+    "0x103B0BE5BcFF3B3290415b86FFcB986504fb2E59": "2026-05-16T14:52:15.357268+00:00"
   }
 }
