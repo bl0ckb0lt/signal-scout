@@ -370,7 +370,9 @@ def check_exits(state, tg_token, tg_chat):
                     f"🪦 <b>{sym}</b> — price feed dead {fails} scans (~{fails*5//60}h).\n"
                     f"Auto-closing as STALE — check manually.\n"
                     f"📋 <code>{addr}</code>")
-                _close_pos(pos, 0, "STALE", state)
+                # Use last tracked price, not 0 — prevents false -100% records
+                stale_price = entry * (1 + (pos.get("current_pct") or 0) / 100)
+                _close_pos(pos, stale_price, "STALE", state)
                 continue
             if fails >= MAX_SL_FAILURES:
                 tg_send(tg_token, tg_chat,
@@ -823,6 +825,9 @@ def score(t):
     elif age is not None and age < 180: s += 3
     if prog is not None and 20 <= prog <= 70: s += 5
     if t.get("parabolic"):   s += 15   # parabolic bypass tokens get conviction bonus
+    src_count = t.get("source_count", 1)
+    if src_count >= 3:       s += 20   # 3+ independent feeds all spotted this token
+    elif src_count == 2:     s += 12   # confirmed by 2 feeds
 
     if s >= STRONG_BUY_SCORE:    verdict = "STRONG_BUY"
     elif s >= 65:                verdict = "BUY"
@@ -917,8 +922,12 @@ def format_alert(t, rc):
     url     = t.get("pair_url", "")
     src     = t.get("source", "")
     smart   = t.get("smart_money", [])
-    prog    = t.get("pump_progress")
-    fdv     = t.get("fdv")
+    prog      = t.get("pump_progress")
+    fdv       = t.get("fdv")
+    reasoning = t.get("reasoning", "")
+    entry_note= t.get("entry_note", "")
+    ai_scored = t.get("ai_scored", False)
+    all_srcs  = t.get("all_sources", [])
 
     # ── Labels
     verdict_badge = {
@@ -953,7 +962,7 @@ def format_alert(t, rc):
         lines.append(f"    <i>{name}</i>")
     lines += [
         f"⛓  {chain_upper}  ·  {src_badge}",
-        f"⏱  Age: <b>{age_str}</b>  ·  Score: <b>{sc}/100</b>",
+        f"⏱  Age: <b>{age_str}</b>  ·  Score: <b>{sc}/100</b>{'  🤖 AI' if ai_scored else ''}",
         f"    [{bar}]",
         f"",
         f"─── 💰 PRICE ───────────────",
@@ -1025,6 +1034,22 @@ def format_alert(t, rc):
             f"    🛑 SL -{STOP_LOSS_PCT:.0f}%  →  🔒 Trail +{TRAIL_ACTIVATE_PCT:.0f}% (-{TRAIL_PCT:.0f}% peak)  →  🚀 TP +{HARD_TP_PCT:.0f}%",
         ]
 
+    if len(all_srcs) > 1:
+        lines += [
+            f"",
+            f"─── 🔀 MULTI-SOURCE ({len(all_srcs)}) ───────",
+            f"    " + "  ·  ".join(all_srcs),
+        ]
+
+    if ai_scored and reasoning:
+        lines += [
+            f"",
+            f"─── 🤖 AI ANALYSIS ─────────",
+            f"    <i>{reasoning[:140]}</i>",
+        ]
+        if entry_note:
+            lines.append(f"    📌 {entry_note[:100]}")
+
     lines += [
         f"",
         f"━━━━━━━━━━━━━━━━━━━━━━━━━",
@@ -1041,6 +1066,29 @@ def format_alert(t, rc):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def _source_win_rates(state):
+    """Compute win rate per source from closed paper trades (min 3 trades to count)."""
+    from collections import defaultdict
+    wins = defaultdict(int)
+    total = defaultdict(int)
+    avg_pct = defaultdict(list)
+    for t in state.get("closed", []):
+        src = t.get("source", "unknown")
+        total[src] += 1
+        pct = t.get("exit_pct") or 0
+        avg_pct[src].append(pct)
+        if t.get("status") in ("TP", "TSL", "HARD_TP", "VOL_DECAY", "WHALE_EXIT"):
+            wins[src] += 1
+    return {
+        src: {
+            "win_rate": round(wins[src] / total[src] * 100),
+            "trades":   total[src],
+            "avg_pct":  round(sum(avg_pct[src]) / len(avg_pct[src]), 1),
+        }
+        for src in total if total[src] >= 3
+    }
+
+
 def main():
     tg_token   = os.environ["TELEGRAM_BOT_TOKEN"]
     tg_chat    = os.environ["TELEGRAM_CHAT_ID"]
@@ -1053,6 +1101,13 @@ def main():
 
     # ── Load state (commands handled exclusively by commands.py every 1 min) ───
     state = load_state()
+
+    # ── Self-learning: print source win rates from history ────────────────────
+    wr = _source_win_rates(state)
+    if wr:
+        best = sorted(wr.items(), key=lambda x: x[1]["win_rate"], reverse=True)
+        parts = [f"{s}: {d['win_rate']}% WR ({d['trades']}T, avg {d['avg_pct']:+.0f}%)" for s, d in best]
+        print(f"  📊 Source performance: {' | '.join(parts)}")
 
     if state.get("paused"):
         print("  Bot is paused — skipping scan.")
@@ -1237,6 +1292,26 @@ def main():
 
     print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated)")
 
+    # ── Multi-source merge — same token in multiple feeds = high conviction ────
+    _src_priority = {"whale_buy":7,"tg_alpha":6,"x_alpha":5,"graduated":4,
+                     "gmgn":3,"birdeye":2,"boost":1,"pump.fun":1,"new":0}
+    _addr_map = {}
+    for t in enriched:
+        addr = t.get("address", "")
+        if not addr:
+            continue
+        if addr not in _addr_map:
+            _addr_map[addr] = []
+        _addr_map[addr].append(t)
+    enriched = []
+    for addr, tokens in _addr_map.items():
+        best = max(tokens, key=lambda t: _src_priority.get(t.get("source", ""), 0))
+        all_srcs = list({t.get("source", "") for t in tokens if t.get("source")})
+        enriched.append({**best, "source_count": len(tokens), "all_sources": all_srcs})
+    multi_count = sum(1 for t in enriched if t.get("source_count", 1) > 1)
+    if multi_count:
+        print(f"  Multi-source confirmed: {multi_count} tokens seen in 2+ feeds 🔥")
+
     # ── Filter ─────────────────────────────────────────────────────────────────
     fresh = []
     seen_addrs = set()
@@ -1285,6 +1360,32 @@ def main():
     # ── Score ──────────────────────────────────────────────────────────────────
     scored = [score(t) for t in fresh]
     scored.sort(key=lambda x: x["score"], reverse=True)
+
+    # ── Claude AI re-score — runs on top candidates when API key is set ────────
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            from scorer import score_token as _ai_score
+            top_n = min(10, len(scored))
+            print(f"  Claude AI scoring top {top_n} candidates...")
+            for i in range(top_n):
+                t = scored[i]
+                if t.get("score", 0) < 40:
+                    break
+                ai = _ai_score(t)
+                if ai and ai.get("score_total"):
+                    # 50/50 blend: rule-based anchors to data, AI adds nuance
+                    blended = round(0.5 * t["score"] + 0.5 * ai["score_total"])
+                    scored[i] = {
+                        **t,
+                        "score":      blended,
+                        "verdict":    ai.get("verdict", t["verdict"]),
+                        "reasoning":  ai.get("reasoning", ""),
+                        "entry_note": ai.get("entry_note", ""),
+                        "ai_scored":  True,
+                    }
+            scored.sort(key=lambda x: x["score"], reverse=True)
+        except Exception as _ae:
+            print(f"  Claude scoring skipped: {_ae}")
 
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
