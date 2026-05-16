@@ -352,6 +352,21 @@ def check_exits(state, tg_token, tg_chat):
             still_open.append(pos)
             continue
 
+        # ── Conviction tier — high-quality tokens get more room to breathe ──
+        # Tokens that checked every box shouldn't be cut on a normal dip.
+        # Whale buys, multi-source confirms, and strong-buy scores get wider stops.
+        pos_score      = pos.get("score", 0)
+        src_count      = pos.get("source_count", 1)
+        high_conviction = (
+            pos_score >= STRONG_BUY_SCORE              # scored 80+
+            or src in ("whale_buy", "tg_alpha", "x_alpha", "graduated")
+            or src_count >= 2                          # seen in 2+ independent feeds
+        )
+        # High conviction: wider early SL, slower no-bounce trigger
+        eff_early_sl_pct    = 12.0  if high_conviction else EARLY_SL_PCT       # 12% vs 8%
+        eff_no_bounce_age   = 12    if high_conviction else NO_BOUNCE_AGE_MIN   # 12 min vs 5
+        eff_no_bounce_down  = 10.0  if high_conviction else NO_BOUNCE_DOWN_PCT  # 10% vs 5%
+
         # ── Current price — DexScreener + Jupiter fallback ────────────────
         data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
         pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
@@ -526,9 +541,9 @@ def check_exits(state, tg_token, tg_chat):
         # ── ⑤ Fixed SL — only while trailing has never activated ──────────
         elif not trailing_active:
             # ── No-bounce check: straight dump with no meaningful gain ────────
-            if (age_min >= NO_BOUNCE_AGE_MIN
+            if (age_min >= eff_no_bounce_age
                     and pct_peak_gain < NO_BOUNCE_PEAK_PCT
-                    and pct_entry <= -NO_BOUNCE_DOWN_PCT):
+                    and pct_entry <= -eff_no_bounce_down):
                 tg_send(tg_token, tg_chat,
                     f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                     f"  🛑 NO-BOUNCE EXIT\n"
@@ -545,13 +560,14 @@ def check_exits(state, tg_token, tg_chat):
 
             # ── Standard SL (early window or normal) ─────────────────────────
             else:
-                sl_pct = EARLY_SL_PCT if age_min <= EARLY_SL_MINUTES else STOP_LOSS_PCT
+                sl_pct = eff_early_sl_pct if age_min <= EARLY_SL_MINUTES else STOP_LOSS_PCT
+                conviction_tag = " 🔥 HIGH CONV" if high_conviction else ""
                 if pct_entry <= -sl_pct:
                     tg_send(tg_token, tg_chat,
                         f"━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                         f"  🛑 STOP LOSS HIT\n"
                         f"━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-                        f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>\n\n"
+                        f"<b>{sym}</b> ({chain.upper()})  <b>{pct_entry:.1f}%</b>{conviction_tag}\n\n"
                         f"    Entry  ${entry:.8f}\n"
                         f"    Now    ${now_p:.8f}\n"
                         f"    SL     -{sl_pct:.0f}%{'  (early window)' if age_min <= EARLY_SL_MINUTES else ''}\n\n"
