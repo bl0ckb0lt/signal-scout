@@ -1,36 +1,7 @@
 {
   "last_update_id": 146423242,
   "paused": false,
-  "open": [
-    {
-      "symbol": "Pizza",
-      "chain": "bsc",
-      "address": "0x707266E2B21AD1921bdE5A8c5F4E1E034aFA7777",
-      "source": "new",
-      "entry_price": 0.0001698,
-      "peak_price": 0.0001737,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T12:20:44.814474+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.0,
-      "peak_volume_m5": 8440.0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BAGELS",
-      "chain": "base",
-      "address": "0x06e2300DebeFF884560aF935b3b0d68708556872",
-      "source": "new",
-      "entry_price": 3.056e-06,
-      "peak_price": 3.056e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-16T12:50:48.195996+00:00",
-      "score": 67,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -2248,6 +2219,44 @@
       "exit_price": 8.263e-05,
       "exit_pct": -11.58,
       "exit_time": "2026-05-16T12:44:12.836745+00:00"
+    },
+    {
+      "symbol": "Pizza",
+      "chain": "bsc",
+      "address": "0x707266E2B21AD1921bdE5A8c5F4E1E034aFA7777",
+      "source": "new",
+      "entry_price": 0.0001698,
+      "peak_price": 0.0001737,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T12:20:44.814474+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -7.6,
+      "peak_volume_m5": 8440.0,
+      "milestones_hit": [],
+      "exit_price": 0.0001569,
+      "exit_pct": -7.6,
+      "exit_time": "2026-05-16T12:52:14.595507+00:00"
+    },
+    {
+      "symbol": "BAGELS",
+      "chain": "base",
+      "address": "0x06e2300DebeFF884560aF935b3b0d68708556872",
+      "source": "new",
+      "entry_price": 3.056e-06,
+      "peak_price": 3.056e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-16T12:50:48.195996+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.51,
+      "peak_volume_m5": 41998.29,
+      "milestones_hit": [],
+      "exit_price": 2.796e-06,
+      "exit_pct": -8.51,
+      "exit_time": "2026-05-16T12:52:15.260693+00:00"
     }
   ],
   "alerted": {
@@ -2389,6 +2398,8 @@
     "0x2709ae85d9c4e9E36A9F4Dd7Aff664Be1B5E4a3C": "2026-05-16T09:22:15.370908+00:00",
     "0xfAd26b7C8c4e92c7D6c6E2295B6DE55CC4D2d3C7": "2026-05-16T10:54:14.936592+00:00",
     "0x9084ffFF1b561EBdb9440dFb3EfEd5246CD71110": "2026-05-16T12:42:13.166815+00:00",
-    "0x05d9fe6b71a77DbcAB841bEF1ef1a3406F33B62B": "2026-05-16T12:44:12.836745+00:00"
+    "0x05d9fe6b71a77DbcAB841bEF1ef1a3406F33B62B": "2026-05-16T12:44:12.836745+00:00",
+    "0x707266E2B21AD1921bdE5A8c5F4E1E034aFA7777": "2026-05-16T12:52:14.595507+00:00",
+    "0x06e2300DebeFF884560aF935b3b0d68708556872": "2026-05-16T12:52:15.260693+00:00"
   }
 }
