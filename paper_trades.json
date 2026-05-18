@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-18T16:50:27.817544+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "BLACKROCK",
-      "chain": "solana",
-      "address": "Gq6fTaXS19UiBCdUJNC9duwrXQqa8fnNjqi6xUHCbonk",
-      "source": "new",
-      "entry_price": 0.000142,
-      "peak_price": 0.000142,
-      "trailing_active": false,
-      "entry_time": "2026-05-18T16:50:29.433033+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 22710.09,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -3572,6 +3564,25 @@
       "exit_price": 0.0002897,
       "exit_pct": 73.99,
       "exit_time": "2026-05-18T16:31:35.039256+00:00"
+    },
+    {
+      "symbol": "BLACKROCK",
+      "chain": "solana",
+      "address": "Gq6fTaXS19UiBCdUJNC9duwrXQqa8fnNjqi6xUHCbonk",
+      "source": "new",
+      "entry_price": 0.000142,
+      "peak_price": 0.000142,
+      "trailing_active": false,
+      "entry_time": "2026-05-18T16:50:29.433033+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.24,
+      "peak_volume_m5": 252677.1,
+      "milestones_hit": [],
+      "exit_price": 0.0001232,
+      "exit_pct": -13.24,
+      "exit_time": "2026-05-18T16:50:40.846627+00:00"
     }
   ],
   "alerted": {
@@ -3778,6 +3789,7 @@
     "3YhqLVGgZnC3uxpvHyk4ZFtza5BbMAv5VjSCLZNnpump": "2026-05-18T14:58:25.506846+00:00",
     "0xDd12D488A1624A981c5c40bFf74100C4A4Dd11EE": "2026-05-18T15:22:19.321161+00:00",
     "0x15E17D6679c2F820ae14C6b322C34CaE388eeB07": "2026-05-18T16:04:18.037829+00:00",
-    "0x0BDbE3717CfF6b41AdC3d9cDa29a3f9BC1D0F7D5": "2026-05-18T16:31:35.039256+00:00"
+    "0x0BDbE3717CfF6b41AdC3d9cDa29a3f9BC1D0F7D5": "2026-05-18T16:31:35.039256+00:00",
+    "Gq6fTaXS19UiBCdUJNC9duwrXQqa8fnNjqi6xUHCbonk": "2026-05-18T16:50:40.846627+00:00"
   }
 }
