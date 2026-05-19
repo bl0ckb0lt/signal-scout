@@ -8,30 +8,19 @@
       "address": "0x4c433F4EF87fE506A7eED2fD1d822CBED411eBA3",
       "source": "new",
       "entry_price": 1.145e-06,
-      "peak_price": 3.144e-06,
+      "peak_price": 3.533e-06,
       "trailing_active": true,
       "entry_time": "2026-05-19T05:40:21.123442+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 174.59,
+      "current_pct": 208.56,
       "peak_volume_m5": 82781.46,
       "milestones_hit": [
+        200,
         50,
         100
       ]
-    },
-    {
-      "symbol": "PAIR",
-      "chain": "base",
-      "address": "0x9286d4E6751404b70195C297BF4e681DfC9e2cC0",
-      "source": "new",
-      "entry_price": 4.543e-06,
-      "peak_price": 4.543e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-19T05:50:23.379796+00:00",
-      "score": 63,
-      "status": "open"
     }
   ],
   "closed": [
@@ -3971,6 +3960,25 @@
       "exit_price": 1.411e-06,
       "exit_pct": -11.37,
       "exit_time": "2026-05-19T05:23:13.074394+00:00"
+    },
+    {
+      "symbol": "PAIR",
+      "chain": "base",
+      "address": "0x9286d4E6751404b70195C297BF4e681DfC9e2cC0",
+      "source": "new",
+      "entry_price": 4.543e-06,
+      "peak_price": 4.543e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-19T05:50:23.379796+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.47,
+      "peak_volume_m5": 78756.54,
+      "milestones_hit": [],
+      "exit_price": 4.158e-06,
+      "exit_pct": -8.47,
+      "exit_time": "2026-05-19T05:51:13.645038+00:00"
     }
   ],
   "alerted": {
@@ -4196,6 +4204,7 @@
     "0x2a259c1346eD1b02771B468dB7c21AdA43bDe812": "2026-05-19T02:31:16.903529+00:00",
     "0x3f084d22EB7c5dA7cf3831bE419f67dD0717e94d": "2026-05-19T02:49:16.064955+00:00",
     "0x028165c85c8E4e480deb6DF6720Ac8E315073111": "2026-05-19T03:55:23.540170+00:00",
-    "0x8Cf0D07415e06f51A1BDa4b79Dde3316B8595bA3": "2026-05-19T05:23:13.074394+00:00"
+    "0x8Cf0D07415e06f51A1BDa4b79Dde3316B8595bA3": "2026-05-19T05:23:13.074394+00:00",
+    "0x9286d4E6751404b70195C297BF4e681DfC9e2cC0": "2026-05-19T05:51:13.645038+00:00"
   }
 }
