@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "thesis",
-      "chain": "solana",
-      "address": "3iCszw9cmJdDYaja8ZzrforC6ow26HD4YwEgg8kSpump",
-      "source": "new",
-      "entry_price": 0.0002116,
-      "peak_price": 0.0002116,
-      "trailing_active": false,
-      "entry_time": "2026-05-19T01:00:22.475819+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "BETTER",
       "chain": "base",
       "address": "0xBB24B45E56a97c04eE9A89b0342e1734707CaD57",
       "source": "new",
       "entry_price": 5.296e-07,
-      "peak_price": 5.296e-07,
+      "peak_price": 5.323e-07,
       "trailing_active": false,
       "entry_time": "2026-05-19T01:00:24.421728+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.51,
+      "peak_volume_m5": 18672.81,
+      "milestones_hit": []
     },
     {
       "symbol": "HFAI",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-19T01:00:25.910310+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.4,
+      "peak_volume_m5": 6946.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -3780,6 +3776,25 @@
       "exit_price": 1.247e-06,
       "exit_pct": -15.69,
       "exit_time": "2026-05-19T00:16:13.428788+00:00"
+    },
+    {
+      "symbol": "thesis",
+      "chain": "solana",
+      "address": "3iCszw9cmJdDYaja8ZzrforC6ow26HD4YwEgg8kSpump",
+      "source": "new",
+      "entry_price": 0.0002116,
+      "peak_price": 0.0002116,
+      "trailing_active": false,
+      "entry_time": "2026-05-19T01:00:22.475819+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.72,
+      "peak_volume_m5": 14324.36,
+      "milestones_hit": [],
+      "exit_price": 0.0001868,
+      "exit_pct": -11.72,
+      "exit_time": "2026-05-19T01:01:17.312048+00:00"
     }
   ],
   "alerted": {
@@ -3996,6 +4011,7 @@
     "0x1830E348DfCD86d37277a74Ff30d8A3DFf314d35": "2026-05-18T22:11:25.179097+00:00",
     "0x512fa57cDF9EB41bbf7d9b0e0BbDA016B463d022": "2026-05-18T22:38:18.310840+00:00",
     "0x7b4e1AB625d3e8b72bC166148d43b41452804341": "2026-05-18T23:32:15.698964+00:00",
-    "0xf1e9Baa65d418A9025e1851DD2D37f1AD208bba3": "2026-05-19T00:16:13.428788+00:00"
+    "0xf1e9Baa65d418A9025e1851DD2D37f1AD208bba3": "2026-05-19T00:16:13.428788+00:00",
+    "3iCszw9cmJdDYaja8ZzrforC6ow26HD4YwEgg8kSpump": "2026-05-19T01:01:17.312048+00:00"
   }
 }
