@@ -1,24 +1,7 @@
 {
   "last_update_id": 146423261,
   "paused": false,
-  "open": [
-    {
-      "symbol": "TOILETS",
-      "chain": "base",
-      "address": "0x65D4c18846edF9209a8500d9aE6e95213F316b07",
-      "source": "new",
-      "entry_price": 1.336e-06,
-      "peak_price": 1.876e-06,
-      "trailing_active": true,
-      "entry_time": "2026-05-20T12:20:40.993686+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 34.51,
-      "peak_volume_m5": 14005.72,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -4985,6 +4968,25 @@
       "exit_price": 7.186e-05,
       "exit_pct": -9.13,
       "exit_time": "2026-05-20T12:02:23.535643+00:00"
+    },
+    {
+      "symbol": "TOILETS",
+      "chain": "base",
+      "address": "0x65D4c18846edF9209a8500d9aE6e95213F316b07",
+      "source": "new",
+      "entry_price": 1.336e-06,
+      "peak_price": 1.88e-06,
+      "trailing_active": true,
+      "entry_time": "2026-05-20T12:20:40.993686+00:00",
+      "score": 67,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 40.72,
+      "peak_volume_m5": 14005.72,
+      "milestones_hit": [],
+      "exit_price": 1.88e-06,
+      "exit_pct": 40.72,
+      "exit_time": "2026-05-20T12:45:20.930821+00:00"
     }
   ],
   "alerted": {
@@ -5260,6 +5262,7 @@
     "0xEdC4aaF95e8Cd671E562D83a8FA48fF013BF8F87": "2026-05-20T10:19:15.715574+00:00",
     "0xB71e6835285906Ee3cf5E642eA756F2e8e93f8B1": "2026-05-20T11:11:18.544899+00:00",
     "0x7751F6a6F99B1a8e6394CEB1dd3a710D05E0EF83": "2026-05-20T11:20:18.108568+00:00",
-    "0x643428b9A17917148e527Ef8B22c85924e96Eb76": "2026-05-20T12:02:23.535643+00:00"
+    "0x643428b9A17917148e527Ef8B22c85924e96Eb76": "2026-05-20T12:02:23.535643+00:00",
+    "0x65D4c18846edF9209a8500d9aE6e95213F316b07": "2026-05-20T12:45:20.930821+00:00"
   }
 }
