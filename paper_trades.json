@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANTS",
-      "chain": "base",
-      "address": "0x8205C6189ab08Eb3AAa3089bD2262A8f97f947c7",
-      "source": "new",
-      "entry_price": 3.722e-07,
-      "peak_price": 5.846e-07,
-      "trailing_active": true,
-      "entry_time": "2026-05-20T22:19:56.337366+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 57.07,
-      "peak_volume_m5": 27340.1,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "SPUD",
       "chain": "ethereum",
       "address": "0x72E734747959a221FDc7cbaF8e481f5E8E0951e4",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-20T22:40:22.213105+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.75,
+      "peak_volume_m5": 1014.33,
+      "milestones_hit": []
     },
     {
       "symbol": "CRAWLINK",
@@ -42,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-20T22:40:23.698424+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.99,
+      "peak_volume_m5": 1023.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -5623,6 +5613,27 @@
       "exit_price": 6.473e-05,
       "exit_pct": -21.47,
       "exit_time": "2026-05-20T22:31:16.400128+00:00"
+    },
+    {
+      "symbol": "ANTS",
+      "chain": "base",
+      "address": "0x8205C6189ab08Eb3AAa3089bD2262A8f97f947c7",
+      "source": "new",
+      "entry_price": 3.722e-07,
+      "peak_price": 5.846e-07,
+      "trailing_active": true,
+      "entry_time": "2026-05-20T22:19:56.337366+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 21.82,
+      "peak_volume_m5": 27340.1,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 4.534e-07,
+      "exit_pct": 21.82,
+      "exit_time": "2026-05-20T22:41:13.807989+00:00"
     }
   ],
   "alerted": {
@@ -5930,6 +5941,7 @@
     "0x314C6d4e596344915324b1279d98FF684AfD3ff4": "2026-05-20T20:42:12.820975+00:00",
     "0xb3c32c80c1B9a65d1B92A59f012eDc3e8B626aD9": "2026-05-20T21:51:15.476076+00:00",
     "0xb6190631142aC8d5E3Bc27C8d49b089Bb6e89B07": "2026-05-20T22:28:13.867929+00:00",
-    "0x602500A36BcEbbE17aE9f9B7d1CC14f13A7e70e3": "2026-05-20T22:31:16.400128+00:00"
+    "0x602500A36BcEbbE17aE9f9B7d1CC14f13A7e70e3": "2026-05-20T22:31:16.400128+00:00",
+    "0x8205C6189ab08Eb3AAa3089bD2262A8f97f947c7": "2026-05-20T22:41:13.807989+00:00"
   }
 }
