@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EXA",
-      "chain": "base",
-      "address": "0x12942F3BA45dE56143FBB417c74F8c233C3d6F0f",
-      "source": "new",
-      "entry_price": 1.641e-06,
-      "peak_price": 1.641e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-20T13:00:28.259490+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "COMPUTE",
       "chain": "base",
       "address": "0xecb3e6444c9e219cd2a769d65F46254DA0739b07",
       "source": "new",
       "entry_price": 1.62e-06,
-      "peak_price": 1.62e-06,
-      "trailing_active": false,
+      "peak_price": 1.94e-06,
+      "trailing_active": true,
       "entry_time": "2026-05-20T13:00:29.816988+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.75,
+      "peak_volume_m5": 17547.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -5012,6 +5004,25 @@
       "exit_price": 1.88e-06,
       "exit_pct": 40.72,
       "exit_time": "2026-05-20T12:45:20.930821+00:00"
+    },
+    {
+      "symbol": "EXA",
+      "chain": "base",
+      "address": "0x12942F3BA45dE56143FBB417c74F8c233C3d6F0f",
+      "source": "new",
+      "entry_price": 1.641e-06,
+      "peak_price": 1.641e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-20T13:00:28.259490+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.81,
+      "peak_volume_m5": 13465.73,
+      "milestones_hit": [],
+      "exit_price": 1.48e-06,
+      "exit_pct": -9.81,
+      "exit_time": "2026-05-20T13:06:20.671612+00:00"
     }
   ],
   "alerted": {
@@ -5288,6 +5299,7 @@
     "0xB71e6835285906Ee3cf5E642eA756F2e8e93f8B1": "2026-05-20T11:11:18.544899+00:00",
     "0x7751F6a6F99B1a8e6394CEB1dd3a710D05E0EF83": "2026-05-20T11:20:18.108568+00:00",
     "0x643428b9A17917148e527Ef8B22c85924e96Eb76": "2026-05-20T12:02:23.535643+00:00",
-    "0x65D4c18846edF9209a8500d9aE6e95213F316b07": "2026-05-20T12:45:20.930821+00:00"
+    "0x65D4c18846edF9209a8500d9aE6e95213F316b07": "2026-05-20T12:45:20.930821+00:00",
+    "0x12942F3BA45dE56143FBB417c74F8c233C3d6F0f": "2026-05-20T13:06:20.671612+00:00"
   }
 }
