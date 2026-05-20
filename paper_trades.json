@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "YiHeMoon",
-      "chain": "bsc",
-      "address": "0x186acc6a2A600282647323132A53da627c57fFFF",
-      "source": "new",
-      "entry_price": 0.0001725,
-      "peak_price": 0.0002949,
-      "trailing_active": true,
-      "entry_time": "2026-05-20T10:10:37.136941+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 70.96,
-      "peak_volume_m5": 56631.21,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "HEDGY",
       "chain": "ethereum",
       "address": "0xEdC4aaF95e8Cd671E562D83a8FA48fF013BF8F87",
       "source": "new",
       "entry_price": 8.651e-05,
-      "peak_price": 8.651e-05,
+      "peak_price": 9.119e-05,
       "trailing_active": false,
       "entry_time": "2026-05-20T10:16:49.569215+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.41,
+      "peak_volume_m5": 20078.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -4902,6 +4888,27 @@
       "exit_price": 0.0001283,
       "exit_pct": -13.43,
       "exit_time": "2026-05-20T09:33:18.173221+00:00"
+    },
+    {
+      "symbol": "YiHeMoon",
+      "chain": "bsc",
+      "address": "0x186acc6a2A600282647323132A53da627c57fFFF",
+      "source": "new",
+      "entry_price": 0.0001725,
+      "peak_price": 0.0002949,
+      "trailing_active": true,
+      "entry_time": "2026-05-20T10:10:37.136941+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 41.28,
+      "peak_volume_m5": 67925.18,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002437,
+      "exit_pct": 41.28,
+      "exit_time": "2026-05-20T10:17:17.019598+00:00"
     }
   ],
   "alerted": {
@@ -5172,6 +5179,7 @@
     "0xFE59004422cCF2B14556eF56d7B32385486c9771": "2026-05-20T07:48:16.722351+00:00",
     "0xa6D0ccc3ac6302886bFECb754DFF0b5Df7dC0F58": "2026-05-20T08:22:14.696998+00:00",
     "0x831B88d42F3a2114291178A3b844F185045aCAAc": "2026-05-20T09:14:15.356335+00:00",
-    "BPQp7KCHWfJQB2JRhfdEZ4dv59RstKv6TFn3dMBQpump": "2026-05-20T09:33:18.173221+00:00"
+    "BPQp7KCHWfJQB2JRhfdEZ4dv59RstKv6TFn3dMBQpump": "2026-05-20T09:33:18.173221+00:00",
+    "0x186acc6a2A600282647323132A53da627c57fFFF": "2026-05-20T10:17:17.019598+00:00"
   }
 }
