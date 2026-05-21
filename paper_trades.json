@@ -8,23 +8,15 @@
       "address": "0xDc37B48a53F017AF8135dF7ace301ADCd6Ea7Bb5",
       "source": "new",
       "entry_price": 2.219e-06,
-      "peak_price": 2.219e-06,
+      "peak_price": 2.238e-06,
       "trailing_active": false,
       "entry_time": "2026-05-21T09:30:24.044124+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "CyndraAI",
-      "chain": "base",
-      "address": "0xe5Bfb03d2810c333c7EBB57b39542885d93BbBE8",
-      "source": "new",
-      "entry_price": 9.059e-05,
-      "peak_price": 9.059e-05,
-      "trailing_active": false,
-      "entry_time": "2026-05-21T09:30:26.990295+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.86,
+      "peak_volume_m5": 35044.87,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -5897,6 +5889,25 @@
       "exit_price": 9.126e-05,
       "exit_pct": -15.26,
       "exit_time": "2026-05-21T09:10:35.980671+00:00"
+    },
+    {
+      "symbol": "CyndraAI",
+      "chain": "base",
+      "address": "0xe5Bfb03d2810c333c7EBB57b39542885d93BbBE8",
+      "source": "new",
+      "entry_price": 9.059e-05,
+      "peak_price": 9.059e-05,
+      "trailing_active": false,
+      "entry_time": "2026-05-21T09:30:26.990295+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.97,
+      "peak_volume_m5": 35867.58,
+      "milestones_hit": [],
+      "exit_price": 7.884e-05,
+      "exit_pct": -12.97,
+      "exit_time": "2026-05-21T09:31:21.924606+00:00"
     }
   ],
   "alerted": {
@@ -6218,6 +6229,7 @@
     "0x0d94DB044Fe935BD3F6d3dBEDD05565B18d4cFEd": "2026-05-21T08:35:35.983275+00:00",
     "0xF15b660Fc23dC71fD340D94798Af356800b67C8b": "2026-05-21T07:01:18.852192+00:00",
     "0x92B69220dFA2942395527534B4f6b49D669a2FD9": "2026-05-21T08:36:13.941339+00:00",
-    "0x5858d71854A17378ACF3C3e8E7DeC43a07410080": "2026-05-21T09:10:35.980671+00:00"
+    "0x5858d71854A17378ACF3C3e8E7DeC43a07410080": "2026-05-21T09:10:35.980671+00:00",
+    "0xe5Bfb03d2810c333c7EBB57b39542885d93BbBE8": "2026-05-21T09:31:21.924606+00:00"
   }
 }
