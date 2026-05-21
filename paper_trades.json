@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GBRAIN",
-      "chain": "base",
-      "address": "0xd1e56bF845AEF46E9812C186ce6458Fbd6687dbc",
-      "source": "new",
-      "entry_price": 8.553e-07,
-      "peak_price": 1.955e-06,
-      "trailing_active": true,
-      "entry_time": "2026-05-21T04:40:21.781009+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 128.57,
-      "peak_volume_m5": 108616.45,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "SPCX",
       "chain": "ethereum",
       "address": "0x80d2e015690C0F579297fA762d95e9bAd7735a96",
       "source": "new",
       "entry_price": 6.246e-05,
-      "peak_price": 6.246e-05,
+      "peak_price": 6.277e-05,
       "trailing_active": false,
       "entry_time": "2026-05-21T04:50:24.198938+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.5,
+      "peak_volume_m5": 12416.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -5749,6 +5734,28 @@
       "exit_price": 6.745e-07,
       "exit_pct": 42.24,
       "exit_time": "2026-05-21T03:29:18.257372+00:00"
+    },
+    {
+      "symbol": "GBRAIN",
+      "chain": "base",
+      "address": "0xd1e56bF845AEF46E9812C186ce6458Fbd6687dbc",
+      "source": "new",
+      "entry_price": 8.553e-07,
+      "peak_price": 1.955e-06,
+      "trailing_active": true,
+      "entry_time": "2026-05-21T04:40:21.781009+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 110.34,
+      "peak_volume_m5": 108616.45,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 1.799e-06,
+      "exit_pct": 110.34,
+      "exit_time": "2026-05-21T04:53:16.479063+00:00"
     }
   ],
   "alerted": {
@@ -6063,6 +6070,7 @@
     "0x5Cf309E0078594a8bADBF7BEBCc26D7c9e564BB3": "2026-05-20T23:21:15.378203+00:00",
     "GXyYU3xEYDFsoaQDeMtFZtbWy92eDrYAbPUMUuX5pump": "2026-05-21T01:20:17.487006+00:00",
     "0x61B77Bd4b9979C3428Aff9D4D813F53b115C6B07": "2026-05-21T02:11:18.494096+00:00",
-    "0x9551B0f5b890013aD82c7391bE196d77C8c4eb25": "2026-05-21T03:29:18.257372+00:00"
+    "0x9551B0f5b890013aD82c7391bE196d77C8c4eb25": "2026-05-21T03:29:18.257372+00:00",
+    "0xd1e56bF845AEF46E9812C186ce6458Fbd6687dbc": "2026-05-21T04:53:16.479063+00:00"
   }
 }
