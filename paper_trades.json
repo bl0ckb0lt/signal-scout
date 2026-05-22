@@ -14,21 +14,9 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.88,
+      "current_pct": 10.5,
       "peak_volume_m5": 82793.69,
       "milestones_hit": []
-    },
-    {
-      "symbol": "pocky",
-      "chain": "solana",
-      "address": "7PtCYu421aeDMXNrGejsbivZXmPi2F5z9FdAgWdXKiLt",
-      "source": "new",
-      "entry_price": 0.0002122,
-      "peak_price": 0.0002122,
-      "trailing_active": false,
-      "entry_time": "2026-05-22T19:30:23.933533+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -7067,6 +7055,25 @@
       "exit_price": 4.991e-06,
       "exit_pct": -9.01,
       "exit_time": "2026-05-22T19:02:19.406314+00:00"
+    },
+    {
+      "symbol": "pocky",
+      "chain": "solana",
+      "address": "7PtCYu421aeDMXNrGejsbivZXmPi2F5z9FdAgWdXKiLt",
+      "source": "new",
+      "entry_price": 0.0002122,
+      "peak_price": 0.0002122,
+      "trailing_active": false,
+      "entry_time": "2026-05-22T19:30:23.933533+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.48,
+      "peak_volume_m5": 54881.35,
+      "milestones_hit": [],
+      "exit_price": 0.0001942,
+      "exit_pct": -8.48,
+      "exit_time": "2026-05-22T19:33:12.558578+00:00"
     }
   ],
   "alerted": {
@@ -7447,6 +7454,7 @@
     "0xAeF8BDE6A49cCd5EBcB8cd7B458aC5BF3eaF0857": "2026-05-22T17:22:13.184293+00:00",
     "6dNiiLN2n3MEJH3Zn7phKLH4nVvzhndf8DrLoGUfpump": "2026-05-22T18:02:16.967873+00:00",
     "0x778743d83036E8c3d6a5F12adFd377aa0AD0E43a": "2026-05-22T18:13:20.560998+00:00",
-    "0x3FcDbEBD5e7BaB79477cFDcA2CDCF6e904C27b07": "2026-05-22T19:02:19.406314+00:00"
+    "0x3FcDbEBD5e7BaB79477cFDcA2CDCF6e904C27b07": "2026-05-22T19:02:19.406314+00:00",
+    "7PtCYu421aeDMXNrGejsbivZXmPi2F5z9FdAgWdXKiLt": "2026-05-22T19:33:12.558578+00:00"
   }
 }
