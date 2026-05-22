@@ -3,40 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WAIFU",
-      "chain": "bsc",
-      "address": "0x15fc6086064Afe50cCf4c70000C55CECb6E17777",
-      "source": "new",
-      "entry_price": 0.001689,
-      "peak_price": 0.005841,
-      "trailing_active": true,
-      "entry_time": "2026-05-22T08:16:37.142277+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 245.83,
-      "peak_volume_m5": 26569.41,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Fluxara",
       "chain": "base",
       "address": "0x529884F2a74700F3521330473D17aaE00a6f0B07",
       "source": "new",
       "entry_price": 1.376e-06,
-      "peak_price": 1.777e-06,
+      "peak_price": 2.154e-06,
       "trailing_active": true,
       "entry_time": "2026-05-22T08:30:26.710290+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.14,
+      "current_pct": 56.54,
       "peak_volume_m5": 14976.01,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -6660,6 +6642,29 @@
       "exit_price": 8.632e-07,
       "exit_pct": -11.45,
       "exit_time": "2026-05-22T08:31:17.293869+00:00"
+    },
+    {
+      "symbol": "WAIFU",
+      "chain": "bsc",
+      "address": "0x15fc6086064Afe50cCf4c70000C55CECb6E17777",
+      "source": "new",
+      "entry_price": 0.001689,
+      "peak_price": 0.005896,
+      "trailing_active": true,
+      "entry_time": "2026-05-22T08:16:37.142277+00:00",
+      "score": 67,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 249.08,
+      "peak_volume_m5": 26569.41,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.005896,
+      "exit_pct": 249.08,
+      "exit_time": "2026-05-22T08:55:13.520173+00:00"
     }
   ],
   "alerted": {
@@ -7019,6 +7024,7 @@
     "65AnXQSicfsXxG1UTUn7YKxqW8ne8isoienxwivPpump": "2026-05-22T06:55:27.333883+00:00",
     "0xE084b0727Cb7B5ca98eB9D9b185C9D2E692BFFfF": "2026-05-22T07:35:19.880286+00:00",
     "0xf494fcc66248966dC43E3F6909E0D0C59fAC15fC": "2026-05-22T08:26:14.681237+00:00",
-    "0xdf1a8BE7814DC20dE91399ecbD385C3505a5a379": "2026-05-22T08:31:17.293869+00:00"
+    "0xdf1a8BE7814DC20dE91399ecbD385C3505a5a379": "2026-05-22T08:31:17.293869+00:00",
+    "0x15fc6086064Afe50cCf4c70000C55CECb6E17777": "2026-05-22T08:55:13.520173+00:00"
   }
 }
