@@ -14,27 +14,9 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 24.88,
+      "current_pct": 21.05,
       "peak_volume_m5": 13737.03,
       "milestones_hit": []
-    },
-    {
-      "symbol": "STATED",
-      "chain": "base",
-      "address": "0x7633CAE63F60343E39A47a62c5f254e4e85AAB07",
-      "source": "new",
-      "entry_price": 8.351e-07,
-      "peak_price": 1.264e-06,
-      "trailing_active": true,
-      "entry_time": "2026-05-22T15:00:28.812063+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 51.36,
-      "peak_volume_m5": 44528.75,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "WORLDCUP",
@@ -42,11 +24,15 @@
       "address": "EQCGhKTcqaxpWycFCL0JeJplTYPdZe_GSiuvsI5bQbf7_mFn",
       "source": "new",
       "entry_price": 0.0001022,
-      "peak_price": 0.0001022,
-      "trailing_active": false,
+      "peak_price": 0.0001176,
+      "trailing_active": true,
       "entry_time": "2026-05-22T15:10:38.029938+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.07,
+      "peak_volume_m5": 4235.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -6872,6 +6858,27 @@
       "exit_price": 9.068e-05,
       "exit_pct": -10.13,
       "exit_time": "2026-05-22T14:22:20.048563+00:00"
+    },
+    {
+      "symbol": "STATED",
+      "chain": "base",
+      "address": "0x7633CAE63F60343E39A47a62c5f254e4e85AAB07",
+      "source": "new",
+      "entry_price": 8.351e-07,
+      "peak_price": 1.264e-06,
+      "trailing_active": true,
+      "entry_time": "2026-05-22T15:00:28.812063+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 39.86,
+      "peak_volume_m5": 54700.99,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 1.168e-06,
+      "exit_pct": 39.86,
+      "exit_time": "2026-05-22T15:12:18.503385+00:00"
     }
   ],
   "alerted": {
@@ -7241,6 +7248,7 @@
     "0x24AFDcc9c52cf6e191ba987d38344B6c44F39F22": "2026-05-22T13:31:18.899433+00:00",
     "0xE06774B9cB2690598Bf7Ba4eA1775E63B1Bb1071": "2026-05-22T13:31:19.822852+00:00",
     "0x00FcC2e5048a19895689d481a742d065745353eC": "2026-05-22T13:32:17.570872+00:00",
-    "DaaFoqrk5dkKgt7RewCFP1hFxh935ZNDVFZuhxh8pump": "2026-05-22T14:22:20.048563+00:00"
+    "DaaFoqrk5dkKgt7RewCFP1hFxh935ZNDVFZuhxh8pump": "2026-05-22T14:22:20.048563+00:00",
+    "0x7633CAE63F60343E39A47a62c5f254e4e85AAB07": "2026-05-22T15:12:18.503385+00:00"
   }
 }
