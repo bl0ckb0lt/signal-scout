@@ -1,40 +1,7 @@
 {
   "last_update_id": 146423265,
   "paused": false,
-  "open": [
-    {
-      "symbol": "GAMEFUND",
-      "chain": "solana",
-      "address": "2ETdRmbeW39Q3Z8RX6NfinYZyDPayKCuVvpqXrmjpump",
-      "source": "new",
-      "entry_price": 0.0001306,
-      "peak_price": 0.0001306,
-      "trailing_active": false,
-      "entry_time": "2026-05-24T23:30:44.063251+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.59,
-      "peak_volume_m5": 7398.04,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "UA",
-      "chain": "base",
-      "address": "0xD48eF1B41992722D7a10caBc0eDF4ADEC26e27A0",
-      "source": "new",
-      "entry_price": 1.185e-06,
-      "peak_price": 1.185e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-24T23:30:45.812756+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.76,
-      "peak_volume_m5": 18837.38,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -8433,6 +8400,44 @@
       "exit_price": 0.0003323,
       "exit_pct": 16.6,
       "exit_time": "2026-05-24T22:25:14.715416+00:00"
+    },
+    {
+      "symbol": "GAMEFUND",
+      "chain": "solana",
+      "address": "2ETdRmbeW39Q3Z8RX6NfinYZyDPayKCuVvpqXrmjpump",
+      "source": "new",
+      "entry_price": 0.0001306,
+      "peak_price": 0.0001306,
+      "trailing_active": false,
+      "entry_time": "2026-05-24T23:30:44.063251+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.48,
+      "peak_volume_m5": 7421.25,
+      "milestones_hit": [],
+      "exit_price": 0.000113,
+      "exit_pct": -13.48,
+      "exit_time": "2026-05-24T23:33:17.678982+00:00"
+    },
+    {
+      "symbol": "UA",
+      "chain": "base",
+      "address": "0xD48eF1B41992722D7a10caBc0eDF4ADEC26e27A0",
+      "source": "new",
+      "entry_price": 1.185e-06,
+      "peak_price": 1.185e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-24T23:30:45.812756+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.95,
+      "peak_volume_m5": 21424.97,
+      "milestones_hit": [],
+      "exit_price": 1.079e-06,
+      "exit_pct": -8.95,
+      "exit_time": "2026-05-24T23:33:18.521604+00:00"
     }
   ],
   "alerted": {
@@ -8881,6 +8886,8 @@
     "5CEwq1xPd7dF7ei1J14ZuuPd8BkVW74YgcQzL1jkpump": "2026-05-24T20:06:18.836910+00:00",
     "0xaf8dc20F08c59Cc483d118b9dd73f89FEdCaE32D": "2026-05-24T21:23:13.909559+00:00",
     "58ufHPfejjZyhYzA4JyNJ8JfkbHSoSEj5ufGcRC9pump": "2026-05-24T21:55:11.718438+00:00",
-    "Br1JxELQYP34YdRW4gbEPLasHEtyz8eCmT2FvmnYpump": "2026-05-24T22:25:14.715416+00:00"
+    "Br1JxELQYP34YdRW4gbEPLasHEtyz8eCmT2FvmnYpump": "2026-05-24T22:25:14.715416+00:00",
+    "2ETdRmbeW39Q3Z8RX6NfinYZyDPayKCuVvpqXrmjpump": "2026-05-24T23:33:17.678982+00:00",
+    "0xD48eF1B41992722D7a10caBc0eDF4ADEC26e27A0": "2026-05-24T23:33:18.521604+00:00"
   }
 }
