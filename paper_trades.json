@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CT",
-      "chain": "base",
-      "address": "0x51FfE645fc8E080fCb2c6fDC4Aa4FAc60F0D217D",
-      "source": "new",
-      "entry_price": 5.118e-07,
-      "peak_price": 1.118e-06,
-      "trailing_active": true,
-      "entry_time": "2026-05-24T14:46:28.652288+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 118.44,
-      "peak_volume_m5": 27742.97,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Recordly",
       "chain": "base",
       "address": "0xC8A1790a3b2FC49c9CA46dA553DFF6F29D96480f",
       "source": "new",
       "entry_price": 1.449e-06,
-      "peak_price": 1.449e-06,
-      "trailing_active": false,
+      "peak_price": 1.716e-06,
+      "trailing_active": true,
       "entry_time": "2026-05-24T15:00:46.753241+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.43,
+      "peak_volume_m5": 32764.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8159,6 +8144,28 @@
       "exit_price": 0.0001275,
       "exit_pct": -12.31,
       "exit_time": "2026-05-24T14:41:18.412832+00:00"
+    },
+    {
+      "symbol": "CT",
+      "chain": "base",
+      "address": "0x51FfE645fc8E080fCb2c6fDC4Aa4FAc60F0D217D",
+      "source": "new",
+      "entry_price": 5.118e-07,
+      "peak_price": 1.118e-06,
+      "trailing_active": true,
+      "entry_time": "2026-05-24T14:46:28.652288+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 80.77,
+      "peak_volume_m5": 27742.97,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 9.252e-07,
+      "exit_pct": 80.77,
+      "exit_time": "2026-05-24T15:03:16.217515+00:00"
     }
   ],
   "alerted": {
@@ -8593,6 +8600,7 @@
     "0x6B4d0c0b9Cce148e45cFEbDDcB6d78608f17d4d5": "2026-05-24T13:12:16.765709+00:00",
     "5N8zivsMVY13XRnUrqkvS46qf48S6iw4rHB7wjhcpump": "2026-05-24T13:23:15.966971+00:00",
     "0x1325c0aeebbF374A71a406Db5F7c3eD8b6A32e7e": "2026-05-24T13:33:17.256645+00:00",
-    "0xf03BACdB60bff86FE29adcD3a3A503A6afb9fd7a": "2026-05-24T14:29:14.759247+00:00"
+    "0xf03BACdB60bff86FE29adcD3a3A503A6afb9fd7a": "2026-05-24T14:29:14.759247+00:00",
+    "0x51FfE645fc8E080fCb2c6fDC4Aa4FAc60F0D217D": "2026-05-24T15:03:16.217515+00:00"
   }
 }
