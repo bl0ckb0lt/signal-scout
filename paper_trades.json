@@ -8,27 +8,15 @@
       "address": "0x359Df03A5ff9ECa3C58C3C075f6E7eD7fe46490c",
       "source": "new",
       "entry_price": 0.0002331,
-      "peak_price": 0.0002633,
-      "trailing_active": false,
+      "peak_price": 0.000283,
+      "trailing_active": true,
       "entry_time": "2026-05-24T12:20:47.749113+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.96,
+      "current_pct": 21.41,
       "peak_volume_m5": 44573.15,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Chilldog",
-      "chain": "bsc",
-      "address": "0xEA54663B72B68cEd543bFe9387F706B3F27D4444",
-      "source": "new",
-      "entry_price": 0.0003334,
-      "peak_price": 0.0003334,
-      "trailing_active": false,
-      "entry_time": "2026-05-24T12:30:48.003314+00:00",
-      "score": 75,
-      "status": "open"
     }
   ],
   "closed": [
@@ -8021,6 +8009,25 @@
       "exit_price": 1.149e-06,
       "exit_pct": 4.84,
       "exit_time": "2026-05-24T11:42:12.321454+00:00"
+    },
+    {
+      "symbol": "Chilldog",
+      "chain": "bsc",
+      "address": "0xEA54663B72B68cEd543bFe9387F706B3F27D4444",
+      "source": "new",
+      "entry_price": 0.0003334,
+      "peak_price": 0.0003334,
+      "trailing_active": false,
+      "entry_time": "2026-05-24T12:30:48.003314+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.04,
+      "peak_volume_m5": 157903.28,
+      "milestones_hit": [],
+      "exit_price": 0.0002966,
+      "exit_pct": -11.04,
+      "exit_time": "2026-05-24T12:32:13.467820+00:00"
     }
   ],
   "alerted": {
@@ -8449,6 +8456,7 @@
     "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump": "2026-05-24T09:22:13.488734+00:00",
     "0x1E09Bfd7E7a865e3D2Fbfb73C132714552fd0cb9": "2026-05-24T09:52:17.167910+00:00",
     "0xE3fd3e91F21183Ea5edDf4A917aa22df28015f35": "2026-05-24T10:22:12.298556+00:00",
-    "0xE940Ab0D0866fe3c6346Fdb40E22F4952b939600": "2026-05-24T11:42:12.321454+00:00"
+    "0xE940Ab0D0866fe3c6346Fdb40E22F4952b939600": "2026-05-24T11:42:12.321454+00:00",
+    "0xEA54663B72B68cEd543bFe9387F706B3F27D4444": "2026-05-24T12:32:13.467820+00:00"
   }
 }
