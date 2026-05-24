@@ -8,23 +8,15 @@
       "address": "0x1325c0aeebbF374A71a406Db5F7c3eD8b6A32e7e",
       "source": "new",
       "entry_price": 1.627e-06,
-      "peak_price": 1.627e-06,
-      "trailing_active": false,
+      "peak_price": 2.111e-06,
+      "trailing_active": true,
       "entry_time": "2026-05-24T13:20:43.994959+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "BELIEF",
-      "chain": "solana",
-      "address": "5N8zivsMVY13XRnUrqkvS46qf48S6iw4rHB7wjhcpump",
-      "source": "new",
-      "entry_price": 0.0002168,
-      "peak_price": 0.0002168,
-      "trailing_active": false,
-      "entry_time": "2026-05-24T13:20:47.443840+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.75,
+      "peak_volume_m5": 40244.23,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8074,6 +8066,25 @@
       "exit_price": 1.261e-06,
       "exit_pct": -22.83,
       "exit_time": "2026-05-24T13:12:16.765709+00:00"
+    },
+    {
+      "symbol": "BELIEF",
+      "chain": "solana",
+      "address": "5N8zivsMVY13XRnUrqkvS46qf48S6iw4rHB7wjhcpump",
+      "source": "new",
+      "entry_price": 0.0002168,
+      "peak_price": 0.0002168,
+      "trailing_active": false,
+      "entry_time": "2026-05-24T13:20:47.443840+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.5,
+      "peak_volume_m5": 14103.54,
+      "milestones_hit": [],
+      "exit_price": 0.0001897,
+      "exit_pct": -12.5,
+      "exit_time": "2026-05-24T13:23:15.966971+00:00"
     }
   ],
   "alerted": {
@@ -8505,6 +8516,7 @@
     "0xE940Ab0D0866fe3c6346Fdb40E22F4952b939600": "2026-05-24T11:42:12.321454+00:00",
     "0xEA54663B72B68cEd543bFe9387F706B3F27D4444": "2026-05-24T12:32:13.467820+00:00",
     "0x359Df03A5ff9ECa3C58C3C075f6E7eD7fe46490c": "2026-05-24T12:42:15.495945+00:00",
-    "0x6B4d0c0b9Cce148e45cFEbDDcB6d78608f17d4d5": "2026-05-24T13:12:16.765709+00:00"
+    "0x6B4d0c0b9Cce148e45cFEbDDcB6d78608f17d4d5": "2026-05-24T13:12:16.765709+00:00",
+    "5N8zivsMVY13XRnUrqkvS46qf48S6iw4rHB7wjhcpump": "2026-05-24T13:23:15.966971+00:00"
   }
 }
