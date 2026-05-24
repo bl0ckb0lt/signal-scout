@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PSVIEW",
-      "chain": "base",
-      "address": "0x936D558108FC69b001F20f2Df5840383Fca89BbC",
-      "source": "new",
-      "entry_price": 8.482e-05,
-      "peak_price": 0.000125,
-      "trailing_active": true,
-      "entry_time": "2026-05-24T18:00:49.502599+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 47.37,
-      "peak_volume_m5": 18303.07,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HypurrClaw",
       "chain": "solana",
       "address": "97XwkY2xLEH8Nhzfv2eqtSXut4PQb77kx9J3k1atpump",
       "source": "new",
       "entry_price": 0.0001923,
-      "peak_price": 0.0001923,
-      "trailing_active": false,
+      "peak_price": 0.0002508,
+      "trailing_active": true,
       "entry_time": "2026-05-24T18:20:49.716181+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 30.42,
+      "peak_volume_m5": 9713.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8275,6 +8263,25 @@
       "exit_price": 0.0005218,
       "exit_pct": 61.05,
       "exit_time": "2026-05-24T18:12:12.577484+00:00"
+    },
+    {
+      "symbol": "PSVIEW",
+      "chain": "base",
+      "address": "0x936D558108FC69b001F20f2Df5840383Fca89BbC",
+      "source": "new",
+      "entry_price": 8.482e-05,
+      "peak_price": 0.000125,
+      "trailing_active": true,
+      "entry_time": "2026-05-24T18:00:49.502599+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 36.52,
+      "peak_volume_m5": 18303.07,
+      "milestones_hit": [],
+      "exit_price": 0.0001158,
+      "exit_pct": 36.52,
+      "exit_time": "2026-05-24T18:23:14.666567+00:00"
     }
   ],
   "alerted": {
@@ -8715,6 +8722,7 @@
     "0x1c6C591CAA66c7E95943aF81622e60810D9ed0C6": "2026-05-24T16:42:16.839468+00:00",
     "6MBs7ngXWjZNcU9L9PU2Juiib1qCq6AMq99pNxuppump": "2026-05-24T17:15:14.170601+00:00",
     "FF7g86sm9ubNhUAteuYAGP5yWkViTs53EfqwJK4NSrWd": "2026-05-24T17:50:14.148034+00:00",
-    "Ac8EScJ4ufRo8PiFkun7diUrcCCktg4JvArb3mPmpump": "2026-05-24T18:12:12.577484+00:00"
+    "Ac8EScJ4ufRo8PiFkun7diUrcCCktg4JvArb3mPmpump": "2026-05-24T18:12:12.577484+00:00",
+    "0x936D558108FC69b001F20f2Df5840383Fca89BbC": "2026-05-24T18:23:14.666567+00:00"
   }
 }
