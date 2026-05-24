@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Stake",
-      "chain": "solana",
-      "address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
-      "source": "new",
-      "entry_price": 0.0001421,
-      "peak_price": 0.0001859,
-      "trailing_active": true,
-      "entry_time": "2026-05-24T09:00:32.702452+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 30.82,
-      "peak_volume_m5": 22637.04,
-      "milestones_hit": []
-    },
-    {
       "symbol": "ARK",
       "chain": "bsc",
       "address": "0xE3fd3e91F21183Ea5edDf4A917aa22df28015f35",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-24T09:21:13.462630+00:00",
       "score": 93,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.79,
+      "peak_volume_m5": 151604.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -7943,6 +7931,25 @@
       "exit_price": 1.656e-06,
       "exit_pct": -5.43,
       "exit_time": "2026-05-24T09:10:17.784154+00:00"
+    },
+    {
+      "symbol": "Stake",
+      "chain": "solana",
+      "address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
+      "source": "new",
+      "entry_price": 0.0001421,
+      "peak_price": 0.0001859,
+      "trailing_active": true,
+      "entry_time": "2026-05-24T09:00:32.702452+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 17.38,
+      "peak_volume_m5": 22637.04,
+      "milestones_hit": [],
+      "exit_price": 0.0001668,
+      "exit_pct": 17.38,
+      "exit_time": "2026-05-24T09:22:13.488734+00:00"
     }
   ],
   "alerted": {
@@ -8367,6 +8374,7 @@
     "0xCcB2F914B720cF4def80d536Da988F3437efC3Cb": "2026-05-24T07:22:14.541889+00:00",
     "0x46f71C60f88D751a5a540C40c7b6cefc479822C0": "2026-05-24T07:26:15.277093+00:00",
     "0x65a68F78123f17C9B13F0ceF7cd74Ee295Cd45fa": "2026-05-24T09:02:13.272663+00:00",
-    "0xa42e748B46fbBEd73841509446e8d97042dDC5aD": "2026-05-24T09:10:17.784154+00:00"
+    "0xa42e748B46fbBEd73841509446e8d97042dDC5aD": "2026-05-24T09:10:17.784154+00:00",
+    "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump": "2026-05-24T09:22:13.488734+00:00"
   }
 }
