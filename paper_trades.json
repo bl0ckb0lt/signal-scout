@@ -5,32 +5,18 @@
     {
       "symbol": "DEAL",
       "chain": "base",
-      "address": "0x12c47B46f44bDaF65b8763f431daff3482202B13",
-      "source": "new",
-      "entry_price": 3.147e-06,
-      "peak_price": 5.048e-06,
-      "trailing_active": true,
-      "entry_time": "2026-05-25T05:00:49.439619+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 60.41,
-      "peak_volume_m5": 129497.05,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "DEAL",
-      "chain": "base",
       "address": "0xeACB0C8372B71BD9B8f53F65d057D42CFab41B07",
       "source": "new",
       "entry_price": 1.442e-06,
-      "peak_price": 1.442e-06,
+      "peak_price": 1.46e-06,
       "trailing_active": false,
       "entry_time": "2026-05-25T05:10:48.235084+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.25,
+      "peak_volume_m5": 5198.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8624,6 +8610,27 @@
       "exit_price": 7.037e-06,
       "exit_pct": -9.05,
       "exit_time": "2026-05-25T05:09:17.202763+00:00"
+    },
+    {
+      "symbol": "DEAL",
+      "chain": "base",
+      "address": "0x12c47B46f44bDaF65b8763f431daff3482202B13",
+      "source": "new",
+      "entry_price": 3.147e-06,
+      "peak_price": 5.048e-06,
+      "trailing_active": true,
+      "entry_time": "2026-05-25T05:00:49.439619+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 34.67,
+      "peak_volume_m5": 129497.05,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 4.238e-06,
+      "exit_pct": 34.67,
+      "exit_time": "2026-05-25T05:12:14.634369+00:00"
     }
   ],
   "alerted": {
@@ -9082,6 +9089,7 @@
     "0x13708D9E078a08c8050FD80e85D53e73D5422010": "2026-05-25T03:22:16.595294+00:00",
     "0x536FC657cB6D500ddB2dB604FfDB5DF2aA7E2e85": "2026-05-25T03:57:11.267145+00:00",
     "0x2D1Cb9fa8090811a6522289356c81Ae5e9747330": "2026-05-25T04:15:13.352341+00:00",
-    "0x3b39201ad639b559bdC7a493Fda2272136935bA3": "2026-05-25T05:09:17.202763+00:00"
+    "0x3b39201ad639b559bdC7a493Fda2272136935bA3": "2026-05-25T05:09:17.202763+00:00",
+    "0x12c47B46f44bDaF65b8763f431daff3482202B13": "2026-05-25T05:12:14.634369+00:00"
   }
 }
