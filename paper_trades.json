@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Froggies",
-      "chain": "solana",
-      "address": "9BTMgdUJtjvRyyXQZwAaP4v3C5tVCbd9EQXEwgP1pump",
-      "source": "new",
-      "entry_price": 0.0001164,
-      "peak_price": 0.0001164,
-      "trailing_active": false,
-      "entry_time": "2026-05-25T08:50:47.473151+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "MOONBASE",
       "chain": "ethereum",
       "address": "0x5D263eD02dcA50E7DdDa64e2B40156e6c2dEb540",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-25T08:50:49.358387+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.38,
+      "peak_volume_m5": 4492.81,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8734,6 +8726,25 @@
       "exit_price": 0.0003569,
       "exit_pct": 8.61,
       "exit_time": "2026-05-25T08:30:17.672020+00:00"
+    },
+    {
+      "symbol": "Froggies",
+      "chain": "solana",
+      "address": "9BTMgdUJtjvRyyXQZwAaP4v3C5tVCbd9EQXEwgP1pump",
+      "source": "new",
+      "entry_price": 0.0001164,
+      "peak_price": 0.0001164,
+      "trailing_active": false,
+      "entry_time": "2026-05-25T08:50:47.473151+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.51,
+      "peak_volume_m5": 37102.7,
+      "milestones_hit": [],
+      "exit_price": 0.000103,
+      "exit_pct": -11.51,
+      "exit_time": "2026-05-25T08:53:14.564116+00:00"
     }
   ],
   "alerted": {
@@ -9197,6 +9208,7 @@
     "0xeACB0C8372B71BD9B8f53F65d057D42CFab41B07": "2026-05-25T05:26:15.067797+00:00",
     "0x8C3C9DB1D4922897E7A92cc707c828F1AAAbd750": "2026-05-25T06:49:12.821125+00:00",
     "E1cdRMCYqEWE8xKxmEFmTxv6FbsfA4sK6SxCq8Rzpump": "2026-05-25T06:54:15.801376+00:00",
-    "0x9e99fb2C6FFb00ee26744f966A225026dC404444": "2026-05-25T08:30:17.672020+00:00"
+    "0x9e99fb2C6FFb00ee26744f966A225026dC404444": "2026-05-25T08:30:17.672020+00:00",
+    "9BTMgdUJtjvRyyXQZwAaP4v3C5tVCbd9EQXEwgP1pump": "2026-05-25T08:53:14.564116+00:00"
   }
 }
