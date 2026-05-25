@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FIST",
-      "chain": "bsc",
-      "address": "0xBCd69c321Aa577Cd9ce48c9be4414f333ce77777",
-      "source": "new",
-      "entry_price": 0.0002984,
-      "peak_price": 0.0004374,
-      "trailing_active": true,
-      "entry_time": "2026-05-25T12:20:44.196079+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 46.58,
-      "peak_volume_m5": 8480.12,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Katch",
       "chain": "base",
       "address": "0x8c68EF22E7C9d752770346943Cae4c64E499EBDE",
       "source": "new",
       "entry_price": 4.594e-05,
-      "peak_price": 4.594e-05,
+      "peak_price": 4.65e-05,
       "trailing_active": false,
       "entry_time": "2026-05-25T12:40:47.429564+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.22,
+      "peak_volume_m5": 84989.84,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8833,6 +8821,25 @@
       "exit_price": 1.095e-06,
       "exit_pct": -14.39,
       "exit_time": "2026-05-25T11:27:12.455975+00:00"
+    },
+    {
+      "symbol": "FIST",
+      "chain": "bsc",
+      "address": "0xBCd69c321Aa577Cd9ce48c9be4414f333ce77777",
+      "source": "new",
+      "entry_price": 0.0002984,
+      "peak_price": 0.0004374,
+      "trailing_active": true,
+      "entry_time": "2026-05-25T12:20:44.196079+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 37.06,
+      "peak_volume_m5": 9599.84,
+      "milestones_hit": [],
+      "exit_price": 0.000409,
+      "exit_pct": 37.06,
+      "exit_time": "2026-05-25T12:42:18.211024+00:00"
     }
   ],
   "alerted": {
@@ -9301,6 +9308,7 @@
     "0x5D263eD02dcA50E7DdDa64e2B40156e6c2dEb540": "2026-05-25T08:55:16.801142+00:00",
     "0x3e3B2dD40F4B28605Ee3246125c87b30D88C39eF": "2026-05-25T09:27:12.582888+00:00",
     "0xF2CbcaB7F818DFaFEC4cad0D17fb5778b862B596": "2026-05-25T11:01:16.811606+00:00",
-    "0x34e8bF29896722f01894C53C288E74A59c284bA3": "2026-05-25T11:27:12.455975+00:00"
+    "0x34e8bF29896722f01894C53C288E74A59c284bA3": "2026-05-25T11:27:12.455975+00:00",
+    "0xBCd69c321Aa577Cd9ce48c9be4414f333ce77777": "2026-05-25T12:42:18.211024+00:00"
   }
 }
