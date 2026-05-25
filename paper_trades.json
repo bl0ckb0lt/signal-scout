@@ -8,11 +8,15 @@
       "address": "0x13bFe8BAA4B67c15bB51eDe278FA440a4476766C",
       "source": "new",
       "entry_price": 0.0001261,
-      "peak_price": 0.0001261,
+      "peak_price": 0.0001412,
       "trailing_active": false,
       "entry_time": "2026-05-25T16:20:51.442802+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.97,
+      "peak_volume_m5": 35036.41,
+      "milestones_hit": []
     },
     {
       "symbol": "NSEX",
@@ -24,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-05-25T16:20:53.211184+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "ORION",
-      "chain": "base",
-      "address": "0x03A4dF4c2a720317A2919023532a09cE2C14422f",
-      "source": "new",
-      "entry_price": 7.884e-05,
-      "peak_price": 7.884e-05,
-      "trailing_active": false,
-      "entry_time": "2026-05-25T16:20:54.927266+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.51,
+      "peak_volume_m5": 45275.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -8995,6 +8991,25 @@
       "exit_price": 9.626e-05,
       "exit_pct": -14.66,
       "exit_time": "2026-05-25T15:33:15.769053+00:00"
+    },
+    {
+      "symbol": "ORION",
+      "chain": "base",
+      "address": "0x03A4dF4c2a720317A2919023532a09cE2C14422f",
+      "source": "new",
+      "entry_price": 7.884e-05,
+      "peak_price": 7.884e-05,
+      "trailing_active": false,
+      "entry_time": "2026-05-25T16:20:54.927266+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.03,
+      "peak_volume_m5": 18556.6,
+      "milestones_hit": [],
+      "exit_price": 7.093e-05,
+      "exit_pct": -10.03,
+      "exit_time": "2026-05-25T16:21:17.549331+00:00"
     }
   ],
   "alerted": {
@@ -9471,6 +9486,7 @@
     "0x8a075BEB6681318a5bfd388F1a2F507a49525a8e": "2026-05-25T13:58:12.916364+00:00",
     "5eZTfvnGeoH9dv7YZErua56UJhqWYL3SPPn1zf1JV5fZ": "2026-05-25T14:12:13.894191+00:00",
     "2RWndXkxWkaKhGjE7dZivVbK5qXtpwnCZJ1jpnxapump": "2026-05-25T14:54:18.357852+00:00",
-    "Az4fsoCeeyM4njFDRAY1pvZYiEX25bLpjizfZbmPpump": "2026-05-25T15:33:15.769053+00:00"
+    "Az4fsoCeeyM4njFDRAY1pvZYiEX25bLpjizfZbmPpump": "2026-05-25T15:33:15.769053+00:00",
+    "0x03A4dF4c2a720317A2919023532a09cE2C14422f": "2026-05-25T16:21:17.549331+00:00"
   }
 }
