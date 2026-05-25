@@ -5,26 +5,20 @@
     {
       "symbol": "DEAL",
       "chain": "base",
-      "address": "0x3b39201ad639b559bdC7a493Fda2272136935bA3",
-      "source": "new",
-      "entry_price": 7.737e-06,
-      "peak_price": 7.737e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-25T05:00:47.932707+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "DEAL",
-      "chain": "base",
       "address": "0x12c47B46f44bDaF65b8763f431daff3482202B13",
       "source": "new",
       "entry_price": 3.147e-06,
-      "peak_price": 3.147e-06,
-      "trailing_active": false,
+      "peak_price": 5.043e-06,
+      "trailing_active": true,
       "entry_time": "2026-05-25T05:00:49.439619+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 60.25,
+      "peak_volume_m5": 129497.05,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -8599,6 +8593,25 @@
       "exit_price": 2.077e-06,
       "exit_pct": -21.24,
       "exit_time": "2026-05-25T04:15:13.352341+00:00"
+    },
+    {
+      "symbol": "DEAL",
+      "chain": "base",
+      "address": "0x3b39201ad639b559bdC7a493Fda2272136935bA3",
+      "source": "new",
+      "entry_price": 7.737e-06,
+      "peak_price": 7.737e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-25T05:00:47.932707+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.05,
+      "peak_volume_m5": 55687.04,
+      "milestones_hit": [],
+      "exit_price": 7.037e-06,
+      "exit_pct": -9.05,
+      "exit_time": "2026-05-25T05:09:17.202763+00:00"
     }
   ],
   "alerted": {
@@ -9056,6 +9069,7 @@
     "0xAE8a67be4F0699b66D6339e61CFa1FF06AcED3d7": "2026-05-25T02:13:18.304829+00:00",
     "0x13708D9E078a08c8050FD80e85D53e73D5422010": "2026-05-25T03:22:16.595294+00:00",
     "0x536FC657cB6D500ddB2dB604FfDB5DF2aA7E2e85": "2026-05-25T03:57:11.267145+00:00",
-    "0x2D1Cb9fa8090811a6522289356c81Ae5e9747330": "2026-05-25T04:15:13.352341+00:00"
+    "0x2D1Cb9fa8090811a6522289356c81Ae5e9747330": "2026-05-25T04:15:13.352341+00:00",
+    "0x3b39201ad639b559bdC7a493Fda2272136935bA3": "2026-05-25T05:09:17.202763+00:00"
   }
 }
