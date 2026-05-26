@@ -8,29 +8,17 @@
       "address": "0x044f09eDA0805a58CE4db06cB1aba6Bb6c839CbE",
       "source": "new",
       "entry_price": 0.0001954,
-      "peak_price": 0.0003205,
+      "peak_price": 0.0003835,
       "trailing_active": true,
       "entry_time": "2026-05-26T16:50:50.976479+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 64.02,
+      "current_pct": 96.26,
       "peak_volume_m5": 6528.98,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "FCM",
-      "chain": "solana",
-      "address": "Hkpi2SkNWm5LogyY1Bz4zYTq5REVvco2aYWd1tYppump",
-      "source": "new",
-      "entry_price": 0.001809,
-      "peak_price": 0.001809,
-      "trailing_active": false,
-      "entry_time": "2026-05-26T17:19:33.031062+00:00",
-      "score": 80,
-      "status": "open"
     }
   ],
   "closed": [
@@ -9528,6 +9516,25 @@
       "exit_price": 0.0008613,
       "exit_pct": -11.91,
       "exit_time": "2026-05-26T16:44:16.490694+00:00"
+    },
+    {
+      "symbol": "FCM",
+      "chain": "solana",
+      "address": "Hkpi2SkNWm5LogyY1Bz4zYTq5REVvco2aYWd1tYppump",
+      "source": "new",
+      "entry_price": 0.001809,
+      "peak_price": 0.001809,
+      "trailing_active": false,
+      "entry_time": "2026-05-26T17:19:33.031062+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.29,
+      "peak_volume_m5": 43619.83,
+      "milestones_hit": [],
+      "exit_price": 0.001243,
+      "exit_pct": -31.29,
+      "exit_time": "2026-05-26T17:22:15.140217+00:00"
     }
   ],
   "alerted": {
@@ -10030,6 +10037,7 @@
     "0x6B456E66524aEC1792013eF9DFE87e3F84311ba3": "2026-05-26T14:31:18.496364+00:00",
     "0x7788402125fc1DdFBE128D393c8A0f3b72903ba3": "2026-05-26T15:12:21.897096+00:00",
     "6Tw9kzL3B4AFDyJNg7NULHpUozDrgdukU4UcVMwjpump": "2026-05-26T16:31:17.483028+00:00",
-    "0x55F285A9DEC00255E9E2837918Aa9749b8B8C3c5": "2026-05-26T16:44:16.490694+00:00"
+    "0x55F285A9DEC00255E9E2837918Aa9749b8B8C3c5": "2026-05-26T16:44:16.490694+00:00",
+    "Hkpi2SkNWm5LogyY1Bz4zYTq5REVvco2aYWd1tYppump": "2026-05-26T17:22:15.140217+00:00"
   }
 }
