@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MARS",
-      "chain": "solana",
-      "address": "3J5Bac3uJ94fdsc5ER8TLzPxJffCYWVjnmzNeRG9pump",
-      "source": "boost",
-      "entry_price": 0.0002122,
-      "peak_price": 0.0002122,
-      "trailing_active": false,
-      "entry_time": "2026-05-27T22:40:44.560240+00:00",
-      "score": 84,
-      "status": "open"
-    },
-    {
       "symbol": "LUCEBOX",
       "chain": "base",
       "address": "0xF9ae7a0f1b37eBdf96B8efA7Ebc1C34D74349F22",
       "source": "new",
       "entry_price": 5.669e-07,
-      "peak_price": 5.669e-07,
+      "peak_price": 5.813e-07,
       "trailing_active": false,
       "entry_time": "2026-05-27T22:40:47.672568+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.54,
+      "peak_volume_m5": 20127.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -10158,6 +10150,25 @@
       "exit_price": 0.0002131,
       "exit_pct": 76.99,
       "exit_time": "2026-05-27T22:06:16.106339+00:00"
+    },
+    {
+      "symbol": "MARS",
+      "chain": "solana",
+      "address": "3J5Bac3uJ94fdsc5ER8TLzPxJffCYWVjnmzNeRG9pump",
+      "source": "boost",
+      "entry_price": 0.0002122,
+      "peak_price": 0.0002122,
+      "trailing_active": false,
+      "entry_time": "2026-05-27T22:40:44.560240+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.72,
+      "peak_volume_m5": 14766.87,
+      "milestones_hit": [],
+      "exit_price": 0.0001852,
+      "exit_pct": -12.72,
+      "exit_time": "2026-05-27T22:41:13.260352+00:00"
     }
   ],
   "alerted": {
@@ -10693,6 +10704,7 @@
     "7Xjtw65ZxTBBRy5KyXgLKW6YhRbRLzVmBvgvJqphpump": "2026-05-27T16:14:17.460047+00:00",
     "0xfCE62c8BD060b41A52fE3144573E9E5768D24444": "2026-05-27T16:59:19.236527+00:00",
     "0xd16C43661795c9789B111f7214364E81C33864f0": "2026-05-27T19:12:14.725690+00:00",
-    "0xA7e488c5945C82DC63B14ad05FcE84Df4198D656": "2026-05-27T22:06:16.106339+00:00"
+    "0xA7e488c5945C82DC63B14ad05FcE84Df4198D656": "2026-05-27T22:06:16.106339+00:00",
+    "3J5Bac3uJ94fdsc5ER8TLzPxJffCYWVjnmzNeRG9pump": "2026-05-27T22:41:13.260352+00:00"
   }
 }
