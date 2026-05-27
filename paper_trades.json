@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DOGEUS",
-      "chain": "ethereum",
-      "address": "0x759F8B83db57033aed95545694F6AdA480b6e987",
-      "source": "new",
-      "entry_price": 0.0002704,
-      "peak_price": 0.0002704,
-      "trailing_active": false,
-      "entry_time": "2026-05-27T13:40:56.157029+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "DEUS",
       "chain": "base",
       "address": "0xf42589181918Cc8BcB38c2c0149807E759B51B56",
       "source": "new",
       "entry_price": 0.0001344,
-      "peak_price": 0.0001344,
-      "trailing_active": false,
+      "peak_price": 0.0001632,
+      "trailing_active": true,
       "entry_time": "2026-05-27T13:40:57.666991+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.43,
+      "peak_volume_m5": 49607.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -9947,6 +9939,25 @@
       "exit_price": 0.0001385,
       "exit_pct": -31.5,
       "exit_time": "2026-05-27T13:35:18.272880+00:00"
+    },
+    {
+      "symbol": "DOGEUS",
+      "chain": "ethereum",
+      "address": "0x759F8B83db57033aed95545694F6AdA480b6e987",
+      "source": "new",
+      "entry_price": 0.0002704,
+      "peak_price": 0.0002704,
+      "trailing_active": false,
+      "entry_time": "2026-05-27T13:40:56.157029+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.43,
+      "peak_volume_m5": 20893.83,
+      "milestones_hit": [],
+      "exit_price": 0.0002395,
+      "exit_pct": -11.43,
+      "exit_time": "2026-05-27T13:41:36.018531+00:00"
     }
   ],
   "alerted": {
@@ -10471,6 +10482,7 @@
     "0x75Bb9dEDDb961FFeD12D2DB6a223DD5D24b86921": "2026-05-27T08:15:23.910626+00:00",
     "0xA7c5408e5f246Aeda834A74a71a7777F9A3F566e": "2026-05-27T11:11:19.442507+00:00",
     "0x85d98c788f6013310b7537276C666A1A6262B80E": "2026-05-27T11:45:54.702296+00:00",
-    "DSwHWYXTvQtTQPnfAqKdVMtLUKzTCRzne49e6maxpump": "2026-05-27T13:35:18.272880+00:00"
+    "DSwHWYXTvQtTQPnfAqKdVMtLUKzTCRzne49e6maxpump": "2026-05-27T13:35:18.272880+00:00",
+    "0x759F8B83db57033aed95545694F6AdA480b6e987": "2026-05-27T13:41:36.018531+00:00"
   }
 }
