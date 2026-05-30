@@ -24,23 +24,15 @@
       "address": "0x54ce775fa5F42789460dC63906b332a84a95d937",
       "source": "new",
       "entry_price": 0.0002414,
-      "peak_price": 0.0002414,
+      "peak_price": 0.0002619,
       "trailing_active": false,
       "entry_time": "2026-05-30T07:00:24.142011+00:00",
       "score": 74,
-      "status": "open"
-    },
-    {
-      "symbol": "LEAN",
-      "chain": "base",
-      "address": "0x14D3E4cE2E38Ab439b8bA0445F49EaE265f5b84F",
-      "source": "new",
-      "entry_price": 1.999e-06,
-      "peak_price": 1.999e-06,
-      "trailing_active": false,
-      "entry_time": "2026-05-30T07:00:25.689212+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.49,
+      "peak_volume_m5": 4941.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -11102,6 +11094,25 @@
       "exit_price": 0.1808,
       "exit_pct": -33.33,
       "exit_time": "2026-05-30T02:42:15.609345+00:00"
+    },
+    {
+      "symbol": "LEAN",
+      "chain": "base",
+      "address": "0x14D3E4cE2E38Ab439b8bA0445F49EaE265f5b84F",
+      "source": "new",
+      "entry_price": 1.999e-06,
+      "peak_price": 1.999e-06,
+      "trailing_active": false,
+      "entry_time": "2026-05-30T07:00:25.689212+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.9,
+      "peak_volume_m5": 80278.59,
+      "milestones_hit": [],
+      "exit_price": 1.821e-06,
+      "exit_pct": -8.9,
+      "exit_time": "2026-05-30T07:03:13.367989+00:00"
     }
   ],
   "alerted": {
@@ -11683,6 +11694,7 @@
     "0x911d392dC32b1032E4F29b704cd3B74F5CB6E2A7": "2026-05-29T23:20:15.205841+00:00",
     "AGNsxSEi311MUbrttbe5Y6YQugUe9qLwyeU4EB7mpump": "2026-05-30T01:31:16.165786+00:00",
     "44irAmSmpjixNCsX82ZqmLchHLVGyXsMU6GeEv9jpump": "2026-05-30T02:15:34.552024+00:00",
-    "0xc0F8F4C953916Ad2774E6b51610DE85F2f2b80C0": "2026-05-30T02:42:15.609345+00:00"
+    "0xc0F8F4C953916Ad2774E6b51610DE85F2f2b80C0": "2026-05-30T02:42:15.609345+00:00",
+    "0x14D3E4cE2E38Ab439b8bA0445F49EaE265f5b84F": "2026-05-30T07:03:13.367989+00:00"
   }
 }
