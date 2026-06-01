@@ -8,23 +8,15 @@
       "address": "ACuZX4asxyqcRd6BTgGBKXJjViUP3kZQuDUQawBapump",
       "source": "boost",
       "entry_price": 0.0008608,
-      "peak_price": 0.0008608,
+      "peak_price": 0.0008776,
       "trailing_active": false,
       "entry_time": "2026-06-01T19:10:25.488368+00:00",
       "score": 88,
-      "status": "open"
-    },
-    {
-      "symbol": "QUASAR",
-      "chain": "ethereum",
-      "address": "0x27174CcfD54b4529b025559afA93FC187cEa80Cc",
-      "source": "new",
-      "entry_price": 31.59,
-      "peak_price": 31.59,
-      "trailing_active": false,
-      "entry_time": "2026-06-01T19:10:27.359212+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.95,
+      "peak_volume_m5": 232287.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -12324,6 +12316,25 @@
       "exit_price": 0.0001694,
       "exit_pct": -20.02,
       "exit_time": "2026-06-01T18:46:20.458604+00:00"
+    },
+    {
+      "symbol": "QUASAR",
+      "chain": "ethereum",
+      "address": "0x27174CcfD54b4529b025559afA93FC187cEa80Cc",
+      "source": "new",
+      "entry_price": 31.59,
+      "peak_price": 31.59,
+      "trailing_active": false,
+      "entry_time": "2026-06-01T19:10:27.359212+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.4,
+      "peak_volume_m5": 4617.74,
+      "milestones_hit": [],
+      "exit_price": 27.04,
+      "exit_pct": -14.4,
+      "exit_time": "2026-06-01T19:11:21.139279+00:00"
     }
   ],
   "alerted": {
@@ -12967,6 +12978,7 @@
     "0xB25446116E6AE192E7c70C0ca5c9B88463bb0B07": "2026-06-01T16:42:22.996477+00:00",
     "0x06EEa61a627cB7cAa7F7E45b2024F54Aff155BA3": "2026-06-01T18:11:20.904722+00:00",
     "0x4237e6ab8c5D53cddC26Ca8272F82FbdC1677cBC": "2026-06-01T18:34:21.437859+00:00",
-    "EbnLFfTrjCRayJgVb4TVwmSn1kFTrnHHnfLmAJQLpump": "2026-06-01T18:46:20.458604+00:00"
+    "EbnLFfTrjCRayJgVb4TVwmSn1kFTrnHHnfLmAJQLpump": "2026-06-01T18:46:20.458604+00:00",
+    "0x27174CcfD54b4529b025559afA93FC187cEa80Cc": "2026-06-01T19:11:21.139279+00:00"
   }
 }
