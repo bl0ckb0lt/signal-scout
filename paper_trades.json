@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "APX",
-      "chain": "base",
-      "address": "0x94687bcee17364ef350e1a7f996f3ddEf8885f7c",
-      "source": "new",
-      "entry_price": 1.754e-06,
-      "peak_price": 1.754e-06,
-      "trailing_active": false,
-      "entry_time": "2026-06-02T12:50:36.970589+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "AIVA",
-      "chain": "base",
-      "address": "0x27056502352b2cB934626504E994D26A5Ba6ec70",
-      "source": "new",
-      "entry_price": 9.518e-07,
-      "peak_price": 9.518e-07,
-      "trailing_active": false,
-      "entry_time": "2026-06-02T12:50:38.701313+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "SYN",
       "chain": "base",
       "address": "0x456E9625CF171274DC342D432e17b1197DDe9b07",
       "source": "new",
       "entry_price": 3.759e-07,
-      "peak_price": 3.759e-07,
+      "peak_price": 3.765e-07,
       "trailing_active": false,
       "entry_time": "2026-06-02T12:50:40.939703+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.16,
+      "peak_volume_m5": 471.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -12701,6 +12681,44 @@
       "exit_price": 0.0002297,
       "exit_pct": -12.53,
       "exit_time": "2026-06-02T12:50:17.651057+00:00"
+    },
+    {
+      "symbol": "APX",
+      "chain": "base",
+      "address": "0x94687bcee17364ef350e1a7f996f3ddEf8885f7c",
+      "source": "new",
+      "entry_price": 1.754e-06,
+      "peak_price": 1.754e-06,
+      "trailing_active": false,
+      "entry_time": "2026-06-02T12:50:36.970589+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.84,
+      "peak_volume_m5": 43394.96,
+      "milestones_hit": [],
+      "exit_price": 1.599e-06,
+      "exit_pct": -8.84,
+      "exit_time": "2026-06-02T12:51:18.921051+00:00"
+    },
+    {
+      "symbol": "AIVA",
+      "chain": "base",
+      "address": "0x27056502352b2cB934626504E994D26A5Ba6ec70",
+      "source": "new",
+      "entry_price": 9.518e-07,
+      "peak_price": 9.518e-07,
+      "trailing_active": false,
+      "entry_time": "2026-06-02T12:50:38.701313+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.28,
+      "peak_volume_m5": 30526.39,
+      "milestones_hit": [],
+      "exit_price": 8.064e-07,
+      "exit_pct": -15.28,
+      "exit_time": "2026-06-02T12:51:19.595770+00:00"
     }
   ],
   "alerted": {
@@ -13363,6 +13381,8 @@
     "0x956c73C170e96683168Aaa471bcE164E34dD9e85": "2026-06-02T10:25:13.712928+00:00",
     "0x857655300944408AA6124092D7c8f356A6810b28": "2026-06-02T10:32:15.249819+00:00",
     "0x6239bD3e4841Feb0CdAB4eFEA0564115A45398f4": "2026-06-02T11:31:18.622615+00:00",
-    "9MTge3duPkUwN3x9ZPQaLzJnzf9cTZzpj98F4VJANPpr": "2026-06-02T12:50:17.651057+00:00"
+    "9MTge3duPkUwN3x9ZPQaLzJnzf9cTZzpj98F4VJANPpr": "2026-06-02T12:50:17.651057+00:00",
+    "0x94687bcee17364ef350e1a7f996f3ddEf8885f7c": "2026-06-02T12:51:18.921051+00:00",
+    "0x27056502352b2cB934626504E994D26A5Ba6ec70": "2026-06-02T12:51:19.595770+00:00"
   }
 }
