@@ -3,35 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SENSE",
-      "chain": "solana",
-      "address": "C6sbkjPjyUbRHY91K4T4Wigz6WyFA6NsrNq8THpZpump",
-      "source": "new",
-      "entry_price": 0.0001697,
-      "peak_price": 0.0001748,
-      "trailing_active": false,
-      "entry_time": "2026-06-02T17:50:27.670971+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.01,
-      "peak_volume_m5": 12766.8,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CHRONOS",
       "chain": "ethereum",
       "address": "0xccF1aD0A446f9D136bdbD892144a23A8045Fc040",
       "source": "new",
       "entry_price": 20.52,
-      "peak_price": 20.65,
+      "peak_price": 22.2,
       "trailing_active": false,
       "entry_time": "2026-06-02T18:00:30.598888+00:00",
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.63,
-      "peak_volume_m5": 1373.44,
+      "current_pct": 8.19,
+      "peak_volume_m5": 1940.07,
       "milestones_hit": []
     }
   ],
@@ -12871,6 +12855,25 @@
       "exit_price": 2.54e-06,
       "exit_pct": -8.8,
       "exit_time": "2026-06-02T16:30:41.751388+00:00"
+    },
+    {
+      "symbol": "SENSE",
+      "chain": "solana",
+      "address": "C6sbkjPjyUbRHY91K4T4Wigz6WyFA6NsrNq8THpZpump",
+      "source": "new",
+      "entry_price": 0.0001697,
+      "peak_price": 0.0001748,
+      "trailing_active": false,
+      "entry_time": "2026-06-02T17:50:27.670971+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.15,
+      "peak_volume_m5": 30908.41,
+      "milestones_hit": [],
+      "exit_price": 0.0001355,
+      "exit_pct": -20.15,
+      "exit_time": "2026-06-02T18:03:26.934344+00:00"
     }
   ],
   "alerted": {
@@ -13542,6 +13545,7 @@
     "0xd8488bFADcFb6A973e9EA78009E1B6a1945C7B07": "2026-06-02T14:52:23.484785+00:00",
     "0x87bFAADfaaE832237c6a5b2E8837CFD1c1947777": "2026-06-02T15:40:44.228553+00:00",
     "0xA0fd9980741011AaF7d9FAd2Fa0bC443F4Ed2b07": "2026-06-02T16:13:21.066451+00:00",
-    "0xF9a4D27597412D3C17fb856D81Bc9E51ba95BB07": "2026-06-02T16:30:41.751388+00:00"
+    "0xF9a4D27597412D3C17fb856D81Bc9E51ba95BB07": "2026-06-02T16:30:41.751388+00:00",
+    "C6sbkjPjyUbRHY91K4T4Wigz6WyFA6NsrNq8THpZpump": "2026-06-02T18:03:26.934344+00:00"
   }
 }
