@@ -35,36 +35,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "WCUP",
-      "chain": "ethereum",
-      "address": "0x0D7a6cAa63BC2B47C881044b0dFA58e087B63bC2",
-      "source": "new",
-      "entry_price": 0.03713,
-      "peak_price": 0.0461,
-      "trailing_active": true,
-      "entry_time": "2026-06-10T23:10:24.802486+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 24.16,
-      "peak_volume_m5": 27944.16,
-      "milestones_hit": []
-    },
-    {
       "symbol": "COWLICK",
       "chain": "solana",
       "address": "HG1kBNSLpUTU6SbUAzXcXHFynHMmpsvEgjPQ7yh6pump",
       "source": "boost",
       "entry_price": 0.0001658,
-      "peak_price": 0.0002358,
+      "peak_price": 0.00026,
       "trailing_active": true,
       "entry_time": "2026-06-11T02:10:24.648218+00:00",
       "score": 84,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 42.22,
-      "peak_volume_m5": 81165.91,
-      "milestones_hit": []
+      "current_pct": 56.82,
+      "peak_volume_m5": 82840.74,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -15768,6 +15754,25 @@
       "exit_price": 0.0001278,
       "exit_pct": -9.94,
       "exit_time": "2026-06-10T23:43:13.425357+00:00"
+    },
+    {
+      "symbol": "WCUP",
+      "chain": "ethereum",
+      "address": "0x0D7a6cAa63BC2B47C881044b0dFA58e087B63bC2",
+      "source": "new",
+      "entry_price": 0.03713,
+      "peak_price": 0.0461,
+      "trailing_active": true,
+      "entry_time": "2026-06-10T23:10:24.802486+00:00",
+      "score": 82,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 23.81,
+      "peak_volume_m5": 27944.16,
+      "milestones_hit": [],
+      "exit_price": 0.04597,
+      "exit_pct": 23.81,
+      "exit_time": "2026-06-11T02:21:17.462265+00:00"
     }
   ],
   "alerted": {
@@ -16583,6 +16588,7 @@
     "0xf0476923E4AA30575f4177D345e956a3C9d05bA3": "2026-06-10T22:49:17.666732+00:00",
     "0x03887b45e49791472a03c8B9feC5c30aeC5CabA3": "2026-06-10T22:55:16.253120+00:00",
     "0x47d9202a7e4F28583d631f36c56FAb144ddeDBa3": "2026-06-10T23:15:30.108133+00:00",
-    "7LNfxxMAu5sNbg4uY5Kuu5Tvg6CsQGUo4ASkD79Xpump": "2026-06-10T23:43:13.425357+00:00"
+    "7LNfxxMAu5sNbg4uY5Kuu5Tvg6CsQGUo4ASkD79Xpump": "2026-06-10T23:43:13.425357+00:00",
+    "0x0D7a6cAa63BC2B47C881044b0dFA58e087B63bC2": "2026-06-11T02:21:17.462265+00:00"
   }
 }
