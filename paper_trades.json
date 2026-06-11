@@ -29,7 +29,7 @@
       "entry_time": "2026-06-10T21:40:25.131316+00:00",
       "score": 82,
       "status": "open",
-      "api_failures": 6,
+      "api_failures": 7,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -44,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-11T22:20:26.022906+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "CMEM",
-      "chain": "base",
-      "address": "0xEBD7b12b1DBbD5b10D5b9Ccee923280218940Ba3",
-      "source": "new",
-      "entry_price": 1.185e-06,
-      "peak_price": 1.185e-06,
-      "trailing_active": false,
-      "entry_time": "2026-06-11T22:20:27.730474+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.1,
+      "peak_volume_m5": 8532.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -16190,6 +16182,25 @@
       "exit_price": 0.0003489,
       "exit_pct": -12.18,
       "exit_time": "2026-06-11T21:42:13.786210+00:00"
+    },
+    {
+      "symbol": "CMEM",
+      "chain": "base",
+      "address": "0xEBD7b12b1DBbD5b10D5b9Ccee923280218940Ba3",
+      "source": "new",
+      "entry_price": 1.185e-06,
+      "peak_price": 1.185e-06,
+      "trailing_active": false,
+      "entry_time": "2026-06-11T22:20:27.730474+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.45,
+      "peak_volume_m5": 58707.99,
+      "milestones_hit": [],
+      "exit_price": 1.073e-06,
+      "exit_pct": -9.45,
+      "exit_time": "2026-06-11T22:24:17.499328+00:00"
     }
   ],
   "alerted": {
@@ -17027,6 +17038,7 @@
     "0x5293211DA97091Bd87a6c2450790762012a4C801": "2026-06-11T19:37:18.181049+00:00",
     "WUrToByF8yhPGJSPGsSAYuMxLUnHEUuTRDgwzgKpump": "2026-06-11T19:53:22.936984+00:00",
     "oqmDusk33ysweS2pWn9n2QDJyHGynQSfDcKxMuYpump": "2026-06-11T20:31:15.140591+00:00",
-    "BQPgDTffNP5Z4WK9E9tdpcSq22o1nL8gidE23Yowpump": "2026-06-11T21:42:13.786210+00:00"
+    "BQPgDTffNP5Z4WK9E9tdpcSq22o1nL8gidE23Yowpump": "2026-06-11T21:42:13.786210+00:00",
+    "0xEBD7b12b1DBbD5b10D5b9Ccee923280218940Ba3": "2026-06-11T22:24:17.499328+00:00"
   }
 }
