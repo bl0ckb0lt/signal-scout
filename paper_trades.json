@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TAU",
-      "chain": "base",
-      "address": "0xfE5a65a7f272C5343297601F995C9133B9973812",
-      "source": "new",
-      "entry_price": 4.033e-07,
-      "peak_price": 4.759e-07,
-      "trailing_active": true,
-      "entry_time": "2026-06-13T18:50:23.953459+00:00",
-      "score": 58,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 18.0,
-      "peak_volume_m5": 618.89,
-      "milestones_hit": []
-    },
-    {
       "symbol": "MANLET",
       "chain": "solana",
       "address": "FamUNkepHXkVxjWHeMSpJmD4xVhCSyNnUG9GVsdmR2xQ",
       "source": "new",
       "entry_price": 0.0002339,
-      "peak_price": 0.0002339,
-      "trailing_active": false,
+      "peak_price": 0.0003161,
+      "trailing_active": true,
       "entry_time": "2026-06-13T19:00:27.762590+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.14,
+      "peak_volume_m5": 94326.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -17262,6 +17250,25 @@
       "exit_price": 0.0003106,
       "exit_pct": -13.7,
       "exit_time": "2026-06-13T17:11:14.452373+00:00"
+    },
+    {
+      "symbol": "TAU",
+      "chain": "base",
+      "address": "0xfE5a65a7f272C5343297601F995C9133B9973812",
+      "source": "new",
+      "entry_price": 4.033e-07,
+      "peak_price": 4.773e-07,
+      "trailing_active": true,
+      "entry_time": "2026-06-13T18:50:23.953459+00:00",
+      "score": 58,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 18.35,
+      "peak_volume_m5": 618.89,
+      "milestones_hit": [],
+      "exit_price": 4.773e-07,
+      "exit_pct": 18.35,
+      "exit_time": "2026-06-13T19:05:31.193526+00:00"
     }
   ],
   "alerted": {
@@ -18155,6 +18162,7 @@
     "0x847CC46f8d03F54dB55f8b6F5E40b27A589F31fA": "2026-06-13T15:15:30.543103+00:00",
     "0x0C826A54E717504BC9F2DDCeA9Ef6B80A8Ece36e": "2026-06-13T16:54:21.200875+00:00",
     "2dJniDEAGCG7zWKseCkyrML3W23WLjDf1CGxpNv3pump": "2026-06-13T17:00:22.265882+00:00",
-    "FEj4nyCN7YnD5G1CKSnEWkB5LTHcca7ZLZfKUmsZpump": "2026-06-13T17:11:14.452373+00:00"
+    "FEj4nyCN7YnD5G1CKSnEWkB5LTHcca7ZLZfKUmsZpump": "2026-06-13T17:11:14.452373+00:00",
+    "0xfE5a65a7f272C5343297601F995C9133B9973812": "2026-06-13T19:05:31.193526+00:00"
   }
 }
