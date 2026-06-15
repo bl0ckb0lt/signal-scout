@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Korico",
-      "chain": "bsc",
-      "address": "0xbb87Dc5daAC59D6e11ea2461cA69543f4B844444",
-      "source": "new",
-      "entry_price": 0.0001753,
-      "peak_price": 0.0001753,
-      "trailing_active": false,
-      "entry_time": "2026-06-15T16:30:31.985328+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "SSTR",
       "chain": "solana",
       "address": "67MVZBUtDpVG1sEqbUkLWaoRajC4ZVCoRZLYiHStpump",
       "source": "boost",
       "entry_price": 0.0001173,
-      "peak_price": 0.0001173,
+      "peak_price": 0.0001313,
       "trailing_active": false,
       "entry_time": "2026-06-15T16:30:35.465696+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.94,
+      "peak_volume_m5": 4370.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -18304,6 +18296,25 @@
       "exit_price": 1.176e-06,
       "exit_pct": 23.58,
       "exit_time": "2026-06-15T16:24:25.740840+00:00"
+    },
+    {
+      "symbol": "Korico",
+      "chain": "bsc",
+      "address": "0xbb87Dc5daAC59D6e11ea2461cA69543f4B844444",
+      "source": "new",
+      "entry_price": 0.0001753,
+      "peak_price": 0.0001753,
+      "trailing_active": false,
+      "entry_time": "2026-06-15T16:30:31.985328+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.53,
+      "peak_volume_m5": 22444.17,
+      "milestones_hit": [],
+      "exit_price": 0.0001656,
+      "exit_pct": -5.53,
+      "exit_time": "2026-06-15T16:38:21.316620+00:00"
     }
   ],
   "alerted": {
@@ -19250,6 +19261,7 @@
     "Dy9rwjKXeq56S9kF5iYKHgUBdJM4NdKZ8zd5Rcq2pump": "2026-06-15T14:52:24.389143+00:00",
     "0x61eF5282967cbaE0B03F5C20B8b9393E0abb2A17": "2026-06-15T16:01:18.642646+00:00",
     "0xc6b53564bA5d73e405B26fEC6384D1e2b3151AEd": "2026-06-15T16:12:22.114562+00:00",
-    "0x05b22F5e9CfE5498E55eb8Cd475A1C9C4Aef4400": "2026-06-15T16:24:25.740840+00:00"
+    "0x05b22F5e9CfE5498E55eb8Cd475A1C9C4Aef4400": "2026-06-15T16:24:25.740840+00:00",
+    "0xbb87Dc5daAC59D6e11ea2461cA69543f4B844444": "2026-06-15T16:38:21.316620+00:00"
   }
 }
