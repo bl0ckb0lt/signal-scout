@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-15T14:30:35.990133+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.95,
+      "peak_volume_m5": 19647.01,
+      "milestones_hit": []
     },
     {
       "symbol": "FLOWERLAND",
@@ -24,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-15T14:30:38.029456+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "BATTLE",
-      "chain": "solana",
-      "address": "gusmFBcXpcTd91k95abHq5CrBmkCBce92SonzxNpump",
-      "source": "new",
-      "entry_price": 0.0001517,
-      "peak_price": 0.0001517,
-      "trailing_active": false,
-      "entry_time": "2026-06-15T14:30:40.391114+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.81,
+      "peak_volume_m5": 13829.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -18181,6 +18177,25 @@
       "exit_price": 1.23e-06,
       "exit_pct": -12.89,
       "exit_time": "2026-06-15T13:41:24.637340+00:00"
+    },
+    {
+      "symbol": "BATTLE",
+      "chain": "solana",
+      "address": "gusmFBcXpcTd91k95abHq5CrBmkCBce92SonzxNpump",
+      "source": "new",
+      "entry_price": 0.0001517,
+      "peak_price": 0.0001517,
+      "trailing_active": false,
+      "entry_time": "2026-06-15T14:30:40.391114+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.26,
+      "peak_volume_m5": 29561.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001331,
+      "exit_pct": -12.26,
+      "exit_time": "2026-06-15T14:31:25.301155+00:00"
     }
   ],
   "alerted": {
@@ -19120,6 +19135,7 @@
     "7DivLxFHvpzW5i9Dd1wd7UZmVAVGv6dkeL3JaxTDpump": "2026-06-15T09:01:20.887542+00:00",
     "5WrhAdqrtaBqzjoPEQ4bVkukQGCmR9mrcKeeifCKpump": "2026-06-15T10:58:19.811018+00:00",
     "0x2f979FD90CEF1D381D7241d0137Db6d7A4c6D5Fa": "2026-06-15T13:07:17.261385+00:00",
-    "0x73Cd7CE860C058144AAC2c1f1b3BE487085F9BA3": "2026-06-15T13:41:24.637340+00:00"
+    "0x73Cd7CE860C058144AAC2c1f1b3BE487085F9BA3": "2026-06-15T13:41:24.637340+00:00",
+    "gusmFBcXpcTd91k95abHq5CrBmkCBce92SonzxNpump": "2026-06-15T14:31:25.301155+00:00"
   }
 }
