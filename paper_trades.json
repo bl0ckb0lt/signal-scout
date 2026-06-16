@@ -3,37 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\u751f\u6b7b",
-      "chain": "bsc",
-      "address": "0xB4f91A6096D7cF4c3B73acA4EB64f088cD8DF4Ff",
-      "source": "new",
-      "entry_price": 0.0002026,
-      "peak_price": 0.0005781,
-      "trailing_active": true,
-      "entry_time": "2026-06-16T00:10:29.041498+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 185.34,
-      "peak_volume_m5": 16884.05,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "SOLANDS",
       "chain": "solana",
       "address": "CqhWjKAoMkdquk4f6Hv6TMMVpupnLRVSR8zpLeobpump",
       "source": "new",
       "entry_price": 0.0001225,
-      "peak_price": 0.0001287,
+      "peak_price": 0.0001328,
       "trailing_active": false,
       "entry_time": "2026-06-16T00:20:36.540217+00:00",
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.33,
+      "current_pct": 8.41,
       "peak_volume_m5": 17950.71,
       "milestones_hit": []
     }
@@ -18605,6 +18586,29 @@
       "exit_price": 1.107e-06,
       "exit_pct": -27.98,
       "exit_time": "2026-06-16T00:23:23.684206+00:00"
+    },
+    {
+      "symbol": "\u751f\u6b7b",
+      "chain": "bsc",
+      "address": "0xB4f91A6096D7cF4c3B73acA4EB64f088cD8DF4Ff",
+      "source": "new",
+      "entry_price": 0.0002026,
+      "peak_price": 0.0007144,
+      "trailing_active": true,
+      "entry_time": "2026-06-16T00:10:29.041498+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 252.62,
+      "peak_volume_m5": 16884.05,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0007144,
+      "exit_pct": 252.62,
+      "exit_time": "2026-06-16T00:27:19.715034+00:00"
     }
   ],
   "alerted": {
@@ -19566,6 +19570,7 @@
     "GwYFqqCqFiKwy1YoyC4fUVo7z7xVE2Wr8L7xYhENpump": "2026-06-15T23:32:12.773954+00:00",
     "okTCeDRb7NeExmvf3RZxEs29i9nfw8Cd51oFVB4FZUL": "2026-06-15T23:35:39.444825+00:00",
     "0x1ed73daAd77Dd1c37562eEeCE3763b5bAA688A38": "2026-06-16T00:23:22.028599+00:00",
-    "0xb41ebba6541e1B59209f7f88BF4e40edC8050bA3": "2026-06-16T00:23:23.684206+00:00"
+    "0xb41ebba6541e1B59209f7f88BF4e40edC8050bA3": "2026-06-16T00:23:23.684206+00:00",
+    "0xB4f91A6096D7cF4c3B73acA4EB64f088cD8DF4Ff": "2026-06-16T00:27:19.715034+00:00"
   }
 }
