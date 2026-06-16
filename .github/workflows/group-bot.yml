@@ -1,0 +1,31 @@
+name: Group Management Bot
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'    # every 5 min fallback
+  repository_dispatch:
+    types: [run-group-bot]    # cron-job.org fires this every 1 min for faster response
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  group-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest state
+        run: git pull --rebase --autostash || (git rebase --abort && git pull --ff-only)
+
+      - name: Run group manager
+        env:
+          GROUP_BOT_TOKEN: ${{ secrets.GROUP_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python group_manager.py
