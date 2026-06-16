@@ -3,37 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\ud83d\udd36",
-      "chain": "bsc",
-      "address": "0x1ed73daAd77Dd1c37562eEeCE3763b5bAA688A38",
-      "source": "new",
-      "entry_price": 0.0003774,
-      "peak_price": 0.0009982,
-      "trailing_active": true,
-      "entry_time": "2026-06-16T00:00:28.003376+00:00",
-      "score": 59,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 164.49,
-      "peak_volume_m5": 16622.61,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "\u751f\u6b7b",
       "chain": "bsc",
       "address": "0xB4f91A6096D7cF4c3B73acA4EB64f088cD8DF4Ff",
       "source": "new",
       "entry_price": 0.0002026,
-      "peak_price": 0.0005633,
+      "peak_price": 0.0005781,
       "trailing_active": true,
       "entry_time": "2026-06-16T00:10:29.041498+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 178.04,
+      "current_pct": 185.34,
       "peak_volume_m5": 16884.05,
       "milestones_hit": [
         50,
@@ -52,21 +33,9 @@
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.06,
+      "current_pct": 4.33,
       "peak_volume_m5": 17950.71,
       "milestones_hit": []
-    },
-    {
-      "symbol": "LEGION",
-      "chain": "base",
-      "address": "0xb41ebba6541e1B59209f7f88BF4e40edC8050bA3",
-      "source": "new",
-      "entry_price": 1.537e-06,
-      "peak_price": 1.537e-06,
-      "trailing_active": false,
-      "entry_time": "2026-06-16T00:22:07.961005+00:00",
-      "score": 72,
-      "status": "open"
     }
   ],
   "closed": [
@@ -18595,6 +18564,47 @@
       "exit_price": 0.0001629,
       "exit_pct": -6.81,
       "exit_time": "2026-06-15T23:35:39.444825+00:00"
+    },
+    {
+      "symbol": "\ud83d\udd36",
+      "chain": "bsc",
+      "address": "0x1ed73daAd77Dd1c37562eEeCE3763b5bAA688A38",
+      "source": "new",
+      "entry_price": 0.0003774,
+      "peak_price": 0.0009982,
+      "trailing_active": true,
+      "entry_time": "2026-06-16T00:00:28.003376+00:00",
+      "score": 59,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 131.96,
+      "peak_volume_m5": 17472.74,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0008754,
+      "exit_pct": 131.96,
+      "exit_time": "2026-06-16T00:23:22.028599+00:00"
+    },
+    {
+      "symbol": "LEGION",
+      "chain": "base",
+      "address": "0xb41ebba6541e1B59209f7f88BF4e40edC8050bA3",
+      "source": "new",
+      "entry_price": 1.537e-06,
+      "peak_price": 1.537e-06,
+      "trailing_active": false,
+      "entry_time": "2026-06-16T00:22:07.961005+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.98,
+      "peak_volume_m5": 71270.75,
+      "milestones_hit": [],
+      "exit_price": 1.107e-06,
+      "exit_pct": -27.98,
+      "exit_time": "2026-06-16T00:23:23.684206+00:00"
     }
   ],
   "alerted": {
@@ -19554,6 +19564,8 @@
     "0xD395418Df07aFC196E6F66Fb174F213eE21e437D": "2026-06-15T23:12:16.135280+00:00",
     "GiASQVnABgYPXNE3HQFqc2SvM6fH95SQ17Y51VNhqgPQ": "2026-06-15T23:17:20.202294+00:00",
     "GwYFqqCqFiKwy1YoyC4fUVo7z7xVE2Wr8L7xYhENpump": "2026-06-15T23:32:12.773954+00:00",
-    "okTCeDRb7NeExmvf3RZxEs29i9nfw8Cd51oFVB4FZUL": "2026-06-15T23:35:39.444825+00:00"
+    "okTCeDRb7NeExmvf3RZxEs29i9nfw8Cd51oFVB4FZUL": "2026-06-15T23:35:39.444825+00:00",
+    "0x1ed73daAd77Dd1c37562eEeCE3763b5bAA688A38": "2026-06-16T00:23:22.028599+00:00",
+    "0xb41ebba6541e1B59209f7f88BF4e40edC8050bA3": "2026-06-16T00:23:23.684206+00:00"
   }
 }
