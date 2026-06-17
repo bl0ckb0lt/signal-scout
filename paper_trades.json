@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GOAT",
-      "chain": "ethereum",
-      "address": "0x2e1e16e929E81406d92f16019C0cea907Efea0aF",
-      "source": "new",
-      "entry_price": 8.96e-05,
-      "peak_price": 8.96e-05,
-      "trailing_active": false,
-      "entry_time": "2026-06-17T15:40:36.875500+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "WESLEY",
       "chain": "solana",
       "address": "CeSQAsN3WLSHCuRHDrhaL5iXRfFLiWXcfbjSFStipump",
       "source": "new",
       "entry_price": 0.0001316,
-      "peak_price": 0.0001316,
+      "peak_price": 0.000134,
       "trailing_active": false,
       "entry_time": "2026-06-17T15:40:38.867908+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.82,
+      "peak_volume_m5": 25859.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -19744,6 +19736,25 @@
       "exit_price": 0.0001286,
       "exit_pct": -7.15,
       "exit_time": "2026-06-17T15:06:26.921374+00:00"
+    },
+    {
+      "symbol": "GOAT",
+      "chain": "ethereum",
+      "address": "0x2e1e16e929E81406d92f16019C0cea907Efea0aF",
+      "source": "new",
+      "entry_price": 8.96e-05,
+      "peak_price": 8.96e-05,
+      "trailing_active": false,
+      "entry_time": "2026-06-17T15:40:36.875500+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.48,
+      "peak_volume_m5": 23639.32,
+      "milestones_hit": [],
+      "exit_price": 8.021e-05,
+      "exit_pct": -10.48,
+      "exit_time": "2026-06-17T15:41:23.315782+00:00"
     }
   ],
   "alerted": {
@@ -20761,6 +20772,7 @@
     "0xaF4E191361BEBABE064118cB611416a8B3070b07": "2026-06-17T13:32:25.835604+00:00",
     "81rETHpG5t745g15UMTMpQNf5pDC5VVsKLtTJHDjpump": "2026-06-17T13:45:44.156613+00:00",
     "0x34dE7b42F429aF3A421e93b5D1a20D94C5c5B647": "2026-06-17T14:52:29.077524+00:00",
-    "Eube6U1yXqgoSppGaaLCUg5eakXvMWR6th3CXs4epump": "2026-06-17T15:06:26.921374+00:00"
+    "Eube6U1yXqgoSppGaaLCUg5eakXvMWR6th3CXs4epump": "2026-06-17T15:06:26.921374+00:00",
+    "0x2e1e16e929E81406d92f16019C0cea907Efea0aF": "2026-06-17T15:41:23.315782+00:00"
   }
 }
