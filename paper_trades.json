@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FLUE",
-      "chain": "base",
-      "address": "0xca79c1C8B2E6f989Daf7425ea3bF195730A543ae",
-      "source": "new",
-      "entry_price": 6.231e-07,
-      "peak_price": 6.231e-07,
-      "trailing_active": false,
-      "entry_time": "2026-06-18T03:00:31.142583+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.7,
-      "peak_volume_m5": 7993.64,
-      "milestones_hit": []
-    },
-    {
       "symbol": "cooking",
       "chain": "solana",
       "address": "C5tcc5ppr9FMBoRCgAPn4w4qQ2vQzRYepdzsfPfxpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-18T03:10:32.708955+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.19,
+      "peak_volume_m5": 11424.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -20149,6 +20137,25 @@
       "exit_price": 0.0001214,
       "exit_pct": -10.54,
       "exit_time": "2026-06-18T02:54:23.074986+00:00"
+    },
+    {
+      "symbol": "FLUE",
+      "chain": "base",
+      "address": "0xca79c1C8B2E6f989Daf7425ea3bF195730A543ae",
+      "source": "new",
+      "entry_price": 6.231e-07,
+      "peak_price": 6.231e-07,
+      "trailing_active": false,
+      "entry_time": "2026-06-18T03:00:31.142583+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.65,
+      "peak_volume_m5": 12426.7,
+      "milestones_hit": [],
+      "exit_price": 5.63e-07,
+      "exit_pct": -9.65,
+      "exit_time": "2026-06-18T03:12:19.205797+00:00"
     }
   ],
   "alerted": {
@@ -21187,6 +21194,7 @@
     "3XhQa9baZzP9CVHBSnryqUSwJsiS2RiYozNT1kEYpump": "2026-06-18T01:42:27.159957+00:00",
     "p4xfbiJJUk42rCTkNTV8U7hp33ny1oohMpRrKwGpump": "2026-06-18T01:54:19.936089+00:00",
     "0x1a1AbbFA440C0aAAEDbb18Fd1a68FCeB137EdbA3": "2026-06-18T02:04:18.589281+00:00",
-    "CRtJcETFwVeh3ufQyXd42YGdwwJ1xQoJBBeTmYCrpump": "2026-06-18T02:54:23.074986+00:00"
+    "CRtJcETFwVeh3ufQyXd42YGdwwJ1xQoJBBeTmYCrpump": "2026-06-18T02:54:23.074986+00:00",
+    "0xca79c1C8B2E6f989Daf7425ea3bF195730A543ae": "2026-06-18T03:12:19.205797+00:00"
   }
 }
