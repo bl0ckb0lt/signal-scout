@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BWICK",
-      "chain": "solana",
-      "address": "8eJrnMwC3cjGNNMWYBxfpf91AwzTVzgKUL7kQwwEpump",
-      "source": "new",
-      "entry_price": 0.0001599,
-      "peak_price": 0.0001599,
-      "trailing_active": false,
-      "entry_time": "2026-06-19T19:00:30.949052+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "FLUE",
       "chain": "base",
       "address": "0xC116c61C9968888d1B8407ea9A3E8f153a0d1794",
       "source": "new",
       "entry_price": 8.495e-07,
-      "peak_price": 8.495e-07,
+      "peak_price": 9.131e-07,
       "trailing_active": false,
       "entry_time": "2026-06-19T19:00:32.486599+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.49,
+      "peak_volume_m5": 24372.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -20918,6 +20910,25 @@
       "exit_price": 0.0001616,
       "exit_pct": -14.63,
       "exit_time": "2026-06-19T18:37:15.754266+00:00"
+    },
+    {
+      "symbol": "BWICK",
+      "chain": "solana",
+      "address": "8eJrnMwC3cjGNNMWYBxfpf91AwzTVzgKUL7kQwwEpump",
+      "source": "new",
+      "entry_price": 0.0001599,
+      "peak_price": 0.0001599,
+      "trailing_active": false,
+      "entry_time": "2026-06-19T19:00:30.949052+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.08,
+      "peak_volume_m5": 38297.58,
+      "milestones_hit": [],
+      "exit_price": 0.0001246,
+      "exit_pct": -22.08,
+      "exit_time": "2026-06-19T19:04:07.206814+00:00"
     }
   ],
   "alerted": {
@@ -21995,6 +22006,7 @@
     "0x6A325bc7081222bACD3d9C754e07a2370FfE636f": "2026-06-19T16:24:20.989885+00:00",
     "8QAfLaNuyZhwg4LMomfe8CKX7XwYwSiGQDPUivkppump": "2026-06-19T16:49:21.586211+00:00",
     "2pL9J9mTD9RAGS9jnNeB2kKR62ar8pnQAV2sMgyrpump": "2026-06-19T18:00:23.680385+00:00",
-    "5GF4wYym8VztQ4GHXnMu5YK9zerqLqgWWWvR8NZLpump": "2026-06-19T18:37:15.754266+00:00"
+    "5GF4wYym8VztQ4GHXnMu5YK9zerqLqgWWWvR8NZLpump": "2026-06-19T18:37:15.754266+00:00",
+    "8eJrnMwC3cjGNNMWYBxfpf91AwzTVzgKUL7kQwwEpump": "2026-06-19T19:04:07.206814+00:00"
   }
 }
