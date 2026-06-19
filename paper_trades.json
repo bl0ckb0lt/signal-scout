@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BAGY",
-      "chain": "solana",
-      "address": "ERNxcKwUyvhNrMs5xxVTyhd1yzg2CTft4X95ZRb3pump",
-      "source": "boost",
-      "entry_price": 0.0001255,
-      "peak_price": 0.0001255,
-      "trailing_active": false,
-      "entry_time": "2026-06-19T16:20:29.566367+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "\u7aef\u5348\u8282",
       "chain": "bsc",
       "address": "0x6A325bc7081222bACD3d9C754e07a2370FfE636f",
       "source": "new",
       "entry_price": 0.0001706,
-      "peak_price": 0.0001706,
+      "peak_price": 0.0001831,
       "trailing_active": false,
       "entry_time": "2026-06-19T16:20:31.117913+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.33,
+      "peak_volume_m5": 7514.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -20823,6 +20815,25 @@
       "exit_price": 9.851e-05,
       "exit_pct": -12.51,
       "exit_time": "2026-06-19T16:12:16.197711+00:00"
+    },
+    {
+      "symbol": "BAGY",
+      "chain": "solana",
+      "address": "ERNxcKwUyvhNrMs5xxVTyhd1yzg2CTft4X95ZRb3pump",
+      "source": "boost",
+      "entry_price": 0.0001255,
+      "peak_price": 0.0001255,
+      "trailing_active": false,
+      "entry_time": "2026-06-19T16:20:29.566367+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.55,
+      "peak_volume_m5": 13622.77,
+      "milestones_hit": [],
+      "exit_price": 0.000111,
+      "exit_pct": -11.55,
+      "exit_time": "2026-06-19T16:21:26.434089+00:00"
     }
   ],
   "alerted": {
@@ -21895,6 +21906,7 @@
     "HFhHPt4DNQNATbhXEVCFEcd8tadd8cHd8kqFi7Utpump": "2026-06-19T12:11:22.067104+00:00",
     "5kuTkFHSha6Dc4po34fhHVYfUf9XzqFSGxRN41rmpump": "2026-06-19T14:01:22.723773+00:00",
     "0xcC47a7C11025a2A43444F1317F829EA13E5FE9cF": "2026-06-19T16:02:17.201439+00:00",
-    "97G3xuSATggNYUpXmHp8ZNcNYnZmtjdnqHytsFWxpump": "2026-06-19T16:12:16.197711+00:00"
+    "97G3xuSATggNYUpXmHp8ZNcNYnZmtjdnqHytsFWxpump": "2026-06-19T16:12:16.197711+00:00",
+    "ERNxcKwUyvhNrMs5xxVTyhd1yzg2CTft4X95ZRb3pump": "2026-06-19T16:21:26.434089+00:00"
   }
 }
