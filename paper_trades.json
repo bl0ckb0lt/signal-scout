@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RO",
-      "chain": "solana",
-      "address": "FgrnkD6Meh4yusagXu4duEx51HkEuEVrxUihG9r2ejRR",
-      "source": "new",
-      "entry_price": 0.0001567,
-      "peak_price": 0.0001567,
-      "trailing_active": false,
-      "entry_time": "2026-06-22T16:30:32.429595+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "Q",
       "chain": "solana",
       "address": "BCNSwbxk5q25UFU1oLYTd25MQVTq9NNPRHxoxjPgpump",
       "source": "new",
       "entry_price": 0.0001396,
-      "peak_price": 0.0001396,
-      "trailing_active": false,
+      "peak_price": 0.0001803,
+      "trailing_active": true,
       "entry_time": "2026-06-22T16:30:34.065536+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.15,
+      "peak_volume_m5": 26094.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -22400,6 +22392,25 @@
       "exit_price": 9.026e-05,
       "exit_pct": 58.8,
       "exit_time": "2026-06-22T16:25:44.124083+00:00"
+    },
+    {
+      "symbol": "RO",
+      "chain": "solana",
+      "address": "FgrnkD6Meh4yusagXu4duEx51HkEuEVrxUihG9r2ejRR",
+      "source": "new",
+      "entry_price": 0.0001567,
+      "peak_price": 0.0001567,
+      "trailing_active": false,
+      "entry_time": "2026-06-22T16:30:32.429595+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.0,
+      "peak_volume_m5": 73793.43,
+      "milestones_hit": [],
+      "exit_price": 0.0001238,
+      "exit_pct": -21.0,
+      "exit_time": "2026-06-22T16:37:43.192548+00:00"
     }
   ],
   "alerted": {
@@ -23549,6 +23560,7 @@
     "0xf61c315CbC95600ebC02aB8D6B82Ece7dBAB22D5": "2026-06-22T14:44:29.964081+00:00",
     "DRuiWiackJbKAgHt771ytXDeFrjC8Tab7FwH4Q8upump": "2026-06-22T15:33:26.151629+00:00",
     "0xc8fe1319BCc138988A0f06a743ded4d614bCFFaB": "2026-06-22T16:00:23.163341+00:00",
-    "0x75632F80876b12A4EEDa45c79f12dC835Ce29e4a": "2026-06-22T16:25:44.124083+00:00"
+    "0x75632F80876b12A4EEDa45c79f12dC835Ce29e4a": "2026-06-22T16:25:44.124083+00:00",
+    "FgrnkD6Meh4yusagXu4duEx51HkEuEVrxUihG9r2ejRR": "2026-06-22T16:37:43.192548+00:00"
   }
 }
