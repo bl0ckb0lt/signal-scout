@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RIDDANCE",
-      "chain": "solana",
-      "address": "DRuiWiackJbKAgHt771ytXDeFrjC8Tab7FwH4Q8upump",
-      "source": "new",
-      "entry_price": 0.0004492,
-      "peak_price": 0.0004492,
-      "trailing_active": false,
-      "entry_time": "2026-06-22T15:30:37.202779+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "GTAVI",
       "chain": "ethereum",
       "address": "0xc8fe1319BCc138988A0f06a743ded4d614bCFFaB",
       "source": "new",
       "entry_price": 0.0001744,
-      "peak_price": 0.0001744,
+      "peak_price": 0.0001754,
       "trailing_active": false,
       "entry_time": "2026-06-22T15:30:38.994369+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.57,
+      "peak_volume_m5": 1857.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -22341,6 +22333,25 @@
       "exit_price": 0.000164,
       "exit_pct": -27.63,
       "exit_time": "2026-06-22T14:44:29.964081+00:00"
+    },
+    {
+      "symbol": "RIDDANCE",
+      "chain": "solana",
+      "address": "DRuiWiackJbKAgHt771ytXDeFrjC8Tab7FwH4Q8upump",
+      "source": "new",
+      "entry_price": 0.0004492,
+      "peak_price": 0.0004492,
+      "trailing_active": false,
+      "entry_time": "2026-06-22T15:30:37.202779+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.45,
+      "peak_volume_m5": 33318.16,
+      "milestones_hit": [],
+      "exit_price": 0.0003798,
+      "exit_pct": -15.45,
+      "exit_time": "2026-06-22T15:33:26.151629+00:00"
     }
   ],
   "alerted": {
@@ -23487,6 +23498,7 @@
     "4FnEvpYyVBbnNjeZvqaYUFZVHsLZpVZRGtbh13aRpump": "2026-06-22T08:37:19.352344+00:00",
     "DtgneYfuPv3Jt8PzfMXYq9opRNU2UVtgrLYFdC4Vpump": "2026-06-22T09:01:19.197041+00:00",
     "0x5702B9707Cc4F9131C8dd6448527966C249dcbA3": "2026-06-22T13:45:24.634779+00:00",
-    "0xf61c315CbC95600ebC02aB8D6B82Ece7dBAB22D5": "2026-06-22T14:44:29.964081+00:00"
+    "0xf61c315CbC95600ebC02aB8D6B82Ece7dBAB22D5": "2026-06-22T14:44:29.964081+00:00",
+    "DRuiWiackJbKAgHt771ytXDeFrjC8Tab7FwH4Q8upump": "2026-06-22T15:33:26.151629+00:00"
   }
 }
