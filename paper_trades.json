@@ -4,33 +4,19 @@
   "open": [
     {
       "symbol": "AIAIAI",
-      "chain": "solana",
-      "address": "AVPJS61gZmWKtaEpb7qYPKo8Fk2xQUsayYQxPiPMpump",
-      "source": "new",
-      "entry_price": 0.0002072,
-      "peak_price": 0.0004027,
-      "trailing_active": true,
-      "entry_time": "2026-06-25T07:30:42.445810+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 94.35,
-      "peak_volume_m5": 145771.42,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "AIAIAI",
       "chain": "ethereum",
       "address": "0x145F888E82A3E2c7b6891801AF1dc4Bdec8d9793",
       "source": "new",
       "entry_price": 0.0003194,
-      "peak_price": 0.0003194,
+      "peak_price": 0.0003232,
       "trailing_active": false,
       "entry_time": "2026-06-25T07:40:52.106325+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.19,
+      "peak_volume_m5": 20157.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -23636,6 +23622,28 @@
       "exit_price": 0.000149,
       "exit_pct": -9.53,
       "exit_time": "2026-06-25T06:28:17.217026+00:00"
+    },
+    {
+      "symbol": "AIAIAI",
+      "chain": "solana",
+      "address": "AVPJS61gZmWKtaEpb7qYPKo8Fk2xQUsayYQxPiPMpump",
+      "source": "new",
+      "entry_price": 0.0002072,
+      "peak_price": 0.0004701,
+      "trailing_active": true,
+      "entry_time": "2026-06-25T07:30:42.445810+00:00",
+      "score": 76,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 126.88,
+      "peak_volume_m5": 145771.42,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004701,
+      "exit_pct": 126.88,
+      "exit_time": "2026-06-25T07:46:21.092940+00:00"
     }
   ],
   "alerted": {
@@ -24848,6 +24856,7 @@
     "0xAa786104A50A479533454a0D9Ae07a658b37b72E": "2026-06-25T04:25:18.907214+00:00",
     "y1Jx8x2yQCJbJ8xm6MDuahELaiBmb6KeNoXqTAspump": "2026-06-25T04:31:23.014023+00:00",
     "GgqZq3znKRVSQTTMuridvUXvtqxy2tUbgFZ36jYEpump": "2026-06-25T05:53:16.338299+00:00",
-    "Dm8g1s9t28bynXtGizmCTrJkWHk3UrriwRX2QChRpump": "2026-06-25T06:28:17.217026+00:00"
+    "Dm8g1s9t28bynXtGizmCTrJkWHk3UrriwRX2QChRpump": "2026-06-25T06:28:17.217026+00:00",
+    "AVPJS61gZmWKtaEpb7qYPKo8Fk2xQUsayYQxPiPMpump": "2026-06-25T07:46:21.092940+00:00"
   }
 }
