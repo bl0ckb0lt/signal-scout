@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Terra",
-      "chain": "solana",
-      "address": "2j6CApLFvzSaRZ21bAStanY5qKAJwkuit6yn7eQbpump",
-      "source": "boost",
-      "entry_price": 0.0001922,
-      "peak_price": 0.0001922,
-      "trailing_active": false,
-      "entry_time": "2026-06-26T18:10:46.478517+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "\u661f\u8fb0\u5927\u6d77",
       "chain": "bsc",
       "address": "0x8Eb84Ebe7f3d97c648f0b16954D82A5AdD8F8905",
       "source": "new",
       "entry_price": 0.0002942,
-      "peak_price": 0.0002942,
+      "peak_price": 0.0002986,
       "trailing_active": false,
       "entry_time": "2026-06-26T18:10:48.359421+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.5,
+      "peak_volume_m5": 12046.02,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -24534,6 +24526,25 @@
       "exit_price": 0.0001998,
       "exit_pct": 5.1,
       "exit_time": "2026-06-26T18:02:16.906917+00:00"
+    },
+    {
+      "symbol": "Terra",
+      "chain": "solana",
+      "address": "2j6CApLFvzSaRZ21bAStanY5qKAJwkuit6yn7eQbpump",
+      "source": "boost",
+      "entry_price": 0.0001922,
+      "peak_price": 0.0001922,
+      "trailing_active": false,
+      "entry_time": "2026-06-26T18:10:46.478517+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.47,
+      "peak_volume_m5": 48992.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001567,
+      "exit_pct": -18.47,
+      "exit_time": "2026-06-26T18:11:20.915610+00:00"
     }
   ],
   "alerted": {
@@ -25791,6 +25802,7 @@
     "BUphiKNBKbPgKEfbxpRjWeq4qtsUiTi6GiveTX2kpump": "2026-06-26T17:33:18.944905+00:00",
     "H4CFQnSz3yjapiB6Z3qAoVH6MguggitXbyoGsgf4pump": "2026-06-26T17:42:20.394457+00:00",
     "C8aHA1FBxTCb9S4QTgmYJWD9tnBzZ7xMcvB9KwoGpump": "2026-06-26T18:01:17.007603+00:00",
-    "3dUpe9mGM251oFtMH2xMwb8RsEKUuu2G6E5CYTQepump": "2026-06-26T18:02:16.906917+00:00"
+    "3dUpe9mGM251oFtMH2xMwb8RsEKUuu2G6E5CYTQepump": "2026-06-26T18:02:16.906917+00:00",
+    "2j6CApLFvzSaRZ21bAStanY5qKAJwkuit6yn7eQbpump": "2026-06-26T18:11:20.915610+00:00"
   }
 }
