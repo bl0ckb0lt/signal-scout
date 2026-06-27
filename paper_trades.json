@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BOLEX",
-      "chain": "solana",
-      "address": "8XKVSyKQudQEBu4jv7RNiXEVG9XXSU7QrnueiRwkpump",
-      "source": "boost",
-      "entry_price": 0.000144,
-      "peak_price": 0.000144,
-      "trailing_active": false,
-      "entry_time": "2026-06-27T04:30:38.481679+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "BUTT",
       "chain": "solana",
       "address": "y4XpRmq8vCBKasQJy447SR1NEtXFpVQV8o4T7ZPpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-27T04:30:40.195838+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.02,
+      "peak_volume_m5": 30746.81,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -24840,6 +24832,25 @@
       "exit_price": 9.695e-05,
       "exit_pct": -17.07,
       "exit_time": "2026-06-27T04:15:16.234183+00:00"
+    },
+    {
+      "symbol": "BOLEX",
+      "chain": "solana",
+      "address": "8XKVSyKQudQEBu4jv7RNiXEVG9XXSU7QrnueiRwkpump",
+      "source": "boost",
+      "entry_price": 0.000144,
+      "peak_price": 0.000144,
+      "trailing_active": false,
+      "entry_time": "2026-06-27T04:30:38.481679+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.33,
+      "peak_volume_m5": 27145.58,
+      "milestones_hit": [],
+      "exit_price": 0.000132,
+      "exit_pct": -8.33,
+      "exit_time": "2026-06-27T04:31:19.160876+00:00"
     }
   ],
   "alerted": {
@@ -26112,6 +26123,7 @@
     "2ooT5P4Hpv7H8UFBkWaXvZksum75bHdWmHKLd2qWpump": "2026-06-27T01:22:18.226015+00:00",
     "DZTSLoJKieNPPGKgkdhaBdLjjnQBaUnb3oRPHNLfpump": "2026-06-27T02:47:17.316652+00:00",
     "B8aCJxpe8MwVTqkBqnc8j21sYGKtFADMczagRHDLpump": "2026-06-27T03:47:19.017187+00:00",
-    "6eSzwRMLjK24g1NAYWUABAq9qDCDT2MW4hsbt513pump": "2026-06-27T04:15:16.234183+00:00"
+    "6eSzwRMLjK24g1NAYWUABAq9qDCDT2MW4hsbt513pump": "2026-06-27T04:15:16.234183+00:00",
+    "8XKVSyKQudQEBu4jv7RNiXEVG9XXSU7QrnueiRwkpump": "2026-06-27T04:31:19.160876+00:00"
   }
 }
