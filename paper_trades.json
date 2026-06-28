@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FIW",
-      "chain": "solana",
-      "address": "penks6cQFUQtfytirZowyr6rjxoZ2mSxa5sA7Czpump",
-      "source": "boost",
-      "entry_price": 0.001488,
-      "peak_price": 0.001488,
-      "trailing_active": false,
-      "entry_time": "2026-06-28T22:30:36.708892+00:00",
-      "score": 88,
-      "status": "open"
-    },
-    {
       "symbol": "DAVID",
       "chain": "solana",
       "address": "HULaBKR1eK3SA18FpfEav8Z2t7TJ1qEC775YHTLNpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-28T22:30:38.337274+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.41,
+      "peak_volume_m5": 8177.08,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -25993,6 +25985,25 @@
       "exit_price": 0.0002287,
       "exit_pct": -12.51,
       "exit_time": "2026-06-28T18:34:16.427391+00:00"
+    },
+    {
+      "symbol": "FIW",
+      "chain": "solana",
+      "address": "penks6cQFUQtfytirZowyr6rjxoZ2mSxa5sA7Czpump",
+      "source": "boost",
+      "entry_price": 0.001488,
+      "peak_price": 0.001488,
+      "trailing_active": false,
+      "entry_time": "2026-06-28T22:30:36.708892+00:00",
+      "score": 88,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.98,
+      "peak_volume_m5": 6213.3,
+      "milestones_hit": [],
+      "exit_price": 0.001161,
+      "exit_pct": -21.98,
+      "exit_time": "2026-06-28T22:32:15.694862+00:00"
     }
   ],
   "alerted": {
@@ -27323,6 +27334,7 @@
     "5VWmVAQs3bMyNrZz4cs5nk4oBa8Ta1tVz3ZYcqa8pump": "2026-06-28T17:41:17.519094+00:00",
     "6CMQMrUFoAH9FSfYd17d1cyr3jLS1bE3faRzg3rZpump": "2026-06-28T17:44:21.522387+00:00",
     "Hd8zNRuJoYiMF6qEYGthB6P1R7oEubkBy2Lj9DaJpump": "2026-06-28T18:24:16.001887+00:00",
-    "2y89wGwswkxaBoGrZZQMPKGEzwQoxd7TCUaZ1tM4pump": "2026-06-28T18:34:16.427391+00:00"
+    "2y89wGwswkxaBoGrZZQMPKGEzwQoxd7TCUaZ1tM4pump": "2026-06-28T18:34:16.427391+00:00",
+    "penks6cQFUQtfytirZowyr6rjxoZ2mSxa5sA7Czpump": "2026-06-28T22:32:15.694862+00:00"
   }
 }
