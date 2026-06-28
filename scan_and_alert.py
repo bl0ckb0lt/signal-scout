@@ -821,11 +821,15 @@ def enrich(token):
     chain = token["chain"]
     addr  = token["address"]
 
-    data  = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
-    pairs = [p for p in (data.get("pairs") or []) if p.get("chainId") == chain]
+    data      = curl(f"https://api.dexscreener.com/latest/dex/tokens/{addr}") or {}
+    all_pairs = data.get("pairs") or []
+    # tg_alpha/x_alpha can't tell which EVM chain a bare 0x address lives on —
+    # they tag it "evm" and we resolve the real chain from whichever pair has it.
+    pairs = all_pairs if chain == "evm" else [p for p in all_pairs if p.get("chainId") == chain]
     if not pairs:
         return None
     p      = max(pairs, key=lambda x: (x.get("liquidity") or {}).get("usd") or 0)
+    chain  = p.get("chainId") or chain
     age_ms = p.get("pairCreatedAt")
     age_min = round((time.time() - age_ms / 1000) / 60, 1) if age_ms else None
 
@@ -835,6 +839,7 @@ def enrich(token):
 
     return {
         **token,
+        "chain": chain,
         "icon": icon,
         "symbol":           p.get("baseToken", {}).get("symbol", "?"),
         "name":             p.get("baseToken", {}).get("name", "?"),

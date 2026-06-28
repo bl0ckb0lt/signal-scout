@@ -34,6 +34,10 @@ whales.py           ← VERIFIED_WHALES dict, get_whale_buys(), get_whale_exits(
 rugcheck.py         ← rug_check() helpers (also inlined in scan_and_alert)
 sheets_logger.py    ← [NEW] Google Sheets trade log (sheets_log_open, sheets_log_close)
 twitter_alerts.py   ← [NEW] Twitter/X signal posts (post_tweet, format_tweet)  [TO BE CREATED]
+twitter_search.py   ← [NEW] X alpha-caller scanner (fetch_x_tokens) — needs TWITTER_BEARER_TOKEN + X_ALPHA_ACCOUNTS secrets
+tg_alpha.py         ← Telegram alpha-channel scanner (fetch_tg_alpha_tokens) — needs TELEGRAM_API_ID/HASH/SESSION_STRING + TG_ALPHA_CHANNELS secrets
+gmgn.py             ← GMGN trending Solana scanner (fetch_gmgn_tokens), no key needed
+birdeye.py          ← DexScreener trending scanner (fetch_birdeye_tokens), no key needed
 main.py             ← CLI entry point (python main.py --top 10 --post)
 paper_trades.json   ← live state: open[], closed[], cooldown{}, last_update_id, paused
 .env.example        ← env var template
@@ -149,11 +153,25 @@ MOLTBOOK_API_KEY=        # post reports to m/buildx
 GOOGLE_SHEETS_CREDENTIALS=  # full service account JSON as string
 GOOGLE_SHEET_ID=             # spreadsheet ID from URL
 
-# NEW — Twitter/X alerts
+# NEW — Twitter/X alerts (outbound posting, twitter_alerts.py)
 TWITTER_API_KEY=
 TWITTER_API_SECRET=
 TWITTER_ACCESS_TOKEN=
 TWITTER_ACCESS_SECRET=
+
+# NEW — X alpha-caller scanner (inbound discovery, twitter_search.py) — paid X API tier required
+TWITTER_BEARER_TOKEN=
+X_ALPHA_ACCOUNTS=         # comma-sep handles, no @
+X_ALPHA_LOOKBACK_MIN=     # default 20
+X_ALPHA_MIN_LIKES=        # default 0
+
+# NEW — Telegram alpha-channel scanner (tg_alpha.py)
+TELEGRAM_API_ID=
+TELEGRAM_API_HASH=
+TELEGRAM_SESSION_STRING=
+TG_ALPHA_CHANNELS=        # comma-sep channel @usernames
+TG_ALPHA_LOOKBACK_MIN=    # default 20
+TG_ALPHA_MIN_MENTIONS=    # default 1
 ```
 
 ---
@@ -179,6 +197,8 @@ TWITTER_ACCESS_SECRET=
 | `sheets_log_open()` | sheets_logger.py | log trade entry to Google Sheets |
 | `sheets_log_close()` | sheets_logger.py | update exit data in Google Sheets |
 | `post_tweet()` | twitter_alerts.py | post signal to Twitter/X |
+| `fetch_x_tokens()` | twitter_search.py | scan trusted X accounts for CA mentions (source=x_alpha) |
+| `fetch_tg_alpha_tokens()` | tg_alpha.py | scan Telegram alpha channels for CA mentions (source=tg_alpha) |
 
 ---
 
@@ -203,10 +223,11 @@ TWITTER_ACCESS_SECRET=
 - [x] Telegram alerts + commands
 - [x] Moltbook reporting
 - [x] `sheets_logger.py` — Google Sheets play log (created, needs wiring into scan_and_alert.py)
+- [x] `twitter_search.py` — X alpha-caller scanner (fetch_x_tokens), wired into scan_and_alert.py's x_alpha source — **needs TWITTER_BEARER_TOKEN + X_ALPHA_ACCOUNTS GitHub Secrets to actually run** (no-ops without them)
+- [x] Fixed `enrich()` silently dropping every EVM contract address from tg_alpha/x_alpha — it filtered DexScreener pairs by `chainId == "evm"`, which never matches a real chain id (ethereum/bsc/base/arbitrum); now resolves the real chain from the highest-liquidity pair when the source chain is the generic "evm" placeholder
 - [ ] `twitter_alerts.py` — Twitter/X alert posts (not yet created)
-- [ ] Wire both into scan_and_alert.py (imports + call sites)
+- [ ] Set `TELEGRAM_API_ID` / `TELEGRAM_API_HASH` / `TELEGRAM_SESSION_STRING` / `TG_ALPHA_CHANNELS` GitHub Secrets — tg_alpha.py exists and is wired in, but was never given these secrets in monitor.yml (now passed through, just needs the secret values set)
 - [ ] Update requirements.txt (gspread, google-auth-oauthlib, tweepy)
-- [ ] Update .env.example with new vars
 
 ---
 
