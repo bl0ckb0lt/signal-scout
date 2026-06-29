@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANSEMTRENCH",
-      "chain": "solana",
-      "address": "7SoBgBncbcC8U6fmdGJPfi7dNM26aTJPxfhAGoLPpump",
-      "source": "new",
-      "entry_price": 0.0001934,
-      "peak_price": 0.0002977,
-      "trailing_active": true,
-      "entry_time": "2026-06-29T18:57:16.556743+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.93,
-      "peak_volume_m5": 25083.56,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "ANSEMBULL",
       "chain": "solana",
       "address": "2NsN1aS6LYzuoSFSDFq7CekcSyKSyA3qYoKngNWepump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-06-29T19:10:31.279323+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.71,
+      "peak_volume_m5": 40725.63,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -26422,6 +26408,27 @@
       "exit_price": 5.752e-05,
       "exit_pct": -7.32,
       "exit_time": "2026-06-29T18:33:20.846414+00:00"
+    },
+    {
+      "symbol": "ANSEMTRENCH",
+      "chain": "solana",
+      "address": "7SoBgBncbcC8U6fmdGJPfi7dNM26aTJPxfhAGoLPpump",
+      "source": "new",
+      "entry_price": 0.0001934,
+      "peak_price": 0.0002977,
+      "trailing_active": true,
+      "entry_time": "2026-06-29T18:57:16.556743+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 46.23,
+      "peak_volume_m5": 25083.56,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002828,
+      "exit_pct": 46.23,
+      "exit_time": "2026-06-29T19:11:18.928103+00:00"
     }
   ],
   "alerted": {
@@ -27772,6 +27779,7 @@
     "0x9D6B464Cb1d814e47b93F41Aaf7E3DCfFE3c42e3": "2026-06-29T17:05:22.522079+00:00",
     "0xDdB432491681122831071AEcAbB38312332ceba3": "2026-06-29T17:11:15.925913+00:00",
     "25PidAxJKMw6rsikaeedKyhqH4JNnZbkjmGhtruVpump": "2026-06-29T17:39:18.741661+00:00",
-    "0xB429FEF57136ab159b6b1bDc1D366172Ee8E6863": "2026-06-29T18:33:20.846414+00:00"
+    "0xB429FEF57136ab159b6b1bDc1D366172Ee8E6863": "2026-06-29T18:33:20.846414+00:00",
+    "7SoBgBncbcC8U6fmdGJPfi7dNM26aTJPxfhAGoLPpump": "2026-06-29T19:11:18.928103+00:00"
   }
 }
