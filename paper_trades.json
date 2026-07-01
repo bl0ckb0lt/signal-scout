@@ -8,27 +8,15 @@
       "address": "BDbNwA95183CdqUhx2P6R3fWXbefubVbx2wNnCp6pump",
       "source": "boost",
       "entry_price": 0.0009193,
-      "peak_price": 0.001033,
-      "trailing_active": false,
+      "peak_price": 0.001176,
+      "trailing_active": true,
       "entry_time": "2026-07-01T18:30:37.525717+00:00",
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.37,
-      "peak_volume_m5": 11118.58,
+      "current_pct": 27.92,
+      "peak_volume_m5": 12779.97,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AFK",
-      "chain": "solana",
-      "address": "C8gdPcm53YtZEnvwjdWYfPD6PuFfFmyzr3vu4VrHa5tC",
-      "source": "new",
-      "entry_price": 0.0001107,
-      "peak_price": 0.0001107,
-      "trailing_active": false,
-      "entry_time": "2026-07-01T18:40:31.203922+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -27484,6 +27472,25 @@
       "exit_price": 0.0001068,
       "exit_pct": -9.34,
       "exit_time": "2026-07-01T17:23:21.018204+00:00"
+    },
+    {
+      "symbol": "AFK",
+      "chain": "solana",
+      "address": "C8gdPcm53YtZEnvwjdWYfPD6PuFfFmyzr3vu4VrHa5tC",
+      "source": "new",
+      "entry_price": 0.0001107,
+      "peak_price": 0.0001107,
+      "trailing_active": false,
+      "entry_time": "2026-07-01T18:40:31.203922+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.94,
+      "peak_volume_m5": 5450.73,
+      "milestones_hit": [],
+      "exit_price": 9.637e-05,
+      "exit_pct": -12.94,
+      "exit_time": "2026-07-01T18:46:21.231563+00:00"
     }
   ],
   "alerted": {
@@ -28886,6 +28893,7 @@
     "BJYbq7654XAuXwb4W1YEa496PBR8gX31c2N2btYQpump": "2026-07-01T13:22:21.012361+00:00",
     "FAgnjRp1aiFRc7719ErVtAVsSZP3MFgt2pHQjmUJpump": "2026-07-01T13:31:21.356529+00:00",
     "3h6df28x45T5rLfmusok7YsZunT7TX2Y1qB5DZLNpump": "2026-07-01T13:55:22.494556+00:00",
-    "3wbaKwr76GnRcRmNaiyqhR8XyAtcdkcv4FRMaPcFpump": "2026-07-01T17:23:21.018204+00:00"
+    "3wbaKwr76GnRcRmNaiyqhR8XyAtcdkcv4FRMaPcFpump": "2026-07-01T17:23:21.018204+00:00",
+    "C8gdPcm53YtZEnvwjdWYfPD6PuFfFmyzr3vu4VrHa5tC": "2026-07-01T18:46:21.231563+00:00"
   }
 }
