@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CAPTAIN",
-      "chain": "robinhood",
-      "address": "0xCa4B22143dbC93562474F2420FBA9da5848A1831",
-      "source": "new",
-      "entry_price": 0.0001898,
-      "peak_price": 0.0001898,
-      "trailing_active": false,
-      "entry_time": "2026-07-01T23:00:35.679488+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "BOW",
       "chain": "robinhood",
       "address": "0x9b1C8C5CBC20316Fc311F00a6248b6bCf950ed8a",
       "source": "new",
       "entry_price": 9.032e-05,
-      "peak_price": 9.032e-05,
+      "peak_price": 9.171e-05,
       "trailing_active": false,
       "entry_time": "2026-07-01T23:00:37.083654+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.54,
+      "peak_volume_m5": 6226.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -27637,6 +27629,25 @@
       "exit_price": 9.689e-05,
       "exit_pct": -12.79,
       "exit_time": "2026-07-01T22:42:17.196798+00:00"
+    },
+    {
+      "symbol": "CAPTAIN",
+      "chain": "robinhood",
+      "address": "0xCa4B22143dbC93562474F2420FBA9da5848A1831",
+      "source": "new",
+      "entry_price": 0.0001898,
+      "peak_price": 0.0001898,
+      "trailing_active": false,
+      "entry_time": "2026-07-01T23:00:35.679488+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.75,
+      "peak_volume_m5": 17900.03,
+      "milestones_hit": [],
+      "exit_price": 0.0001713,
+      "exit_pct": -9.75,
+      "exit_time": "2026-07-01T23:01:17.188458+00:00"
     }
   ],
   "alerted": {
@@ -29047,6 +29058,7 @@
     "0x17bb0C898254406b1Ea2e8E99B0C263e26c9E4a4": "2026-07-01T21:15:20.458884+00:00",
     "A7YFMgJcWaiqij4T1ZFtycrSyrzojZDYUyqgQEscpump": "2026-07-01T21:35:18.290758+00:00",
     "0x5b0fDCc10B803786ae676DD4471Ecd09EBbcaaE8": "2026-07-01T21:46:20.820869+00:00",
-    "BfikQMTdCVGGWdPuVx8r4rfXVQUxxYuMqoU7VKvpump": "2026-07-01T22:42:17.196798+00:00"
+    "BfikQMTdCVGGWdPuVx8r4rfXVQUxxYuMqoU7VKvpump": "2026-07-01T22:42:17.196798+00:00",
+    "0xCa4B22143dbC93562474F2420FBA9da5848A1831": "2026-07-01T23:01:17.188458+00:00"
   }
 }
