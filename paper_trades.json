@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ROBENHUD",
-      "chain": "robinhood",
-      "address": "0x19c2540Ab0b1aE752f1CFf438948F1FEe908bE31",
-      "source": "new",
-      "entry_price": 0.0008982,
-      "peak_price": 0.001491,
-      "trailing_active": true,
-      "entry_time": "2026-07-02T09:50:31.296396+00:00",
-      "score": 74,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 66.0,
-      "peak_volume_m5": 3617.83,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "\u9ed1\u725b\u6a21\u5f0f",
       "chain": "solana",
       "address": "9nNU1iT2XNpEf4f2tsAtFYwtTDzmm87zRFEPVkX3pump",
       "source": "new",
       "entry_price": 0.0001502,
-      "peak_price": 0.0001502,
-      "trailing_active": false,
+      "peak_price": 0.000186,
+      "trailing_active": true,
       "entry_time": "2026-07-02T10:20:28.987384+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.83,
+      "peak_volume_m5": 31664.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -28143,6 +28129,27 @@
       "exit_price": 0.0004292,
       "exit_pct": 18.4,
       "exit_time": "2026-07-02T10:14:21.338800+00:00"
+    },
+    {
+      "symbol": "ROBENHUD",
+      "chain": "robinhood",
+      "address": "0x19c2540Ab0b1aE752f1CFf438948F1FEe908bE31",
+      "source": "new",
+      "entry_price": 0.0008982,
+      "peak_price": 0.00158,
+      "trailing_active": true,
+      "entry_time": "2026-07-02T09:50:31.296396+00:00",
+      "score": 74,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 75.91,
+      "peak_volume_m5": 3617.83,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.00158,
+      "exit_pct": 75.91,
+      "exit_time": "2026-07-02T10:25:16.872837+00:00"
     }
   ],
   "alerted": {
@@ -29576,6 +29583,7 @@
     "0xfb7f928411A38390d19176788B1b25832a146a88": "2026-07-02T09:01:18.529227+00:00",
     "BKZTSXkx49tXjC99qTrk84hjJqw1J94JU6hDX1ugpump": "2026-07-02T09:21:24.197214+00:00",
     "3T2nWr8jmVyTsvFpwd9UpunTssimsLmr9m7sV4yvpump": "2026-07-02T09:41:19.591210+00:00",
-    "68HiocxMqZviFd2pAciSPYxTXwEJHoeEVn6qe3qpump": "2026-07-02T10:14:21.338800+00:00"
+    "68HiocxMqZviFd2pAciSPYxTXwEJHoeEVn6qe3qpump": "2026-07-02T10:14:21.338800+00:00",
+    "0x19c2540Ab0b1aE752f1CFf438948F1FEe908bE31": "2026-07-02T10:25:16.872837+00:00"
   }
 }
