@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ROBINSEM",
-      "chain": "solana",
-      "address": "FSdeHKckvpLCA2DarXkBHSyXj8GZ8TegB7f1wsXSpump",
-      "source": "new",
-      "entry_price": 0.0001896,
-      "peak_price": 0.0001896,
-      "trailing_active": false,
-      "entry_time": "2026-07-02T13:40:32.301490+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "BONKHOOD",
       "chain": "robinhood",
       "address": "0x86A9e209d584d5Ac82F6d2936d0b7A1d434aA503",
       "source": "new",
       "entry_price": 0.0001171,
-      "peak_price": 0.0001171,
-      "trailing_active": false,
+      "peak_price": 0.0001356,
+      "trailing_active": true,
       "entry_time": "2026-07-02T13:40:33.687407+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.8,
+      "peak_volume_m5": 4616.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -28272,6 +28264,25 @@
       "exit_price": 0.0001069,
       "exit_pct": -8.94,
       "exit_time": "2026-07-02T13:34:17.354545+00:00"
+    },
+    {
+      "symbol": "ROBINSEM",
+      "chain": "solana",
+      "address": "FSdeHKckvpLCA2DarXkBHSyXj8GZ8TegB7f1wsXSpump",
+      "source": "new",
+      "entry_price": 0.0001896,
+      "peak_price": 0.0001896,
+      "trailing_active": false,
+      "entry_time": "2026-07-02T13:40:32.301490+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.03,
+      "peak_volume_m5": 25215.88,
+      "milestones_hit": [],
+      "exit_price": 0.0001649,
+      "exit_pct": -13.03,
+      "exit_time": "2026-07-02T13:46:17.638736+00:00"
     }
   ],
   "alerted": {
@@ -29712,6 +29723,7 @@
     "8NTvxiQmjA3oYuxix2fyZcYpE3MGefcJDH2QRJDypump": "2026-07-02T11:44:18.715209+00:00",
     "0x9C7e129EcC9E756f04777283e87e7f3f62Aad626": "2026-07-02T12:31:19.655833+00:00",
     "0x40Fa3eE2f5A85395881474C94E02e088f89f30f6": "2026-07-02T12:41:19.916289+00:00",
-    "6jvQvuG3UUfZ7yDqdgCmKWovRPC84iWNd7b6f1Ppump": "2026-07-02T13:34:17.354545+00:00"
+    "6jvQvuG3UUfZ7yDqdgCmKWovRPC84iWNd7b6f1Ppump": "2026-07-02T13:34:17.354545+00:00",
+    "FSdeHKckvpLCA2DarXkBHSyXj8GZ8TegB7f1wsXSpump": "2026-07-02T13:46:17.638736+00:00"
   }
 }
