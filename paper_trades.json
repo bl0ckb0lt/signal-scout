@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "1",
-      "chain": "solana",
-      "address": "qPorq2UQuP6g1KZnGKMQEfVxN87BYvaYdqVy3KVpump",
-      "source": "new",
-      "entry_price": 0.0004773,
-      "peak_price": 0.0004773,
-      "trailing_active": false,
-      "entry_time": "2026-07-02T18:50:29.337756+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "HOODRAT",
       "chain": "robinhood",
       "address": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-02T18:50:31.043262+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.45,
+      "peak_volume_m5": 33352.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -28644,6 +28636,25 @@
       "exit_price": 0.0001759,
       "exit_pct": 66.26,
       "exit_time": "2026-07-02T17:40:49.298922+00:00"
+    },
+    {
+      "symbol": "1",
+      "chain": "solana",
+      "address": "qPorq2UQuP6g1KZnGKMQEfVxN87BYvaYdqVy3KVpump",
+      "source": "new",
+      "entry_price": 0.0004773,
+      "peak_price": 0.0004773,
+      "trailing_active": false,
+      "entry_time": "2026-07-02T18:50:29.337756+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.91,
+      "peak_volume_m5": 53677.25,
+      "milestones_hit": [],
+      "exit_price": 0.00043,
+      "exit_pct": -9.91,
+      "exit_time": "2026-07-02T18:51:18.097689+00:00"
     }
   ],
   "alerted": {
@@ -30103,6 +30114,7 @@
     "0x59Fc5DA68be136907A3A58D145a3370DB365C160": "2026-07-02T16:51:24.315287+00:00",
     "0xefd3db0271Aa579B8F9F1E4AB91a9D17FEa1fAa9": "2026-07-02T17:12:20.561982+00:00",
     "G4AwezJ4S8h21TyGyNBi17pWL3xLPPeubZuasELDpump": "2026-07-02T17:31:16.145649+00:00",
-    "0x8797A07Dc4306Ce6c87dfed6Ac20b90B9Ae360C7": "2026-07-02T17:40:49.298922+00:00"
+    "0x8797A07Dc4306Ce6c87dfed6Ac20b90B9Ae360C7": "2026-07-02T17:40:49.298922+00:00",
+    "qPorq2UQuP6g1KZnGKMQEfVxN87BYvaYdqVy3KVpump": "2026-07-02T18:51:18.097689+00:00"
   }
 }
