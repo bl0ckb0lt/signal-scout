@@ -14,21 +14,9 @@
       "score": 94,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.91,
+      "current_pct": 13.12,
       "peak_volume_m5": 19557.93,
       "milestones_hit": []
-    },
-    {
-      "symbol": "NEXRUNE",
-      "chain": "solana",
-      "address": "5xPnm4sG1Waq1uLxHfHvbmMEKCFogimiwGbCsSV4pump",
-      "source": "new",
-      "entry_price": 0.0005044,
-      "peak_price": 0.0005044,
-      "trailing_active": false,
-      "entry_time": "2026-07-02T19:40:33.725929+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "Luffy",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-02T19:40:35.337896+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.84,
+      "peak_volume_m5": 21352.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -28698,6 +28690,25 @@
       "exit_price": 0.0004912,
       "exit_pct": 7.7,
       "exit_time": "2026-07-02T19:01:31.534408+00:00"
+    },
+    {
+      "symbol": "NEXRUNE",
+      "chain": "solana",
+      "address": "5xPnm4sG1Waq1uLxHfHvbmMEKCFogimiwGbCsSV4pump",
+      "source": "new",
+      "entry_price": 0.0005044,
+      "peak_price": 0.0005044,
+      "trailing_active": false,
+      "entry_time": "2026-07-02T19:40:33.725929+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.59,
+      "peak_volume_m5": 151050.74,
+      "milestones_hit": [],
+      "exit_price": 0.000451,
+      "exit_pct": -10.59,
+      "exit_time": "2026-07-02T19:41:22.383485+00:00"
     }
   ],
   "alerted": {
@@ -30159,6 +30170,7 @@
     "G4AwezJ4S8h21TyGyNBi17pWL3xLPPeubZuasELDpump": "2026-07-02T17:31:16.145649+00:00",
     "0x8797A07Dc4306Ce6c87dfed6Ac20b90B9Ae360C7": "2026-07-02T17:40:49.298922+00:00",
     "qPorq2UQuP6g1KZnGKMQEfVxN87BYvaYdqVy3KVpump": "2026-07-02T18:51:18.097689+00:00",
-    "0x8e62F281f282686fCa6dCB39288069a93fC23F1c": "2026-07-02T19:01:31.534408+00:00"
+    "0x8e62F281f282686fCa6dCB39288069a93fC23F1c": "2026-07-02T19:01:31.534408+00:00",
+    "5xPnm4sG1Waq1uLxHfHvbmMEKCFogimiwGbCsSV4pump": "2026-07-02T19:41:22.383485+00:00"
   }
 }
