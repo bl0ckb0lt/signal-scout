@@ -21,32 +21,22 @@
       ]
     },
     {
-      "symbol": "HOODSTRGY",
-      "chain": "robinhood",
-      "address": "0xD8A520Dee00a0151223d9201359e33754E146694",
-      "source": "boost",
-      "entry_price": 2.217e-06,
-      "peak_price": 2.321e-06,
-      "trailing_active": false,
-      "entry_time": "2026-07-03T13:30:40.538745+00:00",
-      "score": 71,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.93,
-      "peak_volume_m5": 90234.54,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Fatcoin",
       "chain": "solana",
       "address": "98uHBngN8bXyEpuUxkiBVsasPXMHYyfqymeYAuHTpump",
       "source": "new",
       "entry_price": 0.0001101,
-      "peak_price": 0.0001101,
-      "trailing_active": false,
+      "peak_price": 0.0001681,
+      "trailing_active": true,
       "entry_time": "2026-07-03T13:40:32.155285+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 52.68,
+      "peak_volume_m5": 96674.58,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -29401,6 +29391,25 @@
       "exit_price": 9.245e-05,
       "exit_pct": 54.24,
       "exit_time": "2026-07-03T13:32:18.223012+00:00"
+    },
+    {
+      "symbol": "HOODSTRGY",
+      "chain": "robinhood",
+      "address": "0xD8A520Dee00a0151223d9201359e33754E146694",
+      "source": "boost",
+      "entry_price": 2.217e-06,
+      "peak_price": 2.391e-06,
+      "trailing_active": false,
+      "entry_time": "2026-07-03T13:30:40.538745+00:00",
+      "score": 71,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 7.85,
+      "peak_volume_m5": 90234.54,
+      "milestones_hit": [],
+      "exit_price": 2.391e-06,
+      "exit_pct": 7.85,
+      "exit_time": "2026-07-03T13:47:21.401072+00:00"
     }
   ],
   "alerted": {
@@ -30893,7 +30902,7 @@
     "AfJndZ6hdijFEuqNnZ2YvXQupkEoGY5RbK3Dxd5Ppump": "2026-07-03T10:12:18.716730+00:00",
     "48oT2QgpyPFUiJYXbvZTS1tVDp98R9uYAJX5ojNrpump": "2026-07-03T10:45:25.427067+00:00",
     "56GN1q3Sap3imiiRv5p1sNdivNCqoxmYvF2CJdMmpump": "2026-07-03T11:13:20.489836+00:00",
-    "0xD8A520Dee00a0151223d9201359e33754E146694": "2026-07-03T11:23:21.559570+00:00",
+    "0xD8A520Dee00a0151223d9201359e33754E146694": "2026-07-03T13:47:21.401072+00:00",
     "8R3eqFSPYa5Gs3PJCha6qv9VTpWmRgdmphXsHFjkpump": "2026-07-03T12:31:22.939714+00:00",
     "7SFVLEvRQZr2H72hEi7WcjPJLCHmS8oASmS6UxiMpump": "2026-07-03T12:44:17.900863+00:00",
     "96X4zg5T4NFWzTVFXHsadvYbxbzFX2Rqt3GXUv92pump": "2026-07-03T13:01:20.521571+00:00",
