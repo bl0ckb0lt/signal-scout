@@ -8,11 +8,15 @@
       "address": "4Hz6BJVrARkKcG48q5qmzzigS7amGZKHAiG4rEp3pump",
       "source": "new",
       "entry_price": 0.0002329,
-      "peak_price": 0.0002329,
+      "peak_price": 0.0002414,
       "trailing_active": false,
       "entry_time": "2026-07-03T05:20:33.675191+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.65,
+      "peak_volume_m5": 67381.54,
+      "milestones_hit": []
     },
     {
       "symbol": "MARIAN",
@@ -24,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-03T05:20:34.991947+00:00",
       "score": 74,
-      "status": "open"
-    },
-    {
-      "symbol": "FAN",
-      "chain": "solana",
-      "address": "55WUgHdfJ5KWxiG4i9szhJgo6VVMbVfWccz3TCBxpump",
-      "source": "new",
-      "entry_price": 0.0002965,
-      "peak_price": 0.0002965,
-      "trailing_active": false,
-      "entry_time": "2026-07-03T05:20:38.136559+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.94,
+      "peak_volume_m5": 5900.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -29081,6 +29077,25 @@
       "exit_price": 0.0001945,
       "exit_pct": -8.04,
       "exit_time": "2026-07-03T05:02:20.259795+00:00"
+    },
+    {
+      "symbol": "FAN",
+      "chain": "solana",
+      "address": "55WUgHdfJ5KWxiG4i9szhJgo6VVMbVfWccz3TCBxpump",
+      "source": "new",
+      "entry_price": 0.0002965,
+      "peak_price": 0.0002965,
+      "trailing_active": false,
+      "entry_time": "2026-07-03T05:20:38.136559+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.17,
+      "peak_volume_m5": 38889.99,
+      "milestones_hit": [],
+      "exit_price": 0.0002545,
+      "exit_pct": -14.17,
+      "exit_time": "2026-07-03T05:21:20.300105+00:00"
     }
   ],
   "alerted": {
@@ -30561,6 +30576,7 @@
     "0x6bDF49f2160ACF8b4F5C492Ea91b5c93dFcAd24b": "2026-07-03T04:22:18.441465+00:00",
     "0x7A29d39C3B37776e8916b91c4a2E97ab98F00AB4": "2026-07-03T04:31:17.662402+00:00",
     "amUv3eZ3VmB1va6Ys2fGwizfmmDCo2vn9MZP3YWpump": "2026-07-03T04:44:19.125142+00:00",
-    "Fr93qt6UGA532k27hiGZaAWAFRLxNqEvFi6cktpXpump": "2026-07-03T05:02:20.259795+00:00"
+    "Fr93qt6UGA532k27hiGZaAWAFRLxNqEvFi6cktpXpump": "2026-07-03T05:02:20.259795+00:00",
+    "55WUgHdfJ5KWxiG4i9szhJgo6VVMbVfWccz3TCBxpump": "2026-07-03T05:21:20.300105+00:00"
   }
 }
