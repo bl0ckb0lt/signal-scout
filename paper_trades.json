@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "sidelined",
-      "chain": "solana",
-      "address": "WjZoPoUsMy8TzwQQdevCVB867YHC9EQNcCUN7kDpump",
-      "source": "new",
-      "entry_price": 0.0005392,
-      "peak_price": 0.0005392,
-      "trailing_active": false,
-      "entry_time": "2026-07-04T17:20:37.858587+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.72,
-      "peak_volume_m5": 4606.07,
-      "milestones_hit": []
-    },
-    {
       "symbol": "LAWBHOOD",
       "chain": "robinhood",
       "address": "0x26245bdaA611FB441429717fbd583B569e046a84",
       "source": "new",
       "entry_price": 4.501e-05,
-      "peak_price": 9.163e-05,
+      "peak_price": 0.0001048,
       "trailing_active": true,
       "entry_time": "2026-07-04T17:20:39.274149+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 103.58,
+      "current_pct": 132.84,
       "peak_volume_m5": 15319.08,
       "milestones_hit": [
         50,
@@ -30319,6 +30303,25 @@
       "exit_price": 0.000444,
       "exit_pct": 56.39,
       "exit_time": "2026-07-04T16:53:18.503738+00:00"
+    },
+    {
+      "symbol": "sidelined",
+      "chain": "solana",
+      "address": "WjZoPoUsMy8TzwQQdevCVB867YHC9EQNcCUN7kDpump",
+      "source": "new",
+      "entry_price": 0.0005392,
+      "peak_price": 0.0005392,
+      "trailing_active": false,
+      "entry_time": "2026-07-04T17:20:37.858587+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.07,
+      "peak_volume_m5": 5735.77,
+      "milestones_hit": [],
+      "exit_price": 0.0004903,
+      "exit_pct": -9.07,
+      "exit_time": "2026-07-04T17:31:16.689556+00:00"
     }
   ],
   "alerted": {
@@ -31859,6 +31862,7 @@
     "0xb5B6dC8dAf6a63334386F87D98348966036D851D": "2026-07-04T15:40:49.411162+00:00",
     "0x37212766F4261eEC8e43747B7b48A081EDec7872": "2026-07-04T15:45:24.271353+00:00",
     "71HtXHfexjKgem92Y5sPLPb6qkmtqWmPUzdKAcU9pump": "2026-07-04T16:13:16.778460+00:00",
-    "0x8188dd27Ca7E8B85119EF2790B6CF6200c6A373C": "2026-07-04T16:53:18.503738+00:00"
+    "0x8188dd27Ca7E8B85119EF2790B6CF6200c6A373C": "2026-07-04T16:53:18.503738+00:00",
+    "WjZoPoUsMy8TzwQQdevCVB867YHC9EQNcCUN7kDpump": "2026-07-04T17:31:16.689556+00:00"
   }
 }
