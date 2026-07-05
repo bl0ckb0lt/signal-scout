@@ -3,28 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "frog",
-      "chain": "solana",
-      "address": "5XFYxNg16y2KmEZLARWCCktuiA5QGD8ihJXu5xHapump",
-      "source": "boost",
-      "entry_price": 0.0001876,
-      "peak_price": 0.0001876,
-      "trailing_active": false,
-      "entry_time": "2026-07-05T13:40:39.972643+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "VLAD",
       "chain": "robinhood",
       "address": "0xA138975B14f1F6BB595715C77e22ea9eD2732A99",
       "source": "new",
       "entry_price": 0.0001405,
-      "peak_price": 0.0001405,
-      "trailing_active": false,
+      "peak_price": 0.0002885,
+      "trailing_active": true,
       "entry_time": "2026-07-05T13:40:42.385624+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 105.34,
+      "peak_volume_m5": 34634.79,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -30909,6 +30904,25 @@
       "exit_price": 0.0001126,
       "exit_pct": 3.02,
       "exit_time": "2026-07-05T13:37:18.164560+00:00"
+    },
+    {
+      "symbol": "frog",
+      "chain": "solana",
+      "address": "5XFYxNg16y2KmEZLARWCCktuiA5QGD8ihJXu5xHapump",
+      "source": "boost",
+      "entry_price": 0.0001876,
+      "peak_price": 0.0001876,
+      "trailing_active": false,
+      "entry_time": "2026-07-05T13:40:39.972643+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.49,
+      "peak_volume_m5": 56733.47,
+      "milestones_hit": [],
+      "exit_price": 0.0001773,
+      "exit_pct": -5.49,
+      "exit_time": "2026-07-05T13:46:22.353662+00:00"
     }
   ],
   "alerted": {
@@ -32479,6 +32493,7 @@
     "0xc7aEb1A936FcF98CFE4DD552f6cBf48Ac19e4444": "2026-07-05T12:42:15.764937+00:00",
     "0xafCBC8dC616D6c94118E62c8f3Fe8D774f354444": "2026-07-05T13:06:20.661238+00:00",
     "0x1821c0c6b4a623Ea80eD5Ff324907084930C4444": "2026-07-05T13:22:21.713354+00:00",
-    "F2fcE5sjDuSMVrj56Q7Pg9ha7cHfpTzuUTkVJxKdpump": "2026-07-05T13:37:18.164560+00:00"
+    "F2fcE5sjDuSMVrj56Q7Pg9ha7cHfpTzuUTkVJxKdpump": "2026-07-05T13:37:18.164560+00:00",
+    "5XFYxNg16y2KmEZLARWCCktuiA5QGD8ihJXu5xHapump": "2026-07-05T13:46:22.353662+00:00"
   }
 }
