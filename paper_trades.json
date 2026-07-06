@@ -14,7 +14,7 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.3,
+      "current_pct": 16.02,
       "peak_volume_m5": 40243.77,
       "milestones_hit": []
     },
@@ -30,29 +30,9 @@
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.26,
+      "current_pct": 10.08,
       "peak_volume_m5": 32882.98,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HEYI",
-      "chain": "bsc",
-      "address": "0x8274a7E4C9d73101eA53E264F97e240377678261",
-      "source": "new",
-      "entry_price": 0.0001333,
-      "peak_price": 0.0004142,
-      "trailing_active": true,
-      "entry_time": "2026-07-06T14:20:47.825295+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 210.73,
-      "peak_volume_m5": 22562.36,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
     }
   ],
   "closed": [
@@ -31961,6 +31941,29 @@
       "exit_price": 0.0003273,
       "exit_pct": -14.68,
       "exit_time": "2026-07-06T14:32:22.003375+00:00"
+    },
+    {
+      "symbol": "HEYI",
+      "chain": "bsc",
+      "address": "0x8274a7E4C9d73101eA53E264F97e240377678261",
+      "source": "new",
+      "entry_price": 0.0001333,
+      "peak_price": 0.0005229,
+      "trailing_active": true,
+      "entry_time": "2026-07-06T14:20:47.825295+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 292.27,
+      "peak_volume_m5": 25235.75,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005229,
+      "exit_pct": 292.27,
+      "exit_time": "2026-07-06T14:33:21.949324+00:00"
     }
   ],
   "alerted": {
@@ -33580,6 +33583,7 @@
     "0xee228E8F02e2097EeCd3D220730e7B0072314444": "2026-07-06T13:33:19.896126+00:00",
     "AVVLwZcNnts8JffDiEZxLNXGk9nLAzRr6hf9KDWapump": "2026-07-06T13:37:19.164003+00:00",
     "0x1153E199cbeA6dEB39Bc50d5f437159e91D00Ba3": "2026-07-06T14:03:19.322296+00:00",
-    "N5BpqcxRy1ogo8hQixZm4E2axpdqj8WivqbWoaSpump": "2026-07-06T14:32:22.003375+00:00"
+    "N5BpqcxRy1ogo8hQixZm4E2axpdqj8WivqbWoaSpump": "2026-07-06T14:32:22.003375+00:00",
+    "0x8274a7E4C9d73101eA53E264F97e240377678261": "2026-07-06T14:33:21.949324+00:00"
   }
 }
