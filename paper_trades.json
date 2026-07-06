@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BULLROOF",
-      "chain": "solana",
-      "address": "9Ez5s3QSjf8gqEkSqCZZyZ6MJnWZsUiwr2mC1x6xpump",
-      "source": "new",
-      "entry_price": 0.0002843,
-      "peak_price": 0.0002843,
-      "trailing_active": false,
-      "entry_time": "2026-07-06T15:00:55.338376+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "kirblet",
       "chain": "solana",
       "address": "EpgUTPSSoYcXC2L8feKDXx54pwBuo1auux1U3vsepump",
       "source": "new",
       "entry_price": 0.0001573,
-      "peak_price": 0.0001573,
+      "peak_price": 0.000164,
       "trailing_active": false,
       "entry_time": "2026-07-06T15:00:57.001883+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.26,
+      "peak_volume_m5": 27745.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -31994,6 +31986,25 @@
       "exit_price": 0.000809,
       "exit_pct": 2.56,
       "exit_time": "2026-07-06T14:41:26.081677+00:00"
+    },
+    {
+      "symbol": "BULLROOF",
+      "chain": "solana",
+      "address": "9Ez5s3QSjf8gqEkSqCZZyZ6MJnWZsUiwr2mC1x6xpump",
+      "source": "new",
+      "entry_price": 0.0002843,
+      "peak_price": 0.0002843,
+      "trailing_active": false,
+      "entry_time": "2026-07-06T15:00:55.338376+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.7,
+      "peak_volume_m5": 35250.81,
+      "milestones_hit": [],
+      "exit_price": 0.0002425,
+      "exit_pct": -14.7,
+      "exit_time": "2026-07-06T15:03:21.344819+00:00"
     }
   ],
   "alerted": {
@@ -33616,6 +33627,7 @@
     "N5BpqcxRy1ogo8hQixZm4E2axpdqj8WivqbWoaSpump": "2026-07-06T14:32:22.003375+00:00",
     "0x8274a7E4C9d73101eA53E264F97e240377678261": "2026-07-06T14:33:21.949324+00:00",
     "ATycrHtw84MChaPCBBMC2sQxwgmjCGx1GEY4nV8opump": "2026-07-06T14:34:21.113280+00:00",
-    "6uYAQyXYMQ5sTNPRZmYSVMGTAzgkTrK5mGtHpPYCpump": "2026-07-06T14:41:26.081677+00:00"
+    "6uYAQyXYMQ5sTNPRZmYSVMGTAzgkTrK5mGtHpPYCpump": "2026-07-06T14:41:26.081677+00:00",
+    "9Ez5s3QSjf8gqEkSqCZZyZ6MJnWZsUiwr2mC1x6xpump": "2026-07-06T15:03:21.344819+00:00"
   }
 }
