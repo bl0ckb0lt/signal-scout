@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SEMAN",
-      "chain": "solana",
-      "address": "AshPvt8cwspQuu9dRH8Dvd8bhjWTzMrj4w6L9oYbpump",
-      "source": "new",
-      "entry_price": 0.0001122,
-      "peak_price": 0.0001122,
-      "trailing_active": false,
-      "entry_time": "2026-07-07T03:50:38.987399+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "TESTPACK",
       "chain": "solana",
       "address": "5bZEJTjh7gy16P4jUVkD1ALPdvVNMUG73VW4AyLHpump",
       "source": "new",
       "entry_price": 0.0001301,
-      "peak_price": 0.0001301,
-      "trailing_active": false,
+      "peak_price": 0.0001565,
+      "trailing_active": true,
       "entry_time": "2026-07-07T03:50:40.616515+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.29,
+      "peak_volume_m5": 24269.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -32689,6 +32681,25 @@
       "exit_price": 0.0005044,
       "exit_pct": 42.57,
       "exit_time": "2026-07-07T03:42:19.123704+00:00"
+    },
+    {
+      "symbol": "SEMAN",
+      "chain": "solana",
+      "address": "AshPvt8cwspQuu9dRH8Dvd8bhjWTzMrj4w6L9oYbpump",
+      "source": "new",
+      "entry_price": 0.0001122,
+      "peak_price": 0.0001122,
+      "trailing_active": false,
+      "entry_time": "2026-07-07T03:50:38.987399+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.95,
+      "peak_volume_m5": 22105.41,
+      "milestones_hit": [],
+      "exit_price": 0.0001044,
+      "exit_pct": -6.95,
+      "exit_time": "2026-07-07T03:58:17.953325+00:00"
     }
   ],
   "alerted": {
@@ -34346,6 +34357,7 @@
     "GwFfMp7pfjVML5dxYPu9YJ3knG7ywrZWJjfNuVx2pump": "2026-07-07T01:49:17.343122+00:00",
     "0x438f39Bf804932510677B9df957b817960Eb17C0": "2026-07-07T02:12:23.216510+00:00",
     "2rovxjbNfyVuTdDTpH3EtsWEFJKCmYasuLud3MRHpump": "2026-07-07T02:53:17.838506+00:00",
-    "7YnzMgUvUjSMs1Xi9rYE4Dz4iV6RDMmuabWPmD21pump": "2026-07-07T03:00:57.233127+00:00"
+    "7YnzMgUvUjSMs1Xi9rYE4Dz4iV6RDMmuabWPmD21pump": "2026-07-07T03:00:57.233127+00:00",
+    "AshPvt8cwspQuu9dRH8Dvd8bhjWTzMrj4w6L9oYbpump": "2026-07-07T03:58:17.953325+00:00"
   }
 }
