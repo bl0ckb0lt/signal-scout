@@ -14,24 +14,8 @@
       "score": 59,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.76,
+      "current_pct": -3.46,
       "peak_volume_m5": 791.53,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "RVH",
-      "chain": "robinhood",
-      "address": "0x96765066f6a040a21EB027167D2315B707c82633",
-      "source": "new",
-      "entry_price": 0.001317,
-      "peak_price": 0.001392,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T17:41:00.556499+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.04,
-      "peak_volume_m5": 1970.07,
       "milestones_hit": []
     },
     {
@@ -40,11 +24,15 @@
       "address": "0x9C0cAd96CB49e351262528EE9eaB490c4245600A",
       "source": "new",
       "entry_price": 0.1474,
-      "peak_price": 0.1474,
-      "trailing_active": false,
+      "peak_price": 0.1756,
+      "trailing_active": true,
       "entry_time": "2026-07-08T17:51:02.254389+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.13,
+      "peak_volume_m5": 7581.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -35005,6 +34993,25 @@
       "exit_price": 0.003322,
       "exit_pct": -10.17,
       "exit_time": "2026-07-08T17:44:21.832601+00:00"
+    },
+    {
+      "symbol": "RVH",
+      "chain": "robinhood",
+      "address": "0x96765066f6a040a21EB027167D2315B707c82633",
+      "source": "new",
+      "entry_price": 0.001317,
+      "peak_price": 0.001392,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T17:41:00.556499+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.5,
+      "peak_volume_m5": 1970.07,
+      "milestones_hit": [],
+      "exit_price": 0.001205,
+      "exit_pct": -8.5,
+      "exit_time": "2026-07-08T18:00:50.814398+00:00"
     }
   ],
   "alerted": {
@@ -36775,6 +36782,7 @@
     "0x3338d39A84e965e6aEa8eb734248B4e7445dE53c": "2026-07-08T17:19:20.743582+00:00",
     "0xe8fB470E0685437d7739BD2AacBA60b228800335": "2026-07-08T17:32:16.969726+00:00",
     "wnquaSmAtk5T3azdAgNmSQRNfrmEnymAKkrmzTgpump": "2026-07-08T17:33:16.350927+00:00",
-    "0x9ffA9BF66d0C3166e53d80E8625D3176cc846b74": "2026-07-08T17:44:21.832601+00:00"
+    "0x9ffA9BF66d0C3166e53d80E8625D3176cc846b74": "2026-07-08T17:44:21.832601+00:00",
+    "0x96765066f6a040a21EB027167D2315B707c82633": "2026-07-08T18:00:50.814398+00:00"
   }
 }
