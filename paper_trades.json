@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SIRIUS",
-      "chain": "robinhood",
-      "address": "0xB33AEc090F59Afb419127b15059b6234C8d13653",
-      "source": "new",
-      "entry_price": 0.0001028,
-      "peak_price": 0.0001028,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T11:31:12.360295+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "hood",
       "chain": "robinhood",
       "address": "0x5F04785DB34A58af7B90154595589e861faD2B12",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-08T11:31:15.517035+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -34239,6 +34231,25 @@
       "exit_price": 0.0001817,
       "exit_pct": -17.97,
       "exit_time": "2026-07-08T10:51:21.561114+00:00"
+    },
+    {
+      "symbol": "SIRIUS",
+      "chain": "robinhood",
+      "address": "0xB33AEc090F59Afb419127b15059b6234C8d13653",
+      "source": "new",
+      "entry_price": 0.0001028,
+      "peak_price": 0.0001028,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T11:31:12.360295+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.77,
+      "peak_volume_m5": 25424.92,
+      "milestones_hit": [],
+      "exit_price": 9.378e-05,
+      "exit_pct": -8.77,
+      "exit_time": "2026-07-08T11:31:32.253629+00:00"
     }
   ],
   "alerted": {
@@ -35972,6 +35983,7 @@
     "0x7a94c8256Cb867dee78820Efb5BEb8B1e821676f": "2026-07-08T10:21:21.883051+00:00",
     "0x75e7a6aEc1104dA979ADeb3757F892e430e37c60": "2026-07-08T10:38:19.534595+00:00",
     "8YFpCz4pxkNQxowNDyQrPmDizXQLhFF5xn87oG14pump": "2026-07-08T10:43:17.683019+00:00",
-    "H58UUPjiqJ9ZbK3eGUJNhcjwj9fDaBSKGaDryNJjpump": "2026-07-08T10:51:21.561114+00:00"
+    "H58UUPjiqJ9ZbK3eGUJNhcjwj9fDaBSKGaDryNJjpump": "2026-07-08T10:51:21.561114+00:00",
+    "0xB33AEc090F59Afb419127b15059b6234C8d13653": "2026-07-08T11:31:32.253629+00:00"
   }
 }
