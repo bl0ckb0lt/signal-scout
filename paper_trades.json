@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GME",
-      "chain": "robinhood",
-      "address": "0x99A34aedAb8b5f08EBA397a2D247188603b150D6",
-      "source": "new",
-      "entry_price": 0.0001115,
-      "peak_price": 0.0001115,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T22:20:57.353972+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "WILLOW",
       "chain": "robinhood",
       "address": "0xD01458Af8C5fFFa353B14E8F0415994FE81269B8",
       "source": "new",
       "entry_price": 0.0002788,
-      "peak_price": 0.0002788,
+      "peak_price": 0.0002896,
       "trailing_active": false,
       "entry_time": "2026-07-08T22:21:00.387093+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.87,
+      "peak_volume_m5": 10022.04,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -35435,6 +35427,25 @@
       "exit_price": 9.934e-05,
       "exit_pct": -22.75,
       "exit_time": "2026-07-08T22:11:16.697138+00:00"
+    },
+    {
+      "symbol": "GME",
+      "chain": "robinhood",
+      "address": "0x99A34aedAb8b5f08EBA397a2D247188603b150D6",
+      "source": "new",
+      "entry_price": 0.0001115,
+      "peak_price": 0.0001115,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T22:20:57.353972+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.89,
+      "peak_volume_m5": 6468.47,
+      "milestones_hit": [],
+      "exit_price": 7.594e-05,
+      "exit_pct": -31.89,
+      "exit_time": "2026-07-08T22:22:17.081067+00:00"
     }
   ],
   "alerted": {
@@ -37228,6 +37239,7 @@
     "0x11ec82fB4F0bcC60915c1ED25390406b7e8a0F07": "2026-07-08T21:51:21.892828+00:00",
     "0xE8506B62F8246C80116cFC0a07dd0EA9619Beb9E": "2026-07-08T21:51:22.716872+00:00",
     "0x426bB0A71fB3C49D893cA9896B0b45347AA8a004": "2026-07-08T21:54:19.944300+00:00",
-    "0x855ed3C88BC565FEfB51a264280A7B2f6b946368": "2026-07-08T22:11:16.697138+00:00"
+    "0x855ed3C88BC565FEfB51a264280A7B2f6b946368": "2026-07-08T22:11:16.697138+00:00",
+    "0x99A34aedAb8b5f08EBA397a2D247188603b150D6": "2026-07-08T22:22:17.081067+00:00"
   }
 }
