@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VLAD",
-      "chain": "robinhood",
-      "address": "0x32306845034D24cc6a627FB2CEb5266fc7180000",
-      "source": "new",
-      "entry_price": 0.001329,
-      "peak_price": 0.001329,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T13:00:56.238539+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "SHERWOOD",
       "chain": "robinhood",
       "address": "0xe1352B0177586e9F7c0Fc145195Fec9A6f014663",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-08T13:00:59.014406+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.28,
+      "peak_volume_m5": 2244.7,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -34376,6 +34368,25 @@
       "exit_price": 0.0001687,
       "exit_pct": 9.9,
       "exit_time": "2026-07-08T12:39:19.429693+00:00"
+    },
+    {
+      "symbol": "VLAD",
+      "chain": "robinhood",
+      "address": "0x32306845034D24cc6a627FB2CEb5266fc7180000",
+      "source": "new",
+      "entry_price": 0.001329,
+      "peak_price": 0.001329,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T13:00:56.238539+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.74,
+      "peak_volume_m5": 27572.2,
+      "milestones_hit": [],
+      "exit_price": 0.00108,
+      "exit_pct": -18.74,
+      "exit_time": "2026-07-08T13:02:19.697228+00:00"
     }
   ],
   "alerted": {
@@ -36116,6 +36127,7 @@
     "0x6bB506fE7b86CC1109f1614046aC9B144bf2D8Bc": "2026-07-08T11:55:18.206782+00:00",
     "0x2e9c3B1C6E7703D1784b2B8F80ef4e99D76b3E56": "2026-07-08T12:02:20.855379+00:00",
     "0x5361b7eb918529067E2628495A17FC207cca332a": "2026-07-08T12:33:16.457894+00:00",
-    "4ARYKZQpNgm3bDzVzWB9Cbh3wGRoPPKNyBhxHsQjpump": "2026-07-08T12:39:19.429693+00:00"
+    "4ARYKZQpNgm3bDzVzWB9Cbh3wGRoPPKNyBhxHsQjpump": "2026-07-08T12:39:19.429693+00:00",
+    "0x32306845034D24cc6a627FB2CEb5266fc7180000": "2026-07-08T13:02:19.697228+00:00"
   }
 }
