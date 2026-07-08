@@ -8,29 +8,18 @@
       "address": "7aD86TAvoXPBAkt7HxGsz3MG8UBdDUvcVeBLouVcpump",
       "source": "new",
       "entry_price": 0.00103,
-      "peak_price": 0.001964,
+      "peak_price": 0.002266,
       "trailing_active": true,
       "entry_time": "2026-07-08T01:26:19.601292+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 90.68,
-      "peak_volume_m5": 67641.92,
+      "current_pct": 120.0,
+      "peak_volume_m5": 67843.47,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "Loom",
-      "chain": "solana",
-      "address": "CgnQ8a1u99Gk7qoySMd2wrGPMPm9bdcSJNhqMEkYpump",
-      "source": "new",
-      "entry_price": 0.0001364,
-      "peak_price": 0.0001364,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T01:50:49.361089+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -33585,6 +33574,25 @@
       "exit_price": 6.358e-05,
       "exit_pct": -28.53,
       "exit_time": "2026-07-08T00:53:20.420250+00:00"
+    },
+    {
+      "symbol": "Loom",
+      "chain": "solana",
+      "address": "CgnQ8a1u99Gk7qoySMd2wrGPMPm9bdcSJNhqMEkYpump",
+      "source": "new",
+      "entry_price": 0.0001364,
+      "peak_price": 0.0001364,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T01:50:49.361089+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.73,
+      "peak_volume_m5": 42146.69,
+      "milestones_hit": [],
+      "exit_price": 0.0001204,
+      "exit_pct": -11.73,
+      "exit_time": "2026-07-08T01:52:24.795723+00:00"
     }
   ],
   "alerted": {
@@ -35286,6 +35294,7 @@
     "0x390dC267fA501e8FFb0798495193e3141c68FFFf": "2026-07-07T22:35:21.274019+00:00",
     "5MeesVjRfJ3nnkESNFjT6y4RyzvN7NX5Qf3mihSUpump": "2026-07-08T00:02:18.031746+00:00",
     "0x51054F58E6C54A206583450F87Ec342d50905996": "2026-07-08T00:43:17.273316+00:00",
-    "0x1Bf8FD300292398DFbf3Fc37E38Cf909846583FC": "2026-07-08T00:53:20.420250+00:00"
+    "0x1Bf8FD300292398DFbf3Fc37E38Cf909846583FC": "2026-07-08T00:53:20.420250+00:00",
+    "CgnQ8a1u99Gk7qoySMd2wrGPMPm9bdcSJNhqMEkYpump": "2026-07-08T01:52:24.795723+00:00"
   }
 }
