@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "LOOM",
-      "chain": "solana",
-      "address": "98uPGgTeZRhuCtERzBdsjR9oLkNvvqexmNMy7b1hNQi8",
-      "source": "new",
-      "entry_price": 0.0001466,
-      "peak_price": 0.0001466,
-      "trailing_active": false,
-      "entry_time": "2026-07-08T08:40:56.250035+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "CHAIR",
       "chain": "robinhood",
       "address": "0x84c02b84d39c78B32382B202ad9494c684eCEF0A",
       "source": "new",
       "entry_price": 8.835e-05,
-      "peak_price": 8.835e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001035,
+      "trailing_active": true,
       "entry_time": "2026-07-08T08:40:59.203092+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.15,
+      "peak_volume_m5": 25112.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -34049,6 +34041,25 @@
       "exit_price": 0.0001375,
       "exit_pct": -8.7,
       "exit_time": "2026-07-08T08:12:22.782175+00:00"
+    },
+    {
+      "symbol": "LOOM",
+      "chain": "solana",
+      "address": "98uPGgTeZRhuCtERzBdsjR9oLkNvvqexmNMy7b1hNQi8",
+      "source": "new",
+      "entry_price": 0.0001466,
+      "peak_price": 0.0001466,
+      "trailing_active": false,
+      "entry_time": "2026-07-08T08:40:56.250035+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.32,
+      "peak_volume_m5": 13182.96,
+      "milestones_hit": [],
+      "exit_price": 0.0001256,
+      "exit_pct": -14.32,
+      "exit_time": "2026-07-08T08:41:21.288642+00:00"
     }
   ],
   "alerted": {
@@ -35773,6 +35784,7 @@
     "0x55DDE5139398330D7aae0e9249f5B338bB9CF8dc": "2026-07-08T07:42:18.981668+00:00",
     "0x73641B2b9d5a66F2Dbdf7cB57DD204A94d5e28f2": "2026-07-08T07:55:22.390209+00:00",
     "0xCC4A3cbBBd871A4E5532ECaD16A32006C6AC2511": "2026-07-08T08:12:21.948216+00:00",
-    "0xE555853720737512E3f8Ccf64159A087B4Da51db": "2026-07-08T08:12:22.782175+00:00"
+    "0xE555853720737512E3f8Ccf64159A087B4Da51db": "2026-07-08T08:12:22.782175+00:00",
+    "98uPGgTeZRhuCtERzBdsjR9oLkNvvqexmNMy7b1hNQi8": "2026-07-08T08:41:21.288642+00:00"
   }
 }
