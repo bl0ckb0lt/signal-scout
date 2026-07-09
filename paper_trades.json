@@ -14,27 +14,11 @@
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 81.72,
+      "current_pct": 76.61,
       "peak_volume_m5": 16771.8,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "AVAJAK",
-      "chain": "solana",
-      "address": "HnkB6cP2fEZE6KwdHwLEdEEDT8J5kUGPL1wFRqd4pump",
-      "source": "new",
-      "entry_price": 0.0003747,
-      "peak_price": 0.0004158,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T04:50:55.343402+00:00",
-      "score": 74,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.46,
-      "peak_volume_m5": 15661.65,
-      "milestones_hit": []
     },
     {
       "symbol": "FATCAT",
@@ -42,13 +26,13 @@
       "address": "0xF023c0b69b94b6a6b3D0aF097f1A5C94aB7f1b09",
       "source": "new",
       "entry_price": 6.879e-05,
-      "peak_price": 7.021e-05,
-      "trailing_active": false,
+      "peak_price": 8.067e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-09T05:01:01.499270+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 2.06,
+      "current_pct": 17.27,
       "peak_volume_m5": 34401.17,
       "milestones_hit": []
     }
@@ -35907,6 +35891,25 @@
       "exit_price": 7.657e-05,
       "exit_pct": -14.25,
       "exit_time": "2026-07-09T04:43:22.297613+00:00"
+    },
+    {
+      "symbol": "AVAJAK",
+      "chain": "solana",
+      "address": "HnkB6cP2fEZE6KwdHwLEdEEDT8J5kUGPL1wFRqd4pump",
+      "source": "new",
+      "entry_price": 0.0003747,
+      "peak_price": 0.0004158,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T04:50:55.343402+00:00",
+      "score": 74,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.87,
+      "peak_volume_m5": 21859.99,
+      "milestones_hit": [],
+      "exit_price": 0.0003115,
+      "exit_pct": -16.87,
+      "exit_time": "2026-07-09T05:11:24.859270+00:00"
     }
   ],
   "alerted": {
@@ -37723,6 +37726,7 @@
     "0x8643e52a17229896a0FDdf7F8F80ed8b4bde9FA0": "2026-07-09T03:51:25.273163+00:00",
     "G8bNZABJLB6A1iKyuQdJWXGtgo6UxwQ2DC7gZXWQpump": "2026-07-09T03:54:18.169300+00:00",
     "0x37474AD97929dF3E75BccD871B8526F9E4dDc69C": "2026-07-09T04:38:17.232613+00:00",
-    "0xE1ea5f02858fec9d6f0b828CDD49486B930315E7": "2026-07-09T04:43:22.297613+00:00"
+    "0xE1ea5f02858fec9d6f0b828CDD49486B930315E7": "2026-07-09T04:43:22.297613+00:00",
+    "HnkB6cP2fEZE6KwdHwLEdEEDT8J5kUGPL1wFRqd4pump": "2026-07-09T05:11:24.859270+00:00"
   }
 }
