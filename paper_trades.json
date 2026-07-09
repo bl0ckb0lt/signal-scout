@@ -3,36 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANSEMHOOD",
-      "chain": "solana",
-      "address": "HoctZ3uZg4CGT1YSHB7zk18fvTYvnoYsekGpSXjJpump",
-      "source": "new",
-      "entry_price": 0.0001191,
-      "peak_price": 0.0001191,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T11:41:33.550628+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.26,
-      "peak_volume_m5": 36823.47,
-      "milestones_hit": []
-    },
-    {
       "symbol": "VLAD",
       "chain": "robinhood",
       "address": "0x572817B56B428731cDddEC37938C05579D516285",
       "source": "new",
       "entry_price": 0.0002947,
-      "peak_price": 0.0003441,
+      "peak_price": 0.0004803,
       "trailing_active": true,
       "entry_time": "2026-07-09T11:41:35.024561+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 16.76,
+      "current_pct": 62.98,
       "peak_volume_m5": 67339.52,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -36403,6 +36389,25 @@
       "exit_price": 0.0006005,
       "exit_pct": -12.77,
       "exit_time": "2026-07-09T11:21:53.743929+00:00"
+    },
+    {
+      "symbol": "ANSEMHOOD",
+      "chain": "solana",
+      "address": "HoctZ3uZg4CGT1YSHB7zk18fvTYvnoYsekGpSXjJpump",
+      "source": "new",
+      "entry_price": 0.0001191,
+      "peak_price": 0.0001191,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T11:41:33.550628+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.85,
+      "peak_volume_m5": 44179.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001026,
+      "exit_pct": -13.85,
+      "exit_time": "2026-07-09T11:52:20.024039+00:00"
     }
   ],
   "alerted": {
@@ -38243,6 +38248,7 @@
     "0xBCe104f6363A7cdC4D5567a569c838528BaA2D03": "2026-07-09T10:51:28.660523+00:00",
     "8SJ9UmV7vH7b2h9ZUf24hZJyCJLyqK4rw8cPyS8xpump": "2026-07-09T11:01:20.744326+00:00",
     "3ymMYoKuQj5JYESZs5Gp5rXScm1C3GarfzGZ22KHpump": "2026-07-09T11:17:21.787319+00:00",
-    "0x35bb1375bF7B08F83af2b02d61c6b809021BE27E": "2026-07-09T11:21:53.743929+00:00"
+    "0x35bb1375bF7B08F83af2b02d61c6b809021BE27E": "2026-07-09T11:21:53.743929+00:00",
+    "HoctZ3uZg4CGT1YSHB7zk18fvTYvnoYsekGpSXjJpump": "2026-07-09T11:52:20.024039+00:00"
   }
 }
