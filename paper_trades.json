@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SOLCASH",
-      "chain": "solana",
-      "address": "BqkHUTJA5uBVUsFSQcGHgwjExHEWBekexXHt7FPtpump",
-      "source": "new",
-      "entry_price": 0.0001512,
-      "peak_price": 0.000158,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T23:20:48.940383+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.5,
-      "peak_volume_m5": 44566.81,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HOODIE",
       "chain": "robinhood",
       "address": "0xC7035b48D3F4A06abc7aEFCD8A1B18Fd4CBB5300",
@@ -30,28 +14,9 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 26.76,
+      "current_pct": 25.17,
       "peak_volume_m5": 27414.62,
       "milestones_hit": []
-    },
-    {
-      "symbol": "SUMMER",
-      "chain": "robinhood",
-      "address": "0xe88bfA057F6942ef83F213DACfaEA4A444B5fdcb",
-      "source": "new",
-      "entry_price": 0.0001449,
-      "peak_price": 0.0004114,
-      "trailing_active": true,
-      "entry_time": "2026-07-09T23:31:04.413789+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 183.92,
-      "peak_volume_m5": 12996.46,
-      "milestones_hit": [
-        50,
-        100
-      ]
     }
   ],
   "closed": [
@@ -37616,6 +37581,48 @@
       "exit_price": 0.0002495,
       "exit_pct": -23.58,
       "exit_time": "2026-07-09T23:36:20.068321+00:00"
+    },
+    {
+      "symbol": "SOLCASH",
+      "chain": "solana",
+      "address": "BqkHUTJA5uBVUsFSQcGHgwjExHEWBekexXHt7FPtpump",
+      "source": "new",
+      "entry_price": 0.0001512,
+      "peak_price": 0.000158,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T23:20:48.940383+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.65,
+      "peak_volume_m5": 44566.81,
+      "milestones_hit": [],
+      "exit_price": 0.000123,
+      "exit_pct": -18.65,
+      "exit_time": "2026-07-09T23:39:19.516553+00:00"
+    },
+    {
+      "symbol": "SUMMER",
+      "chain": "robinhood",
+      "address": "0xe88bfA057F6942ef83F213DACfaEA4A444B5fdcb",
+      "source": "new",
+      "entry_price": 0.0001449,
+      "peak_price": 0.0005274,
+      "trailing_active": true,
+      "entry_time": "2026-07-09T23:31:04.413789+00:00",
+      "score": 63,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 263.98,
+      "peak_volume_m5": 12996.46,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005274,
+      "exit_pct": 263.98,
+      "exit_time": "2026-07-09T23:39:21.251119+00:00"
     }
   ],
   "alerted": {
@@ -39517,6 +39524,8 @@
     "0x19f9C01B856F340cf18Ec619982F338eAAC6B3C8": "2026-07-09T23:11:15.253653+00:00",
     "GMuQjK3KLzdyZTn7fLS99vxD8YGfXeHhLzzb7Dcepump": "2026-07-09T23:22:20.319173+00:00",
     "0x442824845bAD8e6525c176Adaa3438c292907DED": "2026-07-09T23:28:17.396627+00:00",
-    "0x5fd01bE233D5E4Bc117236054a3506737a9e4BD8": "2026-07-09T23:36:20.068321+00:00"
+    "0x5fd01bE233D5E4Bc117236054a3506737a9e4BD8": "2026-07-09T23:36:20.068321+00:00",
+    "BqkHUTJA5uBVUsFSQcGHgwjExHEWBekexXHt7FPtpump": "2026-07-09T23:39:19.516553+00:00",
+    "0xe88bfA057F6942ef83F213DACfaEA4A444B5fdcb": "2026-07-09T23:39:21.251119+00:00"
   }
 }
