@@ -8,27 +8,15 @@
       "address": "G2L8j6Vr2xziHCh9dhhV9J72SMpirtNYZXGV1s68pump",
       "source": "new",
       "entry_price": 0.0001662,
-      "peak_price": 0.0001834,
-      "trailing_active": false,
+      "peak_price": 0.0002053,
+      "trailing_active": true,
       "entry_time": "2026-07-09T13:40:39.293583+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.35,
+      "current_pct": 23.53,
       "peak_volume_m5": 49577.39,
       "milestones_hit": []
-    },
-    {
-      "symbol": "VENA",
-      "chain": "robinhood",
-      "address": "0xa52860E07b5EF8ab4a5cF0dfA16D4DcA65b7A0b2",
-      "source": "new",
-      "entry_price": 0.0006362,
-      "peak_price": 0.0006362,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T13:50:50.589601+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -36574,6 +36562,25 @@
       "exit_price": 7.948e-05,
       "exit_pct": -11.6,
       "exit_time": "2026-07-09T13:40:57.992833+00:00"
+    },
+    {
+      "symbol": "VENA",
+      "chain": "robinhood",
+      "address": "0xa52860E07b5EF8ab4a5cF0dfA16D4DcA65b7A0b2",
+      "source": "new",
+      "entry_price": 0.0006362,
+      "peak_price": 0.0006362,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T13:50:50.589601+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.33,
+      "peak_volume_m5": 51262.97,
+      "milestones_hit": [],
+      "exit_price": 0.0005387,
+      "exit_pct": -15.33,
+      "exit_time": "2026-07-09T13:53:25.067586+00:00"
     }
   ],
   "alerted": {
@@ -38423,6 +38430,7 @@
     "0x77Ad695ff83246e731095127dF185c9ac9D7D5C2": "2026-07-09T13:21:58.586200+00:00",
     "0xf314AEDeAaDCB02F33a13Eae471Fe06D13AA7777": "2026-07-09T13:31:01.592757+00:00",
     "0xadfb6cc3B45FF7f8EF7049cdB4c4C30243aC5792": "2026-07-09T13:32:25.983503+00:00",
-    "0x10dc3d3719b507e6bF3fC90c3D327d8590827777": "2026-07-09T13:40:57.992833+00:00"
+    "0x10dc3d3719b507e6bF3fC90c3D327d8590827777": "2026-07-09T13:40:57.992833+00:00",
+    "0xa52860E07b5EF8ab4a5cF0dfA16D4DcA65b7A0b2": "2026-07-09T13:53:25.067586+00:00"
   }
 }
