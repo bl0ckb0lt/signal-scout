@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ROBINHOODIES",
-      "chain": "robinhood",
-      "address": "0x7660432dd17c8C7107b182f6abAF1E6DAC6cfA57",
-      "source": "new",
-      "entry_price": 0.0001897,
-      "peak_price": 0.0001897,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T05:40:48.755276+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "VEIL",
       "chain": "robinhood",
       "address": "0x8894B86425e4edD8E048c3C71157bA527Ee67dF2",
       "source": "new",
       "entry_price": 0.0001465,
-      "peak_price": 0.0001465,
-      "trailing_active": false,
+      "peak_price": 0.0001951,
+      "trailing_active": true,
       "entry_time": "2026-07-09T05:40:50.132407+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.17,
+      "peak_volume_m5": 43763.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -35959,6 +35951,25 @@
       "exit_price": 0.000101,
       "exit_pct": -9.09,
       "exit_time": "2026-07-09T05:33:17.448399+00:00"
+    },
+    {
+      "symbol": "ROBINHOODIES",
+      "chain": "robinhood",
+      "address": "0x7660432dd17c8C7107b182f6abAF1E6DAC6cfA57",
+      "source": "new",
+      "entry_price": 0.0001897,
+      "peak_price": 0.0001897,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T05:40:48.755276+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.04,
+      "peak_volume_m5": 15528.13,
+      "milestones_hit": [],
+      "exit_price": 0.0001422,
+      "exit_pct": -25.04,
+      "exit_time": "2026-07-09T05:43:41.950282+00:00"
     }
   ],
   "alerted": {
@@ -37779,6 +37790,7 @@
     "HnkB6cP2fEZE6KwdHwLEdEEDT8J5kUGPL1wFRqd4pump": "2026-07-09T05:11:24.859270+00:00",
     "G6cHLEwYHyZJXBhKpSWMU6RUtcq9HM9UTn2cTEdKpump": "2026-07-09T05:13:24.628424+00:00",
     "0xF023c0b69b94b6a6b3D0aF097f1A5C94aB7f1b09": "2026-07-09T05:21:17.296002+00:00",
-    "X6MGonT78XsReMtfp7EZ8pmD28DT8G8fbwtgQvspump": "2026-07-09T05:33:17.448399+00:00"
+    "X6MGonT78XsReMtfp7EZ8pmD28DT8G8fbwtgQvspump": "2026-07-09T05:33:17.448399+00:00",
+    "0x7660432dd17c8C7107b182f6abAF1E6DAC6cfA57": "2026-07-09T05:43:41.950282+00:00"
   }
 }
