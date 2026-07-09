@@ -8,31 +8,17 @@
       "address": "0x0A713a88e05787D455954DaBDba3B69a92518505",
       "source": "new",
       "entry_price": 0.0001073,
-      "peak_price": 0.0001073,
-      "trailing_active": false,
+      "peak_price": 0.000163,
+      "trailing_active": true,
       "entry_time": "2026-07-09T21:30:48.389841+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.63,
+      "current_pct": 51.91,
       "peak_volume_m5": 13912.53,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "AI",
-      "chain": "robinhood",
-      "address": "0x8b09E8fD25D4b3C7e19d0D8697026d9E30ebe58C",
-      "source": "new",
-      "entry_price": 0.0001023,
-      "peak_price": 0.0001129,
-      "trailing_active": false,
-      "entry_time": "2026-07-09T21:30:49.805045+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 10.36,
-      "peak_volume_m5": 12865.84,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -37364,6 +37350,25 @@
       "exit_price": 0.0002507,
       "exit_pct": 135.18,
       "exit_time": "2026-07-09T21:32:17.634848+00:00"
+    },
+    {
+      "symbol": "AI",
+      "chain": "robinhood",
+      "address": "0x8b09E8fD25D4b3C7e19d0D8697026d9E30ebe58C",
+      "source": "new",
+      "entry_price": 0.0001023,
+      "peak_price": 0.0001129,
+      "trailing_active": false,
+      "entry_time": "2026-07-09T21:30:49.805045+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.04,
+      "peak_volume_m5": 12865.84,
+      "milestones_hit": [],
+      "exit_price": 8.691e-05,
+      "exit_pct": -15.04,
+      "exit_time": "2026-07-09T21:35:43.307725+00:00"
     }
   ],
   "alerted": {
@@ -39253,6 +39258,7 @@
     "0xB8E8C81477021643344aa39920E1e267D06874A6": "2026-07-09T20:11:19.206617+00:00",
     "GJekZotFz1ojfH6dYDWNaQTnuX5fHen9VBYNL6zcpump": "2026-07-09T20:44:20.485135+00:00",
     "0x00B1d6e0849C72Cd3bA76aE1B5dA9dDc05364128": "2026-07-09T21:21:20.562372+00:00",
-    "0xdd4468b757177F3FB8d618C4bb94d7cfE1491781": "2026-07-09T21:32:17.634848+00:00"
+    "0xdd4468b757177F3FB8d618C4bb94d7cfE1491781": "2026-07-09T21:32:17.634848+00:00",
+    "0x8b09E8fD25D4b3C7e19d0D8697026d9E30ebe58C": "2026-07-09T21:35:43.307725+00:00"
   }
 }
