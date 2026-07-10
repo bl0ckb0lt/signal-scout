@@ -14,7 +14,7 @@
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.37,
+      "current_pct": 12.51,
       "peak_volume_m5": 34121.8,
       "milestones_hit": []
     },
@@ -24,27 +24,15 @@
       "address": "0x6Ab24D36fa76395142e05Cb622e81AE2d3cd4d73",
       "source": "new",
       "entry_price": 7.442e-05,
-      "peak_price": 7.996e-05,
-      "trailing_active": false,
+      "peak_price": 9.733e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-10T16:10:51.588873+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.44,
-      "peak_volume_m5": 2377.99,
+      "current_pct": 30.78,
+      "peak_volume_m5": 3134.45,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HexStarUFO",
-      "chain": "solana",
-      "address": "B9uGfvtdYeqBiNSikZttvVcGRodD5wLWg4TdYGBHpump",
-      "source": "new",
-      "entry_price": 0.0003349,
-      "peak_price": 0.0003349,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T16:12:58.266070+00:00",
-      "score": 91,
-      "status": "open"
     }
   ],
   "closed": [
@@ -39414,6 +39402,25 @@
       "exit_price": 0.0003159,
       "exit_pct": 5.26,
       "exit_time": "2026-07-10T16:06:16.484534+00:00"
+    },
+    {
+      "symbol": "HexStarUFO",
+      "chain": "solana",
+      "address": "B9uGfvtdYeqBiNSikZttvVcGRodD5wLWg4TdYGBHpump",
+      "source": "new",
+      "entry_price": 0.0003349,
+      "peak_price": 0.0003349,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T16:12:58.266070+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.99,
+      "peak_volume_m5": 33709.81,
+      "milestones_hit": [],
+      "exit_price": 0.0002713,
+      "exit_pct": -18.99,
+      "exit_time": "2026-07-10T16:17:22.945507+00:00"
     }
   ],
   "alerted": {
@@ -41406,6 +41413,7 @@
     "0x641495AcE41Cbf93F2520f1715786cf9e926e37e": "2026-07-10T15:40:31.049340+00:00",
     "0xD85b41fA4359c8bF28Bc5e3Ded52AB6FA2aB9398": "2026-07-10T16:01:17.476601+00:00",
     "0x3D0a2e4763EeE58a7c631ACF7fF13Ad6398A5141": "2026-07-10T16:01:18.157847+00:00",
-    "0x68aF2A31212FBd3f02Bb0F761713C559EE72600d": "2026-07-10T16:06:16.484534+00:00"
+    "0x68aF2A31212FBd3f02Bb0F761713C559EE72600d": "2026-07-10T16:06:16.484534+00:00",
+    "B9uGfvtdYeqBiNSikZttvVcGRodD5wLWg4TdYGBHpump": "2026-07-10T16:17:22.945507+00:00"
   }
 }
