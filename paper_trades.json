@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NAVEN",
-      "chain": "robinhood",
-      "address": "0xbb1d001233bD2916b3691127d0F45f766f3b6B80",
-      "source": "new",
-      "entry_price": 0.0002394,
-      "peak_price": 0.000281,
-      "trailing_active": true,
-      "entry_time": "2026-07-10T22:00:50.856141+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 17.38,
-      "peak_volume_m5": 28980.21,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CORTEX",
       "chain": "robinhood",
       "address": "0x6d8B345b12Be324bBfA1E0a20d232B8d852b320b",
       "source": "new",
       "entry_price": 7.741e-05,
-      "peak_price": 7.741e-05,
+      "peak_price": 7.99e-05,
       "trailing_active": false,
       "entry_time": "2026-07-10T22:05:22.044505+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.22,
+      "peak_volume_m5": 36926.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -40036,6 +40024,25 @@
       "exit_price": 0.0001473,
       "exit_pct": 11.0,
       "exit_time": "2026-07-10T21:36:20.505113+00:00"
+    },
+    {
+      "symbol": "NAVEN",
+      "chain": "robinhood",
+      "address": "0xbb1d001233bD2916b3691127d0F45f766f3b6B80",
+      "source": "new",
+      "entry_price": 0.0002394,
+      "peak_price": 0.000281,
+      "trailing_active": true,
+      "entry_time": "2026-07-10T22:00:50.856141+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -9.31,
+      "peak_volume_m5": 28980.21,
+      "milestones_hit": [],
+      "exit_price": 0.0002171,
+      "exit_pct": -9.31,
+      "exit_time": "2026-07-10T22:06:18.642875+00:00"
     }
   ],
   "alerted": {
@@ -42061,6 +42068,7 @@
     "0x133f1bc183E20bbc4AAc114E4ef6C893576DADc0": "2026-07-10T20:56:20.037609+00:00",
     "0xcf66002DEae11c0a9CaBD1635EcC8BEA4fAa2710": "2026-07-10T20:57:20.349239+00:00",
     "0xB95058d6A93B72eB1DCB2f5Fbe4F687F830BCE7a": "2026-07-10T21:32:18.954978+00:00",
-    "0x16dE6463C0E98605Ee7236F9fB8D8F8f29D4134f": "2026-07-10T21:36:20.505113+00:00"
+    "0x16dE6463C0E98605Ee7236F9fB8D8F8f29D4134f": "2026-07-10T21:36:20.505113+00:00",
+    "0xbb1d001233bD2916b3691127d0F45f766f3b6B80": "2026-07-10T22:06:18.642875+00:00"
   }
 }
