@@ -8,13 +8,13 @@
       "address": "EPLeohiDXdCH2JmBJLgj6JTtBFvaTdDpN32P3vF7pump",
       "source": "new",
       "entry_price": 0.0001093,
-      "peak_price": 0.0001215,
+      "peak_price": 0.0001229,
       "trailing_active": false,
       "entry_time": "2026-07-10T20:00:57.728697+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.16,
+      "current_pct": 12.44,
       "peak_volume_m5": 37816.1,
       "milestones_hit": []
     },
@@ -24,11 +24,15 @@
       "address": "3iNciPaCxxPXaR92BRz8xRJP1bLpA8cVEWMKMSkupump",
       "source": "new",
       "entry_price": 0.0004074,
-      "peak_price": 0.0004074,
+      "peak_price": 0.0004532,
       "trailing_active": false,
       "entry_time": "2026-07-10T20:10:54.331810+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.24,
+      "peak_volume_m5": 108028.95,
+      "milestones_hit": []
     },
     {
       "symbol": "CRYPTODOG",
@@ -40,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-10T20:10:56.210711+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "worth",
-      "chain": "robinhood",
-      "address": "0xfB1bcB6817F7b8fA86896D3253b16aEB7Bd6A5A8",
-      "source": "new",
-      "entry_price": 6.69e-05,
-      "peak_price": 6.69e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T20:10:59.351634+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.49,
+      "peak_volume_m5": 280301.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -39868,6 +39864,25 @@
       "exit_price": 7.665e-05,
       "exit_pct": -37.38,
       "exit_time": "2026-07-10T20:01:28.683434+00:00"
+    },
+    {
+      "symbol": "worth",
+      "chain": "robinhood",
+      "address": "0xfB1bcB6817F7b8fA86896D3253b16aEB7Bd6A5A8",
+      "source": "new",
+      "entry_price": 6.69e-05,
+      "peak_price": 6.69e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T20:10:59.351634+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -36.74,
+      "peak_volume_m5": 7001.63,
+      "milestones_hit": [],
+      "exit_price": 4.232e-05,
+      "exit_pct": -36.74,
+      "exit_time": "2026-07-10T20:11:21.458328+00:00"
     }
   ],
   "alerted": {
@@ -41883,6 +41898,7 @@
     "0x10bD69C7eeacFB510322415e72810c3F4fe52267": "2026-07-10T19:11:19.065902+00:00",
     "0x8f4a265FD3Db0Bb01a9C942f3f5EA93d97072694": "2026-07-10T19:27:19.193181+00:00",
     "J7DBGxjJnp67it4TubeMMBZGus4LUhBbnNA3GCDgpump": "2026-07-10T19:34:18.922759+00:00",
-    "0x9277f5f2d2Df8900597CaaA2D06cC4f105709661": "2026-07-10T20:01:28.683434+00:00"
+    "0x9277f5f2d2Df8900597CaaA2D06cC4f105709661": "2026-07-10T20:01:28.683434+00:00",
+    "0xfB1bcB6817F7b8fA86896D3253b16aEB7Bd6A5A8": "2026-07-10T20:11:21.458328+00:00"
   }
 }
