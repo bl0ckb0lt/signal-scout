@@ -8,13 +8,13 @@
       "address": "JyJWcxa8xPwgKZFT13mPyDymLrjXhxkQTTyTJC3pump",
       "source": "new",
       "entry_price": 0.0001445,
-      "peak_price": 0.0001518,
+      "peak_price": 0.0001585,
       "trailing_active": false,
       "entry_time": "2026-07-10T13:40:48.568869+00:00",
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.05,
+      "current_pct": 9.69,
       "peak_volume_m5": 39820.84,
       "milestones_hit": []
     },
@@ -24,29 +24,18 @@
       "address": "0xC0b57404486baE3deCd0f47c49406214A303daC8",
       "source": "new",
       "entry_price": 0.0001777,
-      "peak_price": 0.0002974,
+      "peak_price": 0.0003824,
       "trailing_active": true,
       "entry_time": "2026-07-10T13:50:59.715977+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 67.36,
-      "peak_volume_m5": 119887.53,
+      "current_pct": 115.19,
+      "peak_volume_m5": 178808.73,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "NAVEN",
-      "chain": "robinhood",
-      "address": "0xEafA804083A4886a9460b5B19557334A652bEBa8",
-      "source": "new",
-      "entry_price": 7.476e-05,
-      "peak_price": 7.476e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T13:53:56.240041+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -39122,6 +39111,25 @@
       "exit_price": 0.0004144,
       "exit_pct": -10.05,
       "exit_time": "2026-07-10T13:53:31.852846+00:00"
+    },
+    {
+      "symbol": "NAVEN",
+      "chain": "robinhood",
+      "address": "0xEafA804083A4886a9460b5B19557334A652bEBa8",
+      "source": "new",
+      "entry_price": 7.476e-05,
+      "peak_price": 7.476e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T13:53:56.240041+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.71,
+      "peak_volume_m5": 25589.15,
+      "milestones_hit": [],
+      "exit_price": 5.778e-05,
+      "exit_pct": -22.71,
+      "exit_time": "2026-07-10T13:55:20.481265+00:00"
     }
   ],
   "alerted": {
@@ -41099,6 +41107,7 @@
     "0x40ec64Cac5F5139605CcFffA9977a28046E2c3e0": "2026-07-10T13:42:23.533768+00:00",
     "0xf3903B541A4FdC215b881E8b3c49af5b54b95fCE": "2026-07-10T13:48:19.637249+00:00",
     "0x5432D76f7DD7d238f16d2eEfB44182D904F6D72B": "2026-07-10T13:51:20.216271+00:00",
-    "0x9A873375cee9DC39CF905972118667b443903313": "2026-07-10T13:53:31.852846+00:00"
+    "0x9A873375cee9DC39CF905972118667b443903313": "2026-07-10T13:53:31.852846+00:00",
+    "0xEafA804083A4886a9460b5B19557334A652bEBa8": "2026-07-10T13:55:20.481265+00:00"
   }
 }
