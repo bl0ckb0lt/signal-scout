@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MOGSEM",
-      "chain": "solana",
-      "address": "G6k4tuNCWh4AkNGVnUbqDrJoce4AdrQmJTRZWUnhpump",
-      "source": "new",
-      "entry_price": 0.0001561,
-      "peak_price": 0.0001892,
-      "trailing_active": true,
-      "entry_time": "2026-07-10T17:50:48.455615+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.2,
-      "peak_volume_m5": 37484.96,
-      "milestones_hit": []
-    },
-    {
       "symbol": "VEX",
       "chain": "robinhood",
       "address": "0x98555AaAF50D90628C4D56409FC8a0d02c1bb642",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-10T18:01:01.785424+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.86,
+      "peak_volume_m5": 26063.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -39591,6 +39579,25 @@
       "exit_price": 0.0003403,
       "exit_pct": -8.2,
       "exit_time": "2026-07-10T17:51:17.125418+00:00"
+    },
+    {
+      "symbol": "MOGSEM",
+      "chain": "solana",
+      "address": "G6k4tuNCWh4AkNGVnUbqDrJoce4AdrQmJTRZWUnhpump",
+      "source": "new",
+      "entry_price": 0.0001561,
+      "peak_price": 0.0001892,
+      "trailing_active": true,
+      "entry_time": "2026-07-10T17:50:48.455615+00:00",
+      "score": 86,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 6.47,
+      "peak_volume_m5": 38146.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001662,
+      "exit_pct": 6.47,
+      "exit_time": "2026-07-10T18:04:22.763824+00:00"
     }
   ],
   "alerted": {
@@ -41593,6 +41600,7 @@
     "0xE0D05EA83582f97599211E9a321449aDCbe05573": "2026-07-10T17:11:22.162427+00:00",
     "0xbe21e9dFb5Ac2548f67E950aBc9a61f4b1f927E6": "2026-07-10T17:21:17.656043+00:00",
     "0x91AafF3e8c85734543672B6169E36c06A0304C53": "2026-07-10T17:30:39.094132+00:00",
-    "0xF132Bd1D1770D42CF4Ec8659b9077D0d1c197CC1": "2026-07-10T17:51:17.125418+00:00"
+    "0xF132Bd1D1770D42CF4Ec8659b9077D0d1c197CC1": "2026-07-10T17:51:17.125418+00:00",
+    "G6k4tuNCWh4AkNGVnUbqDrJoce4AdrQmJTRZWUnhpump": "2026-07-10T18:04:22.763824+00:00"
   }
 }
