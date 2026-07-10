@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "KUNA",
-      "chain": "robinhood",
-      "address": "0x87Df8Bb4E5F8e53Ff3BC8A26F7EdfbF409017E58",
-      "source": "new",
-      "entry_price": 8.024e-05,
-      "peak_price": 0.0002007,
-      "trailing_active": true,
-      "entry_time": "2026-07-10T22:30:45.835662+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 150.12,
-      "peak_volume_m5": 55650.18,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "HOODCAT",
       "chain": "solana",
       "address": "A1Vt3Tq7fkLq4FF5qCjuAyir8Mo92Vu2A4DbNWsgpump",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-10T22:40:49.894310+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.77,
+      "peak_volume_m5": 12195.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -40134,6 +40119,28 @@
       "exit_price": 0.0002135,
       "exit_pct": -15.75,
       "exit_time": "2026-07-10T22:32:23.749879+00:00"
+    },
+    {
+      "symbol": "KUNA",
+      "chain": "robinhood",
+      "address": "0x87Df8Bb4E5F8e53Ff3BC8A26F7EdfbF409017E58",
+      "source": "new",
+      "entry_price": 8.024e-05,
+      "peak_price": 0.0002007,
+      "trailing_active": true,
+      "entry_time": "2026-07-10T22:30:45.835662+00:00",
+      "score": 78,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 95.16,
+      "peak_volume_m5": 62362.25,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0001566,
+      "exit_pct": 95.16,
+      "exit_time": "2026-07-10T22:42:20.589405+00:00"
     }
   ],
   "alerted": {
@@ -42164,6 +42171,7 @@
     "0x826dDDafaBF6f992ced5C5DC8632752E0Ae8D1E5": "2026-07-10T22:17:19.390532+00:00",
     "0x3C899fD6114cd542f1B2AC588F86053e21f67777": "2026-07-10T22:21:22.864318+00:00",
     "0x6d8B345b12Be324bBfA1E0a20d232B8d852b320b": "2026-07-10T22:22:21.240919+00:00",
-    "ASTRAyet6YguMVPJ9WkfHkz9t7gNzpRiiB9fAANJu9vz": "2026-07-10T22:32:23.749879+00:00"
+    "ASTRAyet6YguMVPJ9WkfHkz9t7gNzpRiiB9fAANJu9vz": "2026-07-10T22:32:23.749879+00:00",
+    "0x87Df8Bb4E5F8e53Ff3BC8A26F7EdfbF409017E58": "2026-07-10T22:42:20.589405+00:00"
   }
 }
