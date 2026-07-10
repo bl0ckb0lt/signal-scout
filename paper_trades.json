@@ -8,23 +8,17 @@
       "address": "0x537efcdAaC057300F651D038e1FFB66F06dc8E81",
       "source": "new",
       "entry_price": 0.0001482,
-      "peak_price": 0.0001482,
-      "trailing_active": false,
+      "peak_price": 0.0002575,
+      "trailing_active": true,
       "entry_time": "2026-07-10T03:50:42.071938+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "Hoodyo",
-      "chain": "robinhood",
-      "address": "0xE2312e08A28e701505d9122795AbE39fAb0540d1",
-      "source": "new",
-      "entry_price": 0.0001525,
-      "peak_price": 0.0001525,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T03:50:44.819497+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 73.75,
+      "peak_volume_m5": 113522.98,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -38028,6 +38022,25 @@
       "exit_price": 0.0004905,
       "exit_pct": -10.8,
       "exit_time": "2026-07-10T03:40:33.828362+00:00"
+    },
+    {
+      "symbol": "Hoodyo",
+      "chain": "robinhood",
+      "address": "0xE2312e08A28e701505d9122795AbE39fAb0540d1",
+      "source": "new",
+      "entry_price": 0.0001525,
+      "peak_price": 0.0001525,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T03:50:44.819497+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.18,
+      "peak_volume_m5": 17379.67,
+      "milestones_hit": [],
+      "exit_price": 0.0001202,
+      "exit_pct": -21.18,
+      "exit_time": "2026-07-10T03:53:18.853514+00:00"
     }
   ],
   "alerted": {
@@ -39951,6 +39964,7 @@
     "0x73B35fB02B5FE7d28A4E747CB7687bc44f8C2b98": "2026-07-10T03:12:22.322980+00:00",
     "5CEjpFuP5QHLTS2DA4AP7BabK87Rp6x6iy9UW2Ddpump": "2026-07-10T03:40:31.800597+00:00",
     "0x54a989FbA24a4acAF7Bd15195658f44c9D2F141f": "2026-07-10T03:40:33.106000+00:00",
-    "0xF44F135cdDE2887E36aA2A7f1Da874695CCa602a": "2026-07-10T03:40:33.828362+00:00"
+    "0xF44F135cdDE2887E36aA2A7f1Da874695CCa602a": "2026-07-10T03:40:33.828362+00:00",
+    "0xE2312e08A28e701505d9122795AbE39fAb0540d1": "2026-07-10T03:53:18.853514+00:00"
   }
 }
