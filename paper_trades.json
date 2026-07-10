@@ -8,14 +8,14 @@
       "address": "Ct2VDLuBanTr6jo8jHXQtZqncwxtN31aovHC1yDepump",
       "source": "new",
       "entry_price": 0.0001822,
-      "peak_price": 0.0001826,
+      "peak_price": 0.0001874,
       "trailing_active": false,
       "entry_time": "2026-07-10T15:50:41.736316+00:00",
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.22,
-      "peak_volume_m5": 29560.39,
+      "current_pct": 2.85,
+      "peak_volume_m5": 34121.8,
       "milestones_hit": []
     },
     {
@@ -33,37 +33,6 @@
       "current_pct": 9.13,
       "peak_volume_m5": 46944.69,
       "milestones_hit": []
-    },
-    {
-      "symbol": "TRASHCOIN",
-      "chain": "robinhood",
-      "address": "0xD85b41fA4359c8bF28Bc5e3Ded52AB6FA2aB9398",
-      "source": "new",
-      "entry_price": 9.749e-05,
-      "peak_price": 0.0002126,
-      "trailing_active": true,
-      "entry_time": "2026-07-10T15:50:44.529801+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 118.07,
-      "peak_volume_m5": 29072.67,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "ARCHER",
-      "chain": "robinhood",
-      "address": "0x3D0a2e4763EeE58a7c631ACF7fF13Ad6398A5141",
-      "source": "new",
-      "entry_price": 0.0001485,
-      "peak_price": 0.0001485,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T16:00:57.062428+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -39373,6 +39342,47 @@
       "exit_price": 0.0001036,
       "exit_pct": -6.07,
       "exit_time": "2026-07-10T15:40:31.049340+00:00"
+    },
+    {
+      "symbol": "TRASHCOIN",
+      "chain": "robinhood",
+      "address": "0xD85b41fA4359c8bF28Bc5e3Ded52AB6FA2aB9398",
+      "source": "new",
+      "entry_price": 9.749e-05,
+      "peak_price": 0.0002126,
+      "trailing_active": true,
+      "entry_time": "2026-07-10T15:50:44.529801+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 106.89,
+      "peak_volume_m5": 31285.66,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0002017,
+      "exit_pct": 106.89,
+      "exit_time": "2026-07-10T16:01:17.476601+00:00"
+    },
+    {
+      "symbol": "ARCHER",
+      "chain": "robinhood",
+      "address": "0x3D0a2e4763EeE58a7c631ACF7fF13Ad6398A5141",
+      "source": "new",
+      "entry_price": 0.0001485,
+      "peak_price": 0.0001485,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T16:00:57.062428+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.36,
+      "peak_volume_m5": 113306.98,
+      "milestones_hit": [],
+      "exit_price": 0.0001049,
+      "exit_pct": -29.36,
+      "exit_time": "2026-07-10T16:01:18.157847+00:00"
     }
   ],
   "alerted": {
@@ -41362,6 +41372,8 @@
     "0xdf8116804E43f1179ADbaa7d59a523Da8d5CC389": "2026-07-10T15:05:19.917754+00:00",
     "0x9373241e30E68fDE5AE886257b0664Ec16B4599f": "2026-07-10T15:14:27.291229+00:00",
     "0x11eb1029f7DA32A176eEBedA6ae36fAf28568e48": "2026-07-10T15:16:18.310020+00:00",
-    "0x641495AcE41Cbf93F2520f1715786cf9e926e37e": "2026-07-10T15:40:31.049340+00:00"
+    "0x641495AcE41Cbf93F2520f1715786cf9e926e37e": "2026-07-10T15:40:31.049340+00:00",
+    "0xD85b41fA4359c8bF28Bc5e3Ded52AB6FA2aB9398": "2026-07-10T16:01:17.476601+00:00",
+    "0x3D0a2e4763EeE58a7c631ACF7fF13Ad6398A5141": "2026-07-10T16:01:18.157847+00:00"
   }
 }
