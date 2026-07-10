@@ -8,31 +8,18 @@
       "address": "0xD8BABEFC098335E75D300Cf84D7D49c3d910F25B",
       "source": "new",
       "entry_price": 0.0004104,
-      "peak_price": 0.0004262,
-      "trailing_active": false,
+      "peak_price": 0.001124,
+      "trailing_active": true,
       "entry_time": "2026-07-10T09:50:53.100146+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.85,
-      "peak_volume_m5": 18451.72,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HOPPY",
-      "chain": "robinhood",
-      "address": "0x834b31164b5e5F4a08B441D796aBB85f714bb7C1",
-      "source": "new",
-      "entry_price": 0.0003796,
-      "peak_price": 0.0003876,
-      "trailing_active": false,
-      "entry_time": "2026-07-10T09:50:54.632993+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.11,
-      "peak_volume_m5": 29177.5,
-      "milestones_hit": []
+      "current_pct": 173.88,
+      "peak_volume_m5": 31077.59,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -38636,6 +38623,25 @@
       "exit_price": 8.91e-05,
       "exit_pct": -13.91,
       "exit_time": "2026-07-10T09:51:23.539387+00:00"
+    },
+    {
+      "symbol": "HOPPY",
+      "chain": "robinhood",
+      "address": "0x834b31164b5e5F4a08B441D796aBB85f714bb7C1",
+      "source": "new",
+      "entry_price": 0.0003796,
+      "peak_price": 0.0003876,
+      "trailing_active": false,
+      "entry_time": "2026-07-10T09:50:54.632993+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.12,
+      "peak_volume_m5": 29177.5,
+      "milestones_hit": [],
+      "exit_price": 0.0003298,
+      "exit_pct": -13.12,
+      "exit_time": "2026-07-10T10:00:42.820196+00:00"
     }
   ],
   "alerted": {
@@ -40589,6 +40595,7 @@
     "0xA6f41385a314150aFF4775146BA79Bd311eFe841": "2026-07-10T08:44:20.632051+00:00",
     "0x2B3AaF919B03343Dff0Dc9eb331AFac887dAe43d": "2026-07-10T09:41:17.273234+00:00",
     "0x727Ff1C2C93F6f6eB8157ce3874F92B0505E49B8": "2026-07-10T09:48:16.541575+00:00",
-    "0xd58343d8e240d66C6eB32685D0E1dDC07FFA5e72": "2026-07-10T09:51:23.539387+00:00"
+    "0xd58343d8e240d66C6eB32685D0E1dDC07FFA5e72": "2026-07-10T09:51:23.539387+00:00",
+    "0x834b31164b5e5F4a08B441D796aBB85f714bb7C1": "2026-07-10T10:00:42.820196+00:00"
   }
 }
