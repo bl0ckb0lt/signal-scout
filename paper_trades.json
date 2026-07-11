@@ -8,23 +8,15 @@
       "address": "7RJiGtMVxih75Z4EKY9NdyhRmDPBChzuEfQatZ4Spump",
       "source": "new",
       "entry_price": 0.0001877,
-      "peak_price": 0.0001877,
-      "trailing_active": false,
+      "peak_price": 0.000233,
+      "trailing_active": true,
       "entry_time": "2026-07-11T09:50:40.926075+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "DALV",
-      "chain": "robinhood",
-      "address": "0x9469E3aD5DbFF458d11d101974e54Bfb8504FD90",
-      "source": "new",
-      "entry_price": 6.995e-05,
-      "peak_price": 6.995e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T09:50:42.364849+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.13,
+      "peak_volume_m5": 34516.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -41401,6 +41393,25 @@
       "exit_price": 3.699e-05,
       "exit_pct": 1.9,
       "exit_time": "2026-07-11T09:40:31.159574+00:00"
+    },
+    {
+      "symbol": "DALV",
+      "chain": "robinhood",
+      "address": "0x9469E3aD5DbFF458d11d101974e54Bfb8504FD90",
+      "source": "new",
+      "entry_price": 6.995e-05,
+      "peak_price": 6.995e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T09:50:42.364849+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.25,
+      "peak_volume_m5": 21596.25,
+      "milestones_hit": [],
+      "exit_price": 6.278e-05,
+      "exit_pct": -10.25,
+      "exit_time": "2026-07-11T09:54:21.799981+00:00"
     }
   ],
   "alerted": {
@@ -43495,6 +43506,7 @@
     "0x42be8e01536907c9C40d56eb83f62f0f102dC0fd": "2026-07-11T09:11:16.032835+00:00",
     "FkJrB7LPuvDbwoWxfcqXEXyvtjXYFims4CNiQecmpump": "2026-07-11T09:27:19.493741+00:00",
     "0xFe4bd6f1B416a576C00B6Cce61794959026a3ae5": "2026-07-11T09:32:18.358063+00:00",
-    "0x943d4Ec5b23591c30F32Db0035A24eE6cCA5A64C": "2026-07-11T09:40:31.159574+00:00"
+    "0x943d4Ec5b23591c30F32Db0035A24eE6cCA5A64C": "2026-07-11T09:40:31.159574+00:00",
+    "0x9469E3aD5DbFF458d11d101974e54Bfb8504FD90": "2026-07-11T09:54:21.799981+00:00"
   }
 }
