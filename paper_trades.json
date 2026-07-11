@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MILLO",
-      "chain": "solana",
-      "address": "21ZARex6kWdyAJh34SXeC44D6j7AupWfbVzm7N2upump",
-      "source": "new",
-      "entry_price": 0.0001475,
-      "peak_price": 0.0001475,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T22:00:44.291417+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "MCX",
       "chain": "robinhood",
       "address": "0x102bDB171403566AbBe7B18c8C735DC5Fc6462b4",
       "source": "new",
       "entry_price": 5.46e-05,
-      "peak_price": 5.46e-05,
+      "peak_price": 5.754e-05,
       "trailing_active": false,
       "entry_time": "2026-07-11T22:00:48.412380+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.38,
+      "peak_volume_m5": 37716.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -42781,6 +42773,25 @@
       "exit_price": 0.0002434,
       "exit_pct": -13.81,
       "exit_time": "2026-07-11T21:51:21.015370+00:00"
+    },
+    {
+      "symbol": "MILLO",
+      "chain": "solana",
+      "address": "21ZARex6kWdyAJh34SXeC44D6j7AupWfbVzm7N2upump",
+      "source": "new",
+      "entry_price": 0.0001475,
+      "peak_price": 0.0001475,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T22:00:44.291417+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.15,
+      "peak_volume_m5": 83960.71,
+      "milestones_hit": [],
+      "exit_price": 0.0001045,
+      "exit_pct": -29.15,
+      "exit_time": "2026-07-11T22:02:16.970542+00:00"
     }
   ],
   "alerted": {
@@ -44944,6 +44955,7 @@
     "0x8554cf3C351Bbaaa0B4c627edF7D15418feA5C11": "2026-07-11T21:22:17.886103+00:00",
     "87eGzAd8HBwRwVZnk8meqo5kDEMB5B9SQ54v5VMupump": "2026-07-11T21:22:18.582124+00:00",
     "0xfd279a4BB05dDe9ec701C3Bf566E92bA1f1D0A0B": "2026-07-11T21:33:18.907969+00:00",
-    "0x2e59565eCeB5453cF402b4f193f9DC719Ee80F6A": "2026-07-11T21:51:21.015370+00:00"
+    "0x2e59565eCeB5453cF402b4f193f9DC719Ee80F6A": "2026-07-11T21:51:21.015370+00:00",
+    "21ZARex6kWdyAJh34SXeC44D6j7AupWfbVzm7N2upump": "2026-07-11T22:02:16.970542+00:00"
   }
 }
