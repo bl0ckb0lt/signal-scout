@@ -8,11 +8,15 @@
       "address": "0xB3fa530ae036a710Efa8af19d5c045c669399F3a",
       "source": "new",
       "entry_price": 9.613e-07,
-      "peak_price": 9.613e-07,
-      "trailing_active": false,
+      "peak_price": 1.332e-06,
+      "trailing_active": true,
       "entry_time": "2026-07-11T10:30:44.871296+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.56,
+      "peak_volume_m5": 69050.2,
+      "milestones_hit": []
     },
     {
       "symbol": "LIZARD",
@@ -20,23 +24,15 @@
       "address": "7NTs9FPw7tP2Bfjcn8eAJZUr4ApG8n9ZbXkT7Adwpump",
       "source": "new",
       "entry_price": 0.0001259,
-      "peak_price": 0.0001259,
+      "peak_price": 0.000127,
       "trailing_active": false,
       "entry_time": "2026-07-11T10:30:47.979627+00:00",
       "score": 69,
-      "status": "open"
-    },
-    {
-      "symbol": "jesushood",
-      "chain": "robinhood",
-      "address": "0xBf148156a460d30cF8c2Fe580176E69777119134",
-      "source": "new",
-      "entry_price": 0.0001425,
-      "peak_price": 0.0001425,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T10:30:49.326145+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.87,
+      "peak_volume_m5": 13225.21,
+      "milestones_hit": []
     },
     {
       "symbol": "HOODBOT",
@@ -44,11 +40,15 @@
       "address": "0x32758ae8e02B0A2CB6b802B6aAEaF74158C169F7",
       "source": "new",
       "entry_price": 0.0001203,
-      "peak_price": 0.0001203,
+      "peak_price": 0.0001205,
       "trailing_active": false,
       "entry_time": "2026-07-11T10:30:54.919497+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.17,
+      "peak_volume_m5": 3968.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -41503,6 +41503,25 @@
       "exit_price": 8.28e-07,
       "exit_pct": -15.81,
       "exit_time": "2026-07-11T10:18:22.360950+00:00"
+    },
+    {
+      "symbol": "jesushood",
+      "chain": "robinhood",
+      "address": "0xBf148156a460d30cF8c2Fe580176E69777119134",
+      "source": "new",
+      "entry_price": 0.0001425,
+      "peak_price": 0.0001425,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T10:30:49.326145+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.77,
+      "peak_volume_m5": 82264.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001072,
+      "exit_pct": -24.77,
+      "exit_time": "2026-07-11T10:32:20.114553+00:00"
     }
   ],
   "alerted": {
@@ -43601,6 +43620,7 @@
     "0x9469E3aD5DbFF458d11d101974e54Bfb8504FD90": "2026-07-11T09:54:21.799981+00:00",
     "0xe4f8e282D33f411257F984bC34020Aa9D9f4E2b2": "2026-07-11T10:01:19.395070+00:00",
     "7RJiGtMVxih75Z4EKY9NdyhRmDPBChzuEfQatZ4Spump": "2026-07-11T10:03:19.288006+00:00",
-    "0x6214793f9d93F5f2D94a33D9a477499e7FCa9cf1": "2026-07-11T10:18:22.360950+00:00"
+    "0x6214793f9d93F5f2D94a33D9a477499e7FCa9cf1": "2026-07-11T10:18:22.360950+00:00",
+    "0xBf148156a460d30cF8c2Fe580176E69777119134": "2026-07-11T10:32:20.114553+00:00"
   }
 }
