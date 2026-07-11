@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "I like Sol",
-      "chain": "solana",
-      "address": "H5CcupmPqzt5SfURRK8e7NBEc5gek8Y8vSneBkGfpump",
-      "source": "new",
-      "entry_price": 0.0003158,
-      "peak_price": 0.0003158,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T21:10:42.425993+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "HOODBOT",
       "chain": "robinhood",
       "address": "0x8554cf3C351Bbaaa0B4c627edF7D15418feA5C11",
       "source": "new",
       "entry_price": 0.001079,
-      "peak_price": 0.001079,
-      "trailing_active": false,
+      "peak_price": 0.00148,
+      "trailing_active": true,
       "entry_time": "2026-07-11T21:10:43.790496+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.16,
+      "peak_volume_m5": 98953.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -42662,6 +42654,25 @@
       "exit_price": 9.603e-05,
       "exit_pct": -21.86,
       "exit_time": "2026-07-11T20:56:18.795055+00:00"
+    },
+    {
+      "symbol": "I like Sol",
+      "chain": "solana",
+      "address": "H5CcupmPqzt5SfURRK8e7NBEc5gek8Y8vSneBkGfpump",
+      "source": "new",
+      "entry_price": 0.0003158,
+      "peak_price": 0.0003158,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T21:10:42.425993+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.77,
+      "peak_volume_m5": 45017.3,
+      "milestones_hit": [],
+      "exit_price": 0.000266,
+      "exit_pct": -15.77,
+      "exit_time": "2026-07-11T21:15:23.613182+00:00"
     }
   ],
   "alerted": {
@@ -44820,6 +44831,7 @@
     "F2q8tVCnykKggK9SeXMgUfyUqEawdi8tPd1JnRmrpump": "2026-07-11T20:08:21.991982+00:00",
     "0x67fD5745b655F3c9a74041513a1B44B6F30D3923": "2026-07-11T20:32:20.835362+00:00",
     "9fYzfqHTWxzYuVbd78vAjfQoPsaCoBbAwKmV614Ypump": "2026-07-11T20:43:21.460264+00:00",
-    "6t4L25gvgdLUMsSUkb4JS5sBpcYyt3eYHoxdusCZpump": "2026-07-11T20:56:18.795055+00:00"
+    "6t4L25gvgdLUMsSUkb4JS5sBpcYyt3eYHoxdusCZpump": "2026-07-11T20:56:18.795055+00:00",
+    "H5CcupmPqzt5SfURRK8e7NBEc5gek8Y8vSneBkGfpump": "2026-07-11T21:15:23.613182+00:00"
   }
 }
