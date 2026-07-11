@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "rubinhud",
-      "chain": "robinhood",
-      "address": "0x1651ED3995c11653585E5CBDD3DDC1F4e5f40561",
-      "source": "new",
-      "entry_price": 3.876e-05,
-      "peak_price": 7.333e-05,
-      "trailing_active": true,
-      "entry_time": "2026-07-11T07:50:45.706780+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 89.19,
-      "peak_volume_m5": 13046.57,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "CBLT",
       "chain": "base",
       "address": "0x93aed377D77E90804A160cb45fc0D41d9e5D614b",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-11T08:10:48.354600+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.35,
+      "peak_volume_m5": 36579.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -41175,6 +41161,27 @@
       "exit_price": 0.0001457,
       "exit_pct": -11.64,
       "exit_time": "2026-07-11T07:34:22.288320+00:00"
+    },
+    {
+      "symbol": "rubinhud",
+      "chain": "robinhood",
+      "address": "0x1651ED3995c11653585E5CBDD3DDC1F4e5f40561",
+      "source": "new",
+      "entry_price": 3.876e-05,
+      "peak_price": 7.333e-05,
+      "trailing_active": true,
+      "entry_time": "2026-07-11T07:50:45.706780+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 61.4,
+      "peak_volume_m5": 17650.56,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 6.256e-05,
+      "exit_pct": 61.4,
+      "exit_time": "2026-07-11T08:11:15.570977+00:00"
     }
   ],
   "alerted": {
@@ -43257,6 +43264,7 @@
     "0xCe09Ae24c2749bfaBE431582C74937EAa0B7a6ED": "2026-07-11T07:11:23.669460+00:00",
     "0x9Ff8Aa8e2914Dad7a95300A5a2336B3D01a6046B": "2026-07-11T07:19:18.909459+00:00",
     "0x22eeAA998800165568291a4a81E3a0c4B4D74062": "2026-07-11T07:21:20.010548+00:00",
-    "HnRUJYnmGhKNk9Gz6dDpBy3mPU5TkNx4d3Gmhfv8pump": "2026-07-11T07:34:22.288320+00:00"
+    "HnRUJYnmGhKNk9Gz6dDpBy3mPU5TkNx4d3Gmhfv8pump": "2026-07-11T07:34:22.288320+00:00",
+    "0x1651ED3995c11653585E5CBDD3DDC1F4e5f40561": "2026-07-11T08:11:15.570977+00:00"
   }
 }
