@@ -8,27 +8,15 @@
       "address": "0x5f18b02B8320Ef1C5B7d7a5A8BAd482a767f4716",
       "source": "new",
       "entry_price": 0.0001012,
-      "peak_price": 0.0001028,
+      "peak_price": 0.0001115,
       "trailing_active": false,
       "entry_time": "2026-07-11T17:31:02.957097+00:00",
       "score": 74,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -1.89,
-      "peak_volume_m5": 753.97,
+      "current_pct": 10.18,
+      "peak_volume_m5": 2155.84,
       "milestones_hit": []
-    },
-    {
-      "symbol": "RobinCat",
-      "chain": "robinhood",
-      "address": "0x3c0082D9120D088133462a436fc7dBa4e999958E",
-      "source": "new",
-      "entry_price": 5.511e-07,
-      "peak_price": 5.511e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T17:40:53.804423+00:00",
-      "score": 67,
-      "status": "open"
     }
   ],
   "closed": [
@@ -42328,6 +42316,29 @@
       "exit_price": 0.0006162,
       "exit_pct": 9.18,
       "exit_time": "2026-07-11T17:34:18.196840+00:00"
+    },
+    {
+      "symbol": "RobinCat",
+      "chain": "robinhood",
+      "address": "0x3c0082D9120D088133462a436fc7dBa4e999958E",
+      "source": "new",
+      "entry_price": 5.511e-07,
+      "peak_price": 2.131e-06,
+      "trailing_active": true,
+      "entry_time": "2026-07-11T17:40:53.804423+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 286.68,
+      "peak_volume_m5": 159784.68,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 2.131e-06,
+      "exit_pct": 286.68,
+      "exit_time": "2026-07-11T17:45:20.956690+00:00"
     }
   ],
   "alerted": {
@@ -44469,6 +44480,7 @@
     "0xFa22cfCFc362273861c490aE6fbC147D0273749f": "2026-07-11T17:14:21.062248+00:00",
     "Bu3hbyUd9qgDWv4vrrKDk3mWR8LDcs7tiZrmjRrzpump": "2026-07-11T17:20:39.158026+00:00",
     "0xeD802958D81104b4d46A7354e7F95BF2FC121BD5": "2026-07-11T17:29:20.312739+00:00",
-    "262pzfxPWFnQRBg3SdTxok9x45RJt3dEgAX8EQghpump": "2026-07-11T17:34:18.196840+00:00"
+    "262pzfxPWFnQRBg3SdTxok9x45RJt3dEgAX8EQghpump": "2026-07-11T17:34:18.196840+00:00",
+    "0x3c0082D9120D088133462a436fc7dBa4e999958E": "2026-07-11T17:45:20.956690+00:00"
   }
 }
