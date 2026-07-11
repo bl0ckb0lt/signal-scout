@@ -3,44 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MCX",
-      "chain": "robinhood",
-      "address": "0x102bDB171403566AbBe7B18c8C735DC5Fc6462b4",
-      "source": "new",
-      "entry_price": 5.46e-05,
-      "peak_price": 5.754e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T22:00:48.412380+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.23,
-      "peak_volume_m5": 37716.73,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "wifcash",
-      "chain": "solana",
-      "address": "F2q8tVCnykKggK9SeXMgUfyUqEawdi8tPd1JnRmrpump",
-      "source": "boost",
-      "entry_price": 0.0001563,
-      "peak_price": 0.0001563,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T22:10:42.958955+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "BARKITO",
       "chain": "solana",
       "address": "6UnDbjZaimbcf6RGzb3GgdjMAnPTQJvEH4LKd4hNpump",
       "source": "new",
       "entry_price": 0.000153,
-      "peak_price": 0.000153,
+      "peak_price": 0.0001545,
       "trailing_active": false,
       "entry_time": "2026-07-11T22:10:44.900307+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.98,
+      "peak_volume_m5": 132117.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -42816,6 +42792,44 @@
       "exit_price": 0.0001045,
       "exit_pct": -29.15,
       "exit_time": "2026-07-11T22:02:16.970542+00:00"
+    },
+    {
+      "symbol": "MCX",
+      "chain": "robinhood",
+      "address": "0x102bDB171403566AbBe7B18c8C735DC5Fc6462b4",
+      "source": "new",
+      "entry_price": 5.46e-05,
+      "peak_price": 5.754e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T22:00:48.412380+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.67,
+      "peak_volume_m5": 37716.73,
+      "milestones_hit": [],
+      "exit_price": 4.768e-05,
+      "exit_pct": -12.67,
+      "exit_time": "2026-07-11T22:11:15.599782+00:00"
+    },
+    {
+      "symbol": "wifcash",
+      "chain": "solana",
+      "address": "F2q8tVCnykKggK9SeXMgUfyUqEawdi8tPd1JnRmrpump",
+      "source": "boost",
+      "entry_price": 0.0001563,
+      "peak_price": 0.0001563,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T22:10:42.958955+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -92.18,
+      "peak_volume_m5": 801.82,
+      "milestones_hit": [],
+      "exit_price": 1.223e-05,
+      "exit_pct": -92.18,
+      "exit_time": "2026-07-11T22:11:16.338352+00:00"
     }
   ],
   "alerted": {
@@ -44971,7 +44985,7 @@
     "0x9D94775535A66CA0BB8f5853577F765dEFB296Fc": "2026-07-11T19:44:17.578116+00:00",
     "0x93aF1d301C7E6Ecc8DF7E4f092ee17D33962C13e": "2026-07-11T19:47:17.048421+00:00",
     "FBrodBgyCXWzCWLCg8dQZDuoHiS5kthvU26CMj38pump": "2026-07-11T20:02:20.427408+00:00",
-    "F2q8tVCnykKggK9SeXMgUfyUqEawdi8tPd1JnRmrpump": "2026-07-11T20:08:21.991982+00:00",
+    "F2q8tVCnykKggK9SeXMgUfyUqEawdi8tPd1JnRmrpump": "2026-07-11T22:11:16.338352+00:00",
     "0x67fD5745b655F3c9a74041513a1B44B6F30D3923": "2026-07-11T20:32:20.835362+00:00",
     "9fYzfqHTWxzYuVbd78vAjfQoPsaCoBbAwKmV614Ypump": "2026-07-11T20:43:21.460264+00:00",
     "6t4L25gvgdLUMsSUkb4JS5sBpcYyt3eYHoxdusCZpump": "2026-07-11T20:56:18.795055+00:00",
@@ -44980,6 +44994,7 @@
     "87eGzAd8HBwRwVZnk8meqo5kDEMB5B9SQ54v5VMupump": "2026-07-11T21:22:18.582124+00:00",
     "0xfd279a4BB05dDe9ec701C3Bf566E92bA1f1D0A0B": "2026-07-11T21:33:18.907969+00:00",
     "0x2e59565eCeB5453cF402b4f193f9DC719Ee80F6A": "2026-07-11T21:51:21.015370+00:00",
-    "21ZARex6kWdyAJh34SXeC44D6j7AupWfbVzm7N2upump": "2026-07-11T22:02:16.970542+00:00"
+    "21ZARex6kWdyAJh34SXeC44D6j7AupWfbVzm7N2upump": "2026-07-11T22:02:16.970542+00:00",
+    "0x102bDB171403566AbBe7B18c8C735DC5Fc6462b4": "2026-07-11T22:11:15.599782+00:00"
   }
 }
