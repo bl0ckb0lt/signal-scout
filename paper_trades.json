@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Pointless",
-      "chain": "robinhood",
-      "address": "0xFe4bd6f1B416a576C00B6Cce61794959026a3ae5",
-      "source": "new",
-      "entry_price": 0.0001619,
-      "peak_price": 0.0001619,
-      "trailing_active": false,
-      "entry_time": "2026-07-11T09:30:54.347177+00:00",
-      "score": 67,
-      "status": "open"
-    },
-    {
       "symbol": "RCAT",
       "chain": "robinhood",
       "address": "0x943d4Ec5b23591c30F32Db0035A24eE6cCA5A64C",
       "source": "new",
       "entry_price": 3.63e-05,
-      "peak_price": 3.63e-05,
-      "trailing_active": false,
+      "peak_price": 4.482e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-11T09:30:55.881929+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.47,
+      "peak_volume_m5": 26003.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -41363,6 +41355,25 @@
       "exit_price": 0.0001057,
       "exit_pct": -5.79,
       "exit_time": "2026-07-11T09:27:19.493741+00:00"
+    },
+    {
+      "symbol": "Pointless",
+      "chain": "robinhood",
+      "address": "0xFe4bd6f1B416a576C00B6Cce61794959026a3ae5",
+      "source": "new",
+      "entry_price": 0.0001619,
+      "peak_price": 0.0001619,
+      "trailing_active": false,
+      "entry_time": "2026-07-11T09:30:54.347177+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -36.69,
+      "peak_volume_m5": 25185.63,
+      "milestones_hit": [],
+      "exit_price": 0.0001025,
+      "exit_pct": -36.69,
+      "exit_time": "2026-07-11T09:32:18.358063+00:00"
     }
   ],
   "alerted": {
@@ -43455,6 +43466,7 @@
     "0x81B9e354f70431aFA871cde973285F027daEBDB2": "2026-07-11T09:05:19.202784+00:00",
     "0x3bFeE618EF86963B117D23EF87E5201188998732": "2026-07-11T09:07:19.324650+00:00",
     "0x42be8e01536907c9C40d56eb83f62f0f102dC0fd": "2026-07-11T09:11:16.032835+00:00",
-    "FkJrB7LPuvDbwoWxfcqXEXyvtjXYFims4CNiQecmpump": "2026-07-11T09:27:19.493741+00:00"
+    "FkJrB7LPuvDbwoWxfcqXEXyvtjXYFims4CNiQecmpump": "2026-07-11T09:27:19.493741+00:00",
+    "0xFe4bd6f1B416a576C00B6Cce61794959026a3ae5": "2026-07-11T09:32:18.358063+00:00"
   }
 }
