@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AIGEN",
-      "chain": "robinhood",
-      "address": "0xa68c707F723C9E29759032ff63A709ff912D5b79",
-      "source": "new",
-      "entry_price": 0.0436,
-      "peak_price": 0.04876,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T06:30:52.490392+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.83,
-      "peak_volume_m5": 148968.11,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PUP",
       "chain": "solana",
       "address": "9uSSUB2RSu6mrFQxWHzmbUXMRLjt29NMQLYvScDHpump",
       "source": "new",
       "entry_price": 0.0002184,
-      "peak_price": 0.000236,
-      "trailing_active": false,
+      "peak_price": 0.000291,
+      "trailing_active": true,
       "entry_time": "2026-07-12T06:30:54.452386+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.06,
+      "current_pct": 33.24,
       "peak_volume_m5": 82261.66,
       "milestones_hit": []
     }
@@ -43403,6 +43387,25 @@
       "exit_price": 6.452e-05,
       "exit_pct": -11.51,
       "exit_time": "2026-07-12T06:11:23.460528+00:00"
+    },
+    {
+      "symbol": "AIGEN",
+      "chain": "robinhood",
+      "address": "0xa68c707F723C9E29759032ff63A709ff912D5b79",
+      "source": "new",
+      "entry_price": 0.0436,
+      "peak_price": 0.04876,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T06:30:52.490392+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.5,
+      "peak_volume_m5": 148968.11,
+      "milestones_hit": [],
+      "exit_price": 0.03728,
+      "exit_pct": -14.5,
+      "exit_time": "2026-07-12T06:33:43.118304+00:00"
     }
   ],
   "alerted": {
@@ -45597,6 +45600,7 @@
     "0x1Cfa8D338E1C8F256B55B30B3EddC835945c5277": "2026-07-12T05:25:36.668806+00:00",
     "DKfepNXFzvJhPyusxnAakRjk6AQazegW89HW83gZpump": "2026-07-12T05:26:24.296555+00:00",
     "0xA1faF3348244f982DbC32e21AEc6BD27c4492ba3": "2026-07-12T05:36:22.395632+00:00",
-    "0x0d26F86934FAd5C90021B45bcD8aae4165919DE4": "2026-07-12T06:11:23.460528+00:00"
+    "0x0d26F86934FAd5C90021B45bcD8aae4165919DE4": "2026-07-12T06:11:23.460528+00:00",
+    "0xa68c707F723C9E29759032ff63A709ff912D5b79": "2026-07-12T06:33:43.118304+00:00"
   }
 }
