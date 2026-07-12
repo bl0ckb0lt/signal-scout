@@ -8,23 +8,15 @@
       "address": "0xA3b2e0bd60941A6057CBFCFd3aC009A0D862A158",
       "source": "new",
       "entry_price": 3.23e-05,
-      "peak_price": 3.23e-05,
-      "trailing_active": false,
+      "peak_price": 4.38e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-12T10:30:44.891904+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "PumpfunLife",
-      "chain": "solana",
-      "address": "DpqGBmkc6SrY2vA1Yb5KuH571WW1oQJjJdD3d2kupump",
-      "source": "new",
-      "entry_price": 0.0001343,
-      "peak_price": 0.0001343,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T10:30:46.572331+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.6,
+      "peak_volume_m5": 68888.95,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -43585,6 +43577,25 @@
       "exit_price": 3.339e-05,
       "exit_pct": -19.21,
       "exit_time": "2026-07-12T09:11:19.630585+00:00"
+    },
+    {
+      "symbol": "PumpfunLife",
+      "chain": "solana",
+      "address": "DpqGBmkc6SrY2vA1Yb5KuH571WW1oQJjJdD3d2kupump",
+      "source": "new",
+      "entry_price": 0.0001343,
+      "peak_price": 0.0001343,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T10:30:46.572331+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.5,
+      "peak_volume_m5": 13206.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001202,
+      "exit_pct": -10.5,
+      "exit_time": "2026-07-12T10:32:17.792523+00:00"
     }
   ],
   "alerted": {
@@ -45789,6 +45800,7 @@
     "0x0FA85589fa7d3f53801aF3643870d44Dc666A394": "2026-07-12T08:02:24.445514+00:00",
     "0x80912fd84660fC4aBBDD17F10EFf11a3CE5F179F": "2026-07-12T08:23:19.900088+00:00",
     "6MJEQQB6wC6wpRrjni15Q7By9DrbdbRFeJU3xqV1pump": "2026-07-12T08:40:35.413032+00:00",
-    "0xf9D86b4f2F57738F4e865A238Da93c5C0Da4c5d0": "2026-07-12T09:11:19.630585+00:00"
+    "0xf9D86b4f2F57738F4e865A238Da93c5C0Da4c5d0": "2026-07-12T09:11:19.630585+00:00",
+    "DpqGBmkc6SrY2vA1Yb5KuH571WW1oQJjJdD3d2kupump": "2026-07-12T10:32:17.792523+00:00"
   }
 }
