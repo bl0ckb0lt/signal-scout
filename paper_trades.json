@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-12T12:40:47.450119+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "spinor",
-      "chain": "robinhood",
-      "address": "0x0044c462F00b97BE74Bc3D761e549494aaA559BE",
-      "source": "new",
-      "entry_price": 0.0001081,
-      "peak_price": 0.0001081,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T12:40:50.490810+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.15,
+      "peak_volume_m5": 34667.41,
+      "milestones_hit": []
     },
     {
       "symbol": "1\u00a2",
@@ -32,11 +24,15 @@
       "address": "0xf25FE9bC3d996d5281B95F8210812b1d3bFa88D4",
       "source": "new",
       "entry_price": 7.804e-05,
-      "peak_price": 7.804e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001107,
+      "trailing_active": true,
       "entry_time": "2026-07-12T12:40:52.119605+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 41.85,
+      "peak_volume_m5": 52391.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -43673,6 +43669,25 @@
       "exit_price": 0.0001174,
       "exit_pct": -11.2,
       "exit_time": "2026-07-12T12:01:56.172324+00:00"
+    },
+    {
+      "symbol": "spinor",
+      "chain": "robinhood",
+      "address": "0x0044c462F00b97BE74Bc3D761e549494aaA559BE",
+      "source": "new",
+      "entry_price": 0.0001081,
+      "peak_price": 0.0001081,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T12:40:50.490810+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.89,
+      "peak_volume_m5": 24992.95,
+      "milestones_hit": [],
+      "exit_price": 8.66e-05,
+      "exit_pct": -19.89,
+      "exit_time": "2026-07-12T12:42:16.768599+00:00"
     }
   ],
   "alerted": {
@@ -45881,6 +45896,7 @@
     "DpqGBmkc6SrY2vA1Yb5KuH571WW1oQJjJdD3d2kupump": "2026-07-12T10:32:17.792523+00:00",
     "0xA3b2e0bd60941A6057CBFCFd3aC009A0D862A158": "2026-07-12T10:33:21.314322+00:00",
     "0x15e8b90d9444d1A5E9b39f5C9547A104ae69bA11": "2026-07-12T11:31:19.584896+00:00",
-    "h3c8Kyoj4pnpeZCGqtWqyK6z8WbzroYRD1Wi68Jpump": "2026-07-12T12:01:56.172324+00:00"
+    "h3c8Kyoj4pnpeZCGqtWqyK6z8WbzroYRD1Wi68Jpump": "2026-07-12T12:01:56.172324+00:00",
+    "0x0044c462F00b97BE74Bc3D761e549494aaA559BE": "2026-07-12T12:42:16.768599+00:00"
   }
 }
