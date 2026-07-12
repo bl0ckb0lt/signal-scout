@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "KALEIDO",
-      "chain": "robinhood",
-      "address": "0x6689aB375AaaA9Aed78aAABa2e8edcC547478Cf1",
-      "source": "new",
-      "entry_price": 159.15,
-      "peak_price": 159.15,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T22:00:51.303556+00:00",
-      "score": 65,
-      "status": "open"
-    },
-    {
       "symbol": "ROBIN",
       "chain": "robinhood",
       "address": "0x2692A033eC37A0b40A3fE3aCE997cd22047b2034",
       "source": "new",
       "entry_price": 4.613e-05,
-      "peak_price": 4.613e-05,
-      "trailing_active": false,
+      "peak_price": 5.942e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-12T22:00:52.689752+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.81,
+      "peak_volume_m5": 48981.16,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -44461,6 +44453,25 @@
       "exit_price": 1.237e-05,
       "exit_pct": -90.38,
       "exit_time": "2026-07-12T21:51:18.197001+00:00"
+    },
+    {
+      "symbol": "KALEIDO",
+      "chain": "robinhood",
+      "address": "0x6689aB375AaaA9Aed78aAABa2e8edcC547478Cf1",
+      "source": "new",
+      "entry_price": 159.15,
+      "peak_price": 159.15,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T22:00:51.303556+00:00",
+      "score": 65,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.69,
+      "peak_volume_m5": 79545.65,
+      "milestones_hit": [],
+      "exit_price": 137.36,
+      "exit_pct": -13.69,
+      "exit_time": "2026-07-12T22:03:21.777277+00:00"
     }
   ],
   "alerted": {
@@ -46710,6 +46721,7 @@
     "22suB4LGRgNyzoibjjHynsoUEAn3ciaUo6KBucyBpump": "2026-07-12T20:41:22.129178+00:00",
     "0x95D87519AD0D4642d714bDc279952d3CF6a99FeE": "2026-07-12T21:38:27.824312+00:00",
     "0xee510551D30919e115a13bE1aAbC04Ea80047C13": "2026-07-12T21:39:16.449427+00:00",
-    "9XDXsg3QQCGrwjjN4uJb9amCwE93bb3Ngx5xQwP7pump": "2026-07-12T21:51:18.197001+00:00"
+    "9XDXsg3QQCGrwjjN4uJb9amCwE93bb3Ngx5xQwP7pump": "2026-07-12T21:51:18.197001+00:00",
+    "0x6689aB375AaaA9Aed78aAABa2e8edcC547478Cf1": "2026-07-12T22:03:21.777277+00:00"
   }
 }
