@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "WHISK",
-      "chain": "robinhood",
-      "address": "0xc024019f591E0F3B9bCD96049d92ec058B39cB9a",
-      "source": "new",
-      "entry_price": 4.908e-07,
-      "peak_price": 4.908e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T02:10:47.526332+00:00",
-      "score": 67,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -43056,6 +43043,29 @@
       "exit_price": 0.0002742,
       "exit_pct": -10.8,
       "exit_time": "2026-07-12T02:01:23.751154+00:00"
+    },
+    {
+      "symbol": "WHISK",
+      "chain": "robinhood",
+      "address": "0xc024019f591E0F3B9bCD96049d92ec058B39cB9a",
+      "source": "new",
+      "entry_price": 4.908e-07,
+      "peak_price": 1.906e-06,
+      "trailing_active": true,
+      "entry_time": "2026-07-12T02:10:47.526332+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 288.35,
+      "peak_volume_m5": 48892.42,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 1.906e-06,
+      "exit_pct": 288.35,
+      "exit_time": "2026-07-12T02:20:36.114202+00:00"
     }
   ],
   "alerted": {
@@ -45233,6 +45243,7 @@
     "GW8MTtecmzZbE56YRLF1nNcAwhd83aoksUmnEe2Qpump": "2026-07-12T01:16:19.096436+00:00",
     "0x2D54d8bBd4DC9dDe3bEda79880b59C7073c5af58": "2026-07-12T01:22:21.473849+00:00",
     "0xce8F89b7d4AD8936531D764055E6b1a06e30Ab58": "2026-07-12T01:31:17.637397+00:00",
-    "0x7b69758A46f4a8fA6A3b092642Be4A225E8FEd76": "2026-07-12T02:01:23.751154+00:00"
+    "0x7b69758A46f4a8fA6A3b092642Be4A225E8FEd76": "2026-07-12T02:01:23.751154+00:00",
+    "0xc024019f591E0F3B9bCD96049d92ec058B39cB9a": "2026-07-12T02:20:36.114202+00:00"
   }
 }
