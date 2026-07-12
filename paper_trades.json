@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "memecoin",
-      "chain": "robinhood",
-      "address": "0x08697ea5270548699a87425e2Ae1377241ad9828",
-      "source": "new",
-      "entry_price": 7.847e-05,
-      "peak_price": 7.847e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T03:00:44.284001+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "ROSS",
       "chain": "solana",
       "address": "6EcndTNPVDqhQ8QnrMGTcojgvF7u8wfeQebGMW5Tpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-12T03:00:45.894930+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.73,
+      "peak_volume_m5": 70990.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -43091,6 +43083,25 @@
       "exit_price": 1.906e-06,
       "exit_pct": 288.35,
       "exit_time": "2026-07-12T02:20:36.114202+00:00"
+    },
+    {
+      "symbol": "memecoin",
+      "chain": "robinhood",
+      "address": "0x08697ea5270548699a87425e2Ae1377241ad9828",
+      "source": "new",
+      "entry_price": 7.847e-05,
+      "peak_price": 7.847e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T03:00:44.284001+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -43.95,
+      "peak_volume_m5": 22785.91,
+      "milestones_hit": [],
+      "exit_price": 4.398e-05,
+      "exit_pct": -43.95,
+      "exit_time": "2026-07-12T03:01:01.032935+00:00"
     }
   ],
   "alerted": {
@@ -45269,6 +45280,7 @@
     "0x2D54d8bBd4DC9dDe3bEda79880b59C7073c5af58": "2026-07-12T01:22:21.473849+00:00",
     "0xce8F89b7d4AD8936531D764055E6b1a06e30Ab58": "2026-07-12T01:31:17.637397+00:00",
     "0x7b69758A46f4a8fA6A3b092642Be4A225E8FEd76": "2026-07-12T02:01:23.751154+00:00",
-    "0xc024019f591E0F3B9bCD96049d92ec058B39cB9a": "2026-07-12T02:20:36.114202+00:00"
+    "0xc024019f591E0F3B9bCD96049d92ec058B39cB9a": "2026-07-12T02:20:36.114202+00:00",
+    "0x08697ea5270548699a87425e2Ae1377241ad9828": "2026-07-12T03:01:01.032935+00:00"
   }
 }
