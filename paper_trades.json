@@ -8,23 +8,15 @@
       "address": "GW8MTtecmzZbE56YRLF1nNcAwhd83aoksUmnEe2Qpump",
       "source": "boost",
       "entry_price": 0.0001142,
-      "peak_price": 0.0001142,
+      "peak_price": 0.0001196,
       "trailing_active": false,
       "entry_time": "2026-07-12T01:10:42.602853+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "Bellingoal",
-      "chain": "solana",
-      "address": "DRQeu1ernNspzJnGYLY7CAKsmrtmdLwucNFsQsfNpump",
-      "source": "new",
-      "entry_price": 0.001103,
-      "peak_price": 0.001103,
-      "trailing_active": false,
-      "entry_time": "2026-07-12T01:10:44.334631+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.73,
+      "peak_volume_m5": 10794.04,
+      "milestones_hit": []
     },
     {
       "symbol": "BROKEBEAR",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-12T01:10:47.048318+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.71,
+      "peak_volume_m5": 12711.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -42966,6 +42962,25 @@
       "exit_price": 7.843e-05,
       "exit_pct": 36.16,
       "exit_time": "2026-07-12T00:42:21.578614+00:00"
+    },
+    {
+      "symbol": "Bellingoal",
+      "chain": "solana",
+      "address": "DRQeu1ernNspzJnGYLY7CAKsmrtmdLwucNFsQsfNpump",
+      "source": "new",
+      "entry_price": 0.001103,
+      "peak_price": 0.001103,
+      "trailing_active": false,
+      "entry_time": "2026-07-12T01:10:44.334631+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.79,
+      "peak_volume_m5": 160578.28,
+      "milestones_hit": [],
+      "exit_price": 0.001006,
+      "exit_pct": -8.79,
+      "exit_time": "2026-07-12T01:12:19.404703+00:00"
     }
   ],
   "alerted": {
@@ -45137,6 +45152,7 @@
     "0x8cC0B024b38e010bAE2EA339aA39Fa3f0fbe4963": "2026-07-11T22:43:14.632291+00:00",
     "0x580b600eFff55919bAdce927c4F83cFd81eb7777": "2026-07-11T23:33:21.984267+00:00",
     "0x95cDfe4f4A738Ff23e974E3CcB639feBF99527A0": "2026-07-12T00:31:01.274656+00:00",
-    "0x396658282398E33394245328e8eF46173dEE4411": "2026-07-12T00:42:21.578614+00:00"
+    "0x396658282398E33394245328e8eF46173dEE4411": "2026-07-12T00:42:21.578614+00:00",
+    "DRQeu1ernNspzJnGYLY7CAKsmrtmdLwucNFsQsfNpump": "2026-07-12T01:12:19.404703+00:00"
   }
 }
