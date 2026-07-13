@@ -3,58 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "HOODBIRD",
-      "chain": "robinhood",
-      "address": "0x92532780e9edBB80aADb4E62f89c8407f8Fdf258",
-      "source": "new",
-      "entry_price": 3.114e-07,
-      "peak_price": 6.171e-07,
-      "trailing_active": true,
-      "entry_time": "2026-07-13T06:20:51.575546+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 98.17,
-      "peak_volume_m5": 37363.62,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "YORK",
-      "chain": "robinhood",
-      "address": "0xb7771C2099c69B5aBf29672240900bF88b4087e3",
-      "source": "new",
-      "entry_price": 8.593e-05,
-      "peak_price": 8.593e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T06:30:50.063935+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "HOOD",
       "chain": "robinhood",
       "address": "0xc45EB65AF7EEE96707a9d433A05c53bA52768888",
       "source": "boost",
       "entry_price": 0.0001069,
-      "peak_price": 0.0001069,
+      "peak_price": 0.0001084,
       "trailing_active": false,
       "entry_time": "2026-07-13T06:30:51.415580+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "bibi",
-      "chain": "robinhood",
-      "address": "0x7a81E1DAA777C004A2Ad68303323e84ebc234EeB",
-      "source": "new",
-      "entry_price": 0.0001331,
-      "peak_price": 0.0001331,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T06:30:54.103075+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.4,
+      "peak_volume_m5": 16617.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -45232,6 +45194,65 @@
       "exit_price": 3.962e-05,
       "exit_pct": -8.07,
       "exit_time": "2026-07-13T06:21:19.764643+00:00"
+    },
+    {
+      "symbol": "HOODBIRD",
+      "chain": "robinhood",
+      "address": "0x92532780e9edBB80aADb4E62f89c8407f8Fdf258",
+      "source": "new",
+      "entry_price": 3.114e-07,
+      "peak_price": 6.171e-07,
+      "trailing_active": true,
+      "entry_time": "2026-07-13T06:20:51.575546+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 66.99,
+      "peak_volume_m5": 37363.62,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 5.2e-07,
+      "exit_pct": 66.99,
+      "exit_time": "2026-07-13T06:31:18.566134+00:00"
+    },
+    {
+      "symbol": "YORK",
+      "chain": "robinhood",
+      "address": "0xb7771C2099c69B5aBf29672240900bF88b4087e3",
+      "source": "new",
+      "entry_price": 8.593e-05,
+      "peak_price": 8.593e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T06:30:50.063935+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.83,
+      "peak_volume_m5": 29437.87,
+      "milestones_hit": [],
+      "exit_price": 7.748e-05,
+      "exit_pct": -9.83,
+      "exit_time": "2026-07-13T06:31:19.325813+00:00"
+    },
+    {
+      "symbol": "bibi",
+      "chain": "robinhood",
+      "address": "0x7a81E1DAA777C004A2Ad68303323e84ebc234EeB",
+      "source": "new",
+      "entry_price": 0.0001331,
+      "peak_price": 0.0001331,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T06:30:54.103075+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.76,
+      "peak_volume_m5": 69057.18,
+      "milestones_hit": [],
+      "exit_price": 0.0001068,
+      "exit_pct": -19.76,
+      "exit_time": "2026-07-13T06:31:20.463918+00:00"
     }
   ],
   "alerted": {
@@ -47517,6 +47538,9 @@
     "FhxKHmrieSPZgNEwx7riXMn1FzAWzuDV6ajqqbd7pump": "2026-07-13T06:02:15.857235+00:00",
     "0xF426b5C60Bfb17286534eBDC1101Fc0e3c41FCc4": "2026-07-13T06:05:16.124076+00:00",
     "0x84a508E988E7E4897dFDAf68EFDAEDEb9c5e5545": "2026-07-13T06:10:34.736763+00:00",
-    "0xD2FE28fd9c5409557D11F3DF9bDb42C7aEcB255D": "2026-07-13T06:21:19.764643+00:00"
+    "0xD2FE28fd9c5409557D11F3DF9bDb42C7aEcB255D": "2026-07-13T06:21:19.764643+00:00",
+    "0x92532780e9edBB80aADb4E62f89c8407f8Fdf258": "2026-07-13T06:31:18.566134+00:00",
+    "0xb7771C2099c69B5aBf29672240900bF88b4087e3": "2026-07-13T06:31:19.325813+00:00",
+    "0x7a81E1DAA777C004A2Ad68303323e84ebc234EeB": "2026-07-13T06:31:20.463918+00:00"
   }
 }
