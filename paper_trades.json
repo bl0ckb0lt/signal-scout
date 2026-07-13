@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "LAND",
-      "chain": "robinhood",
-      "address": "0x0377250827Cf67e809524dF38FF2329ed38A93f8",
-      "source": "new",
-      "entry_price": 6.814e-05,
-      "peak_price": 6.814e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T21:00:59.598198+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "HOOD",
       "chain": "robinhood",
       "address": "0x29b1F88554dfe5A6560D965FAd4c5D524e645D57",
       "source": "new",
       "entry_price": 6.422e-05,
-      "peak_price": 6.422e-05,
-      "trailing_active": false,
+      "peak_price": 8.562e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-13T21:01:03.164668+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.32,
+      "peak_volume_m5": 30418.02,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -47017,6 +47009,25 @@
       "exit_price": 0.000134,
       "exit_pct": 94.54,
       "exit_time": "2026-07-13T20:48:17.785949+00:00"
+    },
+    {
+      "symbol": "LAND",
+      "chain": "robinhood",
+      "address": "0x0377250827Cf67e809524dF38FF2329ed38A93f8",
+      "source": "new",
+      "entry_price": 6.814e-05,
+      "peak_price": 6.814e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T21:00:59.598198+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.52,
+      "peak_volume_m5": 16993.62,
+      "milestones_hit": [],
+      "exit_price": 4.53e-05,
+      "exit_pct": -33.52,
+      "exit_time": "2026-07-13T21:03:18.176064+00:00"
     }
   ],
   "alerted": {
@@ -49393,6 +49404,7 @@
     "GvQhmwjt9rr73hE3jvMWezJm41a1oG1jc1TV3jvupump": "2026-07-13T20:27:18.126892+00:00",
     "FyCiT1uzgWPuryg2hVusd6debeQSauGKP3aHnXKopump": "2026-07-13T20:45:23.129162+00:00",
     "0xaEdFf73823c5cAc54BAAe5DdA5DcbC0A9fB30Ba3": "2026-07-13T20:47:20.292952+00:00",
-    "0xB5e27dD1bcf2c8AFCa2367AD623292e439468eFC": "2026-07-13T20:48:17.785949+00:00"
+    "0xB5e27dD1bcf2c8AFCa2367AD623292e439468eFC": "2026-07-13T20:48:17.785949+00:00",
+    "0x0377250827Cf67e809524dF38FF2329ed38A93f8": "2026-07-13T21:03:18.176064+00:00"
   }
 }
