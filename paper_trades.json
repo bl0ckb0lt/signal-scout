@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SYDNEY",
-      "chain": "robinhood",
-      "address": "0x0da1DE7f85F8f2dab381CaE401BCBCEbA6Cf01ae",
-      "source": "new",
-      "entry_price": 0.0001226,
-      "peak_price": 0.0002351,
-      "trailing_active": true,
-      "entry_time": "2026-07-13T05:40:52.721313+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 91.76,
-      "peak_volume_m5": 68087.45,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "\u8d81\u70ed\u6253\u94c1",
       "chain": "solana",
       "address": "FhxKHmrieSPZgNEwx7riXMn1FzAWzuDV6ajqqbd7pump",
       "source": "new",
       "entry_price": 0.0002846,
-      "peak_price": 0.0002846,
+      "peak_price": 0.0002929,
       "trailing_active": false,
       "entry_time": "2026-07-13T05:50:48.419501+00:00",
       "score": 91,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.92,
+      "peak_volume_m5": 30385.15,
+      "milestones_hit": []
     },
     {
       "symbol": "VIPER",
@@ -42,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-13T05:50:55.413563+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.42,
+      "peak_volume_m5": 29712.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -45104,6 +45094,27 @@
       "exit_price": 3.579e-05,
       "exit_pct": -11.78,
       "exit_time": "2026-07-13T05:24:17.633521+00:00"
+    },
+    {
+      "symbol": "SYDNEY",
+      "chain": "robinhood",
+      "address": "0x0da1DE7f85F8f2dab381CaE401BCBCEbA6Cf01ae",
+      "source": "new",
+      "entry_price": 0.0001226,
+      "peak_price": 0.0002351,
+      "trailing_active": true,
+      "entry_time": "2026-07-13T05:40:52.721313+00:00",
+      "score": 78,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 65.66,
+      "peak_volume_m5": 75862.7,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002031,
+      "exit_pct": 65.66,
+      "exit_time": "2026-07-13T05:51:15.398092+00:00"
     }
   ],
   "alerted": {
@@ -47383,6 +47394,7 @@
     "0x7Ebb9DE631D1f27d92DCFC7921Dd8B4E42B3D608": "2026-07-13T05:11:20.623729+00:00",
     "0xc760Fe69b60a6241D9e5530858e635F6A1B53902": "2026-07-13T05:15:17.702958+00:00",
     "0x6053880A412346Ff80CCb52365c79e1A2A17a8a5": "2026-07-13T05:15:18.365910+00:00",
-    "0x68742B496e8230B293B05DC35d366Ce152471Bcd": "2026-07-13T05:24:17.633521+00:00"
+    "0x68742B496e8230B293B05DC35d366Ce152471Bcd": "2026-07-13T05:24:17.633521+00:00",
+    "0x0da1DE7f85F8f2dab381CaE401BCBCEbA6Cf01ae": "2026-07-13T05:51:15.398092+00:00"
   }
 }
