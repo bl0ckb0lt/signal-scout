@@ -3,53 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CALLIE",
-      "chain": "robinhood",
-      "address": "0x4E3A497f1De0652e20e73d4Fb22e37CDF8C2A751",
-      "source": "new",
-      "entry_price": 2.018e-07,
-      "peak_price": 5.611e-07,
-      "trailing_active": true,
-      "entry_time": "2026-07-13T04:40:48.264824+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 178.05,
-      "peak_volume_m5": 19631.05,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "catwifrobhat",
       "chain": "robinhood",
       "address": "0xc760Fe69b60a6241D9e5530858e635F6A1B53902",
       "source": "new",
       "entry_price": 2.548e-05,
-      "peak_price": 4.007e-05,
+      "peak_price": 4.075e-05,
       "trailing_active": true,
       "entry_time": "2026-07-13T04:50:55.297948+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 52.16,
-      "peak_volume_m5": 10090.49,
+      "current_pct": 59.93,
+      "peak_volume_m5": 11051.38,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "Elves",
-      "chain": "robinhood",
-      "address": "0x7Ebb9DE631D1f27d92DCFC7921Dd8B4E42B3D608",
-      "source": "new",
-      "entry_price": 2.813e-07,
-      "peak_price": 2.813e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T05:10:46.883155+00:00",
-      "score": 78,
-      "status": "open"
     },
     {
       "symbol": "ROGE",
@@ -57,11 +26,15 @@
       "address": "0x6053880A412346Ff80CCb52365c79e1A2A17a8a5",
       "source": "new",
       "entry_price": 0.0001033,
-      "peak_price": 0.0001033,
+      "peak_price": 0.000107,
       "trailing_active": false,
       "entry_time": "2026-07-13T05:10:48.205303+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.58,
+      "peak_volume_m5": 17459.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -45023,6 +44996,47 @@
       "exit_price": 0.000126,
       "exit_pct": -9.81,
       "exit_time": "2026-07-13T05:00:56.765445+00:00"
+    },
+    {
+      "symbol": "CALLIE",
+      "chain": "robinhood",
+      "address": "0x4E3A497f1De0652e20e73d4Fb22e37CDF8C2A751",
+      "source": "new",
+      "entry_price": 2.018e-07,
+      "peak_price": 5.611e-07,
+      "trailing_active": true,
+      "entry_time": "2026-07-13T04:40:48.264824+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 154.06,
+      "peak_volume_m5": 23730.19,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 5.127e-07,
+      "exit_pct": 154.06,
+      "exit_time": "2026-07-13T05:11:19.434084+00:00"
+    },
+    {
+      "symbol": "Elves",
+      "chain": "robinhood",
+      "address": "0x7Ebb9DE631D1f27d92DCFC7921Dd8B4E42B3D608",
+      "source": "new",
+      "entry_price": 2.813e-07,
+      "peak_price": 2.813e-07,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T05:10:46.883155+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.67,
+      "peak_volume_m5": 25355.73,
+      "milestones_hit": [],
+      "exit_price": 2.541e-07,
+      "exit_pct": -9.67,
+      "exit_time": "2026-07-13T05:11:20.623729+00:00"
     }
   ],
   "alerted": {
@@ -47297,6 +47311,8 @@
     "0xb2e3a56881Fe1cFDd4626231e727d2469e963E89": "2026-07-13T04:21:16.921641+00:00",
     "0xC79D372E36677d4D96b473D21cedB5694fE1fdCb": "2026-07-13T04:21:17.592962+00:00",
     "0x8f274f07f5d0bC07ed83eDc94b21ae2E3f0b6B7b": "2026-07-13T04:47:18.495216+00:00",
-    "F4TnftPoSHihw9TTcz7pkg2t8P6QEHag4yayMVGSpump": "2026-07-13T05:00:56.765445+00:00"
+    "F4TnftPoSHihw9TTcz7pkg2t8P6QEHag4yayMVGSpump": "2026-07-13T05:00:56.765445+00:00",
+    "0x4E3A497f1De0652e20e73d4Fb22e37CDF8C2A751": "2026-07-13T05:11:19.434084+00:00",
+    "0x7Ebb9DE631D1f27d92DCFC7921Dd8B4E42B3D608": "2026-07-13T05:11:20.623729+00:00"
   }
 }
