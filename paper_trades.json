@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BABYVlad",
-      "chain": "robinhood",
-      "address": "0xD2FE28fd9c5409557D11F3DF9bDb42C7aEcB255D",
-      "source": "new",
-      "entry_price": 4.31e-05,
-      "peak_price": 4.31e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T06:20:48.891672+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "HOODBIRD",
       "chain": "robinhood",
       "address": "0x92532780e9edBB80aADb4E62f89c8407f8Fdf258",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-13T06:20:51.575546+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.3,
+      "peak_volume_m5": 37363.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -45183,6 +45175,25 @@
       "exit_price": 25.11,
       "exit_pct": 25.8,
       "exit_time": "2026-07-13T06:10:34.736763+00:00"
+    },
+    {
+      "symbol": "BABYVlad",
+      "chain": "robinhood",
+      "address": "0xD2FE28fd9c5409557D11F3DF9bDb42C7aEcB255D",
+      "source": "new",
+      "entry_price": 4.31e-05,
+      "peak_price": 4.31e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T06:20:48.891672+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.07,
+      "peak_volume_m5": 12344.89,
+      "milestones_hit": [],
+      "exit_price": 3.962e-05,
+      "exit_pct": -8.07,
+      "exit_time": "2026-07-13T06:21:19.764643+00:00"
     }
   ],
   "alerted": {
@@ -47467,6 +47478,7 @@
     "4cpMpucTLt8cy7tJViTYA6wJKzBdVazmMQV9sVNMpump": "2026-07-13T05:52:18.661265+00:00",
     "FhxKHmrieSPZgNEwx7riXMn1FzAWzuDV6ajqqbd7pump": "2026-07-13T06:02:15.857235+00:00",
     "0xF426b5C60Bfb17286534eBDC1101Fc0e3c41FCc4": "2026-07-13T06:05:16.124076+00:00",
-    "0x84a508E988E7E4897dFDAf68EFDAEDEb9c5e5545": "2026-07-13T06:10:34.736763+00:00"
+    "0x84a508E988E7E4897dFDAf68EFDAEDEb9c5e5545": "2026-07-13T06:10:34.736763+00:00",
+    "0xD2FE28fd9c5409557D11F3DF9bDb42C7aEcB255D": "2026-07-13T06:21:19.764643+00:00"
   }
 }
