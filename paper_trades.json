@@ -8,29 +8,17 @@
       "address": "0xF1E29b98E2eF92805664d6C3aC55531f0B2826Fe",
       "source": "new",
       "entry_price": 9.488e-07,
-      "peak_price": 1.639e-06,
+      "peak_price": 1.712e-06,
       "trailing_active": true,
       "entry_time": "2026-07-13T15:31:25.640990+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 72.74,
+      "current_pct": 80.44,
       "peak_volume_m5": 42792.1,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "Bulltard",
-      "chain": "solana",
-      "address": "3htc6kXDoWX96ARLfArJbHmwX8ynYCaWGB3PdE9bpump",
-      "source": "new",
-      "entry_price": 0.0001274,
-      "peak_price": 0.0001274,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T15:50:51.141343+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "MONVERA",
@@ -42,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-13T15:50:52.841668+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.24,
+      "peak_volume_m5": 29468.59,
+      "milestones_hit": []
     },
     {
       "symbol": "HOOK",
@@ -50,11 +42,15 @@
       "address": "0x85d4e6F147BFb5729378E451F32cf5287dE75f97",
       "source": "new",
       "entry_price": 0.0038,
-      "peak_price": 0.0038,
+      "peak_price": 0.00397,
       "trailing_active": false,
       "entry_time": "2026-07-13T15:50:54.192156+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.47,
+      "peak_volume_m5": 1703.18,
+      "milestones_hit": []
     },
     {
       "symbol": "DYORCAT",
@@ -62,11 +58,15 @@
       "address": "0xE6b681555a508A314C6246F2c3872aB86e599e70",
       "source": "new",
       "entry_price": 3.513e-05,
-      "peak_price": 3.513e-05,
-      "trailing_active": false,
+      "peak_price": 4.115e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-13T15:50:55.546604+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.14,
+      "peak_volume_m5": 20961.18,
+      "milestones_hit": []
     },
     {
       "symbol": "HOODL",
@@ -78,7 +78,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-13T15:50:56.960122+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.42,
+      "peak_volume_m5": 4136.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -46220,6 +46224,25 @@
       "exit_price": 0.0001065,
       "exit_pct": 28.33,
       "exit_time": "2026-07-13T15:20:42.287929+00:00"
+    },
+    {
+      "symbol": "Bulltard",
+      "chain": "solana",
+      "address": "3htc6kXDoWX96ARLfArJbHmwX8ynYCaWGB3PdE9bpump",
+      "source": "new",
+      "entry_price": 0.0001274,
+      "peak_price": 0.0001274,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T15:50:51.141343+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.79,
+      "peak_volume_m5": 79571.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001162,
+      "exit_pct": -8.79,
+      "exit_time": "2026-07-13T15:52:24.112161+00:00"
     }
   ],
   "alerted": {
@@ -48554,6 +48577,7 @@
     "0x1458191b5425F22125D6163642dB4A46A61d5b31": "2026-07-13T14:59:15.676914+00:00",
     "0x89d604E03439bbBA75aA434510206fcC4619d657": "2026-07-13T15:11:27.747025+00:00",
     "0x669A5db90d55CC276351c9FE1E79Ef4815591cbF": "2026-07-13T15:18:22.623609+00:00",
-    "0xd6e0f14f4f1f81Ddf9334FaD0600dF5a35861988": "2026-07-13T15:20:42.287929+00:00"
+    "0xd6e0f14f4f1f81Ddf9334FaD0600dF5a35861988": "2026-07-13T15:20:42.287929+00:00",
+    "3htc6kXDoWX96ARLfArJbHmwX8ynYCaWGB3PdE9bpump": "2026-07-13T15:52:24.112161+00:00"
   }
 }
