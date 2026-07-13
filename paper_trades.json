@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DuckHood",
-      "chain": "robinhood",
-      "address": "0xB4f1983665D10E65D39ab362003e7E17834b0615",
-      "source": "new",
-      "entry_price": 0.0001235,
-      "peak_price": 0.0001235,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T09:30:49.419667+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
       "symbol": "FIN",
       "chain": "robinhood",
       "address": "0x63Ac9Beb25e6632E04F00f82adF20c14e47175b5",
       "source": "new",
       "entry_price": 3.586e-05,
-      "peak_price": 3.586e-05,
-      "trailing_active": false,
+      "peak_price": 4.507e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-13T09:30:52.233674+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 25.68,
+      "peak_volume_m5": 12144.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -45540,6 +45532,25 @@
       "exit_price": 8.688e-05,
       "exit_pct": 49.12,
       "exit_time": "2026-07-13T09:22:20.568025+00:00"
+    },
+    {
+      "symbol": "DuckHood",
+      "chain": "robinhood",
+      "address": "0xB4f1983665D10E65D39ab362003e7E17834b0615",
+      "source": "new",
+      "entry_price": 0.0001235,
+      "peak_price": 0.0001235,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T09:30:49.419667+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.77,
+      "peak_volume_m5": 56465.64,
+      "milestones_hit": [],
+      "exit_price": 7.562e-05,
+      "exit_pct": -38.77,
+      "exit_time": "2026-07-13T09:37:22.691392+00:00"
     }
   ],
   "alerted": {
@@ -47842,6 +47853,7 @@
     "0xc0a43Ff198af7377Cb4638B24aACE932321B636F": "2026-07-13T08:33:22.689713+00:00",
     "0x6Db9Eaa8db4D0261E38f0069E87d973d4673345b": "2026-07-13T09:03:23.041244+00:00",
     "0xd2Dd432abc00Efa8ebbD8a2758391fFDD7f9D0BA": "2026-07-13T09:21:22.119545+00:00",
-    "0xa6caB9114bF2EbCaE3D12034260D20d252df7000": "2026-07-13T09:22:20.568025+00:00"
+    "0xa6caB9114bF2EbCaE3D12034260D20d252df7000": "2026-07-13T09:22:20.568025+00:00",
+    "0xB4f1983665D10E65D39ab362003e7E17834b0615": "2026-07-13T09:37:22.691392+00:00"
   }
 }
