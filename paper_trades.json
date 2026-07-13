@@ -19,54 +19,19 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NIP",
-      "chain": "robinhood",
-      "address": "0x84a4F67884CcC5c8b5B1c94d0C8d2F3D9eEE7eC3",
-      "source": "new",
-      "entry_price": 0.0001717,
-      "peak_price": 0.0003538,
-      "trailing_active": true,
-      "entry_time": "2026-07-13T22:20:55.593641+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 106.06,
-      "peak_volume_m5": 23264.8,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "CASHCATWIF",
       "chain": "robinhood",
       "address": "0xB47118ac940b825C3BfA852130382d0EAFf78144",
       "source": "new",
       "entry_price": 0.0001076,
-      "peak_price": 0.0001185,
-      "trailing_active": false,
+      "peak_price": 0.0001334,
+      "trailing_active": true,
       "entry_time": "2026-07-13T22:40:48.884405+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.13,
-      "peak_volume_m5": 13319.26,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "RICH",
-      "chain": "robinhood",
-      "address": "0xC8c5971b0e9d7cbeE2C331b0DDC5cC6ACE473371",
-      "source": "new",
-      "entry_price": 0.0001579,
-      "peak_price": 0.0001579,
-      "trailing_active": false,
-      "entry_time": "2026-07-13T22:40:52.947523+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.97,
-      "peak_volume_m5": 15126.72,
+      "current_pct": 23.98,
+      "peak_volume_m5": 14114.53,
       "milestones_hit": []
     }
   ],
@@ -47217,6 +47182,47 @@
       "exit_price": 0.0003552,
       "exit_pct": 13.7,
       "exit_time": "2026-07-13T22:21:20.293381+00:00"
+    },
+    {
+      "symbol": "NIP",
+      "chain": "robinhood",
+      "address": "0x84a4F67884CcC5c8b5B1c94d0C8d2F3D9eEE7eC3",
+      "source": "new",
+      "entry_price": 0.0001717,
+      "peak_price": 0.0003538,
+      "trailing_active": true,
+      "entry_time": "2026-07-13T22:20:55.593641+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 91.96,
+      "peak_volume_m5": 23264.8,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0003296,
+      "exit_pct": 91.96,
+      "exit_time": "2026-07-13T22:44:19.374146+00:00"
+    },
+    {
+      "symbol": "RICH",
+      "chain": "robinhood",
+      "address": "0xC8c5971b0e9d7cbeE2C331b0DDC5cC6ACE473371",
+      "source": "new",
+      "entry_price": 0.0001579,
+      "peak_price": 0.0001579,
+      "trailing_active": false,
+      "entry_time": "2026-07-13T22:40:52.947523+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.33,
+      "peak_volume_m5": 15443.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001258,
+      "exit_pct": -20.33,
+      "exit_time": "2026-07-13T22:44:21.020533+00:00"
     }
   ],
   "alerted": {
@@ -49602,6 +49608,8 @@
     "0x1151043399A734Ca7c0ae711714ff8428fAd7777": "2026-07-13T21:37:18.555960+00:00",
     "0x1286f4F470aa4129341fBb50F028D7B1978EC27F": "2026-07-13T21:51:19.990136+00:00",
     "0xC35968C7F5475bb03a43C7382526F4118E01C0de": "2026-07-13T21:52:23.184327+00:00",
-    "0x6989a8217359aC1C7AA9b651Cb67f226C2fd3ca8": "2026-07-13T22:21:20.293381+00:00"
+    "0x6989a8217359aC1C7AA9b651Cb67f226C2fd3ca8": "2026-07-13T22:21:20.293381+00:00",
+    "0x84a4F67884CcC5c8b5B1c94d0C8d2F3D9eEE7eC3": "2026-07-13T22:44:19.374146+00:00",
+    "0xC8c5971b0e9d7cbeE2C331b0DDC5cC6ACE473371": "2026-07-13T22:44:21.020533+00:00"
   }
 }
