@@ -19,28 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HOODBIRD",
-      "chain": "robinhood",
-      "address": "0xdB458F7A1D5124C6412D5B77aFA4bc92E941e763",
-      "source": "new",
-      "entry_price": 0.0006569,
-      "peak_price": 0.0006569,
-      "trailing_active": false,
-      "entry_time": "2026-07-14T07:00:58.972760+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "TrumpCoin",
       "chain": "robinhood",
       "address": "0xd04Cd81FD3A2be37Df221E465B66EcD57e0ec6c6",
       "source": "new",
       "entry_price": 1.115e-06,
-      "peak_price": 1.115e-06,
-      "trailing_active": false,
+      "peak_price": 1.938e-06,
+      "trailing_active": true,
       "entry_time": "2026-07-14T07:01:03.139154+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 73.81,
+      "peak_volume_m5": 98814.65,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -48019,6 +48013,25 @@
       "exit_price": 8.453e-05,
       "exit_pct": -20.78,
       "exit_time": "2026-07-14T06:53:17.628525+00:00"
+    },
+    {
+      "symbol": "HOODBIRD",
+      "chain": "robinhood",
+      "address": "0xdB458F7A1D5124C6412D5B77aFA4bc92E941e763",
+      "source": "new",
+      "entry_price": 0.0006569,
+      "peak_price": 0.0006569,
+      "trailing_active": false,
+      "entry_time": "2026-07-14T07:00:58.972760+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.32,
+      "peak_volume_m5": 25320.73,
+      "milestones_hit": [],
+      "exit_price": 0.0005957,
+      "exit_pct": -9.32,
+      "exit_time": "2026-07-14T07:05:24.921337+00:00"
     }
   ],
   "alerted": {
@@ -50446,6 +50459,7 @@
     "0x286EE535389a18a3551A1F8682e3Dd05A8Ed56e6": "2026-07-14T06:31:17.476159+00:00",
     "0xB6f15563a0DF68ca81abDcFBB177FB7240a3cCCc": "2026-07-14T06:38:16.936562+00:00",
     "0x1cAF79D71e74cDb6dEb439fdA20497d13f2d7a91": "2026-07-14T06:52:18.271907+00:00",
-    "0x6d3e9EC8cc54F83596BA8E0202eB0cD84A381ebB": "2026-07-14T06:53:17.628525+00:00"
+    "0x6d3e9EC8cc54F83596BA8E0202eB0cD84A381ebB": "2026-07-14T06:53:17.628525+00:00",
+    "0xdB458F7A1D5124C6412D5B77aFA4bc92E941e763": "2026-07-14T07:05:24.921337+00:00"
   }
 }
