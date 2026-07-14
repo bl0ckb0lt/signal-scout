@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Shimajiro",
-      "chain": "robinhood",
-      "address": "0xCF25b1330a524F6b4C3fC53E6519787bcEeB4B67",
-      "source": "new",
-      "entry_price": 0.0009613,
-      "peak_price": 0.0009613,
-      "trailing_active": false,
-      "entry_time": "2026-07-14T08:40:49.672262+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "VELOR",
       "chain": "robinhood",
       "address": "0x198fC78A3B8EBd84aaA58a273D333de7535e62b5",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-14T08:40:51.174454+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -48201,6 +48193,25 @@
       "exit_price": 5.218e-05,
       "exit_pct": -10.77,
       "exit_time": "2026-07-14T08:31:20.115080+00:00"
+    },
+    {
+      "symbol": "Shimajiro",
+      "chain": "robinhood",
+      "address": "0xCF25b1330a524F6b4C3fC53E6519787bcEeB4B67",
+      "source": "new",
+      "entry_price": 0.0009613,
+      "peak_price": 0.0009613,
+      "trailing_active": false,
+      "entry_time": "2026-07-14T08:40:49.672262+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.38,
+      "peak_volume_m5": 133418.26,
+      "milestones_hit": [],
+      "exit_price": 0.0007365,
+      "exit_pct": -23.38,
+      "exit_time": "2026-07-14T08:43:23.287892+00:00"
     }
   ],
   "alerted": {
@@ -50637,6 +50648,7 @@
     "0x6814E0c3eFDE7FaC15c714F6Ee0e7600Ee69e3C2": "2026-07-14T07:52:18.771547+00:00",
     "CWaTh9UMcF194orWQ3eR6eb1NmEJTu3jWzT9vYdnpump": "2026-07-14T08:06:24.701501+00:00",
     "0x61177Cb55579B29F083662a00e722D0e4A9Be518": "2026-07-14T08:17:20.131305+00:00",
-    "0x84E27B5D0eCbD33a088d3EC088b98A9Cfe1Da907": "2026-07-14T08:31:20.115080+00:00"
+    "0x84E27B5D0eCbD33a088d3EC088b98A9Cfe1Da907": "2026-07-14T08:31:20.115080+00:00",
+    "0xCF25b1330a524F6b4C3fC53E6519787bcEeB4B67": "2026-07-14T08:43:23.287892+00:00"
   }
 }
