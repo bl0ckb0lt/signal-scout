@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "meowwifrobhat",
-      "chain": "robinhood",
-      "address": "0x5cBbB2bC3bc3E2a61456145F44931e16220DD49a",
-      "source": "new",
-      "entry_price": 4.554e-05,
-      "peak_price": 5.755e-05,
-      "trailing_active": true,
-      "entry_time": "2026-07-14T02:40:45.915904+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 19.21,
-      "peak_volume_m5": 21869.99,
-      "milestones_hit": []
-    },
-    {
       "symbol": "brain",
       "chain": "solana",
       "address": "9oDndFiC7RW42vZcmSzacTKMWE9kgeqnzwXDGLSkpump",
@@ -44,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-14T03:00:54.182236+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.38,
+      "peak_volume_m5": 133692.12,
+      "milestones_hit": []
     },
     {
       "symbol": "GREMLIN",
@@ -52,23 +40,15 @@
       "address": "0xda5dcd10bBd261EB5e795906326F709BFF90847A",
       "source": "new",
       "entry_price": 9.17e-05,
-      "peak_price": 9.17e-05,
+      "peak_price": 0.0001032,
       "trailing_active": false,
       "entry_time": "2026-07-14T03:00:55.567357+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "RIVERS",
-      "chain": "robinhood",
-      "address": "0x83E7e3fb61118D6CcE56416Af04Db49250AA9304",
-      "source": "new",
-      "entry_price": 5.206e-05,
-      "peak_price": 5.206e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-14T03:00:56.938852+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.54,
+      "peak_volume_m5": 36457.25,
+      "milestones_hit": []
     },
     {
       "symbol": "WSC",
@@ -80,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-14T03:00:58.628058+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.8,
+      "peak_volume_m5": 7542.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -47620,6 +47604,44 @@
       "exit_price": 0.0001305,
       "exit_pct": -13.52,
       "exit_time": "2026-07-14T02:51:15.463279+00:00"
+    },
+    {
+      "symbol": "meowwifrobhat",
+      "chain": "robinhood",
+      "address": "0x5cBbB2bC3bc3E2a61456145F44931e16220DD49a",
+      "source": "new",
+      "entry_price": 4.554e-05,
+      "peak_price": 5.755e-05,
+      "trailing_active": true,
+      "entry_time": "2026-07-14T02:40:45.915904+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 10.89,
+      "peak_volume_m5": 21869.99,
+      "milestones_hit": [],
+      "exit_price": 5.05e-05,
+      "exit_pct": 10.89,
+      "exit_time": "2026-07-14T03:01:26.921533+00:00"
+    },
+    {
+      "symbol": "RIVERS",
+      "chain": "robinhood",
+      "address": "0x83E7e3fb61118D6CcE56416Af04Db49250AA9304",
+      "source": "new",
+      "entry_price": 5.206e-05,
+      "peak_price": 5.206e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-14T03:00:56.938852+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.32,
+      "peak_volume_m5": 27615.99,
+      "milestones_hit": [],
+      "exit_price": 4.148e-05,
+      "exit_pct": -20.32,
+      "exit_time": "2026-07-14T03:01:28.247290+00:00"
     }
   ],
   "alerted": {
@@ -50025,6 +50047,8 @@
     "EocT8aPVWRgReBBvN4DzdE1HWZEejA7HR3eesuJrpump": "2026-07-14T01:57:17.109216+00:00",
     "0x2624DFc3e85c271716dCA82502176c57528a57E2": "2026-07-14T02:12:16.911094+00:00",
     "0x659D333e7AfCa625518CE81b471F6BB1667e7BA3": "2026-07-14T02:30:43.627794+00:00",
-    "FN7GB2Mf4pw1uH3ZLYKTP87DPEB1YGDY5U5gnQA9pump": "2026-07-14T02:51:15.463279+00:00"
+    "FN7GB2Mf4pw1uH3ZLYKTP87DPEB1YGDY5U5gnQA9pump": "2026-07-14T02:51:15.463279+00:00",
+    "0x5cBbB2bC3bc3E2a61456145F44931e16220DD49a": "2026-07-14T03:01:26.921533+00:00",
+    "0x83E7e3fb61118D6CcE56416Af04Db49250AA9304": "2026-07-14T03:01:28.247290+00:00"
   }
 }
