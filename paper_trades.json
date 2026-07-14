@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NINEHOOD",
-      "chain": "robinhood",
-      "address": "0x01397109534e47d3742e794D3a610fA1C3158888",
-      "source": "new",
-      "entry_price": 0.0001093,
-      "peak_price": 0.0001093,
-      "trailing_active": false,
-      "entry_time": "2026-07-14T19:20:55.411067+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "CASHCAT",
       "chain": "robinhood",
       "address": "0xAb51fA34f57Dcb1046841125D40FF3B6aA260Dfc",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-14T19:20:56.872748+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 46268.79,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -49206,6 +49198,25 @@
       "exit_price": 0.0001875,
       "exit_pct": 29.13,
       "exit_time": "2026-07-14T19:02:18.364564+00:00"
+    },
+    {
+      "symbol": "NINEHOOD",
+      "chain": "robinhood",
+      "address": "0x01397109534e47d3742e794D3a610fA1C3158888",
+      "source": "new",
+      "entry_price": 0.0001093,
+      "peak_price": 0.0001093,
+      "trailing_active": false,
+      "entry_time": "2026-07-14T19:20:55.411067+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.24,
+      "peak_volume_m5": 4651.68,
+      "milestones_hit": [],
+      "exit_price": 9.592e-05,
+      "exit_pct": -12.24,
+      "exit_time": "2026-07-14T19:21:16.730234+00:00"
     }
   ],
   "alerted": {
@@ -51695,6 +51706,7 @@
     "AQDiV5brA4C8r7vHNGjoXv3QjRmLzjPSB9Hg5piVpump": "2026-07-14T18:37:17.584924+00:00",
     "0xb2f22e97Dff0870a4E28A60566Fa7349b4c57036": "2026-07-14T18:59:22.582570+00:00",
     "0xAF6B099d39F5B4e533bA371a3b6343485870460e": "2026-07-14T19:01:17.452872+00:00",
-    "AWiaGsus1cVJmFYkp8akfq8ZDsh9dUWuXcdLv7ZXpump": "2026-07-14T19:02:18.364564+00:00"
+    "AWiaGsus1cVJmFYkp8akfq8ZDsh9dUWuXcdLv7ZXpump": "2026-07-14T19:02:18.364564+00:00",
+    "0x01397109534e47d3742e794D3a610fA1C3158888": "2026-07-14T19:21:16.730234+00:00"
   }
 }
