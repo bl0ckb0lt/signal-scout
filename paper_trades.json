@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WOODY",
-      "chain": "robinhood",
-      "address": "0x251aab585C782E3ce971391279ba84ae1b204136",
-      "source": "new",
-      "entry_price": 0.0001551,
-      "peak_price": 0.0001551,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T14:40:49.553830+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "WHALEHOOD",
       "chain": "solana",
       "address": "72yuWSHypVTVUHjHXw1pxvHqgK9GL8pxbR8am5xppump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-15T14:40:52.809555+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.45,
+      "peak_volume_m5": 46372.34,
+      "milestones_hit": []
     },
     {
       "symbol": "HPERP",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-15T14:40:54.256555+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.22,
+      "peak_volume_m5": 24299.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -50723,6 +50719,25 @@
       "exit_price": 0.0001114,
       "exit_pct": -59.48,
       "exit_time": "2026-07-15T14:38:24.512203+00:00"
+    },
+    {
+      "symbol": "WOODY",
+      "chain": "robinhood",
+      "address": "0x251aab585C782E3ce971391279ba84ae1b204136",
+      "source": "new",
+      "entry_price": 0.0001551,
+      "peak_price": 0.0001551,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T14:40:49.553830+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.15,
+      "peak_volume_m5": 40689.92,
+      "milestones_hit": [],
+      "exit_price": 0.0001378,
+      "exit_pct": -11.15,
+      "exit_time": "2026-07-15T14:41:23.368373+00:00"
     }
   ],
   "alerted": {
@@ -53288,6 +53303,7 @@
     "B4ptaVsUe6YbtBwAS38WFeweSrVNfQLCcj9JRrtjU8vn": "2026-07-15T14:14:16.957062+00:00",
     "0x31d7b94d49db10Bd9BF8D93b66555b0cab5c2882": "2026-07-15T14:32:18.672756+00:00",
     "0x0417045CC5046961aEB4B574f7D88daec04BB239": "2026-07-15T14:33:20.766179+00:00",
-    "HfLAiTgiP6MHTFFnsrXq7KBpQvhHLTrqDRG4H7eZpump": "2026-07-15T14:38:24.512203+00:00"
+    "HfLAiTgiP6MHTFFnsrXq7KBpQvhHLTrqDRG4H7eZpump": "2026-07-15T14:38:24.512203+00:00",
+    "0x251aab585C782E3ce971391279ba84ae1b204136": "2026-07-15T14:41:23.368373+00:00"
   }
 }
