@@ -8,23 +8,15 @@
       "address": "0x4088427E7F220439B9dc4bDF2A2b8BDA22AD0B89",
       "source": "new",
       "entry_price": 5.027e-05,
-      "peak_price": 5.027e-05,
-      "trailing_active": false,
+      "peak_price": 6.717e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-15T12:40:50.121516+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "TOMCAT",
-      "chain": "robinhood",
-      "address": "0x64149c8531B914251E0CC94a81130c707852dec9",
-      "source": "new",
-      "entry_price": 9.769e-07,
-      "peak_price": 9.769e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T12:40:51.506697+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.62,
+      "peak_volume_m5": 44045.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -50457,6 +50449,25 @@
       "exit_price": 0.0001504,
       "exit_pct": -10.32,
       "exit_time": "2026-07-15T12:34:24.640267+00:00"
+    },
+    {
+      "symbol": "TOMCAT",
+      "chain": "robinhood",
+      "address": "0x64149c8531B914251E0CC94a81130c707852dec9",
+      "source": "new",
+      "entry_price": 9.769e-07,
+      "peak_price": 9.769e-07,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T12:40:51.506697+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -37.33,
+      "peak_volume_m5": 54271.38,
+      "milestones_hit": [],
+      "exit_price": 6.122e-07,
+      "exit_pct": -37.33,
+      "exit_time": "2026-07-15T12:41:21.423352+00:00"
     }
   ],
   "alerted": {
@@ -53009,6 +53020,7 @@
     "0xef5E7f176fBCd061305934A0D7810ed678CC08A1": "2026-07-15T11:24:17.523373+00:00",
     "0xF4154C46D1b41D3d2A92Ef2d48cf706f4DF02F35": "2026-07-15T12:07:22.108093+00:00",
     "Z365KEtG6bLcs58K4DTcpcpTGNdn4N6QkxxadGnpump": "2026-07-15T12:12:22.256580+00:00",
-    "0x42C26f5e710D700DFE434ECD111e42d22cE4d050": "2026-07-15T12:34:24.640267+00:00"
+    "0x42C26f5e710D700DFE434ECD111e42d22cE4d050": "2026-07-15T12:34:24.640267+00:00",
+    "0x64149c8531B914251E0CC94a81130c707852dec9": "2026-07-15T12:41:21.423352+00:00"
   }
 }
