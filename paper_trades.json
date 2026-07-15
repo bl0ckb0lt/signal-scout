@@ -23,18 +23,6 @@
       ]
     },
     {
-      "symbol": "Solanadier",
-      "chain": "solana",
-      "address": "FieiBMr1f8xD1fBTk6ULv7dEsQeBP4JYz9u3s3okpump",
-      "source": "new",
-      "entry_price": 0.0003278,
-      "peak_price": 0.0003278,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T19:30:49.142823+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "LARK",
       "chain": "robinhood",
       "address": "0xb44E5e221468A59ED7430138f2cF60Da8A47C4A6",
@@ -44,7 +32,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-15T19:30:53.499250+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.03,
+      "peak_volume_m5": 1830.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -51296,6 +51288,25 @@
       "exit_price": 7.904e-05,
       "exit_pct": -5.7,
       "exit_time": "2026-07-15T19:27:17.359562+00:00"
+    },
+    {
+      "symbol": "Solanadier",
+      "chain": "solana",
+      "address": "FieiBMr1f8xD1fBTk6ULv7dEsQeBP4JYz9u3s3okpump",
+      "source": "new",
+      "entry_price": 0.0003278,
+      "peak_price": 0.0003278,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T19:30:49.142823+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.21,
+      "peak_volume_m5": 21923.85,
+      "milestones_hit": [],
+      "exit_price": 0.0002845,
+      "exit_pct": -13.21,
+      "exit_time": "2026-07-15T19:35:20.763553+00:00"
     }
   ],
   "alerted": {
@@ -53890,6 +53901,7 @@
     "0x08311116b264dE1C8566dcF93867Ac61dcBE4663": "2026-07-15T18:55:40.049866+00:00",
     "0x5686fa66565cB5Ec973D2c9405388B219E3707Af": "2026-07-15T19:05:19.168487+00:00",
     "0x00Df8663bebA58CE4048F380b5A7608fcd9b0E66": "2026-07-15T19:12:21.267221+00:00",
-    "0xDa80BC8F014CFD7e564A3f8cD0C31417cc751111": "2026-07-15T19:27:17.359562+00:00"
+    "0xDa80BC8F014CFD7e564A3f8cD0C31417cc751111": "2026-07-15T19:27:17.359562+00:00",
+    "FieiBMr1f8xD1fBTk6ULv7dEsQeBP4JYz9u3s3okpump": "2026-07-15T19:35:20.763553+00:00"
   }
 }
