@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CATGIRL",
-      "chain": "solana",
-      "address": "GuyE9St1cU54ppHwqD719Q2AHf6AmPha93MEjzv2pump",
-      "source": "new",
-      "entry_price": 0.0001686,
-      "peak_price": 0.0001686,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T12:50:48.278548+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.28,
-      "peak_volume_m5": 31775.19,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CASHPOND",
       "chain": "robinhood",
       "address": "0x6C7435620858a4E86D2847d5035953c4721c847D",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-15T13:00:59.357371+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.28,
+      "peak_volume_m5": 8797.03,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -50499,6 +50487,25 @@
       "exit_price": 4.775e-05,
       "exit_pct": -5.01,
       "exit_time": "2026-07-15T12:43:17.773691+00:00"
+    },
+    {
+      "symbol": "CATGIRL",
+      "chain": "solana",
+      "address": "GuyE9St1cU54ppHwqD719Q2AHf6AmPha93MEjzv2pump",
+      "source": "new",
+      "entry_price": 0.0001686,
+      "peak_price": 0.0001686,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T12:50:48.278548+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.77,
+      "peak_volume_m5": 31775.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001437,
+      "exit_pct": -14.77,
+      "exit_time": "2026-07-15T13:01:33.183958+00:00"
     }
   ],
   "alerted": {
@@ -53053,6 +53060,7 @@
     "Z365KEtG6bLcs58K4DTcpcpTGNdn4N6QkxxadGnpump": "2026-07-15T12:12:22.256580+00:00",
     "0x42C26f5e710D700DFE434ECD111e42d22cE4d050": "2026-07-15T12:34:24.640267+00:00",
     "0x64149c8531B914251E0CC94a81130c707852dec9": "2026-07-15T12:41:21.423352+00:00",
-    "0x4088427E7F220439B9dc4bDF2A2b8BDA22AD0B89": "2026-07-15T12:43:17.773691+00:00"
+    "0x4088427E7F220439B9dc4bDF2A2b8BDA22AD0B89": "2026-07-15T12:43:17.773691+00:00",
+    "GuyE9St1cU54ppHwqD719Q2AHf6AmPha93MEjzv2pump": "2026-07-15T13:01:33.183958+00:00"
   }
 }
