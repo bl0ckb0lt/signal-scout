@@ -3,36 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WHALEHOOD",
-      "chain": "solana",
-      "address": "72yuWSHypVTVUHjHXw1pxvHqgK9GL8pxbR8am5xppump",
-      "source": "new",
-      "entry_price": 0.0001128,
-      "peak_price": 0.0001128,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T14:40:52.809555+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.45,
-      "peak_volume_m5": 46372.34,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HPERP",
       "chain": "robinhood",
       "address": "0x2b10D89bA75cfE18f2678a66e4c18c1005b03AFA",
       "source": "new",
       "entry_price": 9.823e-05,
-      "peak_price": 9.823e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001557,
+      "trailing_active": true,
       "entry_time": "2026-07-15T14:40:54.256555+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -1.22,
-      "peak_volume_m5": 24299.28,
-      "milestones_hit": []
+      "current_pct": 58.51,
+      "peak_volume_m5": 45442.31,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -50738,6 +50724,25 @@
       "exit_price": 0.0001378,
       "exit_pct": -11.15,
       "exit_time": "2026-07-15T14:41:23.368373+00:00"
+    },
+    {
+      "symbol": "WHALEHOOD",
+      "chain": "solana",
+      "address": "72yuWSHypVTVUHjHXw1pxvHqgK9GL8pxbR8am5xppump",
+      "source": "new",
+      "entry_price": 0.0001128,
+      "peak_price": 0.0001128,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T14:40:52.809555+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -7.71,
+      "peak_volume_m5": 51414.29,
+      "milestones_hit": [],
+      "exit_price": 0.0001041,
+      "exit_pct": -7.71,
+      "exit_time": "2026-07-15T14:49:18.674283+00:00"
     }
   ],
   "alerted": {
@@ -53304,6 +53309,7 @@
     "0x31d7b94d49db10Bd9BF8D93b66555b0cab5c2882": "2026-07-15T14:32:18.672756+00:00",
     "0x0417045CC5046961aEB4B574f7D88daec04BB239": "2026-07-15T14:33:20.766179+00:00",
     "HfLAiTgiP6MHTFFnsrXq7KBpQvhHLTrqDRG4H7eZpump": "2026-07-15T14:38:24.512203+00:00",
-    "0x251aab585C782E3ce971391279ba84ae1b204136": "2026-07-15T14:41:23.368373+00:00"
+    "0x251aab585C782E3ce971391279ba84ae1b204136": "2026-07-15T14:41:23.368373+00:00",
+    "72yuWSHypVTVUHjHXw1pxvHqgK9GL8pxbR8am5xppump": "2026-07-15T14:49:18.674283+00:00"
   }
 }
