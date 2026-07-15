@@ -8,23 +8,15 @@
       "address": "x8NtU6nnYDn1BwMDGg2oFdBuYBevhJ32kqM97FSpump",
       "source": "new",
       "entry_price": 0.0001629,
-      "peak_price": 0.0001629,
+      "peak_price": 0.0001727,
       "trailing_active": false,
       "entry_time": "2026-07-15T21:20:47.004200+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "BUYSEXUAL",
-      "chain": "solana",
-      "address": "8Gw5ERAe6hxMKyYWVXVhok6jhcvQkAfKH1bFBeQepump",
-      "source": "new",
-      "entry_price": 0.0003308,
-      "peak_price": 0.0003308,
-      "trailing_active": false,
-      "entry_time": "2026-07-15T21:20:50.197155+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.02,
+      "peak_volume_m5": 44472.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -51457,6 +51449,25 @@
       "exit_price": 4.171e-06,
       "exit_pct": 309.32,
       "exit_time": "2026-07-15T21:14:17.491124+00:00"
+    },
+    {
+      "symbol": "BUYSEXUAL",
+      "chain": "solana",
+      "address": "8Gw5ERAe6hxMKyYWVXVhok6jhcvQkAfKH1bFBeQepump",
+      "source": "new",
+      "entry_price": 0.0003308,
+      "peak_price": 0.0003308,
+      "trailing_active": false,
+      "entry_time": "2026-07-15T21:20:50.197155+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.26,
+      "peak_volume_m5": 10021.48,
+      "milestones_hit": [],
+      "exit_price": 0.0003134,
+      "exit_pct": -5.26,
+      "exit_time": "2026-07-15T21:26:20.553125+00:00"
     }
   ],
   "alerted": {
@@ -54060,6 +54071,7 @@
     "0x313B9F7f4f1B7dFdBaeC89015cf66e1aFBCc2B1E": "2026-07-15T20:20:38.278195+00:00",
     "0xe538968eF74429E21BdB57e1e896B7CC86De7e09": "2026-07-15T20:32:17.546727+00:00",
     "0x97D93F4dc0F406b767d88D277c16eA67dbd69321": "2026-07-15T20:35:24.772475+00:00",
-    "0xa30535c332A4d5AA096240722A0336452Ce099BD": "2026-07-15T21:14:17.491124+00:00"
+    "0xa30535c332A4d5AA096240722A0336452Ce099BD": "2026-07-15T21:14:17.491124+00:00",
+    "8Gw5ERAe6hxMKyYWVXVhok6jhcvQkAfKH1bFBeQepump": "2026-07-15T21:26:20.553125+00:00"
   }
 }
