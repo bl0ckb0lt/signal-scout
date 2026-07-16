@@ -19,25 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "DFLW",
-      "chain": "robinhood",
-      "address": "0xF0dF96338Be11CFAc16df84d42d51Fd898B6F72b",
-      "source": "new",
-      "entry_price": 6.322e-07,
-      "peak_price": 1.738e-06,
-      "trailing_active": true,
-      "entry_time": "2026-07-15T23:30:58.097331+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 174.91,
-      "peak_volume_m5": 40658.05,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "CAM",
       "chain": "solana",
       "address": "CAMyTP53yapXHc9JRYiMKh9fGxNn7uQG2EoFsG5DoPYv",
@@ -47,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T00:00:57.242334+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -10.1,
+      "peak_volume_m5": 143906.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -51655,6 +51640,28 @@
       "exit_price": 0.000633,
       "exit_pct": 55.83,
       "exit_time": "2026-07-15T23:53:18.860525+00:00"
+    },
+    {
+      "symbol": "DFLW",
+      "chain": "robinhood",
+      "address": "0xF0dF96338Be11CFAc16df84d42d51Fd898B6F72b",
+      "source": "new",
+      "entry_price": 6.322e-07,
+      "peak_price": 1.738e-06,
+      "trailing_active": true,
+      "entry_time": "2026-07-15T23:30:58.097331+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 157.67,
+      "peak_volume_m5": 46618.77,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 1.629e-06,
+      "exit_pct": 157.67,
+      "exit_time": "2026-07-16T00:02:22.573327+00:00"
     }
   ],
   "alerted": {
@@ -54267,6 +54274,7 @@
     "0xc632604071B84ed3C9F22D23434e5155FE9Ff078": "2026-07-15T22:33:19.752623+00:00",
     "CV9dcP2D9hYtcnNtoHoY4NQEN9fYxfBbQN72wkd5pump": "2026-07-15T23:13:20.511038+00:00",
     "JBRyw453Uwi5hitesWGt17TYsJTaWTbFQjV9UNh8pump": "2026-07-15T23:23:23.202977+00:00",
-    "0x407470F85e0b342a52AaE2F191E135cEF2947777": "2026-07-15T23:53:18.860525+00:00"
+    "0x407470F85e0b342a52AaE2F191E135cEF2947777": "2026-07-15T23:53:18.860525+00:00",
+    "0xF0dF96338Be11CFAc16df84d42d51Fd898B6F72b": "2026-07-16T00:02:22.573327+00:00"
   }
 }
