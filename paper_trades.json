@@ -35,18 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Himgajria",
-      "chain": "solana",
-      "address": "vG7eCzmL5i4HazbvM4m6vb5yB79i7JAUTaBGcJLpump",
-      "source": "new",
-      "entry_price": 0.0001597,
-      "peak_price": 0.0001597,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T09:40:51.359378+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "ROBINHOOD",
       "chain": "robinhood",
       "address": "0xda256666c501cA0E01DeD46167972589CbafEacc",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T09:40:52.756479+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.35,
+      "peak_volume_m5": 19356.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -52340,6 +52332,25 @@
       "exit_price": 9.643e-05,
       "exit_pct": -18.69,
       "exit_time": "2026-07-16T09:21:17.403641+00:00"
+    },
+    {
+      "symbol": "Himgajria",
+      "chain": "solana",
+      "address": "vG7eCzmL5i4HazbvM4m6vb5yB79i7JAUTaBGcJLpump",
+      "source": "new",
+      "entry_price": 0.0001597,
+      "peak_price": 0.0001597,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T09:40:51.359378+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.22,
+      "peak_volume_m5": 31270.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001354,
+      "exit_pct": -15.22,
+      "exit_time": "2026-07-16T09:42:23.207865+00:00"
     }
   ],
   "alerted": {
@@ -54986,6 +54997,7 @@
     "2WG2adv7FdJLRSBjnq2WKiuM82sJMiwwrcJH7h2bpump": "2026-07-16T08:52:16.748294+00:00",
     "0xA4C58B4B31589ac56fbc7D6a73a9a4954b8f920d": "2026-07-16T09:01:29.978665+00:00",
     "AWJkSP77HTYnWyWiBfRoK5nurwP4ApVw1YeEugmepump": "2026-07-16T09:07:22.843668+00:00",
-    "0x31d87D855E6A6e6B6B9e621a1C06F4e7714Dffff": "2026-07-16T09:21:17.403641+00:00"
+    "0x31d87D855E6A6e6B6B9e621a1C06F4e7714Dffff": "2026-07-16T09:21:17.403641+00:00",
+    "vG7eCzmL5i4HazbvM4m6vb5yB79i7JAUTaBGcJLpump": "2026-07-16T09:42:23.207865+00:00"
   }
 }
