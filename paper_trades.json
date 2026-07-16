@@ -40,27 +40,15 @@
       "address": "7NmbCaQpjpTcze5bmvWWJPjiaXMjHnLNYj9vJBG5pump",
       "source": "new",
       "entry_price": 0.0007386,
-      "peak_price": 0.0007997,
-      "trailing_active": false,
+      "peak_price": 0.000905,
+      "trailing_active": true,
       "entry_time": "2026-07-16T18:40:48.653118+00:00",
       "score": 80,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.2,
+      "current_pct": 22.53,
       "peak_volume_m5": 15711.7,
       "milestones_hit": []
-    },
-    {
-      "symbol": "MEMEZ",
-      "chain": "robinhood",
-      "address": "0x2b370621E7B00c68cF0e0417aDEeaa1fc7287BA3",
-      "source": "new",
-      "entry_price": 6.729e-07,
-      "peak_price": 6.729e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T19:10:37.324324+00:00",
-      "score": 75,
-      "status": "open"
     }
   ],
   "closed": [
@@ -53080,6 +53068,25 @@
       "exit_price": 0.0002121,
       "exit_pct": -33.11,
       "exit_time": "2026-07-16T19:02:21.266045+00:00"
+    },
+    {
+      "symbol": "MEMEZ",
+      "chain": "robinhood",
+      "address": "0x2b370621E7B00c68cF0e0417aDEeaa1fc7287BA3",
+      "source": "new",
+      "entry_price": 6.729e-07,
+      "peak_price": 6.729e-07,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T19:10:37.324324+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.53,
+      "peak_volume_m5": 6498.78,
+      "milestones_hit": [],
+      "exit_price": 6.088e-07,
+      "exit_pct": -9.53,
+      "exit_time": "2026-07-16T19:18:25.766177+00:00"
     }
   ],
   "alerted": {
@@ -55764,6 +55771,7 @@
     "0x69428a5271fc0CD7D1B04f39F33e777A5feF279e": "2026-07-16T17:51:20.189427+00:00",
     "0xa81Bb8669c53947aB9927a0d7CBe36e4399127a4": "2026-07-16T18:01:22.749409+00:00",
     "0x007dD750CF93A31d98B642bac0f6cacf7Db3a79D": "2026-07-16T18:26:23.541564+00:00",
-    "3sCAvRUZdijyVhMmmUP9L3okEHiw28XAafS7ZtWypump": "2026-07-16T19:02:21.266045+00:00"
+    "3sCAvRUZdijyVhMmmUP9L3okEHiw28XAafS7ZtWypump": "2026-07-16T19:02:21.266045+00:00",
+    "0x2b370621E7B00c68cF0e0417aDEeaa1fc7287BA3": "2026-07-16T19:18:25.766177+00:00"
   }
 }
