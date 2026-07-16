@@ -40,23 +40,15 @@
       "address": "0xc877190688377e5eE3fAe70728880C7338Ac26f6",
       "source": "new",
       "entry_price": 3.997e-05,
-      "peak_price": 3.997e-05,
+      "peak_price": 4.344e-05,
       "trailing_active": false,
       "entry_time": "2026-07-16T04:10:48.465041+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "ROSIE",
-      "chain": "robinhood",
-      "address": "0x4727f77c047BE78A8A0F8e55D7882A3DD3Dbcf14",
-      "source": "new",
-      "entry_price": 1.763e-06,
-      "peak_price": 1.763e-06,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T04:10:51.216775+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.68,
+      "peak_volume_m5": 52891.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -51957,6 +51949,25 @@
       "exit_price": 0.0002319,
       "exit_pct": 10.43,
       "exit_time": "2026-07-16T04:01:21.236473+00:00"
+    },
+    {
+      "symbol": "ROSIE",
+      "chain": "robinhood",
+      "address": "0x4727f77c047BE78A8A0F8e55D7882A3DD3Dbcf14",
+      "source": "new",
+      "entry_price": 1.763e-06,
+      "peak_price": 1.763e-06,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T04:10:51.216775+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.68,
+      "peak_volume_m5": 11028.29,
+      "milestones_hit": [],
+      "exit_price": 1.61e-06,
+      "exit_pct": -8.68,
+      "exit_time": "2026-07-16T04:11:21.654211+00:00"
     }
   ],
   "alerted": {
@@ -54583,6 +54594,7 @@
     "0xA86272B9517b93F84aca4202A48AF0f6eBCd9ec2": "2026-07-16T03:02:20.617776+00:00",
     "ExCALBK63oJHxoDTgEPspKG7TFuhBcEgMv6YiyApump": "2026-07-16T03:41:27.355984+00:00",
     "0x2ded1762109711c43Df3979cF59FD09445e5515C": "2026-07-16T03:55:16.766645+00:00",
-    "BGoC16Rj2B6oxm3CYWoL1eu1BFc6jPvmpsoqVQudpump": "2026-07-16T04:01:21.236473+00:00"
+    "BGoC16Rj2B6oxm3CYWoL1eu1BFc6jPvmpsoqVQudpump": "2026-07-16T04:01:21.236473+00:00",
+    "0x4727f77c047BE78A8A0F8e55D7882A3DD3Dbcf14": "2026-07-16T04:11:21.654211+00:00"
   }
 }
