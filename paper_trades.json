@@ -35,28 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "WONE",
-      "chain": "robinhood",
-      "address": "0xA12Ace3C2c018724aBFd74ff9bE7BCC96ce37cFB",
-      "source": "new",
-      "entry_price": 9.335e-07,
-      "peak_price": 9.335e-07,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T15:20:43.855679+00:00",
-      "score": 67,
-      "status": "open"
-    },
-    {
       "symbol": "CASHDOG",
       "chain": "robinhood",
       "address": "0xf6A3ea3aE06a699e76beE0A8354A29bB37d1D45F",
       "source": "new",
       "entry_price": 0.0001272,
-      "peak_price": 0.0001272,
+      "peak_price": 0.0001383,
       "trailing_active": false,
       "entry_time": "2026-07-16T15:20:45.318343+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.73,
+      "peak_volume_m5": 6248.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -52728,6 +52720,25 @@
       "exit_price": 0.0006117,
       "exit_pct": -15.29,
       "exit_time": "2026-07-16T15:07:18.765672+00:00"
+    },
+    {
+      "symbol": "WONE",
+      "chain": "robinhood",
+      "address": "0xA12Ace3C2c018724aBFd74ff9bE7BCC96ce37cFB",
+      "source": "new",
+      "entry_price": 9.335e-07,
+      "peak_price": 9.335e-07,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T15:20:43.855679+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.6,
+      "peak_volume_m5": 46320.65,
+      "milestones_hit": [],
+      "exit_price": 8.252e-07,
+      "exit_pct": -11.6,
+      "exit_time": "2026-07-16T15:26:24.342987+00:00"
     }
   ],
   "alerted": {
@@ -55394,6 +55405,7 @@
     "0x62E633C3ffD3B30ea7148a16699fC6A26A3AfFC1": "2026-07-16T14:06:23.414489+00:00",
     "0x73F62478017fE8E62052C2b579287187359BF062": "2026-07-16T14:10:45.092341+00:00",
     "0xcd74186f308BC3D90BFDA5Ff6556eA89bFed81E6": "2026-07-16T14:56:23.516184+00:00",
-    "0xA3953656059acc487c98515f04A60d940cbc80ad": "2026-07-16T15:07:18.765672+00:00"
+    "0xA3953656059acc487c98515f04A60d940cbc80ad": "2026-07-16T15:07:18.765672+00:00",
+    "0xA12Ace3C2c018724aBFd74ff9bE7BCC96ce37cFB": "2026-07-16T15:26:24.342987+00:00"
   }
 }
