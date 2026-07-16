@@ -40,35 +40,15 @@
       "address": "HVRtNeFPrDcAA9Yu3WrTEdCsTLGJiYDiQbqjg3efpump",
       "source": "boost",
       "entry_price": 0.0001974,
-      "peak_price": 0.0001974,
-      "trailing_active": false,
+      "peak_price": 0.0002333,
+      "trailing_active": true,
       "entry_time": "2026-07-16T06:00:52.832402+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "FONZ",
-      "chain": "robinhood",
-      "address": "0x1aBf16f660CCbAa22CE8646deB1B63635D582228",
-      "source": "new",
-      "entry_price": 8.183e-05,
-      "peak_price": 8.183e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T06:00:54.147730+00:00",
-      "score": 69,
-      "status": "open"
-    },
-    {
-      "symbol": "CASHCOW",
-      "chain": "solana",
-      "address": "D6ytjMdBBPoV8nsRHJhvrkpwF7sgVBYd7PufkRHNpump",
-      "source": "new",
-      "entry_price": 0.0001715,
-      "peak_price": 0.0001715,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T06:00:55.799101+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.19,
+      "peak_volume_m5": 10866.01,
+      "milestones_hit": []
     },
     {
       "symbol": "YUKI",
@@ -76,11 +56,15 @@
       "address": "0xE735eE5ef92003CF2c6c8e69321Ca234297637F9",
       "source": "new",
       "entry_price": 3.54e-05,
-      "peak_price": 3.54e-05,
-      "trailing_active": false,
+      "peak_price": 5.012e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-16T06:00:57.184307+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 41.58,
+      "peak_volume_m5": 21428.04,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -52095,6 +52079,44 @@
       "exit_price": 0.00018,
       "exit_pct": -21.16,
       "exit_time": "2026-07-16T05:44:23.732730+00:00"
+    },
+    {
+      "symbol": "FONZ",
+      "chain": "robinhood",
+      "address": "0x1aBf16f660CCbAa22CE8646deB1B63635D582228",
+      "source": "new",
+      "entry_price": 8.183e-05,
+      "peak_price": 8.183e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T06:00:54.147730+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.89,
+      "peak_volume_m5": 11675.99,
+      "milestones_hit": [],
+      "exit_price": 6.801e-05,
+      "exit_pct": -16.89,
+      "exit_time": "2026-07-16T06:04:17.829486+00:00"
+    },
+    {
+      "symbol": "CASHCOW",
+      "chain": "solana",
+      "address": "D6ytjMdBBPoV8nsRHJhvrkpwF7sgVBYd7PufkRHNpump",
+      "source": "new",
+      "entry_price": 0.0001715,
+      "peak_price": 0.0001715,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T06:00:55.799101+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.12,
+      "peak_volume_m5": 4849.48,
+      "milestones_hit": [],
+      "exit_price": 0.000149,
+      "exit_pct": -13.12,
+      "exit_time": "2026-07-16T06:04:18.491670+00:00"
     }
   ],
   "alerted": {
@@ -54727,6 +54749,8 @@
     "0xD125c7415C3cf4fe7838aAf2Ea8F17285d349efF": "2026-07-16T05:04:19.386334+00:00",
     "2AEuuDipca4mbqhQDS473GgeX8vA5S7d9voTm8hepump": "2026-07-16T05:37:20.449623+00:00",
     "DzxUkQfyer2cziUMyUeN2AJpzUsyJzif7uUv2b7rpump": "2026-07-16T05:42:16.662863+00:00",
-    "E7vTVLLaxV3y68cpnDx2Q7ExeznhWgJKwPziKDsrpump": "2026-07-16T05:44:23.732730+00:00"
+    "E7vTVLLaxV3y68cpnDx2Q7ExeznhWgJKwPziKDsrpump": "2026-07-16T05:44:23.732730+00:00",
+    "0x1aBf16f660CCbAa22CE8646deB1B63635D582228": "2026-07-16T06:04:17.829486+00:00",
+    "D6ytjMdBBPoV8nsRHJhvrkpwF7sgVBYd7PufkRHNpump": "2026-07-16T06:04:18.491670+00:00"
   }
 }
