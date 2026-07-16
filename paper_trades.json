@@ -40,27 +40,18 @@
       "address": "0x007DBcBe769fBa56FEB3E9BcE4Fc842E7F15FA8E",
       "source": "new",
       "entry_price": 5.941e-07,
-      "peak_price": 8.626e-07,
+      "peak_price": 1.233e-06,
       "trailing_active": true,
       "entry_time": "2026-07-16T08:11:08.549757+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 45.19,
-      "peak_volume_m5": 46258.18,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MEOW",
-      "chain": "robinhood",
-      "address": "0x3099c9718da890a31b13dce228de13702a9a393f",
-      "source": "new",
-      "entry_price": 9.267e-05,
-      "peak_price": 9.267e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T08:20:51.318232+00:00",
-      "score": 63,
-      "status": "open"
+      "current_pct": 107.54,
+      "peak_volume_m5": 67184.8,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -52227,6 +52218,25 @@
       "exit_price": 0.0001746,
       "exit_pct": 24.09,
       "exit_time": "2026-07-16T08:01:27.334170+00:00"
+    },
+    {
+      "symbol": "MEOW",
+      "chain": "robinhood",
+      "address": "0x3099c9718da890a31b13dce228de13702a9a393f",
+      "source": "new",
+      "entry_price": 9.267e-05,
+      "peak_price": 9.267e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T08:20:51.318232+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.27,
+      "peak_volume_m5": 85345.37,
+      "milestones_hit": [],
+      "exit_price": 6.833e-05,
+      "exit_pct": -26.27,
+      "exit_time": "2026-07-16T08:21:23.599302+00:00"
     }
   ],
   "alerted": {
@@ -54867,6 +54877,7 @@
     "0xC5CD4e3407CeEFD481005ee8F410823D948a8E8b": "2026-07-16T06:41:26.214255+00:00",
     "HFmbKBN7fYCY2PPGYgwkvb7mAuo1v6cmWv1CPK6Xpump": "2026-07-16T06:43:18.600649+00:00",
     "0x91D4FfEa98d4CD7d829f084788024ADc15C08c1d": "2026-07-16T07:56:17.688716+00:00",
-    "He6pECrSVi123qabQJRiGEonMbBZ7e8PZ9NmUxKqpump": "2026-07-16T08:01:27.334170+00:00"
+    "He6pECrSVi123qabQJRiGEonMbBZ7e8PZ9NmUxKqpump": "2026-07-16T08:01:27.334170+00:00",
+    "0x3099c9718da890a31b13dce228de13702a9a393f": "2026-07-16T08:21:23.599302+00:00"
   }
 }
