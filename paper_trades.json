@@ -35,18 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SOLCENTER",
-      "chain": "solana",
-      "address": "71TKvknpvwRcjdoYPngxw6895yeidY24nY8eJnHCpump",
-      "source": "new",
-      "entry_price": 0.0001726,
-      "peak_price": 0.0001726,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T16:40:37.908878+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "MEOW",
       "chain": "robinhood",
       "address": "0xD2664400930c555629c5CBa487916c4B2004A8e4",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T16:40:39.435905+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 78586.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -52804,6 +52796,25 @@
       "exit_price": 7.588e-05,
       "exit_pct": -12.81,
       "exit_time": "2026-07-16T15:55:25.135879+00:00"
+    },
+    {
+      "symbol": "SOLCENTER",
+      "chain": "solana",
+      "address": "71TKvknpvwRcjdoYPngxw6895yeidY24nY8eJnHCpump",
+      "source": "new",
+      "entry_price": 0.0001726,
+      "peak_price": 0.0001726,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T16:40:37.908878+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.53,
+      "peak_volume_m5": 41598.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001458,
+      "exit_pct": -15.53,
+      "exit_time": "2026-07-16T16:41:18.626580+00:00"
     }
   ],
   "alerted": {
@@ -55474,6 +55485,7 @@
     "0xA12Ace3C2c018724aBFd74ff9bE7BCC96ce37cFB": "2026-07-16T15:26:24.342987+00:00",
     "0xf6A3ea3aE06a699e76beE0A8354A29bB37d1D45F": "2026-07-16T15:27:17.641927+00:00",
     "0x0452FeeFe88918e14cC47617E3F92DfC3D6da121": "2026-07-16T15:49:21.005289+00:00",
-    "0x839b8bd8ED3d2F1be5a709CE99144337296681c7": "2026-07-16T15:55:25.135879+00:00"
+    "0x839b8bd8ED3d2F1be5a709CE99144337296681c7": "2026-07-16T15:55:25.135879+00:00",
+    "71TKvknpvwRcjdoYPngxw6895yeidY24nY8eJnHCpump": "2026-07-16T16:41:18.626580+00:00"
   }
 }
