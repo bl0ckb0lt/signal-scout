@@ -40,13 +40,13 @@
       "address": "BxHrRmzfnKDpstQRzfLa65NkAj4n5aG4XMqBADEBpump",
       "source": "new",
       "entry_price": 0.0001202,
-      "peak_price": 0.000154,
+      "peak_price": 0.0001566,
       "trailing_active": true,
       "entry_time": "2026-07-16T20:10:38.428693+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 28.12,
+      "current_pct": 30.28,
       "peak_volume_m5": 14566.61,
       "milestones_hit": []
     },
@@ -60,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T20:20:40.727685+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.53,
+      "peak_volume_m5": 111030.86,
+      "milestones_hit": []
     },
     {
       "symbol": "Eagle",
@@ -72,19 +76,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T20:20:42.602434+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "AUTIST",
-      "chain": "robinhood",
-      "address": "0x7C072901E21aE8aFd3D3f935b37C83fC2f46Fea7",
-      "source": "new",
-      "entry_price": 0.000102,
-      "peak_price": 0.000102,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T20:20:44.106285+00:00",
-      "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.09,
+      "peak_volume_m5": 23955.17,
+      "milestones_hit": []
     },
     {
       "symbol": "BANDOW",
@@ -92,11 +88,15 @@
       "address": "6VeWzwfEbrsGhWtkZXvcnQn77i1wqnah1QBzPMddpump",
       "source": "new",
       "entry_price": 0.0001404,
-      "peak_price": 0.0001404,
+      "peak_price": 0.0001472,
       "trailing_active": false,
       "entry_time": "2026-07-16T20:20:45.873790+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.84,
+      "peak_volume_m5": 82114.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -53213,6 +53213,25 @@
       "exit_price": 5.933e-06,
       "exit_pct": -96.08,
       "exit_time": "2026-07-16T20:11:18.197237+00:00"
+    },
+    {
+      "symbol": "AUTIST",
+      "chain": "robinhood",
+      "address": "0x7C072901E21aE8aFd3D3f935b37C83fC2f46Fea7",
+      "source": "new",
+      "entry_price": 0.000102,
+      "peak_price": 0.000102,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T20:20:44.106285+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.23,
+      "peak_volume_m5": 64340.92,
+      "milestones_hit": [],
+      "exit_price": 8.953e-05,
+      "exit_pct": -12.23,
+      "exit_time": "2026-07-16T20:21:19.578830+00:00"
     }
   ],
   "alerted": {
@@ -55902,6 +55921,7 @@
     "7NmbCaQpjpTcze5bmvWWJPjiaXMjHnLNYj9vJBG5pump": "2026-07-16T19:28:26.950466+00:00",
     "0xC68a1a803d131C128485c6d9C7D2cC27EEad2669": "2026-07-16T19:31:00.146847+00:00",
     "0x61c187F86380120916f305db0F64e21A44bf6531": "2026-07-16T19:55:21.794043+00:00",
-    "3YudidgEnPyMekuUCDEUf79MPqce8FHWF4ZSBV64pump": "2026-07-16T20:11:18.197237+00:00"
+    "3YudidgEnPyMekuUCDEUf79MPqce8FHWF4ZSBV64pump": "2026-07-16T20:11:18.197237+00:00",
+    "0x7C072901E21aE8aFd3D3f935b37C83fC2f46Fea7": "2026-07-16T20:21:19.578830+00:00"
   }
 }
