@@ -35,18 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "CASHBULL",
-      "chain": "solana",
-      "address": "3YudidgEnPyMekuUCDEUf79MPqce8FHWF4ZSBV64pump",
-      "source": "boost",
-      "entry_price": 0.0001515,
-      "peak_price": 0.0001515,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T20:10:36.742557+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "ELONCOIN",
       "chain": "solana",
       "address": "BxHrRmzfnKDpstQRzfLa65NkAj4n5aG4XMqBADEBpump",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-16T20:10:38.428693+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.41,
+      "peak_volume_m5": 14566.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -53154,6 +53146,25 @@
       "exit_price": 0.0001226,
       "exit_pct": 55.98,
       "exit_time": "2026-07-16T19:55:21.794043+00:00"
+    },
+    {
+      "symbol": "CASHBULL",
+      "chain": "solana",
+      "address": "3YudidgEnPyMekuUCDEUf79MPqce8FHWF4ZSBV64pump",
+      "source": "boost",
+      "entry_price": 0.0001515,
+      "peak_price": 0.0001515,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T20:10:36.742557+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -96.08,
+      "peak_volume_m5": 744.56,
+      "milestones_hit": [],
+      "exit_price": 5.933e-06,
+      "exit_pct": -96.08,
+      "exit_time": "2026-07-16T20:11:18.197237+00:00"
     }
   ],
   "alerted": {
@@ -55842,6 +55853,7 @@
     "0x2b370621E7B00c68cF0e0417aDEeaa1fc7287BA3": "2026-07-16T19:18:25.766177+00:00",
     "7NmbCaQpjpTcze5bmvWWJPjiaXMjHnLNYj9vJBG5pump": "2026-07-16T19:28:26.950466+00:00",
     "0xC68a1a803d131C128485c6d9C7D2cC27EEad2669": "2026-07-16T19:31:00.146847+00:00",
-    "0x61c187F86380120916f305db0F64e21A44bf6531": "2026-07-16T19:55:21.794043+00:00"
+    "0x61c187F86380120916f305db0F64e21A44bf6531": "2026-07-16T19:55:21.794043+00:00",
+    "3YudidgEnPyMekuUCDEUf79MPqce8FHWF4ZSBV64pump": "2026-07-16T20:11:18.197237+00:00"
   }
 }
