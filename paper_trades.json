@@ -35,37 +35,18 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HEDGE",
-      "chain": "robinhood",
-      "address": "0x62E633C3ffD3B30ea7148a16699fC6A26A3AfFC1",
-      "source": "new",
-      "entry_price": 1.448e-06,
-      "peak_price": 4.281e-06,
-      "trailing_active": true,
-      "entry_time": "2026-07-16T14:00:56.981902+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 187.43,
-      "peak_volume_m5": 207664.23,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "BOUNCE",
       "chain": "robinhood",
       "address": "0x73F62478017fE8E62052C2b579287187359BF062",
       "source": "new",
       "entry_price": 3.263e-05,
-      "peak_price": 3.289e-05,
+      "peak_price": 3.379e-05,
       "trailing_active": false,
       "entry_time": "2026-07-16T14:00:58.525733+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.8,
+      "current_pct": 3.56,
       "peak_volume_m5": 32130.54,
       "milestones_hit": []
     }
@@ -52659,6 +52640,29 @@
       "exit_price": 0.0006344,
       "exit_pct": 22.28,
       "exit_time": "2026-07-16T14:05:22.300433+00:00"
+    },
+    {
+      "symbol": "HEDGE",
+      "chain": "robinhood",
+      "address": "0x62E633C3ffD3B30ea7148a16699fC6A26A3AfFC1",
+      "source": "new",
+      "entry_price": 1.448e-06,
+      "peak_price": 5.212e-06,
+      "trailing_active": true,
+      "entry_time": "2026-07-16T14:00:56.981902+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 259.94,
+      "peak_volume_m5": 207664.23,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 5.212e-06,
+      "exit_pct": 259.94,
+      "exit_time": "2026-07-16T14:06:23.414489+00:00"
     }
   ],
   "alerted": {
@@ -55321,6 +55325,7 @@
     "FRbunKPBKLbbnzKYkVuAYy7HdJzqw7YXpwSmuSjppump": "2026-07-16T13:24:21.583747+00:00",
     "EQDTBhs52jXA9S7P3xuSvCohgYqbklQdJQLQ98A3Nld7QNMP": "2026-07-16T13:57:19.913628+00:00",
     "wscbjwA28nago5X5MLhhmu828n76zczRserXB9jpump": "2026-07-16T14:04:24.672689+00:00",
-    "0x0F2c5B7A7625C7b097759DD7165177d63fBB8b03": "2026-07-16T14:05:22.300433+00:00"
+    "0x0F2c5B7A7625C7b097759DD7165177d63fBB8b03": "2026-07-16T14:05:22.300433+00:00",
+    "0x62E633C3ffD3B30ea7148a16699fC6A26A3AfFC1": "2026-07-16T14:06:23.414489+00:00"
   }
 }
