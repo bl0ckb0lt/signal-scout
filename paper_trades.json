@@ -40,27 +40,15 @@
       "address": "He6pECrSVi123qabQJRiGEonMbBZ7e8PZ9NmUxKqpump",
       "source": "new",
       "entry_price": 0.0001407,
-      "peak_price": 0.0001409,
-      "trailing_active": false,
+      "peak_price": 0.0001855,
+      "trailing_active": true,
       "entry_time": "2026-07-16T07:40:52.341173+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.14,
-      "peak_volume_m5": 33423.83,
+      "current_pct": 31.84,
+      "peak_volume_m5": 52382.22,
       "milestones_hit": []
-    },
-    {
-      "symbol": "TSUKI",
-      "chain": "robinhood",
-      "address": "0x91D4FfEa98d4CD7d829f084788024ADc15C08c1d",
-      "source": "new",
-      "entry_price": 0.0001233,
-      "peak_price": 0.0001233,
-      "trailing_active": false,
-      "entry_time": "2026-07-16T07:50:47.500800+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -52189,6 +52177,25 @@
       "exit_price": 0.0002412,
       "exit_pct": 21.21,
       "exit_time": "2026-07-16T06:43:18.600649+00:00"
+    },
+    {
+      "symbol": "TSUKI",
+      "chain": "robinhood",
+      "address": "0x91D4FfEa98d4CD7d829f084788024ADc15C08c1d",
+      "source": "new",
+      "entry_price": 0.0001233,
+      "peak_price": 0.0001233,
+      "trailing_active": false,
+      "entry_time": "2026-07-16T07:50:47.500800+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.06,
+      "peak_volume_m5": 57653.4,
+      "milestones_hit": [],
+      "exit_price": 0.0001035,
+      "exit_pct": -16.06,
+      "exit_time": "2026-07-16T07:56:17.688716+00:00"
     }
   ],
   "alerted": {
@@ -54827,6 +54834,7 @@
     "0xE735eE5ef92003CF2c6c8e69321Ca234297637F9": "2026-07-16T06:05:20.917175+00:00",
     "HVRtNeFPrDcAA9Yu3WrTEdCsTLGJiYDiQbqjg3efpump": "2026-07-16T06:09:23.307459+00:00",
     "0xC5CD4e3407CeEFD481005ee8F410823D948a8E8b": "2026-07-16T06:41:26.214255+00:00",
-    "HFmbKBN7fYCY2PPGYgwkvb7mAuo1v6cmWv1CPK6Xpump": "2026-07-16T06:43:18.600649+00:00"
+    "HFmbKBN7fYCY2PPGYgwkvb7mAuo1v6cmWv1CPK6Xpump": "2026-07-16T06:43:18.600649+00:00",
+    "0x91D4FfEa98d4CD7d829f084788024ADc15C08c1d": "2026-07-16T07:56:17.688716+00:00"
   }
 }
