@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SR20",
-      "chain": "solana",
-      "address": "CZdLsd63z5YdvK2DebtApnrY9sT7J49v5zQuuKTMJ8q3",
-      "source": "new",
-      "entry_price": 0.0001318,
-      "peak_price": 0.0001492,
-      "trailing_active": false,
-      "entry_time": "2026-07-17T22:30:34.980863+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 13.2,
-      "peak_volume_m5": 78582.34,
-      "milestones_hit": []
-    },
-    {
       "symbol": "rCATS",
       "chain": "robinhood",
       "address": "0x24Afa46F4cA9150E38650691e45B4B6E32f1B65b",
       "source": "new",
       "entry_price": 26.76,
-      "peak_price": 26.76,
+      "peak_price": 27.97,
       "trailing_active": false,
       "entry_time": "2026-07-17T22:40:41.140371+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.52,
+      "peak_volume_m5": 4984.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -54858,6 +54846,25 @@
       "exit_price": 0.0002341,
       "exit_pct": 2.5,
       "exit_time": "2026-07-17T22:33:17.622969+00:00"
+    },
+    {
+      "symbol": "SR20",
+      "chain": "solana",
+      "address": "CZdLsd63z5YdvK2DebtApnrY9sT7J49v5zQuuKTMJ8q3",
+      "source": "new",
+      "entry_price": 0.0001318,
+      "peak_price": 0.0001492,
+      "trailing_active": false,
+      "entry_time": "2026-07-17T22:30:34.980863+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.42,
+      "peak_volume_m5": 78582.34,
+      "milestones_hit": [],
+      "exit_price": 0.0001062,
+      "exit_pct": -19.42,
+      "exit_time": "2026-07-17T22:42:15.944369+00:00"
     }
   ],
   "alerted": {
@@ -57634,6 +57641,7 @@
     "0x03Eb630b3fb006fE77972C7640B4cf920DF2FADe": "2026-07-17T21:46:16.512420+00:00",
     "38KndZkopxr8qnq75sLc7EexoUZPWn1mE8pkV1Cmpump": "2026-07-17T21:53:20.982115+00:00",
     "0x011130c36dB4DF0b5572f0dEd93D5cB9EB8A40e7": "2026-07-17T21:53:22.333913+00:00",
-    "0xB2000000000000000000006E3f77c2e519f2f701": "2026-07-17T21:54:19.943785+00:00"
+    "0xB2000000000000000000006E3f77c2e519f2f701": "2026-07-17T21:54:19.943785+00:00",
+    "CZdLsd63z5YdvK2DebtApnrY9sT7J49v5zQuuKTMJ8q3": "2026-07-17T22:42:15.944369+00:00"
   }
 }
