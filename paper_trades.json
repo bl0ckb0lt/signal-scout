@@ -24,13 +24,13 @@
       "address": "CmoCuZ9J2YT1QHv28p3QRphhZot6Sdbu6P6Aw4Vmpump",
       "source": "boost",
       "entry_price": 0.0001598,
-      "peak_price": 0.0002067,
+      "peak_price": 0.0002096,
       "trailing_active": true,
       "entry_time": "2026-07-17T12:00:38.235561+00:00",
       "score": 89,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.35,
+      "current_pct": 31.16,
       "peak_volume_m5": 31555.42,
       "milestones_hit": []
     },
@@ -51,22 +51,6 @@
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "pow",
-      "chain": "robinhood",
-      "address": "0x86a24426D1FC5dfDEe454120af3ECc3Cc552789b",
-      "source": "new",
-      "entry_price": 0.0001321,
-      "peak_price": 0.0001506,
-      "trailing_active": false,
-      "entry_time": "2026-07-17T12:10:45.203884+00:00",
-      "score": 74,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.72,
-      "peak_volume_m5": 12020.1,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -54020,6 +54004,25 @@
       "exit_price": 6.859e-05,
       "exit_pct": 9.64,
       "exit_time": "2026-07-17T12:25:21.902204+00:00"
+    },
+    {
+      "symbol": "pow",
+      "chain": "robinhood",
+      "address": "0x86a24426D1FC5dfDEe454120af3ECc3Cc552789b",
+      "source": "new",
+      "entry_price": 0.0001321,
+      "peak_price": 0.0001506,
+      "trailing_active": false,
+      "entry_time": "2026-07-17T12:10:45.203884+00:00",
+      "score": 74,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.2,
+      "peak_volume_m5": 12020.1,
+      "milestones_hit": [],
+      "exit_price": 0.0001173,
+      "exit_pct": -11.2,
+      "exit_time": "2026-07-17T12:25:44.678822+00:00"
     }
   ],
   "alerted": {
@@ -56752,6 +56755,7 @@
     "0xB20000000000000000000029784108e9706A0001": "2026-07-17T11:47:27.286507+00:00",
     "8TQAPEgP8jcWPeLTiQhFCFtPYwKhpjRvTngoPAmjpump": "2026-07-17T12:04:31.730351+00:00",
     "0xb200000000000000000000FdE12D4C5b4d14E901": "2026-07-17T12:22:25.121287+00:00",
-    "0xb200000000000000000000348A0251f62Fc097E8": "2026-07-17T12:25:21.902204+00:00"
+    "0xb200000000000000000000348A0251f62Fc097E8": "2026-07-17T12:25:21.902204+00:00",
+    "0x86a24426D1FC5dfDEe454120af3ECc3Cc552789b": "2026-07-17T12:25:44.678822+00:00"
   }
 }
