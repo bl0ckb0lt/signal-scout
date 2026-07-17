@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SHERK",
-      "chain": "robinhood",
-      "address": "0x4087BC78AEd84604606dC0D8B6E070BCB374b371",
-      "source": "new",
-      "entry_price": 0.0001548,
-      "peak_price": 0.0001548,
-      "trailing_active": false,
-      "entry_time": "2026-07-17T05:00:36.623971+00:00",
-      "score": 64,
-      "status": "open"
-    },
-    {
       "symbol": "TTBY",
       "chain": "robinhood",
       "address": "0xe88AF4F3Dab9668922C3E5B8eE57BA5257e99e0f",
       "source": "new",
       "entry_price": 4.725e-07,
-      "peak_price": 4.725e-07,
+      "peak_price": 5.397e-07,
       "trailing_active": false,
       "entry_time": "2026-07-17T05:00:38.007401+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.22,
+      "peak_volume_m5": 25133.87,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -53588,6 +53580,25 @@
       "exit_price": 0.0002046,
       "exit_pct": 87.88,
       "exit_time": "2026-07-17T04:55:19.581891+00:00"
+    },
+    {
+      "symbol": "SHERK",
+      "chain": "robinhood",
+      "address": "0x4087BC78AEd84604606dC0D8B6E070BCB374b371",
+      "source": "new",
+      "entry_price": 0.0001548,
+      "peak_price": 0.0001548,
+      "trailing_active": false,
+      "entry_time": "2026-07-17T05:00:36.623971+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.5,
+      "peak_volume_m5": 13748.71,
+      "milestones_hit": [],
+      "exit_price": 0.0001401,
+      "exit_pct": -9.5,
+      "exit_time": "2026-07-17T05:03:18.100937+00:00"
     }
   ],
   "alerted": {
@@ -56300,6 +56311,7 @@
     "0xbC268894BaD5802EE4c2874eBDb83d29a1835dd4": "2026-07-17T02:42:24.235628+00:00",
     "2SPQDWYw34FxvfpuA522g46ozZhwpbto5nyGU4u5pump": "2026-07-17T03:11:18.038963+00:00",
     "0xB20000000000000000000010566Efb9e47323b01": "2026-07-17T04:34:17.268703+00:00",
-    "0x7C6aDe272078Db2b2731B14df57a2049f59Aa2F5": "2026-07-17T04:55:19.581891+00:00"
+    "0x7C6aDe272078Db2b2731B14df57a2049f59Aa2F5": "2026-07-17T04:55:19.581891+00:00",
+    "0x4087BC78AEd84604606dC0D8B6E070BCB374b371": "2026-07-17T05:03:18.100937+00:00"
   }
 }
