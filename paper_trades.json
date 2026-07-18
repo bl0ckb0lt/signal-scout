@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BatFrog",
-      "chain": "robinhood",
-      "address": "0x8d587E6D7A0F7c744CA73126caddB5875B5160CA",
-      "source": "new",
-      "entry_price": 4.222e-05,
-      "peak_price": 4.222e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-18T08:10:33.471071+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "HREWARD",
       "chain": "robinhood",
       "address": "0x4aE8C3297c892dEB859B8CD45a06c502b619Dd01",
       "source": "new",
       "entry_price": 9.198e-07,
-      "peak_price": 9.198e-07,
-      "trailing_active": false,
+      "peak_price": 1.274e-06,
+      "trailing_active": true,
       "entry_time": "2026-07-18T08:10:34.824498+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.51,
+      "peak_volume_m5": 106653.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -55576,6 +55568,25 @@
       "exit_price": 0.0001498,
       "exit_pct": 5.87,
       "exit_time": "2026-07-18T07:55:23.798228+00:00"
+    },
+    {
+      "symbol": "BatFrog",
+      "chain": "robinhood",
+      "address": "0x8d587E6D7A0F7c744CA73126caddB5875B5160CA",
+      "source": "new",
+      "entry_price": 4.222e-05,
+      "peak_price": 4.222e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-18T08:10:33.471071+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.92,
+      "peak_volume_m5": 16914.87,
+      "milestones_hit": [],
+      "exit_price": 3.592e-05,
+      "exit_pct": -14.92,
+      "exit_time": "2026-07-18T08:13:20.975981+00:00"
     }
   ],
   "alerted": {
@@ -58388,6 +58399,7 @@
     "0x4f9C08BAdEe653ed59C6F19287216B4273c204fB": "2026-07-18T07:01:20.282568+00:00",
     "0xB200000000000000000000322Eb1163A5a904c01": "2026-07-18T07:17:18.829538+00:00",
     "0xd810f4452f10F6ae1e3C1a65fE205a8476c0eD0f": "2026-07-18T07:41:22.207702+00:00",
-    "3wwU3njdLCT3ebRUrTFeHwKG6zamiiCKwmpShSK2pump": "2026-07-18T07:55:23.798228+00:00"
+    "3wwU3njdLCT3ebRUrTFeHwKG6zamiiCKwmpShSK2pump": "2026-07-18T07:55:23.798228+00:00",
+    "0x8d587E6D7A0F7c744CA73126caddB5875B5160CA": "2026-07-18T08:13:20.975981+00:00"
   }
 }
