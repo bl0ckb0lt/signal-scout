@@ -8,23 +8,15 @@
       "address": "0x8B5dca96d670f02c323a82Ac83c3dB476D786dFc",
       "source": "new",
       "entry_price": 7.74e-05,
-      "peak_price": 7.74e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001026,
+      "trailing_active": true,
       "entry_time": "2026-07-18T16:10:29.224870+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "KIWI",
-      "chain": "solana",
-      "address": "FUY6RbdfrDfa82y1AS5ZQRtaoSr1ZVTGD2EkN11bpump",
-      "source": "new",
-      "entry_price": 0.000185,
-      "peak_price": 0.000185,
-      "trailing_active": false,
-      "entry_time": "2026-07-18T16:10:31.181616+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.56,
+      "peak_volume_m5": 16762.47,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -56176,6 +56168,25 @@
       "exit_price": 7.877e-05,
       "exit_pct": -11.81,
       "exit_time": "2026-07-18T16:01:18.789906+00:00"
+    },
+    {
+      "symbol": "KIWI",
+      "chain": "solana",
+      "address": "FUY6RbdfrDfa82y1AS5ZQRtaoSr1ZVTGD2EkN11bpump",
+      "source": "new",
+      "entry_price": 0.000185,
+      "peak_price": 0.000185,
+      "trailing_active": false,
+      "entry_time": "2026-07-18T16:10:31.181616+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.65,
+      "peak_volume_m5": 47706.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001616,
+      "exit_pct": -12.65,
+      "exit_time": "2026-07-18T16:13:21.762505+00:00"
     }
   ],
   "alerted": {
@@ -59017,6 +59028,7 @@
     "0x8F210E3D30139F2E23532D804F5CFbBaAA87d2b0": "2026-07-18T14:32:25.613877+00:00",
     "H23di4NXN6j2pwLwbYjtag1Q3v7ANyXR72kzfWYKpump": "2026-07-18T15:11:19.727144+00:00",
     "0x79A690cD1D1Ed3614f292DB3b1cC50A1893c59f5": "2026-07-18T15:13:19.684609+00:00",
-    "0xd293291060334D42E5DBEa6fb854C231AF527777": "2026-07-18T16:01:18.789906+00:00"
+    "0xd293291060334D42E5DBEa6fb854C231AF527777": "2026-07-18T16:01:18.789906+00:00",
+    "FUY6RbdfrDfa82y1AS5ZQRtaoSr1ZVTGD2EkN11bpump": "2026-07-18T16:13:21.762505+00:00"
   }
 }
