@@ -14,21 +14,9 @@
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 18.32,
+      "current_pct": 13.24,
       "peak_volume_m5": 34074.04,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HOODWOLF",
-      "chain": "robinhood",
-      "address": "0x7BB8b6618304B043303e1F862F1e0a01A547e164",
-      "source": "new",
-      "entry_price": 6.938e-05,
-      "peak_price": 6.938e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-18T13:00:36.344397+00:00",
-      "score": 73,
-      "status": "open"
     },
     {
       "symbol": "Armstrung",
@@ -36,11 +24,15 @@
       "address": "0xb200000000000000000000567f26667c799d6d01",
       "source": "new",
       "entry_price": 5.662e-05,
-      "peak_price": 5.662e-05,
-      "trailing_active": false,
+      "peak_price": 7.004e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-18T13:00:38.251060+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.7,
+      "peak_volume_m5": 21830.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -55861,6 +55853,25 @@
       "exit_price": 6.672e-05,
       "exit_pct": -54.52,
       "exit_time": "2026-07-18T12:39:17.919975+00:00"
+    },
+    {
+      "symbol": "HOODWOLF",
+      "chain": "robinhood",
+      "address": "0x7BB8b6618304B043303e1F862F1e0a01A547e164",
+      "source": "new",
+      "entry_price": 6.938e-05,
+      "peak_price": 6.938e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-18T13:00:36.344397+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.06,
+      "peak_volume_m5": 18868.62,
+      "milestones_hit": [],
+      "exit_price": 5.477e-05,
+      "exit_pct": -21.06,
+      "exit_time": "2026-07-18T13:01:24.790225+00:00"
     }
   ],
   "alerted": {
@@ -58687,6 +58698,7 @@
     "EDNvjVDjKVfRsqxf3C8nN2sunxctfoboE2S8aUHGpump": "2026-07-18T11:45:36.792375+00:00",
     "BCyMw2vvmzh9fB6GQ4LaQ6poqrP4qTrPkYDops2hpump": "2026-07-18T11:51:20.671382+00:00",
     "8CXQ9D7X3rQAWYHRWcWQjiSwauo8myTTcuvds97ypump": "2026-07-18T12:22:27.100093+00:00",
-    "H6aogUVXP5yQfByT23ARBDteHbzXRmrcNj4LWDhApump": "2026-07-18T12:39:17.919975+00:00"
+    "H6aogUVXP5yQfByT23ARBDteHbzXRmrcNj4LWDhApump": "2026-07-18T12:39:17.919975+00:00",
+    "0x7BB8b6618304B043303e1F862F1e0a01A547e164": "2026-07-18T13:01:24.790225+00:00"
   }
 }
