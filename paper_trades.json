@@ -3,44 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Relic",
-      "chain": "robinhood",
-      "address": "0xBE6C2c7C371D0cf6D7Ff134f06674DED2Bf2Cf07",
-      "source": "boost",
-      "entry_price": 7.361e-05,
-      "peak_price": 0.0001019,
-      "trailing_active": true,
-      "entry_time": "2026-07-18T00:20:37.917117+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 38.43,
-      "peak_volume_m5": 12647.42,
-      "milestones_hit": []
-    },
-    {
       "symbol": "STOCKCAT",
       "chain": "robinhood",
       "address": "0xde96850C85F11Fb75341c9ad28FD4641439F35e4",
       "source": "new",
       "entry_price": 0.0001363,
-      "peak_price": 0.0001363,
+      "peak_price": 0.0001504,
       "trailing_active": false,
       "entry_time": "2026-07-18T00:30:31.300615+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "SUSHICAT",
-      "chain": "robinhood",
-      "address": "0xaA4b6a79Df257E50E0079cD812A92262eE3951b0",
-      "source": "new",
-      "entry_price": 0.000319,
-      "peak_price": 0.000319,
-      "trailing_active": false,
-      "entry_time": "2026-07-18T00:30:32.638679+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.34,
+      "peak_volume_m5": 28410.16,
+      "milestones_hit": []
     },
     {
       "symbol": "STOCKCAT",
@@ -48,11 +24,15 @@
       "address": "0xeC7F8D09CD766e542bc2F77F6fa550D9af16B8E0",
       "source": "new",
       "entry_price": 6.76e-05,
-      "peak_price": 6.76e-05,
+      "peak_price": 7e-05,
       "trailing_active": false,
       "entry_time": "2026-07-18T00:30:35.687362+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.55,
+      "peak_volume_m5": 18475.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -55153,6 +55133,44 @@
       "exit_price": 0.0001285,
       "exit_pct": -13.41,
       "exit_time": "2026-07-18T00:24:16.638718+00:00"
+    },
+    {
+      "symbol": "Relic",
+      "chain": "robinhood",
+      "address": "0xBE6C2c7C371D0cf6D7Ff134f06674DED2Bf2Cf07",
+      "source": "boost",
+      "entry_price": 7.361e-05,
+      "peak_price": 0.0001019,
+      "trailing_active": true,
+      "entry_time": "2026-07-18T00:20:37.917117+00:00",
+      "score": 86,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 21.06,
+      "peak_volume_m5": 12647.42,
+      "milestones_hit": [],
+      "exit_price": 8.911e-05,
+      "exit_pct": 21.06,
+      "exit_time": "2026-07-18T00:31:20.280511+00:00"
+    },
+    {
+      "symbol": "SUSHICAT",
+      "chain": "robinhood",
+      "address": "0xaA4b6a79Df257E50E0079cD812A92262eE3951b0",
+      "source": "new",
+      "entry_price": 0.000319,
+      "peak_price": 0.000319,
+      "trailing_active": false,
+      "entry_time": "2026-07-18T00:30:32.638679+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.75,
+      "peak_volume_m5": 7442.04,
+      "milestones_hit": [],
+      "exit_price": 0.0002911,
+      "exit_pct": -8.75,
+      "exit_time": "2026-07-18T00:31:21.463403+00:00"
     }
   ],
   "alerted": {
@@ -57943,6 +57961,8 @@
     "0x75896Dc9D67533031B18ed5236612140B1148CFf": "2026-07-18T00:04:25.600980+00:00",
     "0xB200000000000000000000c065D1f74380a4f1a0": "2026-07-18T00:05:16.544792+00:00",
     "0xa3E3112CfA230045AE4818697e00C918Bd3BcE01": "2026-07-18T00:16:18.992048+00:00",
-    "0x18c8DfAAe4F0Af2B2870d73e49Dc9FaF52a441f9": "2026-07-18T00:24:16.638718+00:00"
+    "0x18c8DfAAe4F0Af2B2870d73e49Dc9FaF52a441f9": "2026-07-18T00:24:16.638718+00:00",
+    "0xBE6C2c7C371D0cf6D7Ff134f06674DED2Bf2Cf07": "2026-07-18T00:31:20.280511+00:00",
+    "0xaA4b6a79Df257E50E0079cD812A92262eE3951b0": "2026-07-18T00:31:21.463403+00:00"
   }
 }
