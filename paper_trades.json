@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Komugi",
-      "chain": "solana",
-      "address": "AV9if3eY6XCSqbG5PwPemweHMXm1o95tcfV9asULpump",
-      "source": "new",
-      "entry_price": 0.0001533,
-      "peak_price": 0.0001533,
-      "trailing_active": false,
-      "entry_time": "2026-07-19T14:40:28.031012+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "PRIVE",
       "chain": "robinhood",
       "address": "0x95065121762AE01248a55CB08EEeED24960E42d6",
       "source": "boost",
       "entry_price": 0.000209,
-      "peak_price": 0.000209,
-      "trailing_active": false,
+      "peak_price": 0.0002897,
+      "trailing_active": true,
       "entry_time": "2026-07-19T14:40:29.660306+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.61,
+      "peak_volume_m5": 13583.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -58075,6 +58067,25 @@
       "exit_price": 9.649e-05,
       "exit_pct": -17.53,
       "exit_time": "2026-07-19T14:26:17.297171+00:00"
+    },
+    {
+      "symbol": "Komugi",
+      "chain": "solana",
+      "address": "AV9if3eY6XCSqbG5PwPemweHMXm1o95tcfV9asULpump",
+      "source": "new",
+      "entry_price": 0.0001533,
+      "peak_price": 0.0001533,
+      "trailing_active": false,
+      "entry_time": "2026-07-19T14:40:28.031012+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.22,
+      "peak_volume_m5": 36557.95,
+      "milestones_hit": [],
+      "exit_price": 0.0001315,
+      "exit_pct": -14.22,
+      "exit_time": "2026-07-19T14:43:20.385726+00:00"
     }
   ],
   "alerted": {
@@ -61013,6 +61024,7 @@
     "0x0c05DC110241496BA57Aff5f1D625aB6C52839e6": "2026-07-19T12:49:21.436346+00:00",
     "0xf60e5fe2b3Dbcd358a60a2cD764eb8Ab7525BfED": "2026-07-19T13:12:17.949187+00:00",
     "4gRYGyDP9Jkdt2bi9LN8ZKwwd22UfPYAA8bRA3Zppump": "2026-07-19T14:01:20.134858+00:00",
-    "FeH4kA7RCK3DpZ71yjQrUmV3dbGXGfDa19RtTw5cpump": "2026-07-19T14:26:17.297171+00:00"
+    "FeH4kA7RCK3DpZ71yjQrUmV3dbGXGfDa19RtTw5cpump": "2026-07-19T14:26:17.297171+00:00",
+    "AV9if3eY6XCSqbG5PwPemweHMXm1o95tcfV9asULpump": "2026-07-19T14:43:20.385726+00:00"
   }
 }
