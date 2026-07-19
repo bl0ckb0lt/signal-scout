@@ -8,23 +8,15 @@
       "address": "0x99075A24BAabC6580386a7C0063Af009E5Bc687A",
       "source": "new",
       "entry_price": 8.408e-07,
-      "peak_price": 8.408e-07,
-      "trailing_active": false,
+      "peak_price": 1.001e-06,
+      "trailing_active": true,
       "entry_time": "2026-07-19T08:20:27.518711+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "WREN",
-      "chain": "robinhood",
-      "address": "0x2745BB56c2316BbF29BF491b2C6d978620c2f8A3",
-      "source": "new",
-      "entry_price": 0.0002048,
-      "peak_price": 0.0002048,
-      "trailing_active": false,
-      "entry_time": "2026-07-19T08:20:28.902664+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.05,
+      "peak_volume_m5": 28717.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -57696,6 +57688,25 @@
       "exit_price": 3.178e-05,
       "exit_pct": -20.85,
       "exit_time": "2026-07-19T08:11:21.247272+00:00"
+    },
+    {
+      "symbol": "WREN",
+      "chain": "robinhood",
+      "address": "0x2745BB56c2316BbF29BF491b2C6d978620c2f8A3",
+      "source": "new",
+      "entry_price": 0.0002048,
+      "peak_price": 0.0002048,
+      "trailing_active": false,
+      "entry_time": "2026-07-19T08:20:28.902664+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.69,
+      "peak_volume_m5": 24068.43,
+      "milestones_hit": [],
+      "exit_price": 0.0001829,
+      "exit_pct": -10.69,
+      "exit_time": "2026-07-19T08:23:17.791221+00:00"
     }
   ],
   "alerted": {
@@ -60615,6 +60626,7 @@
     "62VuF8HACLg2ga4xnG9tRff5fmnfmoHJAUiCsBRFpump": "2026-07-19T07:04:16.022709+00:00",
     "0xaDed148dAC8Dd7D0347108536a8983fEaf978208": "2026-07-19T07:42:23.238460+00:00",
     "0xca8fCD24E50742a889e2380b21eB6e2C46d699BC": "2026-07-19T08:11:20.334250+00:00",
-    "0x722e6f466345A4feC7993D15089aCec034Bcf208": "2026-07-19T08:11:21.247272+00:00"
+    "0x722e6f466345A4feC7993D15089aCec034Bcf208": "2026-07-19T08:11:21.247272+00:00",
+    "0x2745BB56c2316BbF29BF491b2C6d978620c2f8A3": "2026-07-19T08:23:17.791221+00:00"
   }
 }
