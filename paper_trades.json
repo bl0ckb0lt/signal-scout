@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Argos",
-      "chain": "solana",
-      "address": "3zbaboajDtmsu6EKBiT5d3BmbTMLyFXbgwkKSoZMpump",
-      "source": "new",
-      "entry_price": 0.0001221,
-      "peak_price": 0.0001221,
-      "trailing_active": false,
-      "entry_time": "2026-07-19T20:50:43.719367+00:00",
-      "score": 69,
-      "status": "open"
-    },
-    {
       "symbol": "COOPER",
       "chain": "robinhood",
       "address": "0xd8F9802AAa9af3758cA2298ddeD8c3d120cB4eA4",
       "source": "new",
       "entry_price": 0.0001558,
-      "peak_price": 0.0001558,
+      "peak_price": 0.0001661,
       "trailing_active": false,
       "entry_time": "2026-07-19T20:50:45.273120+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.61,
+      "peak_volume_m5": 16240.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -58655,6 +58647,25 @@
       "exit_price": 6.501e-05,
       "exit_pct": -8.33,
       "exit_time": "2026-07-19T20:33:17.803015+00:00"
+    },
+    {
+      "symbol": "Argos",
+      "chain": "solana",
+      "address": "3zbaboajDtmsu6EKBiT5d3BmbTMLyFXbgwkKSoZMpump",
+      "source": "new",
+      "entry_price": 0.0001221,
+      "peak_price": 0.0001221,
+      "trailing_active": false,
+      "entry_time": "2026-07-19T20:50:43.719367+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.75,
+      "peak_volume_m5": 21135.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001102,
+      "exit_pct": -9.75,
+      "exit_time": "2026-07-19T20:51:23.514440+00:00"
     }
   ],
   "alerted": {
@@ -61623,6 +61634,7 @@
     "8ipdADvjbmmANFKLvmWJWbNa3bWmTrAKS1TwWXCKpump": "2026-07-19T19:33:15.747518+00:00",
     "0xbab4ECb13C16457c378dfa990c1241a9279db3C2": "2026-07-19T19:47:18.574449+00:00",
     "0x0B9FA1f756f7A374aBD45642a2EeA8aa78FBCbA3": "2026-07-19T19:51:22.233084+00:00",
-    "0x835752a832e71bB8147B0F2dD7081A4bd7bCE29E": "2026-07-19T20:33:17.803015+00:00"
+    "0x835752a832e71bB8147B0F2dD7081A4bd7bCE29E": "2026-07-19T20:33:17.803015+00:00",
+    "3zbaboajDtmsu6EKBiT5d3BmbTMLyFXbgwkKSoZMpump": "2026-07-19T20:51:23.514440+00:00"
   }
 }
