@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\u7334\u5b50\u5e01",
-      "chain": "bsc",
-      "address": "0x6927c3646D50595858918A9a332E30E6Edc94444",
-      "source": "new",
-      "entry_price": 0.0006614,
-      "peak_price": 0.0006614,
-      "trailing_active": false,
-      "entry_time": "2026-07-19T16:20:28.862572+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "MWM",
       "chain": "robinhood",
       "address": "0xaCCB94C689f56Aa60122f791eF6cA49A09599c41",
       "source": "new",
       "entry_price": 8.071e-05,
-      "peak_price": 8.071e-05,
-      "trailing_active": false,
+      "peak_price": 0.000102,
+      "trailing_active": true,
       "entry_time": "2026-07-19T16:20:31.845403+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.38,
+      "peak_volume_m5": 35273.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -58212,6 +58204,25 @@
       "exit_price": 0.0006178,
       "exit_pct": 279.02,
       "exit_time": "2026-07-19T16:00:26.339647+00:00"
+    },
+    {
+      "symbol": "\u7334\u5b50\u5e01",
+      "chain": "bsc",
+      "address": "0x6927c3646D50595858918A9a332E30E6Edc94444",
+      "source": "new",
+      "entry_price": 0.0006614,
+      "peak_price": 0.0006614,
+      "trailing_active": false,
+      "entry_time": "2026-07-19T16:20:28.862572+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.6,
+      "peak_volume_m5": 106389.56,
+      "milestones_hit": [],
+      "exit_price": 0.0005384,
+      "exit_pct": -18.6,
+      "exit_time": "2026-07-19T16:21:18.729755+00:00"
     }
   ],
   "alerted": {
@@ -61157,6 +61168,7 @@
     "0x8c49d10d3DFA4c6F160721bFebA1C65b87Ed4a1B": "2026-07-19T15:01:20.446623+00:00",
     "EfY6QUqEvHcYs9sRpZphF56qSwotsJjMMA58iNB5pump": "2026-07-19T15:07:19.954742+00:00",
     "0xef33c659B828968FcbCC7DdF2e1149D792D8EA5a": "2026-07-19T15:21:16.365060+00:00",
-    "0xD903c0b87c47Eaf9c5BF3cB91e30F65d6b3c7c0D": "2026-07-19T16:00:26.339647+00:00"
+    "0xD903c0b87c47Eaf9c5BF3cB91e30F65d6b3c7c0D": "2026-07-19T16:00:26.339647+00:00",
+    "0x6927c3646D50595858918A9a332E30E6Edc94444": "2026-07-19T16:21:18.729755+00:00"
   }
 }
