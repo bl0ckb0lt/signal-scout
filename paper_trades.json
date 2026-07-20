@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "JACOBIAN",
-      "chain": "robinhood",
-      "address": "0x08050237FFB2acD0a2AAf2b7E4e0F884AcE697D2",
-      "source": "boost",
-      "entry_price": 7.914e-05,
-      "peak_price": 0.0001363,
-      "trailing_active": true,
-      "entry_time": "2026-07-20T11:50:28.804026+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 72.23,
-      "peak_volume_m5": 15028.11,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "Tolymemnon",
       "chain": "solana",
       "address": "36NPw4AbPH8SAyov9SSxX2dLpLuskopc4QtA2gyRpump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-20T12:00:32.340010+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.24,
+      "peak_volume_m5": 67653.03,
+      "milestones_hit": []
     },
     {
       "symbol": "ZTOCKS",
@@ -42,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-20T12:00:36.758968+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.86,
+      "peak_volume_m5": 1752.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -59837,6 +59827,27 @@
       "exit_price": 6.204e-05,
       "exit_pct": -6.27,
       "exit_time": "2026-07-20T11:45:35.837422+00:00"
+    },
+    {
+      "symbol": "JACOBIAN",
+      "chain": "robinhood",
+      "address": "0x08050237FFB2acD0a2AAf2b7E4e0F884AcE697D2",
+      "source": "boost",
+      "entry_price": 7.914e-05,
+      "peak_price": 0.0001363,
+      "trailing_active": true,
+      "entry_time": "2026-07-20T11:50:28.804026+00:00",
+      "score": 81,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 63.51,
+      "peak_volume_m5": 18140.91,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001294,
+      "exit_pct": 63.51,
+      "exit_time": "2026-07-20T12:01:18.286276+00:00"
     }
   ],
   "alerted": {
@@ -62864,6 +62875,7 @@
     "0xe21a200656D3A22AfcB17D8e976e226EADA9bA90": "2026-07-20T11:29:17.886222+00:00",
     "PF5EF1wqqPrq8NDQ5aQEq6NZZSYsVyzhox9V5Fdpump": "2026-07-20T11:33:20.258884+00:00",
     "0x7c473b8961Fc3B6097e7351345d571e5d931dB7C": "2026-07-20T11:40:41.891740+00:00",
-    "0xDACcBeAF0062E782472d7Ad7D762c38e59c18932": "2026-07-20T11:45:35.837422+00:00"
+    "0xDACcBeAF0062E782472d7Ad7D762c38e59c18932": "2026-07-20T11:45:35.837422+00:00",
+    "0x08050237FFB2acD0a2AAf2b7E4e0F884AcE697D2": "2026-07-20T12:01:18.286276+00:00"
   }
 }
