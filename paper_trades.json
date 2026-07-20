@@ -3,55 +3,21 @@
   "paused": false,
   "open": [
     {
-      "symbol": "JIMOTHYUNC",
-      "chain": "solana",
-      "address": "Gug4aXdHSf58nBbHwrSYenhgRyWqgSjYG6CHS7s5pump",
-      "source": "new",
-      "entry_price": 0.0001611,
-      "peak_price": 0.0001729,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T18:00:31.658384+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.78,
-      "peak_volume_m5": 28181.63,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MERAKI",
-      "chain": "robinhood",
-      "address": "0x56C5Cd8381419134D54Bf251FDD2A09035d40148",
-      "source": "new",
-      "entry_price": 0.0001448,
-      "peak_price": 0.0002971,
-      "trailing_active": true,
-      "entry_time": "2026-07-20T18:00:33.039247+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 105.18,
-      "peak_volume_m5": 83585.39,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Z",
       "chain": "bsc",
       "address": "0x286432947d75f357941a0fC68a472766a521d0af",
       "source": "new",
       "entry_price": 0.0001776,
-      "peak_price": 0.0003925,
+      "peak_price": 0.0005698,
       "trailing_active": true,
       "entry_time": "2026-07-20T18:00:34.672565+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 121.0,
-      "peak_volume_m5": 13845.41,
+      "current_pct": 220.83,
+      "peak_volume_m5": 19595.04,
       "milestones_hit": [
+        200,
         50,
         100
       ]
@@ -60466,6 +60432,47 @@
       "exit_price": 9.157e-05,
       "exit_pct": -16.37,
       "exit_time": "2026-07-20T18:13:22.316808+00:00"
+    },
+    {
+      "symbol": "JIMOTHYUNC",
+      "chain": "solana",
+      "address": "Gug4aXdHSf58nBbHwrSYenhgRyWqgSjYG6CHS7s5pump",
+      "source": "new",
+      "entry_price": 0.0001611,
+      "peak_price": 0.0001729,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T18:00:31.658384+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.7,
+      "peak_volume_m5": 28953.14,
+      "milestones_hit": [],
+      "exit_price": 0.0001342,
+      "exit_pct": -16.7,
+      "exit_time": "2026-07-20T18:17:25.530159+00:00"
+    },
+    {
+      "symbol": "MERAKI",
+      "chain": "robinhood",
+      "address": "0x56C5Cd8381419134D54Bf251FDD2A09035d40148",
+      "source": "new",
+      "entry_price": 0.0001448,
+      "peak_price": 0.0002971,
+      "trailing_active": true,
+      "entry_time": "2026-07-20T18:00:33.039247+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 80.46,
+      "peak_volume_m5": 83585.39,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0002613,
+      "exit_pct": 80.46,
+      "exit_time": "2026-07-20T18:17:26.372520+00:00"
     }
   ],
   "alerted": {
@@ -63524,6 +63531,8 @@
     "0xC9D6e3D16F22b73E420551505c714F9174534Bc8": "2026-07-20T17:41:23.455424+00:00",
     "0xb200000000000000000000DfEa18f58CD9ADBC01": "2026-07-20T17:50:55.631477+00:00",
     "0x5ABCa8797404E8c870f24f61B3CCd0ED612C98ef": "2026-07-20T17:50:56.453536+00:00",
-    "98KqVYXFNeAC5SuvmC2PXcf6e5dXcqh4nJiGKiCmpump": "2026-07-20T18:13:22.316808+00:00"
+    "98KqVYXFNeAC5SuvmC2PXcf6e5dXcqh4nJiGKiCmpump": "2026-07-20T18:13:22.316808+00:00",
+    "Gug4aXdHSf58nBbHwrSYenhgRyWqgSjYG6CHS7s5pump": "2026-07-20T18:17:25.530159+00:00",
+    "0x56C5Cd8381419134D54Bf251FDD2A09035d40148": "2026-07-20T18:17:26.372520+00:00"
   }
 }
