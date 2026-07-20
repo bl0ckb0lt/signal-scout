@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Dregwise",
-      "chain": "robinhood",
-      "address": "0x05F6c7d466507ea69e7A0132aD65fD544AaBb43D",
-      "source": "boost",
-      "entry_price": 0.0002217,
-      "peak_price": 0.0002217,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T17:00:32.617027+00:00",
-      "score": 96,
-      "status": "open"
-    },
-    {
       "symbol": "AnsemGirls",
       "chain": "solana",
       "address": "7VuK3QBoGyJeWio9RhNDWr7VhWrMAGrC5Tk1XJ3pump",
       "source": "new",
       "entry_price": 0.0001282,
-      "peak_price": 0.0001282,
+      "peak_price": 0.0001288,
       "trailing_active": false,
       "entry_time": "2026-07-20T17:00:35.989688+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.47,
+      "peak_volume_m5": 54115.16,
+      "milestones_hit": []
     },
     {
       "symbol": "FILL",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-20T17:00:37.440121+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.39,
+      "peak_volume_m5": 3099.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -60294,6 +60290,25 @@
       "exit_price": 0.0003388,
       "exit_pct": -16.16,
       "exit_time": "2026-07-20T16:52:21.181310+00:00"
+    },
+    {
+      "symbol": "Dregwise",
+      "chain": "robinhood",
+      "address": "0x05F6c7d466507ea69e7A0132aD65fD544AaBb43D",
+      "source": "boost",
+      "entry_price": 0.0002217,
+      "peak_price": 0.0002217,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T17:00:32.617027+00:00",
+      "score": 96,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.47,
+      "peak_volume_m5": 26989.06,
+      "milestones_hit": [],
+      "exit_price": 0.0001608,
+      "exit_pct": -27.47,
+      "exit_time": "2026-07-20T17:01:22.896598+00:00"
     }
   ],
   "alerted": {
@@ -63337,7 +63352,7 @@
     "HHcXBLbnuSWdYigNgiYDmPhuwwRzTCB73CmyJ8M7pump": "2026-07-20T14:11:20.515881+00:00",
     "0x38fcdd37e1e45A1cad455f6af091183173748D9e": "2026-07-20T14:21:18.222273+00:00",
     "GcgjcMEigVkDaMNDR4Xg97zrTuJwG3TGYZLiG9sXpump": "2026-07-20T14:51:18.653405+00:00",
-    "0x05F6c7d466507ea69e7A0132aD65fD544AaBb43D": "2026-07-20T14:52:18.415748+00:00",
+    "0x05F6c7d466507ea69e7A0132aD65fD544AaBb43D": "2026-07-20T17:01:22.896598+00:00",
     "3FXkeXPYcvdN3aPVL941XqCyfkPRjVVXW9PKuNdppump": "2026-07-20T15:12:19.447818+00:00",
     "0xEd73d21eB01c93d43623E2f5B6a085e9f82032Dd": "2026-07-20T15:31:21.266383+00:00",
     "CvP9vVUCpoDuMd2jg5qvakFsk8Ht4qQwmKtZTMeUpump": "2026-07-20T15:48:20.802741+00:00",
