@@ -8,14 +8,14 @@
       "address": "H55qUAeK313XyTrhxeMVQgBrogdGG9biyAVfmDQipump",
       "source": "new",
       "entry_price": 0.0001828,
-      "peak_price": 0.0002198,
+      "peak_price": 0.0002241,
       "trailing_active": true,
       "entry_time": "2026-07-20T20:30:32.055467+00:00",
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 20.24,
-      "peak_volume_m5": 34665.65,
+      "current_pct": 22.59,
+      "peak_volume_m5": 35982.71,
       "milestones_hit": []
     },
     {
@@ -24,35 +24,15 @@
       "address": "DaX4NeMWwN74VcbmrgzoX4FAVdkHouJD5LqTThBmpump",
       "source": "new",
       "entry_price": 0.0002406,
-      "peak_price": 0.0002406,
+      "peak_price": 0.0002674,
       "trailing_active": false,
       "entry_time": "2026-07-20T20:40:29.676828+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "lifemaxx",
-      "chain": "solana",
-      "address": "5CNRQ67TQnqbiVrvcKBEokSSaiFL9WuHk2wn6UPxpump",
-      "source": "new",
-      "entry_price": 0.0001671,
-      "peak_price": 0.0001671,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T20:40:33.270335+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "RUN",
-      "chain": "robinhood",
-      "address": "0x93a6E25EF582e7ba4C65076CaD40A7E4C4557036",
-      "source": "new",
-      "entry_price": 0.0002862,
-      "peak_price": 0.0002862,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T20:40:34.642201+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.14,
+      "peak_volume_m5": 36025.5,
+      "milestones_hit": []
     },
     {
       "symbol": "Jimhood",
@@ -60,11 +40,15 @@
       "address": "6wCpTaxLmCeBdsazRebYNHtFNC1mPJDWKscHHVwkpump",
       "source": "new",
       "entry_price": 0.000157,
-      "peak_price": 0.000157,
+      "peak_price": 0.0001611,
       "trailing_active": false,
       "entry_time": "2026-07-20T20:40:37.947740+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.61,
+      "peak_volume_m5": 26224.27,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -60865,6 +60849,44 @@
       "exit_price": 0.0001134,
       "exit_pct": -16.8,
       "exit_time": "2026-07-20T20:31:22.373444+00:00"
+    },
+    {
+      "symbol": "lifemaxx",
+      "chain": "solana",
+      "address": "5CNRQ67TQnqbiVrvcKBEokSSaiFL9WuHk2wn6UPxpump",
+      "source": "new",
+      "entry_price": 0.0001671,
+      "peak_price": 0.0001671,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T20:40:33.270335+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.25,
+      "peak_volume_m5": 52453.1,
+      "milestones_hit": [],
+      "exit_price": 0.0001366,
+      "exit_pct": -18.25,
+      "exit_time": "2026-07-20T20:41:30.165178+00:00"
+    },
+    {
+      "symbol": "RUN",
+      "chain": "robinhood",
+      "address": "0x93a6E25EF582e7ba4C65076CaD40A7E4C4557036",
+      "source": "new",
+      "entry_price": 0.0002862,
+      "peak_price": 0.0002862,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T20:40:34.642201+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.02,
+      "peak_volume_m5": 176599.92,
+      "milestones_hit": [],
+      "exit_price": 0.0002289,
+      "exit_pct": -20.02,
+      "exit_time": "2026-07-20T20:41:31.184744+00:00"
     }
   ],
   "alerted": {
@@ -63943,6 +63965,8 @@
     "0xE92405bCB5e209170c15fe88946FB3A958d92A9B": "2026-07-20T19:59:20.243699+00:00",
     "0x8e2bc499F800c00f22e917F6fAc18D951089b96f": "2026-07-20T20:11:15.662381+00:00",
     "0x6857012c7764FD4554448F327dd37A40FAAa8036": "2026-07-20T20:15:46.291029+00:00",
-    "0xe6998682159741F74e924Df6a64A0E4714D1de1F": "2026-07-20T20:31:22.373444+00:00"
+    "0xe6998682159741F74e924Df6a64A0E4714D1de1F": "2026-07-20T20:31:22.373444+00:00",
+    "5CNRQ67TQnqbiVrvcKBEokSSaiFL9WuHk2wn6UPxpump": "2026-07-20T20:41:30.165178+00:00",
+    "0x93a6E25EF582e7ba4C65076CaD40A7E4C4557036": "2026-07-20T20:41:31.184744+00:00"
   }
 }
