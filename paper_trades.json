@@ -1,36 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "HAYLORD",
-      "chain": "base",
-      "address": "0xb200000000000000000000DfEa18f58CD9ADBC01",
-      "source": "new",
-      "entry_price": 0.0001382,
-      "peak_price": 0.0001393,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T17:40:36.389661+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.7,
-      "peak_volume_m5": 23969.62,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MERAKI",
-      "chain": "robinhood",
-      "address": "0x5ABCa8797404E8c870f24f61B3CCd0ED612C98ef",
-      "source": "new",
-      "entry_price": 9.241e-05,
-      "peak_price": 9.241e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T17:50:26.668852+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -60383,6 +60354,44 @@
       "exit_price": 5.051e-05,
       "exit_pct": -29.34,
       "exit_time": "2026-07-20T17:41:23.455424+00:00"
+    },
+    {
+      "symbol": "HAYLORD",
+      "chain": "base",
+      "address": "0xb200000000000000000000DfEa18f58CD9ADBC01",
+      "source": "new",
+      "entry_price": 0.0001382,
+      "peak_price": 0.0001393,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T17:40:36.389661+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.07,
+      "peak_volume_m5": 23969.62,
+      "milestones_hit": [],
+      "exit_price": 0.0001312,
+      "exit_pct": -5.07,
+      "exit_time": "2026-07-20T17:50:55.631477+00:00"
+    },
+    {
+      "symbol": "MERAKI",
+      "chain": "robinhood",
+      "address": "0x5ABCa8797404E8c870f24f61B3CCd0ED612C98ef",
+      "source": "new",
+      "entry_price": 9.241e-05,
+      "peak_price": 9.241e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T17:50:26.668852+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.28,
+      "peak_volume_m5": 62941.97,
+      "milestones_hit": [],
+      "exit_price": 8.383e-05,
+      "exit_pct": -9.28,
+      "exit_time": "2026-07-20T17:50:56.453536+00:00"
     }
   ],
   "alerted": {
@@ -63438,6 +63447,8 @@
     "0x7f0404070cf6FB703af9f3B89f84Af3FFE2A54B3": "2026-07-20T17:02:21.570565+00:00",
     "7VuK3QBoGyJeWio9RhNDWr7VhWrMAGrC5Tk1XJ3pump": "2026-07-20T17:11:18.377203+00:00",
     "0x91908651EB47D5593636732c625f481552384a71": "2026-07-20T17:30:19.658625+00:00",
-    "0xC9D6e3D16F22b73E420551505c714F9174534Bc8": "2026-07-20T17:41:23.455424+00:00"
+    "0xC9D6e3D16F22b73E420551505c714F9174534Bc8": "2026-07-20T17:41:23.455424+00:00",
+    "0xb200000000000000000000DfEa18f58CD9ADBC01": "2026-07-20T17:50:55.631477+00:00",
+    "0x5ABCa8797404E8c870f24f61B3CCd0ED612C98ef": "2026-07-20T17:50:56.453536+00:00"
   }
 }
