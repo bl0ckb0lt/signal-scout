@@ -3,28 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "LOP",
-      "chain": "robinhood",
-      "address": "0x65039DF5786f3BBB80C02DdfBE6874dc481EF6FE",
-      "source": "new",
-      "entry_price": 0.0001029,
-      "peak_price": 0.0001029,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T12:40:26.316119+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "STURNA",
       "chain": "robinhood",
       "address": "0xbb1225F5031E3F94C60405Eb969B8F1E4BEef46E",
       "source": "new",
       "entry_price": 9.245e-05,
-      "peak_price": 9.245e-05,
-      "trailing_active": false,
+      "peak_price": 0.000187,
+      "trailing_active": true,
       "entry_time": "2026-07-20T12:40:27.705437+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 102.27,
+      "peak_volume_m5": 19130.42,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -59937,6 +59932,25 @@
       "exit_price": 0.0001273,
       "exit_pct": -14.85,
       "exit_time": "2026-07-20T12:27:19.197275+00:00"
+    },
+    {
+      "symbol": "LOP",
+      "chain": "robinhood",
+      "address": "0x65039DF5786f3BBB80C02DdfBE6874dc481EF6FE",
+      "source": "new",
+      "entry_price": 0.0001029,
+      "peak_price": 0.0001029,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T12:40:26.316119+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.41,
+      "peak_volume_m5": 30754.51,
+      "milestones_hit": [],
+      "exit_price": 8.601e-05,
+      "exit_pct": -16.41,
+      "exit_time": "2026-07-20T12:43:27.182497+00:00"
     }
   ],
   "alerted": {
@@ -62970,6 +62984,7 @@
     "0xEd88fd767eb5527a107Ad0B4a36B82cBd50ff9D4": "2026-07-20T12:12:20.206518+00:00",
     "0xDB87393727b666c43f5aecB03d8B419bA54D9b03": "2026-07-20T12:15:43.673605+00:00",
     "0x35d628c2e4bde1c1fD35d817e21c29FAd1d758A1": "2026-07-20T12:18:19.235570+00:00",
-    "0x745045066bA99702B2A65c9A0C94d48eBa50FdfE": "2026-07-20T12:27:19.197275+00:00"
+    "0x745045066bA99702B2A65c9A0C94d48eBa50FdfE": "2026-07-20T12:27:19.197275+00:00",
+    "0x65039DF5786f3BBB80C02DdfBE6874dc481EF6FE": "2026-07-20T12:43:27.182497+00:00"
   }
 }
