@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANON",
-      "chain": "robinhood",
-      "address": "0xcb47E78bBDc681d9ec65386d77E5d4E6B1f4f63f",
-      "source": "new",
-      "entry_price": 4.362e-05,
-      "peak_price": 4.537e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T05:30:31.124176+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.01,
-      "peak_volume_m5": 14815.99,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Zucchini",
       "chain": "robinhood",
       "address": "0x391c1DC7C6DC93B4fa9CD84016446b4FC159E76A",
       "source": "new",
       "entry_price": 3.864e-05,
-      "peak_price": 3.864e-05,
+      "peak_price": 4.34e-05,
       "trailing_active": false,
       "entry_time": "2026-07-20T05:40:28.100879+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.32,
+      "peak_volume_m5": 17500.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -59294,6 +59282,25 @@
       "exit_price": 0.0001063,
       "exit_pct": 112.94,
       "exit_time": "2026-07-20T04:51:19.857332+00:00"
+    },
+    {
+      "symbol": "ANON",
+      "chain": "robinhood",
+      "address": "0xcb47E78bBDc681d9ec65386d77E5d4E6B1f4f63f",
+      "source": "new",
+      "entry_price": 4.362e-05,
+      "peak_price": 4.537e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T05:30:31.124176+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.28,
+      "peak_volume_m5": 17157.7,
+      "milestones_hit": [],
+      "exit_price": 3.739e-05,
+      "exit_pct": -14.28,
+      "exit_time": "2026-07-20T05:41:17.904846+00:00"
     }
   ],
   "alerted": {
@@ -62295,6 +62302,7 @@
     "89gZQFtEe3RJctXghdbEmht8SV2vQvcN4DNyjmappump": "2026-07-20T04:12:20.245858+00:00",
     "0x237c79C93c3EB8C61a2a2a7465a851B0381b8ba3": "2026-07-20T04:43:21.342412+00:00",
     "0x6c4a8e0a201d11281fE2F3Eee00B9B71CcFfc878": "2026-07-20T04:44:17.695848+00:00",
-    "0x3e8a5279E71b6F09b7C798A6dC388a491518e76E": "2026-07-20T04:51:19.857332+00:00"
+    "0x3e8a5279E71b6F09b7C798A6dC388a491518e76E": "2026-07-20T04:51:19.857332+00:00",
+    "0xcb47E78bBDc681d9ec65386d77E5d4E6B1f4f63f": "2026-07-20T05:41:17.904846+00:00"
   }
 }
