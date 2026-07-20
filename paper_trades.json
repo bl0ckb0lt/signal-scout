@@ -8,13 +8,13 @@
       "address": "0x286432947d75f357941a0fC68a472766a521d0af",
       "source": "new",
       "entry_price": 0.0001776,
-      "peak_price": 0.0005715,
+      "peak_price": 0.0006209,
       "trailing_active": true,
       "entry_time": "2026-07-20T18:00:34.672565+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 221.79,
+      "current_pct": 249.61,
       "peak_volume_m5": 20543.86,
       "milestones_hit": [
         200,
@@ -28,11 +28,15 @@
       "address": "5v4Apahd9MZVUWt5qn5MV4ZsbsuRWavbvfmmwVkNpump",
       "source": "new",
       "entry_price": 0.001264,
-      "peak_price": 0.001264,
-      "trailing_active": false,
+      "peak_price": 0.001463,
+      "trailing_active": true,
       "entry_time": "2026-07-20T18:20:31.822573+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.74,
+      "peak_volume_m5": 149253.87,
+      "milestones_hit": []
     },
     {
       "symbol": "WHALE",
@@ -40,35 +44,15 @@
       "address": "4rABHLfm7BDkkjrkyPYtRadg2BZTEZVoEy3MzrFQpump",
       "source": "boost",
       "entry_price": 0.0001533,
-      "peak_price": 0.0001533,
+      "peak_price": 0.0001544,
       "trailing_active": false,
       "entry_time": "2026-07-20T18:20:35.683056+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "PIXCOON",
-      "chain": "solana",
-      "address": "6BCxUXKUoD2jUK8BSFCQP8B4kfM3Vo6m8VpQFoz6pump",
-      "source": "new",
-      "entry_price": 0.000134,
-      "peak_price": 0.000134,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T18:20:37.805059+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "HDEX",
-      "chain": "robinhood",
-      "address": "0x7feb778cB04062525b4F8fCe491e5F80D28Ee7CB",
-      "source": "new",
-      "entry_price": 0.0002362,
-      "peak_price": 0.0002362,
-      "trailing_active": false,
-      "entry_time": "2026-07-20T18:20:41.384705+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.72,
+      "peak_volume_m5": 12926.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -60521,6 +60505,44 @@
       "exit_price": 0.0002613,
       "exit_pct": 80.46,
       "exit_time": "2026-07-20T18:17:26.372520+00:00"
+    },
+    {
+      "symbol": "PIXCOON",
+      "chain": "solana",
+      "address": "6BCxUXKUoD2jUK8BSFCQP8B4kfM3Vo6m8VpQFoz6pump",
+      "source": "new",
+      "entry_price": 0.000134,
+      "peak_price": 0.000134,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T18:20:37.805059+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.46,
+      "peak_volume_m5": 112153.84,
+      "milestones_hit": [],
+      "exit_price": 0.0001106,
+      "exit_pct": -17.46,
+      "exit_time": "2026-07-20T18:21:17.485349+00:00"
+    },
+    {
+      "symbol": "HDEX",
+      "chain": "robinhood",
+      "address": "0x7feb778cB04062525b4F8fCe491e5F80D28Ee7CB",
+      "source": "new",
+      "entry_price": 0.0002362,
+      "peak_price": 0.0002362,
+      "trailing_active": false,
+      "entry_time": "2026-07-20T18:20:41.384705+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.65,
+      "peak_volume_m5": 2870.02,
+      "milestones_hit": [],
+      "exit_price": 0.0001945,
+      "exit_pct": -17.65,
+      "exit_time": "2026-07-20T18:21:18.259732+00:00"
     }
   ],
   "alerted": {
@@ -63581,6 +63603,8 @@
     "0x5ABCa8797404E8c870f24f61B3CCd0ED612C98ef": "2026-07-20T17:50:56.453536+00:00",
     "98KqVYXFNeAC5SuvmC2PXcf6e5dXcqh4nJiGKiCmpump": "2026-07-20T18:13:22.316808+00:00",
     "Gug4aXdHSf58nBbHwrSYenhgRyWqgSjYG6CHS7s5pump": "2026-07-20T18:17:25.530159+00:00",
-    "0x56C5Cd8381419134D54Bf251FDD2A09035d40148": "2026-07-20T18:17:26.372520+00:00"
+    "0x56C5Cd8381419134D54Bf251FDD2A09035d40148": "2026-07-20T18:17:26.372520+00:00",
+    "6BCxUXKUoD2jUK8BSFCQP8B4kfM3Vo6m8VpQFoz6pump": "2026-07-20T18:21:17.485349+00:00",
+    "0x7feb778cB04062525b4F8fCe491e5F80D28Ee7CB": "2026-07-20T18:21:18.259732+00:00"
   }
 }
