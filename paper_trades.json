@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "REAL",
-      "chain": "robinhood",
-      "address": "0x9A14011feC230E268a898Ce700bb3937b3B12637",
-      "source": "boost",
-      "entry_price": 8.596e-05,
-      "peak_price": 8.596e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-21T08:30:28.539651+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "regard",
       "chain": "robinhood",
       "address": "0x1515A93dDd10Abf42807f6117AB9b51920528E0b",
       "source": "new",
       "entry_price": 5.128e-05,
-      "peak_price": 5.128e-05,
-      "trailing_active": false,
+      "peak_price": 6.815e-05,
+      "trailing_active": true,
       "entry_time": "2026-07-21T08:30:29.884875+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.9,
+      "peak_volume_m5": 45333.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -61928,6 +61920,25 @@
       "exit_price": 0.0002338,
       "exit_pct": 42.3,
       "exit_time": "2026-07-21T08:25:45.683014+00:00"
+    },
+    {
+      "symbol": "REAL",
+      "chain": "robinhood",
+      "address": "0x9A14011feC230E268a898Ce700bb3937b3B12637",
+      "source": "boost",
+      "entry_price": 8.596e-05,
+      "peak_price": 8.596e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-21T08:30:28.539651+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.84,
+      "peak_volume_m5": 13757.35,
+      "milestones_hit": [],
+      "exit_price": 7.492e-05,
+      "exit_pct": -12.84,
+      "exit_time": "2026-07-21T08:31:15.711604+00:00"
     }
   ],
   "alerted": {
@@ -65060,6 +65071,7 @@
     "0x868F5f475dae2FF709d3719FbE515148AABD9252": "2026-07-21T06:44:17.100614+00:00",
     "0xDae574d95eA1bb30c94255a07e733EC62BE75dDF": "2026-07-21T06:54:21.266639+00:00",
     "0xF842C0C8Fd97cd672e31Ca9101FE0B53B9082285": "2026-07-21T07:05:24.097571+00:00",
-    "0x754823FAE9e50D2327d5F3a72eA4b585160d6bd1": "2026-07-21T08:25:45.683014+00:00"
+    "0x754823FAE9e50D2327d5F3a72eA4b585160d6bd1": "2026-07-21T08:25:45.683014+00:00",
+    "0x9A14011feC230E268a898Ce700bb3937b3B12637": "2026-07-21T08:31:15.711604+00:00"
   }
 }
