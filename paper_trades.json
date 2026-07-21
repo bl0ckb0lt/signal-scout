@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "OSR",
-      "chain": "robinhood",
-      "address": "0xfb6b133aE4D0Dde1f00801D74235D8170E48a13B",
-      "source": "new",
-      "entry_price": 7.735e-05,
-      "peak_price": 7.735e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-21T21:20:29.746765+00:00",
-      "score": 64,
-      "status": "open"
-    },
-    {
       "symbol": "KOYUKI",
       "chain": "robinhood",
       "address": "0x560158077aE296180024E1068B4C407d4E2798d2",
       "source": "new",
       "entry_price": 0.0001102,
-      "peak_price": 0.0001102,
+      "peak_price": 0.0001137,
       "trailing_active": false,
       "entry_time": "2026-07-21T21:20:31.795417+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.18,
+      "peak_volume_m5": 11929.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -62898,6 +62890,25 @@
       "exit_price": 8.678e-05,
       "exit_pct": -13.0,
       "exit_time": "2026-07-21T20:01:17.987526+00:00"
+    },
+    {
+      "symbol": "OSR",
+      "chain": "robinhood",
+      "address": "0xfb6b133aE4D0Dde1f00801D74235D8170E48a13B",
+      "source": "new",
+      "entry_price": 7.735e-05,
+      "peak_price": 7.735e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-21T21:20:29.746765+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.29,
+      "peak_volume_m5": 23349.21,
+      "milestones_hit": [],
+      "exit_price": 7.094e-05,
+      "exit_pct": -8.29,
+      "exit_time": "2026-07-21T21:22:22.095117+00:00"
     }
   ],
   "alerted": {
@@ -66080,6 +66091,7 @@
     "0x98e58516CC01cF1eB34Ac6E0456697F0b1113Eb2": "2026-07-21T19:31:20.191108+00:00",
     "0x7149463E876D308901fB659E83227e23210D89ae": "2026-07-21T19:36:20.245974+00:00",
     "0x65A30dE61680cE240EeAB89104C4025892d1D4e9": "2026-07-21T19:58:18.391274+00:00",
-    "0x713052e72B35b8C5cD1c0C7C852a30437A437777": "2026-07-21T20:01:17.987526+00:00"
+    "0x713052e72B35b8C5cD1c0C7C852a30437A437777": "2026-07-21T20:01:17.987526+00:00",
+    "0xfb6b133aE4D0Dde1f00801D74235D8170E48a13B": "2026-07-21T21:22:22.095117+00:00"
   }
 }
