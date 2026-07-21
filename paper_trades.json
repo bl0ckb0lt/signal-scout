@@ -3,28 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "LENDS",
-      "chain": "robinhood",
-      "address": "0xe87ED1807091b006B1741a49304eFd3875C96402",
-      "source": "new",
-      "entry_price": 3.493e-05,
-      "peak_price": 3.493e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-21T06:00:30.427625+00:00",
-      "score": 64,
-      "status": "open"
-    },
-    {
       "symbol": "CURATA",
       "chain": "robinhood",
       "address": "0x9941E38Ffc9c1766085248f05B3F392Dd4717A0b",
       "source": "new",
       "entry_price": 0.0001205,
-      "peak_price": 0.0001205,
-      "trailing_active": false,
+      "peak_price": 0.000252,
+      "trailing_active": true,
       "entry_time": "2026-07-21T06:00:31.797675+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 109.13,
+      "peak_volume_m5": 81505.58,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -61754,6 +61749,25 @@
       "exit_price": 0.000384,
       "exit_pct": 4.58,
       "exit_time": "2026-07-21T05:50:23.596816+00:00"
+    },
+    {
+      "symbol": "LENDS",
+      "chain": "robinhood",
+      "address": "0xe87ED1807091b006B1741a49304eFd3875C96402",
+      "source": "new",
+      "entry_price": 3.493e-05,
+      "peak_price": 3.493e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-21T06:00:30.427625+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.23,
+      "peak_volume_m5": 17821.08,
+      "milestones_hit": [],
+      "exit_price": 2.053e-05,
+      "exit_pct": -41.23,
+      "exit_time": "2026-07-21T06:02:17.324956+00:00"
     }
   ],
   "alerted": {
@@ -64878,6 +64892,7 @@
     "0x8325628de19c0774670C37d4Cc6473f34E3640F9": "2026-07-21T04:35:39.715682+00:00",
     "0x30744dB73120c6fD001006002b44c42FAF6b891D": "2026-07-21T05:00:25.262219+00:00",
     "DyYKkL89P56gUr7jwNWwKDgoxj65e4gbzVtHM5GFpump": "2026-07-21T05:42:20.214822+00:00",
-    "0x04e809450b22e14bfA5d09f01F24DE865dBd0dE6": "2026-07-21T05:50:23.596816+00:00"
+    "0x04e809450b22e14bfA5d09f01F24DE865dBd0dE6": "2026-07-21T05:50:23.596816+00:00",
+    "0xe87ED1807091b006B1741a49304eFd3875C96402": "2026-07-21T06:02:17.324956+00:00"
   }
 }
