@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RobinCard",
-      "chain": "robinhood",
-      "address": "0xFD446D8973238d07e415F4b0f04fb06258c45231",
-      "source": "boost",
-      "entry_price": 7.098e-05,
-      "peak_price": 0.0001009,
-      "trailing_active": true,
-      "entry_time": "2026-07-21T13:50:29.064385+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 42.15,
-      "peak_volume_m5": 28709.32,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BABYJIMOTHY",
       "chain": "solana",
       "address": "GEPfztBZqdh8nZHaPsRxd4UzzwAc8wJRQvC9Rkuxpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-21T14:00:38.607377+00:00",
       "score": 84,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 16644.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -62290,6 +62278,25 @@
       "exit_price": 0.0001636,
       "exit_pct": -31.83,
       "exit_time": "2026-07-21T13:21:21.577694+00:00"
+    },
+    {
+      "symbol": "RobinCard",
+      "chain": "robinhood",
+      "address": "0xFD446D8973238d07e415F4b0f04fb06258c45231",
+      "source": "boost",
+      "entry_price": 7.098e-05,
+      "peak_price": 0.0001009,
+      "trailing_active": true,
+      "entry_time": "2026-07-21T13:50:29.064385+00:00",
+      "score": 81,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 8.42,
+      "peak_volume_m5": 30926.42,
+      "milestones_hit": [],
+      "exit_price": 7.696e-05,
+      "exit_pct": 8.42,
+      "exit_time": "2026-07-21T14:01:20.271405+00:00"
     }
   ],
   "alerted": {
@@ -65440,6 +65447,7 @@
     "9Mn2t7yX2TmSSMEsQqDnFvcmNAGVCPhjevXpKfqgpump": "2026-07-21T13:05:16.595577+00:00",
     "0x0655b4530A121ee64f3639F74D87c06B03313fCD": "2026-07-21T13:06:20.639555+00:00",
     "0x71C10C85FB19748ed526b01212e4f3D6D0DFF997": "2026-07-21T13:17:16.867279+00:00",
-    "0xA9Ffbf875A3b1eaaE72A7bFDdDcf37D38A9133E3": "2026-07-21T13:21:21.577694+00:00"
+    "0xA9Ffbf875A3b1eaaE72A7bFDdDcf37D38A9133E3": "2026-07-21T13:21:21.577694+00:00",
+    "0xFD446D8973238d07e415F4b0f04fb06258c45231": "2026-07-21T14:01:20.271405+00:00"
   }
 }
