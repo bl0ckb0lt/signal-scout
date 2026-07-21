@@ -8,23 +8,15 @@
       "address": "0x127121b7dBFdb0E866Ef43E102C0BF8630EBa6a9",
       "source": "new",
       "entry_price": 0.0005215,
-      "peak_price": 0.0005215,
-      "trailing_active": false,
+      "peak_price": 0.0007682,
+      "trailing_active": true,
       "entry_time": "2026-07-21T17:20:32.005998+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "USEDTESLA",
-      "chain": "robinhood",
-      "address": "0x055b0c5E1A07C2352961B93353eCB634c36B2a14",
-      "source": "new",
-      "entry_price": 0.0005095,
-      "peak_price": 0.0005095,
-      "trailing_active": false,
-      "entry_time": "2026-07-21T17:20:33.664609+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 47.31,
+      "peak_volume_m5": 52132.57,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -62647,6 +62639,25 @@
       "exit_price": 6.911e-05,
       "exit_pct": -17.39,
       "exit_time": "2026-07-21T16:52:19.195281+00:00"
+    },
+    {
+      "symbol": "USEDTESLA",
+      "chain": "robinhood",
+      "address": "0x055b0c5E1A07C2352961B93353eCB634c36B2a14",
+      "source": "new",
+      "entry_price": 0.0005095,
+      "peak_price": 0.0005095,
+      "trailing_active": false,
+      "entry_time": "2026-07-21T17:20:33.664609+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.69,
+      "peak_volume_m5": 20304.26,
+      "milestones_hit": [],
+      "exit_price": 0.0004805,
+      "exit_pct": -5.69,
+      "exit_time": "2026-07-21T17:28:21.718384+00:00"
     }
   ],
   "alerted": {
@@ -65816,6 +65827,7 @@
     "0xC0e419a3d1B696eA966CfF43227130F95bc82F13": "2026-07-21T16:23:17.640055+00:00",
     "0x14daD3F05F7e25ee79B780119db96baA6B30e7c0": "2026-07-21T16:27:22.637325+00:00",
     "0xaF93662a745DA53BEaB366b343Ea55D8303FA9F5": "2026-07-21T16:51:18.724725+00:00",
-    "0xA54c304380D9231973507A4427A76730310F404E": "2026-07-21T16:52:19.195281+00:00"
+    "0xA54c304380D9231973507A4427A76730310F404E": "2026-07-21T16:52:19.195281+00:00",
+    "0x055b0c5E1A07C2352961B93353eCB634c36B2a14": "2026-07-21T17:28:21.718384+00:00"
   }
 }
