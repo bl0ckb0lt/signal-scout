@@ -8,23 +8,15 @@
       "address": "0xf5d7aC6b0F2BcA2346c39ca5224Bc409302d2524",
       "source": "new",
       "entry_price": 0.0001941,
-      "peak_price": 0.0001941,
+      "peak_price": 0.0002178,
       "trailing_active": false,
       "entry_time": "2026-07-22T10:40:37.375998+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "NOCASHCAT",
-      "chain": "robinhood",
-      "address": "0xAd967D551D3beDED892a5db294B41D9144B93451",
-      "source": "new",
-      "entry_price": 8.379e-05,
-      "peak_price": 8.379e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-22T10:40:39.017796+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.21,
+      "peak_volume_m5": 38261.55,
+      "milestones_hit": []
     },
     {
       "symbol": "FIRE",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-22T10:40:40.463544+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.8,
+      "peak_volume_m5": 4510.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -63960,6 +63956,25 @@
       "exit_price": 9.611e-05,
       "exit_pct": 6.2,
       "exit_time": "2026-07-22T10:12:22.071925+00:00"
+    },
+    {
+      "symbol": "NOCASHCAT",
+      "chain": "robinhood",
+      "address": "0xAd967D551D3beDED892a5db294B41D9144B93451",
+      "source": "new",
+      "entry_price": 8.379e-05,
+      "peak_price": 8.379e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-22T10:40:39.017796+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.57,
+      "peak_volume_m5": 14755.71,
+      "milestones_hit": [],
+      "exit_price": 5.985e-05,
+      "exit_pct": -28.57,
+      "exit_time": "2026-07-22T10:41:17.869702+00:00"
     }
   ],
   "alerted": {
@@ -67194,6 +67209,7 @@
     "3VK1F5r5aykheirDsqJYTsYKzgYxmmvcjQEB1Y5opump": "2026-07-22T08:58:18.090577+00:00",
     "0xc044b012254486967e021d96de65A9650856E1d5": "2026-07-22T09:27:16.502579+00:00",
     "6otTXQjeRdHDtWiw6d7YKS3KK6tkcLigVoa64CYBpump": "2026-07-22T10:02:28.645106+00:00",
-    "0xe5de10B2C34847bf0FB3D55f5e508e7bAc967639": "2026-07-22T10:12:22.071925+00:00"
+    "0xe5de10B2C34847bf0FB3D55f5e508e7bAc967639": "2026-07-22T10:12:22.071925+00:00",
+    "0xAd967D551D3beDED892a5db294B41D9144B93451": "2026-07-22T10:41:17.869702+00:00"
   }
 }
