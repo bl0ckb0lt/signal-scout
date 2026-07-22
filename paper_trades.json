@@ -8,14 +8,14 @@
       "address": "7W1RoWTN1ndnrtdufpWneT6JfTJVFFgseBiqDzAxpump",
       "source": "new",
       "entry_price": 0.0002288,
-      "peak_price": 0.0002483,
+      "peak_price": 0.00025,
       "trailing_active": false,
       "entry_time": "2026-07-22T17:20:32.930226+00:00",
       "score": 79,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.52,
-      "peak_volume_m5": 5417.32,
+      "current_pct": 9.27,
+      "peak_volume_m5": 6012.01,
       "milestones_hit": []
     },
     {
@@ -30,7 +30,7 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.17,
+      "current_pct": 13.79,
       "peak_volume_m5": 16322.43,
       "milestones_hit": []
     },
@@ -44,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-22T17:40:35.684510+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "RACC",
-      "chain": "solana",
-      "address": "Bb3q2gyesz1YrRzj6ZtFFHKCiHzSA3RLUiQDZKwZpump",
-      "source": "boost",
-      "entry_price": 0.0001551,
-      "peak_price": 0.0001551,
-      "trailing_active": false,
-      "entry_time": "2026-07-22T17:40:40.259277+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.53,
+      "peak_volume_m5": 35656.27,
+      "milestones_hit": []
     },
     {
       "symbol": "NOXA",
@@ -64,11 +56,15 @@
       "address": "0x940e5fBCAa64cf6a76C9f5Ccb726aaa67e7B4663",
       "source": "new",
       "entry_price": 0.0002277,
-      "peak_price": 0.0002277,
-      "trailing_active": false,
+      "peak_price": 0.0002669,
+      "trailing_active": true,
       "entry_time": "2026-07-22T17:40:42.937131+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.22,
+      "peak_volume_m5": 33092.52,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -64693,6 +64689,25 @@
       "exit_price": 0.0001654,
       "exit_pct": -12.21,
       "exit_time": "2026-07-22T17:34:16.203055+00:00"
+    },
+    {
+      "symbol": "RACC",
+      "chain": "solana",
+      "address": "Bb3q2gyesz1YrRzj6ZtFFHKCiHzSA3RLUiQDZKwZpump",
+      "source": "boost",
+      "entry_price": 0.0001551,
+      "peak_price": 0.0001551,
+      "trailing_active": false,
+      "entry_time": "2026-07-22T17:40:40.259277+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.44,
+      "peak_volume_m5": 9579.04,
+      "milestones_hit": [],
+      "exit_price": 0.0001389,
+      "exit_pct": -10.44,
+      "exit_time": "2026-07-22T17:41:21.568887+00:00"
     }
   ],
   "alerted": {
@@ -67963,6 +67978,7 @@
     "0xd981ed1E59244105b037334A937a83d695aB1E18": "2026-07-22T17:11:25.986097+00:00",
     "0x596AEcD327523250eCa5EE5e330cb4D5df2b1173": "2026-07-22T17:22:19.920646+00:00",
     "0x5eED45d9cD4c21280db5b190D9c263f086401b9D": "2026-07-22T17:28:17.147907+00:00",
-    "0x70a8B217C27DDa457543507701168223379Bb123": "2026-07-22T17:34:16.203055+00:00"
+    "0x70a8B217C27DDa457543507701168223379Bb123": "2026-07-22T17:34:16.203055+00:00",
+    "Bb3q2gyesz1YrRzj6ZtFFHKCiHzSA3RLUiQDZKwZpump": "2026-07-22T17:41:21.568887+00:00"
   }
 }
