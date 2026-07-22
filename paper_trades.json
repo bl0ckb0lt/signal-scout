@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "der Wald",
-      "chain": "robinhood",
-      "address": "0x089C14c840ecC98489B23E226fC11C1A1A0bc9E4",
-      "source": "boost",
-      "entry_price": 7.663e-05,
-      "peak_price": 8.043e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-22T03:50:32.587559+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.96,
-      "peak_volume_m5": 11635.78,
-      "milestones_hit": []
-    },
-    {
       "symbol": "JIMOTHIUS",
       "chain": "solana",
       "address": "GWVESyRBo7mMWJQhD69rK8bNHtwqeKWBQgt3ppdYpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-22T03:54:13.269016+00:00",
       "score": 91,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -11.89,
+      "peak_volume_m5": 37970.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -63446,6 +63434,25 @@
       "exit_price": 0.0002026,
       "exit_pct": 313.39,
       "exit_time": "2026-07-22T03:27:23.218569+00:00"
+    },
+    {
+      "symbol": "der Wald",
+      "chain": "robinhood",
+      "address": "0x089C14c840ecC98489B23E226fC11C1A1A0bc9E4",
+      "source": "boost",
+      "entry_price": 7.663e-05,
+      "peak_price": 8.043e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-22T03:50:32.587559+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.67,
+      "peak_volume_m5": 11635.78,
+      "milestones_hit": [],
+      "exit_price": 6.692e-05,
+      "exit_pct": -12.67,
+      "exit_time": "2026-07-22T03:57:19.861938+00:00"
     }
   ],
   "alerted": {
@@ -66656,6 +66663,7 @@
     "0x117729b219625D98F735A4e9E9F195D5cD6bDC7F": "2026-07-22T01:58:19.331939+00:00",
     "H2QT2dBoyhverFCukWX4VKcHJUv2WjcrzgLGCnAUpump": "2026-07-22T03:02:21.139085+00:00",
     "0x0fc5E28CdCb5B678A0CA2D5AF8F801A262a7e878": "2026-07-22T03:13:21.250811+00:00",
-    "0x1E5110aC4309ed2b76F316B4Ba046c77cCa4A940": "2026-07-22T03:27:23.218569+00:00"
+    "0x1E5110aC4309ed2b76F316B4Ba046c77cCa4A940": "2026-07-22T03:27:23.218569+00:00",
+    "0x089C14c840ecC98489B23E226fC11C1A1A0bc9E4": "2026-07-22T03:57:19.861938+00:00"
   }
 }
