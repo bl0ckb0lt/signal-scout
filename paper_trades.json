@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SWOLECAT",
-      "chain": "robinhood",
-      "address": "0x06d53a08119724d060ACff5aF3bABf47d7d8E7f8",
-      "source": "new",
-      "entry_price": 0.0001553,
-      "peak_price": 0.0001553,
-      "trailing_active": false,
-      "entry_time": "2026-07-22T15:40:32.397986+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "PonsV2",
       "chain": "robinhood",
       "address": "0xd6ea3E349277458B71C96215ed8D3A2D30f8B1d3",
       "source": "new",
       "entry_price": 0.0001246,
-      "peak_price": 0.0001246,
+      "peak_price": 0.0001411,
       "trailing_active": false,
       "entry_time": "2026-07-22T15:40:35.367706+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.24,
+      "peak_volume_m5": 55701.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -64438,6 +64430,25 @@
       "exit_price": 6.511e-05,
       "exit_pct": -5.38,
       "exit_time": "2026-07-22T15:35:40.289699+00:00"
+    },
+    {
+      "symbol": "SWOLECAT",
+      "chain": "robinhood",
+      "address": "0x06d53a08119724d060ACff5aF3bABf47d7d8E7f8",
+      "source": "new",
+      "entry_price": 0.0001553,
+      "peak_price": 0.0001553,
+      "trailing_active": false,
+      "entry_time": "2026-07-22T15:40:32.397986+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.51,
+      "peak_volume_m5": 20793.47,
+      "milestones_hit": [],
+      "exit_price": 0.0001219,
+      "exit_pct": -21.51,
+      "exit_time": "2026-07-22T15:42:21.977747+00:00"
     }
   ],
   "alerted": {
@@ -67697,6 +67708,7 @@
     "0xaF0e7e1De28b1b618A53026F4A732Eaf8914B4E6": "2026-07-22T15:01:49.207986+00:00",
     "0x5d6EF090a1461B11c9427aC319260122D1C61e18": "2026-07-22T15:19:16.806050+00:00",
     "0x9b9933B948719DeDC323F0ac3e81542dE2Bf1e18": "2026-07-22T15:35:39.617414+00:00",
-    "0x9DCB877d7aEaB544A9781ab37954B24491e4824b": "2026-07-22T15:35:40.289699+00:00"
+    "0x9DCB877d7aEaB544A9781ab37954B24491e4824b": "2026-07-22T15:35:40.289699+00:00",
+    "0x06d53a08119724d060ACff5aF3bABf47d7d8E7f8": "2026-07-22T15:42:21.977747+00:00"
   }
 }
