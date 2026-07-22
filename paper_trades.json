@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SWOLEDOGE",
-      "chain": "robinhood",
-      "address": "0x8ba03f21198f0fA28f801e5e82C61cBac126b565",
-      "source": "new",
-      "entry_price": 0.0001298,
-      "peak_price": 0.0001954,
-      "trailing_active": true,
-      "entry_time": "2026-07-22T13:30:33.832375+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 50.54,
-      "peak_volume_m5": 105601.46,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "Cowl",
       "chain": "solana",
       "address": "2Dgvn5ktX6DnEY4wEBrevCutgUxuZUtbzVHKXp78pump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-22T13:40:29.151718+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.39,
+      "peak_volume_m5": 35841.79,
+      "milestones_hit": []
     },
     {
       "symbol": "SAMECAT",
@@ -42,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-22T13:40:30.753694+00:00",
       "score": 81,
-      "status": "open"
-    },
-    {
-      "symbol": "SWOGE",
-      "chain": "robinhood",
-      "address": "0xDf42C8e615aafD490Ef176bA63362C954D8999FF",
-      "source": "new",
-      "entry_price": 0.0001549,
-      "peak_price": 0.0001549,
-      "trailing_active": false,
-      "entry_time": "2026-07-22T13:40:32.460800+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.54,
+      "peak_volume_m5": 56065.9,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -64195,6 +64173,46 @@
       "exit_price": 6.998e-05,
       "exit_pct": -23.37,
       "exit_time": "2026-07-22T13:23:27.635804+00:00"
+    },
+    {
+      "symbol": "SWOLEDOGE",
+      "chain": "robinhood",
+      "address": "0x8ba03f21198f0fA28f801e5e82C61cBac126b565",
+      "source": "new",
+      "entry_price": 0.0001298,
+      "peak_price": 0.0001954,
+      "trailing_active": true,
+      "entry_time": "2026-07-22T13:30:33.832375+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 31.74,
+      "peak_volume_m5": 105601.46,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000171,
+      "exit_pct": 31.74,
+      "exit_time": "2026-07-22T13:41:15.255833+00:00"
+    },
+    {
+      "symbol": "SWOGE",
+      "chain": "robinhood",
+      "address": "0xDf42C8e615aafD490Ef176bA63362C954D8999FF",
+      "source": "new",
+      "entry_price": 0.0001549,
+      "peak_price": 0.0001549,
+      "trailing_active": false,
+      "entry_time": "2026-07-22T13:40:32.460800+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.65,
+      "peak_volume_m5": 119505.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001384,
+      "exit_pct": -10.65,
+      "exit_time": "2026-07-22T13:41:16.602080+00:00"
     }
   ],
   "alerted": {
@@ -67440,6 +67458,8 @@
     "fyNzBzoWi9BoPCeZVWYwLmBu81JLSwZo8ZAi1kupump": "2026-07-22T12:18:20.166875+00:00",
     "0xe11abE0ebF91553939D297e0c76b7c0a12402B73": "2026-07-22T12:21:22.013440+00:00",
     "0xD7e19aF937Eb3dd9028Ef6B3ffa28E7fb50bf220": "2026-07-22T12:54:18.795849+00:00",
-    "0x4BfA058dD96060df4309B22d30d25E67ba677138": "2026-07-22T13:23:27.635804+00:00"
+    "0x4BfA058dD96060df4309B22d30d25E67ba677138": "2026-07-22T13:23:27.635804+00:00",
+    "0x8ba03f21198f0fA28f801e5e82C61cBac126b565": "2026-07-22T13:41:15.255833+00:00",
+    "0xDf42C8e615aafD490Ef176bA63362C954D8999FF": "2026-07-22T13:41:16.602080+00:00"
   }
 }
