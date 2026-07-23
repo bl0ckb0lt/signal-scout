@@ -3,47 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SPXR",
-      "chain": "robinhood",
-      "address": "0xDADEBbC91eD2ec82CCc9bA41c9971B56A81C3D89",
-      "source": "new",
-      "entry_price": 6.953e-05,
-      "peak_price": 0.0001653,
-      "trailing_active": true,
-      "entry_time": "2026-07-23T03:20:45.468233+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 137.74,
-      "peak_volume_m5": 54972.79,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "MAYA",
-      "chain": "solana",
-      "address": "GxSCeYibL7AFeDYQC1P2wR2pYFqAo7DvSR6imKqMpump",
-      "source": "new",
-      "entry_price": 0.0001572,
-      "peak_price": 0.0001572,
-      "trailing_active": false,
-      "entry_time": "2026-07-23T03:50:42.783400+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "GMEBULL",
       "chain": "robinhood",
       "address": "0x99B056DAa36d46B4EaAab943aC4375C391137611",
       "source": "new",
       "entry_price": 0.0002068,
-      "peak_price": 0.0002068,
+      "peak_price": 0.0002352,
       "trailing_active": false,
       "entry_time": "2026-07-23T03:50:45.734746+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.73,
+      "peak_volume_m5": 35485.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -65479,6 +65452,47 @@
       "exit_price": 8.483e-05,
       "exit_pct": 6.53,
       "exit_time": "2026-07-23T03:10:18.589959+00:00"
+    },
+    {
+      "symbol": "SPXR",
+      "chain": "robinhood",
+      "address": "0xDADEBbC91eD2ec82CCc9bA41c9971B56A81C3D89",
+      "source": "new",
+      "entry_price": 6.953e-05,
+      "peak_price": 0.0001653,
+      "trailing_active": true,
+      "entry_time": "2026-07-23T03:20:45.468233+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 42.5,
+      "peak_volume_m5": 54972.79,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 9.908e-05,
+      "exit_pct": 42.5,
+      "exit_time": "2026-07-23T03:51:16.158835+00:00"
+    },
+    {
+      "symbol": "MAYA",
+      "chain": "solana",
+      "address": "GxSCeYibL7AFeDYQC1P2wR2pYFqAo7DvSR6imKqMpump",
+      "source": "new",
+      "entry_price": 0.0001572,
+      "peak_price": 0.0001572,
+      "trailing_active": false,
+      "entry_time": "2026-07-23T03:50:42.783400+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.57,
+      "peak_volume_m5": 51786.81,
+      "milestones_hit": [],
+      "exit_price": 0.0001343,
+      "exit_pct": -14.57,
+      "exit_time": "2026-07-23T03:51:16.911513+00:00"
     }
   ],
   "alerted": {
@@ -68790,6 +68804,8 @@
     "EP8QJoR6LnMidjv818MWGs7Mm4hQR6vv1gNdT7NK4Lgy": "2026-07-23T01:54:20.335037+00:00",
     "0x0fa95297d9454c8DD71927FBA89B26445f557C4C": "2026-07-23T02:24:19.107354+00:00",
     "0x2A19e3C0AD116B74Be5AEad02C3e5a286C6Cc4bB": "2026-07-23T03:02:22.439587+00:00",
-    "0xe1B405A8071D1fc68FaD707368C5C23F750e9dd7": "2026-07-23T03:10:18.589959+00:00"
+    "0xe1B405A8071D1fc68FaD707368C5C23F750e9dd7": "2026-07-23T03:10:18.589959+00:00",
+    "0xDADEBbC91eD2ec82CCc9bA41c9971B56A81C3D89": "2026-07-23T03:51:16.158835+00:00",
+    "GxSCeYibL7AFeDYQC1P2wR2pYFqAo7DvSR6imKqMpump": "2026-07-23T03:51:16.911513+00:00"
   }
 }
