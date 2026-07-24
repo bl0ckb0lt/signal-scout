@@ -1,56 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "SmiskJim",
-      "chain": "solana",
-      "address": "GaEeBmh4YWs8RmCbrgoAfYWR1a4D3SexKVmZkvhZpump",
-      "source": "new",
-      "entry_price": 0.0001973,
-      "peak_price": 0.0001973,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T22:30:36.510757+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "DC",
-      "chain": "solana",
-      "address": "CR7gzSampCC76acKLE3P6M4FsL78i88eB6QQMW9Fpump",
-      "source": "new",
-      "entry_price": 0.0001305,
-      "peak_price": 0.0001305,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T22:30:38.146015+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "ORE",
-      "chain": "robinhood",
-      "address": "0x64D2EB7340a1Eed86Ee77402137F9475b205d04B",
-      "source": "new",
-      "entry_price": 0.000125,
-      "peak_price": 0.000125,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T22:30:40.837621+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "WAVE",
-      "chain": "robinhood",
-      "address": "0xBDE28FCDDA9f7379e7e447B6E8A779e928500450",
-      "source": "new",
-      "entry_price": 0.0001062,
-      "peak_price": 0.0001062,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T22:30:42.170824+00:00",
-      "score": 63,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -68459,6 +68410,82 @@
       "exit_price": 0.0007194,
       "exit_pct": 0.6,
       "exit_time": "2026-07-24T22:22:18.288016+00:00"
+    },
+    {
+      "symbol": "SmiskJim",
+      "chain": "solana",
+      "address": "GaEeBmh4YWs8RmCbrgoAfYWR1a4D3SexKVmZkvhZpump",
+      "source": "new",
+      "entry_price": 0.0001973,
+      "peak_price": 0.0001973,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T22:30:36.510757+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.18,
+      "peak_volume_m5": 79806.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001634,
+      "exit_pct": -17.18,
+      "exit_time": "2026-07-24T22:31:20.495616+00:00"
+    },
+    {
+      "symbol": "DC",
+      "chain": "solana",
+      "address": "CR7gzSampCC76acKLE3P6M4FsL78i88eB6QQMW9Fpump",
+      "source": "new",
+      "entry_price": 0.0001305,
+      "peak_price": 0.0001305,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T22:30:38.146015+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.46,
+      "peak_volume_m5": 140963.76,
+      "milestones_hit": [],
+      "exit_price": 0.0001051,
+      "exit_pct": -19.46,
+      "exit_time": "2026-07-24T22:31:21.255959+00:00"
+    },
+    {
+      "symbol": "ORE",
+      "chain": "robinhood",
+      "address": "0x64D2EB7340a1Eed86Ee77402137F9475b205d04B",
+      "source": "new",
+      "entry_price": 0.000125,
+      "peak_price": 0.000125,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T22:30:40.837621+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.12,
+      "peak_volume_m5": 74318.03,
+      "milestones_hit": [],
+      "exit_price": 0.0001111,
+      "exit_pct": -11.12,
+      "exit_time": "2026-07-24T22:31:21.948215+00:00"
+    },
+    {
+      "symbol": "WAVE",
+      "chain": "robinhood",
+      "address": "0xBDE28FCDDA9f7379e7e447B6E8A779e928500450",
+      "source": "new",
+      "entry_price": 0.0001062,
+      "peak_price": 0.0001062,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T22:30:42.170824+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -45.66,
+      "peak_volume_m5": 16447.09,
+      "milestones_hit": [],
+      "exit_price": 5.771e-05,
+      "exit_pct": -45.66,
+      "exit_time": "2026-07-24T22:31:22.659986+00:00"
     }
   ],
   "alerted": {
@@ -71921,6 +71948,10 @@
     "0x66175075f60C893456Ee6A0237ED0f548a9023A2": "2026-07-24T21:02:19.680289+00:00",
     "0xE62bEafF79E79EEf9F08f7fD47FEB6b96A04600D": "2026-07-24T21:22:27.745941+00:00",
     "0xD1B3A83dcd6Df251D9462E51505B27441970eDCE": "2026-07-24T21:42:16.941209+00:00",
-    "0x9516922a56171AB9834b88864d1010a6D8633296": "2026-07-24T22:11:22.261459+00:00"
+    "0x9516922a56171AB9834b88864d1010a6D8633296": "2026-07-24T22:11:22.261459+00:00",
+    "GaEeBmh4YWs8RmCbrgoAfYWR1a4D3SexKVmZkvhZpump": "2026-07-24T22:31:20.495616+00:00",
+    "CR7gzSampCC76acKLE3P6M4FsL78i88eB6QQMW9Fpump": "2026-07-24T22:31:21.255959+00:00",
+    "0x64D2EB7340a1Eed86Ee77402137F9475b205d04B": "2026-07-24T22:31:21.948215+00:00",
+    "0xBDE28FCDDA9f7379e7e447B6E8A779e928500450": "2026-07-24T22:31:22.659986+00:00"
   }
 }
