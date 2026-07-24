@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FRANKLIN",
-      "chain": "robinhood",
-      "address": "0x4ed47a804160619976359924Cae555aC2C9aDf6B",
-      "source": "new",
-      "entry_price": 7.484e-05,
-      "peak_price": 9.774e-05,
-      "trailing_active": true,
-      "entry_time": "2026-07-24T14:20:40.397725+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 30.6,
-      "peak_volume_m5": 23503.77,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Grumpy",
       "chain": "solana",
       "address": "DEB716JxwWmb2XmEJkEBoxm1SFYGg6g9Fg8rPCHepump",
       "source": "new",
       "entry_price": 0.0001537,
-      "peak_price": 0.0001537,
+      "peak_price": 0.0001571,
       "trailing_active": false,
       "entry_time": "2026-07-24T14:30:44.675745+00:00",
       "score": 91,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.21,
+      "peak_volume_m5": 17018.81,
+      "milestones_hit": []
     },
     {
       "symbol": "SOPHIE",
@@ -36,23 +24,15 @@
       "address": "QNBi65LcH4jzAty6D3ujLyCfxr4Mbk7qysi9W4upump",
       "source": "new",
       "entry_price": 0.0005526,
-      "peak_price": 0.0005526,
-      "trailing_active": false,
+      "peak_price": 0.0007314,
+      "trailing_active": true,
       "entry_time": "2026-07-24T14:30:46.385582+00:00",
       "score": 85,
-      "status": "open"
-    },
-    {
-      "symbol": "RSD",
-      "chain": "solana",
-      "address": "6UwZBfQCA1ac94qD9bGRnHyKxwxKSynjGh8FKuRxpump",
-      "source": "new",
-      "entry_price": 0.0001515,
-      "peak_price": 0.0001515,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T14:30:48.146442+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.36,
+      "peak_volume_m5": 85261.64,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -67768,6 +67748,44 @@
       "exit_price": 0.000125,
       "exit_pct": -8.36,
       "exit_time": "2026-07-24T13:51:21.706046+00:00"
+    },
+    {
+      "symbol": "FRANKLIN",
+      "chain": "robinhood",
+      "address": "0x4ed47a804160619976359924Cae555aC2C9aDf6B",
+      "source": "new",
+      "entry_price": 7.484e-05,
+      "peak_price": 9.774e-05,
+      "trailing_active": true,
+      "entry_time": "2026-07-24T14:20:40.397725+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 18.01,
+      "peak_volume_m5": 23503.77,
+      "milestones_hit": [],
+      "exit_price": 8.832e-05,
+      "exit_pct": 18.01,
+      "exit_time": "2026-07-24T14:32:18.114081+00:00"
+    },
+    {
+      "symbol": "RSD",
+      "chain": "solana",
+      "address": "6UwZBfQCA1ac94qD9bGRnHyKxwxKSynjGh8FKuRxpump",
+      "source": "new",
+      "entry_price": 0.0001515,
+      "peak_price": 0.0001515,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T14:30:48.146442+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.19,
+      "peak_volume_m5": 102316.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001103,
+      "exit_pct": -27.19,
+      "exit_time": "2026-07-24T14:32:20.064413+00:00"
     }
   ],
   "alerted": {
@@ -71195,6 +71213,8 @@
     "0xEF0c52CFA453c6b20ADB13b53fA28A501825ffFF": "2026-07-24T13:17:27.960068+00:00",
     "0xC057beaCBB3A0b9CC4af03cF9EA7F94a14093B13": "2026-07-24T13:18:19.798842+00:00",
     "0x9e996F9b2057A3F06eC0BE4cA2434a69a7036022": "2026-07-24T13:41:18.172310+00:00",
-    "0x846070D21148113CB3dfE13843F686A13987E7AE": "2026-07-24T13:51:21.706046+00:00"
+    "0x846070D21148113CB3dfE13843F686A13987E7AE": "2026-07-24T13:51:21.706046+00:00",
+    "0x4ed47a804160619976359924Cae555aC2C9aDf6B": "2026-07-24T14:32:18.114081+00:00",
+    "6UwZBfQCA1ac94qD9bGRnHyKxwxKSynjGh8FKuRxpump": "2026-07-24T14:32:20.064413+00:00"
   }
 }
