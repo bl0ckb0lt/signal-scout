@@ -8,11 +8,15 @@
       "address": "FC9zEaTNb1P6KD5FxV7G4GfddujekXmXswnL3taPpump",
       "source": "new",
       "entry_price": 0.0002866,
-      "peak_price": 0.0002866,
+      "peak_price": 0.0003003,
       "trailing_active": false,
       "entry_time": "2026-07-24T15:50:39.427844+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.78,
+      "peak_volume_m5": 14508.71,
+      "milestones_hit": []
     },
     {
       "symbol": "COBY",
@@ -20,11 +24,15 @@
       "address": "BQgedgDGRCPUDz3j7dMkWN8vjpp7PFoBv4YxSGoypump",
       "source": "new",
       "entry_price": 0.0001542,
-      "peak_price": 0.0001542,
+      "peak_price": 0.0001545,
       "trailing_active": false,
       "entry_time": "2026-07-24T15:50:41.080564+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.19,
+      "peak_volume_m5": 19753.58,
+      "milestones_hit": []
     },
     {
       "symbol": "Stockcoin",
@@ -32,23 +40,15 @@
       "address": "0xe52b60D7295e3757d05b763D7F67f5B04c207777",
       "source": "new",
       "entry_price": 0.0004013,
-      "peak_price": 0.0004013,
+      "peak_price": 0.000433,
       "trailing_active": false,
       "entry_time": "2026-07-24T15:50:42.494311+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "GTR",
-      "chain": "robinhood",
-      "address": "0x684618c70480A70637692A51A3a9398DFd7ab0f5",
-      "source": "new",
-      "entry_price": 0.002288,
-      "peak_price": 0.002288,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T15:50:43.864802+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.9,
+      "peak_volume_m5": 31699.7,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -67938,6 +67938,25 @@
       "exit_price": 0.0001651,
       "exit_pct": -5.93,
       "exit_time": "2026-07-24T15:48:26.284901+00:00"
+    },
+    {
+      "symbol": "GTR",
+      "chain": "robinhood",
+      "address": "0x684618c70480A70637692A51A3a9398DFd7ab0f5",
+      "source": "new",
+      "entry_price": 0.002288,
+      "peak_price": 0.002288,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T15:50:43.864802+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.91,
+      "peak_volume_m5": 232254.26,
+      "milestones_hit": [],
+      "exit_price": 0.001924,
+      "exit_pct": -15.91,
+      "exit_time": "2026-07-24T15:51:24.876124+00:00"
     }
   ],
   "alerted": {
@@ -71374,6 +71393,7 @@
     "HJQC4xW9k3gxstQ65UjAwq7D9EQ38NaJiQNayjPopump": "2026-07-24T14:48:16.169387+00:00",
     "0x8a874eC768dA488808f065E6e08028b1863315a5": "2026-07-24T14:51:23.012406+00:00",
     "G6ugqRMLLeBr4UmkmyyQ4sHSisC1z2DaUReHanifpump": "2026-07-24T15:14:15.961274+00:00",
-    "0x0Cb340e449Ab2c4cBCBB08021f6Ae1ae838F2Fe2": "2026-07-24T15:48:26.284901+00:00"
+    "0x0Cb340e449Ab2c4cBCBB08021f6Ae1ae838F2Fe2": "2026-07-24T15:48:26.284901+00:00",
+    "0x684618c70480A70637692A51A3a9398DFd7ab0f5": "2026-07-24T15:51:24.876124+00:00"
   }
 }
