@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Rupert",
-      "chain": "solana",
-      "address": "7DRgFDVNskjKK7nmYWuWYva49rH2H7yWzUXPBwKapump",
-      "source": "new",
-      "entry_price": 0.0001284,
-      "peak_price": 0.0001476,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T12:50:50.513016+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.29,
-      "peak_volume_m5": 42483.12,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HOODRAT",
       "chain": "robinhood",
       "address": "0xd846bf52dD1931199F76224c6719ED56ADb35618",
       "source": "new",
       "entry_price": 0.0001425,
-      "peak_price": 0.0001425,
-      "trailing_active": false,
+      "peak_price": 0.0001733,
+      "trailing_active": true,
       "entry_time": "2026-07-24T12:56:49.571438+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.61,
+      "peak_volume_m5": 12106.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -67627,6 +67615,25 @@
       "exit_price": 0.0001366,
       "exit_pct": 4.27,
       "exit_time": "2026-07-24T12:55:15.594748+00:00"
+    },
+    {
+      "symbol": "Rupert",
+      "chain": "solana",
+      "address": "7DRgFDVNskjKK7nmYWuWYva49rH2H7yWzUXPBwKapump",
+      "source": "new",
+      "entry_price": 0.0001284,
+      "peak_price": 0.0001476,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T12:50:50.513016+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.63,
+      "peak_volume_m5": 42483.12,
+      "milestones_hit": [],
+      "exit_price": 0.0001109,
+      "exit_pct": -13.63,
+      "exit_time": "2026-07-24T12:59:16.945653+00:00"
     }
   ],
   "alerted": {
@@ -71048,6 +71055,7 @@
     "7Cj9EczteUsSu1vgPXoLdVcxLqpCWwyYWn8kgwDwpump": "2026-07-24T11:11:19.147442+00:00",
     "FB44zC6s2jkysjaB2NC8u6XqwhPJwir1DYFzEhXbpump": "2026-07-24T12:02:18.497509+00:00",
     "Af72QENbvReeKywXQvi3GRgfWbKF8LdncwCjoQ9npump": "2026-07-24T12:53:22.229177+00:00",
-    "B7P99t3yDA7cfSrkiHsoG8ktWvroi4rFqHty326pump": "2026-07-24T12:55:15.594748+00:00"
+    "B7P99t3yDA7cfSrkiHsoG8ktWvroi4rFqHty326pump": "2026-07-24T12:55:15.594748+00:00",
+    "7DRgFDVNskjKK7nmYWuWYva49rH2H7yWzUXPBwKapump": "2026-07-24T12:59:16.945653+00:00"
   }
 }
