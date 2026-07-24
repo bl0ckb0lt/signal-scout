@@ -8,23 +8,18 @@
       "address": "0xC057beaCBB3A0b9CC4af03cF9EA7F94a14093B13",
       "source": "new",
       "entry_price": 2.591e-06,
-      "peak_price": 2.591e-06,
-      "trailing_active": false,
+      "peak_price": 6.262e-06,
+      "trailing_active": true,
       "entry_time": "2026-07-24T13:10:41.742161+00:00",
       "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "tutu",
-      "chain": "bsc",
-      "address": "0xEF0c52CFA453c6b20ADB13b53fA28A501825ffFF",
-      "source": "new",
-      "entry_price": 0.0003244,
-      "peak_price": 0.0003244,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T13:10:43.519878+00:00",
-      "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 141.68,
+      "peak_volume_m5": 201511.04,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -67661,6 +67656,25 @@
       "exit_price": 0.0001505,
       "exit_pct": 5.61,
       "exit_time": "2026-07-24T13:02:22.486182+00:00"
+    },
+    {
+      "symbol": "tutu",
+      "chain": "bsc",
+      "address": "0xEF0c52CFA453c6b20ADB13b53fA28A501825ffFF",
+      "source": "new",
+      "entry_price": 0.0003244,
+      "peak_price": 0.0003244,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T13:10:43.519878+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.73,
+      "peak_volume_m5": 15571.38,
+      "milestones_hit": [],
+      "exit_price": 0.0003058,
+      "exit_pct": -5.73,
+      "exit_time": "2026-07-24T13:17:27.960068+00:00"
     }
   ],
   "alerted": {
@@ -71084,6 +71098,7 @@
     "Af72QENbvReeKywXQvi3GRgfWbKF8LdncwCjoQ9npump": "2026-07-24T12:53:22.229177+00:00",
     "B7P99t3yDA7cfSrkiHsoG8ktWvroi4rFqHty326pump": "2026-07-24T12:55:15.594748+00:00",
     "7DRgFDVNskjKK7nmYWuWYva49rH2H7yWzUXPBwKapump": "2026-07-24T12:59:16.945653+00:00",
-    "0xd846bf52dD1931199F76224c6719ED56ADb35618": "2026-07-24T13:02:22.486182+00:00"
+    "0xd846bf52dD1931199F76224c6719ED56ADb35618": "2026-07-24T13:02:22.486182+00:00",
+    "0xEF0c52CFA453c6b20ADB13b53fA28A501825ffFF": "2026-07-24T13:17:27.960068+00:00"
   }
 }
