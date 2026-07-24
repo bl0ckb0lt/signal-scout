@@ -8,30 +8,19 @@
       "address": "0xeA9519aC1641a92F5A07Fa1D9f5EACbE7ba7A42d",
       "source": "new",
       "entry_price": 4.193e-07,
-      "peak_price": 1.191e-06,
+      "peak_price": 1.317e-06,
       "trailing_active": true,
       "entry_time": "2026-07-24T09:00:46.594158+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 184.04,
+      "current_pct": 214.09,
       "peak_volume_m5": 49976.79,
       "milestones_hit": [
+        200,
         50,
         100
       ]
-    },
-    {
-      "symbol": "tutu",
-      "chain": "solana",
-      "address": "4MbUUGzydudW21ZPvjuj8STMCkvMb48Vxxx1hTgXpump",
-      "source": "new",
-      "entry_price": 0.0001582,
-      "peak_price": 0.0001582,
-      "trailing_active": false,
-      "entry_time": "2026-07-24T09:20:43.370856+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -67469,6 +67458,25 @@
       "exit_price": 0.0001109,
       "exit_pct": -39.83,
       "exit_time": "2026-07-24T08:38:24.197406+00:00"
+    },
+    {
+      "symbol": "tutu",
+      "chain": "solana",
+      "address": "4MbUUGzydudW21ZPvjuj8STMCkvMb48Vxxx1hTgXpump",
+      "source": "new",
+      "entry_price": 0.0001582,
+      "peak_price": 0.0001582,
+      "trailing_active": false,
+      "entry_time": "2026-07-24T09:20:43.370856+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.25,
+      "peak_volume_m5": 63698.22,
+      "milestones_hit": [],
+      "exit_price": 0.0001404,
+      "exit_pct": -11.25,
+      "exit_time": "2026-07-24T09:25:21.444175+00:00"
     }
   ],
   "alerted": {
@@ -70882,6 +70890,7 @@
     "0x350bcD449102aeF3e376e2EfC2BA67d42080F680": "2026-07-24T06:31:20.582798+00:00",
     "0xAc2C2fA0ef90fd1F068dE8Af096E27F9bDe127AE": "2026-07-24T06:51:22.532179+00:00",
     "0x8DcC5aA488cB2c0BCC3873059D6Dcf2677632796": "2026-07-24T08:24:17.985768+00:00",
-    "FvGMxQTnr7t1KFpr7JE5WCAJcgb1onas5J3JE8fzpump": "2026-07-24T08:38:24.197406+00:00"
+    "FvGMxQTnr7t1KFpr7JE5WCAJcgb1onas5J3JE8fzpump": "2026-07-24T08:38:24.197406+00:00",
+    "4MbUUGzydudW21ZPvjuj8STMCkvMb48Vxxx1hTgXpump": "2026-07-24T09:25:21.444175+00:00"
   }
 }
