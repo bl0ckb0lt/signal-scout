@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "JACOB",
-      "chain": "solana",
-      "address": "2nxb3cHBJDq75pp58uLZPy6fHynCv34qjZGnsSc8pump",
-      "source": "new",
-      "entry_price": 0.0001308,
-      "peak_price": 0.0001308,
-      "trailing_active": false,
-      "entry_time": "2026-07-25T12:56:58.835278+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "FATCAT",
       "chain": "robinhood",
       "address": "0x5BBCb73D26DE7a693f9541482a5c531706978729",
       "source": "new",
       "entry_price": 0.0001843,
-      "peak_price": 0.0001843,
-      "trailing_active": false,
+      "peak_price": 0.0002255,
+      "trailing_active": true,
       "entry_time": "2026-07-25T12:57:00.168522+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.35,
+      "peak_volume_m5": 17770.43,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -69211,6 +69203,25 @@
       "exit_price": 0.000146,
       "exit_pct": -10.81,
       "exit_time": "2026-07-25T11:49:19.195609+00:00"
+    },
+    {
+      "symbol": "JACOB",
+      "chain": "solana",
+      "address": "2nxb3cHBJDq75pp58uLZPy6fHynCv34qjZGnsSc8pump",
+      "source": "new",
+      "entry_price": 0.0001308,
+      "peak_price": 0.0001308,
+      "trailing_active": false,
+      "entry_time": "2026-07-25T12:56:58.835278+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.61,
+      "peak_volume_m5": 71548.21,
+      "milestones_hit": [],
+      "exit_price": 0.0001143,
+      "exit_pct": -12.61,
+      "exit_time": "2026-07-25T13:00:21.170436+00:00"
     }
   ],
   "alerted": {
@@ -72713,6 +72724,7 @@
     "B5RMggYagf8A77GnX82HfvE57fVQqCmGPZWvcbw8pump": "2026-07-25T09:38:21.085476+00:00",
     "6d3K6aYpQNT1pkZ34WAuAcXQWig1MaxD1nz5HErypump": "2026-07-25T10:11:23.145816+00:00",
     "69AcrB5P8pn5rzMvWKuNngvJ5K9QiNts7TpCUuFJpump": "2026-07-25T11:41:19.813560+00:00",
-    "8gEtFeKeRt1QREkU51dRih9pQ39PyYpRRZTyLg2v5qFn": "2026-07-25T11:49:19.195609+00:00"
+    "8gEtFeKeRt1QREkU51dRih9pQ39PyYpRRZTyLg2v5qFn": "2026-07-25T11:49:19.195609+00:00",
+    "2nxb3cHBJDq75pp58uLZPy6fHynCv34qjZGnsSc8pump": "2026-07-25T13:00:21.170436+00:00"
   }
 }
