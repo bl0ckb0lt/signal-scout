@@ -1,24 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "DISHWASHER",
-      "chain": "robinhood",
-      "address": "0x9d9D174695f5dd79a745A29e1a7614aa3c9A079D",
-      "source": "new",
-      "entry_price": 1.31e-06,
-      "peak_price": 1.583e-06,
-      "trailing_active": true,
-      "entry_time": "2026-07-25T19:50:45.343438+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 20.84,
-      "peak_volume_m5": 104436.14,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -69956,6 +69939,29 @@
       "exit_price": 0.0002571,
       "exit_pct": -16.04,
       "exit_time": "2026-07-25T19:51:25.895645+00:00"
+    },
+    {
+      "symbol": "DISHWASHER",
+      "chain": "robinhood",
+      "address": "0x9d9D174695f5dd79a745A29e1a7614aa3c9A079D",
+      "source": "new",
+      "entry_price": 1.31e-06,
+      "peak_price": 5.679e-06,
+      "trailing_active": true,
+      "entry_time": "2026-07-25T19:50:45.343438+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 333.51,
+      "peak_volume_m5": 175137.24,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 5.679e-06,
+      "exit_pct": 333.51,
+      "exit_time": "2026-07-25T19:58:21.675803+00:00"
     }
   ],
   "alerted": {
@@ -73497,6 +73503,7 @@
     "38iSF6E33YPABapMELpnMPR6aJGQpT3aGjk9wCSrpump": "2026-07-25T19:02:19.437937+00:00",
     "2U75GgW2W53MZMuH2jSDxcekjFF6Vw4Q7KxYBw5Ypump": "2026-07-25T19:12:18.277567+00:00",
     "0x525d4a399dcD9cBE828d166CE788aB82bd1DE62e": "2026-07-25T19:22:21.270851+00:00",
-    "0xd8526e86fdbcaf9b4d104d995e2c8023f73954c5": "2026-07-25T19:51:25.895645+00:00"
+    "0xd8526e86fdbcaf9b4d104d995e2c8023f73954c5": "2026-07-25T19:51:25.895645+00:00",
+    "0x9d9D174695f5dd79a745A29e1a7614aa3c9A079D": "2026-07-25T19:58:21.675803+00:00"
   }
 }
