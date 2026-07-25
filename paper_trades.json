@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Milani",
-      "chain": "solana",
-      "address": "4ZETTdyBqqJZegJ2YKzuFqCcasDFFdTJ68xfA2F8pump",
-      "source": "new",
-      "entry_price": 0.0001255,
-      "peak_price": 0.0001255,
-      "trailing_active": false,
-      "entry_time": "2026-07-25T17:40:41.589126+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "sharkdog",
       "chain": "robinhood",
       "address": "0xF824e0b26c62469310aD87ce2BF26911ea9D8d1A",
       "source": "new",
       "entry_price": 8.048e-05,
-      "peak_price": 8.048e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001093,
+      "trailing_active": true,
       "entry_time": "2026-07-25T17:40:43.236419+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.81,
+      "peak_volume_m5": 70409.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -69787,6 +69779,25 @@
       "exit_price": 3.96e-07,
       "exit_pct": -15.19,
       "exit_time": "2026-07-25T17:15:15.723067+00:00"
+    },
+    {
+      "symbol": "Milani",
+      "chain": "solana",
+      "address": "4ZETTdyBqqJZegJ2YKzuFqCcasDFFdTJ68xfA2F8pump",
+      "source": "new",
+      "entry_price": 0.0001255,
+      "peak_price": 0.0001255,
+      "trailing_active": false,
+      "entry_time": "2026-07-25T17:40:41.589126+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.36,
+      "peak_volume_m5": 18157.39,
+      "milestones_hit": [],
+      "exit_price": 0.0001125,
+      "exit_pct": -10.36,
+      "exit_time": "2026-07-25T17:41:23.689850+00:00"
     }
   ],
   "alerted": {
@@ -73319,6 +73330,7 @@
     "EXhpr5uQJF3HUAVKQb5Kfth1TpjQeoBL8BgK6DeNpump": "2026-07-25T16:43:22.115905+00:00",
     "7LRpiiDzNVRdxfatA5T1iGvQmPUP46pMkpfGnqYWpump": "2026-07-25T16:45:20.306290+00:00",
     "0xD831020af02Fb13871017ebc8a36bBf09d29E0D8": "2026-07-25T16:59:19.486455+00:00",
-    "0x825cbf46B53A8E5F3fFB5eefd31c5DC7CA8B7B61": "2026-07-25T17:15:15.723067+00:00"
+    "0x825cbf46B53A8E5F3fFB5eefd31c5DC7CA8B7B61": "2026-07-25T17:15:15.723067+00:00",
+    "4ZETTdyBqqJZegJ2YKzuFqCcasDFFdTJ68xfA2F8pump": "2026-07-25T17:41:23.689850+00:00"
   }
 }
