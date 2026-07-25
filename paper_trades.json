@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-25T15:20:43.945137+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.21,
+      "peak_volume_m5": 28685.33,
+      "milestones_hit": []
     },
     {
       "symbol": "BAGEL",
@@ -24,31 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-25T15:20:45.762967+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "DISHWASHER",
-      "chain": "robinhood",
-      "address": "0x2a71aAa5A7bdC1d6fA6bf3B0c8adB5a121bb454f",
-      "source": "new",
-      "entry_price": 0.0001295,
-      "peak_price": 0.0001295,
-      "trailing_active": false,
-      "entry_time": "2026-07-25T15:20:48.614093+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "CentralBank",
-      "chain": "robinhood",
-      "address": "0x673b0986089dC387C4568eaa4f442b40E167454c",
-      "source": "new",
-      "entry_price": 0.0001085,
-      "peak_price": 0.0001085,
-      "trailing_active": false,
-      "entry_time": "2026-07-25T15:20:50.143141+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.6,
+      "peak_volume_m5": 23326.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -69501,6 +69485,44 @@
       "exit_price": 0.0001478,
       "exit_pct": -14.76,
       "exit_time": "2026-07-25T15:10:24.224698+00:00"
+    },
+    {
+      "symbol": "DISHWASHER",
+      "chain": "robinhood",
+      "address": "0x2a71aAa5A7bdC1d6fA6bf3B0c8adB5a121bb454f",
+      "source": "new",
+      "entry_price": 0.0001295,
+      "peak_price": 0.0001295,
+      "trailing_active": false,
+      "entry_time": "2026-07-25T15:20:48.614093+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.34,
+      "peak_volume_m5": 17691.08,
+      "milestones_hit": [],
+      "exit_price": 0.0001187,
+      "exit_pct": -8.34,
+      "exit_time": "2026-07-25T15:21:17.747614+00:00"
+    },
+    {
+      "symbol": "CentralBank",
+      "chain": "robinhood",
+      "address": "0x673b0986089dC387C4568eaa4f442b40E167454c",
+      "source": "new",
+      "entry_price": 0.0001085,
+      "peak_price": 0.0001085,
+      "trailing_active": false,
+      "entry_time": "2026-07-25T15:20:50.143141+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.1,
+      "peak_volume_m5": 25667.01,
+      "milestones_hit": [],
+      "exit_price": 9.429e-05,
+      "exit_pct": -13.1,
+      "exit_time": "2026-07-25T15:21:18.461673+00:00"
     }
   ],
   "alerted": {
@@ -73017,6 +73039,8 @@
     "0x2383409B1271ab6a16D88dC7C845ECe6b46c7777": "2026-07-25T14:28:20.178013+00:00",
     "0x4c51B80De75bf3D92330ad5C7D361700c2C9531E": "2026-07-25T14:31:16.036431+00:00",
     "0xbE34C09bD30bB2BDd386aaeA9fd78F479c9Af51c": "2026-07-25T15:10:23.338786+00:00",
-    "9Lua93QysHFz6Qni12T8gW7Z4XmWx9oy7qW1wg4ipump": "2026-07-25T15:10:24.224698+00:00"
+    "9Lua93QysHFz6Qni12T8gW7Z4XmWx9oy7qW1wg4ipump": "2026-07-25T15:10:24.224698+00:00",
+    "0x2a71aAa5A7bdC1d6fA6bf3B0c8adB5a121bb454f": "2026-07-25T15:21:17.747614+00:00",
+    "0x673b0986089dC387C4568eaa4f442b40E167454c": "2026-07-25T15:21:18.461673+00:00"
   }
 }
