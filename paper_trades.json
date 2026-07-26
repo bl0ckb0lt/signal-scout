@@ -8,23 +8,15 @@
       "address": "BA1Sqcj9rzcsHtwavNSVFeCXRioFL9BP4Y7f65UJpump",
       "source": "new",
       "entry_price": 0.0001548,
-      "peak_price": 0.0001548,
-      "trailing_active": false,
+      "peak_price": 0.0001861,
+      "trailing_active": true,
       "entry_time": "2026-07-26T14:50:44.643248+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "PHIL",
-      "chain": "robinhood",
-      "address": "0x1dB235CB0c34DD7Cff852970e2Ee9B99c377E311",
-      "source": "new",
-      "entry_price": 6.863e-05,
-      "peak_price": 6.863e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-26T14:50:49.187371+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.22,
+      "peak_volume_m5": 27008.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -71274,6 +71266,29 @@
       "exit_price": 0.0001214,
       "exit_pct": -22.03,
       "exit_time": "2026-07-26T14:43:18.125227+00:00"
+    },
+    {
+      "symbol": "PHIL",
+      "chain": "robinhood",
+      "address": "0x1dB235CB0c34DD7Cff852970e2Ee9B99c377E311",
+      "source": "new",
+      "entry_price": 6.863e-05,
+      "peak_price": 0.0002801,
+      "trailing_active": true,
+      "entry_time": "2026-07-26T14:50:49.187371+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 308.13,
+      "peak_volume_m5": 91335.92,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0002801,
+      "exit_pct": 308.13,
+      "exit_time": "2026-07-26T14:58:22.311538+00:00"
     }
   ],
   "alerted": {
@@ -74882,6 +74897,7 @@
     "DimyNkABRwrdyKJhrCn1JYXtX8B4VybjWzy5j2ugpump": "2026-07-26T14:14:20.000411+00:00",
     "0x0909DF6B4a7937DB21f1d3C7bFDBC6fAdd6AA495": "2026-07-26T14:14:20.739537+00:00",
     "F8p2rMWLkpfF5hPZn3x6svpaK7t1zSGGzw2zENfNQmfQ": "2026-07-26T14:23:23.160490+00:00",
-    "9AX92xMkM5Z26nQzmJfb5wRZsLSs4n4fTJxMNom2pump": "2026-07-26T14:43:18.125227+00:00"
+    "9AX92xMkM5Z26nQzmJfb5wRZsLSs4n4fTJxMNom2pump": "2026-07-26T14:43:18.125227+00:00",
+    "0x1dB235CB0c34DD7Cff852970e2Ee9B99c377E311": "2026-07-26T14:58:22.311538+00:00"
   }
 }
