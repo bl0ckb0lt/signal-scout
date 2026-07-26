@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CARCAT",
-      "chain": "robinhood",
-      "address": "0x438d297dFd47BC12e6e7b249acf4A71A317f2b93",
-      "source": "new",
-      "entry_price": 7.115e-05,
-      "peak_price": 7.115e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-26T17:00:44.610475+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "CATE",
       "chain": "solana",
       "address": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
       "source": "new",
       "entry_price": 0.0002232,
-      "peak_price": 0.0002232,
-      "trailing_active": false,
+      "peak_price": 0.0002924,
+      "trailing_active": true,
       "entry_time": "2026-07-26T17:00:46.588297+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.0,
+      "peak_volume_m5": 255767.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -71518,6 +71510,25 @@
       "exit_price": 1.619e-06,
       "exit_pct": 151.67,
       "exit_time": "2026-07-26T16:56:18.508837+00:00"
+    },
+    {
+      "symbol": "CARCAT",
+      "chain": "robinhood",
+      "address": "0x438d297dFd47BC12e6e7b249acf4A71A317f2b93",
+      "source": "new",
+      "entry_price": 7.115e-05,
+      "peak_price": 7.115e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-26T17:00:44.610475+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.55,
+      "peak_volume_m5": 11035.95,
+      "milestones_hit": [],
+      "exit_price": 6.08e-05,
+      "exit_pct": -14.55,
+      "exit_time": "2026-07-26T17:04:18.188244+00:00"
     }
   ],
   "alerted": {
@@ -75138,6 +75149,7 @@
     "4BQ7xDWWL7aQhST6zKVQMQFnfLvZmogrsakpCbz1pump": "2026-07-26T16:04:21.606046+00:00",
     "0xE7Ef6559Ee34EAd7cc49c508E5f0b1339e97D836": "2026-07-26T16:54:21.437244+00:00",
     "0x509527F7faC611D911D400572F0909563cd74344": "2026-07-26T16:55:39.268842+00:00",
-    "0xdD1bE06eEB7d331AFAfAB3ae9a8D7468e1Df21ff": "2026-07-26T16:56:18.508837+00:00"
+    "0xdD1bE06eEB7d331AFAfAB3ae9a8D7468e1Df21ff": "2026-07-26T16:56:18.508837+00:00",
+    "0x438d297dFd47BC12e6e7b249acf4A71A317f2b93": "2026-07-26T17:04:18.188244+00:00"
   }
 }
