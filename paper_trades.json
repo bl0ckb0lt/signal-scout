@@ -4,27 +4,19 @@
   "open": [
     {
       "symbol": "CATE",
-      "chain": "robinhood",
-      "address": "0x8382342eb994dBc3ee845B8AD3d99C1313AE7b03",
-      "source": "new",
-      "entry_price": 0.0002178,
-      "peak_price": 0.0002178,
-      "trailing_active": false,
-      "entry_time": "2026-07-26T21:00:33.923363+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "CATE",
       "chain": "solana",
       "address": "75KWXZ8kj1VfaJCyTeZvvrK8KfKen7Q6Dgi3dhggdoge",
       "source": "new",
       "entry_price": 0.0001485,
-      "peak_price": 0.0001485,
-      "trailing_active": false,
+      "peak_price": 0.0001717,
+      "trailing_active": true,
       "entry_time": "2026-07-26T21:00:35.679107+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.62,
+      "peak_volume_m5": 23302.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -71828,6 +71820,25 @@
       "exit_price": 0.0004787,
       "exit_pct": -15.06,
       "exit_time": "2026-07-26T20:44:23.106254+00:00"
+    },
+    {
+      "symbol": "CATE",
+      "chain": "robinhood",
+      "address": "0x8382342eb994dBc3ee845B8AD3d99C1313AE7b03",
+      "source": "new",
+      "entry_price": 0.0002178,
+      "peak_price": 0.0002178,
+      "trailing_active": false,
+      "entry_time": "2026-07-26T21:00:33.923363+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.4,
+      "peak_volume_m5": 32479.33,
+      "milestones_hit": [],
+      "exit_price": 0.0001603,
+      "exit_pct": -26.4,
+      "exit_time": "2026-07-26T21:01:19.097057+00:00"
     }
   ],
   "alerted": {
@@ -75462,6 +75473,7 @@
     "GDgqVdisBKouTEdKtw6GQZtc55DLAS3PrpfLLMRhpump": "2026-07-26T20:14:20.319789+00:00",
     "0x1541B925f0948c6d91bE8B52320687Ba62D30b64": "2026-07-26T20:24:20.815537+00:00",
     "0x64F0Cf35b757e8c1A6a1a2A983ee802393A5Ae1E": "2026-07-26T20:27:19.820763+00:00",
-    "0x900a090A5138DFb8c5D86b9D39497cf9A3A17777": "2026-07-26T20:44:23.106254+00:00"
+    "0x900a090A5138DFb8c5D86b9D39497cf9A3A17777": "2026-07-26T20:44:23.106254+00:00",
+    "0x8382342eb994dBc3ee845B8AD3d99C1313AE7b03": "2026-07-26T21:01:19.097057+00:00"
   }
 }
