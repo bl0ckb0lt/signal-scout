@@ -8,31 +8,17 @@
       "address": "0xcc2b81Dde0b481639863aE69fd2e6fC2d9331207",
       "source": "new",
       "entry_price": 0.0002906,
-      "peak_price": 0.0002906,
-      "trailing_active": false,
+      "peak_price": 0.000458,
+      "trailing_active": true,
       "entry_time": "2026-07-26T15:20:35.460013+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.38,
-      "peak_volume_m5": 30233.53,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "CARCAT",
-      "chain": "robinhood",
-      "address": "0xE37c68F2415e25E67284BA36F8b0C35b69586c7d",
-      "source": "new",
-      "entry_price": 5.146e-05,
-      "peak_price": 7.262e-05,
-      "trailing_active": true,
-      "entry_time": "2026-07-26T15:20:36.790839+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 41.12,
-      "peak_volume_m5": 53179.16,
-      "milestones_hit": []
+      "current_pct": 57.6,
+      "peak_volume_m5": 52456.11,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -71362,6 +71348,29 @@
       "exit_price": 0.0001242,
       "exit_pct": -25.18,
       "exit_time": "2026-07-26T15:21:20.010288+00:00"
+    },
+    {
+      "symbol": "CARCAT",
+      "chain": "robinhood",
+      "address": "0xE37c68F2415e25E67284BA36F8b0C35b69586c7d",
+      "source": "new",
+      "entry_price": 5.146e-05,
+      "peak_price": 0.0002549,
+      "trailing_active": true,
+      "entry_time": "2026-07-26T15:20:36.790839+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 395.34,
+      "peak_volume_m5": 138738.47,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0002549,
+      "exit_pct": 395.34,
+      "exit_time": "2026-07-26T15:29:21.570477+00:00"
     }
   ],
   "alerted": {
@@ -74974,6 +74983,7 @@
     "0x1dB235CB0c34DD7Cff852970e2Ee9B99c377E311": "2026-07-26T14:58:22.311538+00:00",
     "BA1Sqcj9rzcsHtwavNSVFeCXRioFL9BP4Y7f65UJpump": "2026-07-26T15:00:22.530766+00:00",
     "0x577b2e97A955fA49C40Eaf13a7c1A3D857c1a90C": "2026-07-26T15:14:16.506969+00:00",
-    "0xD492fE87AE4D52fE7797d3f167142f1927E523c7": "2026-07-26T15:21:20.010288+00:00"
+    "0xD492fE87AE4D52fE7797d3f167142f1927E523c7": "2026-07-26T15:21:20.010288+00:00",
+    "0xE37c68F2415e25E67284BA36F8b0C35b69586c7d": "2026-07-26T15:29:21.570477+00:00"
   }
 }
