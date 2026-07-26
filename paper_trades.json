@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "TEFA",
-      "chain": "robinhood",
-      "address": "0xFDe142F435a80a5b86dC843a481699bE803Bb48B",
-      "source": "new",
-      "entry_price": 9.823e-05,
-      "peak_price": 9.823e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-26T07:50:39.316504+00:00",
-      "score": 72,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -70779,6 +70766,29 @@
       "exit_price": 6.54e-05,
       "exit_pct": -21.25,
       "exit_time": "2026-07-26T07:25:20.026935+00:00"
+    },
+    {
+      "symbol": "TEFA",
+      "chain": "robinhood",
+      "address": "0xFDe142F435a80a5b86dC843a481699bE803Bb48B",
+      "source": "new",
+      "entry_price": 9.823e-05,
+      "peak_price": 0.0003443,
+      "trailing_active": true,
+      "entry_time": "2026-07-26T07:50:39.316504+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 250.5,
+      "peak_volume_m5": 50579.31,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003443,
+      "exit_pct": 250.5,
+      "exit_time": "2026-07-26T07:59:25.266952+00:00"
     }
   ],
   "alerted": {
@@ -74362,6 +74372,7 @@
     "0x1b6a50b97b8D7Daa979C7e6803332c07F8E99717": "2026-07-26T07:07:23.173821+00:00",
     "7kfJNK972x3a5W8kmjYkfGK9oZGjkRCEtZkzPkuapump": "2026-07-26T07:12:18.535756+00:00",
     "0x19039584669882f2333924dBe66Cc91D81870208": "2026-07-26T07:13:24.122760+00:00",
-    "0x31FFc4beed5A292b9264286118c190174d955212": "2026-07-26T07:25:20.026935+00:00"
+    "0x31FFc4beed5A292b9264286118c190174d955212": "2026-07-26T07:25:20.026935+00:00",
+    "0xFDe142F435a80a5b86dC843a481699bE803Bb48B": "2026-07-26T07:59:25.266952+00:00"
   }
 }
