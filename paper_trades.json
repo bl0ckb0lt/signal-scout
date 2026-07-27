@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PATIENCE",
-      "chain": "solana",
-      "address": "Fg9P4xK8pbYaumHhz7QEt2Uma3kNr4PSpEQtUVCgpump",
-      "source": "boost",
-      "entry_price": 0.0002377,
-      "peak_price": 0.0005829,
-      "trailing_active": true,
-      "entry_time": "2026-07-27T22:10:27.884893+00:00",
-      "score": 79,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 145.23,
-      "peak_volume_m5": 26976.49,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "TOBY",
       "chain": "robinhood",
       "address": "0xc1a02e71E6589197fd5A750A4C545C6f28eC5Eba",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-27T22:49:27.550690+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.14,
+      "peak_volume_m5": 497.81,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -73919,6 +73904,28 @@
       "exit_price": 8.864e-05,
       "exit_pct": -10.5,
       "exit_time": "2026-07-27T22:31:21.984888+00:00"
+    },
+    {
+      "symbol": "PATIENCE",
+      "chain": "solana",
+      "address": "Fg9P4xK8pbYaumHhz7QEt2Uma3kNr4PSpEQtUVCgpump",
+      "source": "boost",
+      "entry_price": 0.0002377,
+      "peak_price": 0.0005829,
+      "trailing_active": true,
+      "entry_time": "2026-07-27T22:10:27.884893+00:00",
+      "score": 79,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 102.36,
+      "peak_volume_m5": 30811.57,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.000481,
+      "exit_pct": 102.36,
+      "exit_time": "2026-07-27T22:50:18.437244+00:00"
     }
   ],
   "alerted": {
@@ -77658,6 +77665,7 @@
     "0x48abdB2a68223141F95409e78DC27941FCa3Af3c": "2026-07-27T19:11:23.718171+00:00",
     "0x10C42881B1174037758aA038Ec7c6cef34A7F032": "2026-07-27T19:44:21.409434+00:00",
     "0x5B46263336Bf28b5d63f4021624a34D9ad4A8F42": "2026-07-27T22:08:22.261805+00:00",
-    "0x7987f03462200b3D8A072E02C89A8A41dCB124EE": "2026-07-27T22:31:21.984888+00:00"
+    "0x7987f03462200b3D8A072E02C89A8A41dCB124EE": "2026-07-27T22:31:21.984888+00:00",
+    "Fg9P4xK8pbYaumHhz7QEt2Uma3kNr4PSpEQtUVCgpump": "2026-07-27T22:50:18.437244+00:00"
   }
 }
