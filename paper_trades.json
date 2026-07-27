@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRENCHLIFE",
-      "chain": "solana",
-      "address": "92t87DktrvYAi4yuv4TwhAbF4E2C934rJf9zqgsipump",
-      "source": "boost",
-      "entry_price": 0.0001336,
-      "peak_price": 0.0001336,
-      "trailing_active": false,
-      "entry_time": "2026-07-27T16:50:27.540052+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "STRATA",
       "chain": "robinhood",
       "address": "0x9955eC28d526D2644A320D1AAbEb4ae2e6bB8b93",
       "source": "new",
       "entry_price": 6.162e-05,
-      "peak_price": 6.162e-05,
+      "peak_price": 6.528e-05,
       "trailing_active": false,
       "entry_time": "2026-07-27T16:50:30.386419+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.94,
+      "peak_volume_m5": 14523.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -73561,6 +73553,25 @@
       "exit_price": 0.000581,
       "exit_pct": 205.31,
       "exit_time": "2026-07-27T16:30:45.414642+00:00"
+    },
+    {
+      "symbol": "TRENCHLIFE",
+      "chain": "solana",
+      "address": "92t87DktrvYAi4yuv4TwhAbF4E2C934rJf9zqgsipump",
+      "source": "boost",
+      "entry_price": 0.0001336,
+      "peak_price": 0.0001336,
+      "trailing_active": false,
+      "entry_time": "2026-07-27T16:50:27.540052+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.6,
+      "peak_volume_m5": 27317.89,
+      "milestones_hit": [],
+      "exit_price": 0.0001141,
+      "exit_pct": -14.6,
+      "exit_time": "2026-07-27T16:51:21.201135+00:00"
     }
   ],
   "alerted": {
@@ -77283,6 +77294,7 @@
     "0xC1A0fd2b35DC2C3100305A8345a32E076148EC14": "2026-07-27T15:42:16.155338+00:00",
     "BdP3V7bXVMpcbw2EJzAxEddjsb23c8udJb64jtfpump": "2026-07-27T16:00:21.594663+00:00",
     "0xc1A0a5f487081af37B82058CE0f2D3554ABecC80": "2026-07-27T16:02:22.693513+00:00",
-    "0xC64979Af70F3722e7aE920D3754Bd427D2C37650": "2026-07-27T16:30:45.414642+00:00"
+    "0xC64979Af70F3722e7aE920D3754Bd427D2C37650": "2026-07-27T16:30:45.414642+00:00",
+    "92t87DktrvYAi4yuv4TwhAbF4E2C934rJf9zqgsipump": "2026-07-27T16:51:21.201135+00:00"
   }
 }
