@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STEPAN",
-      "chain": "solana",
-      "address": "3EbLPUVi6ZDitZwuv2eLyiudxrggkCQfpHA4JRLTpump",
-      "source": "new",
-      "entry_price": 0.0001312,
-      "peak_price": 0.0001312,
-      "trailing_active": false,
-      "entry_time": "2026-07-27T13:10:34.669691+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "Ginan",
       "chain": "solana",
       "address": "AsKx9p11x4NVrgnuo6ud9PD9Sv9dy52XVb1ASUtBpump",
       "source": "new",
       "entry_price": 0.000129,
-      "peak_price": 0.000129,
+      "peak_price": 0.0001364,
       "trailing_active": false,
       "entry_time": "2026-07-27T13:10:36.779573+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.74,
+      "peak_volume_m5": 34175.78,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -73094,6 +73086,25 @@
       "exit_price": 0.0001711,
       "exit_pct": -19.1,
       "exit_time": "2026-07-27T12:52:20.211598+00:00"
+    },
+    {
+      "symbol": "STEPAN",
+      "chain": "solana",
+      "address": "3EbLPUVi6ZDitZwuv2eLyiudxrggkCQfpHA4JRLTpump",
+      "source": "new",
+      "entry_price": 0.0001312,
+      "peak_price": 0.0001312,
+      "trailing_active": false,
+      "entry_time": "2026-07-27T13:10:34.669691+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.2,
+      "peak_volume_m5": 38791.33,
+      "milestones_hit": [],
+      "exit_price": 0.0001152,
+      "exit_pct": -12.2,
+      "exit_time": "2026-07-27T13:14:18.295188+00:00"
     }
   ],
   "alerted": {
@@ -76792,6 +76803,7 @@
     "8qw8VRw5EajAjaijrLrnqP9AgThRsnvLeHxeSWyCfFhA": "2026-07-27T12:33:21.705148+00:00",
     "0x25f44259c92b00120F19AA6dAc07089487bE262e": "2026-07-27T12:37:18.147906+00:00",
     "0x3E79B8deF9fa4DCe2256df32557e0bfF84231573": "2026-07-27T12:42:19.835600+00:00",
-    "3uXzxoRY6xyPCtQCh8g9cnQMJNsLmmFUYAjdFPFEpump": "2026-07-27T12:52:20.211598+00:00"
+    "3uXzxoRY6xyPCtQCh8g9cnQMJNsLmmFUYAjdFPFEpump": "2026-07-27T12:52:20.211598+00:00",
+    "3EbLPUVi6ZDitZwuv2eLyiudxrggkCQfpHA4JRLTpump": "2026-07-27T13:14:18.295188+00:00"
   }
 }
