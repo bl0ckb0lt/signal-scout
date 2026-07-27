@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "$SAVEACT",
-      "chain": "solana",
-      "address": "A75ifLyHbwbjgF5wJ8UNr12nMAJL2HGqRuTLSr8bpump",
-      "source": "new",
-      "entry_price": 0.0003471,
-      "peak_price": 0.0003471,
-      "trailing_active": false,
-      "entry_time": "2026-07-27T14:50:26.607643+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "BABYMODA",
       "chain": "bsc",
       "address": "0xd5D02a56b6076eF30C4C45D89CB094c9a4250033",
       "source": "new",
       "entry_price": 0.0003309,
-      "peak_price": 0.0003309,
+      "peak_price": 0.0003788,
       "trailing_active": false,
       "entry_time": "2026-07-27T14:50:28.313569+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.48,
+      "peak_volume_m5": 23216.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -73322,6 +73314,25 @@
       "exit_price": 0.0002342,
       "exit_pct": -13.36,
       "exit_time": "2026-07-27T14:31:18.293819+00:00"
+    },
+    {
+      "symbol": "$SAVEACT",
+      "chain": "solana",
+      "address": "A75ifLyHbwbjgF5wJ8UNr12nMAJL2HGqRuTLSr8bpump",
+      "source": "new",
+      "entry_price": 0.0003471,
+      "peak_price": 0.0003471,
+      "trailing_active": false,
+      "entry_time": "2026-07-27T14:50:26.607643+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.29,
+      "peak_volume_m5": 28191.22,
+      "milestones_hit": [],
+      "exit_price": 0.0002975,
+      "exit_pct": -14.29,
+      "exit_time": "2026-07-27T14:52:18.895614+00:00"
     }
   ],
   "alerted": {
@@ -77032,6 +77043,7 @@
     "0x02139046C756bf6dfcAA1965Fe27c9Ed694409cc": "2026-07-27T14:12:29.104635+00:00",
     "0xdCF8b31C7A935E36F11f9140C7443639049563DA": "2026-07-27T14:21:18.587978+00:00",
     "Cj3KnM4zqTMkdkxX9kkxwfRkVC9YBo2Zrr5ZvBZzpump": "2026-07-27T14:28:21.354101+00:00",
-    "CcArQ1D4i2EA7XCmTEWNinu73uFNEiM9H8QiHRFnpump": "2026-07-27T14:31:18.293819+00:00"
+    "CcArQ1D4i2EA7XCmTEWNinu73uFNEiM9H8QiHRFnpump": "2026-07-27T14:31:18.293819+00:00",
+    "A75ifLyHbwbjgF5wJ8UNr12nMAJL2HGqRuTLSr8bpump": "2026-07-27T14:52:18.895614+00:00"
   }
 }
