@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BNUT",
-      "chain": "solana",
-      "address": "H3GtwGSrYRVqp7dtjkaDfjE2inydLkHwFkFJSPzrpump",
-      "source": "new",
-      "entry_price": 0.0001257,
-      "peak_price": 0.0001266,
-      "trailing_active": false,
-      "entry_time": "2026-07-28T03:00:33.994407+00:00",
-      "score": 71,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.72,
-      "peak_volume_m5": 31777.46,
-      "milestones_hit": []
-    },
-    {
       "symbol": "XMONEY",
       "chain": "robinhood",
       "address": "0x0e1CC2EaEec2aC0957f428cC381D62059fBD08FA",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-28T03:10:36.915191+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.16,
+      "peak_volume_m5": 4806.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -74172,6 +74160,25 @@
       "exit_price": 0.0002282,
       "exit_pct": 41.92,
       "exit_time": "2026-07-28T02:41:26.653847+00:00"
+    },
+    {
+      "symbol": "BNUT",
+      "chain": "solana",
+      "address": "H3GtwGSrYRVqp7dtjkaDfjE2inydLkHwFkFJSPzrpump",
+      "source": "new",
+      "entry_price": 0.0001257,
+      "peak_price": 0.0001266,
+      "trailing_active": false,
+      "entry_time": "2026-07-28T03:00:33.994407+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -32.09,
+      "peak_volume_m5": 35006.27,
+      "milestones_hit": [],
+      "exit_price": 8.536e-05,
+      "exit_pct": -32.09,
+      "exit_time": "2026-07-28T03:11:18.670065+00:00"
     }
   ],
   "alerted": {
@@ -77924,6 +77931,7 @@
     "0x5B0c34cf165eB4D69C010E3a7394711C996f7777": "2026-07-28T01:40:55.119413+00:00",
     "EUx9N4UXDyAXJpziyLF36j6Ut3Gu9X3VKEGptbmfpump": "2026-07-28T01:42:18.936938+00:00",
     "2K89Sji55xRUGQKbuVHqWaRQCngHAojn52JbUrnzpump": "2026-07-28T02:02:21.220298+00:00",
-    "0x7376A8ECA2dcE64a8c9C5D8Ea4421a0eb39a7777": "2026-07-28T02:41:26.653847+00:00"
+    "0x7376A8ECA2dcE64a8c9C5D8Ea4421a0eb39a7777": "2026-07-28T02:41:26.653847+00:00",
+    "H3GtwGSrYRVqp7dtjkaDfjE2inydLkHwFkFJSPzrpump": "2026-07-28T03:11:18.670065+00:00"
   }
 }
