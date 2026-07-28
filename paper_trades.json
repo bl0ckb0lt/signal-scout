@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "0B0L",
-      "chain": "ethereum",
-      "address": "0x9A8E5a3732080cACc2Bb52fad1cD065129801e50",
-      "source": "new",
-      "entry_price": 0.9884,
-      "peak_price": 1.89,
-      "trailing_active": true,
-      "entry_time": "2026-07-28T16:00:41.586218+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 91.22,
-      "peak_volume_m5": 3592.94,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "\u9ec4\u91d1\u4eba\u751f",
       "chain": "bsc",
       "address": "0x7D0F45931a23AebAdbEee1b76A6ea3b751297777",
       "source": "boost",
       "entry_price": 0.0001038,
-      "peak_price": 0.0001038,
+      "peak_price": 0.0001067,
       "trailing_active": false,
       "entry_time": "2026-07-28T16:40:30.983572+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.79,
+      "peak_volume_m5": 1432.17,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -74919,6 +74905,27 @@
       "exit_price": 9.431e-05,
       "exit_pct": -26.95,
       "exit_time": "2026-07-28T15:49:21.801922+00:00"
+    },
+    {
+      "symbol": "0B0L",
+      "chain": "ethereum",
+      "address": "0x9A8E5a3732080cACc2Bb52fad1cD065129801e50",
+      "source": "new",
+      "entry_price": 0.9884,
+      "peak_price": 1.9,
+      "trailing_active": true,
+      "entry_time": "2026-07-28T16:00:41.586218+00:00",
+      "score": 77,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 92.23,
+      "peak_volume_m5": 3592.94,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 1.9,
+      "exit_pct": 92.23,
+      "exit_time": "2026-07-28T16:41:22.625749+00:00"
     }
   ],
   "alerted": {
@@ -78710,6 +78717,7 @@
     "0xa13b38cb878724B3141B8919a4AF55CcF4d5c8C2": "2026-07-28T14:49:20.402878+00:00",
     "0x57Ffd85D9f0744B7790dCdbbc2c0F188f81De00F": "2026-07-28T15:19:20.961332+00:00",
     "0x79D9E7a73Fdb95751e1a0D013E121D3BE4517777": "2026-07-28T15:33:21.276240+00:00",
-    "E5CrLP4Tg86K8dMvZd5cqPLBJPKsLmMAfw8AMZHrpump": "2026-07-28T15:49:21.801922+00:00"
+    "E5CrLP4Tg86K8dMvZd5cqPLBJPKsLmMAfw8AMZHrpump": "2026-07-28T15:49:21.801922+00:00",
+    "0x9A8E5a3732080cACc2Bb52fad1cD065129801e50": "2026-07-28T16:41:22.625749+00:00"
   }
 }
