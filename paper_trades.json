@@ -19,36 +19,23 @@
       "milestones_hit": []
     },
     {
-      "symbol": "BOND",
-      "chain": "robinhood",
-      "address": "0x554001eDC548e425B93522d8C17CF0918123a629",
-      "source": "new",
-      "entry_price": 0.0003969,
-      "peak_price": 0.000432,
-      "trailing_active": false,
-      "entry_time": "2026-07-29T15:30:36.910027+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.59,
-      "peak_volume_m5": 2127.32,
-      "milestones_hit": []
-    },
-    {
       "symbol": "VANTO",
       "chain": "robinhood",
       "address": "0x8080D8FEd683D729845EE8dA95C01Da0aC20fb63",
       "source": "new",
       "entry_price": 0.0001058,
-      "peak_price": 0.0001572,
+      "peak_price": 0.0002745,
       "trailing_active": true,
       "entry_time": "2026-07-29T16:00:32.350510+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 48.58,
-      "peak_volume_m5": 14594.59,
-      "milestones_hit": []
+      "current_pct": 159.45,
+      "peak_volume_m5": 26508.66,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -76833,6 +76820,25 @@
       "exit_price": 5.178e-05,
       "exit_pct": 20.45,
       "exit_time": "2026-07-29T15:56:29.227037+00:00"
+    },
+    {
+      "symbol": "BOND",
+      "chain": "robinhood",
+      "address": "0x554001eDC548e425B93522d8C17CF0918123a629",
+      "source": "new",
+      "entry_price": 0.0003969,
+      "peak_price": 0.000432,
+      "trailing_active": false,
+      "entry_time": "2026-07-29T15:30:36.910027+00:00",
+      "score": 72,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 5.06,
+      "peak_volume_m5": 2127.32,
+      "milestones_hit": [],
+      "exit_price": 0.000417,
+      "exit_pct": 5.06,
+      "exit_time": "2026-07-29T16:04:24.233807+00:00"
     }
   ],
   "alerted": {
@@ -80721,6 +80727,7 @@
     "3VFnDoACa991DYe987w354sbvmhqjjzC4Z31SoZepump": "2026-07-29T15:22:25.425281+00:00",
     "0xde24E5Da6A5fe5a24EAd04123b32dC0E48f9efc5": "2026-07-29T15:42:27.305815+00:00",
     "D4ZVtCBg9gwGsWgHAAu9KkAAvaha6JtEjsDb7xWpump": "2026-07-29T15:54:20.454065+00:00",
-    "0x7465B6D874ffd9C6F3d02E3de1dA1cAa34Cf8Ee2": "2026-07-29T15:56:29.227037+00:00"
+    "0x7465B6D874ffd9C6F3d02E3de1dA1cAa34Cf8Ee2": "2026-07-29T15:56:29.227037+00:00",
+    "0x554001eDC548e425B93522d8C17CF0918123a629": "2026-07-29T16:04:24.233807+00:00"
   }
 }
