@@ -24,23 +24,17 @@
       "address": "4hPRAnsyVVBwtN6pPMVejjF7LPKMDye5C4eVPuFFpump",
       "source": "new",
       "entry_price": 0.0001295,
-      "peak_price": 0.0001295,
-      "trailing_active": false,
+      "peak_price": 0.0002116,
+      "trailing_active": true,
       "entry_time": "2026-07-29T04:00:38.541775+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "NongChom",
-      "chain": "solana",
-      "address": "WhNW6veTLZH9nYShhmuVVeGZe27DZhiUTesCaPgpump",
-      "source": "new",
-      "entry_price": 0.0002011,
-      "peak_price": 0.0002011,
-      "trailing_active": false,
-      "entry_time": "2026-07-29T04:00:40.330723+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 63.4,
+      "peak_volume_m5": 108298.11,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -75959,6 +75953,25 @@
       "exit_price": 0.0001523,
       "exit_pct": -13.76,
       "exit_time": "2026-07-29T03:39:17.782144+00:00"
+    },
+    {
+      "symbol": "NongChom",
+      "chain": "solana",
+      "address": "WhNW6veTLZH9nYShhmuVVeGZe27DZhiUTesCaPgpump",
+      "source": "new",
+      "entry_price": 0.0002011,
+      "peak_price": 0.0002011,
+      "trailing_active": false,
+      "entry_time": "2026-07-29T04:00:40.330723+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -98.93,
+      "peak_volume_m5": 147719.0,
+      "milestones_hit": [],
+      "exit_price": 2.147e-06,
+      "exit_pct": -98.93,
+      "exit_time": "2026-07-29T04:02:40.449618+00:00"
     }
   ],
   "alerted": {
@@ -79803,6 +79816,7 @@
     "0x67a0021254906245Ecf985C48064394279DF92cc": "2026-07-29T03:10:49.325954+00:00",
     "51RW9qvZHRqmDna9gmxEsrmwhZESRJKUo85UvBgcpump": "2026-07-29T03:12:29.917741+00:00",
     "AfpoytNV4W18dpmPs5FghWJLJx9diH3qX2tuNH7Fpump": "2026-07-29T03:35:21.503150+00:00",
-    "4j7ofgW1T8T95e2KKMR8AKiuGkUTZaggJnbj46gzpump": "2026-07-29T03:39:17.782144+00:00"
+    "4j7ofgW1T8T95e2KKMR8AKiuGkUTZaggJnbj46gzpump": "2026-07-29T03:39:17.782144+00:00",
+    "WhNW6veTLZH9nYShhmuVVeGZe27DZhiUTesCaPgpump": "2026-07-29T04:02:40.449618+00:00"
   }
 }
