@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Bernhard",
-      "chain": "solana",
-      "address": "GRtQ5uL4865792LD3uEX8mSdpbXKbPY7VbTBV9Xupump",
-      "source": "new",
-      "entry_price": 0.0001488,
-      "peak_price": 0.0001488,
-      "trailing_active": false,
-      "entry_time": "2026-07-29T11:40:28.595217+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "VLAD",
       "chain": "robinhood",
       "address": "0xea1e9F647001Dbba90C25af38965C62Cb84b80A2",
       "source": "new",
       "entry_price": 4.104e-05,
-      "peak_price": 4.104e-05,
+      "peak_price": 4.587e-05,
       "trailing_active": false,
       "entry_time": "2026-07-29T11:40:31.373991+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.77,
+      "peak_volume_m5": 20600.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -76404,6 +76396,25 @@
       "exit_price": 5.75e-05,
       "exit_pct": -12.69,
       "exit_time": "2026-07-29T11:32:28.562016+00:00"
+    },
+    {
+      "symbol": "Bernhard",
+      "chain": "solana",
+      "address": "GRtQ5uL4865792LD3uEX8mSdpbXKbPY7VbTBV9Xupump",
+      "source": "new",
+      "entry_price": 0.0001488,
+      "peak_price": 0.0001488,
+      "trailing_active": false,
+      "entry_time": "2026-07-29T11:40:28.595217+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.02,
+      "peak_volume_m5": 126017.2,
+      "milestones_hit": [],
+      "exit_price": 0.0001086,
+      "exit_pct": -27.02,
+      "exit_time": "2026-07-29T11:41:21.275745+00:00"
     }
   ],
   "alerted": {
@@ -80270,6 +80281,7 @@
     "0x35082b06d25c9fDB76284997Ed6F11ac44465b07": "2026-07-29T10:12:24.885203+00:00",
     "6wd9C3BmunGcYsZuRbuNWiN6ic5mVLoEM4bYBDeHpump": "2026-07-29T11:01:21.703371+00:00",
     "0x6a3Ea543Fe716Ca7936E7D1DA99D3a170Be87777": "2026-07-29T11:08:23.603594+00:00",
-    "0x142af8469a6b00c2E9Be169992381B9f59Ffdd06": "2026-07-29T11:32:28.562016+00:00"
+    "0x142af8469a6b00c2E9Be169992381B9f59Ffdd06": "2026-07-29T11:32:28.562016+00:00",
+    "GRtQ5uL4865792LD3uEX8mSdpbXKbPY7VbTBV9Xupump": "2026-07-29T11:41:21.275745+00:00"
   }
 }
