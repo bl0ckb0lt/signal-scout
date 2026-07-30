@@ -8,23 +8,15 @@
       "address": "0x070E7Fac45b488609C173a928B6eEbd7b3bb6ecd",
       "source": "boost",
       "entry_price": 0.000275,
-      "peak_price": 0.000275,
+      "peak_price": 0.0002814,
       "trailing_active": false,
       "entry_time": "2026-07-30T11:26:18.797842+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "TURTLE",
-      "chain": "solana",
-      "address": "9pNRtw2Zxg7qVSoTKgQfGKmmXG9natzHMSSGZzdypump",
-      "source": "new",
-      "entry_price": 0.0001412,
-      "peak_price": 0.0001412,
-      "trailing_active": false,
-      "entry_time": "2026-07-30T11:26:22.584079+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.33,
+      "peak_volume_m5": 6067.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -77994,6 +77986,25 @@
       "exit_price": 0.0001187,
       "exit_pct": 21.31,
       "exit_time": "2026-07-30T11:21:25.919570+00:00"
+    },
+    {
+      "symbol": "TURTLE",
+      "chain": "solana",
+      "address": "9pNRtw2Zxg7qVSoTKgQfGKmmXG9natzHMSSGZzdypump",
+      "source": "new",
+      "entry_price": 0.0001412,
+      "peak_price": 0.0001412,
+      "trailing_active": false,
+      "entry_time": "2026-07-30T11:26:22.584079+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.0,
+      "peak_volume_m5": 88983.65,
+      "milestones_hit": [],
+      "exit_price": 0.0001172,
+      "exit_pct": -17.0,
+      "exit_time": "2026-07-30T11:27:24.072839+00:00"
     }
   ],
   "alerted": {
@@ -81942,6 +81953,7 @@
     "0x536Db8a6985E9F0c816310bEBF1173870905A979": "2026-07-30T10:03:22.989294+00:00",
     "0xec1CC8EB092cab3aA35a8d199675773DB290fEE7": "2026-07-30T10:05:24.892642+00:00",
     "0xD7cad4A7d3A230606e3Fd19161Be8c3776B85397": "2026-07-30T10:31:17.899895+00:00",
-    "0x7B2A84c81898BE5600a466F2A35313D67f2849e3": "2026-07-30T11:21:25.919570+00:00"
+    "0x7B2A84c81898BE5600a466F2A35313D67f2849e3": "2026-07-30T11:21:25.919570+00:00",
+    "9pNRtw2Zxg7qVSoTKgQfGKmmXG9natzHMSSGZzdypump": "2026-07-30T11:27:24.072839+00:00"
   }
 }
