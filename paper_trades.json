@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "fin",
-      "chain": "solana",
-      "address": "5LLJZR9wTP7YtcTh5Fx5a4ksWQc5x1BtnWwWyMNzpump",
-      "source": "new",
-      "entry_price": 0.0002925,
-      "peak_price": 0.0006594,
-      "trailing_active": true,
-      "entry_time": "2026-07-30T21:50:30.527200+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 125.44,
-      "peak_volume_m5": 21429.72,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "MonkeyHood",
       "chain": "robinhood",
       "address": "0x8fc0CCAF347F94c81a2F84Dec36A6b822CBC3966",
       "source": "new",
       "entry_price": 4.071e-05,
-      "peak_price": 4.071e-05,
+      "peak_price": 4.111e-05,
       "trailing_active": false,
       "entry_time": "2026-07-30T22:20:47.619967+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.98,
+      "peak_volume_m5": 9737.99,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -78921,6 +78906,28 @@
       "exit_price": 0.0001291,
       "exit_pct": 40.68,
       "exit_time": "2026-07-30T22:01:22.814239+00:00"
+    },
+    {
+      "symbol": "fin",
+      "chain": "solana",
+      "address": "5LLJZR9wTP7YtcTh5Fx5a4ksWQc5x1BtnWwWyMNzpump",
+      "source": "new",
+      "entry_price": 0.0002925,
+      "peak_price": 0.0006594,
+      "trailing_active": true,
+      "entry_time": "2026-07-30T21:50:30.527200+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 103.04,
+      "peak_volume_m5": 21429.72,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0005939,
+      "exit_pct": 103.04,
+      "exit_time": "2026-07-30T22:21:22.199727+00:00"
     }
   ],
   "alerted": {
@@ -82915,6 +82922,7 @@
     "0x6245e67affA44a23077f0Ea7f981a8DC743a0c47": "2026-07-30T20:41:24.631145+00:00",
     "Fi18gyrnR2FKSooAArdggsBHvXCL68WY28pbWoowpump": "2026-07-30T21:06:29.581757+00:00",
     "0xfa86F61190C22C5b59E9A13CD8c5C16D82d39108": "2026-07-30T21:34:20.484111+00:00",
-    "0x7975654234605e03f1D3bEeBdcd5484dFc37E4c6": "2026-07-30T22:01:22.814239+00:00"
+    "0x7975654234605e03f1D3bEeBdcd5484dFc37E4c6": "2026-07-30T22:01:22.814239+00:00",
+    "5LLJZR9wTP7YtcTh5Fx5a4ksWQc5x1BtnWwWyMNzpump": "2026-07-30T22:21:22.199727+00:00"
   }
 }
