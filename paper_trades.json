@@ -3,36 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MOONDOGECOIN",
-      "chain": "solana",
-      "address": "AYJ1tYQZZJ1gmZhURYuXLwG9bygUcgBnYPzriLpxpump",
-      "source": "new",
-      "entry_price": 0.003571,
-      "peak_price": 0.01161,
-      "trailing_active": true,
-      "entry_time": "2026-07-30T18:30:29.073121+00:00",
-      "score": 88,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 225.12,
-      "peak_volume_m5": 40547.4,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Fraggle",
       "chain": "robinhood",
       "address": "0x0304F4f64BdEaF1AF0d3600665Bd92B41D21dFE8",
       "source": "new",
       "entry_price": 5.255e-05,
-      "peak_price": 5.255e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001344,
+      "trailing_active": true,
       "entry_time": "2026-07-30T19:20:35.883285+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 155.76,
+      "peak_volume_m5": 105897.75,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -78623,6 +78610,29 @@
       "exit_price": 0.0002708,
       "exit_pct": -5.28,
       "exit_time": "2026-07-30T19:06:22.056204+00:00"
+    },
+    {
+      "symbol": "MOONDOGECOIN",
+      "chain": "solana",
+      "address": "AYJ1tYQZZJ1gmZhURYuXLwG9bygUcgBnYPzriLpxpump",
+      "source": "new",
+      "entry_price": 0.003571,
+      "peak_price": 0.01312,
+      "trailing_active": true,
+      "entry_time": "2026-07-30T18:30:29.073121+00:00",
+      "score": 88,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 267.4,
+      "peak_volume_m5": 40547.4,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.01312,
+      "exit_pct": 267.4,
+      "exit_time": "2026-07-30T19:30:27.548238+00:00"
     }
   ],
   "alerted": {
@@ -82603,6 +82613,7 @@
     "ASYLj7ZVPfmLuT65J7VUZkWnsQ8LiSz6WU3S6Ge7pump": "2026-07-30T18:20:19.661134+00:00",
     "ppD2YACYxh36zS2yDWwMiCkqfQgTukJ9P2a2jMQpump": "2026-07-30T18:31:21.605698+00:00",
     "Ds6A2hFymjhpWGrVaSLzxHD7aJGbDR2H27GCFYiXpump": "2026-07-30T18:35:30.130745+00:00",
-    "Agmu8Xgn7rU4zFv4DMPrEBhYDdPsmiEG5hCiYyvSpump": "2026-07-30T19:06:22.056204+00:00"
+    "Agmu8Xgn7rU4zFv4DMPrEBhYDdPsmiEG5hCiYyvSpump": "2026-07-30T19:06:22.056204+00:00",
+    "AYJ1tYQZZJ1gmZhURYuXLwG9bygUcgBnYPzriLpxpump": "2026-07-30T19:30:27.548238+00:00"
   }
 }
