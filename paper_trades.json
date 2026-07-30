@@ -13,7 +13,7 @@
       "entry_time": "2026-07-28T23:30:35.230795+00:00",
       "score": 62,
       "status": "open",
-      "api_failures": 8,
+      "api_failures": 9,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -24,23 +24,15 @@
       "address": "3yjjqYr61KCDXfVYH5G6KViSsJnZPoauUqaTWqCcpump",
       "source": "new",
       "entry_price": 0.0001734,
-      "peak_price": 0.0001734,
-      "trailing_active": false,
+      "peak_price": 0.0001998,
+      "trailing_active": true,
       "entry_time": "2026-07-30T00:20:31.127090+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "Fraudci",
-      "chain": "robinhood",
-      "address": "0x4717d3aeCa83c3fB10bD2B2e084099E2A26E0112",
-      "source": "new",
-      "entry_price": 0.0001504,
-      "peak_price": 0.0001504,
-      "trailing_active": false,
-      "entry_time": "2026-07-30T00:20:32.597158+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.22,
+      "peak_volume_m5": 38330.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -77331,6 +77323,25 @@
       "exit_price": 9.135e-05,
       "exit_pct": 18.11,
       "exit_time": "2026-07-29T23:11:23.524917+00:00"
+    },
+    {
+      "symbol": "Fraudci",
+      "chain": "robinhood",
+      "address": "0x4717d3aeCa83c3fB10bD2B2e084099E2A26E0112",
+      "source": "new",
+      "entry_price": 0.0001504,
+      "peak_price": 0.0001504,
+      "trailing_active": false,
+      "entry_time": "2026-07-30T00:20:32.597158+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.35,
+      "peak_volume_m5": 16893.23,
+      "milestones_hit": [],
+      "exit_price": 0.0001228,
+      "exit_pct": -18.35,
+      "exit_time": "2026-07-30T00:25:20.674757+00:00"
     }
   ],
   "alerted": {
@@ -81245,6 +81256,7 @@
     "0x7199dbB84E74A1E12883FB213240e555fF4D5df1": "2026-07-29T22:16:22.099480+00:00",
     "0x8a3C0263481306B9ae9a6FF13EeC988910694293": "2026-07-29T22:32:19.184940+00:00",
     "0x5Eb32ef93C7B04e6925AE725E63a78326ccA29Db": "2026-07-29T22:52:24.396269+00:00",
-    "0x3c79B3e55f0C9de9a2f2BC205009435FeCA940a5": "2026-07-29T23:11:23.524917+00:00"
+    "0x3c79B3e55f0C9de9a2f2BC205009435FeCA940a5": "2026-07-29T23:11:23.524917+00:00",
+    "0x4717d3aeCa83c3fB10bD2B2e084099E2A26E0112": "2026-07-30T00:25:20.674757+00:00"
   }
 }
