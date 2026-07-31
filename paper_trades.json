@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "HALO",
-      "chain": "solana",
-      "address": "7cok2xaMZTzbae7ETiFC3n9GeFT1kCPeNnwLxsRRpump",
-      "source": "new",
-      "entry_price": 0.0002199,
-      "peak_price": 0.0002199,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T09:50:30.906680+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "PAJAMAS",
       "chain": "solana",
       "address": "7h2S67waWYhdmpGZzdiUFNKhmMfHShwG5vZ3PYHvpump",
       "source": "new",
       "entry_price": 0.0001823,
-      "peak_price": 0.0001823,
-      "trailing_active": false,
+      "peak_price": 0.000219,
+      "trailing_active": true,
       "entry_time": "2026-07-31T09:50:32.864382+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.13,
+      "peak_volume_m5": 32522.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -79797,6 +79789,25 @@
       "exit_price": 0.0001843,
       "exit_pct": 23.36,
       "exit_time": "2026-07-31T09:25:23.789624+00:00"
+    },
+    {
+      "symbol": "HALO",
+      "chain": "solana",
+      "address": "7cok2xaMZTzbae7ETiFC3n9GeFT1kCPeNnwLxsRRpump",
+      "source": "new",
+      "entry_price": 0.0002199,
+      "peak_price": 0.0002199,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T09:50:30.906680+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.55,
+      "peak_volume_m5": 114998.78,
+      "milestones_hit": [],
+      "exit_price": 0.0001923,
+      "exit_pct": -12.55,
+      "exit_time": "2026-07-31T09:54:16.474705+00:00"
     }
   ],
   "alerted": {
@@ -83835,6 +83846,7 @@
     "FC4bnKXpQQyGRarmGY6euEp51jE2EHRwuHZmHB4gpump": "2026-07-31T08:11:22.757049+00:00",
     "4t2s4SyYGX12ZMgk1pTtGtHrWKrqQFd7m2AoVVNLpump": "2026-07-31T09:12:19.375444+00:00",
     "0x36917E762baa60c676b241bD01B4b1ebe088A996": "2026-07-31T09:23:20.006708+00:00",
-    "EPRrmBQojQLNxKjULjkB2fHv34kAfgVK8JLQ7gRCpump": "2026-07-31T09:25:23.789624+00:00"
+    "EPRrmBQojQLNxKjULjkB2fHv34kAfgVK8JLQ7gRCpump": "2026-07-31T09:25:23.789624+00:00",
+    "7cok2xaMZTzbae7ETiFC3n9GeFT1kCPeNnwLxsRRpump": "2026-07-31T09:54:16.474705+00:00"
   }
 }
