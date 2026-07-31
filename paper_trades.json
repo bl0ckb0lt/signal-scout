@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MANIFEST",
-      "chain": "robinhood",
-      "address": "0xE9f4fC7C8EB8cbA6642440a5AF15dC2AadFafD00",
-      "source": "new",
-      "entry_price": 8.222e-05,
-      "peak_price": 8.222e-05,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T16:20:27.588266+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "MRDN",
       "chain": "robinhood",
       "address": "0xBaabCB1800C539a58a46035d3982403a37FD6d5D",
       "source": "new",
       "entry_price": 0.01675,
-      "peak_price": 0.01675,
+      "peak_price": 0.0186,
       "trailing_active": false,
       "entry_time": "2026-07-31T16:20:28.969613+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.04,
+      "peak_volume_m5": 4729.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -80443,6 +80435,25 @@
       "exit_price": 0.0001866,
       "exit_pct": -8.8,
       "exit_time": "2026-07-31T15:51:17.042443+00:00"
+    },
+    {
+      "symbol": "MANIFEST",
+      "chain": "robinhood",
+      "address": "0xE9f4fC7C8EB8cbA6642440a5AF15dC2AadFafD00",
+      "source": "new",
+      "entry_price": 8.222e-05,
+      "peak_price": 8.222e-05,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T16:20:27.588266+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.44,
+      "peak_volume_m5": 10145.73,
+      "milestones_hit": [],
+      "exit_price": 7.281e-05,
+      "exit_pct": -11.44,
+      "exit_time": "2026-07-31T16:24:20.153271+00:00"
     }
   ],
   "alerted": {
@@ -84513,6 +84524,7 @@
     "HyDvfwct3HmxJSaEFGDEEejKpj2Vi7x4BNpAsa1wpump": "2026-07-31T15:34:20.749893+00:00",
     "0x3BE0Bfa32bbCC486F4F012b20C3a50934AB72469": "2026-07-31T15:45:18.352501+00:00",
     "0x4f1ac15dfceedca293b2e3c7a6be2c9d66158fa0": "2026-07-31T15:45:49.546234+00:00",
-    "7wFXukV5XoeSBYy3wkQJ93Ktcc4rt4toMJx2QupYnCQo": "2026-07-31T15:51:17.042443+00:00"
+    "7wFXukV5XoeSBYy3wkQJ93Ktcc4rt4toMJx2QupYnCQo": "2026-07-31T15:51:17.042443+00:00",
+    "0xE9f4fC7C8EB8cbA6642440a5AF15dC2AadFafD00": "2026-07-31T16:24:20.153271+00:00"
   }
 }
