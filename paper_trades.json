@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Gelato",
-      "chain": "solana",
-      "address": "3Q1uv5ACS22sda2QGhnzKd5kRfsjh8vxYnFRfCggpump",
-      "source": "new",
-      "entry_price": 0.0002381,
-      "peak_price": 0.0002381,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T10:10:37.628337+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "MSHALO",
       "chain": "solana",
       "address": "Fk84tc5xKP9ABCGEtnWFrQymM4fqX4TQNPZ8dF5upump",
       "source": "new",
       "entry_price": 0.0001504,
-      "peak_price": 0.0001504,
-      "trailing_active": false,
+      "peak_price": 0.0002105,
+      "trailing_active": true,
       "entry_time": "2026-07-31T10:10:39.518702+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 39.96,
+      "peak_volume_m5": 61649.86,
+      "milestones_hit": []
     },
     {
       "symbol": "YANGHAHA",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-31T10:10:43.378692+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.79,
+      "peak_volume_m5": 8785.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -79847,6 +79843,25 @@
       "exit_price": 0.0001911,
       "exit_pct": 4.83,
       "exit_time": "2026-07-31T09:56:25.625751+00:00"
+    },
+    {
+      "symbol": "Gelato",
+      "chain": "solana",
+      "address": "3Q1uv5ACS22sda2QGhnzKd5kRfsjh8vxYnFRfCggpump",
+      "source": "new",
+      "entry_price": 0.0002381,
+      "peak_price": 0.0002381,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T10:10:37.628337+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.41,
+      "peak_volume_m5": 81887.33,
+      "milestones_hit": [],
+      "exit_price": 0.0001895,
+      "exit_pct": -20.41,
+      "exit_time": "2026-07-31T10:13:25.788281+00:00"
     }
   ],
   "alerted": {
@@ -83887,6 +83902,7 @@
     "0x36917E762baa60c676b241bD01B4b1ebe088A996": "2026-07-31T09:23:20.006708+00:00",
     "EPRrmBQojQLNxKjULjkB2fHv34kAfgVK8JLQ7gRCpump": "2026-07-31T09:25:23.789624+00:00",
     "7cok2xaMZTzbae7ETiFC3n9GeFT1kCPeNnwLxsRRpump": "2026-07-31T09:54:16.474705+00:00",
-    "7h2S67waWYhdmpGZzdiUFNKhmMfHShwG5vZ3PYHvpump": "2026-07-31T09:56:25.625751+00:00"
+    "7h2S67waWYhdmpGZzdiUFNKhmMfHShwG5vZ3PYHvpump": "2026-07-31T09:56:25.625751+00:00",
+    "3Q1uv5ACS22sda2QGhnzKd5kRfsjh8vxYnFRfCggpump": "2026-07-31T10:13:25.788281+00:00"
   }
 }
