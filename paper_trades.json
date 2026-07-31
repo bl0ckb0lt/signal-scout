@@ -24,23 +24,15 @@
       "address": "5bRcpredFQkbqqYhd3TKiL23tHujeC4iAHviTpuRpump",
       "source": "new",
       "entry_price": 0.0001798,
-      "peak_price": 0.0001798,
-      "trailing_active": false,
+      "peak_price": 0.0002338,
+      "trailing_active": true,
       "entry_time": "2026-07-31T05:40:34.859375+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "HOTDOG",
-      "chain": "robinhood",
-      "address": "0xB89d67d60F94C9B3Bef6d108e0bE57Fd90017e2F",
-      "source": "new",
-      "entry_price": 1.267e-06,
-      "peak_price": 1.267e-06,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T05:40:36.380659+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 30.03,
+      "peak_volume_m5": 55246.58,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -79583,6 +79575,25 @@
       "exit_price": 0.0001224,
       "exit_pct": 169.66,
       "exit_time": "2026-07-31T05:24:19.960351+00:00"
+    },
+    {
+      "symbol": "HOTDOG",
+      "chain": "robinhood",
+      "address": "0xB89d67d60F94C9B3Bef6d108e0bE57Fd90017e2F",
+      "source": "new",
+      "entry_price": 1.267e-06,
+      "peak_price": 1.267e-06,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T05:40:36.380659+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.31,
+      "peak_volume_m5": 50901.13,
+      "milestones_hit": [],
+      "exit_price": 1.111e-06,
+      "exit_pct": -12.31,
+      "exit_time": "2026-07-31T05:42:21.038173+00:00"
     }
   ],
   "alerted": {
@@ -83609,6 +83620,7 @@
     "0xb07EA25bC708bf5E79f7f693Ec82D40A924bdCa5": "2026-07-31T04:33:22.170534+00:00",
     "0x6d2F056Cd6DE94A6d350Bfed0878bf52943E2268": "2026-07-31T04:33:23.213105+00:00",
     "BsZKqtJdNoQsQCdKg9zNVaFjjPadDgtiYoo7buwnpump": "2026-07-31T04:45:25.372603+00:00",
-    "0x38A90B338A3CD92688AafADC14BE3AdB023F60F1": "2026-07-31T05:24:19.960351+00:00"
+    "0x38A90B338A3CD92688AafADC14BE3AdB023F60F1": "2026-07-31T05:24:19.960351+00:00",
+    "0xB89d67d60F94C9B3Bef6d108e0bE57Fd90017e2F": "2026-07-31T05:42:21.038173+00:00"
   }
 }
