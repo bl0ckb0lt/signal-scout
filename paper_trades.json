@@ -3,47 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EKM",
-      "chain": "robinhood",
-      "address": "0xb07EA25bC708bf5E79f7f693Ec82D40A924bdCa5",
-      "source": "new",
-      "entry_price": 4.887e-05,
-      "peak_price": 0.0001074,
-      "trailing_active": true,
-      "entry_time": "2026-07-31T04:10:39.701614+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 119.77,
-      "peak_volume_m5": 23018.07,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "ECM",
       "chain": "solana",
       "address": "BsZKqtJdNoQsQCdKg9zNVaFjjPadDgtiYoo7buwnpump",
       "source": "new",
       "entry_price": 0.0001311,
-      "peak_price": 0.0001311,
+      "peak_price": 0.0001429,
       "trailing_active": false,
       "entry_time": "2026-07-31T04:30:31.846927+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "FFILL",
-      "chain": "robinhood",
-      "address": "0x6d2F056Cd6DE94A6d350Bfed0878bf52943E2268",
-      "source": "new",
-      "entry_price": 1.03e-06,
-      "peak_price": 1.03e-06,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T04:30:38.169513+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.0,
+      "peak_volume_m5": 27784.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -79504,6 +79477,47 @@
       "exit_price": 0.00129,
       "exit_pct": 120.14,
       "exit_time": "2026-07-31T04:20:22.724451+00:00"
+    },
+    {
+      "symbol": "EKM",
+      "chain": "robinhood",
+      "address": "0xb07EA25bC708bf5E79f7f693Ec82D40A924bdCa5",
+      "source": "new",
+      "entry_price": 4.887e-05,
+      "peak_price": 0.0001074,
+      "trailing_active": true,
+      "entry_time": "2026-07-31T04:10:39.701614+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 76.98,
+      "peak_volume_m5": 24627.06,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 8.649e-05,
+      "exit_pct": 76.98,
+      "exit_time": "2026-07-31T04:33:22.170534+00:00"
+    },
+    {
+      "symbol": "FFILL",
+      "chain": "robinhood",
+      "address": "0x6d2F056Cd6DE94A6d350Bfed0878bf52943E2268",
+      "source": "new",
+      "entry_price": 1.03e-06,
+      "peak_price": 1.03e-06,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T04:30:38.169513+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.43,
+      "peak_volume_m5": 36633.67,
+      "milestones_hit": [],
+      "exit_price": 9.329e-07,
+      "exit_pct": -9.43,
+      "exit_time": "2026-07-31T04:33:23.213105+00:00"
     }
   ],
   "alerted": {
@@ -83526,6 +83540,8 @@
     "vF2v77T9SvJDkt5JSS4bH9NQNvgq9aDQkY49d4Lpump": "2026-07-31T03:48:20.868963+00:00",
     "35uNEwccwXPdwcGN5Ez1D1Uh6prm2VoZUU4AtLoipump": "2026-07-31T04:04:23.234342+00:00",
     "0xC1073C967E323F2E197fA3975EC3b279974d7777": "2026-07-31T04:11:26.168597+00:00",
-    "CQtZ7eg9RpDXphZGGrmVeT2LwH7ubzLi3jvkBRDfpump": "2026-07-31T04:20:22.724451+00:00"
+    "CQtZ7eg9RpDXphZGGrmVeT2LwH7ubzLi3jvkBRDfpump": "2026-07-31T04:20:22.724451+00:00",
+    "0xb07EA25bC708bf5E79f7f693Ec82D40A924bdCa5": "2026-07-31T04:33:22.170534+00:00",
+    "0x6d2F056Cd6DE94A6d350Bfed0878bf52943E2268": "2026-07-31T04:33:23.213105+00:00"
   }
 }
