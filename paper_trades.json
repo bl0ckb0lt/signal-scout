@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "YAPAPA",
-      "chain": "solana",
-      "address": "FaE6rBFfE83eh3iHBWuP4TSfbnKRJRqF9hShQAZ2pump",
-      "source": "boost",
-      "entry_price": 0.000252,
-      "peak_price": 0.000252,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T12:50:38.553186+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "Chiikawa",
       "chain": "robinhood",
       "address": "0x1Df42Bb92C8aae92672FCA192BCB05e03cC05A1c",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-07-31T12:50:40.186762+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.56,
+      "peak_volume_m5": 24163.44,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -80127,6 +80119,25 @@
       "exit_price": 0.000228,
       "exit_pct": 61.7,
       "exit_time": "2026-07-31T12:42:19.962403+00:00"
+    },
+    {
+      "symbol": "YAPAPA",
+      "chain": "solana",
+      "address": "FaE6rBFfE83eh3iHBWuP4TSfbnKRJRqF9hShQAZ2pump",
+      "source": "boost",
+      "entry_price": 0.000252,
+      "peak_price": 0.000252,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T12:50:38.553186+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.43,
+      "peak_volume_m5": 51276.9,
+      "milestones_hit": [],
+      "exit_price": 0.000198,
+      "exit_pct": -21.43,
+      "exit_time": "2026-07-31T12:52:21.282333+00:00"
     }
   ],
   "alerted": {
@@ -84181,6 +84192,7 @@
     "AGbfomctz1Pe9fzNuppVZ6jQrjZecRujyx6qt7egpump": "2026-07-31T12:11:23.686932+00:00",
     "0xC1a0C3929f5e12b5CfD6Ae36f197a45beDf79417": "2026-07-31T12:13:26.987827+00:00",
     "DgNEubx7aSkBhf8e9LrhCv5SigaCN6oXFp5QwmW5pump": "2026-07-31T12:21:25.678977+00:00",
-    "5CeziPeztXc5y7EsfZt8sSvgeJgtdjKsJUUrRJihpump": "2026-07-31T12:42:19.962403+00:00"
+    "5CeziPeztXc5y7EsfZt8sSvgeJgtdjKsJUUrRJihpump": "2026-07-31T12:42:19.962403+00:00",
+    "FaE6rBFfE83eh3iHBWuP4TSfbnKRJRqF9hShQAZ2pump": "2026-07-31T12:52:21.282333+00:00"
   }
 }
