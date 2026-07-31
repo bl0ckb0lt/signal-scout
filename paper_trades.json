@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "OMGCAT",
-      "chain": "solana",
-      "address": "7dyG3fnerSLDt8Erp6HpSPuTFkP3uDEPxne3NgsRpump",
-      "source": "new",
-      "entry_price": 0.0001473,
-      "peak_price": 0.0001527,
-      "trailing_active": false,
-      "entry_time": "2026-07-31T13:50:31.825587+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.67,
-      "peak_volume_m5": 93800.23,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PONKS",
       "chain": "robinhood",
       "address": "0x6D22a4a6f82a957d98adb47fe04A6F79425787f8",
       "source": "new",
       "entry_price": 9.794e-05,
-      "peak_price": 9.794e-05,
+      "peak_price": 0.0001126,
       "trailing_active": false,
       "entry_time": "2026-07-31T14:00:38.889552+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.97,
+      "peak_volume_m5": 19709.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -80228,6 +80216,25 @@
       "exit_price": 0.0001987,
       "exit_pct": 52.14,
       "exit_time": "2026-07-31T13:27:20.579318+00:00"
+    },
+    {
+      "symbol": "OMGCAT",
+      "chain": "solana",
+      "address": "7dyG3fnerSLDt8Erp6HpSPuTFkP3uDEPxne3NgsRpump",
+      "source": "new",
+      "entry_price": 0.0001473,
+      "peak_price": 0.0001527,
+      "trailing_active": false,
+      "entry_time": "2026-07-31T13:50:31.825587+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.49,
+      "peak_volume_m5": 93800.23,
+      "milestones_hit": [],
+      "exit_price": 0.0001348,
+      "exit_pct": -8.49,
+      "exit_time": "2026-07-31T14:01:25.725968+00:00"
     }
   ],
   "alerted": {
@@ -84287,6 +84294,7 @@
     "0x1Df42Bb92C8aae92672FCA192BCB05e03cC05A1c": "2026-07-31T12:53:21.410419+00:00",
     "0x730D5aa479526024d379Ac6F4c9dFb851615c560": "2026-07-31T13:15:44.253544+00:00",
     "EAQRe1zCu8TaBSZkWkjY4SCAmdGAm9uLvLmrWEnQpump": "2026-07-31T13:25:51.297369+00:00",
-    "PCcCovtYCUmtfWVk1JbZRf1LMYRwGbmJf6m3kRxpump": "2026-07-31T13:27:20.579318+00:00"
+    "PCcCovtYCUmtfWVk1JbZRf1LMYRwGbmJf6m3kRxpump": "2026-07-31T13:27:20.579318+00:00",
+    "7dyG3fnerSLDt8Erp6HpSPuTFkP3uDEPxne3NgsRpump": "2026-07-31T14:01:25.725968+00:00"
   }
 }
