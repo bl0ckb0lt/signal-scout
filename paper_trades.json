@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "ASTEROID",
-      "chain": "bsc",
-      "address": "0x330990DaE53BCa4C5811C5362B44C33a47db7777",
-      "source": "new",
-      "entry_price": 0.001379,
-      "peak_price": 0.001379,
-      "trailing_active": false,
-      "entry_time": "2026-08-01T00:50:34.371905+00:00",
-      "score": 80,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -81156,6 +81143,29 @@
       "exit_price": 7.746e-05,
       "exit_pct": 26.53,
       "exit_time": "2026-08-01T00:33:17.967421+00:00"
+    },
+    {
+      "symbol": "ASTEROID",
+      "chain": "bsc",
+      "address": "0x330990DaE53BCa4C5811C5362B44C33a47db7777",
+      "source": "new",
+      "entry_price": 0.001379,
+      "peak_price": 0.005105,
+      "trailing_active": true,
+      "entry_time": "2026-08-01T00:50:34.371905+00:00",
+      "score": 80,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 270.2,
+      "peak_volume_m5": 1783105.53,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.005105,
+      "exit_pct": 270.2,
+      "exit_time": "2026-08-01T00:59:23.388598+00:00"
     }
   ],
   "alerted": {
@@ -85263,6 +85273,7 @@
     "0x65c0E98a4fE050e64E16754119C76EEbd4E660cc": "2026-07-31T23:11:28.117846+00:00",
     "2S3yzoNGweCeD3fFyp8ZVAVhUKmi2Pok5C7QMsbopump": "2026-07-31T23:53:21.181020+00:00",
     "0x2acef5f788B6cb7d1c9e1C83A0FF01d8Ab418fd7": "2026-07-31T23:56:24.110089+00:00",
-    "0x21356b7172f62DB4041d81d83a45c102b1219FdC": "2026-08-01T00:33:17.967421+00:00"
+    "0x21356b7172f62DB4041d81d83a45c102b1219FdC": "2026-08-01T00:33:17.967421+00:00",
+    "0x330990DaE53BCa4C5811C5362B44C33a47db7777": "2026-08-01T00:59:23.388598+00:00"
   }
 }
