@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FRIES",
-      "chain": "solana",
-      "address": "DCisD9fprDsKaK2Hiv5TunrmeZXztSZsnZBP772vkAi1",
-      "source": "new",
-      "entry_price": 0.000241,
-      "peak_price": 0.000241,
-      "trailing_active": false,
-      "entry_time": "2026-08-01T01:30:35.236299+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "GME",
       "chain": "robinhood",
       "address": "0x00E29693aE6039cEe8e60c5A72D9d87864a0d625",
       "source": "new",
       "entry_price": 0.0001282,
-      "peak_price": 0.0001282,
+      "peak_price": 0.0001445,
       "trailing_active": false,
       "entry_time": "2026-08-01T01:30:36.588569+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.71,
+      "peak_volume_m5": 50491.91,
+      "milestones_hit": []
     },
     {
       "symbol": "ELIZA.ARMY",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-01T01:30:37.915626+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.39,
+      "peak_volume_m5": 25656.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -81241,6 +81237,25 @@
       "exit_price": 0.0003689,
       "exit_pct": -13.32,
       "exit_time": "2026-08-01T01:23:24.438439+00:00"
+    },
+    {
+      "symbol": "FRIES",
+      "chain": "solana",
+      "address": "DCisD9fprDsKaK2Hiv5TunrmeZXztSZsnZBP772vkAi1",
+      "source": "new",
+      "entry_price": 0.000241,
+      "peak_price": 0.000241,
+      "trailing_active": false,
+      "entry_time": "2026-08-01T01:30:35.236299+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.14,
+      "peak_volume_m5": 120684.28,
+      "milestones_hit": [],
+      "exit_price": 0.0001997,
+      "exit_pct": -17.14,
+      "exit_time": "2026-08-01T01:32:18.335295+00:00"
     }
   ],
   "alerted": {
@@ -85351,6 +85366,7 @@
     "0x21356b7172f62DB4041d81d83a45c102b1219FdC": "2026-08-01T00:33:17.967421+00:00",
     "0x330990DaE53BCa4C5811C5362B44C33a47db7777": "2026-08-01T00:59:23.388598+00:00",
     "CQHptAzxwpyRRmeXm391cQxzkzzFMSu1goptNGB4pump": "2026-08-01T01:15:23.886194+00:00",
-    "0x9FA8CDe138cd79A04365cEeb7aEac4AEf8ADF6C5": "2026-08-01T01:23:24.438439+00:00"
+    "0x9FA8CDe138cd79A04365cEeb7aEac4AEf8ADF6C5": "2026-08-01T01:23:24.438439+00:00",
+    "DCisD9fprDsKaK2Hiv5TunrmeZXztSZsnZBP772vkAi1": "2026-08-01T01:32:18.335295+00:00"
   }
 }
