@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TURTLEBOSS",
-      "chain": "solana",
-      "address": "FkLqaRrAn7VkMaMHSM5hQMRCezu1jeDapQ9nFtBJpump",
-      "source": "new",
-      "entry_price": 0.0001246,
-      "peak_price": 0.0001246,
-      "trailing_active": false,
-      "entry_time": "2026-08-02T18:40:30.979219+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "GOONER",
       "chain": "solana",
       "address": "J92DV8wqCUALdU36at4TZW4Gb49ea17hHRxmWB9apump",
       "source": "new",
       "entry_price": 0.0002034,
-      "peak_price": 0.0002034,
-      "trailing_active": false,
+      "peak_price": 0.0002791,
+      "trailing_active": true,
       "entry_time": "2026-08-02T18:40:33.016966+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.22,
+      "peak_volume_m5": 122012.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -83092,6 +83084,25 @@
       "exit_price": 0.0001172,
       "exit_pct": 41.68,
       "exit_time": "2026-08-02T18:18:20.673059+00:00"
+    },
+    {
+      "symbol": "TURTLEBOSS",
+      "chain": "solana",
+      "address": "FkLqaRrAn7VkMaMHSM5hQMRCezu1jeDapQ9nFtBJpump",
+      "source": "new",
+      "entry_price": 0.0001246,
+      "peak_price": 0.0001246,
+      "trailing_active": false,
+      "entry_time": "2026-08-02T18:40:30.979219+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.38,
+      "peak_volume_m5": 95920.09,
+      "milestones_hit": [],
+      "exit_price": 0.0001017,
+      "exit_pct": -18.38,
+      "exit_time": "2026-08-02T18:44:20.711788+00:00"
     }
   ],
   "alerted": {
@@ -87297,6 +87308,7 @@
     "0xD782bEe8d36e776C0634895dcdC6BC4465ac2a08": "2026-08-02T16:47:21.771939+00:00",
     "0x6E69f04e1Db0beC227d08352cc2DE1F48F22d1E3": "2026-08-02T17:01:24.354862+00:00",
     "0xAb634722a079A0a883106785fF1f2e026bC7b765": "2026-08-02T17:51:20.499932+00:00",
-    "0x5603Ab202a97C294C56f8Ba668FD51d1f1A9b20E": "2026-08-02T18:18:20.673059+00:00"
+    "0x5603Ab202a97C294C56f8Ba668FD51d1f1A9b20E": "2026-08-02T18:18:20.673059+00:00",
+    "FkLqaRrAn7VkMaMHSM5hQMRCezu1jeDapQ9nFtBJpump": "2026-08-02T18:44:20.711788+00:00"
   }
 }
