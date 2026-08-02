@@ -8,27 +8,15 @@
       "address": "0x27436d7F4AdD44ACA19A0B10387c17dA5d5de9a0",
       "source": "new",
       "entry_price": 6.63e-05,
-      "peak_price": 6.875e-05,
-      "trailing_active": false,
+      "peak_price": 8.199e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-02T21:00:34.545648+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.7,
+      "current_pct": 23.67,
       "peak_volume_m5": 48535.98,
       "milestones_hit": []
-    },
-    {
-      "symbol": "FROGE",
-      "chain": "solana",
-      "address": "FVZhiS1uXdxpVMyGZTS22fz3caHUxxxXPkHPG21Zpump",
-      "source": "new",
-      "entry_price": 0.0001712,
-      "peak_price": 0.0001712,
-      "trailing_active": false,
-      "entry_time": "2026-08-02T21:10:35.322769+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -83233,6 +83221,25 @@
       "exit_price": 0.0001824,
       "exit_pct": 273.08,
       "exit_time": "2026-08-02T20:25:17.114822+00:00"
+    },
+    {
+      "symbol": "FROGE",
+      "chain": "solana",
+      "address": "FVZhiS1uXdxpVMyGZTS22fz3caHUxxxXPkHPG21Zpump",
+      "source": "new",
+      "entry_price": 0.0001712,
+      "peak_price": 0.0001712,
+      "trailing_active": false,
+      "entry_time": "2026-08-02T21:10:35.322769+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.97,
+      "peak_volume_m5": 181348.52,
+      "milestones_hit": [],
+      "exit_price": 0.0001507,
+      "exit_pct": -11.97,
+      "exit_time": "2026-08-02T21:11:26.472606+00:00"
     }
   ],
   "alerted": {
@@ -87445,6 +87452,7 @@
     "AbzABfZfMGTdiRur3kYC2j5WihusfDzW9FYno1t5pump": "2026-08-02T20:01:20.078826+00:00",
     "0x8783eFF491a08b1e77434F2E1E81DAC5545FF991": "2026-08-02T20:04:28.308062+00:00",
     "0xa1ec2d445d3649d0A82245Dc7AA63cA843aCE55C": "2026-08-02T20:04:29.132827+00:00",
-    "0xE78c2F1cBA3B5BAB517C240B89fa0f86516eC110": "2026-08-02T20:25:17.114822+00:00"
+    "0xE78c2F1cBA3B5BAB517C240B89fa0f86516eC110": "2026-08-02T20:25:17.114822+00:00",
+    "FVZhiS1uXdxpVMyGZTS22fz3caHUxxxXPkHPG21Zpump": "2026-08-02T21:11:26.472606+00:00"
   }
 }
