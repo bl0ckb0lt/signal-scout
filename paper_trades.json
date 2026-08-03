@@ -3,35 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DORK",
-      "chain": "robinhood",
-      "address": "0xD707D1A75A85cCA5bb0491663ff74324FD0f7b03",
-      "source": "new",
-      "entry_price": 0.0005628,
-      "peak_price": 0.0005756,
-      "trailing_active": false,
-      "entry_time": "2026-08-03T14:40:29.511421+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.27,
-      "peak_volume_m5": 21448.72,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BOURSE",
       "chain": "robinhood",
       "address": "0x60Edd303679c3923b628c8F02cE0bE69e96deb1d",
       "source": "new",
       "entry_price": 4.081,
-      "peak_price": 4.26,
+      "peak_price": 4.36,
       "trailing_active": false,
       "entry_time": "2026-08-03T15:00:36.766981+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.39,
-      "peak_volume_m5": 77.06,
+      "current_pct": 6.84,
+      "peak_volume_m5": 372.77,
       "milestones_hit": []
     },
     {
@@ -40,11 +24,15 @@
       "address": "CLoRXWYHKQm6i2vShBrTgT29J4RRBBgVthvnbK6Dpump",
       "source": "boost",
       "entry_price": 0.0001275,
-      "peak_price": 0.0001275,
-      "trailing_active": false,
+      "peak_price": 0.0001702,
+      "trailing_active": true,
       "entry_time": "2026-08-03T15:10:44.245190+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.49,
+      "peak_volume_m5": 26508.57,
+      "milestones_hit": []
     },
     {
       "symbol": "DPUNK",
@@ -52,11 +40,15 @@
       "address": "0xfD181Ca5EC0B355fc448403cc560D0423382e044",
       "source": "new",
       "entry_price": 0.119,
-      "peak_price": 0.119,
+      "peak_price": 0.1281,
       "trailing_active": false,
       "entry_time": "2026-08-03T15:10:47.649424+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.65,
+      "peak_volume_m5": 14120.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -84188,6 +84180,25 @@
       "exit_price": 4.868e-05,
       "exit_pct": -18.54,
       "exit_time": "2026-08-03T14:51:21.892473+00:00"
+    },
+    {
+      "symbol": "DORK",
+      "chain": "robinhood",
+      "address": "0xD707D1A75A85cCA5bb0491663ff74324FD0f7b03",
+      "source": "new",
+      "entry_price": 0.0005628,
+      "peak_price": 0.0005756,
+      "trailing_active": false,
+      "entry_time": "2026-08-03T14:40:29.511421+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.67,
+      "peak_volume_m5": 24414.93,
+      "milestones_hit": [],
+      "exit_price": 0.0004971,
+      "exit_pct": -11.67,
+      "exit_time": "2026-08-03T15:15:30.705256+00:00"
     }
   ],
   "alerted": {
@@ -88445,6 +88456,7 @@
     "0xB49ED586ed7A5cA4793A5e31768a4D57b505aA4f": "2026-08-03T13:28:23.003490+00:00",
     "yPRXjUeAidU5Azc3GL35QbWRyJwznju7yTGmzKTpump": "2026-08-03T13:42:19.219840+00:00",
     "0xA6ffEd0830317ff5245Bb8147e1Ff0b987f8071f": "2026-08-03T13:45:46.561294+00:00",
-    "0xa842BA12fCB3254F25059c87BA2d36360AcFcD26": "2026-08-03T14:51:21.892473+00:00"
+    "0xa842BA12fCB3254F25059c87BA2d36360AcFcD26": "2026-08-03T14:51:21.892473+00:00",
+    "0xD707D1A75A85cCA5bb0491663ff74324FD0f7b03": "2026-08-03T15:15:30.705256+00:00"
   }
 }
