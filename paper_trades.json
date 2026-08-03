@@ -8,23 +8,15 @@
       "address": "E4XcM3x3m1xWT6shrEApT57SKMm4UjNZjbWGdieFpump",
       "source": "boost",
       "entry_price": 0.0001416,
-      "peak_price": 0.0001416,
-      "trailing_active": false,
+      "peak_price": 0.0001857,
+      "trailing_active": true,
       "entry_time": "2026-08-03T12:40:36.690886+00:00",
       "score": 79,
-      "status": "open"
-    },
-    {
-      "symbol": "BULLVI",
-      "chain": "solana",
-      "address": "CjVqUKjarvfC7gRdZ8Gcb55bb1zV8xeENM3hkE57pump",
-      "source": "new",
-      "entry_price": 0.0001343,
-      "peak_price": 0.0001343,
-      "trailing_active": false,
-      "entry_time": "2026-08-03T12:40:38.696884+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.14,
+      "peak_volume_m5": 11001.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -84021,6 +84013,25 @@
       "exit_price": 0.0004099,
       "exit_pct": 140.69,
       "exit_time": "2026-08-03T12:04:20.281349+00:00"
+    },
+    {
+      "symbol": "BULLVI",
+      "chain": "solana",
+      "address": "CjVqUKjarvfC7gRdZ8Gcb55bb1zV8xeENM3hkE57pump",
+      "source": "new",
+      "entry_price": 0.0001343,
+      "peak_price": 0.0001343,
+      "trailing_active": false,
+      "entry_time": "2026-08-03T12:40:38.696884+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.75,
+      "peak_volume_m5": 15534.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001212,
+      "exit_pct": -9.75,
+      "exit_time": "2026-08-03T12:44:20.153686+00:00"
     }
   ],
   "alerted": {
@@ -88272,6 +88283,7 @@
     "DmaVLoieWB1Y2E39V9FJwepndBrPabXrkbWZCSXQpump": "2026-08-03T11:31:20.760174+00:00",
     "HCyP86G8Ytp9mG8MSbrB8UuCvC2bkbaHTiuHcE5Bpump": "2026-08-03T11:31:21.444665+00:00",
     "0xFB18536682B9A33cdc91b91173Cc8ad367e0aB1D": "2026-08-03T12:01:20.955254+00:00",
-    "2tJNy9Ep8bCXWMGSZkFt2r91rKLXbC5vAnTmYi8bpump": "2026-08-03T12:04:20.281349+00:00"
+    "2tJNy9Ep8bCXWMGSZkFt2r91rKLXbC5vAnTmYi8bpump": "2026-08-03T12:04:20.281349+00:00",
+    "CjVqUKjarvfC7gRdZ8Gcb55bb1zV8xeENM3hkE57pump": "2026-08-03T12:44:20.153686+00:00"
   }
 }
