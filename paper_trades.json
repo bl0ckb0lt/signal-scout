@@ -30,7 +30,7 @@
       "score": 87,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.57,
+      "current_pct": -5.34,
       "peak_volume_m5": 106244.32,
       "milestones_hit": []
     },
@@ -40,23 +40,15 @@
       "address": "WTLwm2eufW5HFQneMSnMhVnLnuydsoY7ZGkhKFjpump",
       "source": "new",
       "entry_price": 0.000203,
-      "peak_price": 0.000203,
-      "trailing_active": false,
+      "peak_price": 0.0002744,
+      "trailing_active": true,
       "entry_time": "2026-08-04T20:30:34.190181+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "DBEAR",
-      "chain": "solana",
-      "address": "DEA7Kjg3gdmim2z79o5c6UW7qXZirtJGociuJDAKpump",
-      "source": "new",
-      "entry_price": 0.0002332,
-      "peak_price": 0.0002332,
-      "trailing_active": false,
-      "entry_time": "2026-08-04T20:30:35.811351+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.17,
+      "peak_volume_m5": 241376.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -85698,6 +85690,25 @@
       "exit_price": 0.0001977,
       "exit_pct": -7.31,
       "exit_time": "2026-08-04T19:56:20.361766+00:00"
+    },
+    {
+      "symbol": "DBEAR",
+      "chain": "solana",
+      "address": "DEA7Kjg3gdmim2z79o5c6UW7qXZirtJGociuJDAKpump",
+      "source": "new",
+      "entry_price": 0.0002332,
+      "peak_price": 0.0002332,
+      "trailing_active": false,
+      "entry_time": "2026-08-04T20:30:35.811351+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.5,
+      "peak_volume_m5": 63715.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001784,
+      "exit_pct": -23.5,
+      "exit_time": "2026-08-04T20:32:18.691281+00:00"
     }
   ],
   "alerted": {
@@ -90031,6 +90042,7 @@
     "0xf0774ce8F56c15cD9274C13390A4d602A7eA32f6": "2026-08-04T19:05:51.462880+00:00",
     "0x1474b74d11D7F8d55332A4d87D499dE1fC3eD15F": "2026-08-04T19:08:23.908633+00:00",
     "6tTfAecf16NFt9sjKWupjmvYCLJRR4HbrMKnHHdRpump": "2026-08-04T19:37:27.557454+00:00",
-    "25g5Ay42aip4BZN8KWWA79jiY2VYykuMg4qdBDsapump": "2026-08-04T19:56:20.361766+00:00"
+    "25g5Ay42aip4BZN8KWWA79jiY2VYykuMg4qdBDsapump": "2026-08-04T19:56:20.361766+00:00",
+    "DEA7Kjg3gdmim2z79o5c6UW7qXZirtJGociuJDAKpump": "2026-08-04T20:32:18.691281+00:00"
   }
 }
