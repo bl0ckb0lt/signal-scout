@@ -35,35 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "KATE",
-      "chain": "solana",
-      "address": "CdB1d5hhSs4SfnLKaZA3db6g2d1mR9AgwL8wcF1Tpump",
-      "source": "new",
-      "entry_price": 0.0001952,
-      "peak_price": 0.0005249,
-      "trailing_active": true,
-      "entry_time": "2026-08-04T02:00:31.792424+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 168.9,
-      "peak_volume_m5": 124762.11,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "DEADEYE",
       "chain": "robinhood",
       "address": "0x8C1CC68A2f39c332F3C617CC578A45A165D7E431",
       "source": "new",
       "entry_price": 5.468e-05,
-      "peak_price": 5.468e-05,
+      "peak_price": 5.47e-05,
       "trailing_active": false,
       "entry_time": "2026-08-04T02:10:29.515527+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.04,
+      "peak_volume_m5": 2526.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -84953,6 +84938,28 @@
       "exit_price": 0.0002848,
       "exit_pct": -9.93,
       "exit_time": "2026-08-04T01:21:24.714570+00:00"
+    },
+    {
+      "symbol": "KATE",
+      "chain": "solana",
+      "address": "CdB1d5hhSs4SfnLKaZA3db6g2d1mR9AgwL8wcF1Tpump",
+      "source": "new",
+      "entry_price": 0.0001952,
+      "peak_price": 0.0005249,
+      "trailing_active": true,
+      "entry_time": "2026-08-04T02:00:31.792424+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 147.54,
+      "peak_volume_m5": 126789.48,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004832,
+      "exit_pct": 147.54,
+      "exit_time": "2026-08-04T02:10:49.255353+00:00"
     }
   ],
   "alerted": {
@@ -89248,6 +89255,7 @@
     "0x536225b1dfD299e43478096DCD2031dB65E16753": "2026-08-03T22:21:22.253106+00:00",
     "C4MpJfdHhLeTQQHPQhgHSRPaR2EG5jcL8p78P9Atpump": "2026-08-03T22:51:26.561714+00:00",
     "E2YwVDqsAb734JLQDEkSBu6LrGiEAYq8DrZ3oBmmpump": "2026-08-03T23:11:17.320960+00:00",
-    "AJHNTWHg59KYcG6NNZ7ydZ16WxbKHQz8hikFALqXpump": "2026-08-04T01:21:24.714570+00:00"
+    "AJHNTWHg59KYcG6NNZ7ydZ16WxbKHQz8hikFALqXpump": "2026-08-04T01:21:24.714570+00:00",
+    "CdB1d5hhSs4SfnLKaZA3db6g2d1mR9AgwL8wcF1Tpump": "2026-08-04T02:10:49.255353+00:00"
   }
 }
