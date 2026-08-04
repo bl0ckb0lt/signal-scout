@@ -24,33 +24,18 @@
       "address": "0x1474b74d11D7F8d55332A4d87D499dE1fC3eD15F",
       "source": "new",
       "entry_price": 8.02e-05,
-      "peak_price": 0.000147,
+      "peak_price": 0.0001694,
       "trailing_active": true,
       "entry_time": "2026-08-04T18:50:28.092245+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 83.29,
+      "current_pct": 111.22,
       "peak_volume_m5": 23450.74,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "MERRY",
-      "chain": "robinhood",
-      "address": "0xf0774ce8F56c15cD9274C13390A4d602A7eA32f6",
-      "source": "new",
-      "entry_price": 0.004261,
-      "peak_price": 0.004308,
-      "trailing_active": false,
-      "entry_time": "2026-08-04T19:00:33.545632+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.8,
-      "peak_volume_m5": 13595.82,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -85613,6 +85598,25 @@
       "exit_price": 0.0001735,
       "exit_pct": -2.2,
       "exit_time": "2026-08-04T19:03:35.900923+00:00"
+    },
+    {
+      "symbol": "MERRY",
+      "chain": "robinhood",
+      "address": "0xf0774ce8F56c15cD9274C13390A4d602A7eA32f6",
+      "source": "new",
+      "entry_price": 0.004261,
+      "peak_price": 0.004308,
+      "trailing_active": false,
+      "entry_time": "2026-08-04T19:00:33.545632+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.89,
+      "peak_volume_m5": 15664.59,
+      "milestones_hit": [],
+      "exit_price": 0.003882,
+      "exit_pct": -8.89,
+      "exit_time": "2026-08-04T19:05:51.462880+00:00"
     }
   ],
   "alerted": {
@@ -89942,6 +89946,7 @@
     "firm6svwGicMQERmL9qF7Ps1Gxc1s7h7hmwn32gm7Zh": "2026-08-04T17:19:28.178161+00:00",
     "0xaD1611Bf61066f6aEE57992b617f367206447777": "2026-08-04T17:42:21.484337+00:00",
     "DWCCpYPaW2ryTY9ZogBJrN5bxkXHvoHfFAbZHvWfpump": "2026-08-04T18:42:24.203501+00:00",
-    "0x88c3CA9ea36FCf8Cf382E7B4fc794bA7093764B7": "2026-08-04T19:03:35.900923+00:00"
+    "0x88c3CA9ea36FCf8Cf382E7B4fc794bA7093764B7": "2026-08-04T19:03:35.900923+00:00",
+    "0xf0774ce8F56c15cD9274C13390A4d602A7eA32f6": "2026-08-04T19:05:51.462880+00:00"
   }
 }
