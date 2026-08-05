@@ -1,24 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "ElonCoin",
-      "chain": "bsc",
-      "address": "0x499C573997a1382f4051eCE45b3d6b2f0e317777",
-      "source": "new",
-      "entry_price": 9.731e-05,
-      "peak_price": 9.731e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-05T07:30:28.523283+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.0,
-      "peak_volume_m5": 26247.28,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -86312,6 +86295,29 @@
       "exit_price": 0.00011,
       "exit_pct": -13.04,
       "exit_time": "2026-08-05T06:41:17.547822+00:00"
+    },
+    {
+      "symbol": "ElonCoin",
+      "chain": "bsc",
+      "address": "0x499C573997a1382f4051eCE45b3d6b2f0e317777",
+      "source": "new",
+      "entry_price": 9.731e-05,
+      "peak_price": 0.0003846,
+      "trailing_active": true,
+      "entry_time": "2026-08-05T07:30:28.523283+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 295.23,
+      "peak_volume_m5": 170425.2,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003846,
+      "exit_pct": 295.23,
+      "exit_time": "2026-08-05T07:38:27.095655+00:00"
     }
   ],
   "alerted": {
@@ -90679,6 +90685,7 @@
     "0xb382d6287fd60970f41E58311C74047C942FD75F": "2026-08-05T06:12:22.813422+00:00",
     "0x3A7154408FF75E36EB9Dc198C02844F0ade27777": "2026-08-05T06:15:21.371031+00:00",
     "Yv2taGqRuL9YNrWEGW5Tz9EuYjNzVikEspKzaRqpump": "2026-08-05T06:41:16.883046+00:00",
-    "8wQR89A1iWYuQWQqrDsCTfszmPj36HzPt51jQyZmpump": "2026-08-05T06:41:17.547822+00:00"
+    "8wQR89A1iWYuQWQqrDsCTfszmPj36HzPt51jQyZmpump": "2026-08-05T06:41:17.547822+00:00",
+    "0x499C573997a1382f4051eCE45b3d6b2f0e317777": "2026-08-05T07:38:27.095655+00:00"
   }
 }
