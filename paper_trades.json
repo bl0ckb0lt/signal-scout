@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CLIP",
-      "chain": "solana",
-      "address": "G7biqxzVp1xsxevqCCkCiYnweikDMKmK3q8LPHKNc1ip",
-      "source": "new",
-      "entry_price": 0.000129,
-      "peak_price": 0.0003087,
-      "trailing_active": true,
-      "entry_time": "2026-08-06T07:50:37.010421+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 139.3,
-      "peak_volume_m5": 138196.44,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "UNICAT",
       "chain": "robinhood",
       "address": "0x10a1E6ff7723c0AB1920Fd2b08171113eb0170a8",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-06T08:10:31.087568+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.84,
+      "peak_volume_m5": 5111.52,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -87495,6 +87480,28 @@
       "exit_price": 0.00017,
       "exit_pct": -13.4,
       "exit_time": "2026-08-06T06:00:53.223071+00:00"
+    },
+    {
+      "symbol": "CLIP",
+      "chain": "solana",
+      "address": "G7biqxzVp1xsxevqCCkCiYnweikDMKmK3q8LPHKNc1ip",
+      "source": "new",
+      "entry_price": 0.000129,
+      "peak_price": 0.0003087,
+      "trailing_active": true,
+      "entry_time": "2026-08-06T07:50:37.010421+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 101.16,
+      "peak_volume_m5": 138196.44,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0002595,
+      "exit_pct": 101.16,
+      "exit_time": "2026-08-06T08:11:31.988380+00:00"
     }
   ],
   "alerted": {
@@ -91921,6 +91928,7 @@
     "0x2eCEfd2aA7c548a63Dc08Ace7FF3D10Da9E88109": "2026-08-06T04:01:23.241252+00:00",
     "0x09fD8577a5d4A7202d41aa3040F4247dF4eA2D98": "2026-08-06T04:41:20.794340+00:00",
     "Ew1oPyPx6LL8fiwXpUon6Q8t5Vi1FiMQmfTLketCWigG": "2026-08-06T05:52:26.237355+00:00",
-    "2oBRMR3a3Gb1cvWs8W9CnsyTFhz2qgp4sAkiHEnJpump": "2026-08-06T06:00:53.223071+00:00"
+    "2oBRMR3a3Gb1cvWs8W9CnsyTFhz2qgp4sAkiHEnJpump": "2026-08-06T06:00:53.223071+00:00",
+    "G7biqxzVp1xsxevqCCkCiYnweikDMKmK3q8LPHKNc1ip": "2026-08-06T08:11:31.988380+00:00"
   }
 }
