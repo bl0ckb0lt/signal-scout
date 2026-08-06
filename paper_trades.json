@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "smolcat",
-      "chain": "solana",
-      "address": "52HjALEZNXoYnn3wXWLi9YuQukwmHYH6fGLeEfdkpump",
-      "source": "new",
-      "entry_price": 0.000367,
-      "peak_price": 0.000367,
-      "trailing_active": false,
-      "entry_time": "2026-08-06T10:40:34.738120+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "CATECOIN",
       "chain": "solana",
       "address": "36GuKdF7Z3fVAMVeZQRUPBT2uJd4SuXvmLnmraD7pump",
       "source": "new",
       "entry_price": 0.0001433,
-      "peak_price": 0.0001433,
+      "peak_price": 0.0001483,
       "trailing_active": false,
       "entry_time": "2026-08-06T10:40:36.489206+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.49,
+      "peak_volume_m5": 68273.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -87586,6 +87578,25 @@
       "exit_price": 0.0001542,
       "exit_pct": -9.13,
       "exit_time": "2026-08-06T10:24:23.475662+00:00"
+    },
+    {
+      "symbol": "smolcat",
+      "chain": "solana",
+      "address": "52HjALEZNXoYnn3wXWLi9YuQukwmHYH6fGLeEfdkpump",
+      "source": "new",
+      "entry_price": 0.000367,
+      "peak_price": 0.000367,
+      "trailing_active": false,
+      "entry_time": "2026-08-06T10:40:34.738120+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.89,
+      "peak_volume_m5": 147424.14,
+      "milestones_hit": [],
+      "exit_price": 0.000283,
+      "exit_pct": -22.89,
+      "exit_time": "2026-08-06T10:41:21.458491+00:00"
     }
   ],
   "alerted": {
@@ -92017,6 +92028,7 @@
     "0x10a1E6ff7723c0AB1920Fd2b08171113eb0170a8": "2026-08-06T08:27:22.310510+00:00",
     "0x39093e20f364e2985F3ab3cfD875e7421e043Fe0": "2026-08-06T08:52:35.882932+00:00",
     "7WyivfkTWjwfEp1GcuCP4yDYdLp9enhZuGZ1AH14pump": "2026-08-06T09:10:50.263291+00:00",
-    "14doqPq3fLzx6kB4JRRnCMDPPLeGmGXd6QY5ZGXqpump": "2026-08-06T10:24:23.475662+00:00"
+    "14doqPq3fLzx6kB4JRRnCMDPPLeGmGXd6QY5ZGXqpump": "2026-08-06T10:24:23.475662+00:00",
+    "52HjALEZNXoYnn3wXWLi9YuQukwmHYH6fGLeEfdkpump": "2026-08-06T10:41:21.458491+00:00"
   }
 }
