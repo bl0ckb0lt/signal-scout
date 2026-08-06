@@ -14,21 +14,9 @@
       "score": 70,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.21,
+      "current_pct": 0.21,
       "peak_volume_m5": 516.43,
       "milestones_hit": []
-    },
-    {
-      "symbol": "POD",
-      "chain": "robinhood",
-      "address": "0x451F509516A6C742BbC7b4869ad8F8de33823929",
-      "source": "boost",
-      "entry_price": 0.0004141,
-      "peak_price": 0.0004141,
-      "trailing_active": false,
-      "entry_time": "2026-08-06T23:50:38.820544+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "COC",
@@ -36,11 +24,15 @@
       "address": "0x9c49446DBdB55dbbe0Ea268811F1843bcF20cccc",
       "source": "new",
       "entry_price": 0.0002861,
-      "peak_price": 0.0002861,
+      "peak_price": 0.0002973,
       "trailing_active": false,
       "entry_time": "2026-08-06T23:50:40.299428+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.91,
+      "peak_volume_m5": 25176.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -88278,6 +88270,25 @@
       "exit_price": 0.0002103,
       "exit_pct": -11.49,
       "exit_time": "2026-08-06T23:15:00.512800+00:00"
+    },
+    {
+      "symbol": "POD",
+      "chain": "robinhood",
+      "address": "0x451F509516A6C742BbC7b4869ad8F8de33823929",
+      "source": "boost",
+      "entry_price": 0.0004141,
+      "peak_price": 0.0004141,
+      "trailing_active": false,
+      "entry_time": "2026-08-06T23:50:38.820544+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.55,
+      "peak_volume_m5": 37732.65,
+      "milestones_hit": [],
+      "exit_price": 0.0002876,
+      "exit_pct": -30.55,
+      "exit_time": "2026-08-06T23:55:31.098088+00:00"
     }
   ],
   "alerted": {
@@ -92744,6 +92755,7 @@
     "5K9Xk6TnintMZwvQ3gnrwFLPUwdxmpP7R9UsxHinpump": "2026-08-06T23:00:49.538350+00:00",
     "0x808aB621dEb093F9b7A2deD12719E459465B6ABe": "2026-08-06T23:07:02.974446+00:00",
     "0x05E4EDA215FA3DA3d540d8dd381e893E9daAC15F": "2026-08-06T23:14:01.271021+00:00",
-    "E6x9rPwbWv85tP1N8AcmZ5g5HhALVpVZDvzD1g6qpump": "2026-08-06T23:15:00.512800+00:00"
+    "E6x9rPwbWv85tP1N8AcmZ5g5HhALVpVZDvzD1g6qpump": "2026-08-06T23:15:00.512800+00:00",
+    "0x451F509516A6C742BbC7b4869ad8F8de33823929": "2026-08-06T23:55:31.098088+00:00"
   }
 }
