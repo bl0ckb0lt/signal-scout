@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CASHFROG",
-      "chain": "robinhood",
-      "address": "0x1b6fAEE453A81EfD80f999455C132Fb0e1bFF11f",
-      "source": "boost",
-      "entry_price": 0.0001962,
-      "peak_price": 0.0002813,
-      "trailing_active": true,
-      "entry_time": "2026-08-06T13:40:31.594527+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 43.37,
-      "peak_volume_m5": 4505.85,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PosM",
       "chain": "robinhood",
       "address": "0x86ec9a864a511e05AcCCFa72c2d4ea8b518193b1",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-06T14:30:35.997639+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.27,
+      "peak_volume_m5": 37223.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -87883,6 +87871,25 @@
       "exit_price": 7.08e-05,
       "exit_pct": 44.14,
       "exit_time": "2026-08-06T14:23:28.278745+00:00"
+    },
+    {
+      "symbol": "CASHFROG",
+      "chain": "robinhood",
+      "address": "0x1b6fAEE453A81EfD80f999455C132Fb0e1bFF11f",
+      "source": "boost",
+      "entry_price": 0.0001962,
+      "peak_price": 0.0002813,
+      "trailing_active": true,
+      "entry_time": "2026-08-06T13:40:31.594527+00:00",
+      "score": 75,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 40.83,
+      "peak_volume_m5": 4505.85,
+      "milestones_hit": [],
+      "exit_price": 0.0002763,
+      "exit_pct": 40.83,
+      "exit_time": "2026-08-06T14:37:34.382596+00:00"
     }
   ],
   "alerted": {
@@ -92329,6 +92336,7 @@
     "0x092f6C81cFF0B4682906376b281041f04C62E92B": "2026-08-06T12:54:18.381181+00:00",
     "0x41178A2161808278e30b6fC0a665C18f7FBe5475": "2026-08-06T13:36:22.012593+00:00",
     "0xe2906CC3d537C9B5b40aB3410514eE2005b77777": "2026-08-06T13:42:24.213548+00:00",
-    "0x0D773d917Df773dFBe509dAfd8EC1715EEeec3FB": "2026-08-06T14:23:28.278745+00:00"
+    "0x0D773d917Df773dFBe509dAfd8EC1715EEeec3FB": "2026-08-06T14:23:28.278745+00:00",
+    "0x1b6fAEE453A81EfD80f999455C132Fb0e1bFF11f": "2026-08-06T14:37:34.382596+00:00"
   }
 }
