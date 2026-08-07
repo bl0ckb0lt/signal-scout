@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRIPLEAPE",
-      "chain": "solana",
-      "address": "CdKQLGogBTECMzYaDkU4uounyNKVxU8L5S8titQKpump",
-      "source": "new",
-      "entry_price": 0.0002133,
-      "peak_price": 0.0002133,
-      "trailing_active": false,
-      "entry_time": "2026-08-07T09:28:40.224491+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.08,
-      "peak_volume_m5": 23028.46,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Income",
       "chain": "robinhood",
       "address": "0xB5d9e59d4349CeE03f6F0e6308d68Aadf0164eC1",
       "source": "new",
       "entry_price": 0.000117,
-      "peak_price": 0.000117,
-      "trailing_active": false,
+      "peak_price": 0.0001687,
+      "trailing_active": true,
       "entry_time": "2026-08-07T09:30:33.908552+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 44.19,
+      "peak_volume_m5": 49233.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -88910,6 +88898,25 @@
       "exit_price": 0.0002976,
       "exit_pct": -9.24,
       "exit_time": "2026-08-07T09:14:27.228326+00:00"
+    },
+    {
+      "symbol": "TRIPLEAPE",
+      "chain": "solana",
+      "address": "CdKQLGogBTECMzYaDkU4uounyNKVxU8L5S8titQKpump",
+      "source": "new",
+      "entry_price": 0.0002133,
+      "peak_price": 0.0002133,
+      "trailing_active": false,
+      "entry_time": "2026-08-07T09:28:40.224491+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.64,
+      "peak_volume_m5": 39330.11,
+      "milestones_hit": [],
+      "exit_price": 0.000165,
+      "exit_pct": -22.64,
+      "exit_time": "2026-08-07T09:35:21.519049+00:00"
     }
   ],
   "alerted": {
@@ -93407,6 +93414,7 @@
     "89LQmLpgxM53SMaNCeX1KuNjUQCTqdqvyt1rzmR1pump": "2026-08-07T08:21:27.676779+00:00",
     "DfuGsM6Zp3AMXL76w8N8m8iHjo8nRCgeCS138AKCpump": "2026-08-07T08:26:07.416205+00:00",
     "0x3853BBf38E070EEa6B2406eaca60D2620209c2Cc": "2026-08-07T08:43:21.776161+00:00",
-    "8goERtSRyTf1DPNQZcrb9Q2uriqCi6Ui6UqtaH1Fpump": "2026-08-07T09:14:27.228326+00:00"
+    "8goERtSRyTf1DPNQZcrb9Q2uriqCi6Ui6UqtaH1Fpump": "2026-08-07T09:14:27.228326+00:00",
+    "CdKQLGogBTECMzYaDkU4uounyNKVxU8L5S8titQKpump": "2026-08-07T09:35:21.519049+00:00"
   }
 }
