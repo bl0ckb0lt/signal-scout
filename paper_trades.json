@@ -8,23 +8,15 @@
       "address": "DfuGsM6Zp3AMXL76w8N8m8iHjo8nRCgeCS138AKCpump",
       "source": "new",
       "entry_price": 0.0001898,
-      "peak_price": 0.0001898,
-      "trailing_active": false,
+      "peak_price": 0.0002371,
+      "trailing_active": true,
       "entry_time": "2026-08-07T08:20:27.361189+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "GG",
-      "chain": "solana",
-      "address": "89LQmLpgxM53SMaNCeX1KuNjUQCTqdqvyt1rzmR1pump",
-      "source": "new",
-      "entry_price": 0.0001316,
-      "peak_price": 0.0001316,
-      "trailing_active": false,
-      "entry_time": "2026-08-07T08:20:28.977925+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.92,
+      "peak_volume_m5": 156376.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -88826,6 +88818,25 @@
       "exit_price": 7.911e-05,
       "exit_pct": -9.4,
       "exit_time": "2026-08-07T08:07:22.798333+00:00"
+    },
+    {
+      "symbol": "GG",
+      "chain": "solana",
+      "address": "89LQmLpgxM53SMaNCeX1KuNjUQCTqdqvyt1rzmR1pump",
+      "source": "new",
+      "entry_price": 0.0001316,
+      "peak_price": 0.0001316,
+      "trailing_active": false,
+      "entry_time": "2026-08-07T08:20:28.977925+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.96,
+      "peak_volume_m5": 125689.34,
+      "milestones_hit": [],
+      "exit_price": 0.0001106,
+      "exit_pct": -15.96,
+      "exit_time": "2026-08-07T08:21:27.676779+00:00"
     }
   ],
   "alerted": {
@@ -93319,6 +93330,7 @@
     "0x01BB8Ad5E4D47cA98D1C4b82D0D50eC4138A3A5c": "2026-08-07T07:31:22.542474+00:00",
     "0xe25ad5cEAb8524748d8428b9Cb55008111111111": "2026-08-07T07:54:19.795268+00:00",
     "AYM32hqEXzYjfoGWR743pV8jE6c68SqKMMhKTdxzpump": "2026-08-07T08:05:19.602147+00:00",
-    "0x91F41b74b7906266d4D28a327EBD0ed86c119261": "2026-08-07T08:07:22.798333+00:00"
+    "0x91F41b74b7906266d4D28a327EBD0ed86c119261": "2026-08-07T08:07:22.798333+00:00",
+    "89LQmLpgxM53SMaNCeX1KuNjUQCTqdqvyt1rzmR1pump": "2026-08-07T08:21:27.676779+00:00"
   }
 }
