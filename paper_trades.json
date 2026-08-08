@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TOAD",
-      "chain": "robinhood",
-      "address": "0x4ffE60822B2feC374e9f5Eb488EED58820056FF0",
-      "source": "new",
-      "entry_price": 4.165e-05,
-      "peak_price": 0.000102,
-      "trailing_active": true,
-      "entry_time": "2026-08-08T15:18:04.927477+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 144.9,
-      "peak_volume_m5": 64386.24,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "PONSY",
       "chain": "robinhood",
       "address": "0x2E84F2E0b88BD3FFB5D6738aE0e3C7c00137083E",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-08T15:30:33.138371+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.43,
+      "peak_volume_m5": 2498.48,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -90558,6 +90543,29 @@
       "exit_price": 0.000121,
       "exit_pct": -8.95,
       "exit_time": "2026-08-08T15:18:21.134031+00:00"
+    },
+    {
+      "symbol": "TOAD",
+      "chain": "robinhood",
+      "address": "0x4ffE60822B2feC374e9f5Eb488EED58820056FF0",
+      "source": "new",
+      "entry_price": 4.165e-05,
+      "peak_price": 0.0001766,
+      "trailing_active": true,
+      "entry_time": "2026-08-08T15:18:04.927477+00:00",
+      "score": 63,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 324.01,
+      "peak_volume_m5": 66310.33,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0001766,
+      "exit_pct": 324.01,
+      "exit_time": "2026-08-08T15:32:22.279442+00:00"
     }
   ],
   "alerted": {
@@ -95140,6 +95148,7 @@
     "5XhJSFcBvpEZrtdaydTuhyjvv5SyaHXWAD5sXzT1pump": "2026-08-08T15:00:32.147462+00:00",
     "4SS6ikszgkEZ9G8aWrRu5xR7ipBbZM1yH8PgkG6rpump": "2026-08-08T15:00:52.186084+00:00",
     "0xDDF0BdAE4e490230672b99Fc26D798CDfD9eE066": "2026-08-08T15:11:25.196819+00:00",
-    "0x7f252feed0bcb6db7c40faf320a02ebd2cd3aee8": "2026-08-08T15:18:21.134031+00:00"
+    "0x7f252feed0bcb6db7c40faf320a02ebd2cd3aee8": "2026-08-08T15:18:21.134031+00:00",
+    "0x4ffE60822B2feC374e9f5Eb488EED58820056FF0": "2026-08-08T15:32:22.279442+00:00"
   }
 }
