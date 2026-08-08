@@ -14,21 +14,9 @@
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 16.04,
+      "current_pct": 25.88,
       "peak_volume_m5": 5370.8,
       "milestones_hit": []
-    },
-    {
-      "symbol": "VECTOR",
-      "chain": "robinhood",
-      "address": "0x1711bac0AFb1cD1dE350291Fc12945269c035910",
-      "source": "new",
-      "entry_price": 0.0001004,
-      "peak_price": 0.0001004,
-      "trailing_active": false,
-      "entry_time": "2026-08-08T07:30:35.347892+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "bingus",
@@ -36,11 +24,17 @@
       "address": "0x8Ba8BEb707061811bBA47eDd3b52FC700AA89aD6",
       "source": "new",
       "entry_price": 4.677e-05,
-      "peak_price": 4.677e-05,
-      "trailing_active": false,
+      "peak_price": 7.494e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-08T07:30:36.710315+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 60.23,
+      "peak_volume_m5": 42177.45,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -90118,6 +90112,25 @@
       "exit_price": 0.0001202,
       "exit_pct": 114.57,
       "exit_time": "2026-08-08T07:10:50.139052+00:00"
+    },
+    {
+      "symbol": "VECTOR",
+      "chain": "robinhood",
+      "address": "0x1711bac0AFb1cD1dE350291Fc12945269c035910",
+      "source": "new",
+      "entry_price": 0.0001004,
+      "peak_price": 0.0001004,
+      "trailing_active": false,
+      "entry_time": "2026-08-08T07:30:35.347892+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.28,
+      "peak_volume_m5": 14174.63,
+      "milestones_hit": [],
+      "exit_price": 7.803e-05,
+      "exit_pct": -22.28,
+      "exit_time": "2026-08-08T07:40:19.452328+00:00"
     }
   ],
   "alerted": {
@@ -94677,6 +94690,7 @@
     "0x1744327B57474AD8a7042f67deD5B86ae6402Fda": "2026-08-08T06:32:19.387443+00:00",
     "AENK1YJ9978xp19xQLKat6eNmndf7Jg2FxFfKiwvpump": "2026-08-08T06:35:16.746590+00:00",
     "0xd928a068d2b90798373a470c9d9ba562322acdef": "2026-08-08T06:52:22.977388+00:00",
-    "0x50DCea82Ec31bF76c2Cc701eA7E8b8DF8f2313Cf": "2026-08-08T07:10:50.139052+00:00"
+    "0x50DCea82Ec31bF76c2Cc701eA7E8b8DF8f2313Cf": "2026-08-08T07:10:50.139052+00:00",
+    "0x1711bac0AFb1cD1dE350291Fc12945269c035910": "2026-08-08T07:40:19.452328+00:00"
   }
 }
