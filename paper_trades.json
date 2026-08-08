@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "@",
-      "chain": "solana",
-      "address": "Nnfpi7rGJDb8uArj3PSznbQntWWhA6Koy7pci8vxtag",
-      "source": "new",
-      "entry_price": 0.0001326,
-      "peak_price": 0.0001326,
-      "trailing_active": false,
-      "entry_time": "2026-08-08T02:40:25.944774+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "BUDI",
       "chain": "solana",
       "address": "HorssaL4eWdykwU2qd5jxvNiFNtXpezZMWLLGtyFcaFY",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-08T02:40:32.285827+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.66,
+      "peak_volume_m5": 24835.76,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -89847,6 +89839,25 @@
       "exit_price": 0.0001132,
       "exit_pct": -20.34,
       "exit_time": "2026-08-08T02:05:21.060397+00:00"
+    },
+    {
+      "symbol": "@",
+      "chain": "solana",
+      "address": "Nnfpi7rGJDb8uArj3PSznbQntWWhA6Koy7pci8vxtag",
+      "source": "new",
+      "entry_price": 0.0001326,
+      "peak_price": 0.0001326,
+      "trailing_active": false,
+      "entry_time": "2026-08-08T02:40:25.944774+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.55,
+      "peak_volume_m5": 77279.27,
+      "milestones_hit": [],
+      "exit_price": 9.342e-05,
+      "exit_pct": -29.55,
+      "exit_time": "2026-08-08T02:40:49.336160+00:00"
     }
   ],
   "alerted": {
@@ -94393,6 +94404,7 @@
     "8mGByxG4X7YnQeGHaP9B7uheKjt9TzL3WS5wAJYkpump": "2026-08-07T23:01:05.819098+00:00",
     "0x9C89070e7B840D605a0baaCBA70597915676Cd53": "2026-08-07T23:45:42.647792+00:00",
     "0x21Ed792De0Ebfa85c2f55FF45b2241C576727f7B": "2026-08-08T00:24:26.722752+00:00",
-    "HgD7ueF5YYRM679TxZRjWNk7s2f1QXbEFjQR4tm4pump": "2026-08-08T02:05:21.060397+00:00"
+    "HgD7ueF5YYRM679TxZRjWNk7s2f1QXbEFjQR4tm4pump": "2026-08-08T02:05:21.060397+00:00",
+    "Nnfpi7rGJDb8uArj3PSznbQntWWhA6Koy7pci8vxtag": "2026-08-08T02:40:49.336160+00:00"
   }
 }
