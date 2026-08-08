@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Monkey",
-      "chain": "bsc",
-      "address": "0x4AC85f2A2d22956a15A95EBe142D442DA35E7777",
-      "source": "new",
-      "entry_price": 0.0002381,
-      "peak_price": 0.0003544,
-      "trailing_active": true,
-      "entry_time": "2026-08-08T12:30:49.432121+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 48.85,
-      "peak_volume_m5": 38163.02,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PEPE",
       "chain": "solana",
       "address": "5vkZWaSoJBvauaX25GALth38AtJ4qMeyZt9b9kmDpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-08T12:50:34.156258+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.9,
+      "peak_volume_m5": 43846.37,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -90359,6 +90347,25 @@
       "exit_price": 0.000428,
       "exit_pct": -8.45,
       "exit_time": "2026-08-08T11:50:55.237840+00:00"
+    },
+    {
+      "symbol": "Monkey",
+      "chain": "bsc",
+      "address": "0x4AC85f2A2d22956a15A95EBe142D442DA35E7777",
+      "source": "new",
+      "entry_price": 0.0002381,
+      "peak_price": 0.0003544,
+      "trailing_active": true,
+      "entry_time": "2026-08-08T12:30:49.432121+00:00",
+      "score": 78,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 40.7,
+      "peak_volume_m5": 38163.02,
+      "milestones_hit": [],
+      "exit_price": 0.000335,
+      "exit_pct": 40.7,
+      "exit_time": "2026-08-08T12:53:29.791456+00:00"
     }
   ],
   "alerted": {
@@ -94931,6 +94938,7 @@
     "63zfjPfH4uaX3TQZoD35WqUrqiuCQQWndMTxQHsJpump": "2026-08-08T10:33:29.523656+00:00",
     "2CBjaW6o2bKbDcFoEu9LcGkDoKyT41Tx93Fp6LpXpump": "2026-08-08T11:03:20.775787+00:00",
     "0x5Fa0132b19741Ed592CB9BDEA515309D145490De": "2026-08-08T11:11:30.659176+00:00",
-    "F1XdReoHL3GweeCG4sgoZGAdsUNt8sda8n5EE2TNpump": "2026-08-08T11:50:55.237840+00:00"
+    "F1XdReoHL3GweeCG4sgoZGAdsUNt8sda8n5EE2TNpump": "2026-08-08T11:50:55.237840+00:00",
+    "0x4AC85f2A2d22956a15A95EBe142D442DA35E7777": "2026-08-08T12:53:29.791456+00:00"
   }
 }
