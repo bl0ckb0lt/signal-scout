@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Barley",
-      "chain": "robinhood",
-      "address": "0x89F3665402e1B022dca221b978993D2bE592De20",
-      "source": "new",
-      "entry_price": 0.0001582,
-      "peak_price": 0.0001582,
-      "trailing_active": false,
-      "entry_time": "2026-08-08T08:00:31.987831+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "PALU",
       "chain": "bsc",
       "address": "0x769d821138Fe8030692af39855E4dE7a04657777",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-08T08:00:33.609071+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.07,
+      "peak_volume_m5": 41896.09,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -90162,6 +90154,25 @@
       "exit_price": 9.523e-05,
       "exit_pct": 103.61,
       "exit_time": "2026-08-08T07:46:24.781460+00:00"
+    },
+    {
+      "symbol": "Barley",
+      "chain": "robinhood",
+      "address": "0x89F3665402e1B022dca221b978993D2bE592De20",
+      "source": "new",
+      "entry_price": 0.0001582,
+      "peak_price": 0.0001582,
+      "trailing_active": false,
+      "entry_time": "2026-08-08T08:00:31.987831+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.15,
+      "peak_volume_m5": 74265.59,
+      "milestones_hit": [],
+      "exit_price": 0.00012,
+      "exit_pct": -24.15,
+      "exit_time": "2026-08-08T08:03:24.040457+00:00"
     }
   ],
   "alerted": {
@@ -94724,6 +94735,7 @@
     "0x50DCea82Ec31bF76c2Cc701eA7E8b8DF8f2313Cf": "2026-08-08T07:10:50.139052+00:00",
     "0x1711bac0AFb1cD1dE350291Fc12945269c035910": "2026-08-08T07:40:19.452328+00:00",
     "0xcAD9846Fae4B31265c1636238ECF7b3782437777": "2026-08-08T07:42:21.581317+00:00",
-    "0x8Ba8BEb707061811bBA47eDd3b52FC700AA89aD6": "2026-08-08T07:46:24.781460+00:00"
+    "0x8Ba8BEb707061811bBA47eDd3b52FC700AA89aD6": "2026-08-08T07:46:24.781460+00:00",
+    "0x89F3665402e1B022dca221b978993D2bE592De20": "2026-08-08T08:03:24.040457+00:00"
   }
 }
