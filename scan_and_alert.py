@@ -75,6 +75,15 @@ except Exception as _wd:
     def format_discovery_alert(*a, **k): return ""
 
 try:
+    from evm_wallet_discovery import (discover_evm_from_pumpers, get_evm_wallet_buys,
+                                       format_evm_discovery_alert)
+except Exception as _ewd:
+    print(f"evm_wallet_discovery import failed: {_ewd}")
+    def discover_evm_from_pumpers(*a, **k): return []
+    def get_evm_wallet_buys(*a, **k): return []
+    def format_evm_discovery_alert(*a, **k): return ""
+
+try:
     from trader import maybe_trade, check_real_exits, real_trade_summary, handle_approve, TRADE_MODE
 except Exception as _te:
     print(f"trader import failed: {_te}")
@@ -907,6 +916,7 @@ def score(t):
     if src == "graduated":   s += 12   # completed bonding curve → organic community token
     if src == "whale_buy":   s += 18   # direct whale buy — high confidence
     if src == "discovered_wallet": s += 14  # auto-discovered wallet buy — unverified but promising
+    if src == "discovered_wallet_evm": s += 14  # auto-discovered EVM wallet buy
     if src == "x_alpha":     s += 14   # trusted alpha caller call on X
     if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
     if src == "gmgn":        s += 10   # organically trending on Solana — no paid promotion
@@ -1117,10 +1127,12 @@ def format_alert(t, rc):
 
     dw_addr = t.get("discovered_wallet_addr")
     if dw_addr:
+        via = t.get("discovered_wallet_via")
+        via_str = "  (via funding association)" if via == "associated_wallet" else ""
         lines += [
             f"",
             f"─── 🕵️ DISCOVERED WALLET ───",
-            f"    <code>{dw_addr[:4]}…{dw_addr[-4:]}</code>  ·  {t.get('discovered_wallet_hits', 0)} prior hits",
+            f"    <code>{dw_addr[:4]}…{dw_addr[-4:]}</code>  ·  {t.get('discovered_wallet_hits', 0)} prior hits{via_str}",
             f"    Previously early on: {t.get('discovered_wallet_tokens', '')[:60]}",
         ]
 
@@ -1322,6 +1334,38 @@ def main():
             enriched_discovered.append(d)
     enriched.extend(enriched_discovered)
 
+    # ── EVM wallet discovery (Ethereum / BSC / Base / Arbitrum via Etherscan) ─
+    etherscan_key = os.environ.get("ETHERSCAN_API_KEY", "")   # optional — enables EVM wallet discovery
+    discovered_evm_signals = []
+    if etherscan_key:
+        try:
+            newly_promoted_evm = discover_evm_from_pumpers(etherscan_key, enriched, state)
+            for chain, addr, info in newly_promoted_evm:
+                print(f"  🕵️ New {chain} wallet discovered: {addr[:10]}...")
+                tg_send(tg_token, tg_chat, format_evm_discovery_alert(chain, addr, info))
+            discovered_evm_signals = get_evm_wallet_buys(etherscan_key, state, lookback_minutes=15)
+            print(f"  Discovered EVM-wallet signals: {len(discovered_evm_signals)}")
+        except Exception as ex:
+            print(f"  evm wallet discovery error: {ex}")
+
+    enriched_discovered_evm = []
+    for d in discovered_evm_signals:
+        try:
+            e = enrich(d)
+            if e:
+                e["source"]                   = "discovered_wallet_evm"
+                e["discovered_wallet_addr"]   = d.get("discovered_wallet_addr")
+                e["discovered_wallet_tokens"] = d.get("discovered_wallet_tokens")
+                e["discovered_wallet_hits"]   = d.get("discovered_wallet_hits")
+                e["discovered_wallet_via"]    = d.get("discovered_wallet_via")
+                enriched_discovered_evm.append(e)
+            else:
+                enriched_discovered_evm.append(d)
+            time.sleep(0.05)
+        except Exception:
+            enriched_discovered_evm.append(d)
+    enriched.extend(enriched_discovered_evm)
+
     # ── Enrich whale signals (fetch DexScreener data if available) ────────────
     enriched_whale = []
     for w in whale_signals:
@@ -1440,11 +1484,11 @@ def main():
             print(f"  new_pair enrich error {np.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_new_pairs)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🕵️ {len(enriched_discovered)} discovered  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated  🆕 {len(enriched_new_pairs)} new_pairs)")
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🕵️ {len(enriched_discovered)+len(enriched_discovered_evm)} discovered  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated  🆕 {len(enriched_new_pairs)} new_pairs)")
 
     # ── Multi-source merge — same token in multiple feeds = high conviction ────
-    _src_priority = {"whale_buy":7,"discovered_wallet":6,"tg_alpha":6,"x_alpha":5,"graduated":4,
-                     "gmgn":3,"birdeye":2,"new_pair":2,"boost":1,"pump.fun":1,"new":0}
+    _src_priority = {"whale_buy":7,"discovered_wallet":6,"discovered_wallet_evm":6,"tg_alpha":6,
+                     "x_alpha":5,"graduated":4,"gmgn":3,"birdeye":2,"new_pair":2,"boost":1,"pump.fun":1,"new":0}
     _addr_map = {}
     for t in enriched:
         addr = t.get("address", "")
@@ -1480,7 +1524,7 @@ def main():
         fdv = t.get("fdv") or 0
         if src == "whale_buy":
             fresh.append(t)   # always trust whale buys
-        elif src == "discovered_wallet":
+        elif src in ("discovered_wallet", "discovered_wallet_evm"):
             fresh.append(t)   # always trust auto-discovered wallet buys
         elif src == "pump.fun":
             if age <= PUMP_MAX_AGE_MINUTES and (t.get("buys_h1") or 0) >= PUMP_MIN_TRADES:
@@ -1544,7 +1588,7 @@ def main():
     for t in scored[:MAX_TOKENS]:
         has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or bool(t.get("discovered_wallet_addr")) or t.get("source") in ("x_alpha", "tg_alpha") or t.get("parabolic")
         is_whale  = t.get("source") == "whale_buy"
-        is_discovered = t.get("source") == "discovered_wallet"
+        is_discovered = t.get("source") in ("discovered_wallet", "discovered_wallet_evm")
         # Non-whale path: need score >= MIN_SCORE and not AVOID/WATCH
         if not has_smart:
             if t["score"] < MIN_SCORE:

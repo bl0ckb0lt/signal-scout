@@ -19,6 +19,11 @@ except Exception as _e:
     def wallet_discovery_summary(state): return f"⚠️ Wallet discovery module unavailable: {_e}"
 
 try:
+    from evm_wallet_discovery import evm_wallet_discovery_summary
+except Exception as _e:
+    def evm_wallet_discovery_summary(state): return f"⚠️ EVM wallet discovery module unavailable: {_e}"
+
+try:
     from trader import real_trade_summary, handle_approve, TRADE_MODE
 except Exception as _e:
     TRADE_MODE = "paper"
@@ -222,6 +227,7 @@ def handle_commands(tg_token, tg_chat, state):
 
             elif text == "/discoveries":
                 tg_send(tg_token, tg_chat, wallet_discovery_summary(state))
+                tg_send(tg_token, tg_chat, evm_wallet_discovery_summary(state))
 
             elif text == "/real":
                 tg_send(tg_token, tg_chat, real_trade_summary())

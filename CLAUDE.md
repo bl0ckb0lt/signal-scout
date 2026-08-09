@@ -31,7 +31,8 @@ reporter.py         ← format_report() + post_to_moltbook()
 telegram_bot.py     ← format_alert(), format_scan_summary() (older helpers)
 trader.py           ← Jupiter real-trade execution (paper/semi/auto modes)
 whales.py           ← VERIFIED_WHALES dict, get_whale_buys(), get_whale_exits(), whale_summary()
-wallet_discovery.py ← [NEW] auto-finds copy-trade wallets from early buyers of pumping tokens, promotes + monitors them, /discoveries command
+wallet_discovery.py ← [NEW] Solana: auto-finds copy-trade wallets from early buyers of pumping tokens, promotes + monitors them, /discoveries command
+evm_wallet_discovery.py ← [NEW] Ethereum/BSC/Base/Arbitrum equivalent via Etherscan V2 API — full transfer-history early-holder scan + funding-cluster association, /discoveries command
 rugcheck.py         ← rug_check() helpers (also inlined in scan_and_alert)
 sheets_logger.py    ← [NEW] Google Sheets trade log (sheets_log_open, sheets_log_close)
 twitter_alerts.py   ← [NEW] Twitter/X signal posts (post_tweet, format_tweet)  [TO BE CREATED]
@@ -139,7 +140,8 @@ TELEGRAM_BOT_TOKEN=
 TELEGRAM_CHAT_ID=
 
 # Optional — enables features
-HELIUS_API_KEY=          # whale tracking (Solana)
+HELIUS_API_KEY=          # whale tracking + wallet discovery (Solana)
+ETHERSCAN_API_KEY=       # EVM wallet discovery (Ethereum/BSC/Base/Arbitrum) — free at etherscan.io/apis
 ANTHROPIC_API_KEY=       # Claude AI scoring (scorer.py)
 OKX_API_KEY=             # OKX OnchainOS DEX data
 OKX_SECRET_KEY=
@@ -179,6 +181,9 @@ TWITTER_ACCESS_SECRET=
 | `discover_from_pumpers()` | wallet_discovery.py | finds early buyers of pumping tokens, updates wallet scorecards, promotes at threshold |
 | `get_discovered_wallet_buys()` | wallet_discovery.py | monitors promoted wallets for new buys (like `get_whale_buys`) |
 | `wallet_discovery_summary()` | wallet_discovery.py | `/discoveries` command output |
+| `discover_evm_from_pumpers()` | evm_wallet_discovery.py | walks full transfer history of pumping EVM tokens, finds early holders who didn't instant-flip, clusters by funding source |
+| `get_evm_wallet_buys()` | evm_wallet_discovery.py | monitors promoted EVM wallets for new buys |
+| `evm_wallet_discovery_summary()` | evm_wallet_discovery.py | `/discoveries` command output (EVM half) |
 | `post_to_moltbook()` | reporter.py | Moltbook community post |
 | `sheets_log_open()` | sheets_logger.py | log trade entry to Google Sheets |
 | `sheets_log_close()` | sheets_logger.py | update exit data in Google Sheets |
