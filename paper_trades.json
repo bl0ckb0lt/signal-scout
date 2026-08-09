@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "YUKI",
-      "chain": "solana",
-      "address": "B6B7qn4qe7fwdUjR52asa2LpBc7YADUQmXBmqn4Dpump",
-      "source": "new",
-      "entry_price": 0.0004642,
-      "peak_price": 0.0004642,
-      "trailing_active": false,
-      "entry_time": "2026-08-09T03:30:30.737749+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "PUMPGUY",
       "chain": "solana",
       "address": "tpg7sWJPSKijHqPqtpHY2BWBEUq1RwGxmJpD8Tppump",
       "source": "new",
       "entry_price": 0.0001457,
-      "peak_price": 0.0001457,
-      "trailing_active": false,
+      "peak_price": 0.0001835,
+      "trailing_active": true,
       "entry_time": "2026-08-09T03:30:32.453284+00:00",
       "score": 79,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 25.94,
+      "peak_volume_m5": 10620.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -91429,6 +91421,25 @@
       "exit_price": 3.189e-06,
       "exit_pct": -98.35,
       "exit_time": "2026-08-09T03:28:21.199148+00:00"
+    },
+    {
+      "symbol": "YUKI",
+      "chain": "solana",
+      "address": "B6B7qn4qe7fwdUjR52asa2LpBc7YADUQmXBmqn4Dpump",
+      "source": "new",
+      "entry_price": 0.0004642,
+      "peak_price": 0.0004642,
+      "trailing_active": false,
+      "entry_time": "2026-08-09T03:30:30.737749+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.93,
+      "peak_volume_m5": 372144.88,
+      "milestones_hit": [],
+      "exit_price": 0.0003624,
+      "exit_pct": -21.93,
+      "exit_time": "2026-08-09T03:31:21.784090+00:00"
     }
   ],
   "alerted": {
@@ -96056,6 +96067,7 @@
     "9n3rk7ap2tLKGRbKKdR4wWcvVuj9PvAPQMd3pXJ6pump": "2026-08-09T03:01:19.208124+00:00",
     "Ca1QXeUhSSYevbPrmJBfDvb1qwBgzJJ73L4HUDQ3pump": "2026-08-09T03:21:26.495978+00:00",
     "0x36821f4e388EA716ab40C0243D871Ae24F3af934": "2026-08-09T03:23:25.195485+00:00",
-    "9XwtS1dGSWAPpuc5FtgShpLZmZkgXT77fjRuvNZTpump": "2026-08-09T03:28:21.199148+00:00"
+    "9XwtS1dGSWAPpuc5FtgShpLZmZkgXT77fjRuvNZTpump": "2026-08-09T03:28:21.199148+00:00",
+    "B6B7qn4qe7fwdUjR52asa2LpBc7YADUQmXBmqn4Dpump": "2026-08-09T03:31:21.784090+00:00"
   }
 }
