@@ -4,31 +4,21 @@
   "open": [
     {
       "symbol": "Remus",
-      "chain": "solana",
-      "address": "23e4CNuJxvBQ7RjNLc8Bh3yN3pQq6jeiTbyzJGXYPgme",
-      "source": "new",
-      "entry_price": 0.0003844,
-      "peak_price": 0.0004628,
-      "trailing_active": true,
-      "entry_time": "2026-08-09T14:58:34.079777+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 20.4,
-      "peak_volume_m5": 203935.8,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Remus",
       "chain": "robinhood",
       "address": "0x09e50b9193C6A865dF3667a57fCeF7FCa0333819",
       "source": "new",
       "entry_price": 4.21e-05,
-      "peak_price": 4.21e-05,
-      "trailing_active": false,
+      "peak_price": 6.415e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-09T15:00:38.605774+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 52.38,
+      "peak_volume_m5": 39982.0,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -92221,6 +92211,25 @@
       "exit_price": 9.997e-05,
       "exit_pct": -17.92,
       "exit_time": "2026-08-09T14:59:19.781944+00:00"
+    },
+    {
+      "symbol": "Remus",
+      "chain": "solana",
+      "address": "23e4CNuJxvBQ7RjNLc8Bh3yN3pQq6jeiTbyzJGXYPgme",
+      "source": "new",
+      "entry_price": 0.0003844,
+      "peak_price": 0.0004628,
+      "trailing_active": true,
+      "entry_time": "2026-08-09T14:58:34.079777+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 0.91,
+      "peak_volume_m5": 237175.85,
+      "milestones_hit": [],
+      "exit_price": 0.0003879,
+      "exit_pct": 0.91,
+      "exit_time": "2026-08-09T15:03:17.051797+00:00"
     }
   ],
   "alerted": {
@@ -96888,6 +96897,7 @@
     "0x7dceb94321B65b88e2783360c76FbEDca410b6c5": "2026-08-09T14:42:16.268959+00:00",
     "0x0e29d0470e9c50f551dcD99b7eA6350BF7aD7777": "2026-08-09T14:52:19.291307+00:00",
     "3FneeWKh4bJkPdZS3MwoapcCtmKjaEQwX9EQpVUjpump": "2026-08-09T14:59:19.131416+00:00",
-    "2mDE5QH86fdjHsKTxr7kAUGYGJX8QWa3hLfviSVppump": "2026-08-09T14:59:19.781944+00:00"
+    "2mDE5QH86fdjHsKTxr7kAUGYGJX8QWa3hLfviSVppump": "2026-08-09T14:59:19.781944+00:00",
+    "23e4CNuJxvBQ7RjNLc8Bh3yN3pQq6jeiTbyzJGXYPgme": "2026-08-09T15:03:17.051797+00:00"
   }
 }
