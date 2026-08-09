@@ -31,6 +31,7 @@ reporter.py         ← format_report() + post_to_moltbook()
 telegram_bot.py     ← format_alert(), format_scan_summary() (older helpers)
 trader.py           ← Jupiter real-trade execution (paper/semi/auto modes)
 whales.py           ← VERIFIED_WHALES dict, get_whale_buys(), get_whale_exits(), whale_summary()
+wallet_discovery.py ← [NEW] auto-finds copy-trade wallets from early buyers of pumping tokens, promotes + monitors them, /discoveries command
 rugcheck.py         ← rug_check() helpers (also inlined in scan_and_alert)
 sheets_logger.py    ← [NEW] Google Sheets trade log (sheets_log_open, sheets_log_close)
 twitter_alerts.py   ← [NEW] Twitter/X signal posts (post_tweet, format_tweet)  [TO BE CREATED]
@@ -175,6 +176,9 @@ TWITTER_ACCESS_SECRET=
 | `tg_send()` / `tg_send_photo()` | scan_and_alert.py | Telegram dispatch |
 | `save_state()` | scan_and_alert.py | write JSON + git commit/push |
 | `get_whale_buys()` | whales.py | Helius whale signal scanner |
+| `discover_from_pumpers()` | wallet_discovery.py | finds early buyers of pumping tokens, updates wallet scorecards, promotes at threshold |
+| `get_discovered_wallet_buys()` | wallet_discovery.py | monitors promoted wallets for new buys (like `get_whale_buys`) |
+| `wallet_discovery_summary()` | wallet_discovery.py | `/discoveries` command output |
 | `post_to_moltbook()` | reporter.py | Moltbook community post |
 | `sheets_log_open()` | sheets_logger.py | log trade entry to Google Sheets |
 | `sheets_log_close()` | sheets_logger.py | update exit data in Google Sheets |
@@ -202,6 +206,7 @@ TWITTER_ACCESS_SECRET=
 - [x] Rug/honeypot safety checks
 - [x] Telegram alerts + commands
 - [x] Moltbook reporting
+- [x] `wallet_discovery.py` — auto-discovers & monitors copy-trade wallets (state key `wallet_scores`)
 - [x] `sheets_logger.py` — Google Sheets play log (created, needs wiring into scan_and_alert.py)
 - [ ] `twitter_alerts.py` — Twitter/X alert posts (not yet created)
 - [ ] Wire both into scan_and_alert.py (imports + call sites)

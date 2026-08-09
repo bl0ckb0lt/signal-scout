@@ -66,6 +66,15 @@ except Exception as _we:
     def whale_summary(): return "⚠️ Whale module unavailable."
 
 try:
+    from wallet_discovery import (discover_from_pumpers, get_discovered_wallet_buys,
+                                   format_discovery_alert)
+except Exception as _wd:
+    print(f"wallet_discovery import failed: {_wd}")
+    def discover_from_pumpers(*a, **k): return []
+    def get_discovered_wallet_buys(*a, **k): return []
+    def format_discovery_alert(*a, **k): return ""
+
+try:
     from trader import maybe_trade, check_real_exits, real_trade_summary, handle_approve, TRADE_MODE
 except Exception as _te:
     print(f"trader import failed: {_te}")
@@ -897,6 +906,7 @@ def score(t):
     if src == "pump.fun":    s += 10
     if src == "graduated":   s += 12   # completed bonding curve → organic community token
     if src == "whale_buy":   s += 18   # direct whale buy — high confidence
+    if src == "discovered_wallet": s += 14  # auto-discovered wallet buy — unverified but promising
     if src == "x_alpha":     s += 14   # trusted alpha caller call on X
     if src == "tg_alpha":    s += 12 + min(t.get("tg_mentions", 1) - 1, 6)  # +1 per extra mention, max +6
     if src == "gmgn":        s += 10   # organically trending on Solana — no paid promotion
@@ -1105,6 +1115,15 @@ def format_alert(t, rc):
             if w != whale_label:
                 lines.append(f"    ✦ {w}")
 
+    dw_addr = t.get("discovered_wallet_addr")
+    if dw_addr:
+        lines += [
+            f"",
+            f"─── 🕵️ DISCOVERED WALLET ───",
+            f"    <code>{dw_addr[:4]}…{dw_addr[-4:]}</code>  ·  {t.get('discovered_wallet_hits', 0)} prior hits",
+            f"    Previously early on: {t.get('discovered_wallet_tokens', '')[:60]}",
+        ]
+
     lines += [
         f"",
         f"─── 🛡 SAFETY ──────────────",
@@ -1271,6 +1290,38 @@ def main():
 
     enriched.extend(pump_tokens)
 
+    # ── Wallet discovery — auto-find new copy-trade candidates ────────────────
+    discovered_signals = []
+    if helius_key:
+        try:
+            newly_promoted = discover_from_pumpers(helius_key, enriched, state, set(VERIFIED_WHALES.keys()))
+            for addr, info in newly_promoted:
+                print(f"  🕵️ New wallet discovered: {addr[:8]}...")
+                tg_send(tg_token, tg_chat, format_discovery_alert(addr, info))
+            promoted = {a: i for a, i in state.get("wallet_scores", {}).items() if i.get("promoted")}
+            if promoted:
+                discovered_signals = get_discovered_wallet_buys(helius_key, promoted, lookback_minutes=15)
+                print(f"  Discovered-wallet signals: {len(discovered_signals)}")
+        except Exception as ex:
+            print(f"  wallet discovery error: {ex}")
+
+    enriched_discovered = []
+    for d in discovered_signals:
+        try:
+            e = enrich(d)
+            if e:
+                e["source"]                   = "discovered_wallet"
+                e["discovered_wallet_addr"]   = d.get("discovered_wallet_addr")
+                e["discovered_wallet_tokens"] = d.get("discovered_wallet_tokens")
+                e["discovered_wallet_hits"]   = d.get("discovered_wallet_hits")
+                enriched_discovered.append(e)
+            else:
+                enriched_discovered.append(d)
+            time.sleep(0.05)
+        except Exception:
+            enriched_discovered.append(d)
+    enriched.extend(enriched_discovered)
+
     # ── Enrich whale signals (fetch DexScreener data if available) ────────────
     enriched_whale = []
     for w in whale_signals:
@@ -1389,10 +1440,10 @@ def main():
             print(f"  new_pair enrich error {np.get('address','?')[:10]}: {ex}")
     enriched.extend(enriched_new_pairs)
 
-    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated  🆕 {len(enriched_new_pairs)} new_pairs)")
+    print(f"  Total enriched: {len(enriched)}  (🐋 {len(enriched_whale)} whale  🕵️ {len(enriched_discovered)} discovered  🐦 {len(enriched_x)} X  💬 {len(enriched_tg)} TG  📈 {len(enriched_gmgn)} GMGN  🦅 {len(enriched_birdeye)} Birdeye  🎓 {len(enriched_grad)} graduated  🆕 {len(enriched_new_pairs)} new_pairs)")
 
     # ── Multi-source merge — same token in multiple feeds = high conviction ────
-    _src_priority = {"whale_buy":7,"tg_alpha":6,"x_alpha":5,"graduated":4,
+    _src_priority = {"whale_buy":7,"discovered_wallet":6,"tg_alpha":6,"x_alpha":5,"graduated":4,
                      "gmgn":3,"birdeye":2,"new_pair":2,"boost":1,"pump.fun":1,"new":0}
     _addr_map = {}
     for t in enriched:
@@ -1429,6 +1480,8 @@ def main():
         fdv = t.get("fdv") or 0
         if src == "whale_buy":
             fresh.append(t)   # always trust whale buys
+        elif src == "discovered_wallet":
+            fresh.append(t)   # always trust auto-discovered wallet buys
         elif src == "pump.fun":
             if age <= PUMP_MAX_AGE_MINUTES and (t.get("buys_h1") or 0) >= PUMP_MIN_TRADES:
                 fresh.append(t)
@@ -1489,8 +1542,9 @@ def main():
     # ── Alert + log ────────────────────────────────────────────────────────────
     alerts_sent = 0
     for t in scored[:MAX_TOKENS]:
-        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or t.get("source") in ("x_alpha", "tg_alpha") or t.get("parabolic")
+        has_smart = bool(t.get("smart_money")) or bool(t.get("whale_label")) or bool(t.get("discovered_wallet_addr")) or t.get("source") in ("x_alpha", "tg_alpha") or t.get("parabolic")
         is_whale  = t.get("source") == "whale_buy"
+        is_discovered = t.get("source") == "discovered_wallet"
         # Non-whale path: need score >= MIN_SCORE and not AVOID/WATCH
         if not has_smart:
             if t["score"] < MIN_SCORE:
@@ -1516,7 +1570,7 @@ def main():
 
         if ok:
             alerts_sent += 1
-            flags  = " 🐋" if is_whale else (" 💡" if has_smart else "")
+            flags  = " 🐋" if is_whale else (" 🕵️" if is_discovered else (" 💡" if has_smart else ""))
             flags += " 🔥" if t.get("source") == "pump.fun" else ""
             print(f"  Alert: {t.get('symbol')} score={t['score']} age={t.get('pair_age_minutes')}m{flags}")
             post_tweet(t)

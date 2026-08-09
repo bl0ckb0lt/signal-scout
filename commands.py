@@ -14,6 +14,11 @@ except Exception as _e:
     def whale_summary(): return f"⚠️ Whale module unavailable: {_e}"
 
 try:
+    from wallet_discovery import wallet_discovery_summary
+except Exception as _e:
+    def wallet_discovery_summary(state): return f"⚠️ Wallet discovery module unavailable: {_e}"
+
+try:
     from trader import real_trade_summary, handle_approve, TRADE_MODE
 except Exception as _e:
     TRADE_MODE = "paper"
@@ -58,6 +63,7 @@ def register_bot_menu(token):
         {"command": "trades",   "description": "📋 Open positions + trailing stops"},
         {"command": "history",  "description": "📜 Last 10 closed trades"},
         {"command": "whales",   "description": "🐋 Tracked whale wallets"},
+        {"command": "discoveries", "description": "🕵️ Auto-discovered copy-trade wallets"},
         {"command": "real",     "description": "💰 Real trade P&L (when enabled)"},
         {"command": "pause",    "description": "⏸ Stop sending alerts"},
         {"command": "resume",   "description": "▶️ Restart scanning"},
@@ -214,6 +220,9 @@ def handle_commands(tg_token, tg_chat, state):
             elif text == "/whales":
                 tg_send(tg_token, tg_chat, whale_summary())
 
+            elif text == "/discoveries":
+                tg_send(tg_token, tg_chat, wallet_discovery_summary(state))
+
             elif text == "/real":
                 tg_send(tg_token, tg_chat, real_trade_summary())
 
@@ -230,6 +239,7 @@ def handle_commands(tg_token, tg_chat, state):
                     "/trades         — open positions + trail stops\n"
                     "/history        — last 10 closed trades\n"
                     "/whales         — tracked whale wallets\n"
+                    "/discoveries    — auto-discovered copy-trade wallets\n"
                     "/real           — real trade P&L\n"
                     "/approve <sym>  — approve semi-auto buy\n"
                     "/pause          — stop alerts\n"
