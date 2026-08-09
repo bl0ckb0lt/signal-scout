@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "THEO",
-      "chain": "robinhood",
-      "address": "0x79310e76E7a1459c4459b4a7390f5679Ca22c347",
-      "source": "new",
-      "entry_price": 0.0002529,
-      "peak_price": 0.0004604,
-      "trailing_active": true,
-      "entry_time": "2026-08-09T04:20:36.824724+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 82.05,
-      "peak_volume_m5": 135781.6,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "Chibbi",
       "chain": "solana",
       "address": "JAX8ZBaNeoFY7bb4XYqEM9MGJefYZQXdQG1fGv5Upump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-09T04:30:30.401972+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.58,
+      "peak_volume_m5": 106668.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -91570,6 +91556,27 @@
       "exit_price": 0.0001144,
       "exit_pct": -26.43,
       "exit_time": "2026-08-09T04:12:19.023328+00:00"
+    },
+    {
+      "symbol": "THEO",
+      "chain": "robinhood",
+      "address": "0x79310e76E7a1459c4459b4a7390f5679Ca22c347",
+      "source": "new",
+      "entry_price": 0.0002529,
+      "peak_price": 0.0004604,
+      "trailing_active": true,
+      "entry_time": "2026-08-09T04:20:36.824724+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 66.11,
+      "peak_volume_m5": 135781.6,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0004201,
+      "exit_pct": 66.11,
+      "exit_time": "2026-08-09T04:31:19.565686+00:00"
     }
   ],
   "alerted": {
@@ -96204,6 +96211,7 @@
     "6rQ7AUNfsKopHvQiiscKK1PjPcYb3Pi2y9Y61gETpump": "2026-08-09T03:46:16.930432+00:00",
     "0x6AD88cBCa28116F0065Df6F6E402127CFde4b8Ec": "2026-08-09T04:03:19.807922+00:00",
     "0x5AaB82E235d3698A60211150De8bf6E249e4cA3A": "2026-08-09T04:04:19.366347+00:00",
-    "6tfeeBCfQvJTduz3JqE4w2f9rTMNMkgrDKaqfkqRpump": "2026-08-09T04:12:19.023328+00:00"
+    "6tfeeBCfQvJTduz3JqE4w2f9rTMNMkgrDKaqfkqRpump": "2026-08-09T04:12:19.023328+00:00",
+    "0x79310e76E7a1459c4459b4a7390f5679Ca22c347": "2026-08-09T04:31:19.565686+00:00"
   }
 }
