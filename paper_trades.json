@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BEAVER",
-      "chain": "robinhood",
-      "address": "0xcEd7b81714A181e50D4FD118528cb431ff262d30",
-      "source": "new",
-      "entry_price": 7.797e-07,
-      "peak_price": 7.797e-07,
-      "trailing_active": false,
-      "entry_time": "2026-08-09T20:59:08.761814+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.03,
-      "peak_volume_m5": 33190.75,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BOT",
       "chain": "bsc",
       "address": "0xbCAD9B1b85af1cD81437252bf50B87235C0B7777",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-09T21:00:33.320968+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.52,
+      "peak_volume_m5": 46534.64,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -92862,6 +92850,25 @@
       "exit_price": 0.0001782,
       "exit_pct": 21.47,
       "exit_time": "2026-08-09T20:53:18.645542+00:00"
+    },
+    {
+      "symbol": "BEAVER",
+      "chain": "robinhood",
+      "address": "0xcEd7b81714A181e50D4FD118528cb431ff262d30",
+      "source": "new",
+      "entry_price": 7.797e-07,
+      "peak_price": 7.797e-07,
+      "trailing_active": false,
+      "entry_time": "2026-08-09T20:59:08.761814+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.61,
+      "peak_volume_m5": 33190.75,
+      "milestones_hit": [],
+      "exit_price": 6.97e-07,
+      "exit_pct": -10.61,
+      "exit_time": "2026-08-09T21:02:18.272247+00:00"
     }
   ],
   "alerted": {
@@ -97561,6 +97568,7 @@
     "0x08a59c32E41bbc50a679e2a3edBEda70592A4aCd": "2026-08-09T20:02:20.833109+00:00",
     "CGeWjfSF51opxZJbrqCtbmxRXKNsjsNwJmNW7k84pump": "2026-08-09T20:15:16.487266+00:00",
     "0x9047c40d0d567c0565b9857b28bBa931D43113CD": "2026-08-09T20:32:20.091314+00:00",
-    "FvDKebt6RTUVGdGeaM83avXeyM3aDxF6FANmDpJLpump": "2026-08-09T20:53:18.645542+00:00"
+    "FvDKebt6RTUVGdGeaM83avXeyM3aDxF6FANmDpJLpump": "2026-08-09T20:53:18.645542+00:00",
+    "0xcEd7b81714A181e50D4FD118528cb431ff262d30": "2026-08-09T21:02:18.272247+00:00"
   }
 }
