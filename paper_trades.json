@@ -8,23 +8,15 @@
       "address": "0x12345d939C884F54576d0c48064E490F1Fc86400",
       "source": "new",
       "entry_price": 0.4422,
-      "peak_price": 0.4422,
+      "peak_price": 0.4688,
       "trailing_active": false,
       "entry_time": "2026-08-10T19:11:11.002836+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "faucet",
-      "chain": "solana",
-      "address": "4oAWGz6GqWE5GvvQeDGecD5ZF19Gb49WMHVU6Uubpump",
-      "source": "new",
-      "entry_price": 0.0001408,
-      "peak_price": 0.0001408,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T19:11:14.057838+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.02,
+      "peak_volume_m5": 5062.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -94368,6 +94360,25 @@
       "exit_price": 0.0002202,
       "exit_pct": 62.75,
       "exit_time": "2026-08-10T19:05:40.362944+00:00"
+    },
+    {
+      "symbol": "faucet",
+      "chain": "solana",
+      "address": "4oAWGz6GqWE5GvvQeDGecD5ZF19Gb49WMHVU6Uubpump",
+      "source": "new",
+      "entry_price": 0.0001408,
+      "peak_price": 0.0001408,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T19:11:14.057838+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.48,
+      "peak_volume_m5": 318927.6,
+      "milestones_hit": [],
+      "exit_price": 0.000119,
+      "exit_pct": -15.48,
+      "exit_time": "2026-08-10T19:14:02.892651+00:00"
     }
   ],
   "alerted": {
@@ -99144,6 +99155,7 @@
     "0x2c306387470ba82941e4b82Ccf3D6F0A3C64f52d": "2026-08-10T18:32:39.648396+00:00",
     "HBBzqNDkkjrBJh8a72t5qQAkXXzdSacD6sFStnTPpump": "2026-08-10T18:52:16.455416+00:00",
     "0x705e0A268a0daD23D554B983AcD5063fa72e3522": "2026-08-10T19:02:37.593541+00:00",
-    "GoShowKzM1NtiEVFrFYqVctUSNde71Und2TA3eN7pump": "2026-08-10T19:05:40.362944+00:00"
+    "GoShowKzM1NtiEVFrFYqVctUSNde71Und2TA3eN7pump": "2026-08-10T19:05:40.362944+00:00",
+    "4oAWGz6GqWE5GvvQeDGecD5ZF19Gb49WMHVU6Uubpump": "2026-08-10T19:14:02.892651+00:00"
   }
 }
