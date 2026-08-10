@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DUKES",
-      "chain": "solana",
-      "address": "2K8bhDbSodxNwfbLLjKmKubuEJc6rjx4JR8R4HMeLCMC",
-      "source": "new",
-      "entry_price": 0.0001271,
-      "peak_price": 0.0001271,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T03:01:08.906804+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "SOUTHPARK",
       "chain": "robinhood",
       "address": "0x6f418c01DBfD61C5C73355c5eb9dC4a301D0F2c4",
       "source": "new",
       "entry_price": 4.548e-05,
-      "peak_price": 4.548e-05,
-      "trailing_active": false,
+      "peak_price": 5.759e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-10T03:01:11.677617+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.63,
+      "peak_volume_m5": 26041.14,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -93262,6 +93254,25 @@
       "exit_price": 0.0001633,
       "exit_pct": 23.52,
       "exit_time": "2026-08-10T02:55:40.745347+00:00"
+    },
+    {
+      "symbol": "DUKES",
+      "chain": "solana",
+      "address": "2K8bhDbSodxNwfbLLjKmKubuEJc6rjx4JR8R4HMeLCMC",
+      "source": "new",
+      "entry_price": 0.0001271,
+      "peak_price": 0.0001271,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T03:01:08.906804+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.84,
+      "peak_volume_m5": 91579.15,
+      "milestones_hit": [],
+      "exit_price": 7.773e-05,
+      "exit_pct": -38.84,
+      "exit_time": "2026-08-10T03:03:18.058696+00:00"
     }
   ],
   "alerted": {
@@ -97982,6 +97993,7 @@
     "0x2Fc21D39fC55a32D1225d484cfD057A1d0d8A2e5": "2026-08-10T01:16:14.786745+00:00",
     "3NwdurTg6zyjLX5qwknDv5p8yLkY8MXVxBcn4tWQpump": "2026-08-10T01:22:54.469861+00:00",
     "GdHK3LU87pQBMo24uYgYarMQ13oCFTawPUx5Ymozpump": "2026-08-10T02:52:47.379434+00:00",
-    "0xA94aEF8261aA2E9c8F222A3E3374e3E126F436E5": "2026-08-10T02:55:40.745347+00:00"
+    "0xA94aEF8261aA2E9c8F222A3E3374e3E126F436E5": "2026-08-10T02:55:40.745347+00:00",
+    "2K8bhDbSodxNwfbLLjKmKubuEJc6rjx4JR8R4HMeLCMC": "2026-08-10T03:03:18.058696+00:00"
   }
 }
