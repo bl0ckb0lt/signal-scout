@@ -8,11 +8,18 @@
       "address": "7SNuFkbD7aVs5LMM6DWsSFTq4zsXNxYuD8Hdsp1Kpump",
       "source": "new",
       "entry_price": 0.000123,
-      "peak_price": 0.000123,
-      "trailing_active": false,
+      "peak_price": 0.000281,
+      "trailing_active": true,
       "entry_time": "2026-08-10T04:31:06.857559+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 128.46,
+      "peak_volume_m5": 306524.31,
+      "milestones_hit": [
+        50,
+        100
+      ]
     },
     {
       "symbol": "LAYOOO",
@@ -20,23 +27,15 @@
       "address": "0xACEa9E6300F48234C272cbCadb549b44A4f223E8",
       "source": "new",
       "entry_price": 9.308e-05,
-      "peak_price": 9.308e-05,
+      "peak_price": 9.744e-05,
       "trailing_active": false,
       "entry_time": "2026-08-10T04:31:08.229396+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "Malysh",
-      "chain": "solana",
-      "address": "DdSPvf9p55m8BgN9Z3hYdSWu5zq8vqxq5Bj8VXGwpump",
-      "source": "new",
-      "entry_price": 0.0001249,
-      "peak_price": 0.0001249,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T04:31:09.825925+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.68,
+      "peak_volume_m5": 48574.57,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -93350,6 +93349,25 @@
       "exit_price": 0.0001483,
       "exit_pct": 18.45,
       "exit_time": "2026-08-10T04:06:01.682237+00:00"
+    },
+    {
+      "symbol": "Malysh",
+      "chain": "solana",
+      "address": "DdSPvf9p55m8BgN9Z3hYdSWu5zq8vqxq5Bj8VXGwpump",
+      "source": "new",
+      "entry_price": 0.0001249,
+      "peak_price": 0.0001249,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T04:31:09.825925+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.29,
+      "peak_volume_m5": 16424.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001133,
+      "exit_pct": -9.29,
+      "exit_time": "2026-08-10T04:34:01.674570+00:00"
     }
   ],
   "alerted": {
@@ -98074,6 +98092,7 @@
     "2K8bhDbSodxNwfbLLjKmKubuEJc6rjx4JR8R4HMeLCMC": "2026-08-10T03:03:18.058696+00:00",
     "0x6f418c01DBfD61C5C73355c5eb9dC4a301D0F2c4": "2026-08-10T03:04:20.845803+00:00",
     "79rVXMvLEg4esbHehKGeLbLqehnxy2eWwA3hXeHjpump": "2026-08-10T04:02:28.299620+00:00",
-    "94Sm8joZMSRzpQmcNVn5zZpgnRLN2DBesJYDXwuNpump": "2026-08-10T04:06:01.682237+00:00"
+    "94Sm8joZMSRzpQmcNVn5zZpgnRLN2DBesJYDXwuNpump": "2026-08-10T04:06:01.682237+00:00",
+    "DdSPvf9p55m8BgN9Z3hYdSWu5zq8vqxq5Bj8VXGwpump": "2026-08-10T04:34:01.674570+00:00"
   }
 }
