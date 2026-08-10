@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BINGUS",
-      "chain": "solana",
-      "address": "FCjd5R4usXebjKT1RXo79GjSmWMuDvL7yJdDaJWYpump",
-      "source": "boost",
-      "entry_price": 0.0002372,
-      "peak_price": 0.0002372,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T14:31:17.945674+00:00",
-      "score": 89,
-      "status": "open"
-    },
-    {
       "symbol": "TOADUS",
       "chain": "solana",
       "address": "DDwhcex6UskFywbwcNRx4McKqgtYg4S6qwfoMdcKpump",
       "source": "new",
       "entry_price": 0.0003268,
-      "peak_price": 0.0003268,
+      "peak_price": 0.0003702,
       "trailing_active": false,
       "entry_time": "2026-08-10T14:31:19.689112+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.28,
+      "peak_volume_m5": 39370.16,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -93942,6 +93934,25 @@
       "exit_price": 0.0004109,
       "exit_pct": -25.6,
       "exit_time": "2026-08-10T14:30:03.339194+00:00"
+    },
+    {
+      "symbol": "BINGUS",
+      "chain": "solana",
+      "address": "FCjd5R4usXebjKT1RXo79GjSmWMuDvL7yJdDaJWYpump",
+      "source": "boost",
+      "entry_price": 0.0002372,
+      "peak_price": 0.0002372,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T14:31:17.945674+00:00",
+      "score": 89,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.12,
+      "peak_volume_m5": 55112.09,
+      "milestones_hit": [],
+      "exit_price": 0.0001966,
+      "exit_pct": -17.12,
+      "exit_time": "2026-08-10T14:35:35.608724+00:00"
     }
   ],
   "alerted": {
@@ -98696,6 +98707,7 @@
     "GpBu9gsExwWvEuTxgf8kc9whQtpiXNEz4dkMH7eEpump": "2026-08-10T13:02:44.413892+00:00",
     "0xC4b67FdFc2d46B5d3fCB48cE53Ac875067BCdDb6": "2026-08-10T13:02:45.196988+00:00",
     "0x625598496954CAEfb2168829C731460AD6033440": "2026-08-10T13:33:21.737944+00:00",
-    "0x7EF2BEa4942c338f2D0f9044BD14950993377777": "2026-08-10T14:30:03.339194+00:00"
+    "0x7EF2BEa4942c338f2D0f9044BD14950993377777": "2026-08-10T14:30:03.339194+00:00",
+    "FCjd5R4usXebjKT1RXo79GjSmWMuDvL7yJdDaJWYpump": "2026-08-10T14:35:35.608724+00:00"
   }
 }
