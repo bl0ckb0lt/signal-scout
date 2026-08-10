@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "hMU",
-      "chain": "ethereum",
-      "address": "0xA71361CB0dd30aE39dC904714E57Bc42D7b8d29E",
-      "source": "new",
-      "entry_price": 1.53,
-      "peak_price": 1.53,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T15:41:06.869052+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "JEW",
       "chain": "robinhood",
       "address": "0xfE074574E60ced3f6eF0f2B9439ec0E8AA8668A5",
       "source": "new",
       "entry_price": 4.96e-05,
-      "peak_price": 4.96e-05,
+      "peak_price": 5.197e-05,
       "trailing_active": false,
       "entry_time": "2026-08-10T15:41:08.256774+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.78,
+      "peak_volume_m5": 27713.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -94096,6 +94088,25 @@
       "exit_price": 0.0001151,
       "exit_pct": -14.55,
       "exit_time": "2026-08-10T15:39:25.922113+00:00"
+    },
+    {
+      "symbol": "hMU",
+      "chain": "ethereum",
+      "address": "0xA71361CB0dd30aE39dC904714E57Bc42D7b8d29E",
+      "source": "new",
+      "entry_price": 1.53,
+      "peak_price": 1.53,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T15:41:06.869052+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.49,
+      "peak_volume_m5": 104729.42,
+      "milestones_hit": [],
+      "exit_price": 1.14,
+      "exit_pct": -25.49,
+      "exit_time": "2026-08-10T15:42:21.352394+00:00"
     }
   ],
   "alerted": {
@@ -98858,6 +98869,7 @@
     "pfPS6mqfCM2EBdNKVWReKSt6WcXj7WRfCDE34kkpump": "2026-08-10T15:23:26.318089+00:00",
     "Ep8Er6t5gKgFRWvesgZMJdNkNmw2bcGjkez687Qmpump": "2026-08-10T15:23:27.112124+00:00",
     "7Vz6LyLUwxLfVvv1Dd7gLTiid7obk2wnvVqqfgxbpump": "2026-08-10T15:24:28.846692+00:00",
-    "0x74Cf52f3E87243D0BfA713AAd96b2E9D6fF47F25": "2026-08-10T15:39:25.922113+00:00"
+    "0x74Cf52f3E87243D0BfA713AAd96b2E9D6fF47F25": "2026-08-10T15:39:25.922113+00:00",
+    "0xA71361CB0dd30aE39dC904714E57Bc42D7b8d29E": "2026-08-10T15:42:21.352394+00:00"
   }
 }
