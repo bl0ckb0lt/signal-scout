@@ -8,29 +8,17 @@
       "address": "0xAD2a703109863B53C4E294E9dFA8FE19D57C89F7",
       "source": "new",
       "entry_price": 1.045e-06,
-      "peak_price": 1.606e-06,
+      "peak_price": 1.651e-06,
       "trailing_active": true,
       "entry_time": "2026-08-10T16:01:11.384945+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 53.59,
+      "current_pct": 57.99,
       "peak_volume_m5": 40561.97,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "BULLWHALE",
-      "chain": "solana",
-      "address": "B4G24zZRUjZcuu4d5QTLpGFcaptXUUNmrLL4VBEmpump",
-      "source": "boost",
-      "entry_price": 0.0004867,
-      "peak_price": 0.0004867,
-      "trailing_active": false,
-      "entry_time": "2026-08-10T16:22:37.833427+00:00",
-      "score": 80,
-      "status": "open"
     }
   ],
   "closed": [
@@ -94178,6 +94166,25 @@
       "exit_price": 0.0003466,
       "exit_pct": -27.99,
       "exit_time": "2026-08-10T16:16:54.196024+00:00"
+    },
+    {
+      "symbol": "BULLWHALE",
+      "chain": "solana",
+      "address": "B4G24zZRUjZcuu4d5QTLpGFcaptXUUNmrLL4VBEmpump",
+      "source": "boost",
+      "entry_price": 0.0004867,
+      "peak_price": 0.0004867,
+      "trailing_active": false,
+      "entry_time": "2026-08-10T16:22:37.833427+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.28,
+      "peak_volume_m5": 7011.91,
+      "milestones_hit": [],
+      "exit_price": 0.000388,
+      "exit_pct": -20.28,
+      "exit_time": "2026-08-10T16:27:32.784342+00:00"
     }
   ],
   "alerted": {
@@ -98944,6 +98951,7 @@
     "0xA71361CB0dd30aE39dC904714E57Bc42D7b8d29E": "2026-08-10T15:42:21.352394+00:00",
     "0xfE074574E60ced3f6eF0f2B9439ec0E8AA8668A5": "2026-08-10T15:49:05.246957+00:00",
     "0x530227c569960Ba0FA345f19cF743A477F147777": "2026-08-10T16:09:50.908138+00:00",
-    "0x8b48e9da0501A3556a961463FCf39BB426501D0d": "2026-08-10T16:16:54.196024+00:00"
+    "0x8b48e9da0501A3556a961463FCf39BB426501D0d": "2026-08-10T16:16:54.196024+00:00",
+    "B4G24zZRUjZcuu4d5QTLpGFcaptXUUNmrLL4VBEmpump": "2026-08-10T16:27:32.784342+00:00"
   }
 }
