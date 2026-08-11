@@ -8,23 +8,15 @@
       "address": "CY7N5pmzqrKw7Y968yzqkSeiTddcM7ZK4gYA3u2mpump",
       "source": "new",
       "entry_price": 0.00027,
-      "peak_price": 0.00027,
-      "trailing_active": false,
+      "peak_price": 0.0003613,
+      "trailing_active": true,
       "entry_time": "2026-08-11T03:41:11.453347+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "RODEO",
-      "chain": "solana",
-      "address": "Dwh9XWsGwvHZjEtLLmVqQ6recDtKYZqCgYp8rkUEpump",
-      "source": "new",
-      "entry_price": 0.0001776,
-      "peak_price": 0.0001776,
-      "trailing_active": false,
-      "entry_time": "2026-08-11T03:41:13.244045+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.81,
+      "peak_volume_m5": 258922.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -94792,6 +94784,25 @@
       "exit_price": 0.0001121,
       "exit_pct": -28.64,
       "exit_time": "2026-08-11T02:42:33.708048+00:00"
+    },
+    {
+      "symbol": "RODEO",
+      "chain": "solana",
+      "address": "Dwh9XWsGwvHZjEtLLmVqQ6recDtKYZqCgYp8rkUEpump",
+      "source": "new",
+      "entry_price": 0.0001776,
+      "peak_price": 0.0001776,
+      "trailing_active": false,
+      "entry_time": "2026-08-11T03:41:13.244045+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.24,
+      "peak_volume_m5": 46394.72,
+      "milestones_hit": [],
+      "exit_price": 0.0001452,
+      "exit_pct": -18.24,
+      "exit_time": "2026-08-11T03:42:46.263095+00:00"
     }
   ],
   "alerted": {
@@ -99590,6 +99601,7 @@
     "0x1A5B132B4aA5f21aE3fB9557EaC0Bbc23E80F0b5": "2026-08-11T02:12:53.738910+00:00",
     "G6tz2XwqKK6HmYfjos9RLwPNvoEVd4hntbm4PSZapump": "2026-08-11T02:32:54.878204+00:00",
     "39dsjtSjwUvT1kAfGtYcMR8x1fxhdkftZJyWyeaDpump": "2026-08-11T02:33:57.678691+00:00",
-    "9mBGKrFV4WBrbU6MtVWa8knMxCYwFSJPkAjBLkywpump": "2026-08-11T02:42:33.708048+00:00"
+    "9mBGKrFV4WBrbU6MtVWa8knMxCYwFSJPkAjBLkywpump": "2026-08-11T02:42:33.708048+00:00",
+    "Dwh9XWsGwvHZjEtLLmVqQ6recDtKYZqCgYp8rkUEpump": "2026-08-11T03:42:46.263095+00:00"
   }
 }
