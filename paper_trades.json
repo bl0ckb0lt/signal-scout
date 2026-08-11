@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ORB",
-      "chain": "solana",
-      "address": "3Kt2xyY4G6Gus2eNGddCoSUZGB9VDwqJqaMrDBzXpump",
-      "source": "new",
-      "entry_price": 0.000129,
-      "peak_price": 0.0001492,
-      "trailing_active": true,
-      "entry_time": "2026-08-11T19:01:15.582034+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 15.66,
-      "peak_volume_m5": 38336.24,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BUB",
       "chain": "robinhood",
       "address": "0xd4E9852451241732C0017FaAcF9Ca5a499080B4B",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-11T19:11:07.917377+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.0,
+      "peak_volume_m5": 3101.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -95701,6 +95689,25 @@
       "exit_price": 0.0001418,
       "exit_pct": -15.04,
       "exit_time": "2026-08-11T18:43:49.355252+00:00"
+    },
+    {
+      "symbol": "ORB",
+      "chain": "solana",
+      "address": "3Kt2xyY4G6Gus2eNGddCoSUZGB9VDwqJqaMrDBzXpump",
+      "source": "new",
+      "entry_price": 0.000129,
+      "peak_price": 0.0001492,
+      "trailing_active": true,
+      "entry_time": "2026-08-11T19:01:15.582034+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -4.19,
+      "peak_volume_m5": 38336.24,
+      "milestones_hit": [],
+      "exit_price": 0.0001236,
+      "exit_pct": -4.19,
+      "exit_time": "2026-08-11T19:12:05.713590+00:00"
     }
   ],
   "alerted": {
@@ -100546,6 +100553,7 @@
     "0x94D32148C868D478341a587b474d4f6435D9Bba3": "2026-08-11T18:32:03.251912+00:00",
     "0xA639962004C4241377E637B5e374f2545b3B520C": "2026-08-11T18:42:51.064130+00:00",
     "0x359dc364F515516934FC44c498579E550E672424": "2026-08-11T18:42:51.938729+00:00",
-    "4QVa33qdXiFe3L3krfSGFaiQEfFUQsWpebJN2CPxpump": "2026-08-11T18:43:49.355252+00:00"
+    "4QVa33qdXiFe3L3krfSGFaiQEfFUQsWpebJN2CPxpump": "2026-08-11T18:43:49.355252+00:00",
+    "3Kt2xyY4G6Gus2eNGddCoSUZGB9VDwqJqaMrDBzXpump": "2026-08-11T19:12:05.713590+00:00"
   }
 }
