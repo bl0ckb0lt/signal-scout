@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CBT",
-      "chain": "solana",
-      "address": "6gUWuPNiquxgF5Kmojzft6VoXoSWBLHWZbERQeWaKeP5",
-      "source": "new",
-      "entry_price": 0.0002872,
-      "peak_price": 0.0002872,
-      "trailing_active": false,
-      "entry_time": "2026-08-11T17:41:11.281411+00:00",
-      "score": 71,
-      "status": "open"
-    },
-    {
       "symbol": "BOT",
       "chain": "robinhood",
       "address": "0x81D6Dd7791CdaF45C2865e94cB684b55e32A0297",
       "source": "new",
       "entry_price": 6.86e-05,
-      "peak_price": 6.86e-05,
+      "peak_price": 6.901e-05,
       "trailing_active": false,
       "entry_time": "2026-08-11T17:41:12.640913+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.6,
+      "peak_volume_m5": 34041.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -95543,6 +95535,25 @@
       "exit_price": 0.003543,
       "exit_pct": -16.83,
       "exit_time": "2026-08-11T17:22:16.143955+00:00"
+    },
+    {
+      "symbol": "CBT",
+      "chain": "solana",
+      "address": "6gUWuPNiquxgF5Kmojzft6VoXoSWBLHWZbERQeWaKeP5",
+      "source": "new",
+      "entry_price": 0.0002872,
+      "peak_price": 0.0002872,
+      "trailing_active": false,
+      "entry_time": "2026-08-11T17:41:11.281411+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -48.12,
+      "peak_volume_m5": 461468.28,
+      "milestones_hit": [],
+      "exit_price": 0.000149,
+      "exit_pct": -48.12,
+      "exit_time": "2026-08-11T17:42:32.719028+00:00"
     }
   ],
   "alerted": {
@@ -100380,6 +100391,7 @@
     "6Hcb29mCmrdz4yEM4WewZRakc8wDRr7geYktzf9Mpump": "2026-08-11T15:52:44.458527+00:00",
     "AFdZw2VhFfZStKDmDjUZghyWVXCPriu5S5Rk2KJipump": "2026-08-11T15:55:35.676598+00:00",
     "0xa05F6C660128bE025D17b3177dC8F5F7258cC719": "2026-08-11T16:02:33.063597+00:00",
-    "HukaK2eHhbTyiuUwuKMntjPJP4aGdD4VwiExsNmyT8WJ": "2026-08-11T17:22:16.143955+00:00"
+    "HukaK2eHhbTyiuUwuKMntjPJP4aGdD4VwiExsNmyT8WJ": "2026-08-11T17:22:16.143955+00:00",
+    "6gUWuPNiquxgF5Kmojzft6VoXoSWBLHWZbERQeWaKeP5": "2026-08-11T17:42:32.719028+00:00"
   }
 }
