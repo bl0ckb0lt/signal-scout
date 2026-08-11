@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NEBULA",
-      "chain": "robinhood",
-      "address": "0x4f798E622E0a1fa29CA7FDb093ab2F7b6F290e9E",
-      "source": "new",
-      "entry_price": 0.0002033,
-      "peak_price": 0.0002033,
-      "trailing_active": false,
-      "entry_time": "2026-08-11T21:11:08.354939+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "MARIO64",
       "chain": "robinhood",
       "address": "0x0cCe3e5AadC998E3a69d474A2D23A7C4816947d0",
       "source": "new",
       "entry_price": 4.065e-05,
-      "peak_price": 4.065e-05,
-      "trailing_active": false,
+      "peak_price": 6.915e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-11T21:11:09.913534+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 70.11,
+      "peak_volume_m5": 49215.99,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -95817,6 +95811,25 @@
       "exit_price": 0.0001374,
       "exit_pct": -12.76,
       "exit_time": "2026-08-11T20:43:16.513472+00:00"
+    },
+    {
+      "symbol": "NEBULA",
+      "chain": "robinhood",
+      "address": "0x4f798E622E0a1fa29CA7FDb093ab2F7b6F290e9E",
+      "source": "new",
+      "entry_price": 0.0002033,
+      "peak_price": 0.0002033,
+      "trailing_active": false,
+      "entry_time": "2026-08-11T21:11:08.354939+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.53,
+      "peak_volume_m5": 13485.46,
+      "milestones_hit": [],
+      "exit_price": 0.0001819,
+      "exit_pct": -10.53,
+      "exit_time": "2026-08-11T21:12:02.458345+00:00"
     }
   ],
   "alerted": {
@@ -100668,6 +100681,7 @@
     "0x1136a7d9e19aCCe55973522c26C9FaF286DA5Dd5": "2026-08-11T19:52:38.420421+00:00",
     "53DM4mikdxyaxeuQDGPBfUaUjiUQW9Nd7XEo8HcSpump": "2026-08-11T20:12:14.050552+00:00",
     "HSZCUrkyJspqMAUrrKr4kSC7j9cKadqVVo4xTyFG7mDi": "2026-08-11T20:31:01.678176+00:00",
-    "HfWmpFUZsEVnVBCCDbzomfwAneG4xkjVBBPA483Rpump": "2026-08-11T20:43:16.513472+00:00"
+    "HfWmpFUZsEVnVBCCDbzomfwAneG4xkjVBBPA483Rpump": "2026-08-11T20:43:16.513472+00:00",
+    "0x4f798E622E0a1fa29CA7FDb093ab2F7b6F290e9E": "2026-08-11T21:12:02.458345+00:00"
   }
 }
