@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "toadella",
-      "chain": "solana",
-      "address": "6Hcb29mCmrdz4yEM4WewZRakc8wDRr7geYktzf9Mpump",
-      "source": "new",
-      "entry_price": 0.0001347,
-      "peak_price": 0.0001347,
-      "trailing_active": false,
-      "entry_time": "2026-08-11T15:51:07.251547+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "cheese",
       "chain": "solana",
       "address": "AFdZw2VhFfZStKDmDjUZghyWVXCPriu5S5Rk2KJipump",
       "source": "new",
       "entry_price": 0.0001244,
-      "peak_price": 0.0001244,
-      "trailing_active": false,
+      "peak_price": 0.0001683,
+      "trailing_active": true,
       "entry_time": "2026-08-11T15:51:08.905127+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.29,
+      "peak_volume_m5": 90477.48,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -95467,6 +95459,25 @@
       "exit_price": 0.000139,
       "exit_pct": 10.32,
       "exit_time": "2026-08-11T15:34:07.001374+00:00"
+    },
+    {
+      "symbol": "toadella",
+      "chain": "solana",
+      "address": "6Hcb29mCmrdz4yEM4WewZRakc8wDRr7geYktzf9Mpump",
+      "source": "new",
+      "entry_price": 0.0001347,
+      "peak_price": 0.0001347,
+      "trailing_active": false,
+      "entry_time": "2026-08-11T15:51:07.251547+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.57,
+      "peak_volume_m5": 99271.79,
+      "milestones_hit": [],
+      "exit_price": 0.0001016,
+      "exit_pct": -24.57,
+      "exit_time": "2026-08-11T15:52:44.458527+00:00"
     }
   ],
   "alerted": {
@@ -100300,6 +100311,7 @@
     "0x018D6a98555686bE1CA5b6896ef6c42cf67E2BD1": "2026-08-11T14:52:17.108896+00:00",
     "0x83D3823a3310d12315F7D8492644cf582380aeE5": "2026-08-11T15:13:00.275070+00:00",
     "0x4c87B69F0d862cD66b84f7beF639180980b8aE67": "2026-08-11T15:33:01.948416+00:00",
-    "4S2qS8P17LSPosME8grirgfUE4p6kW2kZfMSzgmDpump": "2026-08-11T15:34:07.001374+00:00"
+    "4S2qS8P17LSPosME8grirgfUE4p6kW2kZfMSzgmDpump": "2026-08-11T15:34:07.001374+00:00",
+    "6Hcb29mCmrdz4yEM4WewZRakc8wDRr7geYktzf9Mpump": "2026-08-11T15:52:44.458527+00:00"
   }
 }
