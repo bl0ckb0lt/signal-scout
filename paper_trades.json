@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DOBIE",
-      "chain": "solana",
-      "address": "EDrNahT3csJU9zq6zZCe4wyAtTwLeoeR7yV7QHbPpump",
-      "source": "new",
-      "entry_price": 0.0002026,
-      "peak_price": 0.0002186,
-      "trailing_active": false,
-      "entry_time": "2026-08-11T14:41:16.282379+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.68,
-      "peak_volume_m5": 12136.6,
-      "milestones_hit": []
-    },
-    {
       "symbol": "ODYS",
       "chain": "arbitrum",
       "address": "0x018D6a98555686bE1CA5b6896ef6c42cf67E2BD1",
       "source": "new",
       "entry_price": 0.0001502,
-      "peak_price": 0.0001502,
-      "trailing_active": false,
+      "peak_price": 0.0002117,
+      "trailing_active": true,
       "entry_time": "2026-08-11T14:49:46.117995+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 40.95,
+      "peak_volume_m5": 44556.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -95376,6 +95364,25 @@
       "exit_price": 0.001146,
       "exit_pct": 6.51,
       "exit_time": "2026-08-11T14:44:21.725582+00:00"
+    },
+    {
+      "symbol": "DOBIE",
+      "chain": "solana",
+      "address": "EDrNahT3csJU9zq6zZCe4wyAtTwLeoeR7yV7QHbPpump",
+      "source": "new",
+      "entry_price": 0.0002026,
+      "peak_price": 0.0002186,
+      "trailing_active": false,
+      "entry_time": "2026-08-11T14:41:16.282379+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.06,
+      "peak_volume_m5": 12136.6,
+      "milestones_hit": [],
+      "exit_price": 0.0001802,
+      "exit_pct": -11.06,
+      "exit_time": "2026-08-11T14:51:10.329353+00:00"
     }
   ],
   "alerted": {
@@ -100204,6 +100211,7 @@
     "0x67c71277A863Cb92669C02c795d4F67211f0E753": "2026-08-11T14:14:21.373026+00:00",
     "0x07754c3d3383671c5d5c954F378960D988f9C8eC": "2026-08-11T14:33:47.123120+00:00",
     "tSEakxwRz3Y3BpjDttokygCgScgLnui19NJGrR4pump": "2026-08-11T14:42:24.242478+00:00",
-    "vVzBpN7bboV6HMfP3Q5kFKtZJp1YKn5XG3YGfNKpump": "2026-08-11T14:44:21.725582+00:00"
+    "vVzBpN7bboV6HMfP3Q5kFKtZJp1YKn5XG3YGfNKpump": "2026-08-11T14:44:21.725582+00:00",
+    "EDrNahT3csJU9zq6zZCe4wyAtTwLeoeR7yV7QHbPpump": "2026-08-11T14:51:10.329353+00:00"
   }
 }
