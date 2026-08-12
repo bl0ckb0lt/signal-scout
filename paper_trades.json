@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ELON",
-      "chain": "bsc",
-      "address": "0x34e6A532B9547f54d7398114ed1832Da495c7777",
-      "source": "new",
-      "entry_price": 3.638e-05,
-      "peak_price": 6.851e-05,
-      "trailing_active": true,
-      "entry_time": "2026-08-12T16:41:14.198506+00:00",
-      "score": 66,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 88.32,
-      "peak_volume_m5": 8793.26,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "SHARES",
       "chain": "robinhood",
       "address": "0x7DeFA0AA2e3B904743a2e994B920c46b2985C970",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-12T17:01:07.257794+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.65,
+      "peak_volume_m5": 79945.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -97149,6 +97135,27 @@
       "exit_price": 0.0001469,
       "exit_pct": -19.24,
       "exit_time": "2026-08-12T16:34:16.755796+00:00"
+    },
+    {
+      "symbol": "ELON",
+      "chain": "bsc",
+      "address": "0x34e6A532B9547f54d7398114ed1832Da495c7777",
+      "source": "new",
+      "entry_price": 3.638e-05,
+      "peak_price": 6.851e-05,
+      "trailing_active": true,
+      "entry_time": "2026-08-12T16:41:14.198506+00:00",
+      "score": 66,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 78.56,
+      "peak_volume_m5": 8793.26,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 6.496e-05,
+      "exit_pct": 78.56,
+      "exit_time": "2026-08-12T17:02:13.342930+00:00"
     }
   ],
   "alerted": {
@@ -102064,6 +102071,7 @@
     "2884bUbkaJe8V3RtyeawG1hTyCx6tSfpKkKufNQ7pump": "2026-08-12T16:12:15.381657+00:00",
     "0x22C5d4f576e44c27C19c3215F505B83139427D64": "2026-08-12T16:32:14.888956+00:00",
     "0xf9c06Cb80871D6d45393196121C23a09E2d8988b": "2026-08-12T16:32:15.928109+00:00",
-    "0xf4802d3b4e87B81343A88486d6A6Fd80F5E5B270": "2026-08-12T16:34:16.755796+00:00"
+    "0xf4802d3b4e87B81343A88486d6A6Fd80F5E5B270": "2026-08-12T16:34:16.755796+00:00",
+    "0x34e6A532B9547f54d7398114ed1832Da495c7777": "2026-08-12T17:02:13.342930+00:00"
   }
 }
