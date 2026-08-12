@@ -8,29 +8,18 @@
       "address": "7ZgRjHSnjDqc73mYitJZ4NAAVtdWrTyQEnoXB6Kfpump",
       "source": "new",
       "entry_price": 0.000149,
-      "peak_price": 0.0002946,
+      "peak_price": 0.0003717,
       "trailing_active": true,
       "entry_time": "2026-08-12T09:51:09.312227+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 97.72,
+      "current_pct": 149.46,
       "peak_volume_m5": 185974.2,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "TINKERBULL",
-      "chain": "solana",
-      "address": "hVha9sExfqchfVA8jsrdwDN4Wczep2o48adCnY6pump",
-      "source": "boost",
-      "entry_price": 0.0001616,
-      "peak_price": 0.0001616,
-      "trailing_active": false,
-      "entry_time": "2026-08-12T10:01:15.497578+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -96644,6 +96633,25 @@
       "exit_price": 0.00023,
       "exit_pct": -31.75,
       "exit_time": "2026-08-12T09:12:28.549400+00:00"
+    },
+    {
+      "symbol": "TINKERBULL",
+      "chain": "solana",
+      "address": "hVha9sExfqchfVA8jsrdwDN4Wczep2o48adCnY6pump",
+      "source": "boost",
+      "entry_price": 0.0001616,
+      "peak_price": 0.0001616,
+      "trailing_active": false,
+      "entry_time": "2026-08-12T10:01:15.497578+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.53,
+      "peak_volume_m5": 20156.71,
+      "milestones_hit": [],
+      "exit_price": 0.0001462,
+      "exit_pct": -9.53,
+      "exit_time": "2026-08-12T10:06:47.787004+00:00"
     }
   ],
   "alerted": {
@@ -101533,6 +101541,7 @@
     "0xF89716D733130D369708290D8b211db1f7011D77": "2026-08-12T08:24:43.670452+00:00",
     "54CrAcw3mhAxP2QgFUTubeXTidtXtEowpDTL7b7Epump": "2026-08-12T08:38:03.316541+00:00",
     "0x88F112B420dcd16020068fa63482bF5804BFcFa5": "2026-08-12T08:52:04.286212+00:00",
-    "EUB1eZBt4m3X4FbperWnKGJdvLsuLMu2YmJix5yjpump": "2026-08-12T09:12:28.549400+00:00"
+    "EUB1eZBt4m3X4FbperWnKGJdvLsuLMu2YmJix5yjpump": "2026-08-12T09:12:28.549400+00:00",
+    "hVha9sExfqchfVA8jsrdwDN4Wczep2o48adCnY6pump": "2026-08-12T10:06:47.787004+00:00"
   }
 }
