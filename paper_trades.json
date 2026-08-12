@@ -8,35 +8,18 @@
       "address": "7xwJQh4jX5pgkLrKCcij4UXcdyXWxDwzeVr65NmKpump",
       "source": "boost",
       "entry_price": 0.0001572,
-      "peak_price": 0.0003657,
+      "peak_price": 0.000484,
       "trailing_active": true,
       "entry_time": "2026-08-12T01:31:14.585673+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 132.63,
+      "current_pct": 207.89,
       "peak_volume_m5": 11544.05,
       "milestones_hit": [
+        200,
         50,
         100
-      ]
-    },
-    {
-      "symbol": "STONKBANKER",
-      "chain": "robinhood",
-      "address": "0xf9f1C8D776398247727edc21561a073170420Ec4",
-      "source": "new",
-      "entry_price": 0.0002293,
-      "peak_price": 0.0004335,
-      "trailing_active": true,
-      "entry_time": "2026-08-12T01:41:17.297148+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 89.05,
-      "peak_volume_m5": 6764.91,
-      "milestones_hit": [
-        50
       ]
     },
     {
@@ -45,11 +28,15 @@
       "address": "0x086E4AC5704E8D769B383375296E322090AAB984",
       "source": "new",
       "entry_price": 0.0002266,
-      "peak_price": 0.0002266,
+      "peak_price": 0.0002419,
       "trailing_active": false,
       "entry_time": "2026-08-12T01:51:14.033941+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.75,
+      "peak_volume_m5": 6101.48,
+      "milestones_hit": []
     },
     {
       "symbol": "Bowser64",
@@ -57,11 +44,15 @@
       "address": "DNFUP9tDaaHSLGkRfypf4t1u1uNYnFiPKUWFivBWpump",
       "source": "boost",
       "entry_price": 0.0001318,
-      "peak_price": 0.0001318,
-      "trailing_active": false,
+      "peak_price": 0.0001881,
+      "trailing_active": true,
       "entry_time": "2026-08-12T01:51:15.693891+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 42.72,
+      "peak_volume_m5": 32216.88,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -96029,6 +96020,28 @@
       "exit_price": 0.0001022,
       "exit_pct": -23.85,
       "exit_time": "2026-08-12T01:15:00.244612+00:00"
+    },
+    {
+      "symbol": "STONKBANKER",
+      "chain": "robinhood",
+      "address": "0xf9f1C8D776398247727edc21561a073170420Ec4",
+      "source": "new",
+      "entry_price": 0.0002293,
+      "peak_price": 0.0004698,
+      "trailing_active": true,
+      "entry_time": "2026-08-12T01:41:17.297148+00:00",
+      "score": 77,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 104.88,
+      "peak_volume_m5": 6764.91,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004698,
+      "exit_pct": 104.88,
+      "exit_time": "2026-08-12T01:57:19.249018+00:00"
     }
   ],
   "alerted": {
@@ -100888,6 +100901,7 @@
     "0x3b7157B6409380E09A131b631dFb8dFD2781D9cc": "2026-08-11T21:33:55.190235+00:00",
     "5ziigNJ8hS33nbSjAHzVEwgbA5PLDQUMEXk2sL45pump": "2026-08-11T22:12:56.923297+00:00",
     "8NoNPSYcFq4jdYTqX4rMLpQR3GoBe6XvPYkRDERwpump": "2026-08-11T23:09:09.764378+00:00",
-    "CqqED7VtRR2LEinPM2ocqkXAJCiT1quf8o9eth8FgLqY": "2026-08-12T01:15:00.244612+00:00"
+    "CqqED7VtRR2LEinPM2ocqkXAJCiT1quf8o9eth8FgLqY": "2026-08-12T01:15:00.244612+00:00",
+    "0xf9f1C8D776398247727edc21561a073170420Ec4": "2026-08-12T01:57:19.249018+00:00"
   }
 }
