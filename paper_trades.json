@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "COGE",
-      "chain": "solana",
-      "address": "AvecKFxn8ihToR7gwgAVjfqV56N1rWhN7hv8joXQpump",
-      "source": "boost",
-      "entry_price": 0.0001302,
-      "peak_price": 0.0001302,
-      "trailing_active": false,
-      "entry_time": "2026-08-12T04:51:01.933658+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "MAUS",
       "chain": "robinhood",
       "address": "0xA2C03EEf7DEE92a932079ad22B6a0c6B7542cce3",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-12T04:51:03.261421+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.48,
+      "peak_volume_m5": 23990.43,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -96273,6 +96265,25 @@
       "exit_price": 0.0003769,
       "exit_pct": 120.8,
       "exit_time": "2026-08-12T04:35:55.847316+00:00"
+    },
+    {
+      "symbol": "COGE",
+      "chain": "solana",
+      "address": "AvecKFxn8ihToR7gwgAVjfqV56N1rWhN7hv8joXQpump",
+      "source": "boost",
+      "entry_price": 0.0001302,
+      "peak_price": 0.0001302,
+      "trailing_active": false,
+      "entry_time": "2026-08-12T04:51:01.933658+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.98,
+      "peak_volume_m5": 24867.36,
+      "milestones_hit": [],
+      "exit_price": 0.0001133,
+      "exit_pct": -12.98,
+      "exit_time": "2026-08-12T04:53:14.242926+00:00"
     }
   ],
   "alerted": {
@@ -101145,6 +101156,7 @@
     "0xfA0a8ea31F65eEBfe31B83d2b9759a36396A98dD": "2026-08-12T03:32:52.035666+00:00",
     "0xb86c8358F7753E188e588411E9f04e4488cE850E": "2026-08-12T03:51:04.400821+00:00",
     "B1Ahew3dZeamHmz3eMjGWScLKmavN4SqM4p1rwnpump": "2026-08-12T03:52:54.516432+00:00",
-    "67dSkSauY69KT3uWEu2mYmA6hRbCieyiyLMUeEgppump": "2026-08-12T04:35:55.847316+00:00"
+    "67dSkSauY69KT3uWEu2mYmA6hRbCieyiyLMUeEgppump": "2026-08-12T04:35:55.847316+00:00",
+    "AvecKFxn8ihToR7gwgAVjfqV56N1rWhN7hv8joXQpump": "2026-08-12T04:53:14.242926+00:00"
   }
 }
