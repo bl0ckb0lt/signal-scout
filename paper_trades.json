@@ -14,7 +14,7 @@
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 54.72,
+      "current_pct": 47.92,
       "peak_volume_m5": 10283.87,
       "milestones_hit": [
         50
@@ -26,39 +26,15 @@
       "address": "B1Ahew3dZeamHmz3eMjGWScLKmavN4SqM4p1rwnpump",
       "source": "new",
       "entry_price": 0.00618,
-      "peak_price": 0.00693,
+      "peak_price": 0.006945,
       "trailing_active": false,
       "entry_time": "2026-08-12T02:31:19.744831+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.14,
+      "current_pct": 12.38,
       "peak_volume_m5": 2009.99,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AURORA",
-      "chain": "robinhood",
-      "address": "0x33F52798c59514E0fd726727FF61FC74baEeBDF8",
-      "source": "new",
-      "entry_price": 0.0003596,
-      "peak_price": 0.0003596,
-      "trailing_active": false,
-      "entry_time": "2026-08-12T03:11:10.485430+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "MAUS",
-      "chain": "solana",
-      "address": "BxUhj7NZQ3D8WwcS1x8CjKC6kSbfYf4tPxfjDstypump",
-      "source": "new",
-      "entry_price": 0.0001335,
-      "peak_price": 0.0001335,
-      "trailing_active": false,
-      "entry_time": "2026-08-12T03:11:12.116378+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -96171,6 +96147,44 @@
       "exit_price": 0.0001088,
       "exit_pct": -15.4,
       "exit_time": "2026-08-12T02:43:14.636266+00:00"
+    },
+    {
+      "symbol": "AURORA",
+      "chain": "robinhood",
+      "address": "0x33F52798c59514E0fd726727FF61FC74baEeBDF8",
+      "source": "new",
+      "entry_price": 0.0003596,
+      "peak_price": 0.0003596,
+      "trailing_active": false,
+      "entry_time": "2026-08-12T03:11:10.485430+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.53,
+      "peak_volume_m5": 21830.06,
+      "milestones_hit": [],
+      "exit_price": 0.000275,
+      "exit_pct": -23.53,
+      "exit_time": "2026-08-12T03:12:32.380541+00:00"
+    },
+    {
+      "symbol": "MAUS",
+      "chain": "solana",
+      "address": "BxUhj7NZQ3D8WwcS1x8CjKC6kSbfYf4tPxfjDstypump",
+      "source": "new",
+      "entry_price": 0.0001335,
+      "peak_price": 0.0001335,
+      "trailing_active": false,
+      "entry_time": "2026-08-12T03:11:12.116378+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.29,
+      "peak_volume_m5": 26248.08,
+      "milestones_hit": [],
+      "exit_price": 0.0001211,
+      "exit_pct": -9.29,
+      "exit_time": "2026-08-12T03:12:33.222875+00:00"
     }
   ],
   "alerted": {
@@ -101037,6 +101051,8 @@
     "0x086E4AC5704E8D769B383375296E322090AAB984": "2026-08-12T02:16:52.854966+00:00",
     "0xEd32E0e11f052ae6CCcd28F2Bb3Ae4660D91953b": "2026-08-12T02:17:50.181047+00:00",
     "7SP5NdZkTxiaEA5n1S4Qcr9Ch8PbgiqEZEV1TkEnpump": "2026-08-12T02:32:44.804721+00:00",
-    "WBYchcKpzDMqUjEQfLUTNyLpGR1KADxPERNxQmkpump": "2026-08-12T02:43:14.636266+00:00"
+    "WBYchcKpzDMqUjEQfLUTNyLpGR1KADxPERNxQmkpump": "2026-08-12T02:43:14.636266+00:00",
+    "0x33F52798c59514E0fd726727FF61FC74baEeBDF8": "2026-08-12T03:12:32.380541+00:00",
+    "BxUhj7NZQ3D8WwcS1x8CjKC6kSbfYf4tPxfjDstypump": "2026-08-12T03:12:33.222875+00:00"
   }
 }
