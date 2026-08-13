@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Stokki",
-      "chain": "robinhood",
-      "address": "0x19057832022790a636fbffc0fec6975c465c8205",
-      "source": "new",
-      "entry_price": 0.0001199,
-      "peak_price": 0.0001199,
-      "trailing_active": false,
-      "entry_time": "2026-08-13T23:41:05.892216+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "SLEUTH",
       "chain": "robinhood",
       "address": "0x193674b72B6aA1905FC47BdbC19b30A53b666666",
       "source": "new",
       "entry_price": 0.3479,
-      "peak_price": 0.3479,
+      "peak_price": 0.3482,
       "trailing_active": false,
       "entry_time": "2026-08-13T23:41:07.296387+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.09,
+      "peak_volume_m5": 42499.33,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -99113,6 +99105,25 @@
       "exit_price": 9.9e-05,
       "exit_pct": -15.02,
       "exit_time": "2026-08-13T23:03:00.351621+00:00"
+    },
+    {
+      "symbol": "Stokki",
+      "chain": "robinhood",
+      "address": "0x19057832022790a636fbffc0fec6975c465c8205",
+      "source": "new",
+      "entry_price": 0.0001199,
+      "peak_price": 0.0001199,
+      "trailing_active": false,
+      "entry_time": "2026-08-13T23:41:05.892216+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.18,
+      "peak_volume_m5": 20814.94,
+      "milestones_hit": [],
+      "exit_price": 0.0001017,
+      "exit_pct": -15.18,
+      "exit_time": "2026-08-13T23:42:22.464851+00:00"
     }
   ],
   "alerted": {
@@ -104128,6 +104139,7 @@
     "0xF130C9630efA5Fd5F660C90E71aAadA344FF8D2B": "2026-08-13T22:13:43.149644+00:00",
     "0x5E3039Abcc25f133AdC91481A6765Ba094aE4c3D": "2026-08-13T22:24:02.412224+00:00",
     "Bmv7ho39ijT6ur3GSN3GK4bxZnwM7qrf1ReF5qYfpump": "2026-08-13T22:56:32.261783+00:00",
-    "0xc5c911616E92d8f48799b83338D02b214aA6dA85": "2026-08-13T23:03:00.351621+00:00"
+    "0xc5c911616E92d8f48799b83338D02b214aA6dA85": "2026-08-13T23:03:00.351621+00:00",
+    "0x19057832022790a636fbffc0fec6975c465c8205": "2026-08-13T23:42:22.464851+00:00"
   }
 }
