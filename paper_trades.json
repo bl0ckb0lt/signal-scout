@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Burqa",
-      "chain": "solana",
-      "address": "8jsX4bMiKR6Gk6sefc9MiuVX6BabQR49skmW8Ppypump",
-      "source": "new",
-      "entry_price": 0.0001256,
-      "peak_price": 0.0001256,
-      "trailing_active": false,
-      "entry_time": "2026-08-14T19:25:32.069659+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "ROBINCRAB",
       "chain": "robinhood",
       "address": "0xD7742a621D8DcF7Da4E5B718F9caD4DcE8a86E08",
       "source": "new",
       "entry_price": 8.949e-07,
-      "peak_price": 8.949e-07,
+      "peak_price": 9.945e-07,
       "trailing_active": false,
       "entry_time": "2026-08-14T19:25:33.440579+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.13,
+      "peak_volume_m5": 33017.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -100304,6 +100296,25 @@
       "exit_price": 0.000109,
       "exit_pct": -20.38,
       "exit_time": "2026-08-14T18:42:49.399611+00:00"
+    },
+    {
+      "symbol": "Burqa",
+      "chain": "solana",
+      "address": "8jsX4bMiKR6Gk6sefc9MiuVX6BabQR49skmW8Ppypump",
+      "source": "new",
+      "entry_price": 0.0001256,
+      "peak_price": 0.0001256,
+      "trailing_active": false,
+      "entry_time": "2026-08-14T19:25:32.069659+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.07,
+      "peak_volume_m5": 26822.41,
+      "milestones_hit": [],
+      "exit_price": 8.657e-05,
+      "exit_pct": -31.07,
+      "exit_time": "2026-08-14T19:26:48.252126+00:00"
     }
   ],
   "alerted": {
@@ -105379,6 +105390,7 @@
     "8mtTLauYuiCmmao3tuaLNMJ7B9TN5t1VU4YeVdrWpump": "2026-08-14T18:14:01.261399+00:00",
     "4cCyEZoBVPepCK3MUR1PahCgehF9n9dUDHPJenW4pump": "2026-08-14T18:22:51.121259+00:00",
     "0x802bc10aa4C6c943d3C71ECE2E34B3AEb85B6C45": "2026-08-14T18:32:11.453391+00:00",
-    "BF9sqerhJ1KwuUPGVwL8SQyBXmGZih2jfJqKJEFTpump": "2026-08-14T18:42:49.399611+00:00"
+    "BF9sqerhJ1KwuUPGVwL8SQyBXmGZih2jfJqKJEFTpump": "2026-08-14T18:42:49.399611+00:00",
+    "8jsX4bMiKR6Gk6sefc9MiuVX6BabQR49skmW8Ppypump": "2026-08-14T19:26:48.252126+00:00"
   }
 }
