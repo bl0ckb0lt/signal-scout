@@ -24,23 +24,15 @@
       "address": "GS2jgH6874i1txo8CUnudz7N1gAuA9CtRHLXN1Npump",
       "source": "boost",
       "entry_price": 0.0001613,
-      "peak_price": 0.0001613,
+      "peak_price": 0.0001618,
       "trailing_active": false,
       "entry_time": "2026-08-14T14:01:00.840442+00:00",
       "score": 81,
-      "status": "open"
-    },
-    {
-      "symbol": "FTR",
-      "chain": "robinhood",
-      "address": "0xCECA050F8794DB923b8C85df572F4CA99347C7A6",
-      "source": "new",
-      "entry_price": 4.907e-05,
-      "peak_price": 4.907e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-14T14:01:02.292055+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.31,
+      "peak_volume_m5": 23369.14,
+      "milestones_hit": []
     },
     {
       "symbol": "FTR",
@@ -52,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-14T14:01:04.063767+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.6,
+      "peak_volume_m5": 18190.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -99953,6 +99949,25 @@
       "exit_price": 0.0002293,
       "exit_pct": -11.5,
       "exit_time": "2026-08-14T13:32:54.254617+00:00"
+    },
+    {
+      "symbol": "FTR",
+      "chain": "robinhood",
+      "address": "0xCECA050F8794DB923b8C85df572F4CA99347C7A6",
+      "source": "new",
+      "entry_price": 4.907e-05,
+      "peak_price": 4.907e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-14T14:01:02.292055+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.66,
+      "peak_volume_m5": 47770.6,
+      "milestones_hit": [],
+      "exit_price": 4.286e-05,
+      "exit_pct": -12.66,
+      "exit_time": "2026-08-14T14:01:54.238881+00:00"
     }
   ],
   "alerted": {
@@ -105009,6 +105024,7 @@
     "0x46e4Aa82F7EB0742ea2B2913d9C6396AFFa54E04": "2026-08-14T12:52:11.457293+00:00",
     "0xc67867F44d52756D8e86F647920c581701F88580": "2026-08-14T12:53:09.916226+00:00",
     "0x5f95bB78840b7609D0387988f34bc148588AeD93": "2026-08-14T13:13:57.612211+00:00",
-    "Dmkj4dB3Ngva9gWKkDgj8UMF39EC7ArpGf2rxLxDpump": "2026-08-14T13:32:54.254617+00:00"
+    "Dmkj4dB3Ngva9gWKkDgj8UMF39EC7ArpGf2rxLxDpump": "2026-08-14T13:32:54.254617+00:00",
+    "0xCECA050F8794DB923b8C85df572F4CA99347C7A6": "2026-08-14T14:01:54.238881+00:00"
   }
 }
