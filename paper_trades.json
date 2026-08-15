@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "zmurkle",
-      "chain": "solana",
-      "address": "36d3WwrE3j9e2xr9ppSuzoPRdYdWg1LiWj6vPfdrpump",
-      "source": "new",
-      "entry_price": 0.0001575,
-      "peak_price": 0.0001575,
-      "trailing_active": false,
-      "entry_time": "2026-08-15T07:31:08.133072+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "GAUNTLET",
       "chain": "robinhood",
       "address": "0xc2aB24139F31D1404029477aB743CFB87C2161C8",
       "source": "new",
       "entry_price": 0.0001002,
-      "peak_price": 0.0001002,
-      "trailing_active": false,
+      "peak_price": 0.0001209,
+      "trailing_active": true,
       "entry_time": "2026-08-15T07:31:09.530575+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.66,
+      "peak_volume_m5": 54479.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -100948,6 +100940,25 @@
       "exit_price": 0.0001136,
       "exit_pct": -11.25,
       "exit_time": "2026-08-15T07:15:44.192535+00:00"
+    },
+    {
+      "symbol": "zmurkle",
+      "chain": "solana",
+      "address": "36d3WwrE3j9e2xr9ppSuzoPRdYdWg1LiWj6vPfdrpump",
+      "source": "new",
+      "entry_price": 0.0001575,
+      "peak_price": 0.0001575,
+      "trailing_active": false,
+      "entry_time": "2026-08-15T07:31:08.133072+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.3,
+      "peak_volume_m5": 66567.09,
+      "milestones_hit": [],
+      "exit_price": 0.0001082,
+      "exit_pct": -31.3,
+      "exit_time": "2026-08-15T07:33:55.864918+00:00"
     }
   ],
   "alerted": {
@@ -106056,6 +106067,7 @@
     "0x82245AaBb8775D3FF4ee56FDCFBA972940dE2211": "2026-08-15T06:24:02.046595+00:00",
     "0xA0965fA2fd8c965c87857CA9fb339842D112b31B": "2026-08-15T06:25:03.172683+00:00",
     "4yBmS1oYgnR2ftwK4yGQzF4jYSiTt3sGLiHNM8RXpump": "2026-08-15T07:08:09.136299+00:00",
-    "Ct7ZFjNZ1AsjdHnzvejxzWm33kY45mUSTqdSFzAiHfoD": "2026-08-15T07:15:44.192535+00:00"
+    "Ct7ZFjNZ1AsjdHnzvejxzWm33kY45mUSTqdSFzAiHfoD": "2026-08-15T07:15:44.192535+00:00",
+    "36d3WwrE3j9e2xr9ppSuzoPRdYdWg1LiWj6vPfdrpump": "2026-08-15T07:33:55.864918+00:00"
   }
 }
