@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Bear",
-      "chain": "robinhood",
-      "address": "0xF344A27Cc12cE79D5Ddc451ae6295009347b93B0",
-      "source": "new",
-      "entry_price": 6.624e-05,
-      "peak_price": 0.0001003,
-      "trailing_active": true,
-      "entry_time": "2026-08-15T15:01:08.759006+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 50.95,
-      "peak_volume_m5": 36389.09,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "GROKIUS",
       "chain": "robinhood",
       "address": "0x47d9bF00881a62F04d7dE613D98eF05bee10bf73",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-15T15:11:09.073775+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.43,
+      "peak_volume_m5": 11057.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -101365,6 +101351,27 @@
       "exit_price": 0.0002085,
       "exit_pct": -11.05,
       "exit_time": "2026-08-15T15:04:05.697646+00:00"
+    },
+    {
+      "symbol": "Bear",
+      "chain": "robinhood",
+      "address": "0xF344A27Cc12cE79D5Ddc451ae6295009347b93B0",
+      "source": "new",
+      "entry_price": 6.624e-05,
+      "peak_price": 0.0001003,
+      "trailing_active": true,
+      "entry_time": "2026-08-15T15:01:08.759006+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 35.01,
+      "peak_volume_m5": 37889.59,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 8.943e-05,
+      "exit_pct": 35.01,
+      "exit_time": "2026-08-15T15:13:58.142662+00:00"
     }
   ],
   "alerted": {
@@ -106494,6 +106501,7 @@
     "9Pb3VCc44uVb9MsNshQrDyrdq3hqTyLRMVsTJpjdpump": "2026-08-15T13:42:44.153475+00:00",
     "0xC232cd5DAdC2E15523bBcAf0Fe0992BE8b3B86fB": "2026-08-15T14:05:54.522264+00:00",
     "0x73114aBD7dCF37000d90d8DE9fd1dE3957B17c04": "2026-08-15T15:03:09.564964+00:00",
-    "0x8EB4ecec4F08F3507cFFF557acb6A184c5cC7777": "2026-08-15T15:04:05.697646+00:00"
+    "0x8EB4ecec4F08F3507cFFF557acb6A184c5cC7777": "2026-08-15T15:04:05.697646+00:00",
+    "0xF344A27Cc12cE79D5Ddc451ae6295009347b93B0": "2026-08-15T15:13:58.142662+00:00"
   }
 }
