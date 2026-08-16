@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BinanceCat",
-      "chain": "bsc",
-      "address": "0xA8b3DfCD90945b6393482394Fa82BAFa423b7777",
-      "source": "new",
-      "entry_price": 0.0001113,
-      "peak_price": 0.0001272,
-      "trailing_active": false,
-      "entry_time": "2026-08-16T23:10:13.026808+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.46,
-      "peak_volume_m5": 28162.74,
-      "milestones_hit": []
-    },
-    {
       "symbol": "RADON",
       "chain": "solana",
       "address": "GnwoFdLNPZw9etvTAxPstSvQNHA5msqiQLNU9U78pump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-16T23:21:05.193120+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.54,
+      "peak_volume_m5": 34220.09,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -102884,6 +102872,25 @@
       "exit_price": 0.0001316,
       "exit_pct": 0.84,
       "exit_time": "2026-08-16T23:12:32.207377+00:00"
+    },
+    {
+      "symbol": "BinanceCat",
+      "chain": "bsc",
+      "address": "0xA8b3DfCD90945b6393482394Fa82BAFa423b7777",
+      "source": "new",
+      "entry_price": 0.0001113,
+      "peak_price": 0.0001272,
+      "trailing_active": false,
+      "entry_time": "2026-08-16T23:10:13.026808+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -43.37,
+      "peak_volume_m5": 33552.56,
+      "milestones_hit": [],
+      "exit_price": 6.303e-05,
+      "exit_pct": -43.37,
+      "exit_time": "2026-08-16T23:22:06.395111+00:00"
     }
   ],
   "alerted": {
@@ -108090,6 +108097,7 @@
     "0xA595376afC22c0971b593AF41C95372Bae96165f": "2026-08-16T21:42:44.637196+00:00",
     "0xdcabF55243756B83DE54d89d211C3c490a119D0f": "2026-08-16T22:02:56.979351+00:00",
     "7jeybC3j6drRuKeKYsD8B75cpceynNd6wcD1p1Efpump": "2026-08-16T23:03:00.632131+00:00",
-    "HKVezdfVBq6SHu8fsUWuLDpPUWA6n3X4ErRDAEdCMDFY": "2026-08-16T23:12:32.207377+00:00"
+    "HKVezdfVBq6SHu8fsUWuLDpPUWA6n3X4ErRDAEdCMDFY": "2026-08-16T23:12:32.207377+00:00",
+    "0xA8b3DfCD90945b6393482394Fa82BAFa423b7777": "2026-08-16T23:22:06.395111+00:00"
   }
 }
