@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BULLMRKT",
-      "chain": "solana",
-      "address": "GY53ctA7NX3LNWQQGM2YgsAPcy6w796rQiDgnsiqpump",
-      "source": "boost",
-      "entry_price": 0.00023,
-      "peak_price": 0.00023,
-      "trailing_active": false,
-      "entry_time": "2026-08-17T23:01:07.187906+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "Zoe",
       "chain": "robinhood",
       "address": "0x1589A032eA382b6D828bA82B5ECdF4010215aB29",
       "source": "new",
       "entry_price": 5.545e-05,
-      "peak_price": 5.545e-05,
+      "peak_price": 5.915e-05,
       "trailing_active": false,
       "entry_time": "2026-08-17T23:01:08.670554+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.67,
+      "peak_volume_m5": 33980.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -104532,6 +104524,25 @@
       "exit_price": 0.0002394,
       "exit_pct": -8.97,
       "exit_time": "2026-08-17T22:31:47.552034+00:00"
+    },
+    {
+      "symbol": "BULLMRKT",
+      "chain": "solana",
+      "address": "GY53ctA7NX3LNWQQGM2YgsAPcy6w796rQiDgnsiqpump",
+      "source": "boost",
+      "entry_price": 0.00023,
+      "peak_price": 0.00023,
+      "trailing_active": false,
+      "entry_time": "2026-08-17T23:01:07.187906+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.3,
+      "peak_volume_m5": 39545.15,
+      "milestones_hit": [],
+      "exit_price": 0.0001695,
+      "exit_pct": -26.3,
+      "exit_time": "2026-08-17T23:02:02.332671+00:00"
     }
   ],
   "alerted": {
@@ -109823,6 +109834,7 @@
     "0x7AfD980B17E03DB95127106458Db4b685BdE4152": "2026-08-17T21:32:44.582561+00:00",
     "6ufaQ83CDLdqxKwmsSCfgaA9Dbq3noHYU5KMEwkgpump": "2026-08-17T21:46:00.844977+00:00",
     "4s9LfXuYzbTLEfnoGa8WiKvwuwo7ERK9bZCDXpfxpump": "2026-08-17T21:48:59.237946+00:00",
-    "0x707B71AeFCdAE8051ff95FCa86eb1Fd6525a7777": "2026-08-17T22:31:47.552034+00:00"
+    "0x707B71AeFCdAE8051ff95FCa86eb1Fd6525a7777": "2026-08-17T22:31:47.552034+00:00",
+    "GY53ctA7NX3LNWQQGM2YgsAPcy6w796rQiDgnsiqpump": "2026-08-17T23:02:02.332671+00:00"
   }
 }
