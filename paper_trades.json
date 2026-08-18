@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BULLION",
-      "chain": "solana",
-      "address": "jBZXbRBsS5detVwD49DMFSRVdTp7gaeDNHAJn1ppump",
-      "source": "new",
-      "entry_price": 0.0001449,
-      "peak_price": 0.0002703,
-      "trailing_active": true,
-      "entry_time": "2026-08-18T04:51:08.801523+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 86.54,
-      "peak_volume_m5": 22158.17,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "MOONCOIN",
       "chain": "robinhood",
       "address": "0xfea9614961f7e490634Df9b8A89e4FCD7bC22c7f",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-18T05:31:11.084824+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.48,
+      "peak_volume_m5": 17398.78,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -104981,6 +104967,27 @@
       "exit_price": 0.0001199,
       "exit_pct": -8.89,
       "exit_time": "2026-08-18T05:22:59.270018+00:00"
+    },
+    {
+      "symbol": "BULLION",
+      "chain": "solana",
+      "address": "jBZXbRBsS5detVwD49DMFSRVdTp7gaeDNHAJn1ppump",
+      "source": "new",
+      "entry_price": 0.0001449,
+      "peak_price": 0.0002703,
+      "trailing_active": true,
+      "entry_time": "2026-08-18T04:51:08.801523+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 69.77,
+      "peak_volume_m5": 22224.15,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000246,
+      "exit_pct": 69.77,
+      "exit_time": "2026-08-18T05:32:15.185902+00:00"
     }
   ],
   "alerted": {
@@ -110295,6 +110302,7 @@
     "0x28B8AA38bbcB083a481383151c03074463CEFFFF": "2026-08-18T04:05:40.473190+00:00",
     "Drac2HBT8Fxt9SauZj8yVWUUyZbE5gZ9fNzXqL8Kpump": "2026-08-18T05:03:01.767404+00:00",
     "0x268BFbDb3E9Ce5e16C88f1621Ca2e81bD18049B6": "2026-08-18T05:13:16.636950+00:00",
-    "0x83AD44A7B171c1AD7dfCD0570B307c13207f5ecE": "2026-08-18T05:22:59.270018+00:00"
+    "0x83AD44A7B171c1AD7dfCD0570B307c13207f5ecE": "2026-08-18T05:22:59.270018+00:00",
+    "jBZXbRBsS5detVwD49DMFSRVdTp7gaeDNHAJn1ppump": "2026-08-18T05:32:15.185902+00:00"
   }
 }
