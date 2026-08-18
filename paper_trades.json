@@ -8,27 +8,15 @@
       "address": "8HWzVHr3vYVAKohiKw9GEQw5Ntg42ccdMrxgmPYkpump",
       "source": "new",
       "entry_price": 0.0002105,
-      "peak_price": 0.000263,
+      "peak_price": 0.0002689,
       "trailing_active": true,
       "entry_time": "2026-08-18T14:01:13.601605+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 24.94,
+      "current_pct": 27.74,
       "peak_volume_m5": 18413.23,
       "milestones_hit": []
-    },
-    {
-      "symbol": "z67",
-      "chain": "solana",
-      "address": "AC8MWbDFUPRkXkTYk6fsCdPzpaoBe2YpDXPC4w3Lpump",
-      "source": "new",
-      "entry_price": 0.0001394,
-      "peak_price": 0.0001394,
-      "trailing_active": false,
-      "entry_time": "2026-08-18T14:21:05.340966+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "LINK3",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-18T14:21:07.198388+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -105809,6 +105801,25 @@
       "exit_price": 0.0003202,
       "exit_pct": 27.27,
       "exit_time": "2026-08-18T14:13:20.249666+00:00"
+    },
+    {
+      "symbol": "z67",
+      "chain": "solana",
+      "address": "AC8MWbDFUPRkXkTYk6fsCdPzpaoBe2YpDXPC4w3Lpump",
+      "source": "new",
+      "entry_price": 0.0001394,
+      "peak_price": 0.0001394,
+      "trailing_active": false,
+      "entry_time": "2026-08-18T14:21:05.340966+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.97,
+      "peak_volume_m5": 46195.21,
+      "milestones_hit": [],
+      "exit_price": 8.089e-05,
+      "exit_pct": -41.97,
+      "exit_time": "2026-08-18T14:22:55.321148+00:00"
     }
   ],
   "alerted": {
@@ -111163,6 +111174,7 @@
     "2j43cNANCLFe9NrV5X2BZeJBbkbigtFhmpeqqqgZpump": "2026-08-18T14:03:59.296967+00:00",
     "4Y9Red7dLgEMHzBi1nTGko7ub4irPFFKxtSfs6aepump": "2026-08-18T14:06:57.046198+00:00",
     "CR9vFRAbC6m3enGP7bTtoqEE12zetkwHbkFg95Dvpump": "2026-08-18T14:10:43.068884+00:00",
-    "HsmX84Jkz51Seb8yMsR7Yfnbd795qv8Wmah4kiZ6pump": "2026-08-18T14:13:20.249666+00:00"
+    "HsmX84Jkz51Seb8yMsR7Yfnbd795qv8Wmah4kiZ6pump": "2026-08-18T14:13:20.249666+00:00",
+    "AC8MWbDFUPRkXkTYk6fsCdPzpaoBe2YpDXPC4w3Lpump": "2026-08-18T14:22:55.321148+00:00"
   }
 }
