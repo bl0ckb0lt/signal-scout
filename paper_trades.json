@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "PALON",
-      "chain": "solana",
-      "address": "DPmxFPHYvwyGLWDK6iu9EiDs1yCZR35TisCz4Lygpump",
-      "source": "new",
-      "entry_price": 0.0002025,
-      "peak_price": 0.0002025,
-      "trailing_active": false,
-      "entry_time": "2026-08-19T02:10:58.628960+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "CLUG",
       "chain": "robinhood",
       "address": "0x425b978031945C6703Da2A22beD72758e5Afca80",
       "source": "new",
       "entry_price": 7.515e-05,
-      "peak_price": 7.515e-05,
-      "trailing_active": false,
+      "peak_price": 9.111e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-19T02:11:00.124952+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.24,
+      "peak_volume_m5": 46108.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -106873,6 +106865,25 @@
       "exit_price": 0.0008789,
       "exit_pct": -28.25,
       "exit_time": "2026-08-19T02:04:59.901624+00:00"
+    },
+    {
+      "symbol": "PALON",
+      "chain": "solana",
+      "address": "DPmxFPHYvwyGLWDK6iu9EiDs1yCZR35TisCz4Lygpump",
+      "source": "new",
+      "entry_price": 0.0002025,
+      "peak_price": 0.0002025,
+      "trailing_active": false,
+      "entry_time": "2026-08-19T02:10:58.628960+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.78,
+      "peak_volume_m5": 77062.12,
+      "milestones_hit": [],
+      "exit_price": 0.0001584,
+      "exit_pct": -21.78,
+      "exit_time": "2026-08-19T02:11:57.419183+00:00"
     }
   ],
   "alerted": {
@@ -112282,6 +112293,7 @@
     "0x928661e51934D54576913aED820068B5395D7777": "2026-08-19T01:06:40.900779+00:00",
     "0xDfbd2f24B3D65fAA42DD361537f8F318eD9711d7": "2026-08-19T01:14:24.837672+00:00",
     "6hosezP1x4Ng4zgYZtDFx58e6VBnFmnQ4ojyX32wpump": "2026-08-19T02:02:58.997478+00:00",
-    "7g2xyrq9Fk1TvFiqqcmLJAQ9jAtfHobmrdzzM9Dp2SpV": "2026-08-19T02:04:59.901624+00:00"
+    "7g2xyrq9Fk1TvFiqqcmLJAQ9jAtfHobmrdzzM9Dp2SpV": "2026-08-19T02:04:59.901624+00:00",
+    "DPmxFPHYvwyGLWDK6iu9EiDs1yCZR35TisCz4Lygpump": "2026-08-19T02:11:57.419183+00:00"
   }
 }
