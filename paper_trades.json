@@ -28,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-19T13:01:18.296221+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -11.32,
+      "peak_volume_m5": 54824.02,
+      "milestones_hit": []
     },
     {
       "symbol": "INTISMERAN",
@@ -36,23 +40,15 @@
       "address": "0xC12a72D5Be9709Ab0c27a034759f765026F51e18",
       "source": "new",
       "entry_price": 0.0003002,
-      "peak_price": 0.0003002,
-      "trailing_active": false,
+      "peak_price": 0.0003607,
+      "trailing_active": true,
       "entry_time": "2026-08-19T13:01:19.660268+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "MRNA4157",
-      "chain": "robinhood",
-      "address": "0x82F741D3cB152F7Ae739B0cbBcf409faD18fCb98",
-      "source": "new",
-      "entry_price": 6.954e-05,
-      "peak_price": 6.954e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-19T13:01:21.045921+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.15,
+      "peak_volume_m5": 39405.87,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -107541,6 +107537,25 @@
       "exit_price": 1.522e-06,
       "exit_pct": -99.44,
       "exit_time": "2026-08-19T13:00:14.825257+00:00"
+    },
+    {
+      "symbol": "MRNA4157",
+      "chain": "robinhood",
+      "address": "0x82F741D3cB152F7Ae739B0cbBcf409faD18fCb98",
+      "source": "new",
+      "entry_price": 6.954e-05,
+      "peak_price": 6.954e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-19T13:01:21.045921+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.84,
+      "peak_volume_m5": 23455.26,
+      "milestones_hit": [],
+      "exit_price": 5.783e-05,
+      "exit_pct": -16.84,
+      "exit_time": "2026-08-19T13:04:25.024075+00:00"
     }
   ],
   "alerted": {
@@ -112983,6 +112998,7 @@
     "FtXH4AAgR8KMBR8zDfTfHnYdSStw2Am3iwq8TpoHpump": "2026-08-19T12:23:36.941893+00:00",
     "0xbfdd983D7e774566Df1e37b2890AB48b9758762F": "2026-08-19T12:24:35.180814+00:00",
     "6motEwiLLAjQWFkY6GPFFQJQT758YVEB7whb37Q8pump": "2026-08-19T12:35:07.942126+00:00",
-    "Tn2nnjBbaWSkeztxZKVzbx9oAqpJ8A4rLFVbkNtpump": "2026-08-19T13:00:14.825257+00:00"
+    "Tn2nnjBbaWSkeztxZKVzbx9oAqpJ8A4rLFVbkNtpump": "2026-08-19T13:00:14.825257+00:00",
+    "0x82F741D3cB152F7Ae739B0cbBcf409faD18fCb98": "2026-08-19T13:04:25.024075+00:00"
   }
 }
