@@ -13,7 +13,7 @@
       "entry_time": "2026-08-18T14:21:07.198388+00:00",
       "score": 68,
       "status": "open",
-      "api_failures": 0,
+      "api_failures": 1,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -24,30 +24,14 @@
       "address": "2UKkazisyXfWUyLT4eqCgvEV6KNaxqwkHU49htQppump",
       "source": "new",
       "entry_price": 0.0002372,
-      "peak_price": 0.0002558,
-      "trailing_active": false,
+      "peak_price": 0.0003063,
+      "trailing_active": true,
       "entry_time": "2026-08-19T14:01:15.695081+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.02,
+      "current_pct": 29.13,
       "peak_volume_m5": 23029.33,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MRNA",
-      "chain": "robinhood",
-      "address": "0x5c89bF775c5788C6B61442691fA832a0FFC43b8C",
-      "source": "new",
-      "entry_price": 0.0001228,
-      "peak_price": 0.0001228,
-      "trailing_active": false,
-      "entry_time": "2026-08-19T14:11:03.222470+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.06,
-      "peak_volume_m5": 34933.26,
       "milestones_hit": []
     },
     {
@@ -56,15 +40,17 @@
       "address": "0xEA9E66CD02fD3985A41c4e04b997da1a22958487",
       "source": "new",
       "entry_price": 5.279e-07,
-      "peak_price": 5.837e-07,
-      "trailing_active": false,
+      "peak_price": 9.239e-07,
+      "trailing_active": true,
       "entry_time": "2026-08-19T14:11:04.808660+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.57,
-      "peak_volume_m5": 29999.97,
-      "milestones_hit": []
+      "current_pct": 75.01,
+      "peak_volume_m5": 30243.88,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -107787,6 +107773,25 @@
       "exit_price": 0.0002888,
       "exit_pct": 30.98,
       "exit_time": "2026-08-19T14:12:48.715093+00:00"
+    },
+    {
+      "symbol": "MRNA",
+      "chain": "robinhood",
+      "address": "0x5c89bF775c5788C6B61442691fA832a0FFC43b8C",
+      "source": "new",
+      "entry_price": 0.0001228,
+      "peak_price": 0.0001228,
+      "trailing_active": false,
+      "entry_time": "2026-08-19T14:11:03.222470+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.44,
+      "peak_volume_m5": 34933.26,
+      "milestones_hit": [],
+      "exit_price": 0.0001063,
+      "exit_pct": -13.44,
+      "exit_time": "2026-08-19T14:21:01.309747+00:00"
     }
   ],
   "alerted": {
@@ -113241,6 +113246,7 @@
     "4orXPB8QqxBaWCo5LKaQFmFwj8gpTSZocoqZMCYppump": "2026-08-19T14:02:26.875729+00:00",
     "HcCRM9G4DWLvH8EiLoiC7JtfBpyVMH4UeZPJou55b8MS": "2026-08-19T14:02:28.563093+00:00",
     "7M5k3bTN8kJj3eU5CEoL8p12nKFXSFewkdGi4kxKpump": "2026-08-19T14:03:36.806733+00:00",
-    "5TrT61zqFxPHugukVD8Ce6TimgaHT5Sdqz4zfenfpump": "2026-08-19T14:12:48.715093+00:00"
+    "5TrT61zqFxPHugukVD8Ce6TimgaHT5Sdqz4zfenfpump": "2026-08-19T14:12:48.715093+00:00",
+    "0x5c89bF775c5788C6B61442691fA832a0FFC43b8C": "2026-08-19T14:21:01.309747+00:00"
   }
 }
