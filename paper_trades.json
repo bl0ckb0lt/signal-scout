@@ -19,46 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "MOON",
-      "chain": "robinhood",
-      "address": "0x239d7DBd96FEb0572a1B80FF5D76C00603A0F270",
-      "source": "new",
-      "entry_price": 0.0001642,
-      "peak_price": 0.0002001,
-      "trailing_active": true,
-      "entry_time": "2026-08-19T00:34:45.340395+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.86,
-      "peak_volume_m5": 25768.05,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "GORE",
-      "chain": "solana",
-      "address": "EH5scbBRuDnFLWnzJC91sCQ382TVg1qBgb5FzSQ9pump",
-      "source": "new",
-      "entry_price": 0.0001247,
-      "peak_price": 0.0001247,
-      "trailing_active": false,
-      "entry_time": "2026-08-19T00:41:05.029616+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "FARCASTER",
-      "chain": "base",
-      "address": "0xfC8C5291C488118bE0218742156cC2952A737B81",
-      "source": "new",
-      "entry_price": 9.077e-06,
-      "peak_price": 9.077e-06,
-      "trailing_active": false,
-      "entry_time": "2026-08-19T00:41:06.684254+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "plumber",
       "chain": "robinhood",
       "address": "0xf2f6Ad957172075f94cE8bc1a981003016571c21",
@@ -68,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-19T00:41:09.385663+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.39,
+      "peak_volume_m5": 102431.88,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -106730,6 +106694,63 @@
       "exit_price": 0.0001125,
       "exit_pct": -16.6,
       "exit_time": "2026-08-19T00:05:44.293225+00:00"
+    },
+    {
+      "symbol": "MOON",
+      "chain": "robinhood",
+      "address": "0x239d7DBd96FEb0572a1B80FF5D76C00603A0F270",
+      "source": "new",
+      "entry_price": 0.0001642,
+      "peak_price": 0.0002001,
+      "trailing_active": true,
+      "entry_time": "2026-08-19T00:34:45.340395+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 4.81,
+      "peak_volume_m5": 31691.68,
+      "milestones_hit": [],
+      "exit_price": 0.0001721,
+      "exit_pct": 4.81,
+      "exit_time": "2026-08-19T00:42:23.450821+00:00"
+    },
+    {
+      "symbol": "GORE",
+      "chain": "solana",
+      "address": "EH5scbBRuDnFLWnzJC91sCQ382TVg1qBgb5FzSQ9pump",
+      "source": "new",
+      "entry_price": 0.0001247,
+      "peak_price": 0.0001247,
+      "trailing_active": false,
+      "entry_time": "2026-08-19T00:41:05.029616+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.98,
+      "peak_volume_m5": 76922.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001135,
+      "exit_pct": -8.98,
+      "exit_time": "2026-08-19T00:42:24.149575+00:00"
+    },
+    {
+      "symbol": "FARCASTER",
+      "chain": "base",
+      "address": "0xfC8C5291C488118bE0218742156cC2952A737B81",
+      "source": "new",
+      "entry_price": 9.077e-06,
+      "peak_price": 9.077e-06,
+      "trailing_active": false,
+      "entry_time": "2026-08-19T00:41:06.684254+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.9,
+      "peak_volume_m5": 2468.46,
+      "milestones_hit": [],
+      "exit_price": 8.178e-06,
+      "exit_pct": -9.9,
+      "exit_time": "2026-08-19T00:42:24.843979+00:00"
     }
   ],
   "alerted": {
@@ -112130,6 +112151,9 @@
     "EZA5ncFF3XtYYpzFYyxcXjLPovJoxkQbFfDGSRQxpump": "2026-08-18T23:24:00.602361+00:00",
     "0x554301f08846fcC83DD54Fd0094F67405aFACA9a": "2026-08-18T23:34:49.379697+00:00",
     "0x588211950629Ad1AEE6689d41F8425c28D148B0a": "2026-08-18T23:49:44.875402+00:00",
-    "4K6S7rd98d7BvQNGJF8fbCrsJRwLEdgmGQb91bwKpump": "2026-08-19T00:05:44.293225+00:00"
+    "4K6S7rd98d7BvQNGJF8fbCrsJRwLEdgmGQb91bwKpump": "2026-08-19T00:05:44.293225+00:00",
+    "0x239d7DBd96FEb0572a1B80FF5D76C00603A0F270": "2026-08-19T00:42:23.450821+00:00",
+    "EH5scbBRuDnFLWnzJC91sCQ382TVg1qBgb5FzSQ9pump": "2026-08-19T00:42:24.149575+00:00",
+    "0xfC8C5291C488118bE0218742156cC2952A737B81": "2026-08-19T00:42:24.843979+00:00"
   }
 }
