@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MADE",
-      "chain": "robinhood",
-      "address": "0xfe1D984BBF36C0Ed09D55a9E3F4b6F73BA4191CA",
-      "source": "boost",
-      "entry_price": 6.176e-05,
-      "peak_price": 6.176e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T12:41:05.269553+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "sauce",
       "chain": "bsc",
       "address": "0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
       "source": "new",
       "entry_price": 0.0007433,
-      "peak_price": 0.0007433,
+      "peak_price": 0.000845,
       "trailing_active": false,
       "entry_time": "2026-08-20T12:41:06.862865+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.68,
+      "peak_volume_m5": 154714.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -109688,6 +109680,25 @@
       "exit_price": 5.725e-05,
       "exit_pct": -18.21,
       "exit_time": "2026-08-20T12:12:39.484863+00:00"
+    },
+    {
+      "symbol": "MADE",
+      "chain": "robinhood",
+      "address": "0xfe1D984BBF36C0Ed09D55a9E3F4b6F73BA4191CA",
+      "source": "boost",
+      "entry_price": 6.176e-05,
+      "peak_price": 6.176e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-20T12:41:05.269553+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.48,
+      "peak_volume_m5": 23901.94,
+      "milestones_hit": [],
+      "exit_price": 4.973e-05,
+      "exit_pct": -19.48,
+      "exit_time": "2026-08-20T12:43:11.583557+00:00"
     }
   ],
   "alerted": {
@@ -115241,6 +115252,7 @@
     "GrAs31PptyTSVfTabfTbJBQZCcuKQCZjZZK5z96Wpump": "2026-08-20T11:54:30.522271+00:00",
     "5FQZH7yHPRinpEyXbp1JewLfFAczB9NZqHGzfnRepump": "2026-08-20T12:02:54.743992+00:00",
     "EMZYjU5e9N5UQmfFJZG4B6wNxp4NTaxXau1UQtxspump": "2026-08-20T12:12:38.683038+00:00",
-    "0x6D614D11044c73e82f72A320CaA511A021601158": "2026-08-20T12:12:39.484863+00:00"
+    "0x6D614D11044c73e82f72A320CaA511A021601158": "2026-08-20T12:12:39.484863+00:00",
+    "0xfe1D984BBF36C0Ed09D55a9E3F4b6F73BA4191CA": "2026-08-20T12:43:11.583557+00:00"
   }
 }
