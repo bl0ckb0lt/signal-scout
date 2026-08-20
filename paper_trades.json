@@ -8,23 +8,17 @@
       "address": "897wEhKQtCKXuxxoDA8BH9LWnSpdTKLVzqh1J8xFpump",
       "source": "boost",
       "entry_price": 0.003167,
-      "peak_price": 0.003167,
-      "trailing_active": false,
+      "peak_price": 0.005128,
+      "trailing_active": true,
       "entry_time": "2026-08-20T11:21:09.272756+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "YICHARITY",
-      "chain": "bsc",
-      "address": "0x9496681F9c6f28ED4755d4E411D8Ff417d01FfFf",
-      "source": "new",
-      "entry_price": 0.001318,
-      "peak_price": 0.001318,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T11:21:12.715007+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 61.92,
+      "peak_volume_m5": 33671.44,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -109532,6 +109526,25 @@
       "exit_price": 9.012e-05,
       "exit_pct": -21.09,
       "exit_time": "2026-08-20T11:19:00.674824+00:00"
+    },
+    {
+      "symbol": "YICHARITY",
+      "chain": "bsc",
+      "address": "0x9496681F9c6f28ED4755d4E411D8Ff417d01FfFf",
+      "source": "new",
+      "entry_price": 0.001318,
+      "peak_price": 0.001318,
+      "trailing_active": false,
+      "entry_time": "2026-08-20T11:21:12.715007+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.58,
+      "peak_volume_m5": 25890.56,
+      "milestones_hit": [],
+      "exit_price": 0.001139,
+      "exit_pct": -13.58,
+      "exit_time": "2026-08-20T11:30:04.250936+00:00"
     }
   ],
   "alerted": {
@@ -115078,6 +115091,7 @@
     "cQ1Jye1NiuoC8yvaswdNyfbn7AQn1KdWkAmba65pump": "2026-08-20T10:32:03.582608+00:00",
     "5ZRKQHDiFVFgKa2cnvTx4dj1JMHmepXJz1BxtSGLpump": "2026-08-20T11:18:02.935811+00:00",
     "5wMLSHm9mbRkMUHvoBBEatSbS8AyjVaxbwPyQNjgpump": "2026-08-20T11:18:03.665091+00:00",
-    "7M3puYZBZJEFCsbmeMsfTGSkH1Ek36VpKh7dezhhpump": "2026-08-20T11:19:00.674824+00:00"
+    "7M3puYZBZJEFCsbmeMsfTGSkH1Ek36VpKh7dezhhpump": "2026-08-20T11:19:00.674824+00:00",
+    "0x9496681F9c6f28ED4755d4E411D8Ff417d01FfFf": "2026-08-20T11:30:04.250936+00:00"
   }
 }
