@@ -8,13 +8,13 @@
       "address": "897wEhKQtCKXuxxoDA8BH9LWnSpdTKLVzqh1J8xFpump",
       "source": "boost",
       "entry_price": 0.003167,
-      "peak_price": 0.007585,
+      "peak_price": 0.00799,
       "trailing_active": true,
       "entry_time": "2026-08-20T11:21:09.272756+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 139.5,
+      "current_pct": 152.29,
       "peak_volume_m5": 40976.75,
       "milestones_hit": [
         50,
@@ -27,11 +27,15 @@
       "address": "5FQZH7yHPRinpEyXbp1JewLfFAczB9NZqHGzfnRepump",
       "source": "new",
       "entry_price": 0.0001932,
-      "peak_price": 0.0001932,
+      "peak_price": 0.000215,
       "trailing_active": false,
       "entry_time": "2026-08-20T11:49:52.279245+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.28,
+      "peak_volume_m5": 17793.43,
+      "milestones_hit": []
     },
     {
       "symbol": "Jos\u00e9",
@@ -43,7 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-20T11:49:53.919799+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.08,
+      "peak_volume_m5": 13877.94,
+      "milestones_hit": []
     },
     {
       "symbol": "TOLY",
@@ -55,31 +63,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-20T11:49:55.655633+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "CHRGBULL",
-      "chain": "solana",
-      "address": "3is5vKhH667c2nqL6SSMGz2nRY1qd4dFt6zJmt1dpump",
-      "source": "new",
-      "entry_price": 0.0004197,
-      "peak_price": 0.0004197,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T11:49:57.254466+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "RobinFactor",
-      "chain": "robinhood",
-      "address": "0xf983c43490E99D444A85eA6Ae072e44DE78d3C4E",
-      "source": "new",
-      "entry_price": 1.185e-06,
-      "peak_price": 1.185e-06,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T11:50:01.834258+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.9,
+      "peak_volume_m5": 16743.04,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -109606,6 +109594,44 @@
       "exit_price": 0.001139,
       "exit_pct": -13.58,
       "exit_time": "2026-08-20T11:30:04.250936+00:00"
+    },
+    {
+      "symbol": "CHRGBULL",
+      "chain": "solana",
+      "address": "3is5vKhH667c2nqL6SSMGz2nRY1qd4dFt6zJmt1dpump",
+      "source": "new",
+      "entry_price": 0.0004197,
+      "peak_price": 0.0004197,
+      "trailing_active": false,
+      "entry_time": "2026-08-20T11:49:57.254466+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.03,
+      "peak_volume_m5": 39869.54,
+      "milestones_hit": [],
+      "exit_price": 0.0003566,
+      "exit_pct": -15.03,
+      "exit_time": "2026-08-20T11:50:47.413166+00:00"
+    },
+    {
+      "symbol": "RobinFactor",
+      "chain": "robinhood",
+      "address": "0xf983c43490E99D444A85eA6Ae072e44DE78d3C4E",
+      "source": "new",
+      "entry_price": 1.185e-06,
+      "peak_price": 1.185e-06,
+      "trailing_active": false,
+      "entry_time": "2026-08-20T11:50:01.834258+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.41,
+      "peak_volume_m5": 86015.82,
+      "milestones_hit": [],
+      "exit_price": 9.787e-07,
+      "exit_pct": -17.41,
+      "exit_time": "2026-08-20T11:50:48.159260+00:00"
     }
   ],
   "alerted": {
@@ -115153,6 +115179,8 @@
     "5ZRKQHDiFVFgKa2cnvTx4dj1JMHmepXJz1BxtSGLpump": "2026-08-20T11:18:02.935811+00:00",
     "5wMLSHm9mbRkMUHvoBBEatSbS8AyjVaxbwPyQNjgpump": "2026-08-20T11:18:03.665091+00:00",
     "7M3puYZBZJEFCsbmeMsfTGSkH1Ek36VpKh7dezhhpump": "2026-08-20T11:19:00.674824+00:00",
-    "0x9496681F9c6f28ED4755d4E411D8Ff417d01FfFf": "2026-08-20T11:30:04.250936+00:00"
+    "0x9496681F9c6f28ED4755d4E411D8Ff417d01FfFf": "2026-08-20T11:30:04.250936+00:00",
+    "3is5vKhH667c2nqL6SSMGz2nRY1qd4dFt6zJmt1dpump": "2026-08-20T11:50:47.413166+00:00",
+    "0xf983c43490E99D444A85eA6Ae072e44DE78d3C4E": "2026-08-20T11:50:48.159260+00:00"
   }
 }
