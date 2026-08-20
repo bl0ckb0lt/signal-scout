@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "PUNKA",
-      "chain": "robinhood",
-      "address": "0x189087BC8Ad68192aF11b1FdD7Bb70B3FfD9fee1",
-      "source": "new",
-      "entry_price": 0.0001257,
-      "peak_price": 0.0001257,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T18:21:14.876784+00:00",
-      "score": 62,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -110240,6 +110227,29 @@
       "exit_price": 0.000164,
       "exit_pct": -5.31,
       "exit_time": "2026-08-20T18:16:49.537276+00:00"
+    },
+    {
+      "symbol": "PUNKA",
+      "chain": "robinhood",
+      "address": "0x189087BC8Ad68192aF11b1FdD7Bb70B3FfD9fee1",
+      "source": "new",
+      "entry_price": 0.0001257,
+      "peak_price": 0.0004442,
+      "trailing_active": true,
+      "entry_time": "2026-08-20T18:21:14.876784+00:00",
+      "score": 62,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 253.38,
+      "peak_volume_m5": 245217.95,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0004442,
+      "exit_pct": 253.38,
+      "exit_time": "2026-08-20T18:29:58.058667+00:00"
     }
   ],
   "alerted": {
@@ -115822,6 +115832,7 @@
     "0x10D23dec70C6285330B5E9A705BE5759496CDe4a": "2026-08-20T18:02:13.504542+00:00",
     "0xac74A0DEBAe08F0a2B505e65A3daBB3FEb4ff3C4": "2026-08-20T18:03:12.936219+00:00",
     "HXD5YL3rwv1mrHC4giBkAb1pxW6ohCQppJsxrzJZpump": "2026-08-20T18:08:06.445942+00:00",
-    "GWANk687A5Aj5eqi33HdzdeQq6z1e1ySXwwCY5tkpump": "2026-08-20T18:16:49.537276+00:00"
+    "GWANk687A5Aj5eqi33HdzdeQq6z1e1ySXwwCY5tkpump": "2026-08-20T18:16:49.537276+00:00",
+    "0x189087BC8Ad68192aF11b1FdD7Bb70B3FfD9fee1": "2026-08-20T18:29:58.058667+00:00"
   }
 }
