@@ -8,16 +8,17 @@
       "address": "0x69e3cD40C40B28d78A4D612141EE502D557FB62A",
       "source": "new",
       "entry_price": 6.027e-05,
-      "peak_price": 0.0001185,
+      "peak_price": 0.0001327,
       "trailing_active": true,
       "entry_time": "2026-08-20T18:31:01.639189+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 96.62,
-      "peak_volume_m5": 42556.04,
+      "current_pct": 120.18,
+      "peak_volume_m5": 70770.84,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
     },
     {
@@ -26,23 +27,15 @@
       "address": "SypcH53HXjRX2hVM8ucJEx2hJgpo9HgRevXskVApump",
       "source": "boost",
       "entry_price": 0.0002383,
-      "peak_price": 0.0002383,
+      "peak_price": 0.0002596,
       "trailing_active": false,
       "entry_time": "2026-08-20T18:41:01.748496+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "Nala",
-      "chain": "solana",
-      "address": "FnTzTiWvTJugJP3HtVqtpWqj6MuGLk4ZM5TyfGJvpump",
-      "source": "new",
-      "entry_price": 0.0001986,
-      "peak_price": 0.0001986,
-      "trailing_active": false,
-      "entry_time": "2026-08-20T18:41:03.679739+00:00",
-      "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.94,
+      "peak_volume_m5": 28000.46,
+      "milestones_hit": []
     },
     {
       "symbol": "GOLDEN",
@@ -50,11 +43,15 @@
       "address": "E5peneUkvKstns3LYZCkq2mB8uCS6kL9dP3RmZNYpump",
       "source": "new",
       "entry_price": 0.0001442,
-      "peak_price": 0.0001442,
-      "trailing_active": false,
+      "peak_price": 0.0001795,
+      "trailing_active": true,
       "entry_time": "2026-08-20T18:41:07.166134+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.48,
+      "peak_volume_m5": 16786.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -110305,6 +110302,25 @@
       "exit_price": 0.0004442,
       "exit_pct": 253.38,
       "exit_time": "2026-08-20T18:29:58.058667+00:00"
+    },
+    {
+      "symbol": "Nala",
+      "chain": "solana",
+      "address": "FnTzTiWvTJugJP3HtVqtpWqj6MuGLk4ZM5TyfGJvpump",
+      "source": "new",
+      "entry_price": 0.0001986,
+      "peak_price": 0.0001986,
+      "trailing_active": false,
+      "entry_time": "2026-08-20T18:41:03.679739+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.95,
+      "peak_volume_m5": 22578.43,
+      "milestones_hit": [],
+      "exit_price": 0.000155,
+      "exit_pct": -21.95,
+      "exit_time": "2026-08-20T18:43:11.057375+00:00"
     }
   ],
   "alerted": {
@@ -115888,6 +115904,7 @@
     "0xac74A0DEBAe08F0a2B505e65A3daBB3FEb4ff3C4": "2026-08-20T18:03:12.936219+00:00",
     "HXD5YL3rwv1mrHC4giBkAb1pxW6ohCQppJsxrzJZpump": "2026-08-20T18:08:06.445942+00:00",
     "GWANk687A5Aj5eqi33HdzdeQq6z1e1ySXwwCY5tkpump": "2026-08-20T18:16:49.537276+00:00",
-    "0x189087BC8Ad68192aF11b1FdD7Bb70B3FfD9fee1": "2026-08-20T18:29:58.058667+00:00"
+    "0x189087BC8Ad68192aF11b1FdD7Bb70B3FfD9fee1": "2026-08-20T18:29:58.058667+00:00",
+    "FnTzTiWvTJugJP3HtVqtpWqj6MuGLk4ZM5TyfGJvpump": "2026-08-20T18:43:11.057375+00:00"
   }
 }
