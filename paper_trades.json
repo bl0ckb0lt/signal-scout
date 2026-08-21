@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "HUMNENUF",
-      "chain": "solana",
-      "address": "26w7qBovfKv4zprC7wmPQx9McchzdzNoZYz7SXpupump",
-      "source": "boost",
-      "entry_price": 0.0003219,
-      "peak_price": 0.0003219,
-      "trailing_active": false,
-      "entry_time": "2026-08-21T06:51:07.867695+00:00",
-      "score": 94,
-      "status": "open"
-    },
-    {
       "symbol": "NLM",
       "chain": "bsc",
       "address": "0xE5F88C1f98b7c0Ac0e00dbc894cD0A7A265f7777",
       "source": "new",
       "entry_price": 0.0002022,
-      "peak_price": 0.0002022,
+      "peak_price": 0.0002084,
       "trailing_active": false,
       "entry_time": "2026-08-21T06:51:09.723753+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.07,
+      "peak_volume_m5": 27549.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -111045,6 +111037,25 @@
       "exit_price": 0.0002653,
       "exit_pct": 24.15,
       "exit_time": "2026-08-21T06:33:28.885580+00:00"
+    },
+    {
+      "symbol": "HUMNENUF",
+      "chain": "solana",
+      "address": "26w7qBovfKv4zprC7wmPQx9McchzdzNoZYz7SXpupump",
+      "source": "boost",
+      "entry_price": 0.0003219,
+      "peak_price": 0.0003219,
+      "trailing_active": false,
+      "entry_time": "2026-08-21T06:51:07.867695+00:00",
+      "score": 94,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.02,
+      "peak_volume_m5": 33691.75,
+      "milestones_hit": [],
+      "exit_price": 0.0002671,
+      "exit_pct": -17.02,
+      "exit_time": "2026-08-21T06:57:54.067308+00:00"
     }
   ],
   "alerted": {
@@ -116668,6 +116679,7 @@
     "9HLhhbN4uAEmFyw8xrszyGQ9PptWh5LZNQmzN6rrpump": "2026-08-21T06:01:53.321231+00:00",
     "B3zosPWagKk3pbDhZRs9qX21DTV7zYTtAv7LSNXCpump": "2026-08-21T06:14:52.894703+00:00",
     "EgNViFAowCT6cZu2PVpDyVigQfR3AL9rXHXGWiT4pump": "2026-08-21T06:24:05.802364+00:00",
-    "DGoWnmZ5Ji457E7Wb9EWpmDYXSgvJ1wcNQ1Z6J3kpump": "2026-08-21T06:33:28.885580+00:00"
+    "DGoWnmZ5Ji457E7Wb9EWpmDYXSgvJ1wcNQ1Z6J3kpump": "2026-08-21T06:33:28.885580+00:00",
+    "26w7qBovfKv4zprC7wmPQx9McchzdzNoZYz7SXpupump": "2026-08-21T06:57:54.067308+00:00"
   }
 }
