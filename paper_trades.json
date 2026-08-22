@@ -8,14 +8,14 @@
       "address": "2LkYkeDcGRZ19j5EQbbHvrjk2XFBeGjPUbXy2D5Cpump",
       "source": "boost",
       "entry_price": 0.0004875,
-      "peak_price": 0.0005563,
-      "trailing_active": false,
+      "peak_price": 0.0005859,
+      "trailing_active": true,
       "entry_time": "2026-08-22T20:21:06.993209+00:00",
       "score": 79,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.98,
-      "peak_volume_m5": 19633.06,
+      "current_pct": 20.18,
+      "peak_volume_m5": 19964.32,
       "milestones_hit": []
     },
     {
@@ -24,27 +24,15 @@
       "address": "0x8EeC24d9FF7fC5bAA6bAf5d1B59DFEfbC11f7777",
       "source": "new",
       "entry_price": 8.326e-05,
-      "peak_price": 0.0001084,
+      "peak_price": 0.0001145,
       "trailing_active": true,
       "entry_time": "2026-08-22T20:40:58.216277+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 30.19,
-      "peak_volume_m5": 21002.68,
+      "current_pct": 37.52,
+      "peak_volume_m5": 25474.96,
       "milestones_hit": []
-    },
-    {
-      "symbol": "FYB",
-      "chain": "robinhood",
-      "address": "0xfff48D549223af49F4BB2d489DC216Ed66F4b748",
-      "source": "new",
-      "entry_price": 0.0002943,
-      "peak_price": 0.0002943,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T20:45:38.374681+00:00",
-      "score": 75,
-      "status": "open"
     },
     {
       "symbol": "idk",
@@ -52,11 +40,15 @@
       "address": "3qR3KXWfVp2JsZ9UY5VEwL2b9X1G3k8pLn79Yxqypump",
       "source": "new",
       "entry_price": 0.0002151,
-      "peak_price": 0.0002151,
+      "peak_price": 0.0002192,
       "trailing_active": false,
       "entry_time": "2026-08-22T20:45:40.348197+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.91,
+      "peak_volume_m5": 308402.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -113927,6 +113919,25 @@
       "exit_price": 0.0001819,
       "exit_pct": -14.28,
       "exit_time": "2026-08-22T20:30:20.430593+00:00"
+    },
+    {
+      "symbol": "FYB",
+      "chain": "robinhood",
+      "address": "0xfff48D549223af49F4BB2d489DC216Ed66F4b748",
+      "source": "new",
+      "entry_price": 0.0002943,
+      "peak_price": 0.0002943,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T20:45:38.374681+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.9,
+      "peak_volume_m5": 81226.58,
+      "milestones_hit": [],
+      "exit_price": 0.0002475,
+      "exit_pct": -15.9,
+      "exit_time": "2026-08-22T20:46:51.087570+00:00"
     }
   ],
   "alerted": {
@@ -119694,6 +119705,7 @@
     "FW6R4QQeP4fzqRwDHbBkpjHx3ecvYwhd5g7chKg8pump": "2026-08-22T19:58:00.279875+00:00",
     "BXhsR8dnacXoKLJahfm2NnRuXENNufZDQrZLV4kpump": "2026-08-22T20:02:40.440148+00:00",
     "3M9mwjx1Z7RmCUuNHx8DUpiaqCgGhKQBKNaa5bXTpump": "2026-08-22T20:03:36.356908+00:00",
-    "2B1DmRh6G3Fy7tgNHXeA4z2FgqdmEM2mEwQcMBdDpump": "2026-08-22T20:30:20.430593+00:00"
+    "2B1DmRh6G3Fy7tgNHXeA4z2FgqdmEM2mEwQcMBdDpump": "2026-08-22T20:30:20.430593+00:00",
+    "0xfff48D549223af49F4BB2d489DC216Ed66F4b748": "2026-08-22T20:46:51.087570+00:00"
   }
 }
