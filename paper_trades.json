@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NENEM",
-      "chain": "solana",
-      "address": "DYa7Rcnsy3XoYwh1ZLseMdcAQjBE92pQe4enpYDNpump",
-      "source": "boost",
-      "entry_price": 0.0002325,
-      "peak_price": 0.0002325,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T01:21:07.271964+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "BUCKZ",
       "chain": "solana",
       "address": "FZBZsX19QMtQsEd6DWfwGxtvh4EsTrPt8Vngjhagpump",
       "source": "new",
       "entry_price": 0.0001333,
-      "peak_price": 0.0001333,
-      "trailing_active": false,
+      "peak_price": 0.0001533,
+      "trailing_active": true,
       "entry_time": "2026-08-22T01:21:12.334288+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.0,
+      "peak_volume_m5": 137124.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -112527,6 +112519,25 @@
       "exit_price": 3.811e-06,
       "exit_pct": 265.74,
       "exit_time": "2026-08-22T01:05:54.363149+00:00"
+    },
+    {
+      "symbol": "NENEM",
+      "chain": "solana",
+      "address": "DYa7Rcnsy3XoYwh1ZLseMdcAQjBE92pQe4enpYDNpump",
+      "source": "boost",
+      "entry_price": 0.0002325,
+      "peak_price": 0.0002325,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T01:21:07.271964+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.39,
+      "peak_volume_m5": 28630.21,
+      "milestones_hit": [],
+      "exit_price": 0.0001944,
+      "exit_pct": -16.39,
+      "exit_time": "2026-08-22T01:22:55.162320+00:00"
     }
   ],
   "alerted": {
@@ -118226,6 +118237,7 @@
     "0x97F68328cF8Ad42eDC771355bdEDAc657f4949b9": "2026-08-22T00:50:48.310568+00:00",
     "0x5FD34ca3b44D574695d5c9C402d587a19116969B": "2026-08-22T00:52:05.396171+00:00",
     "0xDb99d819e93B06Ed83A17c01Fed2B7dcA5774Bbb": "2026-08-22T00:53:59.139801+00:00",
-    "0xC673629596277bc87Bff3e739f2c6dAd4de175b2": "2026-08-22T01:05:54.363149+00:00"
+    "0xC673629596277bc87Bff3e739f2c6dAd4de175b2": "2026-08-22T01:05:54.363149+00:00",
+    "DYa7Rcnsy3XoYwh1ZLseMdcAQjBE92pQe4enpYDNpump": "2026-08-22T01:22:55.162320+00:00"
   }
 }
