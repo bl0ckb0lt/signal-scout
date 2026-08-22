@@ -19,28 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "PAWIFI",
-      "chain": "solana",
-      "address": "FxoSCwn1bBi3PvmHMmxHEyAnzJ1K1KXqWNyaxHXRpump",
-      "source": "boost",
-      "entry_price": 0.0002598,
-      "peak_price": 0.0002598,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T15:31:03.894356+00:00",
-      "score": 94,
-      "status": "open"
-    },
-    {
       "symbol": "TRUTHCOIN",
       "chain": "solana",
       "address": "3CK5Pc932qrsX2Xy6qJohuYvytgL5wTDsDe1kx5ppump",
       "source": "new",
       "entry_price": 0.0001538,
-      "peak_price": 0.0001538,
-      "trailing_active": false,
+      "peak_price": 0.0002321,
+      "trailing_active": true,
       "entry_time": "2026-08-22T15:31:05.623541+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 50.91,
+      "peak_volume_m5": 50845.79,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -113428,6 +113422,25 @@
       "exit_price": 3.895e-05,
       "exit_pct": -12.16,
       "exit_time": "2026-08-22T15:12:18.792200+00:00"
+    },
+    {
+      "symbol": "PAWIFI",
+      "chain": "solana",
+      "address": "FxoSCwn1bBi3PvmHMmxHEyAnzJ1K1KXqWNyaxHXRpump",
+      "source": "boost",
+      "entry_price": 0.0002598,
+      "peak_price": 0.0002598,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T15:31:03.894356+00:00",
+      "score": 94,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.64,
+      "peak_volume_m5": 65337.34,
+      "milestones_hit": [],
+      "exit_price": 0.0001906,
+      "exit_pct": -26.64,
+      "exit_time": "2026-08-22T15:34:03.123434+00:00"
     }
   ],
   "alerted": {
@@ -119170,6 +119183,7 @@
     "0x8d8C47978b4fB5B01e940C345f770a3fA523Ee41": "2026-08-22T15:02:06.841254+00:00",
     "0x87aE267002cD1eA0eC86Bf3601D4a8AD76A47777": "2026-08-22T15:03:05.568720+00:00",
     "0x3EFBfFf95576e1d23cF6Ead0AcD2E73F4d6A7777": "2026-08-22T15:03:06.440128+00:00",
-    "0xB200000000000000000000D727667FFF53912E01": "2026-08-22T15:12:18.792200+00:00"
+    "0xB200000000000000000000D727667FFF53912E01": "2026-08-22T15:12:18.792200+00:00",
+    "FxoSCwn1bBi3PvmHMmxHEyAnzJ1K1KXqWNyaxHXRpump": "2026-08-22T15:34:03.123434+00:00"
   }
 }
