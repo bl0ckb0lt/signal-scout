@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TSUTSUJI",
-      "chain": "solana",
-      "address": "2B1DmRh6G3Fy7tgNHXeA4z2FgqdmEM2mEwQcMBdDpump",
-      "source": "new",
-      "entry_price": 0.0002122,
-      "peak_price": 0.0002122,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T20:21:05.020920+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "MCGA",
       "chain": "solana",
       "address": "2LkYkeDcGRZ19j5EQbbHvrjk2XFBeGjPUbXy2D5Cpump",
       "source": "boost",
       "entry_price": 0.0004875,
-      "peak_price": 0.0004875,
+      "peak_price": 0.0005563,
       "trailing_active": false,
       "entry_time": "2026-08-22T20:21:06.993209+00:00",
       "score": 79,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.11,
+      "peak_volume_m5": 19633.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -113876,6 +113868,25 @@
       "exit_price": 0.000445,
       "exit_pct": 97.08,
       "exit_time": "2026-08-22T20:03:36.356908+00:00"
+    },
+    {
+      "symbol": "TSUTSUJI",
+      "chain": "solana",
+      "address": "2B1DmRh6G3Fy7tgNHXeA4z2FgqdmEM2mEwQcMBdDpump",
+      "source": "new",
+      "entry_price": 0.0002122,
+      "peak_price": 0.0002122,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T20:21:05.020920+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.28,
+      "peak_volume_m5": 37168.0,
+      "milestones_hit": [],
+      "exit_price": 0.0001819,
+      "exit_pct": -14.28,
+      "exit_time": "2026-08-22T20:30:20.430593+00:00"
     }
   ],
   "alerted": {
@@ -119642,6 +119653,7 @@
     "0x30f592964499BF97Bb8C5278D1D7Be93652E3e5C": "2026-08-22T19:55:19.432906+00:00",
     "FW6R4QQeP4fzqRwDHbBkpjHx3ecvYwhd5g7chKg8pump": "2026-08-22T19:58:00.279875+00:00",
     "BXhsR8dnacXoKLJahfm2NnRuXENNufZDQrZLV4kpump": "2026-08-22T20:02:40.440148+00:00",
-    "3M9mwjx1Z7RmCUuNHx8DUpiaqCgGhKQBKNaa5bXTpump": "2026-08-22T20:03:36.356908+00:00"
+    "3M9mwjx1Z7RmCUuNHx8DUpiaqCgGhKQBKNaa5bXTpump": "2026-08-22T20:03:36.356908+00:00",
+    "2B1DmRh6G3Fy7tgNHXeA4z2FgqdmEM2mEwQcMBdDpump": "2026-08-22T20:30:20.430593+00:00"
   }
 }
