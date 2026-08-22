@@ -24,33 +24,15 @@
       "address": "0x87aE267002cD1eA0eC86Bf3601D4a8AD76A47777",
       "source": "new",
       "entry_price": 0.0002879,
-      "peak_price": 0.0003434,
+      "peak_price": 0.0003524,
       "trailing_active": true,
       "entry_time": "2026-08-22T14:21:09.781278+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 19.28,
+      "current_pct": 22.4,
       "peak_volume_m5": 19398.71,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Truth Coin",
-      "chain": "solana",
-      "address": "BaBeW6hdxDSenERN6JcxLY9v27YnZqaAQYWuscUjpump",
-      "source": "new",
-      "entry_price": 0.0001281,
-      "peak_price": 0.0001929,
-      "trailing_active": true,
-      "entry_time": "2026-08-22T14:41:04.686704+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 50.59,
-      "peak_volume_m5": 135592.82,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "Doge2",
@@ -58,27 +40,15 @@
       "address": "0x1d94d4d420Fed09B4E8F90F8147a76a4E62C1966",
       "source": "new",
       "entry_price": 0.0001302,
-      "peak_price": 0.0001548,
+      "peak_price": 0.0001834,
       "trailing_active": true,
       "entry_time": "2026-08-22T14:41:07.729150+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 18.89,
+      "current_pct": 40.86,
       "peak_volume_m5": 46051.82,
       "milestones_hit": []
-    },
-    {
-      "symbol": "TRUMPBULL",
-      "chain": "solana",
-      "address": "2jcvMrBKbGtBpCWB3TKEHxukyvDJzu8y8v2i7EFPpump",
-      "source": "new",
-      "entry_price": 0.0001475,
-      "peak_price": 0.0001475,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T14:44:28.568046+00:00",
-      "score": 83,
-      "status": "open"
     }
   ],
   "closed": [
@@ -113309,6 +113279,46 @@
       "exit_price": 0.0002031,
       "exit_pct": -19.34,
       "exit_time": "2026-08-22T14:03:02.611045+00:00"
+    },
+    {
+      "symbol": "Truth Coin",
+      "chain": "solana",
+      "address": "BaBeW6hdxDSenERN6JcxLY9v27YnZqaAQYWuscUjpump",
+      "source": "new",
+      "entry_price": 0.0001281,
+      "peak_price": 0.0001929,
+      "trailing_active": true,
+      "entry_time": "2026-08-22T14:41:04.686704+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 39.11,
+      "peak_volume_m5": 148285.66,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001782,
+      "exit_pct": 39.11,
+      "exit_time": "2026-08-22T14:45:55.705122+00:00"
+    },
+    {
+      "symbol": "TRUMPBULL",
+      "chain": "solana",
+      "address": "2jcvMrBKbGtBpCWB3TKEHxukyvDJzu8y8v2i7EFPpump",
+      "source": "new",
+      "entry_price": 0.0001475,
+      "peak_price": 0.0001475,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T14:44:28.568046+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.81,
+      "peak_volume_m5": 59035.92,
+      "milestones_hit": [],
+      "exit_price": 0.0001109,
+      "exit_pct": -24.81,
+      "exit_time": "2026-08-22T14:45:56.925985+00:00"
     }
   ],
   "alerted": {
@@ -119043,6 +119053,8 @@
     "6AgMvzWD6XbhD1GAoaj4PbVgDWdiDeThTmBUzKws8Mr1": "2026-08-22T13:10:24.300995+00:00",
     "0xC1f7CEB07Af089ED547B059D4F1Ff0288F19042F": "2026-08-22T13:30:57.137758+00:00",
     "0x43eEb8744964F9aD191d5e12e2090cf782DA7777": "2026-08-22T13:44:25.474153+00:00",
-    "2yGsvtnYAgdBpstEkJRLacc6jfaszHj9bU4FzuXNpump": "2026-08-22T14:03:02.611045+00:00"
+    "2yGsvtnYAgdBpstEkJRLacc6jfaszHj9bU4FzuXNpump": "2026-08-22T14:03:02.611045+00:00",
+    "BaBeW6hdxDSenERN6JcxLY9v27YnZqaAQYWuscUjpump": "2026-08-22T14:45:55.705122+00:00",
+    "2jcvMrBKbGtBpCWB3TKEHxukyvDJzu8y8v2i7EFPpump": "2026-08-22T14:45:56.925985+00:00"
   }
 }
