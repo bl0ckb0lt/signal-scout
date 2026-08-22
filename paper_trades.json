@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NEUT",
-      "chain": "robinhood",
-      "address": "0x97F68328cF8Ad42eDC771355bdEDAc657f4949b9",
-      "source": "new",
-      "entry_price": 0.0003289,
-      "peak_price": 0.0003408,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T00:11:21.182106+00:00",
-      "score": 62,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.24,
-      "peak_volume_m5": 934.63,
-      "milestones_hit": []
-    },
-    {
       "symbol": "FLUSH",
       "chain": "robinhood",
       "address": "0xDb99d819e93B06Ed83A17c01Fed2B7dcA5774Bbb",
@@ -44,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-22T00:41:10.522153+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.93,
+      "peak_volume_m5": 11837.37,
+      "milestones_hit": []
     },
     {
       "symbol": "SPROUT",
@@ -52,9 +40,27 @@
       "address": "0xC673629596277bc87Bff3e739f2c6dAd4de175b2",
       "source": "new",
       "entry_price": 1.042e-06,
-      "peak_price": 1.042e-06,
-      "trailing_active": false,
+      "peak_price": 1.89e-06,
+      "trailing_active": true,
       "entry_time": "2026-08-22T00:41:12.085581+00:00",
+      "score": 72,
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 81.38,
+      "peak_volume_m5": 57616.75,
+      "milestones_hit": [
+        50
+      ]
+    },
+    {
+      "symbol": "Timbothy",
+      "chain": "robinhood",
+      "address": "0x5FD34ca3b44D574695d5c9C402d587a19116969B",
+      "source": "new",
+      "entry_price": 0.0001344,
+      "peak_price": 0.0001344,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T00:51:05.070159+00:00",
       "score": 72,
       "status": "open"
     }
@@ -112463,6 +112469,25 @@
       "exit_price": 0.0002123,
       "exit_pct": 11.04,
       "exit_time": "2026-08-22T00:33:54.343855+00:00"
+    },
+    {
+      "symbol": "NEUT",
+      "chain": "robinhood",
+      "address": "0x97F68328cF8Ad42eDC771355bdEDAc657f4949b9",
+      "source": "new",
+      "entry_price": 0.0003289,
+      "peak_price": 0.0003732,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T00:11:21.182106+00:00",
+      "score": 62,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 13.47,
+      "peak_volume_m5": 934.63,
+      "milestones_hit": [],
+      "exit_price": 0.0003732,
+      "exit_pct": 13.47,
+      "exit_time": "2026-08-22T00:50:48.310568+00:00"
     }
   ],
   "alerted": {
@@ -118158,6 +118183,7 @@
     "32WZrrNwVKtvsis14TnTv7U4wEhxsSUzYw3QfZwepump": "2026-08-22T00:12:40.308977+00:00",
     "2hXHY3DnN7HUGySZEmBsLFKSqLB8nj3aE8wwq44wpump": "2026-08-22T00:28:37.123188+00:00",
     "3MttmTUEW2aTZkuPrSw1gbTSmsVzQfd8Kj6aWSEPpump": "2026-08-22T00:32:14.508579+00:00",
-    "0xee60097B23237Ce9D2d75227A1C1A776a1727777": "2026-08-22T00:33:54.343855+00:00"
+    "0xee60097B23237Ce9D2d75227A1C1A776a1727777": "2026-08-22T00:33:54.343855+00:00",
+    "0x97F68328cF8Ad42eDC771355bdEDAc657f4949b9": "2026-08-22T00:50:48.310568+00:00"
   }
 }
