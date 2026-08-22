@@ -30,24 +30,12 @@
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 115.84,
-      "peak_volume_m5": 32500.85,
+      "current_pct": 112.02,
+      "peak_volume_m5": 39140.0,
       "milestones_hit": [
         50,
         100
       ]
-    },
-    {
-      "symbol": "SOLHOUSE",
-      "chain": "solana",
-      "address": "3FW1Wfsh69FNs2HFYc1A3Bi7ksbpiwK8amqMNkHDpump",
-      "source": "new",
-      "entry_price": 0.0001188,
-      "peak_price": 0.0001188,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T15:01:06.663941+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "BNBCAT",
@@ -59,19 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-22T15:01:08.416936+00:00",
       "score": 74,
-      "status": "open"
-    },
-    {
-      "symbol": "MUNCH",
-      "chain": "robinhood",
-      "address": "0x8d8C47978b4fB5B01e940C345f770a3fA523Ee41",
-      "source": "new",
-      "entry_price": 1.147e-06,
-      "peak_price": 1.147e-06,
-      "trailing_active": false,
-      "entry_time": "2026-08-22T15:01:09.810805+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.14,
+      "peak_volume_m5": 15573.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -113361,6 +113341,44 @@
       "exit_price": 0.0001568,
       "exit_pct": 20.43,
       "exit_time": "2026-08-22T14:47:45.477291+00:00"
+    },
+    {
+      "symbol": "SOLHOUSE",
+      "chain": "solana",
+      "address": "3FW1Wfsh69FNs2HFYc1A3Bi7ksbpiwK8amqMNkHDpump",
+      "source": "new",
+      "entry_price": 0.0001188,
+      "peak_price": 0.0001188,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T15:01:06.663941+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.36,
+      "peak_volume_m5": 148167.8,
+      "milestones_hit": [],
+      "exit_price": 9.461e-05,
+      "exit_pct": -20.36,
+      "exit_time": "2026-08-22T15:02:05.653857+00:00"
+    },
+    {
+      "symbol": "MUNCH",
+      "chain": "robinhood",
+      "address": "0x8d8C47978b4fB5B01e940C345f770a3fA523Ee41",
+      "source": "new",
+      "entry_price": 1.147e-06,
+      "peak_price": 1.147e-06,
+      "trailing_active": false,
+      "entry_time": "2026-08-22T15:01:09.810805+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.13,
+      "peak_volume_m5": 52691.34,
+      "milestones_hit": [],
+      "exit_price": 8.243e-07,
+      "exit_pct": -28.13,
+      "exit_time": "2026-08-22T15:02:06.841254+00:00"
     }
   ],
   "alerted": {
@@ -119098,6 +119116,8 @@
     "2yGsvtnYAgdBpstEkJRLacc6jfaszHj9bU4FzuXNpump": "2026-08-22T14:03:02.611045+00:00",
     "BaBeW6hdxDSenERN6JcxLY9v27YnZqaAQYWuscUjpump": "2026-08-22T14:45:55.705122+00:00",
     "2jcvMrBKbGtBpCWB3TKEHxukyvDJzu8y8v2i7EFPpump": "2026-08-22T14:45:56.925985+00:00",
-    "0x1d94d4d420Fed09B4E8F90F8147a76a4E62C1966": "2026-08-22T14:47:45.477291+00:00"
+    "0x1d94d4d420Fed09B4E8F90F8147a76a4E62C1966": "2026-08-22T14:47:45.477291+00:00",
+    "3FW1Wfsh69FNs2HFYc1A3Bi7ksbpiwK8amqMNkHDpump": "2026-08-22T15:02:05.653857+00:00",
+    "0x8d8C47978b4fB5B01e940C345f770a3fA523Ee41": "2026-08-22T15:02:06.841254+00:00"
   }
 }
