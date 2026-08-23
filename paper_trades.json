@@ -5,26 +5,18 @@
     {
       "symbol": "Vlad",
       "chain": "robinhood",
-      "address": "0x133698A17B7b5c2b981555C56c2B00824f517C1b",
-      "source": "new",
-      "entry_price": 0.001621,
-      "peak_price": 0.001621,
-      "trailing_active": false,
-      "entry_time": "2026-08-23T22:01:10.230147+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "Vlad",
-      "chain": "robinhood",
       "address": "0x064113fcccAEf9b4C35a43b72F17364706cbEEDD",
       "source": "new",
       "entry_price": 4.226e-05,
-      "peak_price": 4.226e-05,
+      "peak_price": 4.847e-05,
       "trailing_active": false,
       "entry_time": "2026-08-23T22:01:11.795980+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.69,
+      "peak_volume_m5": 54404.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -115888,6 +115880,25 @@
       "exit_price": 0.0002288,
       "exit_pct": -18.37,
       "exit_time": "2026-08-23T21:53:04.656339+00:00"
+    },
+    {
+      "symbol": "Vlad",
+      "chain": "robinhood",
+      "address": "0x133698A17B7b5c2b981555C56c2B00824f517C1b",
+      "source": "new",
+      "entry_price": 0.001621,
+      "peak_price": 0.001621,
+      "trailing_active": false,
+      "entry_time": "2026-08-23T22:01:10.230147+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.2,
+      "peak_volume_m5": 402425.12,
+      "milestones_hit": [],
+      "exit_price": 0.001326,
+      "exit_pct": -18.2,
+      "exit_time": "2026-08-23T22:03:10.844034+00:00"
     }
   ],
   "alerted": {
@@ -121755,6 +121766,7 @@
     "FxkG9P5Pn6djkfcwn4LTpCGomuvjPFVnrkFVvHXfpump": "2026-08-23T20:53:00.960036+00:00",
     "BZ6ZSUPi61GzEvmFkRPrEmLeu1rn6dnqANeieX6qpump": "2026-08-23T20:54:53.115864+00:00",
     "2YaYCB2JUYQAyaK92feGympcAcxhYabZv2yWcrw6pump": "2026-08-23T21:32:52.197331+00:00",
-    "9SrXqHQszZvDjSPP3Uzf3MJemTQBG7CefX1AzCGJpump": "2026-08-23T21:53:04.656339+00:00"
+    "9SrXqHQszZvDjSPP3Uzf3MJemTQBG7CefX1AzCGJpump": "2026-08-23T21:53:04.656339+00:00",
+    "0x133698A17B7b5c2b981555C56c2B00824f517C1b": "2026-08-23T22:03:10.844034+00:00"
   }
 }
