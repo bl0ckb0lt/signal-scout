@@ -8,23 +8,19 @@
       "address": "ErWFD2gFDxxvvo2bVY9PLS6cNqP5EZtRz8PjBp7Epump",
       "source": "new",
       "entry_price": 0.0001661,
-      "peak_price": 0.0001661,
-      "trailing_active": false,
+      "peak_price": 0.0005229,
+      "trailing_active": true,
       "entry_time": "2026-08-23T17:11:24.322748+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "ECC",
-      "chain": "solana",
-      "address": "HpQhjvHw37xitgSTJvfV43XCWcnG1hh7ZDztCBCi39pn",
-      "source": "new",
-      "entry_price": 5.003e-05,
-      "peak_price": 5.003e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-23T17:11:28.112302+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 214.81,
+      "peak_volume_m5": 28587.7,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -115401,6 +115397,25 @@
       "exit_price": 3.604e-05,
       "exit_pct": -37.07,
       "exit_time": "2026-08-23T17:03:24.843190+00:00"
+    },
+    {
+      "symbol": "ECC",
+      "chain": "solana",
+      "address": "HpQhjvHw37xitgSTJvfV43XCWcnG1hh7ZDztCBCi39pn",
+      "source": "new",
+      "entry_price": 5.003e-05,
+      "peak_price": 5.003e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-23T17:11:28.112302+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.87,
+      "peak_volume_m5": 3980.07,
+      "milestones_hit": [],
+      "exit_price": 4.059e-05,
+      "exit_pct": -18.87,
+      "exit_time": "2026-08-23T17:21:37.587389+00:00"
     }
   ],
   "alerted": {
@@ -121243,6 +121258,7 @@
     "0x28c74b28429DF12d1F39f244F5c72Fd472847a6b": "2026-08-23T16:33:01.050574+00:00",
     "DAujm7LtjCoUGTu7MzVM51qHqM8CyNKYdEB7Qdrupump": "2026-08-23T16:33:58.394278+00:00",
     "0xb2000000000000000000008B92F75a2E299ffD17": "2026-08-23T16:49:42.892782+00:00",
-    "0x42D17aDd4DC9e52BBcC616a513E57ddE015d732f": "2026-08-23T17:03:24.843190+00:00"
+    "0x42D17aDd4DC9e52BBcC616a513E57ddE015d732f": "2026-08-23T17:03:24.843190+00:00",
+    "HpQhjvHw37xitgSTJvfV43XCWcnG1hh7ZDztCBCi39pn": "2026-08-23T17:21:37.587389+00:00"
   }
 }
