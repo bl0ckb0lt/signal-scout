@@ -8,43 +8,15 @@
       "address": "0x229ab3db637d2112FC2C8BfE48DbC504ab3fca0c",
       "source": "new",
       "entry_price": 0.0001983,
-      "peak_price": 0.0002324,
+      "peak_price": 0.0002675,
       "trailing_active": true,
       "entry_time": "2026-08-23T17:41:20.770694+00:00",
       "score": 79,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.2,
+      "current_pct": 34.9,
       "peak_volume_m5": 24899.35,
       "milestones_hit": []
-    },
-    {
-      "symbol": "niannian",
-      "chain": "bsc",
-      "address": "0xCb74970b86B9aBF3D75748EB2C3bff53e5cD7777",
-      "source": "new",
-      "entry_price": 4.232e-05,
-      "peak_price": 6.243e-05,
-      "trailing_active": true,
-      "entry_time": "2026-08-23T17:41:26.258915+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 47.52,
-      "peak_volume_m5": 4777.92,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MaDukes",
-      "chain": "solana",
-      "address": "Dx3CLhc47rCUBQ13tL9HpdppwBDTjK8wBkEvHxwipump",
-      "source": "new",
-      "entry_price": 0.0001568,
-      "peak_price": 0.0001568,
-      "trailing_active": false,
-      "entry_time": "2026-08-23T17:51:24.389763+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -115463,6 +115435,44 @@
       "exit_price": 0.0004826,
       "exit_pct": 190.55,
       "exit_time": "2026-08-23T17:22:40.689222+00:00"
+    },
+    {
+      "symbol": "niannian",
+      "chain": "bsc",
+      "address": "0xCb74970b86B9aBF3D75748EB2C3bff53e5cD7777",
+      "source": "new",
+      "entry_price": 4.232e-05,
+      "peak_price": 6.243e-05,
+      "trailing_active": true,
+      "entry_time": "2026-08-23T17:41:26.258915+00:00",
+      "score": 64,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 10.26,
+      "peak_volume_m5": 9300.41,
+      "milestones_hit": [],
+      "exit_price": 4.666e-05,
+      "exit_pct": 10.26,
+      "exit_time": "2026-08-23T17:52:58.868852+00:00"
+    },
+    {
+      "symbol": "MaDukes",
+      "chain": "solana",
+      "address": "Dx3CLhc47rCUBQ13tL9HpdppwBDTjK8wBkEvHxwipump",
+      "source": "new",
+      "entry_price": 0.0001568,
+      "peak_price": 0.0001568,
+      "trailing_active": false,
+      "entry_time": "2026-08-23T17:51:24.389763+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.6,
+      "peak_volume_m5": 89255.82,
+      "milestones_hit": [],
+      "exit_price": 0.0001245,
+      "exit_pct": -20.6,
+      "exit_time": "2026-08-23T17:52:59.604766+00:00"
     }
   ],
   "alerted": {
@@ -121307,6 +121317,8 @@
     "0xb2000000000000000000008B92F75a2E299ffD17": "2026-08-23T16:49:42.892782+00:00",
     "0x42D17aDd4DC9e52BBcC616a513E57ddE015d732f": "2026-08-23T17:03:24.843190+00:00",
     "HpQhjvHw37xitgSTJvfV43XCWcnG1hh7ZDztCBCi39pn": "2026-08-23T17:21:37.587389+00:00",
-    "ErWFD2gFDxxvvo2bVY9PLS6cNqP5EZtRz8PjBp7Epump": "2026-08-23T17:22:40.689222+00:00"
+    "ErWFD2gFDxxvvo2bVY9PLS6cNqP5EZtRz8PjBp7Epump": "2026-08-23T17:22:40.689222+00:00",
+    "0xCb74970b86B9aBF3D75748EB2C3bff53e5cD7777": "2026-08-23T17:52:58.868852+00:00",
+    "Dx3CLhc47rCUBQ13tL9HpdppwBDTjK8wBkEvHxwipump": "2026-08-23T17:52:59.604766+00:00"
   }
 }
