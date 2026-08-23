@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-23T01:21:16.593916+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.64,
+      "peak_volume_m5": 19090.23,
+      "milestones_hit": []
     },
     {
       "symbol": "BABYCATE",
@@ -24,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-23T01:21:20.340852+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "YOMOGI",
-      "chain": "solana",
-      "address": "4978aTN9W3CDuUREGxAQaBYqhPXt8142N4o4Sfgzpump",
-      "source": "new",
-      "entry_price": 0.0002067,
-      "peak_price": 0.0002067,
-      "trailing_active": false,
-      "entry_time": "2026-08-23T01:21:22.278415+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.1,
+      "peak_volume_m5": 12246.6,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -114346,6 +114342,25 @@
       "exit_price": 0.0006952,
       "exit_pct": 2.73,
       "exit_time": "2026-08-23T01:17:15.490426+00:00"
+    },
+    {
+      "symbol": "YOMOGI",
+      "chain": "solana",
+      "address": "4978aTN9W3CDuUREGxAQaBYqhPXt8142N4o4Sfgzpump",
+      "source": "new",
+      "entry_price": 0.0002067,
+      "peak_price": 0.0002067,
+      "trailing_active": false,
+      "entry_time": "2026-08-23T01:21:22.278415+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.3,
+      "peak_volume_m5": 145855.45,
+      "milestones_hit": [],
+      "exit_price": 0.000173,
+      "exit_pct": -16.3,
+      "exit_time": "2026-08-23T01:22:33.148279+00:00"
     }
   ],
   "alerted": {
@@ -120135,6 +120150,7 @@
     "9va2zBnaBGFaDDXuMfQAugPN21mweth1R5BKpHwnpump": "2026-08-23T00:38:14.180080+00:00",
     "47RNWBUrPYpTpPvLybrGFSpuQx1nsaW53g9297pKfYsY": "2026-08-23T00:45:08.916371+00:00",
     "0x6786d47C04F6A92a6EB64cF847d0227B300996Ff": "2026-08-23T01:02:32.952053+00:00",
-    "0x4959291587ad6943Dcc2b3749c21A6ac7e097777": "2026-08-23T01:17:15.490426+00:00"
+    "0x4959291587ad6943Dcc2b3749c21A6ac7e097777": "2026-08-23T01:17:15.490426+00:00",
+    "4978aTN9W3CDuUREGxAQaBYqhPXt8142N4o4Sfgzpump": "2026-08-23T01:22:33.148279+00:00"
   }
 }
