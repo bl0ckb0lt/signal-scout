@@ -13,28 +13,12 @@
       "entry_time": "2026-08-24T23:01:09.344201+00:00",
       "score": 68,
       "status": "open",
-      "api_failures": 1,
+      "api_failures": 2,
       "current_pct": 73.85,
       "peak_volume_m5": 16556.04,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "MENDEL",
-      "chain": "robinhood",
-      "address": "0xCF68a6a4A3e724B1B084eC4877777d7F7C04f72c",
-      "source": "new",
-      "entry_price": 0.0002271,
-      "peak_price": 0.0002271,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T23:11:13.616941+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.46,
-      "peak_volume_m5": 92204.78,
-      "milestones_hit": []
     },
     {
       "symbol": "SMOLCAT",
@@ -46,7 +30,8 @@
       "trailing_active": false,
       "entry_time": "2026-08-24T23:13:29.240805+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 1
     }
   ],
   "closed": [
@@ -118100,6 +118085,25 @@
       "exit_price": 6.786e-05,
       "exit_pct": -15.03,
       "exit_time": "2026-08-24T22:51:53.645000+00:00"
+    },
+    {
+      "symbol": "MENDEL",
+      "chain": "robinhood",
+      "address": "0xCF68a6a4A3e724B1B084eC4877777d7F7C04f72c",
+      "source": "new",
+      "entry_price": 0.0002271,
+      "peak_price": 0.0002271,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T23:11:13.616941+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.66,
+      "peak_volume_m5": 92204.78,
+      "milestones_hit": [],
+      "exit_price": 0.0001552,
+      "exit_pct": -31.66,
+      "exit_time": "2026-08-24T23:14:55.164726+00:00"
     }
   ],
   "alerted": {
@@ -124078,6 +124082,7 @@
     "0x882Fe78342734f9E8da0f71A6b7CF16FBE117777": "2026-08-24T22:18:19.922417+00:00",
     "0x4D2EA892c083FFf63A556b82c2EF893709D77777": "2026-08-24T22:32:09.183013+00:00",
     "6b7KQsXqb6JR5Nmeer5zGRmo51dwDfttM5b5Nu2rpump": "2026-08-24T22:43:56.586663+00:00",
-    "0xbD14Eb3D5A4F52544E34bd7e11f67258c6824d42": "2026-08-24T22:51:53.645000+00:00"
+    "0xbD14Eb3D5A4F52544E34bd7e11f67258c6824d42": "2026-08-24T22:51:53.645000+00:00",
+    "0xCF68a6a4A3e724B1B084eC4877777d7F7C04f72c": "2026-08-24T23:14:55.164726+00:00"
   }
 }
