@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BaseJesse",
-      "chain": "base",
-      "address": "0xa413C0bfce9294Ad9e73f8431FCBDbac4174bbA3",
-      "source": "new",
-      "entry_price": 8.864e-07,
-      "peak_price": 8.864e-07,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T06:21:26.629963+00:00",
-      "score": 67,
-      "status": "open"
-    },
-    {
       "symbol": "baserat",
       "chain": "base",
       "address": "0xb2000000000000000000000fCD6eEE4Fd3dF3801",
       "source": "new",
       "entry_price": 0.0001385,
-      "peak_price": 0.0001385,
+      "peak_price": 0.0001475,
       "trailing_active": false,
       "entry_time": "2026-08-24T06:21:28.346495+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.5,
+      "peak_volume_m5": 2824.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -116582,6 +116574,25 @@
       "exit_price": 9.662e-05,
       "exit_pct": -32.43,
       "exit_time": "2026-08-24T06:13:18.608979+00:00"
+    },
+    {
+      "symbol": "BaseJesse",
+      "chain": "base",
+      "address": "0xa413C0bfce9294Ad9e73f8431FCBDbac4174bbA3",
+      "source": "new",
+      "entry_price": 8.864e-07,
+      "peak_price": 8.864e-07,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T06:21:26.629963+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.69,
+      "peak_volume_m5": 71580.91,
+      "milestones_hit": [],
+      "exit_price": 7.119e-07,
+      "exit_pct": -19.69,
+      "exit_time": "2026-08-24T06:23:18.823982+00:00"
     }
   ],
   "alerted": {
@@ -122484,6 +122495,7 @@
     "0xbA47Cf342780151bE9EBC2F7BC146856E7D54734": "2026-08-24T05:37:14.475618+00:00",
     "52n3m3sLi5zAy6vSm5dug7tMDuixFjHHtEJL1N9ECgnB": "2026-08-24T05:42:45.657582+00:00",
     "4ziCBFjaByxYmfaXoPgzBTYxLj9to6KpxnrSsGJepump": "2026-08-24T05:47:21.560910+00:00",
-    "2JquisPdmWgrLAVqPCboHfaJEWBbcFq3A7PJSvbxpump": "2026-08-24T06:13:18.608979+00:00"
+    "2JquisPdmWgrLAVqPCboHfaJEWBbcFq3A7PJSvbxpump": "2026-08-24T06:13:18.608979+00:00",
+    "0xa413C0bfce9294Ad9e73f8431FCBDbac4174bbA3": "2026-08-24T06:23:18.823982+00:00"
   }
 }
