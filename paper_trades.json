@@ -14,27 +14,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.41,
+      "current_pct": 3.71,
       "peak_volume_m5": 38891.85,
       "milestones_hit": []
-    },
-    {
-      "symbol": "SMOLCAT",
-      "chain": "solana",
-      "address": "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump",
-      "source": "new",
-      "entry_price": 0.000133,
-      "peak_price": 0.0002232,
-      "trailing_active": true,
-      "entry_time": "2026-08-24T19:01:17.222611+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 67.82,
-      "peak_volume_m5": 257471.78,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "Allocate",
@@ -46,7 +28,8 @@
       "trailing_active": false,
       "entry_time": "2026-08-24T19:08:32.521390+00:00",
       "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 1
     }
   ],
   "closed": [
@@ -117616,6 +117599,27 @@
       "exit_price": 0.001399,
       "exit_pct": 174.91,
       "exit_time": "2026-08-24T18:58:39.954434+00:00"
+    },
+    {
+      "symbol": "SMOLCAT",
+      "chain": "solana",
+      "address": "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump",
+      "source": "new",
+      "entry_price": 0.000133,
+      "peak_price": 0.0002232,
+      "trailing_active": true,
+      "entry_time": "2026-08-24T19:01:17.222611+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 43.31,
+      "peak_volume_m5": 257471.78,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001906,
+      "exit_pct": 43.31,
+      "exit_time": "2026-08-24T19:09:59.905530+00:00"
     }
   ],
   "alerted": {
@@ -123569,6 +123573,7 @@
     "0x767b0fB5B4d447991e2424684A1Db3f4299aA550": "2026-08-24T18:07:06.006621+00:00",
     "0x224E5054493B9496082d8c4A26954A83fD586135": "2026-08-24T18:18:35.329501+00:00",
     "5sXYkaLPcBW6SyY5SKvYzEBQY4YJQbHNUieSPLLQpump": "2026-08-24T18:24:52.950951+00:00",
-    "EgEF7Ni6q3bjCoywd4Rsumyt6eeXJDHb1PHjR9Pgpump": "2026-08-24T18:58:39.954434+00:00"
+    "EgEF7Ni6q3bjCoywd4Rsumyt6eeXJDHb1PHjR9Pgpump": "2026-08-24T18:58:39.954434+00:00",
+    "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump": "2026-08-24T19:09:59.905530+00:00"
   }
 }
