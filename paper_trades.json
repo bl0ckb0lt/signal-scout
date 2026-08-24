@@ -14,7 +14,7 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -1.84,
+      "current_pct": 1.47,
       "peak_volume_m5": 9001.99,
       "milestones_hit": []
     },
@@ -29,23 +29,10 @@
       "entry_time": "2026-08-24T21:11:35.525891+00:00",
       "score": 72,
       "status": "open",
-      "api_failures": 2,
-      "current_pct": 12.06,
+      "api_failures": 0,
+      "current_pct": 3.94,
       "peak_volume_m5": 65126.28,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AGENTS",
-      "chain": "solana",
-      "address": "5vUQ5rVsgHMxJcKPVvhreZy4oCepDudGLgpDfHH2pump",
-      "source": "new",
-      "entry_price": 0.0002787,
-      "peak_price": 0.0002787,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T21:18:53.858939+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 1
     }
   ],
   "closed": [
@@ -117945,6 +117932,25 @@
       "exit_price": 7.947e-05,
       "exit_pct": -9.79,
       "exit_time": "2026-08-24T21:17:13.910851+00:00"
+    },
+    {
+      "symbol": "AGENTS",
+      "chain": "solana",
+      "address": "5vUQ5rVsgHMxJcKPVvhreZy4oCepDudGLgpDfHH2pump",
+      "source": "new",
+      "entry_price": 0.0002787,
+      "peak_price": 0.0002787,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T21:18:53.858939+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -72.39,
+      "peak_volume_m5": 299615.34,
+      "milestones_hit": [],
+      "exit_price": 7.694e-05,
+      "exit_pct": -72.39,
+      "exit_time": "2026-08-24T21:22:46.860814+00:00"
     }
   ],
   "alerted": {
@@ -123915,6 +123921,7 @@
     "0x7CE0fD9d14Fd0758c1Ce2bFcD8C5C2050EcCfff4": "2026-08-24T21:03:56.818602+00:00",
     "CFbChHeejJBFDLVEx6Tcb9umSwVdA4L3xyenrhTapump": "2026-08-24T21:07:40.882977+00:00",
     "DCop3mFzWn1wJL9J9cTZ2K8xF7YH14q7LaUhsuyQpump": "2026-08-24T21:15:02.225982+00:00",
-    "2gFxXdy5rsvoUB7ZFJVswVSapzjTyBowyTuaA4bRbonk": "2026-08-24T21:17:13.910851+00:00"
+    "2gFxXdy5rsvoUB7ZFJVswVSapzjTyBowyTuaA4bRbonk": "2026-08-24T21:17:13.910851+00:00",
+    "5vUQ5rVsgHMxJcKPVvhreZy4oCepDudGLgpDfHH2pump": "2026-08-24T21:22:46.860814+00:00"
   }
 }
