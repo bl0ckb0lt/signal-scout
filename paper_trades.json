@@ -12,19 +12,8 @@
       "trailing_active": false,
       "entry_time": "2026-08-24T17:41:14.871779+00:00",
       "score": 79,
-      "status": "open"
-    },
-    {
-      "symbol": "Meeko",
-      "chain": "robinhood",
-      "address": "0x8b858dB8352Cc3f45B9E46C8D7203f616bC983fF",
-      "source": "new",
-      "entry_price": 8.692e-05,
-      "peak_price": 8.692e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T17:41:18.410107+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 1
     }
   ],
   "closed": [
@@ -117435,6 +117424,25 @@
       "exit_price": 0.0001287,
       "exit_pct": -24.2,
       "exit_time": "2026-08-24T17:22:56.445276+00:00"
+    },
+    {
+      "symbol": "Meeko",
+      "chain": "robinhood",
+      "address": "0x8b858dB8352Cc3f45B9E46C8D7203f616bC983fF",
+      "source": "new",
+      "entry_price": 8.692e-05,
+      "peak_price": 8.692e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T17:41:18.410107+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.95,
+      "peak_volume_m5": 51150.42,
+      "milestones_hit": [],
+      "exit_price": 7.914e-05,
+      "exit_pct": -8.95,
+      "exit_time": "2026-08-24T17:43:13.848827+00:00"
     }
   ],
   "alerted": {
@@ -123380,6 +123388,7 @@
     "0xEf1E335AED8469114eCc4889ea68D7d2cE498cd8": "2026-08-24T16:46:34.068781+00:00",
     "0xb200000000000000000000E5fEAc7A21f849e601": "2026-08-24T17:00:45.734270+00:00",
     "7En4udXkF45E5kd2FSk4WKYSCYksdzUwMk7ocuAUpump": "2026-08-24T17:22:55.770513+00:00",
-    "AP8Wnu37Gf9RHgugPKGvpHe6LcTE2yp5GDy7pL5Upump": "2026-08-24T17:22:56.445276+00:00"
+    "AP8Wnu37Gf9RHgugPKGvpHe6LcTE2yp5GDy7pL5Upump": "2026-08-24T17:22:56.445276+00:00",
+    "0x8b858dB8352Cc3f45B9E46C8D7203f616bC983fF": "2026-08-24T17:43:13.848827+00:00"
   }
 }
