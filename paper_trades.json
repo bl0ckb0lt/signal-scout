@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Presley",
-      "chain": "base",
-      "address": "0xb2000000000000000000006dE4b70f9295cC7055",
-      "source": "new",
-      "entry_price": 6.05e-05,
-      "peak_price": 6.05e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T20:01:15.080119+00:00",
-      "score": 63,
-      "status": "open"
-    },
-    {
       "symbol": "\ud83d\ude80",
       "chain": "robinhood",
       "address": "0x6B12ec435f15F823ee3C550e9013123e4187429B",
       "source": "new",
       "entry_price": 0.0002829,
-      "peak_price": 0.0002829,
+      "peak_price": 0.0002845,
       "trailing_active": false,
       "entry_time": "2026-08-24T20:01:16.617965+00:00",
       "score": 61,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.57,
+      "peak_volume_m5": 87.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -117672,6 +117664,25 @@
       "exit_price": 0.0003431,
       "exit_pct": 30.21,
       "exit_time": "2026-08-24T19:36:13.109312+00:00"
+    },
+    {
+      "symbol": "Presley",
+      "chain": "base",
+      "address": "0xb2000000000000000000006dE4b70f9295cC7055",
+      "source": "new",
+      "entry_price": 6.05e-05,
+      "peak_price": 6.05e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T20:01:15.080119+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.0,
+      "peak_volume_m5": 34812.94,
+      "milestones_hit": [],
+      "exit_price": 4.719e-05,
+      "exit_pct": -22.0,
+      "exit_time": "2026-08-24T20:05:26.659120+00:00"
     }
   ],
   "alerted": {
@@ -123629,6 +123640,7 @@
     "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump": "2026-08-24T19:09:59.905530+00:00",
     "DUPeGi6stKK5zGgVQLc4V8GkZ9o11MucZ5CNXDoYpump": "2026-08-24T19:12:53.090806+00:00",
     "0x6e36f48e268e9CA1Ef280690b712BC8D1057dA2b": "2026-08-24T19:33:35.869160+00:00",
-    "6XPcEY6XbhjKmfnrvA3y6QQvNp4rYLV6v3Hm5b4Mpump": "2026-08-24T19:36:13.109312+00:00"
+    "6XPcEY6XbhjKmfnrvA3y6QQvNp4rYLV6v3Hm5b4Mpump": "2026-08-24T19:36:13.109312+00:00",
+    "0xb2000000000000000000006dE4b70f9295cC7055": "2026-08-24T20:05:26.659120+00:00"
   }
 }
