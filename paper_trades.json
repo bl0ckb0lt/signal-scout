@@ -14,7 +14,7 @@
       "score": 99,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.21,
+      "current_pct": 12.41,
       "peak_volume_m5": 31107.52,
       "milestones_hit": []
     },
@@ -24,27 +24,15 @@
       "address": "82oCCbBEjBhj7o5FRAHdB3ysVaTBmYTLiPUoYJ3fpump",
       "source": "new",
       "entry_price": 0.0001131,
-      "peak_price": 0.0001215,
-      "trailing_active": false,
+      "peak_price": 0.0001339,
+      "trailing_active": true,
       "entry_time": "2026-08-24T15:41:28.246687+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.43,
+      "current_pct": 18.39,
       "peak_volume_m5": 32021.91,
       "milestones_hit": []
-    },
-    {
-      "symbol": "STONKEX",
-      "chain": "base",
-      "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
-      "source": "new",
-      "entry_price": 0.0003797,
-      "peak_price": 0.0003797,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T15:51:45.112961+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -117200,6 +117188,25 @@
       "exit_price": 0.0002066,
       "exit_pct": -15.47,
       "exit_time": "2026-08-24T15:37:45.305253+00:00"
+    },
+    {
+      "symbol": "STONKEX",
+      "chain": "base",
+      "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
+      "source": "new",
+      "entry_price": 0.0003797,
+      "peak_price": 0.0003797,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T15:51:45.112961+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.75,
+      "peak_volume_m5": 29409.73,
+      "milestones_hit": [],
+      "exit_price": 0.0003237,
+      "exit_pct": -14.75,
+      "exit_time": "2026-08-24T15:52:51.923981+00:00"
     }
   ],
   "alerted": {
@@ -123132,6 +123139,7 @@
     "0x0D257cA40d40090BE60C2d2Ed5bB3535392838cc": "2026-08-24T15:08:32.988038+00:00",
     "CnA2YrSrg7B6BFoPxJbmRHT8a1ReQKjVJUdPWcZQpump": "2026-08-24T15:26:11.101299+00:00",
     "HnftgdJEXnLNoVUnstqjxGeNwgnAjT1TJoa2hTenpump": "2026-08-24T15:28:05.125486+00:00",
-    "0xc3a08f09A45698645830Fa2D07Fa848cBef2A2a0": "2026-08-24T15:37:45.305253+00:00"
+    "0xc3a08f09A45698645830Fa2D07Fa848cBef2A2a0": "2026-08-24T15:37:45.305253+00:00",
+    "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": "2026-08-24T15:52:51.923981+00:00"
   }
 }
