@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CYBERCOIN",
-      "chain": "solana",
-      "address": "HUPvAoT8ZPCwPY7om6n6Zp4YufunEhTLamLWzpv5pump",
-      "source": "boost",
-      "entry_price": 0.0001117,
-      "peak_price": 0.0001117,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T07:51:21.199116+00:00",
-      "score": 94,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.57,
-      "peak_volume_m5": 37600.7,
-      "milestones_hit": []
-    },
-    {
       "symbol": "GrokBot",
       "chain": "solana",
       "address": "GeSfrQiscfsEv4Hx2TKaB9Nfid12qND1YYRYS1vSpump",
@@ -30,24 +14,8 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.88,
+      "current_pct": -5.65,
       "peak_volume_m5": 29670.37,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "ONLYCYBER",
-      "chain": "solana",
-      "address": "ARRAFe6ypmUGPWQVBiQQauzHiwft5cgWxrfuavompump",
-      "source": "new",
-      "entry_price": 0.0001133,
-      "peak_price": 0.0001672,
-      "trailing_active": true,
-      "entry_time": "2026-08-24T07:57:24.279403+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 47.57,
-      "peak_volume_m5": 43139.75,
       "milestones_hit": []
     }
   ],
@@ -116725,6 +116693,44 @@
       "exit_price": 0.0001681,
       "exit_pct": -19.68,
       "exit_time": "2026-08-24T07:59:07.690852+00:00"
+    },
+    {
+      "symbol": "CYBERCOIN",
+      "chain": "solana",
+      "address": "HUPvAoT8ZPCwPY7om6n6Zp4YufunEhTLamLWzpv5pump",
+      "source": "boost",
+      "entry_price": 0.0001117,
+      "peak_price": 0.0001117,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T07:51:21.199116+00:00",
+      "score": 94,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.42,
+      "peak_volume_m5": 37600.7,
+      "milestones_hit": [],
+      "exit_price": 8.666e-05,
+      "exit_pct": -22.42,
+      "exit_time": "2026-08-24T08:00:03.672695+00:00"
+    },
+    {
+      "symbol": "ONLYCYBER",
+      "chain": "solana",
+      "address": "ARRAFe6ypmUGPWQVBiQQauzHiwft5cgWxrfuavompump",
+      "source": "new",
+      "entry_price": 0.0001133,
+      "peak_price": 0.0001672,
+      "trailing_active": true,
+      "entry_time": "2026-08-24T07:57:24.279403+00:00",
+      "score": 78,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 20.74,
+      "peak_volume_m5": 43139.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001368,
+      "exit_pct": 20.74,
+      "exit_time": "2026-08-24T08:00:04.701982+00:00"
     }
   ],
   "alerted": {
@@ -122633,6 +122639,8 @@
     "0x27e816FbFb859CCa41aaFF9833A024E3528F43f3": "2026-08-24T07:45:59.297008+00:00",
     "0xDf3B0261FB011F508D4352B937769C7bc71CaD13": "2026-08-24T07:52:43.061074+00:00",
     "8GigNuJwZNixuECrF22cssjHMaBr76nyZFXb3c46pump": "2026-08-24T07:59:06.579876+00:00",
-    "G8xH8FZAyhfUHw6AzavVYrXA3Q2Jb9EDnpVJCFUTpump": "2026-08-24T07:59:07.690852+00:00"
+    "G8xH8FZAyhfUHw6AzavVYrXA3Q2Jb9EDnpVJCFUTpump": "2026-08-24T07:59:07.690852+00:00",
+    "HUPvAoT8ZPCwPY7om6n6Zp4YufunEhTLamLWzpv5pump": "2026-08-24T08:00:03.672695+00:00",
+    "ARRAFe6ypmUGPWQVBiQQauzHiwft5cgWxrfuavompump": "2026-08-24T08:00:04.701982+00:00"
   }
 }
