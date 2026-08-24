@@ -14,7 +14,7 @@
       "score": 99,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 22.97,
+      "current_pct": 15.01,
       "peak_volume_m5": 31107.52,
       "milestones_hit": []
     },
@@ -24,35 +24,15 @@
       "address": "HBDkJT9kMc12usUrcZDpWyfr7kvTTEfvbeyofL1gpump",
       "source": "new",
       "entry_price": 0.0002244,
-      "peak_price": 0.0002244,
+      "peak_price": 0.0002367,
       "trailing_active": false,
       "entry_time": "2026-08-24T16:21:32.124597+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "CYBERKILLER",
-      "chain": "solana",
-      "address": "Gd8JxP9W2i9ccnC6psU7gVbVzE9DHHYwNgVtQ3tWpump",
-      "source": "new",
-      "entry_price": 0.0001488,
-      "peak_price": 0.0001488,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T16:21:34.062737+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "BIGBALLS",
-      "chain": "solana",
-      "address": "8iwHSrQiWAdsB9w4eJX38Bp2gVistxpTtTkesADpump",
-      "source": "new",
-      "entry_price": 0.0005068,
-      "peak_price": 0.0005068,
-      "trailing_active": false,
-      "entry_time": "2026-08-24T16:21:35.902886+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.48,
+      "peak_volume_m5": 17358.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -117284,6 +117264,44 @@
       "exit_price": 0.0001116,
       "exit_pct": -22.87,
       "exit_time": "2026-08-24T16:14:53.915893+00:00"
+    },
+    {
+      "symbol": "CYBERKILLER",
+      "chain": "solana",
+      "address": "Gd8JxP9W2i9ccnC6psU7gVbVzE9DHHYwNgVtQ3tWpump",
+      "source": "new",
+      "entry_price": 0.0001488,
+      "peak_price": 0.0001488,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T16:21:34.062737+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.33,
+      "peak_volume_m5": 31548.78,
+      "milestones_hit": [],
+      "exit_price": 0.0001126,
+      "exit_pct": -24.33,
+      "exit_time": "2026-08-24T16:23:12.620979+00:00"
+    },
+    {
+      "symbol": "BIGBALLS",
+      "chain": "solana",
+      "address": "8iwHSrQiWAdsB9w4eJX38Bp2gVistxpTtTkesADpump",
+      "source": "new",
+      "entry_price": 0.0005068,
+      "peak_price": 0.0005068,
+      "trailing_active": false,
+      "entry_time": "2026-08-24T16:21:35.902886+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.11,
+      "peak_volume_m5": 53350.8,
+      "milestones_hit": [],
+      "exit_price": 0.0004049,
+      "exit_pct": -20.11,
+      "exit_time": "2026-08-24T16:23:13.453961+00:00"
     }
   ],
   "alerted": {
@@ -123220,6 +123238,8 @@
     "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": "2026-08-24T15:52:51.923981+00:00",
     "82oCCbBEjBhj7o5FRAHdB3ysVaTBmYTLiPUoYJ3fpump": "2026-08-24T15:54:45.722361+00:00",
     "0xAB30280514716c626f80199AfAe6A8359c6C0e65": "2026-08-24T16:04:03.825543+00:00",
-    "DdY875pAAf8ySst1dRnAfHf2bGMFy8TDtHqTAr3upump": "2026-08-24T16:14:53.915893+00:00"
+    "DdY875pAAf8ySst1dRnAfHf2bGMFy8TDtHqTAr3upump": "2026-08-24T16:14:53.915893+00:00",
+    "Gd8JxP9W2i9ccnC6psU7gVbVzE9DHHYwNgVtQ3tWpump": "2026-08-24T16:23:12.620979+00:00",
+    "8iwHSrQiWAdsB9w4eJX38Bp2gVistxpTtTkesADpump": "2026-08-24T16:23:13.453961+00:00"
   }
 }
