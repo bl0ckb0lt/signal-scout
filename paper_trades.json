@@ -8,23 +8,15 @@
       "address": "9orRZbVL3zontHSVC92p9LSUTdCFbYtqCdSDdKPpump",
       "source": "new",
       "entry_price": 0.0001347,
-      "peak_price": 0.0001347,
+      "peak_price": 0.0001441,
       "trailing_active": false,
       "entry_time": "2026-08-25T15:11:20.739595+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "FUND",
-      "chain": "robinhood",
-      "address": "0x98af77d765465928062c1aBB28DC7A8c0366c13E",
-      "source": "new",
-      "entry_price": 0.001213,
-      "peak_price": 0.001213,
-      "trailing_active": false,
-      "entry_time": "2026-08-25T15:11:24.571894+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.98,
+      "peak_volume_m5": 21907.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -119200,6 +119192,25 @@
       "exit_price": 0.0001815,
       "exit_pct": 2.43,
       "exit_time": "2026-08-25T15:05:23.509245+00:00"
+    },
+    {
+      "symbol": "FUND",
+      "chain": "robinhood",
+      "address": "0x98af77d765465928062c1aBB28DC7A8c0366c13E",
+      "source": "new",
+      "entry_price": 0.001213,
+      "peak_price": 0.001213,
+      "trailing_active": false,
+      "entry_time": "2026-08-25T15:11:24.571894+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -37.25,
+      "peak_volume_m5": 54580.4,
+      "milestones_hit": [],
+      "exit_price": 0.0007612,
+      "exit_pct": -37.25,
+      "exit_time": "2026-08-25T15:12:43.951009+00:00"
     }
   ],
   "alerted": {
@@ -125235,6 +125246,7 @@
     "0xF7b62CE0D4281F45414672aa9D92C6e15C10D85e": "2026-08-25T14:14:04.822974+00:00",
     "0xB20000000000000000000035f24d6ca214698B37": "2026-08-25T14:24:03.757043+00:00",
     "0x1D913FD1bd88A1863CBA2428Ad82Ff05A4797777": "2026-08-25T14:42:59.492685+00:00",
-    "6FPpLK4EzKe1sjC5oyZXfBcVhNbjjJE9pxunpWCTpump": "2026-08-25T15:05:23.509245+00:00"
+    "6FPpLK4EzKe1sjC5oyZXfBcVhNbjjJE9pxunpWCTpump": "2026-08-25T15:05:23.509245+00:00",
+    "0x98af77d765465928062c1aBB28DC7A8c0366c13E": "2026-08-25T15:12:43.951009+00:00"
   }
 }
