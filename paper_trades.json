@@ -8,23 +8,15 @@
       "address": "0x9E443FD81d8a516f214e89750c017EFE0E371Fd3",
       "source": "new",
       "entry_price": 27.24,
-      "peak_price": 27.24,
-      "trailing_active": false,
+      "peak_price": 37.41,
+      "trailing_active": true,
       "entry_time": "2026-08-25T18:41:07.623469+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "PONSBANK",
-      "chain": "robinhood",
-      "address": "0x977a01F816Afa959C9D618502E0A07A2535680cC",
-      "source": "new",
-      "entry_price": 7.793e-05,
-      "peak_price": 7.793e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-25T18:41:09.267813+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.33,
+      "peak_volume_m5": 141967.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -119710,6 +119702,25 @@
       "exit_price": 0.0002976,
       "exit_pct": -14.87,
       "exit_time": "2026-08-25T18:32:48.804526+00:00"
+    },
+    {
+      "symbol": "PONSBANK",
+      "chain": "robinhood",
+      "address": "0x977a01F816Afa959C9D618502E0A07A2535680cC",
+      "source": "new",
+      "entry_price": 7.793e-05,
+      "peak_price": 7.793e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-25T18:41:09.267813+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.01,
+      "peak_volume_m5": 3547.3,
+      "milestones_hit": [],
+      "exit_price": 6.701e-05,
+      "exit_pct": -14.01,
+      "exit_time": "2026-08-25T18:43:15.500114+00:00"
     }
   ],
   "alerted": {
@@ -125771,6 +125782,7 @@
     "ADv8SUAifY5VtrWVP3VnfXFJZhPcGM3WCvu8K2SRpump": "2026-08-25T18:12:58.566857+00:00",
     "3CCFFVtM1gS4ZU9Go146iDYut6VuNLG4NDgQWh3Rpump": "2026-08-25T18:15:01.224909+00:00",
     "0x32aE456d3CA6BA937d27B9078fD1EA12112fAE96": "2026-08-25T18:32:47.723819+00:00",
-    "EVpszSRyQok4M6Fo5wTdC58WBJpx65y5VZGmmjm4pump": "2026-08-25T18:32:48.804526+00:00"
+    "EVpszSRyQok4M6Fo5wTdC58WBJpx65y5VZGmmjm4pump": "2026-08-25T18:32:48.804526+00:00",
+    "0x977a01F816Afa959C9D618502E0A07A2535680cC": "2026-08-25T18:43:15.500114+00:00"
   }
 }
