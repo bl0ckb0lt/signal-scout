@@ -8,27 +8,18 @@
       "address": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
       "source": "new",
       "entry_price": 0.0008629,
-      "peak_price": 0.001255,
+      "peak_price": 0.001773,
       "trailing_active": true,
       "entry_time": "2026-08-25T20:31:09.374623+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 42.77,
+      "current_pct": 105.47,
       "peak_volume_m5": 370532.7,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MARTIANS",
-      "chain": "robinhood",
-      "address": "0x282baf42B2a50Bffd00d0B8755146d2eBb8A957B",
-      "source": "new",
-      "entry_price": 0.0006693,
-      "peak_price": 0.0006693,
-      "trailing_active": false,
-      "entry_time": "2026-08-25T20:41:23.244903+00:00",
-      "score": 81,
-      "status": "open"
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -120009,6 +120000,25 @@
       "exit_price": 0.0007527,
       "exit_pct": 271.52,
       "exit_time": "2026-08-25T20:39:56.050825+00:00"
+    },
+    {
+      "symbol": "MARTIANS",
+      "chain": "robinhood",
+      "address": "0x282baf42B2a50Bffd00d0B8755146d2eBb8A957B",
+      "source": "new",
+      "entry_price": 0.0006693,
+      "peak_price": 0.0006693,
+      "trailing_active": false,
+      "entry_time": "2026-08-25T20:41:23.244903+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.0,
+      "peak_volume_m5": 78145.69,
+      "milestones_hit": [],
+      "exit_price": 0.0005555,
+      "exit_pct": -17.0,
+      "exit_time": "2026-08-25T20:42:40.512022+00:00"
     }
   ],
   "alerted": {
@@ -126085,6 +126095,7 @@
     "0x75eEB81b6af4e9B88579aA2E6E2FDBAAf6D8f837": "2026-08-25T19:45:56.775434+00:00",
     "772iJKecjhdRHX9LXkgzXipnofsYxmDcMJKWS7c9pump": "2026-08-25T19:57:13.244493+00:00",
     "HPra59G7cUUhE1k8PHDEPkxKD8m4KoJYgMGHJSrFpump": "2026-08-25T20:17:40.536176+00:00",
-    "0x7Dd45638A6011C26642eF11EA63d697f85ad8c81": "2026-08-25T20:39:56.050825+00:00"
+    "0x7Dd45638A6011C26642eF11EA63d697f85ad8c81": "2026-08-25T20:39:56.050825+00:00",
+    "0x282baf42B2a50Bffd00d0B8755146d2eBb8A957B": "2026-08-25T20:42:40.512022+00:00"
   }
 }
