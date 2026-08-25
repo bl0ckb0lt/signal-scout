@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BROCCOLI",
-      "chain": "bsc",
-      "address": "0x0B7134012d950f0b5d935d1783d0278ac16b7777",
-      "source": "new",
-      "entry_price": 0.0001112,
-      "peak_price": 0.0001122,
-      "trailing_active": false,
-      "entry_time": "2026-08-25T17:31:24.214200+00:00",
-      "score": 69,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.9,
-      "peak_volume_m5": 2537.82,
-      "milestones_hit": []
-    },
-    {
       "symbol": "JohnPork",
       "chain": "solana",
       "address": "4B3H7K4Kv1kqX2d6i4kZ5SawvegeEG5RM2VvG9Kipump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-25T17:41:19.945349+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.77,
+      "peak_volume_m5": 37014.9,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -119597,6 +119585,25 @@
       "exit_price": 0.0001835,
       "exit_pct": 53.3,
       "exit_time": "2026-08-25T17:32:33.454102+00:00"
+    },
+    {
+      "symbol": "BROCCOLI",
+      "chain": "bsc",
+      "address": "0x0B7134012d950f0b5d935d1783d0278ac16b7777",
+      "source": "new",
+      "entry_price": 0.0001112,
+      "peak_price": 0.0001122,
+      "trailing_active": false,
+      "entry_time": "2026-08-25T17:31:24.214200+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.65,
+      "peak_volume_m5": 3232.27,
+      "milestones_hit": [],
+      "exit_price": 9.936e-05,
+      "exit_pct": -10.65,
+      "exit_time": "2026-08-25T17:42:48.092854+00:00"
     }
   ],
   "alerted": {
@@ -125652,6 +125659,7 @@
     "0x24626F1EC846E2d0c31c055e1A3e633B65521652": "2026-08-25T17:02:56.848965+00:00",
     "33Yjh16AJKCPRWAtag2P4DT53794XEX3BdWL2jgcpump": "2026-08-25T17:13:58.125702+00:00",
     "0xF5E54D73527597C238A5436Ec20E98AcF0138369": "2026-08-25T17:13:58.966230+00:00",
-    "4kKgb1AyKo3xpbspPk6PkRxaaUtiYw3FLPbSpbZxpump": "2026-08-25T17:32:33.454102+00:00"
+    "4kKgb1AyKo3xpbspPk6PkRxaaUtiYw3FLPbSpbZxpump": "2026-08-25T17:32:33.454102+00:00",
+    "0x0B7134012d950f0b5d935d1783d0278ac16b7777": "2026-08-25T17:42:48.092854+00:00"
   }
 }
