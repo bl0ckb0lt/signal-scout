@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-26T13:31:10.435222+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "PISTASOL",
-      "chain": "solana",
-      "address": "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump",
-      "source": "new",
-      "entry_price": 0.0001671,
-      "peak_price": 0.0001671,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T13:31:12.435431+00:00",
-      "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -8.81,
+      "peak_volume_m5": 44077.43,
+      "milestones_hit": []
     },
     {
       "symbol": "Titan",
@@ -32,11 +24,15 @@
       "address": "0x3e75B241FFb35C909A3b3A4Dd3cB9Dcdc468FCa6",
       "source": "new",
       "entry_price": 0.0009547,
-      "peak_price": 0.0009547,
-      "trailing_active": false,
+      "peak_price": 0.001152,
+      "trailing_active": true,
       "entry_time": "2026-08-26T13:31:13.975515+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.67,
+      "peak_volume_m5": 106832.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -121155,6 +121151,25 @@
       "exit_price": 0.0004015,
       "exit_pct": 253.43,
       "exit_time": "2026-08-26T13:17:35.248514+00:00"
+    },
+    {
+      "symbol": "PISTASOL",
+      "chain": "solana",
+      "address": "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump",
+      "source": "new",
+      "entry_price": 0.0001671,
+      "peak_price": 0.0001671,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T13:31:12.435431+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.13,
+      "peak_volume_m5": 37764.37,
+      "milestones_hit": [],
+      "exit_price": 0.0001251,
+      "exit_pct": -25.13,
+      "exit_time": "2026-08-26T13:32:05.288205+00:00"
     }
   ],
   "alerted": {
@@ -127287,6 +127302,7 @@
     "0x9aC5377718A52D840105Df28cF0b49312D9b7777": "2026-08-26T11:57:06.589846+00:00",
     "CsVBNQijeDY28yG4GLkeGE5p3Nic1BPv5M4mX6wTpump": "2026-08-26T12:28:46.756577+00:00",
     "4AtayUU6mSoEWWNeJbtc21fYLPArvpUBYebpkDXBpump": "2026-08-26T12:53:47.180996+00:00",
-    "0x3f6a33df13763c0f9b3386e904ca180a2839dfa3": "2026-08-26T13:17:35.248514+00:00"
+    "0x3f6a33df13763c0f9b3386e904ca180a2839dfa3": "2026-08-26T13:17:35.248514+00:00",
+    "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump": "2026-08-26T13:32:05.288205+00:00"
   }
 }
