@@ -3,36 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Trumpacio",
-      "chain": "solana",
-      "address": "DiSMPvKJMJMFsmb1ThZ8vrvF1NcDy79idrkE2SVipump",
-      "source": "new",
-      "entry_price": 0.0001487,
-      "peak_price": 0.0001487,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T13:31:10.435222+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -8.81,
-      "peak_volume_m5": 44077.43,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Titan",
       "chain": "robinhood",
       "address": "0x3e75B241FFb35C909A3b3A4Dd3cB9Dcdc468FCa6",
       "source": "new",
       "entry_price": 0.0009547,
-      "peak_price": 0.001152,
+      "peak_price": 0.001486,
       "trailing_active": true,
       "entry_time": "2026-08-26T13:31:13.975515+00:00",
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 20.67,
+      "current_pct": 55.65,
       "peak_volume_m5": 106832.93,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -121170,6 +121156,25 @@
       "exit_price": 0.0001251,
       "exit_pct": -25.13,
       "exit_time": "2026-08-26T13:32:05.288205+00:00"
+    },
+    {
+      "symbol": "Trumpacio",
+      "chain": "solana",
+      "address": "DiSMPvKJMJMFsmb1ThZ8vrvF1NcDy79idrkE2SVipump",
+      "source": "new",
+      "entry_price": 0.0001487,
+      "peak_price": 0.0001487,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T13:31:10.435222+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.99,
+      "peak_volume_m5": 45320.25,
+      "milestones_hit": [],
+      "exit_price": 0.0001279,
+      "exit_pct": -13.99,
+      "exit_time": "2026-08-26T13:33:03.306916+00:00"
     }
   ],
   "alerted": {
@@ -127303,6 +127308,7 @@
     "CsVBNQijeDY28yG4GLkeGE5p3Nic1BPv5M4mX6wTpump": "2026-08-26T12:28:46.756577+00:00",
     "4AtayUU6mSoEWWNeJbtc21fYLPArvpUBYebpkDXBpump": "2026-08-26T12:53:47.180996+00:00",
     "0x3f6a33df13763c0f9b3386e904ca180a2839dfa3": "2026-08-26T13:17:35.248514+00:00",
-    "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump": "2026-08-26T13:32:05.288205+00:00"
+    "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump": "2026-08-26T13:32:05.288205+00:00",
+    "DiSMPvKJMJMFsmb1ThZ8vrvF1NcDy79idrkE2SVipump": "2026-08-26T13:33:03.306916+00:00"
   }
 }
