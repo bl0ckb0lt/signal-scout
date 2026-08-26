@@ -3,48 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ROBIN",
-      "chain": "robinhood",
-      "address": "0xFcCC7289FbDAD2e80370d8D4C6443A132F9E6159",
-      "source": "new",
-      "entry_price": 4.688e-05,
-      "peak_price": 0.0001464,
-      "trailing_active": true,
-      "entry_time": "2026-08-26T19:21:07.572434+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 212.29,
-      "peak_volume_m5": 62567.67,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "INVEST",
       "chain": "robinhood",
       "address": "0xf8B0Df029F2a48551768842659bE73D847d925ff",
       "source": "new",
       "entry_price": 0.004149,
-      "peak_price": 0.004149,
+      "peak_price": 0.004583,
       "trailing_active": false,
       "entry_time": "2026-08-26T19:31:05.891844+00:00",
       "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "CATANA",
-      "chain": "solana",
-      "address": "55zP8YPAHNEiomqv1U8WxkQdR3mRqE2bAMpT2Moupump",
-      "source": "new",
-      "entry_price": 0.0001224,
-      "peak_price": 0.0001224,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T19:31:07.822826+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.46,
+      "peak_volume_m5": 96790.47,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -121775,6 +121747,48 @@
       "exit_price": 9.181e-05,
       "exit_pct": -14.44,
       "exit_time": "2026-08-26T19:14:28.505125+00:00"
+    },
+    {
+      "symbol": "ROBIN",
+      "chain": "robinhood",
+      "address": "0xFcCC7289FbDAD2e80370d8D4C6443A132F9E6159",
+      "source": "new",
+      "entry_price": 4.688e-05,
+      "peak_price": 0.0001464,
+      "trailing_active": true,
+      "entry_time": "2026-08-26T19:21:07.572434+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 176.66,
+      "peak_volume_m5": 62567.67,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0001297,
+      "exit_pct": 176.66,
+      "exit_time": "2026-08-26T19:32:01.816973+00:00"
+    },
+    {
+      "symbol": "CATANA",
+      "chain": "solana",
+      "address": "55zP8YPAHNEiomqv1U8WxkQdR3mRqE2bAMpT2Moupump",
+      "source": "new",
+      "entry_price": 0.0001224,
+      "peak_price": 0.0001224,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T19:31:07.822826+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.88,
+      "peak_volume_m5": 76470.75,
+      "milestones_hit": [],
+      "exit_price": 9.195e-05,
+      "exit_pct": -24.88,
+      "exit_time": "2026-08-26T19:32:03.014238+00:00"
     }
   ],
   "alerted": {
@@ -127939,6 +127953,8 @@
     "0x09B174d4e1Ac04a0C19d252928D8b2da12d381a6": "2026-08-26T18:42:29.724698+00:00",
     "25UKP39G5sDwrGUMRozkaYhvAtJ7ayt9ap5qsXQLpump": "2026-08-26T18:44:24.420141+00:00",
     "0x25aB6C5CB50cfDe0b08cE68eC1F630Ef69Faa694": "2026-08-26T18:46:03.972046+00:00",
-    "3Z2E5U2K2F5HPngnzaHA1FnneMp4DYhmAdDTHCTvpump": "2026-08-26T19:14:28.505125+00:00"
+    "3Z2E5U2K2F5HPngnzaHA1FnneMp4DYhmAdDTHCTvpump": "2026-08-26T19:14:28.505125+00:00",
+    "0xFcCC7289FbDAD2e80370d8D4C6443A132F9E6159": "2026-08-26T19:32:01.816973+00:00",
+    "55zP8YPAHNEiomqv1U8WxkQdR3mRqE2bAMpT2Moupump": "2026-08-26T19:32:03.014238+00:00"
   }
 }
