@@ -3,30 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EWARN",
-      "chain": "solana",
-      "address": "5g2qeJGCUcc91YsxS34yqjUDvS7jXcZWd6jCpJt1pump",
-      "source": "new",
-      "entry_price": 0.0001163,
-      "peak_price": 0.0001163,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T03:30:45.136346+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "ber",
-      "chain": "solana",
-      "address": "2nUCpToc7jXoNRdJLhKZZRZU9rbMqNQgNb7KSXnmpump",
-      "source": "new",
-      "entry_price": 0.0001681,
-      "peak_price": 0.0001681,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T03:30:46.703490+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "BADGER",
       "chain": "solana",
       "address": "2FZjoWKuAZB2gyTwUSSGiDN1GVtydZ2T2smkCReJpump",
@@ -36,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-26T03:30:48.290093+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "fish",
-      "chain": "solana",
-      "address": "wraeuVRXjp5YibVC7zRY6xMjz35GrZnQttqSJAgpump",
-      "source": "new",
-      "entry_price": 0.0001643,
-      "peak_price": 0.0001643,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T03:30:49.882088+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.26,
+      "peak_volume_m5": 5124.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -120517,6 +120485,63 @@
       "exit_price": 0.0002805,
       "exit_pct": -16.47,
       "exit_time": "2026-08-26T03:15:45.316956+00:00"
+    },
+    {
+      "symbol": "EWARN",
+      "chain": "solana",
+      "address": "5g2qeJGCUcc91YsxS34yqjUDvS7jXcZWd6jCpJt1pump",
+      "source": "new",
+      "entry_price": 0.0001163,
+      "peak_price": 0.0001163,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T03:30:45.136346+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -37.0,
+      "peak_volume_m5": 139569.24,
+      "milestones_hit": [],
+      "exit_price": 7.327e-05,
+      "exit_pct": -37.0,
+      "exit_time": "2026-08-26T03:31:57.431331+00:00"
+    },
+    {
+      "symbol": "ber",
+      "chain": "solana",
+      "address": "2nUCpToc7jXoNRdJLhKZZRZU9rbMqNQgNb7KSXnmpump",
+      "source": "new",
+      "entry_price": 0.0001681,
+      "peak_price": 0.0001681,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T03:30:46.703490+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.69,
+      "peak_volume_m5": 26207.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001266,
+      "exit_pct": -24.69,
+      "exit_time": "2026-08-26T03:31:58.108990+00:00"
+    },
+    {
+      "symbol": "fish",
+      "chain": "solana",
+      "address": "wraeuVRXjp5YibVC7zRY6xMjz35GrZnQttqSJAgpump",
+      "source": "new",
+      "entry_price": 0.0001643,
+      "peak_price": 0.0001643,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T03:30:49.882088+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.3,
+      "peak_volume_m5": 156208.99,
+      "milestones_hit": [],
+      "exit_price": 9.645e-05,
+      "exit_pct": -41.3,
+      "exit_time": "2026-08-26T03:31:59.129992+00:00"
     }
   ],
   "alerted": {
@@ -126617,6 +126642,9 @@
     "CSZnMhi3MLu5Z2W3unxgMjZM4usKC7eNspXiZfgQpump": "2026-08-26T02:23:35.655717+00:00",
     "0xFf1504C3b2c3C3178E36472CE53A99CDD5e6a5Db": "2026-08-26T03:02:32.155209+00:00",
     "57L636DoJzp23Jzb3iLzhYj1FcF2LEK63s6tFg9Wpump": "2026-08-26T03:13:51.553001+00:00",
-    "2WbTSrJHr1hNCtmYBjuSetZNdsZWZ2eZTuK9GjNPpump": "2026-08-26T03:15:45.316956+00:00"
+    "2WbTSrJHr1hNCtmYBjuSetZNdsZWZ2eZTuK9GjNPpump": "2026-08-26T03:15:45.316956+00:00",
+    "5g2qeJGCUcc91YsxS34yqjUDvS7jXcZWd6jCpJt1pump": "2026-08-26T03:31:57.431331+00:00",
+    "2nUCpToc7jXoNRdJLhKZZRZU9rbMqNQgNb7KSXnmpump": "2026-08-26T03:31:58.108990+00:00",
+    "wraeuVRXjp5YibVC7zRY6xMjz35GrZnQttqSJAgpump": "2026-08-26T03:31:59.129992+00:00"
   }
 }
