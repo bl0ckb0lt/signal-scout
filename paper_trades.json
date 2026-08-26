@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PISTACHIO",
-      "chain": "solana",
-      "address": "G6iuKxHsQ5L4ak5SfkdMurDyGbaQMRetrwio31NXpump",
-      "source": "new",
-      "entry_price": 0.0001425,
-      "peak_price": 0.0001425,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T14:30:59.329583+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "Trumptacio",
       "chain": "solana",
       "address": "CShtC5BK4PzpMgH7oKZNtULqyu78ssBaByZhpLJHpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-26T14:31:00.946212+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.11,
+      "peak_volume_m5": 29907.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -121202,6 +121194,25 @@
       "exit_price": 0.001294,
       "exit_pct": 35.54,
       "exit_time": "2026-08-26T13:33:55.894864+00:00"
+    },
+    {
+      "symbol": "PISTACHIO",
+      "chain": "solana",
+      "address": "G6iuKxHsQ5L4ak5SfkdMurDyGbaQMRetrwio31NXpump",
+      "source": "new",
+      "entry_price": 0.0001425,
+      "peak_price": 0.0001425,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T14:30:59.329583+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.67,
+      "peak_volume_m5": 22547.04,
+      "milestones_hit": [],
+      "exit_price": 0.0001216,
+      "exit_pct": -14.67,
+      "exit_time": "2026-08-26T14:32:16.644206+00:00"
     }
   ],
   "alerted": {
@@ -127337,6 +127348,7 @@
     "0x3f6a33df13763c0f9b3386e904ca180a2839dfa3": "2026-08-26T13:17:35.248514+00:00",
     "AggG24EkQCbwZS7VDQYc7XPDMrsC3UkdB4V8wFe8pump": "2026-08-26T13:32:05.288205+00:00",
     "DiSMPvKJMJMFsmb1ThZ8vrvF1NcDy79idrkE2SVipump": "2026-08-26T13:33:03.306916+00:00",
-    "0x3e75B241FFb35C909A3b3A4Dd3cB9Dcdc468FCa6": "2026-08-26T13:33:55.894864+00:00"
+    "0x3e75B241FFb35C909A3b3A4Dd3cB9Dcdc468FCa6": "2026-08-26T13:33:55.894864+00:00",
+    "G6iuKxHsQ5L4ak5SfkdMurDyGbaQMRetrwio31NXpump": "2026-08-26T14:32:16.644206+00:00"
   }
 }
