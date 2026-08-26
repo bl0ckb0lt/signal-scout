@@ -1,56 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "BISCOTTI",
-      "chain": "robinhood",
-      "address": "0x7e0828788F490E4915556A0411aa17474607C923",
-      "source": "new",
-      "entry_price": 0.01581,
-      "peak_price": 0.02275,
-      "trailing_active": true,
-      "entry_time": "2026-08-26T18:21:18.043128+00:00",
-      "score": 88,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 43.9,
-      "peak_volume_m5": 234396.87,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "holycoin",
-      "chain": "solana",
-      "address": "DaAT9UNaVrEDLetWiyYmQonHEZcg1JmXNyhShn9ypump",
-      "source": "new",
-      "entry_price": 0.0001752,
-      "peak_price": 0.0001851,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T18:21:21.415203+00:00",
-      "score": 69,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 5.65,
-      "peak_volume_m5": 38947.55,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Beni",
-      "chain": "solana",
-      "address": "GUhHr6PewaLZ6S3LRVeHKXzXHEMeHNhCmuyBhpnCpmAG",
-      "source": "new",
-      "entry_price": 0.0001308,
-      "peak_price": 0.0001809,
-      "trailing_active": true,
-      "entry_time": "2026-08-26T18:21:23.084735+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 38.3,
-      "peak_volume_m5": 217464.45,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -121646,6 +121597,63 @@
       "exit_price": 0.0006335,
       "exit_pct": -12.97,
       "exit_time": "2026-08-26T18:25:19.261118+00:00"
+    },
+    {
+      "symbol": "BISCOTTI",
+      "chain": "robinhood",
+      "address": "0x7e0828788F490E4915556A0411aa17474607C923",
+      "source": "new",
+      "entry_price": 0.01581,
+      "peak_price": 0.02275,
+      "trailing_active": true,
+      "entry_time": "2026-08-26T18:21:18.043128+00:00",
+      "score": 88,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -26.76,
+      "peak_volume_m5": 301083.88,
+      "milestones_hit": [],
+      "exit_price": 0.01158,
+      "exit_pct": -26.76,
+      "exit_time": "2026-08-26T18:26:20.570083+00:00"
+    },
+    {
+      "symbol": "holycoin",
+      "chain": "solana",
+      "address": "DaAT9UNaVrEDLetWiyYmQonHEZcg1JmXNyhShn9ypump",
+      "source": "new",
+      "entry_price": 0.0001752,
+      "peak_price": 0.0001851,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T18:21:21.415203+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.18,
+      "peak_volume_m5": 38947.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001381,
+      "exit_pct": -21.18,
+      "exit_time": "2026-08-26T18:26:21.315884+00:00"
+    },
+    {
+      "symbol": "Beni",
+      "chain": "solana",
+      "address": "GUhHr6PewaLZ6S3LRVeHKXzXHEMeHNhCmuyBhpnCpmAG",
+      "source": "new",
+      "entry_price": 0.0001308,
+      "peak_price": 0.0001809,
+      "trailing_active": true,
+      "entry_time": "2026-08-26T18:21:23.084735+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 9.17,
+      "peak_volume_m5": 217464.45,
+      "milestones_hit": [],
+      "exit_price": 0.0001428,
+      "exit_pct": 9.17,
+      "exit_time": "2026-08-26T18:26:22.151074+00:00"
     }
   ],
   "alerted": {
@@ -127803,6 +127811,9 @@
     "0xb200000000000000000000716Cb18caB70fF5F01": "2026-08-26T17:39:05.467725+00:00",
     "0x39e2d12f0bDb0788198d3F58A744A82825a57777": "2026-08-26T18:02:49.514575+00:00",
     "0xb7fE3B77432fE4FC245f700Df846F57511cf84a7": "2026-08-26T18:11:47.205067+00:00",
-    "FR3fLGui4CNGWX6f544aFuDnAykAhi65K5GD11YMpump": "2026-08-26T18:25:19.261118+00:00"
+    "FR3fLGui4CNGWX6f544aFuDnAykAhi65K5GD11YMpump": "2026-08-26T18:25:19.261118+00:00",
+    "0x7e0828788F490E4915556A0411aa17474607C923": "2026-08-26T18:26:20.570083+00:00",
+    "DaAT9UNaVrEDLetWiyYmQonHEZcg1JmXNyhShn9ypump": "2026-08-26T18:26:21.315884+00:00",
+    "GUhHr6PewaLZ6S3LRVeHKXzXHEMeHNhCmuyBhpnCpmAG": "2026-08-26T18:26:22.151074+00:00"
   }
 }
