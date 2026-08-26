@@ -8,23 +8,15 @@
       "address": "BRLAEDmZVZsvUKGzfYK7cQyhhJ3VN3sKMhbXUhsapump",
       "source": "new",
       "entry_price": 0.0001773,
-      "peak_price": 0.0001773,
-      "trailing_active": false,
+      "peak_price": 0.0002072,
+      "trailing_active": true,
       "entry_time": "2026-08-26T23:41:07.527447+00:00",
       "score": 64,
-      "status": "open"
-    },
-    {
-      "symbol": "Tigris",
-      "chain": "bsc",
-      "address": "0x80Eb13f51d446d8969D1750596cBa10300047777",
-      "source": "new",
-      "entry_price": 0.0001653,
-      "peak_price": 0.0001653,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T23:41:09.448861+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.86,
+      "peak_volume_m5": 72639.09,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -122257,6 +122249,25 @@
       "exit_price": 0.000159,
       "exit_pct": -39.98,
       "exit_time": "2026-08-26T23:12:43.224968+00:00"
+    },
+    {
+      "symbol": "Tigris",
+      "chain": "bsc",
+      "address": "0x80Eb13f51d446d8969D1750596cBa10300047777",
+      "source": "new",
+      "entry_price": 0.0001653,
+      "peak_price": 0.0001653,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T23:41:09.448861+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.63,
+      "peak_volume_m5": 20021.72,
+      "milestones_hit": [],
+      "exit_price": 0.0001345,
+      "exit_pct": -18.63,
+      "exit_time": "2026-08-26T23:44:55.108178+00:00"
     }
   ],
   "alerted": {
@@ -128447,6 +128458,7 @@
     "8ri8sCV8tsRFmUHp6rFjUeF8wWPEsbTV4vn7rgvV7Esr": "2026-08-26T22:52:59.949897+00:00",
     "FTaTkkxXyJ9Ffr9PRYC1wYCFmYv8TG6gEqvxkV7KTRiX": "2026-08-26T23:02:51.438016+00:00",
     "4mRWq4bBQXNoL2jWx5XydqSrnT96J55fQVahGtPFpump": "2026-08-26T23:12:42.343594+00:00",
-    "65nXmwxNvF1akva3Q9AaTT8AEqVrkzQXZEi9Rjzwpump": "2026-08-26T23:12:43.224968+00:00"
+    "65nXmwxNvF1akva3Q9AaTT8AEqVrkzQXZEi9Rjzwpump": "2026-08-26T23:12:43.224968+00:00",
+    "0x80Eb13f51d446d8969D1750596cBa10300047777": "2026-08-26T23:44:55.108178+00:00"
   }
 }
