@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\u58a9\u58a9",
-      "chain": "bsc",
-      "address": "0x48a46238F97aCd13c311D7A4e7159a3fD74e7777",
-      "source": "new",
-      "entry_price": 0.0009053,
-      "peak_price": 0.0009053,
-      "trailing_active": false,
-      "entry_time": "2026-08-26T22:11:05.892814+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "BOD",
       "chain": "robinhood",
       "address": "0xF1a30535720beFd1287a78d63E8b3e9fA01E94e0",
       "source": "new",
       "entry_price": 0.0001093,
-      "peak_price": 0.0001093,
+      "peak_price": 0.0001252,
       "trailing_active": false,
       "entry_time": "2026-08-26T22:11:07.307461+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.55,
+      "peak_volume_m5": 9635.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -122084,6 +122076,25 @@
       "exit_price": 0.0003572,
       "exit_pct": -13.2,
       "exit_time": "2026-08-26T22:00:57.028076+00:00"
+    },
+    {
+      "symbol": "\u58a9\u58a9",
+      "chain": "bsc",
+      "address": "0x48a46238F97aCd13c311D7A4e7159a3fD74e7777",
+      "source": "new",
+      "entry_price": 0.0009053,
+      "peak_price": 0.0009053,
+      "trailing_active": false,
+      "entry_time": "2026-08-26T22:11:05.892814+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.5,
+      "peak_volume_m5": 117497.59,
+      "milestones_hit": [],
+      "exit_price": 0.000593,
+      "exit_pct": -34.5,
+      "exit_time": "2026-08-26T22:12:47.333270+00:00"
     }
   ],
   "alerted": {
@@ -128265,6 +128276,7 @@
     "77zPPem2Cp3WoyDmTtcgRK35SzHw3JsnvNihRqLvpump": "2026-08-26T21:23:34.133364+00:00",
     "0x311fD4B3182938b448700eA5015eeC171dC7B0f7": "2026-08-26T21:52:44.505255+00:00",
     "0x0d8D165D8dDA2a5d0d1F139a334779CC7765D3Aa": "2026-08-26T21:56:10.558720+00:00",
-    "FWuSmM21ZdwtVw6swS7GMQrAUrPKHP6BaesJyda3pump": "2026-08-26T22:00:57.028076+00:00"
+    "FWuSmM21ZdwtVw6swS7GMQrAUrPKHP6BaesJyda3pump": "2026-08-26T22:00:57.028076+00:00",
+    "0x48a46238F97aCd13c311D7A4e7159a3fD74e7777": "2026-08-26T22:12:47.333270+00:00"
   }
 }
