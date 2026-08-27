@@ -8,23 +8,15 @@
       "address": "CY6kb1KLcaYYwLLry7u3pXCyVrTzuWXnKi1LHjFPpump",
       "source": "new",
       "entry_price": 0.0006167,
-      "peak_price": 0.0006167,
-      "trailing_active": false,
+      "peak_price": 0.0007357,
+      "trailing_active": true,
       "entry_time": "2026-08-27T20:41:08.521056+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "ROSCOE",
-      "chain": "solana",
-      "address": "Es1VPDav9aJY7FkTwD2GPA6VdtibvSBQmL1Jt7aYpump",
-      "source": "new",
-      "entry_price": 0.0001445,
-      "peak_price": 0.0001445,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T20:41:10.183322+00:00",
-      "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.3,
+      "peak_volume_m5": 129155.6,
+      "milestones_hit": []
     },
     {
       "symbol": "PERPSHOOD",
@@ -36,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-27T20:41:11.546469+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "\u6211\u7684\u5973\u53cb\u4f55\u4e00",
-      "chain": "bsc",
-      "address": "0x760884305AcAdC6aC243572F49e763a63f9a7aFA",
-      "source": "new",
-      "entry_price": 0.0001972,
-      "peak_price": 0.0001972,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T20:41:13.198439+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.73,
+      "peak_volume_m5": 544.22,
+      "milestones_hit": []
     },
     {
       "symbol": "Cosbycoin",
@@ -56,11 +40,15 @@
       "address": "AkXqvn2v1FrzwfXuepS6p5tHqMWe52PAMcGVTLzYpump",
       "source": "new",
       "entry_price": 0.000275,
-      "peak_price": 0.000275,
+      "peak_price": 0.0003007,
       "trailing_active": false,
       "entry_time": "2026-08-27T20:41:14.847702+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.35,
+      "peak_volume_m5": 126667.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -124377,6 +124365,44 @@
       "exit_price": 7.759e-05,
       "exit_pct": -21.73,
       "exit_time": "2026-08-27T20:22:11.617351+00:00"
+    },
+    {
+      "symbol": "ROSCOE",
+      "chain": "solana",
+      "address": "Es1VPDav9aJY7FkTwD2GPA6VdtibvSBQmL1Jt7aYpump",
+      "source": "new",
+      "entry_price": 0.0001445,
+      "peak_price": 0.0001445,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T20:41:10.183322+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.05,
+      "peak_volume_m5": 30593.68,
+      "milestones_hit": [],
+      "exit_price": 0.0001242,
+      "exit_pct": -14.05,
+      "exit_time": "2026-08-27T20:42:38.382304+00:00"
+    },
+    {
+      "symbol": "\u6211\u7684\u5973\u53cb\u4f55\u4e00",
+      "chain": "bsc",
+      "address": "0x760884305AcAdC6aC243572F49e763a63f9a7aFA",
+      "source": "new",
+      "entry_price": 0.0001972,
+      "peak_price": 0.0001972,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T20:41:13.198439+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.58,
+      "peak_volume_m5": 70774.09,
+      "milestones_hit": [],
+      "exit_price": 0.0001783,
+      "exit_pct": -9.58,
+      "exit_time": "2026-08-27T20:42:39.616560+00:00"
     }
   ],
   "alerted": {
@@ -130672,6 +130698,8 @@
     "FA4B9PySSVN8PPGLxUBbcHKjpXZFpTkbBq2hGiZjpump": "2026-08-27T19:46:02.457339+00:00",
     "0x06C52f3c784B9A1B9bb0c615A41C35CAc745fFFF": "2026-08-27T19:59:11.357413+00:00",
     "0xe7e521FEa973E2102652260beB0E21618BE62D2e": "2026-08-27T20:12:02.874341+00:00",
-    "4bRvLqKZTUJpcfwcLS2JukGJNVC1VArB92kZiFudpump": "2026-08-27T20:22:11.617351+00:00"
+    "4bRvLqKZTUJpcfwcLS2JukGJNVC1VArB92kZiFudpump": "2026-08-27T20:22:11.617351+00:00",
+    "Es1VPDav9aJY7FkTwD2GPA6VdtibvSBQmL1Jt7aYpump": "2026-08-27T20:42:38.382304+00:00",
+    "0x760884305AcAdC6aC243572F49e763a63f9a7aFA": "2026-08-27T20:42:39.616560+00:00"
   }
 }
