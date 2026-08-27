@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "CHEF",
-      "chain": "robinhood",
-      "address": "0x9979E0271BD5e3650dA1DB2aE3E362B97778C03b",
-      "source": "new",
-      "entry_price": 5.129e-05,
-      "peak_price": 5.129e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T11:31:02.555620+00:00",
-      "score": 73,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -123202,6 +123189,29 @@
       "exit_price": 0.0004902,
       "exit_pct": 60.99,
       "exit_time": "2026-08-27T11:28:50.929781+00:00"
+    },
+    {
+      "symbol": "CHEF",
+      "chain": "robinhood",
+      "address": "0x9979E0271BD5e3650dA1DB2aE3E362B97778C03b",
+      "source": "new",
+      "entry_price": 5.129e-05,
+      "peak_price": 0.0001833,
+      "trailing_active": true,
+      "entry_time": "2026-08-27T11:31:02.555620+00:00",
+      "score": 73,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 257.38,
+      "peak_volume_m5": 79017.32,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0001833,
+      "exit_pct": 257.38,
+      "exit_time": "2026-08-27T11:41:00.309569+00:00"
     }
   ],
   "alerted": {
@@ -129441,6 +129451,7 @@
     "2MAev5HgRE1jx3v1hrpsreG1XursUkdmC7VBMZEspump": "2026-08-27T10:34:08.987142+00:00",
     "72xH2LMCZEworN97Dhfo7EFph8T8iPSUHjHH8BQ4pump": "2026-08-27T10:44:25.545023+00:00",
     "Furb6HmT2ycpAZ3fkFNW9zjhQEkNqTF2eSekc8V6pump": "2026-08-27T11:27:56.122504+00:00",
-    "0x0290076d5e2Db5B4ceF92A5DBf1B6eF3F0347e2b": "2026-08-27T11:28:50.929781+00:00"
+    "0x0290076d5e2Db5B4ceF92A5DBf1B6eF3F0347e2b": "2026-08-27T11:28:50.929781+00:00",
+    "0x9979E0271BD5e3650dA1DB2aE3E362B97778C03b": "2026-08-27T11:41:00.309569+00:00"
   }
 }
