@@ -8,15 +8,17 @@
       "address": "0x323792d20b34c934aad4e0cf53e5f40610ebd18c",
       "source": "new",
       "entry_price": 0.0001543,
-      "peak_price": 0.0001887,
+      "peak_price": 0.0002361,
       "trailing_active": true,
       "entry_time": "2026-08-27T17:51:18.148899+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 22.29,
+      "current_pct": 53.01,
       "peak_volume_m5": 190151.39,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "ALOKA",
@@ -24,11 +26,15 @@
       "address": "An3aFtSMhjJzVdEYWjv8FT8auXDS3antAq4GsCrbpump",
       "source": "boost",
       "entry_price": 0.0005562,
-      "peak_price": 0.0005562,
+      "peak_price": 0.0005713,
       "trailing_active": false,
       "entry_time": "2026-08-27T18:01:12.279224+00:00",
       "score": 95,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.71,
+      "peak_volume_m5": 42304.88,
+      "milestones_hit": []
     },
     {
       "symbol": "Huhcat",
@@ -36,11 +42,15 @@
       "address": "4HMbmzNCTc1ncfmNbZKxBXsuTD6XWrkzq3xWAEUr9mSs",
       "source": "new",
       "entry_price": 0.0003707,
-      "peak_price": 0.0003707,
+      "peak_price": 0.0004082,
       "trailing_active": false,
       "entry_time": "2026-08-27T18:01:14.146508+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.12,
+      "peak_volume_m5": 114543.81,
+      "milestones_hit": []
     },
     {
       "symbol": "kall",
@@ -52,19 +62,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-27T18:01:15.742017+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "UTOPIA",
-      "chain": "robinhood",
-      "address": "0x201ebd16f690025705e88d8bbd33b04955f49835",
-      "source": "new",
-      "entry_price": 0.0003116,
-      "peak_price": 0.0003116,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T18:01:17.098002+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.82,
+      "peak_volume_m5": 32797.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -123990,6 +123992,25 @@
       "exit_price": 7.994e-05,
       "exit_pct": -19.97,
       "exit_time": "2026-08-27T17:42:17.624229+00:00"
+    },
+    {
+      "symbol": "UTOPIA",
+      "chain": "robinhood",
+      "address": "0x201ebd16f690025705e88d8bbd33b04955f49835",
+      "source": "new",
+      "entry_price": 0.0003116,
+      "peak_price": 0.0003116,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T18:01:17.098002+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -48.72,
+      "peak_volume_m5": 363378.65,
+      "milestones_hit": [],
+      "exit_price": 0.0001598,
+      "exit_pct": -48.72,
+      "exit_time": "2026-08-27T18:02:06.965074+00:00"
     }
   ],
   "alerted": {
@@ -130265,6 +130286,7 @@
     "0x6dD6cB97D0C841B67D9336C29d8EcC8abB5A37e1": "2026-08-27T17:22:20.998498+00:00",
     "7nd3XqSSYS3bUmxbj3ykUuFwRAf8kRgM1oBZB6xjpump": "2026-08-27T17:34:56.332526+00:00",
     "9uEeSZSdxMm1PaoqQ1VNDwcuDMM9RHqkp2p89Je5pump": "2026-08-27T17:42:16.794775+00:00",
-    "0xd29c4Ea8a729Eb60820f703744Ac1Fb35baF11CD": "2026-08-27T17:42:17.624229+00:00"
+    "0xd29c4Ea8a729Eb60820f703744Ac1Fb35baF11CD": "2026-08-27T17:42:17.624229+00:00",
+    "0x201ebd16f690025705e88d8bbd33b04955f49835": "2026-08-27T18:02:06.965074+00:00"
   }
 }
