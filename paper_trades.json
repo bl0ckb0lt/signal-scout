@@ -8,23 +8,15 @@
       "address": "FeRZxnBgAkk3XuJcarfsKmcrETBt8m2tnKyZJHkMpump",
       "source": "boost",
       "entry_price": 0.0006004,
-      "peak_price": 0.0006004,
-      "trailing_active": false,
+      "peak_price": 0.000833,
+      "trailing_active": true,
       "entry_time": "2026-08-27T17:00:55.788208+00:00",
       "score": 95,
-      "status": "open"
-    },
-    {
-      "symbol": "HOTDOG",
-      "chain": "robinhood",
-      "address": "0x99A66d49aBe9a8b918360d34b3932e9BD7a4c3F3",
-      "source": "new",
-      "entry_price": 0.0001851,
-      "peak_price": 0.0001851,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T17:00:57.850483+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.74,
+      "peak_volume_m5": 53030.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -123779,6 +123771,25 @@
       "exit_price": 1.807e-05,
       "exit_pct": -82.44,
       "exit_time": "2026-08-27T16:56:46.203729+00:00"
+    },
+    {
+      "symbol": "HOTDOG",
+      "chain": "robinhood",
+      "address": "0x99A66d49aBe9a8b918360d34b3932e9BD7a4c3F3",
+      "source": "new",
+      "entry_price": 0.0001851,
+      "peak_price": 0.0001851,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T17:00:57.850483+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.62,
+      "peak_volume_m5": 56901.67,
+      "milestones_hit": [],
+      "exit_price": 0.0001636,
+      "exit_pct": -11.62,
+      "exit_time": "2026-08-27T17:02:06.487785+00:00"
     }
   ],
   "alerted": {
@@ -130045,6 +130056,7 @@
     "CGysUrvVEB6EqGFY7MhEVHNZ9S3wSJGLpaK72DCCpump": "2026-08-27T16:38:51.689039+00:00",
     "0x53DaE9d159FA15557b218E2e661544279966efA8": "2026-08-27T16:52:37.758939+00:00",
     "0xfC451d1685457859E4FD2e62ab89b69044563f21": "2026-08-27T16:52:38.658619+00:00",
-    "0xc778ed1cb6975D6818c49e1978AE5393ee230C5A": "2026-08-27T16:56:46.203729+00:00"
+    "0xc778ed1cb6975D6818c49e1978AE5393ee230C5A": "2026-08-27T16:56:46.203729+00:00",
+    "0x99A66d49aBe9a8b918360d34b3932e9BD7a4c3F3": "2026-08-27T17:02:06.487785+00:00"
   }
 }
