@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-27T14:41:12.154029+00:00",
       "score": 89,
-      "status": "open"
-    },
-    {
-      "symbol": "VULUNCIA",
-      "chain": "solana",
-      "address": "5SMCnN7bKn9L5m4XG7hhnwLnj3X4EdHvD4sr3e5Jpump",
-      "source": "new",
-      "entry_price": 0.000121,
-      "peak_price": 0.000121,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T14:41:13.827095+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.56,
+      "peak_volume_m5": 74619.36,
+      "milestones_hit": []
     },
     {
       "symbol": "FLOCKHOUSE",
@@ -32,11 +24,17 @@
       "address": "GGmhN33tKC7xBQ4C8V5uyAiH7sHo5UrgMrZPnhKGpump",
       "source": "new",
       "entry_price": 0.0001051,
-      "peak_price": 0.0001051,
-      "trailing_active": false,
+      "peak_price": 0.0001925,
+      "trailing_active": true,
       "entry_time": "2026-08-27T14:41:15.510489+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 83.16,
+      "peak_volume_m5": 322163.93,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -123479,6 +123477,25 @@
       "exit_price": 0.0001243,
       "exit_pct": -13.8,
       "exit_time": "2026-08-27T13:55:57.479066+00:00"
+    },
+    {
+      "symbol": "VULUNCIA",
+      "chain": "solana",
+      "address": "5SMCnN7bKn9L5m4XG7hhnwLnj3X4EdHvD4sr3e5Jpump",
+      "source": "new",
+      "entry_price": 0.000121,
+      "peak_price": 0.000121,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T14:41:13.827095+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.33,
+      "peak_volume_m5": 30516.8,
+      "milestones_hit": [],
+      "exit_price": 0.0001085,
+      "exit_pct": -10.33,
+      "exit_time": "2026-08-27T14:42:48.108085+00:00"
     }
   ],
   "alerted": {
@@ -129731,6 +129748,7 @@
     "DYvfD7T9Y4zissEams5c2dTFbaZNJKtVQBsp7ZLMpump": "2026-08-27T13:33:00.031324+00:00",
     "0xfbCdEcbBE8F4D5Ae1F8B6de41854689A143f5952": "2026-08-27T13:39:28.107578+00:00",
     "7kSxtYRBogvkk51Y59vV8ygXHWyeNReub4xu6SDpump": "2026-08-27T13:53:59.356854+00:00",
-    "HiF7hj94B5Jp2HhMdbkCxoK5yW5wCoNEK45GmSBipump": "2026-08-27T13:55:57.479066+00:00"
+    "HiF7hj94B5Jp2HhMdbkCxoK5yW5wCoNEK45GmSBipump": "2026-08-27T13:55:57.479066+00:00",
+    "5SMCnN7bKn9L5m4XG7hhnwLnj3X4EdHvD4sr3e5Jpump": "2026-08-27T14:42:48.108085+00:00"
   }
 }
