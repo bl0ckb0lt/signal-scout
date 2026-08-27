@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VYNEX",
-      "chain": "robinhood",
-      "address": "0x8cF33E3026604Bd85677e7Bc6E04d256571b6653",
-      "source": "new",
-      "entry_price": 0.0004184,
-      "peak_price": 0.0007118,
-      "trailing_active": true,
-      "entry_time": "2026-08-27T15:31:25.704953+00:00",
-      "score": 71,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 70.12,
-      "peak_volume_m5": 28921.44,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "buni",
       "chain": "solana",
       "address": "6Ke5gCgfNzxpJWs4W9YErSqyKDAHKts7voH6M1egpump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-27T15:51:15.578435+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.02,
+      "peak_volume_m5": 66017.74,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -123627,6 +123613,27 @@
       "exit_price": 0.0001722,
       "exit_pct": -12.9,
       "exit_time": "2026-08-27T15:46:54.251057+00:00"
+    },
+    {
+      "symbol": "VYNEX",
+      "chain": "robinhood",
+      "address": "0x8cF33E3026604Bd85677e7Bc6E04d256571b6653",
+      "source": "new",
+      "entry_price": 0.0004184,
+      "peak_price": 0.0007118,
+      "trailing_active": true,
+      "entry_time": "2026-08-27T15:31:25.704953+00:00",
+      "score": 71,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 54.11,
+      "peak_volume_m5": 29195.92,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0006448,
+      "exit_pct": 54.11,
+      "exit_time": "2026-08-27T15:52:29.851431+00:00"
     }
   ],
   "alerted": {
@@ -129886,6 +129893,7 @@
     "0xcb5F57ebC3ad716b213B46dA654CBfeBd17a5dE8": "2026-08-27T15:29:06.017102+00:00",
     "4mDB7UQFLDrjGN9JuvaahB765Biujx6Jfu1fUe7jpump": "2026-08-27T15:30:10.933253+00:00",
     "TmwHK5uXEBGVfktCNzfJ51kgJ7WGTvgkNXNTZfvpump": "2026-08-27T15:33:02.493211+00:00",
-    "E8krHjwczquMYRxErEbBErFoqBdRms4RYMruEvAPpump": "2026-08-27T15:46:54.251057+00:00"
+    "E8krHjwczquMYRxErEbBErFoqBdRms4RYMruEvAPpump": "2026-08-27T15:46:54.251057+00:00",
+    "0x8cF33E3026604Bd85677e7Bc6E04d256571b6653": "2026-08-27T15:52:29.851431+00:00"
   }
 }
