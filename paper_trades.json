@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRUMPBULL",
-      "chain": "solana",
-      "address": "63n3utZFV3XykM5THqq7SXvay7Dex1oZMWkwV6j3pump",
-      "source": "new",
-      "entry_price": 0.0001352,
-      "peak_price": 0.0001352,
-      "trailing_active": false,
-      "entry_time": "2026-08-27T11:51:05.103981+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "PILF",
       "chain": "solana",
       "address": "2tDLVzEPNiCZq9ikJq1jMmnngfNhB5Dk2BxNdeURpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-27T11:51:06.997830+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.61,
+      "peak_volume_m5": 93949.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -123237,6 +123229,25 @@
       "exit_price": 0.0001833,
       "exit_pct": 257.38,
       "exit_time": "2026-08-27T11:41:00.309569+00:00"
+    },
+    {
+      "symbol": "TRUMPBULL",
+      "chain": "solana",
+      "address": "63n3utZFV3XykM5THqq7SXvay7Dex1oZMWkwV6j3pump",
+      "source": "new",
+      "entry_price": 0.0001352,
+      "peak_price": 0.0001352,
+      "trailing_active": false,
+      "entry_time": "2026-08-27T11:51:05.103981+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.61,
+      "peak_volume_m5": 35613.48,
+      "milestones_hit": [],
+      "exit_price": 9.381e-05,
+      "exit_pct": -30.61,
+      "exit_time": "2026-08-27T11:52:42.383355+00:00"
     }
   ],
   "alerted": {
@@ -129477,6 +129488,7 @@
     "72xH2LMCZEworN97Dhfo7EFph8T8iPSUHjHH8BQ4pump": "2026-08-27T10:44:25.545023+00:00",
     "Furb6HmT2ycpAZ3fkFNW9zjhQEkNqTF2eSekc8V6pump": "2026-08-27T11:27:56.122504+00:00",
     "0x0290076d5e2Db5B4ceF92A5DBf1B6eF3F0347e2b": "2026-08-27T11:28:50.929781+00:00",
-    "0x9979E0271BD5e3650dA1DB2aE3E362B97778C03b": "2026-08-27T11:41:00.309569+00:00"
+    "0x9979E0271BD5e3650dA1DB2aE3E362B97778C03b": "2026-08-27T11:41:00.309569+00:00",
+    "63n3utZFV3XykM5THqq7SXvay7Dex1oZMWkwV6j3pump": "2026-08-27T11:52:42.383355+00:00"
   }
 }
