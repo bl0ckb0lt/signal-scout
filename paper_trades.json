@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AUTO",
-      "chain": "robinhood",
-      "address": "0xb8Da395D2282260e1002399bF46bd921A7C3D1f1",
-      "source": "new",
-      "entry_price": 0.1136,
-      "peak_price": 0.1181,
-      "trailing_active": false,
-      "entry_time": "2026-08-28T20:01:10.089357+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.96,
-      "peak_volume_m5": 3078.18,
-      "milestones_hit": []
-    },
-    {
       "symbol": "RENT",
       "chain": "solana",
       "address": "A4Ma16Xr7fk7VVT8ibyyhY5PGuvUCHCVKMfgAwqwpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-28T20:11:08.302307+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.14,
+      "peak_volume_m5": 812244.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -126799,6 +126787,25 @@
       "exit_price": 7.875e-07,
       "exit_pct": 112.04,
       "exit_time": "2026-08-28T20:03:56.619847+00:00"
+    },
+    {
+      "symbol": "AUTO",
+      "chain": "robinhood",
+      "address": "0xb8Da395D2282260e1002399bF46bd921A7C3D1f1",
+      "source": "new",
+      "entry_price": 0.1136,
+      "peak_price": 0.1181,
+      "trailing_active": false,
+      "entry_time": "2026-08-28T20:01:10.089357+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.11,
+      "peak_volume_m5": 3078.18,
+      "milestones_hit": [],
+      "exit_price": 0.1078,
+      "exit_pct": -5.11,
+      "exit_time": "2026-08-28T20:14:50.583178+00:00"
     }
   ],
   "alerted": {
@@ -133221,6 +133228,7 @@
     "FW9p66Bsgdp5fNYdfEuseNBin8Zw3Ziqm5R1jHmXpump": "2026-08-28T19:15:49.567865+00:00",
     "3MXLA9wxYva79QNsP7AjrNttogHncNyHKC8SBn8vpump": "2026-08-28T19:16:55.105985+00:00",
     "0x7b7fAA885C237faba733E7006e80149bA9224643": "2026-08-28T19:52:17.211881+00:00",
-    "0x29E86d9873097b09DAAF87f4648de3A7EdCd1BA3": "2026-08-28T20:03:56.619847+00:00"
+    "0x29E86d9873097b09DAAF87f4648de3A7EdCd1BA3": "2026-08-28T20:03:56.619847+00:00",
+    "0xb8Da395D2282260e1002399bF46bd921A7C3D1f1": "2026-08-28T20:14:50.583178+00:00"
   }
 }
