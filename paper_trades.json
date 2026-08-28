@@ -8,23 +8,15 @@
       "address": "0xA7cEA978CC9Ee80770105585650D774E42a12337",
       "source": "new",
       "entry_price": 0.0001317,
-      "peak_price": 0.0001317,
-      "trailing_active": false,
+      "peak_price": 0.000191,
+      "trailing_active": true,
       "entry_time": "2026-08-28T21:11:07.337592+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "BLTR",
-      "chain": "robinhood",
-      "address": "0x6d3597c549Ca8D9AC9aC000ED81F5EC327C20477",
-      "source": "new",
-      "entry_price": 2.78,
-      "peak_price": 2.78,
-      "trailing_active": false,
-      "entry_time": "2026-08-28T21:11:10.864535+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 45.03,
+      "peak_volume_m5": 13017.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -126955,6 +126947,25 @@
       "exit_price": 0.0003333,
       "exit_pct": 206.34,
       "exit_time": "2026-08-28T21:02:05.758109+00:00"
+    },
+    {
+      "symbol": "BLTR",
+      "chain": "robinhood",
+      "address": "0x6d3597c549Ca8D9AC9aC000ED81F5EC327C20477",
+      "source": "new",
+      "entry_price": 2.78,
+      "peak_price": 2.78,
+      "trailing_active": false,
+      "entry_time": "2026-08-28T21:11:10.864535+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.42,
+      "peak_volume_m5": 57897.96,
+      "milestones_hit": [],
+      "exit_price": 2.24,
+      "exit_pct": -19.42,
+      "exit_time": "2026-08-28T21:20:30.987667+00:00"
     }
   ],
   "alerted": {
@@ -133385,6 +133396,7 @@
     "0x20f24b8D2BCaD7cd252fC60EE5f2Db27C2f2f261": "2026-08-28T20:38:43.945345+00:00",
     "0x2A4a33A2163D005d8E7f1D9aC08d14c98db288d5": "2026-08-28T20:40:26.325187+00:00",
     "0x55C085C04C4D8cE38faCCc8f19654D8e3309765e": "2026-08-28T21:01:06.315653+00:00",
-    "0x67C91d04728FfCDA058D86c33f7BA6F899aae3a9": "2026-08-28T21:02:05.758109+00:00"
+    "0x67C91d04728FfCDA058D86c33f7BA6F899aae3a9": "2026-08-28T21:02:05.758109+00:00",
+    "0x6d3597c549Ca8D9AC9aC000ED81F5EC327C20477": "2026-08-28T21:20:30.987667+00:00"
   }
 }
