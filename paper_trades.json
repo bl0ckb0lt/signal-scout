@@ -1,58 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "BULLFART",
-      "chain": "solana",
-      "address": "Av2KSwkP4RH5zkUzDL51NyWmsLsEpGZ2GEW8CU8Vpump",
-      "source": "new",
-      "entry_price": 0.0002265,
-      "peak_price": 0.0003474,
-      "trailing_active": true,
-      "entry_time": "2026-08-28T12:41:08.886674+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.38,
-      "peak_volume_m5": 34709.25,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "rawdog",
-      "chain": "solana",
-      "address": "Fh4c4e4otmgdryUaGah16Hfe6coxyBym91WPBWTKpump",
-      "source": "new",
-      "entry_price": 0.0001276,
-      "peak_price": 0.000142,
-      "trailing_active": false,
-      "entry_time": "2026-08-28T13:01:11.692476+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.29,
-      "peak_volume_m5": 169159.63,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HOMOPAD",
-      "chain": "robinhood",
-      "address": "0xD8Ed36FD63d1879E4c8019AD7441d1d95cd1C3C1",
-      "source": "new",
-      "entry_price": 0.0001217,
-      "peak_price": 0.000143,
-      "trailing_active": true,
-      "entry_time": "2026-08-28T13:01:13.030801+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 17.5,
-      "peak_volume_m5": 24606.68,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -126054,6 +126003,65 @@
       "exit_price": 0.0004027,
       "exit_pct": -17.98,
       "exit_time": "2026-08-28T13:02:45.925377+00:00"
+    },
+    {
+      "symbol": "BULLFART",
+      "chain": "solana",
+      "address": "Av2KSwkP4RH5zkUzDL51NyWmsLsEpGZ2GEW8CU8Vpump",
+      "source": "new",
+      "entry_price": 0.0002265,
+      "peak_price": 0.0003474,
+      "trailing_active": true,
+      "entry_time": "2026-08-28T12:41:08.886674+00:00",
+      "score": 91,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 42.38,
+      "peak_volume_m5": 34709.25,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0003225,
+      "exit_pct": 42.38,
+      "exit_time": "2026-08-28T13:04:32.874990+00:00"
+    },
+    {
+      "symbol": "rawdog",
+      "chain": "solana",
+      "address": "Fh4c4e4otmgdryUaGah16Hfe6coxyBym91WPBWTKpump",
+      "source": "new",
+      "entry_price": 0.0001276,
+      "peak_price": 0.000142,
+      "trailing_active": false,
+      "entry_time": "2026-08-28T13:01:11.692476+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.68,
+      "peak_volume_m5": 169159.63,
+      "milestones_hit": [],
+      "exit_price": 8.717e-05,
+      "exit_pct": -31.68,
+      "exit_time": "2026-08-28T13:04:33.570511+00:00"
+    },
+    {
+      "symbol": "HOMOPAD",
+      "chain": "robinhood",
+      "address": "0xD8Ed36FD63d1879E4c8019AD7441d1d95cd1C3C1",
+      "source": "new",
+      "entry_price": 0.0001217,
+      "peak_price": 0.000143,
+      "trailing_active": true,
+      "entry_time": "2026-08-28T13:01:13.030801+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -34.56,
+      "peak_volume_m5": 24606.68,
+      "milestones_hit": [],
+      "exit_price": 7.964e-05,
+      "exit_pct": -34.56,
+      "exit_time": "2026-08-28T13:04:34.282043+00:00"
     }
   ],
   "alerted": {
@@ -132436,6 +132444,9 @@
     "GSEyH1QpY6Bi3bQAu7K39B8berxcv9QLBrSRZPaDpump": "2026-08-28T11:56:10.488245+00:00",
     "5QjANwhD9pCWBk7aFAGYFj9oQEPQ3kfdsASTbJzEpump": "2026-08-28T12:15:16.535306+00:00",
     "0xd48E4896b6718Cf0f987C2503ed47B9AeFec7777": "2026-08-28T12:43:47.774989+00:00",
-    "0xd1764430f475b5d8D91A38c89cDc6A6262427777": "2026-08-28T13:02:45.925377+00:00"
+    "0xd1764430f475b5d8D91A38c89cDc6A6262427777": "2026-08-28T13:02:45.925377+00:00",
+    "Av2KSwkP4RH5zkUzDL51NyWmsLsEpGZ2GEW8CU8Vpump": "2026-08-28T13:04:32.874990+00:00",
+    "Fh4c4e4otmgdryUaGah16Hfe6coxyBym91WPBWTKpump": "2026-08-28T13:04:33.570511+00:00",
+    "0xD8Ed36FD63d1879E4c8019AD7441d1d95cd1C3C1": "2026-08-28T13:04:34.282043+00:00"
   }
 }
