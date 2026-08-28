@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Seyclops",
-      "chain": "bsc",
-      "address": "0xD37Cb0313F4E85dcBfc248560BbD9d63b65F7777",
-      "source": "new",
-      "entry_price": 0.05505,
-      "peak_price": 0.06348,
-      "trailing_active": true,
-      "entry_time": "2026-08-28T14:51:09.282770+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 15.31,
-      "peak_volume_m5": 552416.14,
-      "milestones_hit": []
-    },
-    {
       "symbol": "9TO5",
       "chain": "robinhood",
       "address": "0x223E93B1beD7de244445dB2dea4c7900e8045Acc",
       "source": "new",
       "entry_price": 0.0001022,
-      "peak_price": 0.0001022,
+      "peak_price": 0.0001149,
       "trailing_active": false,
       "entry_time": "2026-08-28T15:11:07.539677+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.43,
+      "peak_volume_m5": 6152.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -126319,6 +126307,25 @@
       "exit_price": 0.0006116,
       "exit_pct": 13.07,
       "exit_time": "2026-08-28T14:54:58.559521+00:00"
+    },
+    {
+      "symbol": "Seyclops",
+      "chain": "bsc",
+      "address": "0xD37Cb0313F4E85dcBfc248560BbD9d63b65F7777",
+      "source": "new",
+      "entry_price": 0.05505,
+      "peak_price": 0.06376,
+      "trailing_active": true,
+      "entry_time": "2026-08-28T14:51:09.282770+00:00",
+      "score": 72,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 15.82,
+      "peak_volume_m5": 552416.14,
+      "milestones_hit": [],
+      "exit_price": 0.06376,
+      "exit_pct": 15.82,
+      "exit_time": "2026-08-28T15:13:54.981206+00:00"
     }
   ],
   "alerted": {
@@ -132716,6 +132723,7 @@
     "0x6c461FFA2F58F79e09aee8a3130fc86b6b3f873E": "2026-08-28T14:42:38.415526+00:00",
     "0xce845443428867d271929bd739148B85524B536a": "2026-08-28T14:45:27.927875+00:00",
     "Em6M5zT2hErnVUJZcS5psawP3ZZskTK87h34CiEepump": "2026-08-28T14:54:00.249195+00:00",
-    "DKzyQyz8RiG2UXwAuNLMA6RHu8431cretnXwJeGFpump": "2026-08-28T14:54:58.559521+00:00"
+    "DKzyQyz8RiG2UXwAuNLMA6RHu8431cretnXwJeGFpump": "2026-08-28T14:54:58.559521+00:00",
+    "0xD37Cb0313F4E85dcBfc248560BbD9d63b65F7777": "2026-08-28T15:13:54.981206+00:00"
   }
 }
