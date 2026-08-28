@@ -3,35 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RENT",
-      "chain": "solana",
-      "address": "A4Ma16Xr7fk7VVT8ibyyhY5PGuvUCHCVKMfgAwqwpump",
-      "source": "new",
-      "entry_price": 0.0009296,
-      "peak_price": 0.001246,
-      "trailing_active": true,
-      "entry_time": "2026-08-28T20:11:08.302307+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 34.04,
-      "peak_volume_m5": 812244.2,
-      "milestones_hit": []
-    },
-    {
       "symbol": "DONALD",
       "chain": "robinhood",
       "address": "0xD865bE96335869C9e4ac9fB8E71312CE4c7FddEd",
       "source": "new",
       "entry_price": 6.822e-05,
-      "peak_price": 6.822e-05,
+      "peak_price": 7.022e-05,
       "trailing_active": false,
       "entry_time": "2026-08-28T20:21:06.118898+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -4.49,
-      "peak_volume_m5": 46862.25,
+      "current_pct": 2.93,
+      "peak_volume_m5": 48308.36,
       "milestones_hit": []
     }
   ],
@@ -126841,6 +126825,25 @@
       "exit_price": 2.552e-06,
       "exit_pct": -98.66,
       "exit_time": "2026-08-28T20:22:26.531808+00:00"
+    },
+    {
+      "symbol": "RENT",
+      "chain": "solana",
+      "address": "A4Ma16Xr7fk7VVT8ibyyhY5PGuvUCHCVKMfgAwqwpump",
+      "source": "new",
+      "entry_price": 0.0009296,
+      "peak_price": 0.001246,
+      "trailing_active": true,
+      "entry_time": "2026-08-28T20:11:08.302307+00:00",
+      "score": 80,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 34.04,
+      "peak_volume_m5": 812244.2,
+      "milestones_hit": [],
+      "exit_price": 0.001246,
+      "exit_pct": 34.04,
+      "exit_time": "2026-08-28T20:26:52.946012+00:00"
     }
   ],
   "alerted": {
@@ -133265,6 +133268,7 @@
     "0x7b7fAA885C237faba733E7006e80149bA9224643": "2026-08-28T19:52:17.211881+00:00",
     "0x29E86d9873097b09DAAF87f4648de3A7EdCd1BA3": "2026-08-28T20:03:56.619847+00:00",
     "0xb8Da395D2282260e1002399bF46bd921A7C3D1f1": "2026-08-28T20:14:50.583178+00:00",
-    "5zTp4pHzE8ARNJiJTkFiUsioWFojcUnUnRAv4nX3pump": "2026-08-28T20:22:26.531808+00:00"
+    "5zTp4pHzE8ARNJiJTkFiUsioWFojcUnUnRAv4nX3pump": "2026-08-28T20:22:26.531808+00:00",
+    "A4Ma16Xr7fk7VVT8ibyyhY5PGuvUCHCVKMfgAwqwpump": "2026-08-28T20:26:52.946012+00:00"
   }
 }
