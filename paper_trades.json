@@ -8,13 +8,13 @@
       "address": "DKzyQyz8RiG2UXwAuNLMA6RHu8431cretnXwJeGFpump",
       "source": "boost",
       "entry_price": 0.0005409,
-      "peak_price": 0.0007132,
+      "peak_price": 0.0007291,
       "trailing_active": true,
       "entry_time": "2026-08-28T14:41:03.792258+00:00",
       "score": 94,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 31.85,
+      "current_pct": 34.79,
       "peak_volume_m5": 40285.56,
       "milestones_hit": []
     },
@@ -28,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-28T14:51:09.282770+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "CLIPD",
-      "chain": "solana",
-      "address": "Em6M5zT2hErnVUJZcS5psawP3ZZskTK87h34CiEepump",
-      "source": "new",
-      "entry_price": 9.865e-05,
-      "peak_price": 9.865e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-28T14:51:14.335963+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.8,
+      "peak_volume_m5": 138054.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -126293,6 +126285,25 @@
       "exit_price": 0.0001147,
       "exit_pct": -14.91,
       "exit_time": "2026-08-28T14:45:27.927875+00:00"
+    },
+    {
+      "symbol": "CLIPD",
+      "chain": "solana",
+      "address": "Em6M5zT2hErnVUJZcS5psawP3ZZskTK87h34CiEepump",
+      "source": "new",
+      "entry_price": 9.865e-05,
+      "peak_price": 9.865e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-28T14:51:14.335963+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.35,
+      "peak_volume_m5": 150797.74,
+      "milestones_hit": [],
+      "exit_price": 7.167e-05,
+      "exit_pct": -27.35,
+      "exit_time": "2026-08-28T14:54:00.249195+00:00"
     }
   ],
   "alerted": {
@@ -132688,6 +132699,7 @@
     "GC7bXNsDkg7rGDgbbihbMhfVwsipSigJVCFUK7Kcpump": "2026-08-28T14:12:13.319965+00:00",
     "0x3a6600F0040adAae4D4b9bA7d132606d581F9fD3": "2026-08-28T14:21:55.536529+00:00",
     "0x6c461FFA2F58F79e09aee8a3130fc86b6b3f873E": "2026-08-28T14:42:38.415526+00:00",
-    "0xce845443428867d271929bd739148B85524B536a": "2026-08-28T14:45:27.927875+00:00"
+    "0xce845443428867d271929bd739148B85524B536a": "2026-08-28T14:45:27.927875+00:00",
+    "Em6M5zT2hErnVUJZcS5psawP3ZZskTK87h34CiEepump": "2026-08-28T14:54:00.249195+00:00"
   }
 }
