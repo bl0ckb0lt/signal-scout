@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Fomo",
-      "chain": "solana",
-      "address": "EzXEW3CPzNBvzFVh7qVM5MnjvH3e7dsr4P29XTYNpump",
-      "source": "new",
-      "entry_price": 0.0002323,
-      "peak_price": 0.0002323,
-      "trailing_active": false,
-      "entry_time": "2026-08-28T17:31:06.062409+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "VIOLETI",
       "chain": "robinhood",
       "address": "0xA8F2F9b2285114b4aC2014dae550e9D0818bDEf9",
       "source": "new",
       "entry_price": 0.0001032,
-      "peak_price": 0.0001032,
-      "trailing_active": false,
+      "peak_price": 0.0001404,
+      "trailing_active": true,
       "entry_time": "2026-08-28T17:31:07.626051+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 36.05,
+      "peak_volume_m5": 20708.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -126505,6 +126497,25 @@
       "exit_price": 0.0001102,
       "exit_pct": -16.77,
       "exit_time": "2026-08-28T17:20:25.473533+00:00"
+    },
+    {
+      "symbol": "Fomo",
+      "chain": "solana",
+      "address": "EzXEW3CPzNBvzFVh7qVM5MnjvH3e7dsr4P29XTYNpump",
+      "source": "new",
+      "entry_price": 0.0002323,
+      "peak_price": 0.0002323,
+      "trailing_active": false,
+      "entry_time": "2026-08-28T17:31:06.062409+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.39,
+      "peak_volume_m5": 152447.74,
+      "milestones_hit": [],
+      "exit_price": 0.0002012,
+      "exit_pct": -13.39,
+      "exit_time": "2026-08-28T17:32:14.456326+00:00"
     }
   ],
   "alerted": {
@@ -132912,6 +132923,7 @@
     "0x000548C6E35165cc85fb75A797AD0b56eef81920": "2026-08-28T16:13:15.175885+00:00",
     "7rLCfLQXSYUxtd42jnCDneTEze2gV9tPqSA3cq5cpump": "2026-08-28T16:32:21.472015+00:00",
     "0xC438216ebc1c50B009daE2CbA4948361D6cA214d": "2026-08-28T17:08:43.445083+00:00",
-    "0x228c580891953873670a13c4dc2e4eb84cae59925a3c774b978af134212092b5::template::TEMPLATE": "2026-08-28T17:20:25.473533+00:00"
+    "0x228c580891953873670a13c4dc2e4eb84cae59925a3c774b978af134212092b5::template::TEMPLATE": "2026-08-28T17:20:25.473533+00:00",
+    "EzXEW3CPzNBvzFVh7qVM5MnjvH3e7dsr4P29XTYNpump": "2026-08-28T17:32:14.456326+00:00"
   }
 }
