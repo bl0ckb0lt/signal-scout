@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "rehanfal",
-      "chain": "solana",
-      "address": "4GCmJ87xRchBREMVpgZWiyJPUgzkhkyzt8MbddsDULx7",
-      "source": "new",
-      "entry_price": 0.0003037,
-      "peak_price": 0.0003037,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T11:11:03.996840+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "MU",
       "chain": "robinhood",
       "address": "0x54e595a3544E8e08f39835F744E356bdA6308184",
       "source": "new",
       "entry_price": 0.000161,
-      "peak_price": 0.000161,
-      "trailing_active": false,
+      "peak_price": 0.0002195,
+      "trailing_active": true,
       "entry_time": "2026-08-29T11:11:06.889870+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 36.34,
+      "peak_volume_m5": 69013.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -128289,6 +128281,25 @@
       "exit_price": 0.0001078,
       "exit_pct": -10.47,
       "exit_time": "2026-08-29T10:43:50.184621+00:00"
+    },
+    {
+      "symbol": "rehanfal",
+      "chain": "solana",
+      "address": "4GCmJ87xRchBREMVpgZWiyJPUgzkhkyzt8MbddsDULx7",
+      "source": "new",
+      "entry_price": 0.0003037,
+      "peak_price": 0.0003037,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T11:11:03.996840+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.78,
+      "peak_volume_m5": 62409.43,
+      "milestones_hit": [],
+      "exit_price": 0.000274,
+      "exit_pct": -9.78,
+      "exit_time": "2026-08-29T11:12:42.652639+00:00"
     }
   ],
   "alerted": {
@@ -134787,6 +134798,7 @@
     "0xA1507001d4286dcf2c3EC96cb34c6aa25c1c1E18": "2026-08-29T09:51:41.535301+00:00",
     "0x4CD5284FD3113cE5Af9341E5A78d2fE7AE78BEeC": "2026-08-29T10:22:03.201865+00:00",
     "0x5317C0d077D2eEB639448939b930D49c4984B63B": "2026-08-29T10:22:59.443117+00:00",
-    "0x96B6a97D4e321586A5b0C27Ee3BDFd895B11114C": "2026-08-29T10:43:50.184621+00:00"
+    "0x96B6a97D4e321586A5b0C27Ee3BDFd895B11114C": "2026-08-29T10:43:50.184621+00:00",
+    "4GCmJ87xRchBREMVpgZWiyJPUgzkhkyzt8MbddsDULx7": "2026-08-29T11:12:42.652639+00:00"
   }
 }
