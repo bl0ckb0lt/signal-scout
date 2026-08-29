@@ -8,14 +8,14 @@
       "address": "0x6b1d42927B1a84eC28Fa88d4fC6FA7AF404966be",
       "source": "new",
       "entry_price": 0.0008783,
-      "peak_price": 0.0009927,
-      "trailing_active": false,
+      "peak_price": 0.001206,
+      "trailing_active": true,
       "entry_time": "2026-08-29T22:41:00.989933+00:00",
       "score": 70,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.03,
-      "peak_volume_m5": 12928.71,
+      "current_pct": 37.31,
+      "peak_volume_m5": 50508.89,
       "milestones_hit": []
     },
     {
@@ -33,18 +33,6 @@
       "current_pct": 0.16,
       "peak_volume_m5": 2114.9,
       "milestones_hit": []
-    },
-    {
-      "symbol": "GP",
-      "chain": "robinhood",
-      "address": "0x415100c82dFc48D342f672eC63e59D9Fad611e18",
-      "source": "new",
-      "entry_price": 5.069e-05,
-      "peak_price": 5.069e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T22:51:01.949456+00:00",
-      "score": 58,
-      "status": "open"
     }
   ],
   "closed": [
@@ -129920,6 +129908,25 @@
       "exit_price": 0.0001155,
       "exit_pct": -11.22,
       "exit_time": "2026-08-29T22:32:06.203815+00:00"
+    },
+    {
+      "symbol": "GP",
+      "chain": "robinhood",
+      "address": "0x415100c82dFc48D342f672eC63e59D9Fad611e18",
+      "source": "new",
+      "entry_price": 5.069e-05,
+      "peak_price": 5.069e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T22:51:01.949456+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.02,
+      "peak_volume_m5": 12913.14,
+      "milestones_hit": [],
+      "exit_price": 4.409e-05,
+      "exit_pct": -13.02,
+      "exit_time": "2026-08-29T22:54:00.409848+00:00"
     }
   ],
   "alerted": {
@@ -136500,6 +136507,7 @@
     "0x67aD84fd4604251Cf2a5211c7210274C412e9715": "2026-08-29T22:23:48.128618+00:00",
     "0x556D08A0E70ceFB9692Cb1190D99c94D9366bdD7": "2026-08-29T22:26:50.668969+00:00",
     "DD3AC2Cmr5rXzJ6ErRHeryx3ASLVMhSBALiUqeKcpump": "2026-08-29T22:27:43.442050+00:00",
-    "FUb1wcnBdrwXZc4ehZkn1vXC3ywGFjEStGobNq5Rpump": "2026-08-29T22:32:06.203815+00:00"
+    "FUb1wcnBdrwXZc4ehZkn1vXC3ywGFjEStGobNq5Rpump": "2026-08-29T22:32:06.203815+00:00",
+    "0x415100c82dFc48D342f672eC63e59D9Fad611e18": "2026-08-29T22:54:00.409848+00:00"
   }
 }
