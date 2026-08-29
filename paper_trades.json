@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Coppersem",
-      "chain": "solana",
-      "address": "AZDT3ZEqgaMwLwz94yWwJKE97CDac42QckyPTRiepump",
-      "source": "boost",
-      "entry_price": 0.0001905,
-      "peak_price": 0.0001905,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T19:41:06.876482+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "401k",
       "chain": "solana",
       "address": "gHNvRdZLtJFsfJuEnwePNtgiDCy9sbgTc5Mfi2Upump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-29T19:41:08.508703+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.22,
+      "peak_volume_m5": 62910.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129455,6 +129447,25 @@
       "exit_price": 0.0001019,
       "exit_pct": -20.39,
       "exit_time": "2026-08-29T19:30:48.660505+00:00"
+    },
+    {
+      "symbol": "Coppersem",
+      "chain": "solana",
+      "address": "AZDT3ZEqgaMwLwz94yWwJKE97CDac42QckyPTRiepump",
+      "source": "boost",
+      "entry_price": 0.0001905,
+      "peak_price": 0.0001905,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T19:41:06.876482+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.44,
+      "peak_volume_m5": 45909.44,
+      "milestones_hit": [],
+      "exit_price": 0.0001649,
+      "exit_pct": -13.44,
+      "exit_time": "2026-08-29T19:42:06.604980+00:00"
     }
   ],
   "alerted": {
@@ -136012,6 +136023,7 @@
     "0x2F8b281aCe8Da64919c921D7cf6Ff96b5441E319": "2026-08-29T18:50:45.219346+00:00",
     "0x42aFA2124ca5a2B83898E46B2dA9a190995b1E18": "2026-08-29T18:52:52.486291+00:00",
     "0xEAb58b46c3E937E6d298F88e8637cB1D30049fF5": "2026-08-29T19:29:54.320402+00:00",
-    "0x75f8eD0e9cBDC644Fa5B9Bb9B428cC18358A55C4": "2026-08-29T19:30:48.660505+00:00"
+    "0x75f8eD0e9cBDC644Fa5B9Bb9B428cC18358A55C4": "2026-08-29T19:30:48.660505+00:00",
+    "AZDT3ZEqgaMwLwz94yWwJKE97CDac42QckyPTRiepump": "2026-08-29T19:42:06.604980+00:00"
   }
 }
