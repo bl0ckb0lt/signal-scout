@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TOP",
-      "chain": "robinhood",
-      "address": "0x459dB69887F049fDDad1A9E7Ddc0e6C3d9F4be40",
-      "source": "new",
-      "entry_price": 0.0001898,
-      "peak_price": 0.0001898,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T17:11:16.161699+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "CRIME",
       "chain": "robinhood",
       "address": "0xF9e6D90Cde065A1fc4a74D7603Bb3cE88E870Cf9",
       "source": "new",
       "entry_price": 0.0001502,
-      "peak_price": 0.0001502,
+      "peak_price": 0.0001525,
       "trailing_active": false,
       "entry_time": "2026-08-29T17:11:17.645412+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Froggy",
-      "chain": "robinhood",
-      "address": "0x14F96075CC757eA835C3DfA5Fa22e5E6D9B69874",
-      "source": "new",
-      "entry_price": 8.159e-05,
-      "peak_price": 8.159e-05,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T17:11:19.116007+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.53,
+      "peak_volume_m5": 30514.98,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129088,6 +129068,44 @@
       "exit_price": 0.00048,
       "exit_pct": -6.47,
       "exit_time": "2026-08-29T17:06:51.949057+00:00"
+    },
+    {
+      "symbol": "TOP",
+      "chain": "robinhood",
+      "address": "0x459dB69887F049fDDad1A9E7Ddc0e6C3d9F4be40",
+      "source": "new",
+      "entry_price": 0.0001898,
+      "peak_price": 0.0001898,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T17:11:16.161699+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -40.2,
+      "peak_volume_m5": 61083.76,
+      "milestones_hit": [],
+      "exit_price": 0.0001135,
+      "exit_pct": -40.2,
+      "exit_time": "2026-08-29T17:12:35.172134+00:00"
+    },
+    {
+      "symbol": "Froggy",
+      "chain": "robinhood",
+      "address": "0x14F96075CC757eA835C3DfA5Fa22e5E6D9B69874",
+      "source": "new",
+      "entry_price": 8.159e-05,
+      "peak_price": 8.159e-05,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T17:11:19.116007+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.33,
+      "peak_volume_m5": 57823.52,
+      "milestones_hit": [],
+      "exit_price": 7.071e-05,
+      "exit_pct": -13.33,
+      "exit_time": "2026-08-29T17:12:36.210849+00:00"
     }
   ],
   "alerted": {
@@ -135626,6 +135644,8 @@
     "0xF92003D3c39539538460adb1373e10d40C607950": "2026-08-29T16:32:32.870597+00:00",
     "8AFPG5SDGyQbVo4ez1gd4dpYKBtVByFmkykkzAaHpump": "2026-08-29T16:48:53.167618+00:00",
     "8aX9Vws5z4idJxiaUVpcdEv86UMXygP6Cuv6DJrUpump": "2026-08-29T17:02:15.726181+00:00",
-    "3XX2VopKW6bquqaErzdMQCX85D674EnmEjAv7TDLpump": "2026-08-29T17:06:51.949057+00:00"
+    "3XX2VopKW6bquqaErzdMQCX85D674EnmEjAv7TDLpump": "2026-08-29T17:06:51.949057+00:00",
+    "0x459dB69887F049fDDad1A9E7Ddc0e6C3d9F4be40": "2026-08-29T17:12:35.172134+00:00",
+    "0x14F96075CC757eA835C3DfA5Fa22e5E6D9B69874": "2026-08-29T17:12:36.210849+00:00"
   }
 }
