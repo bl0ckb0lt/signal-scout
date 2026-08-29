@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRUMPAPE",
-      "chain": "solana",
-      "address": "9w3CKbRXT1bSdu6wmUiwPAwt6J5KHK2GAK5kCusspump",
-      "source": "new",
-      "entry_price": 0.0001424,
-      "peak_price": 0.0001508,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T02:01:03.255898+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 5.9,
-      "peak_volume_m5": 41024.86,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Satori",
       "chain": "robinhood",
       "address": "0xbE8C3F764c8788250129b19210026F4A96F78E5e",
       "source": "new",
       "entry_price": 0.0004859,
-      "peak_price": 0.0004859,
-      "trailing_active": false,
+      "peak_price": 0.0006978,
+      "trailing_active": true,
       "entry_time": "2026-08-29T02:11:11.721535+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 43.61,
+      "peak_volume_m5": 66452.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -127460,6 +127448,25 @@
       "exit_price": 0.0005809,
       "exit_pct": 104.4,
       "exit_time": "2026-08-29T02:04:31.965884+00:00"
+    },
+    {
+      "symbol": "TRUMPAPE",
+      "chain": "solana",
+      "address": "9w3CKbRXT1bSdu6wmUiwPAwt6J5KHK2GAK5kCusspump",
+      "source": "new",
+      "entry_price": 0.0001424,
+      "peak_price": 0.0001508,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T02:01:03.255898+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -97.92,
+      "peak_volume_m5": 52964.69,
+      "milestones_hit": [],
+      "exit_price": 2.956e-06,
+      "exit_pct": -97.92,
+      "exit_time": "2026-08-29T02:18:54.617640+00:00"
     }
   ],
   "alerted": {
@@ -133915,6 +133922,7 @@
     "0x1c3426560d42936f9183Ac3c4Ab22c4Fb7dA7793": "2026-08-29T01:22:37.032969+00:00",
     "0x659b2b5a6199F818eb0F5D0D16894113B1184092": "2026-08-29T01:23:30.077328+00:00",
     "0xB44C8594c84b237356fC9f83fb40a8e0f2a1126d": "2026-08-29T01:35:01.458147+00:00",
-    "0x3d0Ef79957D2f7114A7c5fc0cA9F13f19c342764": "2026-08-29T02:04:31.965884+00:00"
+    "0x3d0Ef79957D2f7114A7c5fc0cA9F13f19c342764": "2026-08-29T02:04:31.965884+00:00",
+    "9w3CKbRXT1bSdu6wmUiwPAwt6J5KHK2GAK5kCusspump": "2026-08-29T02:18:54.617640+00:00"
   }
 }
