@@ -8,33 +8,17 @@
       "address": "0x05A8DA18d08e00295348e1Cfe0f37648A71a3048",
       "source": "new",
       "entry_price": 0.0001206,
-      "peak_price": 0.0002274,
+      "peak_price": 0.0002404,
       "trailing_active": true,
       "entry_time": "2026-08-29T14:11:12.019999+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 88.56,
+      "current_pct": 99.34,
       "peak_volume_m5": 143306.6,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "COOKWARE",
-      "chain": "robinhood",
-      "address": "0x5FFD31094d3bDDcdB61904bb769A9Dce53E536EA",
-      "source": "new",
-      "entry_price": 0.0001561,
-      "peak_price": 0.0002096,
-      "trailing_active": true,
-      "entry_time": "2026-08-29T14:11:13.459537+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 34.27,
-      "peak_volume_m5": 37136.67,
-      "milestones_hit": []
     },
     {
       "symbol": "ApeTrump",
@@ -46,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-29T14:21:02.977692+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.18,
+      "peak_volume_m5": 71792.36,
+      "milestones_hit": []
     },
     {
       "symbol": "\u725b\u6765",
@@ -54,23 +42,15 @@
       "address": "0x9bCc6e6C8C88e6236e87B7aB718178C118Fa7777",
       "source": "new",
       "entry_price": 2.351e-05,
-      "peak_price": 2.351e-05,
-      "trailing_active": false,
+      "peak_price": 2.715e-05,
+      "trailing_active": true,
       "entry_time": "2026-08-29T14:21:04.666503+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "YUKI",
-      "chain": "solana",
-      "address": "8tSELNvQABdqDEP5hZRQhR8KXe2AxzC3MvXWr9uBpump",
-      "source": "new",
-      "entry_price": 0.0001206,
-      "peak_price": 0.0001206,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T14:21:07.894802+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.48,
+      "peak_volume_m5": 4162.89,
+      "milestones_hit": []
     },
     {
       "symbol": "\u73a9\u5076\u5154\u5b50",
@@ -78,23 +58,15 @@
       "address": "0xf090A835ecCFa66F514344FfCB01B275Ea997777",
       "source": "new",
       "entry_price": 0.0001092,
-      "peak_price": 0.0001092,
-      "trailing_active": false,
+      "peak_price": 0.0001327,
+      "trailing_active": true,
       "entry_time": "2026-08-29T14:21:10.827267+00:00",
       "score": 69,
-      "status": "open"
-    },
-    {
-      "symbol": "WADDLES",
-      "chain": "robinhood",
-      "address": "0xbB6Ee7aa6D56266CCEf3B1c0706bCCCE2F9a0CdD",
-      "source": "new",
-      "entry_price": 0.000111,
-      "peak_price": 0.000111,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T14:21:12.179068+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.52,
+      "peak_volume_m5": 18455.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -128609,6 +128581,63 @@
       "exit_price": 7.498e-05,
       "exit_pct": -8.42,
       "exit_time": "2026-08-29T14:02:40.918504+00:00"
+    },
+    {
+      "symbol": "COOKWARE",
+      "chain": "robinhood",
+      "address": "0x5FFD31094d3bDDcdB61904bb769A9Dce53E536EA",
+      "source": "new",
+      "entry_price": 0.0001561,
+      "peak_price": 0.0002096,
+      "trailing_active": true,
+      "entry_time": "2026-08-29T14:11:13.459537+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 15.37,
+      "peak_volume_m5": 37136.67,
+      "milestones_hit": [],
+      "exit_price": 0.0001801,
+      "exit_pct": 15.37,
+      "exit_time": "2026-08-29T14:22:51.489827+00:00"
+    },
+    {
+      "symbol": "YUKI",
+      "chain": "solana",
+      "address": "8tSELNvQABdqDEP5hZRQhR8KXe2AxzC3MvXWr9uBpump",
+      "source": "new",
+      "entry_price": 0.0001206,
+      "peak_price": 0.0001206,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T14:21:07.894802+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.12,
+      "peak_volume_m5": 21851.79,
+      "milestones_hit": [],
+      "exit_price": 0.0001084,
+      "exit_pct": -10.12,
+      "exit_time": "2026-08-29T14:22:53.160660+00:00"
+    },
+    {
+      "symbol": "WADDLES",
+      "chain": "robinhood",
+      "address": "0xbB6Ee7aa6D56266CCEf3B1c0706bCCCE2F9a0CdD",
+      "source": "new",
+      "entry_price": 0.000111,
+      "peak_price": 0.000111,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T14:21:12.179068+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.95,
+      "peak_volume_m5": 23146.96,
+      "milestones_hit": [],
+      "exit_price": 9.552e-05,
+      "exit_pct": -13.95,
+      "exit_time": "2026-08-29T14:22:54.529955+00:00"
     }
   ],
   "alerted": {
@@ -135120,6 +135149,9 @@
     "QH4NEjUfDULBNE9SDUHMNWkTz3ws5Dz6Pcy99UZpump": "2026-08-29T13:32:51.500798+00:00",
     "0xf46EC39A058E4FD98c4a32cdFaF09c8250eB9045": "2026-08-29T13:39:06.552018+00:00",
     "AfGdjAp9djSaqJxzYo3t6jy8tJA3o2aDPHoZ57Egpump": "2026-08-29T13:42:40.899045+00:00",
-    "0x2809463AE3cf754C05ab585FC3e9Df8Cd4C70e5a": "2026-08-29T14:02:40.918504+00:00"
+    "0x2809463AE3cf754C05ab585FC3e9Df8Cd4C70e5a": "2026-08-29T14:02:40.918504+00:00",
+    "0x5FFD31094d3bDDcdB61904bb769A9Dce53E536EA": "2026-08-29T14:22:51.489827+00:00",
+    "8tSELNvQABdqDEP5hZRQhR8KXe2AxzC3MvXWr9uBpump": "2026-08-29T14:22:53.160660+00:00",
+    "0xbB6Ee7aa6D56266CCEf3B1c0706bCCCE2F9a0CdD": "2026-08-29T14:22:54.529955+00:00"
   }
 }
