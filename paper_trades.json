@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VFLOW",
-      "chain": "robinhood",
-      "address": "0x7439C0DA415607547588760d7ff77Bda34631f80",
-      "source": "new",
-      "entry_price": 9.475e-07,
-      "peak_price": 1.907e-06,
-      "trailing_active": true,
-      "entry_time": "2026-08-29T03:01:10.748203+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 101.27,
-      "peak_volume_m5": 45008.66,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "GOLDNIGGA",
       "chain": "solana",
       "address": "G3dPzUFvQbs97XMBiogStYR1ojDWMzwL1xhjiTSBpump",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-29T03:11:04.667090+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.32,
+      "peak_volume_m5": 66072.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -127581,6 +127566,28 @@
       "exit_price": 0.0006407,
       "exit_pct": -8.95,
       "exit_time": "2026-08-29T03:03:15.825624+00:00"
+    },
+    {
+      "symbol": "VFLOW",
+      "chain": "robinhood",
+      "address": "0x7439C0DA415607547588760d7ff77Bda34631f80",
+      "source": "new",
+      "entry_price": 9.475e-07,
+      "peak_price": 1.907e-06,
+      "trailing_active": true,
+      "entry_time": "2026-08-29T03:01:10.748203+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 57.78,
+      "peak_volume_m5": 47627.83,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 1.495e-06,
+      "exit_pct": 57.78,
+      "exit_time": "2026-08-29T03:12:38.392499+00:00"
     }
   ],
   "alerted": {
@@ -134042,6 +134049,7 @@
     "Hh2ez1gkzkiBmbGYG3fZFjyUwQEGJktsoMUfRcufpump": "2026-08-29T02:22:52.099092+00:00",
     "FxNE8zHXnM33EYoxDc7Ev94n2V837EeASW9UQtLxpump": "2026-08-29T02:32:51.716689+00:00",
     "0xA0e4C233323fAc27C114cE2De2ABe64821E44494": "2026-08-29T02:50:53.197399+00:00",
-    "0xD18528b39dA6464B3662c331a52181ecB15b1E18": "2026-08-29T03:03:15.825624+00:00"
+    "0xD18528b39dA6464B3662c331a52181ecB15b1E18": "2026-08-29T03:03:15.825624+00:00",
+    "0x7439C0DA415607547588760d7ff77Bda34631f80": "2026-08-29T03:12:38.392499+00:00"
   }
 }
