@@ -8,34 +8,19 @@
       "address": "0x3cb43fad8bd7899b0066e350f0210480348d61ed",
       "source": "new",
       "entry_price": 9.936e-05,
-      "peak_price": 0.0002673,
+      "peak_price": 0.0003119,
       "trailing_active": true,
       "entry_time": "2026-08-29T17:21:11.285670+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 169.02,
+      "current_pct": 213.91,
       "peak_volume_m5": 134300.15,
       "milestones_hit": [
+        200,
         50,
         100
       ]
-    },
-    {
-      "symbol": "HYRAX",
-      "chain": "robinhood",
-      "address": "0x71e12ff485F9356B096E936679F592952d822224",
-      "source": "new",
-      "entry_price": 0.0002305,
-      "peak_price": 0.0002486,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T17:41:09.121834+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.85,
-      "peak_volume_m5": 50731.74,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129186,6 +129171,25 @@
       "exit_price": 0.0001144,
       "exit_pct": -23.83,
       "exit_time": "2026-08-29T17:43:51.630600+00:00"
+    },
+    {
+      "symbol": "HYRAX",
+      "chain": "robinhood",
+      "address": "0x71e12ff485F9356B096E936679F592952d822224",
+      "source": "new",
+      "entry_price": 0.0002305,
+      "peak_price": 0.0002486,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T17:41:09.121834+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -56.74,
+      "peak_volume_m5": 50731.74,
+      "milestones_hit": [],
+      "exit_price": 9.971e-05,
+      "exit_pct": -56.74,
+      "exit_time": "2026-08-29T17:48:29.632013+00:00"
     }
   ],
   "alerted": {
@@ -135729,6 +135733,7 @@
     "0x14F96075CC757eA835C3DfA5Fa22e5E6D9B69874": "2026-08-29T17:12:36.210849+00:00",
     "0xF9e6D90Cde065A1fc4a74D7603Bb3cE88E870Cf9": "2026-08-29T17:14:30.218795+00:00",
     "0x2A921859109EaC8784a6FfC9D86D2583390B3065": "2026-08-29T17:34:01.863396+00:00",
-    "0x4165103bcf4dca4bbb7b1d873d575ef62eaffb76": "2026-08-29T17:43:51.630600+00:00"
+    "0x4165103bcf4dca4bbb7b1d873d575ef62eaffb76": "2026-08-29T17:43:51.630600+00:00",
+    "0x71e12ff485F9356B096E936679F592952d822224": "2026-08-29T17:48:29.632013+00:00"
   }
 }
