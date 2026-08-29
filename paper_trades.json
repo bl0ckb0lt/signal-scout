@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BIRDHOUSE",
-      "chain": "solana",
-      "address": "9jRKQFo7SnAQYAndkwLCBx8D2RLkdspX5dCMSMaZpump",
-      "source": "new",
-      "entry_price": 0.0001415,
-      "peak_price": 0.0001415,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T07:21:08.458173+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "OPTIMUS",
       "chain": "robinhood",
       "address": "0x0fF9072a1EAD154d92C2d2Fef16AFba6028Ce2B2",
       "source": "new",
       "entry_price": 0.0006717,
-      "peak_price": 0.0006717,
-      "trailing_active": false,
+      "peak_price": 0.0008565,
+      "trailing_active": true,
       "entry_time": "2026-08-29T07:21:09.770097+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 27.51,
+      "peak_volume_m5": 8164.6,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -127904,6 +127896,25 @@
       "exit_price": 8.404e-06,
       "exit_pct": -92.73,
       "exit_time": "2026-08-29T07:12:18.819165+00:00"
+    },
+    {
+      "symbol": "BIRDHOUSE",
+      "chain": "solana",
+      "address": "9jRKQFo7SnAQYAndkwLCBx8D2RLkdspX5dCMSMaZpump",
+      "source": "new",
+      "entry_price": 0.0001415,
+      "peak_price": 0.0001415,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T07:21:08.458173+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.49,
+      "peak_volume_m5": 82098.95,
+      "milestones_hit": [],
+      "exit_price": 0.000121,
+      "exit_pct": -14.49,
+      "exit_time": "2026-08-29T07:22:53.929664+00:00"
     }
   ],
   "alerted": {
@@ -134382,6 +134393,7 @@
     "DTdDsWkaXimkyMQgr6mKTiTfsuFQBM6dHS478N6Apump": "2026-08-29T06:45:03.780817+00:00",
     "0x3B7Faf14DF5c2965819822ECE6287aF232F9dAF4": "2026-08-29T07:08:50.180303+00:00",
     "3UWkGGuT2Ut758CHDDWTzMMdgdagxnJjjhi8hKQYpump": "2026-08-29T07:12:18.091527+00:00",
-    "BCQmthQkdTcmbsvQCUquYDmqj7nyJRKktYPntK8Dpump": "2026-08-29T07:12:18.819165+00:00"
+    "BCQmthQkdTcmbsvQCUquYDmqj7nyJRKktYPntK8Dpump": "2026-08-29T07:12:18.819165+00:00",
+    "9jRKQFo7SnAQYAndkwLCBx8D2RLkdspX5dCMSMaZpump": "2026-08-29T07:22:53.929664+00:00"
   }
 }
