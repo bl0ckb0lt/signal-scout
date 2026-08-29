@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "apebull",
-      "chain": "solana",
-      "address": "3M12vA8kma7RAWRhG3ScUKgFTfyTFDgwZ4ufhUqepump",
-      "source": "new",
-      "entry_price": 0.0001893,
-      "peak_price": 0.0001893,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T21:21:08.876454+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.32,
-      "peak_volume_m5": 62223.54,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Coppersem",
       "chain": "robinhood",
       "address": "0x1cB73475fffEE96BeD9D8F6DDB1a8278a7ACf62B",
       "source": "new",
       "entry_price": 8.851e-07,
-      "peak_price": 9.885e-07,
-      "trailing_active": false,
+      "peak_price": 1.124e-06,
+      "trailing_active": true,
       "entry_time": "2026-08-29T21:21:12.424429+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.68,
+      "current_pct": 26.99,
       "peak_volume_m5": 57942.32,
       "milestones_hit": []
     },
@@ -40,11 +24,15 @@
       "address": "0x9a2167F8a72EE265F1D98e9Ef7ccdC2437c21E88",
       "source": "new",
       "entry_price": 0.0002708,
-      "peak_price": 0.0002708,
-      "trailing_active": false,
+      "peak_price": 0.0003222,
+      "trailing_active": true,
       "entry_time": "2026-08-29T21:30:24.757691+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.98,
+      "peak_volume_m5": 113957.32,
+      "milestones_hit": []
     },
     {
       "symbol": "STACY",
@@ -52,23 +40,15 @@
       "address": "TRUEq13uwehY57S1Y62iTxas7ahpFgohc8kScbGNu1h",
       "source": "new",
       "entry_price": 0.0001786,
-      "peak_price": 0.0001786,
+      "peak_price": 0.0002042,
       "trailing_active": false,
       "entry_time": "2026-08-29T21:30:26.742466+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "SCL",
-      "chain": "robinhood",
-      "address": "0xBe92b334E045Bbfd292a28e54f8C75aF2FC07bBE",
-      "source": "new",
-      "entry_price": 0.0001099,
-      "peak_price": 0.0001099,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T21:30:28.267791+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.33,
+      "peak_volume_m5": 278334.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129674,6 +129654,44 @@
       "exit_price": 0.0001062,
       "exit_pct": -11.06,
       "exit_time": "2026-08-29T21:14:52.571008+00:00"
+    },
+    {
+      "symbol": "apebull",
+      "chain": "solana",
+      "address": "3M12vA8kma7RAWRhG3ScUKgFTfyTFDgwZ4ufhUqepump",
+      "source": "new",
+      "entry_price": 0.0001893,
+      "peak_price": 0.0001893,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T21:21:08.876454+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.34,
+      "peak_volume_m5": 62223.54,
+      "milestones_hit": [],
+      "exit_price": 0.0001489,
+      "exit_pct": -21.34,
+      "exit_time": "2026-08-29T21:31:47.360986+00:00"
+    },
+    {
+      "symbol": "SCL",
+      "chain": "robinhood",
+      "address": "0xBe92b334E045Bbfd292a28e54f8C75aF2FC07bBE",
+      "source": "new",
+      "entry_price": 0.0001099,
+      "peak_price": 0.0001099,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T21:30:28.267791+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.36,
+      "peak_volume_m5": 4833.51,
+      "milestones_hit": [],
+      "exit_price": 9.082e-05,
+      "exit_pct": -17.36,
+      "exit_time": "2026-08-29T21:31:50.244467+00:00"
     }
   ],
   "alerted": {
@@ -136240,6 +136258,8 @@
     "0xC538dA4baDF76938B06cA4392D08942f1343D533": "2026-08-29T20:42:10.597947+00:00",
     "0xB0bB214ec6C6C600D224C781339309a95F8E4811": "2026-08-29T21:02:42.841618+00:00",
     "5FkdrLryVefo7HDKd9EATV3q1u6cQDJhBmQubYzupump": "2026-08-29T21:08:26.504220+00:00",
-    "0x5aDe5Bc6d12bEe7b8645fEE69643A4Eed035B495": "2026-08-29T21:14:52.571008+00:00"
+    "0x5aDe5Bc6d12bEe7b8645fEE69643A4Eed035B495": "2026-08-29T21:14:52.571008+00:00",
+    "3M12vA8kma7RAWRhG3ScUKgFTfyTFDgwZ4ufhUqepump": "2026-08-29T21:31:47.360986+00:00",
+    "0xBe92b334E045Bbfd292a28e54f8C75aF2FC07bBE": "2026-08-29T21:31:50.244467+00:00"
   }
 }
