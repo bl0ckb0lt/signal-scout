@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CASHCOW",
-      "chain": "robinhood",
-      "address": "0xB0bB214ec6C6C600D224C781339309a95F8E4811",
-      "source": "new",
-      "entry_price": 0.0001119,
-      "peak_price": 0.0001119,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T21:01:05.078865+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "catonfone",
       "chain": "solana",
       "address": "5FkdrLryVefo7HDKd9EATV3q1u6cQDJhBmQubYzupump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-29T21:01:09.434509+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.01,
+      "peak_volume_m5": 1908.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129573,6 +129565,25 @@
       "exit_price": 9.38e-05,
       "exit_pct": -10.84,
       "exit_time": "2026-08-29T20:42:10.597947+00:00"
+    },
+    {
+      "symbol": "CASHCOW",
+      "chain": "robinhood",
+      "address": "0xB0bB214ec6C6C600D224C781339309a95F8E4811",
+      "source": "new",
+      "entry_price": 0.0001119,
+      "peak_price": 0.0001119,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T21:01:05.078865+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.33,
+      "peak_volume_m5": 33897.43,
+      "milestones_hit": [],
+      "exit_price": 9.81e-05,
+      "exit_pct": -12.33,
+      "exit_time": "2026-08-29T21:02:42.841618+00:00"
     }
   ],
   "alerted": {
@@ -136136,6 +136147,7 @@
     "0x445Fb0537DB1099221741506a1549775e0a4C23D": "2026-08-29T19:54:00.964556+00:00",
     "0xc97D697b6EC9E14d031812b8897F55111aDc939F": "2026-08-29T20:32:52.405351+00:00",
     "0x3207d891DDD0dB2981a6976B58b22E27c0699b4B": "2026-08-29T20:42:09.747538+00:00",
-    "0xC538dA4baDF76938B06cA4392D08942f1343D533": "2026-08-29T20:42:10.597947+00:00"
+    "0xC538dA4baDF76938B06cA4392D08942f1343D533": "2026-08-29T20:42:10.597947+00:00",
+    "0xB0bB214ec6C6C600D224C781339309a95F8E4811": "2026-08-29T21:02:42.841618+00:00"
   }
 }
