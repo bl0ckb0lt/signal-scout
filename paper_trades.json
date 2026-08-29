@@ -3,38 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CASHCOW",
-      "chain": "robinhood",
-      "address": "0x556D08A0E70ceFB9692Cb1190D99c94D9366bdD7",
-      "source": "new",
-      "entry_price": 0.0002259,
-      "peak_price": 0.0007109,
-      "trailing_active": true,
-      "entry_time": "2026-08-29T21:41:07.208812+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 214.7,
-      "peak_volume_m5": 177658.43,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Leafy",
       "chain": "solana",
       "address": "DD3AC2Cmr5rXzJ6ErRHeryx3ASLVMhSBALiUqeKcpump",
       "source": "new",
       "entry_price": 0.0001232,
-      "peak_price": 0.0001483,
+      "peak_price": 0.0001661,
       "trailing_active": true,
       "entry_time": "2026-08-29T22:21:08.667274+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 20.37,
+      "current_pct": 34.82,
       "peak_volume_m5": 11283.29,
       "milestones_hit": []
     }
@@ -129851,6 +129831,29 @@
       "exit_price": 0.0001091,
       "exit_pct": -46.52,
       "exit_time": "2026-08-29T22:23:48.128618+00:00"
+    },
+    {
+      "symbol": "CASHCOW",
+      "chain": "robinhood",
+      "address": "0x556D08A0E70ceFB9692Cb1190D99c94D9366bdD7",
+      "source": "new",
+      "entry_price": 0.0002259,
+      "peak_price": 0.0008153,
+      "trailing_active": true,
+      "entry_time": "2026-08-29T21:41:07.208812+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 260.91,
+      "peak_volume_m5": 177658.43,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0008153,
+      "exit_pct": 260.91,
+      "exit_time": "2026-08-29T22:26:50.668969+00:00"
     }
   ],
   "alerted": {
@@ -136428,6 +136431,7 @@
     "7AKqtbKBS1KjYEcDHgHHt9uxNSTP2gxYC5W4SDCMpump": "2026-08-29T21:54:53.313780+00:00",
     "0xf1C66C8d49744067333dBf2Ca2ad01aa92b12777": "2026-08-29T22:12:05.330965+00:00",
     "0x35a7C0C3013cc379faAD39eF18bbb03d4fDf0264": "2026-08-29T22:12:06.029982+00:00",
-    "0x67aD84fd4604251Cf2a5211c7210274C412e9715": "2026-08-29T22:23:48.128618+00:00"
+    "0x67aD84fd4604251Cf2a5211c7210274C412e9715": "2026-08-29T22:23:48.128618+00:00",
+    "0x556D08A0E70ceFB9692Cb1190D99c94D9366bdD7": "2026-08-29T22:26:50.668969+00:00"
   }
 }
