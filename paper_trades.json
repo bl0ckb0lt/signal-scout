@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FINANCE",
-      "chain": "robinhood",
-      "address": "0x86339b5c60a92856e19b05718087620f68fa9c33",
-      "source": "new",
-      "entry_price": 0.0001613,
-      "peak_price": 0.0001613,
-      "trailing_active": false,
-      "entry_time": "2026-08-29T21:41:04.459171+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "CASHCOW",
       "chain": "robinhood",
       "address": "0x556D08A0E70ceFB9692Cb1190D99c94D9366bdD7",
       "source": "new",
       "entry_price": 0.0002259,
-      "peak_price": 0.0002259,
+      "peak_price": 0.000259,
       "trailing_active": false,
       "entry_time": "2026-08-29T21:41:07.208812+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.65,
+      "peak_volume_m5": 158447.88,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -129725,6 +129717,25 @@
       "exit_price": 8.21e-07,
       "exit_pct": -7.24,
       "exit_time": "2026-08-29T21:34:44.659131+00:00"
+    },
+    {
+      "symbol": "FINANCE",
+      "chain": "robinhood",
+      "address": "0x86339b5c60a92856e19b05718087620f68fa9c33",
+      "source": "new",
+      "entry_price": 0.0001613,
+      "peak_price": 0.0001613,
+      "trailing_active": false,
+      "entry_time": "2026-08-29T21:41:04.459171+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.27,
+      "peak_volume_m5": 25035.61,
+      "milestones_hit": [],
+      "exit_price": 0.0001157,
+      "exit_pct": -28.27,
+      "exit_time": "2026-08-29T21:45:23.917219+00:00"
     }
   ],
   "alerted": {
@@ -136296,6 +136307,7 @@
     "0xBe92b334E045Bbfd292a28e54f8C75aF2FC07bBE": "2026-08-29T21:31:50.244467+00:00",
     "0x9a2167F8a72EE265F1D98e9Ef7ccdC2437c21E88": "2026-08-29T21:32:45.288888+00:00",
     "TRUEq13uwehY57S1Y62iTxas7ahpFgohc8kScbGNu1h": "2026-08-29T21:33:45.582636+00:00",
-    "0x1cB73475fffEE96BeD9D8F6DDB1a8278a7ACf62B": "2026-08-29T21:34:44.659131+00:00"
+    "0x1cB73475fffEE96BeD9D8F6DDB1a8278a7ACf62B": "2026-08-29T21:34:44.659131+00:00",
+    "0x86339b5c60a92856e19b05718087620f68fa9c33": "2026-08-29T21:45:23.917219+00:00"
   }
 }
