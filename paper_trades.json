@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VERONA",
-      "chain": "robinhood",
-      "address": "0x3d0Ef79957D2f7114A7c5fc0cA9F13f19c342764",
-      "source": "new",
-      "entry_price": 0.0002842,
-      "peak_price": 0.000622,
-      "trailing_active": true,
-      "entry_time": "2026-08-29T01:51:07.422371+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 118.86,
-      "peak_volume_m5": 72562.09,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "TRUMPAPE",
       "chain": "solana",
       "address": "9w3CKbRXT1bSdu6wmUiwPAwt6J5KHK2GAK5kCusspump",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-29T02:01:03.255898+00:00",
       "score": 91,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.76,
+      "peak_volume_m5": 41024.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -127441,6 +127426,28 @@
       "exit_price": 0.0001187,
       "exit_pct": -16.53,
       "exit_time": "2026-08-29T01:35:01.458147+00:00"
+    },
+    {
+      "symbol": "VERONA",
+      "chain": "robinhood",
+      "address": "0x3d0Ef79957D2f7114A7c5fc0cA9F13f19c342764",
+      "source": "new",
+      "entry_price": 0.0002842,
+      "peak_price": 0.000622,
+      "trailing_active": true,
+      "entry_time": "2026-08-29T01:51:07.422371+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 104.4,
+      "peak_volume_m5": 72562.09,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0005809,
+      "exit_pct": 104.4,
+      "exit_time": "2026-08-29T02:04:31.965884+00:00"
     }
   ],
   "alerted": {
@@ -133895,6 +133902,7 @@
     "PiiV6L7Z1QbpkKYHrhpL8wCYe2sV8eKSiSFf5Acpump": "2026-08-29T01:03:53.520328+00:00",
     "0x1c3426560d42936f9183Ac3c4Ab22c4Fb7dA7793": "2026-08-29T01:22:37.032969+00:00",
     "0x659b2b5a6199F818eb0F5D0D16894113B1184092": "2026-08-29T01:23:30.077328+00:00",
-    "0xB44C8594c84b237356fC9f83fb40a8e0f2a1126d": "2026-08-29T01:35:01.458147+00:00"
+    "0xB44C8594c84b237356fC9f83fb40a8e0f2a1126d": "2026-08-29T01:35:01.458147+00:00",
+    "0x3d0Ef79957D2f7114A7c5fc0cA9F13f19c342764": "2026-08-29T02:04:31.965884+00:00"
   }
 }
