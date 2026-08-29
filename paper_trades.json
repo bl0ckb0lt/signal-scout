@@ -8,34 +8,17 @@
       "address": "0x736322c355b926A4D9d9D0aB1e802b4174c0F3B6",
       "source": "new",
       "entry_price": 0.0001004,
-      "peak_price": 0.0001716,
+      "peak_price": 0.0002855,
       "trailing_active": true,
       "entry_time": "2026-08-29T15:11:10.863433+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 70.92,
+      "current_pct": 184.36,
       "peak_volume_m5": 126112.37,
       "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "HOUSE",
-      "chain": "base",
-      "address": "0xb200000000000000000000821a8eee69C4201601",
-      "source": "new",
-      "entry_price": 5.483e-05,
-      "peak_price": 0.0001082,
-      "trailing_active": true,
-      "entry_time": "2026-08-29T15:11:12.868238+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 97.34,
-      "peak_volume_m5": 69331.19,
-      "milestones_hit": [
-        50
+        50,
+        100
       ]
     }
   ],
@@ -128788,6 +128771,29 @@
       "exit_price": 0.0001108,
       "exit_pct": -9.62,
       "exit_time": "2026-08-29T15:15:19.808137+00:00"
+    },
+    {
+      "symbol": "HOUSE",
+      "chain": "base",
+      "address": "0xb200000000000000000000821a8eee69C4201601",
+      "source": "new",
+      "entry_price": 5.483e-05,
+      "peak_price": 0.0001982,
+      "trailing_active": true,
+      "entry_time": "2026-08-29T15:11:12.868238+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 261.48,
+      "peak_volume_m5": 69331.19,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0001982,
+      "exit_pct": 261.48,
+      "exit_time": "2026-08-29T15:31:00.701234+00:00"
     }
   ],
   "alerted": {
@@ -135311,6 +135317,7 @@
     "0x774f8f44891d6ed3516fe3fa18525c94f8f47b60": "2026-08-29T14:42:01.242999+00:00",
     "0xD1a10195a2A3c4B25daec68B707e266D4BCc4f0E": "2026-08-29T15:03:37.670397+00:00",
     "0x63C9F761ead0FB0AB8B80D4832e0D6c4C12f7Ff1": "2026-08-29T15:03:38.364918+00:00",
-    "7VVmK93JJgnKe9uWCqkCWMtWtWnpGJZyJjjUi3RZpump": "2026-08-29T15:15:19.808137+00:00"
+    "7VVmK93JJgnKe9uWCqkCWMtWtWnpGJZyJjjUi3RZpump": "2026-08-29T15:15:19.808137+00:00",
+    "0xb200000000000000000000821a8eee69C4201601": "2026-08-29T15:31:00.701234+00:00"
   }
 }
