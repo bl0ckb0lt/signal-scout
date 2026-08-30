@@ -8,13 +8,13 @@
       "address": "0xFdfcE2e533f84993cc974DC8a8Ba43144EB3Aac4",
       "source": "new",
       "entry_price": 0.00782,
-      "peak_price": 0.02654,
+      "peak_price": 0.0266,
       "trailing_active": true,
       "entry_time": "2026-08-30T14:21:06.490939+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 239.39,
+      "current_pct": 240.15,
       "peak_volume_m5": 105749.24,
       "milestones_hit": [
         200,
@@ -34,7 +34,7 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.18,
+      "current_pct": 5.44,
       "peak_volume_m5": 37376.79,
       "milestones_hit": []
     },
@@ -44,14 +44,14 @@
       "address": "Gq5J16kc2fM3SCzEtDJh5wUKgQYTWVXXfr5pb8iApump",
       "source": "new",
       "entry_price": 0.0001651,
-      "peak_price": 0.000168,
+      "peak_price": 0.000186,
       "trailing_active": false,
       "entry_time": "2026-08-30T14:41:14.452444+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.76,
-      "peak_volume_m5": 5654.94,
+      "current_pct": 12.66,
+      "peak_volume_m5": 6499.52,
       "milestones_hit": []
     },
     {
@@ -71,40 +71,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "RAMCOIN",
-      "chain": "solana",
-      "address": "Femuy4XPWMumb1L8ErHiWuXGweXCyqCyfrZxxxxqpump",
-      "source": "boost",
-      "entry_price": 0.000227,
-      "peak_price": 0.000227,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T14:51:04.417387+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "QSB",
       "chain": "robinhood",
       "address": "0xb718da12ba0f9C0c0228C3dC78Ec6532fB66F31F",
       "source": "new",
       "entry_price": 0.0002052,
-      "peak_price": 0.0002052,
-      "trailing_active": false,
+      "peak_price": 0.0002584,
+      "trailing_active": true,
       "entry_time": "2026-08-30T14:51:07.657233+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "MILCOW",
-      "chain": "solana",
-      "address": "JD5eC8WycYe4mkS6h145DfmDLPsKuoRYpbB3BNNEpump",
-      "source": "new",
-      "entry_price": 0.0001836,
-      "peak_price": 0.0001836,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T14:51:10.935117+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 25.93,
+      "peak_volume_m5": 71921.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -131849,6 +131829,44 @@
       "exit_price": 0.008874,
       "exit_pct": 287.34,
       "exit_time": "2026-08-30T14:43:51.545641+00:00"
+    },
+    {
+      "symbol": "RAMCOIN",
+      "chain": "solana",
+      "address": "Femuy4XPWMumb1L8ErHiWuXGweXCyqCyfrZxxxxqpump",
+      "source": "boost",
+      "entry_price": 0.000227,
+      "peak_price": 0.000227,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T14:51:04.417387+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.16,
+      "peak_volume_m5": 28891.89,
+      "milestones_hit": [],
+      "exit_price": 0.0001994,
+      "exit_pct": -12.16,
+      "exit_time": "2026-08-30T14:54:09.899502+00:00"
+    },
+    {
+      "symbol": "MILCOW",
+      "chain": "solana",
+      "address": "JD5eC8WycYe4mkS6h145DfmDLPsKuoRYpbB3BNNEpump",
+      "source": "new",
+      "entry_price": 0.0001836,
+      "peak_price": 0.0001836,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T14:51:10.935117+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.9,
+      "peak_volume_m5": 14487.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001489,
+      "exit_pct": -18.9,
+      "exit_time": "2026-08-30T14:54:11.499573+00:00"
     }
   ],
   "alerted": {
@@ -138524,6 +138542,8 @@
     "0x3870Cedd0e2a8be448a9dFE6fc7b94c094ED5b58": "2026-08-30T14:32:47.598948+00:00",
     "0xB586909fe09332b907CFA55b911562aE413CE47E": "2026-08-30T14:37:23.016750+00:00",
     "5FEcpNRUdmJ2if3baLXk1qzasCiXvPcHwu24Ar3gcQsL": "2026-08-30T14:38:22.539797+00:00",
-    "0xa4b135db6fDe79c963DE830c18Bc4c3a1821B6E1": "2026-08-30T14:43:51.545641+00:00"
+    "0xa4b135db6fDe79c963DE830c18Bc4c3a1821B6E1": "2026-08-30T14:43:51.545641+00:00",
+    "Femuy4XPWMumb1L8ErHiWuXGweXCyqCyfrZxxxxqpump": "2026-08-30T14:54:09.899502+00:00",
+    "JD5eC8WycYe4mkS6h145DfmDLPsKuoRYpbB3BNNEpump": "2026-08-30T14:54:11.499573+00:00"
   }
 }
