@@ -83,18 +83,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SHRUB",
-      "chain": "robinhood",
-      "address": "0x5d9144d2d017386519a7134Fcc7f1E4bA22f920c",
-      "source": "boost",
-      "entry_price": 0.01255,
-      "peak_price": 0.01255,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T22:11:08.320114+00:00",
-      "score": 101,
-      "status": "open"
-    },
-    {
       "symbol": "LMEOW",
       "chain": "robinhood",
       "address": "0x053EacD26B4bC7097E00aC275e6ac3773E882BF7",
@@ -104,7 +92,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-30T22:11:11.228088+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.95,
+      "peak_volume_m5": 6168.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -133002,6 +132994,25 @@
       "exit_price": 8.318e-05,
       "exit_pct": -11.08,
       "exit_time": "2026-08-30T22:08:38.318351+00:00"
+    },
+    {
+      "symbol": "SHRUB",
+      "chain": "robinhood",
+      "address": "0x5d9144d2d017386519a7134Fcc7f1E4bA22f920c",
+      "source": "boost",
+      "entry_price": 0.01255,
+      "peak_price": 0.01255,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T22:11:08.320114+00:00",
+      "score": 101,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -39.79,
+      "peak_volume_m5": 389305.56,
+      "milestones_hit": [],
+      "exit_price": 0.007556,
+      "exit_pct": -39.79,
+      "exit_time": "2026-08-30T22:12:49.552510+00:00"
     }
   ],
   "alerted": {
@@ -139720,7 +139731,7 @@
     "9boRbCdxqGgEjk462qYDrMp9kMF1Wm7iAkK4nEygpump": "2026-08-30T18:42:12.534712+00:00",
     "0x3948A21e2B3262eB3FFBA4679b969fD3298988fB": "2026-08-30T18:52:06.203301+00:00",
     "0xB3fBAD2E7F7a469eF8105C74E1B69A4db78217cc": "2026-08-30T19:01:09.417584+00:00",
-    "0x5d9144d2d017386519a7134Fcc7f1E4bA22f920c": "2026-08-30T19:12:43.650601+00:00",
+    "0x5d9144d2d017386519a7134Fcc7f1E4bA22f920c": "2026-08-30T22:12:49.552510+00:00",
     "aTUfRuPj3tp7FEpzAXLjs4VnQgAFbExD5JHGTyvpump": "2026-08-30T19:12:44.345636+00:00",
     "0xA97005324d607EeF70aC8CB7d864B0Cd0A1B446D": "2026-08-30T19:13:50.699801+00:00",
     "77hMzegLm5BghKzdpo5YG6j2nburMq8XtadH3Kvnpump": "2026-08-30T19:16:22.214547+00:00",
