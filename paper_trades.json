@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "faucet",
-      "chain": "robinhood",
-      "address": "0x9969CaA63792Cb58Dae5F251d300f5262f6C3fa4",
-      "source": "new",
-      "entry_price": 0.0001289,
-      "peak_price": 0.0001289,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T05:11:04.458569+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "FLXO",
       "chain": "robinhood",
       "address": "0xE800796b0ffB46Fc07C5EA89D5942C700ff9D09a",
       "source": "new",
       "entry_price": 0.0001219,
-      "peak_price": 0.0001219,
+      "peak_price": 0.0001231,
       "trailing_active": false,
       "entry_time": "2026-08-30T05:11:05.797523+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.98,
+      "peak_volume_m5": 33156.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -130427,6 +130419,25 @@
       "exit_price": 0.0001038,
       "exit_pct": -22.01,
       "exit_time": "2026-08-30T04:43:39.144959+00:00"
+    },
+    {
+      "symbol": "faucet",
+      "chain": "robinhood",
+      "address": "0x9969CaA63792Cb58Dae5F251d300f5262f6C3fa4",
+      "source": "new",
+      "entry_price": 0.0001289,
+      "peak_price": 0.0001289,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T05:11:04.458569+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.01,
+      "peak_volume_m5": 14627.61,
+      "milestones_hit": [],
+      "exit_price": 0.000116,
+      "exit_pct": -10.01,
+      "exit_time": "2026-08-30T05:11:53.624282+00:00"
     }
   ],
   "alerted": {
@@ -137034,6 +137045,7 @@
     "0x98D2142B18696D0cD9Be4954F93DbD03F3523A88": "2026-08-30T04:03:25.742301+00:00",
     "0xDF5Ac0fC642633f8c944BC154f989d53259c9fE6": "2026-08-30T04:32:37.939505+00:00",
     "0x27956daeE2F9fF8Dfd1CBAAbF8120bd449c300d5": "2026-08-30T04:35:22.891853+00:00",
-    "2GUytGiL7F9S7AZHDBqFCGYxUDYmnPQzqeSss5j6pump": "2026-08-30T04:43:39.144959+00:00"
+    "2GUytGiL7F9S7AZHDBqFCGYxUDYmnPQzqeSss5j6pump": "2026-08-30T04:43:39.144959+00:00",
+    "0x9969CaA63792Cb58Dae5F251d300f5262f6C3fa4": "2026-08-30T05:11:53.624282+00:00"
   }
 }
