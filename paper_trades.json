@@ -76,19 +76,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-30T20:31:08.011711+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "PIZZA",
-      "chain": "robinhood",
-      "address": "0xce065f3bfcee1fd9fa8b2e83098f1e68d4aeefd6",
-      "source": "new",
-      "entry_price": 0.0001343,
-      "peak_price": 0.0001343,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T20:31:09.518974+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 9882.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -132865,6 +132857,25 @@
       "exit_price": 0.000257,
       "exit_pct": 28.56,
       "exit_time": "2026-08-30T20:23:12.168823+00:00"
+    },
+    {
+      "symbol": "PIZZA",
+      "chain": "robinhood",
+      "address": "0xce065f3bfcee1fd9fa8b2e83098f1e68d4aeefd6",
+      "source": "new",
+      "entry_price": 0.0001343,
+      "peak_price": 0.0001343,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T20:31:09.518974+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.56,
+      "peak_volume_m5": 24465.06,
+      "milestones_hit": [],
+      "exit_price": 0.0001134,
+      "exit_pct": -15.56,
+      "exit_time": "2026-08-30T20:34:17.501144+00:00"
     }
   ],
   "alerted": {
@@ -139592,6 +139603,7 @@
     "0x1af37a78b7968395f8cC119443E1F639A928d5eD": "2026-08-30T19:36:24.371887+00:00",
     "0xbada1d162bacbef87eb166014f2b0fac506db18e": "2026-08-30T20:17:45.619121+00:00",
     "0x6d64E2f2653eA299CDE8Af2d2D98fAC2baDc694E": "2026-08-30T20:22:14.228268+00:00",
-    "G9FGtfqT5GY73Tb2d1sR5Jws6HY73fmK4nR34fjbpump": "2026-08-30T20:23:12.168823+00:00"
+    "G9FGtfqT5GY73Tb2d1sR5Jws6HY73fmK4nR34fjbpump": "2026-08-30T20:23:12.168823+00:00",
+    "0xce065f3bfcee1fd9fa8b2e83098f1e68d4aeefd6": "2026-08-30T20:34:17.501144+00:00"
   }
 }
