@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FLXO",
-      "chain": "robinhood",
-      "address": "0xE800796b0ffB46Fc07C5EA89D5942C700ff9D09a",
-      "source": "new",
-      "entry_price": 0.0001219,
-      "peak_price": 0.0002365,
-      "trailing_active": true,
-      "entry_time": "2026-08-30T05:11:05.797523+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 94.01,
-      "peak_volume_m5": 55525.43,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "RAPE",
       "chain": "solana",
       "address": "dqepPmoDP38posYPpQUBV3i2DjR2oK8DPzwMqdKpump",
       "source": "new",
       "entry_price": 9.778e-05,
-      "peak_price": 9.778e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001322,
+      "trailing_active": true,
       "entry_time": "2026-08-30T05:51:01.939807+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.2,
+      "peak_volume_m5": 125213.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -130512,6 +130498,27 @@
       "exit_price": 0.0007272,
       "exit_pct": -14.87,
       "exit_time": "2026-08-30T05:32:18.796160+00:00"
+    },
+    {
+      "symbol": "FLXO",
+      "chain": "robinhood",
+      "address": "0xE800796b0ffB46Fc07C5EA89D5942C700ff9D09a",
+      "source": "new",
+      "entry_price": 0.0001219,
+      "peak_price": 0.0002365,
+      "trailing_active": true,
+      "entry_time": "2026-08-30T05:11:05.797523+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 19.93,
+      "peak_volume_m5": 58661.52,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001462,
+      "exit_pct": 19.93,
+      "exit_time": "2026-08-30T05:52:38.772505+00:00"
     }
   ],
   "alerted": {
@@ -137123,6 +137130,7 @@
     "0x9969CaA63792Cb58Dae5F251d300f5262f6C3fa4": "2026-08-30T05:11:53.624282+00:00",
     "0x1535F38BBF0b47A937AB642E7f6F79f8543e8e08": "2026-08-30T05:22:12.812420+00:00",
     "0x7a7ED21898ba3c211a3387F598955A2cB8eD3bAd": "2026-08-30T05:32:17.967290+00:00",
-    "0x4E63A67C47AbBb8Dd693D1349CF68f6CbB3Aac47": "2026-08-30T05:32:18.796160+00:00"
+    "0x4E63A67C47AbBb8Dd693D1349CF68f6CbB3Aac47": "2026-08-30T05:32:18.796160+00:00",
+    "0xE800796b0ffB46Fc07C5EA89D5942C700ff9D09a": "2026-08-30T05:52:38.772505+00:00"
   }
 }
