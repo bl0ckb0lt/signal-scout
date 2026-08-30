@@ -8,33 +8,17 @@
       "address": "0x3EF8cc54ce615875e3D255297D2Ecc4bef242D88",
       "source": "new",
       "entry_price": 0.000212,
-      "peak_price": 0.0003283,
+      "peak_price": 0.0003376,
       "trailing_active": true,
       "entry_time": "2026-08-30T10:41:05.062956+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 54.86,
+      "current_pct": 59.25,
       "peak_volume_m5": 97838.24,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "VOGE",
-      "chain": "robinhood",
-      "address": "0x765Af94ab4573A2d3C01FC3AB3071f697FB8E399",
-      "source": "new",
-      "entry_price": 0.0001493,
-      "peak_price": 0.0001639,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T11:11:08.267070+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.78,
-      "peak_volume_m5": 56512.9,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -131181,6 +131165,25 @@
       "exit_price": 0.0006508,
       "exit_pct": 250.27,
       "exit_time": "2026-08-30T11:12:34.815459+00:00"
+    },
+    {
+      "symbol": "VOGE",
+      "chain": "robinhood",
+      "address": "0x765Af94ab4573A2d3C01FC3AB3071f697FB8E399",
+      "source": "new",
+      "entry_price": 0.0001493,
+      "peak_price": 0.0001639,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T11:11:08.267070+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.74,
+      "peak_volume_m5": 56512.9,
+      "milestones_hit": [],
+      "exit_price": 0.0001273,
+      "exit_pct": -14.74,
+      "exit_time": "2026-08-30T11:13:32.893668+00:00"
     }
   ],
   "alerted": {
@@ -137826,6 +137829,7 @@
     "0x7418fCE53525e21180FacD2c2c541fa13bD04249": "2026-08-30T10:52:39.072245+00:00",
     "0xb3755E92175907Ac7b9ecefd03653EE0E2e94237": "2026-08-30T10:52:40.265285+00:00",
     "0xEc942827974594BE1dCBE071cF290F2384297777": "2026-08-30T10:52:41.263265+00:00",
-    "0x2BBD7874fe57cedcb92d71Fc13fe9f1ba41877d9": "2026-08-30T11:12:34.815459+00:00"
+    "0x2BBD7874fe57cedcb92d71Fc13fe9f1ba41877d9": "2026-08-30T11:12:34.815459+00:00",
+    "0x765Af94ab4573A2d3C01FC3AB3071f697FB8E399": "2026-08-30T11:13:32.893668+00:00"
   }
 }
