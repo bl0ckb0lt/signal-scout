@@ -83,28 +83,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "chair",
-      "chain": "robinhood",
-      "address": "0xF035d6CCb403f7a03c30dBE319C43Ca623d12399",
-      "source": "new",
-      "entry_price": 0.0001179,
-      "peak_price": 0.0001179,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T22:31:06.292382+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
       "symbol": "LFG",
       "chain": "base",
       "address": "0xB200000000000000000000680D78AE1182A7BD01",
       "source": "new",
       "entry_price": 0.0001454,
-      "peak_price": 0.0001454,
+      "peak_price": 0.0001502,
       "trailing_active": false,
       "entry_time": "2026-08-30T22:31:10.940987+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.3,
+      "peak_volume_m5": 9353.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -133059,6 +133051,25 @@
       "exit_price": 0.0007902,
       "exit_pct": -24.6,
       "exit_time": "2026-08-30T22:23:59.472860+00:00"
+    },
+    {
+      "symbol": "chair",
+      "chain": "robinhood",
+      "address": "0xF035d6CCb403f7a03c30dBE319C43Ca623d12399",
+      "source": "new",
+      "entry_price": 0.0001179,
+      "peak_price": 0.0001179,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T22:31:06.292382+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.38,
+      "peak_volume_m5": 59583.71,
+      "milestones_hit": [],
+      "exit_price": 0.0001033,
+      "exit_pct": -12.38,
+      "exit_time": "2026-08-30T22:32:39.717632+00:00"
     }
   ],
   "alerted": {
@@ -139794,6 +139805,7 @@
     "0x7D8a38c94BaAeAce8E3662D1ED33EaF6Fd581071": "2026-08-30T21:41:57.606747+00:00",
     "0x7031Ef3205851Db69aADF7E0412c53fAcDd9C058": "2026-08-30T22:08:38.318351+00:00",
     "0x053EacD26B4bC7097E00aC275e6ac3773E882BF7": "2026-08-30T22:13:57.852108+00:00",
-    "0x3786728a2c49C4617Bf4FE5BD82b90B6B0dF5508": "2026-08-30T22:23:59.472860+00:00"
+    "0x3786728a2c49C4617Bf4FE5BD82b90B6B0dF5508": "2026-08-30T22:23:59.472860+00:00",
+    "0xF035d6CCb403f7a03c30dBE319C43Ca623d12399": "2026-08-30T22:32:39.717632+00:00"
   }
 }
