@@ -8,15 +8,17 @@
       "address": "0x2BBD7874fe57cedcb92d71Fc13fe9f1ba41877d9",
       "source": "new",
       "entry_price": 0.0001858,
-      "peak_price": 0.0002487,
+      "peak_price": 0.0002804,
       "trailing_active": true,
       "entry_time": "2026-08-30T10:31:10.038542+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 33.85,
+      "current_pct": 50.91,
       "peak_volume_m5": 93478.05,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "\u82f1\u4f1f\u8fbe",
@@ -24,11 +26,15 @@
       "address": "0x3EF8cc54ce615875e3D255297D2Ecc4bef242D88",
       "source": "new",
       "entry_price": 0.000212,
-      "peak_price": 0.000212,
+      "peak_price": 0.0002203,
       "trailing_active": false,
       "entry_time": "2026-08-30T10:41:05.062956+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.92,
+      "peak_volume_m5": 83060.17,
+      "milestones_hit": []
     },
     {
       "symbol": "DOOM",
@@ -36,23 +42,15 @@
       "address": "0x7418fCE53525e21180FacD2c2c541fa13bD04249",
       "source": "new",
       "entry_price": 0.0004314,
-      "peak_price": 0.0004314,
+      "peak_price": 0.0004409,
       "trailing_active": false,
       "entry_time": "2026-08-30T10:41:06.447089+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "HUGGY",
-      "chain": "robinhood",
-      "address": "0x9396b0dcde6b6d4f4a70cd74b97e14b219886e3c",
-      "source": "new",
-      "entry_price": 0.0001217,
-      "peak_price": 0.0001217,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T10:41:07.817304+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.2,
+      "peak_volume_m5": 64638.7,
+      "milestones_hit": []
     },
     {
       "symbol": "MEMECHILDREN",
@@ -60,11 +58,15 @@
       "address": "0xb3755E92175907Ac7b9ecefd03653EE0E2e94237",
       "source": "new",
       "entry_price": 0.0001761,
-      "peak_price": 0.0001761,
-      "trailing_active": false,
+      "peak_price": 0.0002054,
+      "trailing_active": true,
       "entry_time": "2026-08-30T10:41:09.194761+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.64,
+      "peak_volume_m5": 89406.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -131112,6 +131114,25 @@
       "exit_price": 0.0008699,
       "exit_pct": -5.01,
       "exit_time": "2026-08-30T10:16:42.104611+00:00"
+    },
+    {
+      "symbol": "HUGGY",
+      "chain": "robinhood",
+      "address": "0x9396b0dcde6b6d4f4a70cd74b97e14b219886e3c",
+      "source": "new",
+      "entry_price": 0.0001217,
+      "peak_price": 0.0001217,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T10:41:07.817304+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.19,
+      "peak_volume_m5": 19338.04,
+      "milestones_hit": [],
+      "exit_price": 0.000102,
+      "exit_pct": -16.19,
+      "exit_time": "2026-08-30T10:42:29.996351+00:00"
     }
   ],
   "alerted": {
@@ -137752,6 +137773,7 @@
     "0x303FfAc0e85505a7b84BD11571b6Ae25cc792bF0": "2026-08-30T10:02:43.834419+00:00",
     "0x85997d480764650c30e40F793DE026C326Aa9D5f": "2026-08-30T10:05:26.443408+00:00",
     "0x3b4A0048a00787A644932cD648Faa043410C163e": "2026-08-30T10:13:00.703605+00:00",
-    "0x7630c95ffAD193BF036122294B9a756d962DdCaD": "2026-08-30T10:16:42.104611+00:00"
+    "0x7630c95ffAD193BF036122294B9a756d962DdCaD": "2026-08-30T10:16:42.104611+00:00",
+    "0x9396b0dcde6b6d4f4a70cd74b97e14b219886e3c": "2026-08-30T10:42:29.996351+00:00"
   }
 }
