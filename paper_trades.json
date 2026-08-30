@@ -35,43 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GOONER",
-      "chain": "robinhood",
-      "address": "0x0B11c1dF659A497CaA76EBeBccAB86cA18176A1F",
-      "source": "new",
-      "entry_price": 0.009305,
-      "peak_price": 0.01553,
-      "trailing_active": true,
-      "entry_time": "2026-08-30T15:41:09.913675+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 66.68,
-      "peak_volume_m5": 90565.06,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "CASHBIRD",
-      "chain": "robinhood",
-      "address": "0xEFFC29eE25D24F7202c861e69DaD4709b18E5684",
-      "source": "new",
-      "entry_price": 0.0001889,
-      "peak_price": 0.0004611,
-      "trailing_active": true,
-      "entry_time": "2026-08-30T15:41:14.063131+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 144.1,
-      "peak_volume_m5": 85637.44,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "PONSTER",
       "chain": "robinhood",
       "address": "0x0B76028d8a108B984D4F29FC3Ce91a5C07e86bCa",
@@ -93,13 +56,13 @@
       "address": "0xb48723378Ea34a0B76c0B154c79b071cEFf439Da",
       "source": "new",
       "entry_price": 0.01709,
-      "peak_price": 0.0215,
+      "peak_price": 0.02311,
       "trailing_active": true,
       "entry_time": "2026-08-30T15:51:07.045213+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 25.8,
+      "current_pct": 35.23,
       "peak_volume_m5": 438857.34,
       "milestones_hit": []
     }
@@ -132085,6 +132048,49 @@
       "exit_price": 0.02893,
       "exit_pct": 140.48,
       "exit_time": "2026-08-30T15:55:55.396426+00:00"
+    },
+    {
+      "symbol": "GOONER",
+      "chain": "robinhood",
+      "address": "0x0B11c1dF659A497CaA76EBeBccAB86cA18176A1F",
+      "source": "new",
+      "entry_price": 0.009305,
+      "peak_price": 0.01553,
+      "trailing_active": true,
+      "entry_time": "2026-08-30T15:41:09.913675+00:00",
+      "score": 72,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 66.68,
+      "peak_volume_m5": 90565.06,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.01551,
+      "exit_pct": 66.68,
+      "exit_time": "2026-08-30T15:56:54.457729+00:00"
+    },
+    {
+      "symbol": "CASHBIRD",
+      "chain": "robinhood",
+      "address": "0xEFFC29eE25D24F7202c861e69DaD4709b18E5684",
+      "source": "new",
+      "entry_price": 0.0001889,
+      "peak_price": 0.0004611,
+      "trailing_active": true,
+      "entry_time": "2026-08-30T15:41:14.063131+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 66.97,
+      "peak_volume_m5": 94108.17,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0003154,
+      "exit_pct": 66.97,
+      "exit_time": "2026-08-30T15:56:55.150059+00:00"
     }
   ],
   "alerted": {
@@ -138772,6 +138778,8 @@
     "0x3950E43D16058BC431c58a18c71A1BDf1540038a": "2026-08-30T15:23:11.018090+00:00",
     "Gq5J16kc2fM3SCzEtDJh5wUKgQYTWVXXfr5pb8iApump": "2026-08-30T15:49:10.302069+00:00",
     "0x45C83b37C5BAF4dad26f3845C28295e2DE010962": "2026-08-30T15:52:06.623114+00:00",
-    "0x4E676b556F67816F3a1ee7c2Dbe7991Ba191083b": "2026-08-30T15:55:55.396426+00:00"
+    "0x4E676b556F67816F3a1ee7c2Dbe7991Ba191083b": "2026-08-30T15:55:55.396426+00:00",
+    "0x0B11c1dF659A497CaA76EBeBccAB86cA18176A1F": "2026-08-30T15:56:54.457729+00:00",
+    "0xEFFC29eE25D24F7202c861e69DaD4709b18E5684": "2026-08-30T15:56:55.150059+00:00"
   }
 }
