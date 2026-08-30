@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TaoTao",
-      "chain": "solana",
-      "address": "Hqu7kxcQEcRMjUQ9MWsYbDbMTLqsxbrtn6zGWxtTpump",
-      "source": "new",
-      "entry_price": 0.0001509,
-      "peak_price": 0.0001509,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T03:21:13.065730+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "PONSION",
       "chain": "robinhood",
       "address": "0x0EacaB9485af589d9Ac07F4B0bDc6D4A0a95cE84",
       "source": "new",
       "entry_price": 0.0001781,
-      "peak_price": 0.0001781,
-      "trailing_active": false,
+      "peak_price": 0.0002452,
+      "trailing_active": true,
       "entry_time": "2026-08-30T03:21:16.618458+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.68,
+      "peak_volume_m5": 21455.23,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -130271,6 +130263,25 @@
       "exit_price": 0.0005712,
       "exit_pct": -33.84,
       "exit_time": "2026-08-30T03:18:52.009412+00:00"
+    },
+    {
+      "symbol": "TaoTao",
+      "chain": "solana",
+      "address": "Hqu7kxcQEcRMjUQ9MWsYbDbMTLqsxbrtn6zGWxtTpump",
+      "source": "new",
+      "entry_price": 0.0001509,
+      "peak_price": 0.0001509,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T03:21:13.065730+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.13,
+      "peak_volume_m5": 61598.16,
+      "milestones_hit": [],
+      "exit_price": 0.0001326,
+      "exit_pct": -12.13,
+      "exit_time": "2026-08-30T03:24:20.114632+00:00"
     }
   ],
   "alerted": {
@@ -136870,6 +136881,7 @@
     "BoaPfCRY99XA4KcvZzpJNGupwUitNp5jVGhSoaBZpump": "2026-08-30T03:02:42.054664+00:00",
     "Ao1veYeJ6RT7JVjtSV2i8Cr69Ef3JSvzPHAHKKAubqf1": "2026-08-30T03:02:42.881929+00:00",
     "51aaE42ZjxgoihtEKwqqvWt8RMS4YdRWqSFzM7Trpump": "2026-08-30T03:17:54.326651+00:00",
-    "En8bperPMXR6QZHowH9BhZPz2aa4pTvrakpR2muCpump": "2026-08-30T03:18:52.009412+00:00"
+    "En8bperPMXR6QZHowH9BhZPz2aa4pTvrakpR2muCpump": "2026-08-30T03:18:52.009412+00:00",
+    "Hqu7kxcQEcRMjUQ9MWsYbDbMTLqsxbrtn6zGWxtTpump": "2026-08-30T03:24:20.114632+00:00"
   }
 }
