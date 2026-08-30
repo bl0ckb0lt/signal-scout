@@ -3,35 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SIRIUS",
-      "chain": "robinhood",
-      "address": "0x30F4530dF1728f4e3fe5852CfF7FE0c7D259b797",
-      "source": "new",
-      "entry_price": 0.0003335,
-      "peak_price": 0.0004323,
-      "trailing_active": true,
-      "entry_time": "2026-08-30T12:11:11.614625+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 29.63,
-      "peak_volume_m5": 30981.58,
-      "milestones_hit": []
-    },
-    {
       "symbol": "\u8c79\u62c9",
       "chain": "bsc",
       "address": "0xdc0340765279e106bd6D8d59c24a677E87017777",
       "source": "new",
       "entry_price": 2.841e-05,
-      "peak_price": 3.533e-05,
+      "peak_price": 3.83e-05,
       "trailing_active": true,
       "entry_time": "2026-08-30T12:21:08.586031+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 24.36,
-      "peak_volume_m5": 2468.01,
+      "current_pct": 34.81,
+      "peak_volume_m5": 3718.31,
       "milestones_hit": []
     },
     {
@@ -40,13 +24,13 @@
       "address": "0x4b96f84c2Ea0eC9E47bb7416F426a0c732B8859c",
       "source": "new",
       "entry_price": 0.0004392,
-      "peak_price": 0.0005668,
+      "peak_price": 0.0006339,
       "trailing_active": true,
       "entry_time": "2026-08-30T12:21:11.279371+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.05,
+      "current_pct": 44.33,
       "peak_volume_m5": 86326.12,
       "milestones_hit": []
     },
@@ -56,14 +40,14 @@
       "address": "0x437Fb43e954EBb9935Ba9c30F80955e4e6698860",
       "source": "new",
       "entry_price": 8.373e-05,
-      "peak_price": 8.42e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001002,
+      "trailing_active": true,
       "entry_time": "2026-08-30T12:21:12.686268+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.56,
-      "peak_volume_m5": 50755.12,
+      "current_pct": 19.67,
+      "peak_volume_m5": 53796.2,
       "milestones_hit": []
     },
     {
@@ -76,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-30T12:31:09.619279+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.64,
+      "peak_volume_m5": 85566.9,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -131379,6 +131367,25 @@
       "exit_price": 8.877e-05,
       "exit_pct": -16.8,
       "exit_time": "2026-08-30T12:14:23.483802+00:00"
+    },
+    {
+      "symbol": "SIRIUS",
+      "chain": "robinhood",
+      "address": "0x30F4530dF1728f4e3fe5852CfF7FE0c7D259b797",
+      "source": "new",
+      "entry_price": 0.0003335,
+      "peak_price": 0.0004323,
+      "trailing_active": true,
+      "entry_time": "2026-08-30T12:11:11.614625+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 16.37,
+      "peak_volume_m5": 30981.58,
+      "milestones_hit": [],
+      "exit_price": 0.0003881,
+      "exit_pct": 16.37,
+      "exit_time": "2026-08-30T12:32:01.291813+00:00"
     }
   ],
   "alerted": {
@@ -138032,6 +138039,7 @@
     "0x01d899D90e28Bf7C11dA3993e6762Ec8ee77574D": "2026-08-30T11:52:28.587049+00:00",
     "0x3EF8cc54ce615875e3D255297D2Ecc4bef242D88": "2026-08-30T12:08:14.022144+00:00",
     "0x51E7bf39c6Cf1A7F53DdfaA5dB346c69994511F2": "2026-08-30T12:13:29.447444+00:00",
-    "DaapVQuQ64BEVHrNhLuFt7a5o1aQttTE8bGeHBWRpump": "2026-08-30T12:14:23.483802+00:00"
+    "DaapVQuQ64BEVHrNhLuFt7a5o1aQttTE8bGeHBWRpump": "2026-08-30T12:14:23.483802+00:00",
+    "0x30F4530dF1728f4e3fe5852CfF7FE0c7D259b797": "2026-08-30T12:32:01.291813+00:00"
   }
 }
