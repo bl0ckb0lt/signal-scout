@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SIRIUS",
-      "chain": "robinhood",
-      "address": "0x3b4A0048a00787A644932cD648Faa043410C163e",
-      "source": "new",
-      "entry_price": 0.001118,
-      "peak_price": 0.001118,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T10:11:06.386471+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "VLR",
       "chain": "robinhood",
       "address": "0x7630c95ffAD193BF036122294B9a756d962DdCaD",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-30T10:11:09.724897+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.44,
+      "peak_volume_m5": 44546.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -131034,6 +131026,25 @@
       "exit_price": 0.0001623,
       "exit_pct": -21.06,
       "exit_time": "2026-08-30T10:05:26.443408+00:00"
+    },
+    {
+      "symbol": "SIRIUS",
+      "chain": "robinhood",
+      "address": "0x3b4A0048a00787A644932cD648Faa043410C163e",
+      "source": "new",
+      "entry_price": 0.001118,
+      "peak_price": 0.001118,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T10:11:06.386471+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.27,
+      "peak_volume_m5": 93085.68,
+      "milestones_hit": [],
+      "exit_price": 0.0009696,
+      "exit_pct": -13.27,
+      "exit_time": "2026-08-30T10:13:00.703605+00:00"
     }
   ],
   "alerted": {
@@ -137672,6 +137683,7 @@
     "0x67394DD1ae4052aF22e5b7F6F4F00bBEab7E7777": "2026-08-30T09:44:15.341231+00:00",
     "0xF7F2Fb6178290EB812e9bD280920f3dC63437777": "2026-08-30T09:52:49.298903+00:00",
     "0x303FfAc0e85505a7b84BD11571b6Ae25cc792bF0": "2026-08-30T10:02:43.834419+00:00",
-    "0x85997d480764650c30e40F793DE026C326Aa9D5f": "2026-08-30T10:05:26.443408+00:00"
+    "0x85997d480764650c30e40F793DE026C326Aa9D5f": "2026-08-30T10:05:26.443408+00:00",
+    "0x3b4A0048a00787A644932cD648Faa043410C163e": "2026-08-30T10:13:00.703605+00:00"
   }
 }
