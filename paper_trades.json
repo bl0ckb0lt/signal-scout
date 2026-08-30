@@ -14,8 +14,8 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 34.81,
-      "peak_volume_m5": 3718.31,
+      "current_pct": 30.02,
+      "peak_volume_m5": 5100.15,
       "milestones_hit": []
     },
     {
@@ -24,47 +24,17 @@
       "address": "0x4b96f84c2Ea0eC9E47bb7416F426a0c732B8859c",
       "source": "new",
       "entry_price": 0.0004392,
-      "peak_price": 0.0006339,
+      "peak_price": 0.0006948,
       "trailing_active": true,
       "entry_time": "2026-08-30T12:21:11.279371+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 44.33,
+      "current_pct": 58.2,
       "peak_volume_m5": 86326.12,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "FLUX",
-      "chain": "robinhood",
-      "address": "0x437Fb43e954EBb9935Ba9c30F80955e4e6698860",
-      "source": "new",
-      "entry_price": 8.373e-05,
-      "peak_price": 0.0001002,
-      "trailing_active": true,
-      "entry_time": "2026-08-30T12:21:12.686268+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 19.67,
-      "peak_volume_m5": 53796.2,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MEMECOIN",
-      "chain": "solana",
-      "address": "5bwuXfZsEBJmc7TjouUPZETquHAeD82uoRxMC5TZpump",
-      "source": "new",
-      "entry_price": 0.0001791,
-      "peak_price": 0.0001791,
-      "trailing_active": false,
-      "entry_time": "2026-08-30T12:31:09.619279+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.64,
-      "peak_volume_m5": 85566.9,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -131386,6 +131356,44 @@
       "exit_price": 0.0003881,
       "exit_pct": 16.37,
       "exit_time": "2026-08-30T12:32:01.291813+00:00"
+    },
+    {
+      "symbol": "FLUX",
+      "chain": "robinhood",
+      "address": "0x437Fb43e954EBb9935Ba9c30F80955e4e6698860",
+      "source": "new",
+      "entry_price": 8.373e-05,
+      "peak_price": 0.0001002,
+      "trailing_active": true,
+      "entry_time": "2026-08-30T12:21:12.686268+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -1.56,
+      "peak_volume_m5": 53796.2,
+      "milestones_hit": [],
+      "exit_price": 8.242e-05,
+      "exit_pct": -1.56,
+      "exit_time": "2026-08-30T12:33:56.052763+00:00"
+    },
+    {
+      "symbol": "MEMECOIN",
+      "chain": "solana",
+      "address": "5bwuXfZsEBJmc7TjouUPZETquHAeD82uoRxMC5TZpump",
+      "source": "new",
+      "entry_price": 0.0001791,
+      "peak_price": 0.0001791,
+      "trailing_active": false,
+      "entry_time": "2026-08-30T12:31:09.619279+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.72,
+      "peak_volume_m5": 90756.58,
+      "milestones_hit": [],
+      "exit_price": 0.0001617,
+      "exit_pct": -9.72,
+      "exit_time": "2026-08-30T12:33:56.985042+00:00"
     }
   ],
   "alerted": {
@@ -138040,6 +138048,8 @@
     "0x3EF8cc54ce615875e3D255297D2Ecc4bef242D88": "2026-08-30T12:08:14.022144+00:00",
     "0x51E7bf39c6Cf1A7F53DdfaA5dB346c69994511F2": "2026-08-30T12:13:29.447444+00:00",
     "DaapVQuQ64BEVHrNhLuFt7a5o1aQttTE8bGeHBWRpump": "2026-08-30T12:14:23.483802+00:00",
-    "0x30F4530dF1728f4e3fe5852CfF7FE0c7D259b797": "2026-08-30T12:32:01.291813+00:00"
+    "0x30F4530dF1728f4e3fe5852CfF7FE0c7D259b797": "2026-08-30T12:32:01.291813+00:00",
+    "0x437Fb43e954EBb9935Ba9c30F80955e4e6698860": "2026-08-30T12:33:56.052763+00:00",
+    "5bwuXfZsEBJmc7TjouUPZETquHAeD82uoRxMC5TZpump": "2026-08-30T12:33:56.985042+00:00"
   }
 }
