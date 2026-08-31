@@ -13,7 +13,7 @@
       "entry_time": "2026-08-30T17:01:19.935790+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 21,
+      "api_failures": 22,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -40,13 +40,13 @@
       "address": "GMhkZazpcu3usVyWse4Ce3iZq21NrQ7Hx8DRfWFxpump",
       "source": "new",
       "entry_price": 0.0001813,
-      "peak_price": 0.0002139,
+      "peak_price": 0.0002329,
       "trailing_active": true,
       "entry_time": "2026-08-31T18:01:09.639532+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.98,
+      "current_pct": 28.46,
       "peak_volume_m5": 23760.91,
       "milestones_hit": []
     },
@@ -56,42 +56,19 @@
       "address": "0xBEdb0B25009a55ddf9Fe8728EAf7BC8f842C5520",
       "source": "new",
       "entry_price": 0.0001125,
-      "peak_price": 0.0003046,
+      "peak_price": 0.0003853,
       "trailing_active": true,
       "entry_time": "2026-08-31T18:11:07.121647+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 170.76,
-      "peak_volume_m5": 35057.05,
+      "current_pct": 242.49,
+      "peak_volume_m5": 45627.82,
       "milestones_hit": [
+        200,
         50,
         100
       ]
-    },
-    {
-      "symbol": "TAIWAN",
-      "chain": "robinhood",
-      "address": "0xaA0b48DEFDE440B8445bA45DB88cb076Cf261E18",
-      "source": "new",
-      "entry_price": 0.000251,
-      "peak_price": 0.000251,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T18:21:15.869183+00:00",
-      "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "LIQ",
-      "chain": "robinhood",
-      "address": "0x05788F592163E297c8c5292F174BF0Bec3D8CC76",
-      "source": "new",
-      "entry_price": 0.1645,
-      "peak_price": 0.1645,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T18:21:17.506353+00:00",
-      "score": 72,
-      "status": "open"
     },
     {
       "symbol": "OOF",
@@ -103,7 +80,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-31T18:21:19.042501+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.13,
+      "peak_volume_m5": 5567.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -135154,6 +135135,44 @@
       "exit_price": 0.0002429,
       "exit_pct": 17.68,
       "exit_time": "2026-08-31T18:12:58.277149+00:00"
+    },
+    {
+      "symbol": "TAIWAN",
+      "chain": "robinhood",
+      "address": "0xaA0b48DEFDE440B8445bA45DB88cb076Cf261E18",
+      "source": "new",
+      "entry_price": 0.000251,
+      "peak_price": 0.000251,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T18:21:15.869183+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.09,
+      "peak_volume_m5": 14333.31,
+      "milestones_hit": [],
+      "exit_price": 0.0002307,
+      "exit_pct": -8.09,
+      "exit_time": "2026-08-31T18:22:34.432104+00:00"
+    },
+    {
+      "symbol": "LIQ",
+      "chain": "robinhood",
+      "address": "0x05788F592163E297c8c5292F174BF0Bec3D8CC76",
+      "source": "new",
+      "entry_price": 0.1645,
+      "peak_price": 0.1645,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T18:21:17.506353+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.12,
+      "peak_volume_m5": 78581.38,
+      "milestones_hit": [],
+      "exit_price": 0.1495,
+      "exit_pct": -9.12,
+      "exit_time": "2026-08-31T18:22:35.295373+00:00"
     }
   ],
   "alerted": {
@@ -141998,6 +142017,8 @@
     "7fnP3TUgVLDWKHnCd5A9XLvm9K1eNGGpZjhMKCA3pump": "2026-08-31T17:22:10.010323+00:00",
     "0xfea09e82e4ce9be64848d02e123a05e4e89eb880": "2026-08-31T17:23:10.685833+00:00",
     "0x45bA193CC1C20502EBded24d543CD3996aD1069b": "2026-08-31T17:27:51.064293+00:00",
-    "0x96f0889cBC2D1423Fd64fd1307335fE72f1a198E": "2026-08-31T18:12:58.277149+00:00"
+    "0x96f0889cBC2D1423Fd64fd1307335fE72f1a198E": "2026-08-31T18:12:58.277149+00:00",
+    "0xaA0b48DEFDE440B8445bA45DB88cb076Cf261E18": "2026-08-31T18:22:34.432104+00:00",
+    "0x05788F592163E297c8c5292F174BF0Bec3D8CC76": "2026-08-31T18:22:35.295373+00:00"
   }
 }
