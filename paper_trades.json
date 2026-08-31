@@ -13,7 +13,7 @@
       "entry_time": "2026-08-30T15:11:03.147263+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 17,
+      "api_failures": 18,
       "current_pct": 2.96,
       "peak_volume_m5": 86031.16,
       "milestones_hit": []
@@ -29,7 +29,7 @@
       "entry_time": "2026-08-30T15:41:15.424525+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 10,
+      "api_failures": 11,
       "current_pct": 27.09,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -67,34 +67,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "KIBSHI",
-      "chain": "robinhood",
-      "address": "0xA5A6f0Fa224a07210033367899883691AA7d1e18",
-      "source": "new",
-      "entry_price": 7.431e-05,
-      "peak_price": 0.0001158,
-      "trailing_active": true,
-      "entry_time": "2026-08-31T16:11:10.630558+00:00",
-      "score": 62,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 55.83,
-      "peak_volume_m5": 17359.61,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "BANKLESS",
       "chain": "robinhood",
       "address": "0x5e8907a3f45d7b30be6addbab0312e46e5061614",
       "source": "new",
       "entry_price": 0.0001742,
-      "peak_price": 0.0001742,
+      "peak_price": 0.0001926,
       "trailing_active": false,
       "entry_time": "2026-08-31T16:31:08.633293+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.56,
+      "peak_volume_m5": 32954.29,
+      "milestones_hit": []
     },
     {
       "symbol": "BERRY",
@@ -106,7 +92,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-31T16:31:11.286657+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.88,
+      "peak_volume_m5": 384.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -134861,6 +134851,27 @@
       "exit_price": 0.0118703,
       "exit_pct": -0.75,
       "exit_time": "2026-08-31T16:28:37.475783+00:00"
+    },
+    {
+      "symbol": "KIBSHI",
+      "chain": "robinhood",
+      "address": "0xA5A6f0Fa224a07210033367899883691AA7d1e18",
+      "source": "new",
+      "entry_price": 7.431e-05,
+      "peak_price": 0.0001158,
+      "trailing_active": true,
+      "entry_time": "2026-08-31T16:11:10.630558+00:00",
+      "score": 62,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 43.18,
+      "peak_volume_m5": 17359.61,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001064,
+      "exit_pct": 43.18,
+      "exit_time": "2026-08-31T16:33:51.156685+00:00"
     }
   ],
   "alerted": {
@@ -141690,6 +141701,7 @@
     "0xF1EcBe235cF5092fD9FaAe1197a43e1ad0Ca28Ac": "2026-08-31T16:04:16.348089+00:00",
     "0x3CA94121191020E2cd0cEa79eab659A096Ff8A2C": "2026-08-31T16:22:34.685303+00:00",
     "0xAd010d2268c3ACC43A8b1C9fE951031Be47d0525": "2026-08-31T16:27:55.838498+00:00",
-    "0x35cFee86E3d1882ba8eeAC49187C5cd2DCBF79bd": "2026-08-31T16:28:37.475783+00:00"
+    "0x35cFee86E3d1882ba8eeAC49187C5cd2DCBF79bd": "2026-08-31T16:28:37.475783+00:00",
+    "0xA5A6f0Fa224a07210033367899883691AA7d1e18": "2026-08-31T16:33:51.156685+00:00"
   }
 }
