@@ -88,23 +88,15 @@
       "address": "DTR3LGzFop947jkxdnJdkMHFC32oUraLdKzfohvRpump",
       "source": "new",
       "entry_price": 0.0001556,
-      "peak_price": 0.0001556,
-      "trailing_active": false,
+      "peak_price": 0.0002272,
+      "trailing_active": true,
       "entry_time": "2026-08-31T09:51:14.681057+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "FTR",
-      "chain": "robinhood",
-      "address": "0x75D5A00C4560604D6B20aEa35E22673CAF543E84",
-      "source": "new",
-      "entry_price": 0.000116,
-      "peak_price": 0.000116,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T09:51:16.192408+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 46.02,
+      "peak_volume_m5": 24363.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -134070,6 +134062,25 @@
       "exit_price": 0.0002052,
       "exit_pct": 4.59,
       "exit_time": "2026-08-31T09:36:56.445233+00:00"
+    },
+    {
+      "symbol": "FTR",
+      "chain": "robinhood",
+      "address": "0x75D5A00C4560604D6B20aEa35E22673CAF543E84",
+      "source": "new",
+      "entry_price": 0.000116,
+      "peak_price": 0.000116,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T09:51:16.192408+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.21,
+      "peak_volume_m5": 3183.68,
+      "milestones_hit": [],
+      "exit_price": 0.000103,
+      "exit_pct": -11.21,
+      "exit_time": "2026-08-31T09:56:34.321434+00:00"
     }
   ],
   "alerted": {
@@ -140858,6 +140869,7 @@
     "0x79d4157eff328da27641be8949960fc070e1feea": "2026-08-31T08:54:39.443200+00:00",
     "CiN8f69KQrLxtRKx4EEd8VyC6psogY7kBbyLKuwf4zY8": "2026-08-31T09:16:48.371936+00:00",
     "0x9fa60CBcAAc8Aa575543a5ec929e4929f6106331": "2026-08-31T09:22:21.373976+00:00",
-    "2Zp3puJe5JWFEJ6NviPqLbroszfXgavgfNPLc21cpump": "2026-08-31T09:36:56.445233+00:00"
+    "2Zp3puJe5JWFEJ6NviPqLbroszfXgavgfNPLc21cpump": "2026-08-31T09:36:56.445233+00:00",
+    "0x75D5A00C4560604D6B20aEa35E22673CAF543E84": "2026-08-31T09:56:34.321434+00:00"
   }
 }
