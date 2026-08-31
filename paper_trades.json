@@ -30,7 +30,7 @@
       "score": 88,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.53,
+      "current_pct": 11.26,
       "peak_volume_m5": 85099.03,
       "milestones_hit": []
     },
@@ -44,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-31T19:31:03.605334+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -8.08,
+      "peak_volume_m5": 106913.01,
+      "milestones_hit": []
     },
     {
       "symbol": "MISSION",
@@ -56,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-08-31T19:31:05.058705+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.57,
+      "peak_volume_m5": 34083.83,
+      "milestones_hit": []
     },
     {
       "symbol": "VOXIE",
@@ -64,23 +72,15 @@
       "address": "EYBMhikmdqUs6j5p9mv1tfPY3HszsCyYeRpwme6Bpump",
       "source": "new",
       "entry_price": 0.0001563,
-      "peak_price": 0.0001563,
+      "peak_price": 0.0001767,
       "trailing_active": false,
       "entry_time": "2026-08-31T19:31:06.935676+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "ARCADS",
-      "chain": "robinhood",
-      "address": "0x8eC575649f729b570181213E5f0290789C5cd275",
-      "source": "new",
-      "entry_price": 0.0003599,
-      "peak_price": 0.0003599,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T19:31:08.425894+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.05,
+      "peak_volume_m5": 43266.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -135444,6 +135444,25 @@
       "exit_price": 0.0003125,
       "exit_pct": 112.15,
       "exit_time": "2026-08-31T19:27:46.320288+00:00"
+    },
+    {
+      "symbol": "ARCADS",
+      "chain": "robinhood",
+      "address": "0x8eC575649f729b570181213E5f0290789C5cd275",
+      "source": "new",
+      "entry_price": 0.0003599,
+      "peak_price": 0.0003599,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T19:31:08.425894+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -85.87,
+      "peak_volume_m5": 173711.49,
+      "milestones_hit": [],
+      "exit_price": 5.084e-05,
+      "exit_pct": -85.87,
+      "exit_time": "2026-08-31T19:33:13.911655+00:00"
     }
   ],
   "alerted": {
@@ -142304,6 +142323,7 @@
     "0x52839469Cdd96eD2fB576DD812c6B414822C1809": "2026-08-31T19:22:17.391762+00:00",
     "FW9DM4aC42m8LfL7G3cANEtfoVHy5efmkjgMG4qJpump": "2026-08-31T19:23:16.185603+00:00",
     "0xB36F11dB0736C8eacE05DA10979afb030ad093Bf": "2026-08-31T19:25:54.452032+00:00",
-    "AUFk4hnNFTxkJ6DWbYB6ZkL7urYcRFzHdKxeUTpxpump": "2026-08-31T19:27:46.320288+00:00"
+    "AUFk4hnNFTxkJ6DWbYB6ZkL7urYcRFzHdKxeUTpxpump": "2026-08-31T19:27:46.320288+00:00",
+    "0x8eC575649f729b570181213E5f0290789C5cd275": "2026-08-31T19:33:13.911655+00:00"
   }
 }
