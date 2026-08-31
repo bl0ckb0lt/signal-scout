@@ -13,7 +13,7 @@
       "entry_time": "2026-08-30T14:41:17.508698+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 16,
+      "api_failures": 17,
       "current_pct": -0.75,
       "peak_volume_m5": 96341.03,
       "milestones_hit": []
@@ -29,7 +29,7 @@
       "entry_time": "2026-08-30T15:11:03.147263+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 8,
+      "api_failures": 9,
       "current_pct": 2.96,
       "peak_volume_m5": 86031.16,
       "milestones_hit": []
@@ -45,7 +45,7 @@
       "entry_time": "2026-08-30T15:41:15.424525+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 1,
+      "api_failures": 2,
       "current_pct": 27.09,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -81,18 +81,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 9882.07,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AnisAyari",
-      "chain": "robinhood",
-      "address": "0x8FBD6dd8A6Ddc62a64cFC49E534578338b528008",
-      "source": "new",
-      "entry_price": 0.000189,
-      "peak_price": 0.000189,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T15:51:08.962330+00:00",
-      "score": 72,
-      "status": "open"
     }
   ],
   "closed": [
@@ -134752,6 +134740,25 @@
       "exit_price": 0.0001361,
       "exit_pct": -12.14,
       "exit_time": "2026-08-31T15:32:58.065196+00:00"
+    },
+    {
+      "symbol": "AnisAyari",
+      "chain": "robinhood",
+      "address": "0x8FBD6dd8A6Ddc62a64cFC49E534578338b528008",
+      "source": "new",
+      "entry_price": 0.000189,
+      "peak_price": 0.000189,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T15:51:08.962330+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.08,
+      "peak_volume_m5": 38512.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001586,
+      "exit_pct": -16.08,
+      "exit_time": "2026-08-31T15:58:17.060124+00:00"
     }
   ],
   "alerted": {
@@ -141576,6 +141583,7 @@
     "gukqEXJQ6GGioCc2R3zg2hZ13oLYTW92PGyo995pump": "2026-08-31T15:13:41.212079+00:00",
     "CSY8hJisZokTjuwBjHguSdE4koN5QbtHiVDBAPjWpump": "2026-08-31T15:14:40.273374+00:00",
     "0x7783f628022F6956540508cF65497F93D0de9E1E": "2026-08-31T15:18:24.274183+00:00",
-    "FwRnCYwsfu8qDHh5v3dUq6Sf1pP4cV9GeoHSZE12pump": "2026-08-31T15:32:58.065196+00:00"
+    "FwRnCYwsfu8qDHh5v3dUq6Sf1pP4cV9GeoHSZE12pump": "2026-08-31T15:32:58.065196+00:00",
+    "0x8FBD6dd8A6Ddc62a64cFC49E534578338b528008": "2026-08-31T15:58:17.060124+00:00"
   }
 }
