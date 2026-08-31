@@ -24,13 +24,13 @@
       "address": "AUFk4hnNFTxkJ6DWbYB6ZkL7urYcRFzHdKxeUTpxpump",
       "source": "boost",
       "entry_price": 0.0001473,
-      "peak_price": 0.0003073,
+      "peak_price": 0.0003195,
       "trailing_active": true,
       "entry_time": "2026-08-31T19:01:04.016925+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 108.62,
+      "current_pct": 116.9,
       "peak_volume_m5": 52384.57,
       "milestones_hit": [
         50,
@@ -49,8 +49,8 @@
       "score": 88,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.13,
-      "peak_volume_m5": 82655.2,
+      "current_pct": 2.6,
+      "peak_volume_m5": 85099.03,
       "milestones_hit": []
     },
     {
@@ -59,23 +59,15 @@
       "address": "FW9DM4aC42m8LfL7G3cANEtfoVHy5efmkjgMG4qJpump",
       "source": "new",
       "entry_price": 0.000172,
-      "peak_price": 0.000172,
-      "trailing_active": false,
+      "peak_price": 0.0002006,
+      "trailing_active": true,
       "entry_time": "2026-08-31T19:21:06.141366+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "KRILL",
-      "chain": "robinhood",
-      "address": "0x52839469Cdd96eD2fB576DD812c6B414822C1809",
-      "source": "new",
-      "entry_price": 0.0004075,
-      "peak_price": 0.0004075,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T19:21:07.514820+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.63,
+      "peak_volume_m5": 85172.05,
+      "milestones_hit": []
     },
     {
       "symbol": "PONZED",
@@ -83,11 +75,17 @@
       "address": "0xB36F11dB0736C8eacE05DA10979afb030ad093Bf",
       "source": "new",
       "entry_price": 0.0001071,
-      "peak_price": 0.0001071,
-      "trailing_active": false,
+      "peak_price": 0.0001703,
+      "trailing_active": true,
       "entry_time": "2026-08-31T19:21:08.909607+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 59.01,
+      "peak_volume_m5": 40577.25,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -135370,6 +135368,25 @@
       "exit_price": 0.0001353,
       "exit_pct": -15.54,
       "exit_time": "2026-08-31T19:12:45.748894+00:00"
+    },
+    {
+      "symbol": "KRILL",
+      "chain": "robinhood",
+      "address": "0x52839469Cdd96eD2fB576DD812c6B414822C1809",
+      "source": "new",
+      "entry_price": 0.0004075,
+      "peak_price": 0.0004075,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T19:21:07.514820+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.32,
+      "peak_volume_m5": 86977.33,
+      "milestones_hit": [],
+      "exit_price": 0.000341,
+      "exit_pct": -16.32,
+      "exit_time": "2026-08-31T19:22:17.391762+00:00"
     }
   ],
   "alerted": {
@@ -142226,6 +142243,7 @@
     "G689CLsniWUFEJ1Awuj992VsKbQtsmgXJPWYzbZhpump": "2026-08-31T19:03:50.012844+00:00",
     "0xf7aF8D61915264b999de04FadD4f0687F01AFEfe": "2026-08-31T19:04:46.594249+00:00",
     "0x3b7729EDCd5e899F5A0688cC6ff91c503acd324f": "2026-08-31T19:06:41.901495+00:00",
-    "9TyMG9GkQncEqH3mvTwphkcTYSXtJYHGuCUrXsKcpump": "2026-08-31T19:12:45.748894+00:00"
+    "9TyMG9GkQncEqH3mvTwphkcTYSXtJYHGuCUrXsKcpump": "2026-08-31T19:12:45.748894+00:00",
+    "0x52839469Cdd96eD2fB576DD812c6B414822C1809": "2026-08-31T19:22:17.391762+00:00"
   }
 }
