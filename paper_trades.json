@@ -13,7 +13,7 @@
       "entry_time": "2026-08-30T14:41:17.508698+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 13,
+      "api_failures": 14,
       "current_pct": -0.75,
       "peak_volume_m5": 96341.03,
       "milestones_hit": []
@@ -29,7 +29,7 @@
       "entry_time": "2026-08-30T15:11:03.147263+00:00",
       "score": 67,
       "status": "open",
-      "api_failures": 5,
+      "api_failures": 6,
       "current_pct": 2.96,
       "peak_volume_m5": 86031.16,
       "milestones_hit": []
@@ -80,22 +80,6 @@
       "api_failures": 0,
       "current_pct": 0.0,
       "peak_volume_m5": 9882.07,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "OnlyApes",
-      "chain": "solana",
-      "address": "FwRnCYwsfu8qDHh5v3dUq6Sf1pP4cV9GeoHSZE12pump",
-      "source": "boost",
-      "entry_price": 0.0001549,
-      "peak_price": 0.0001549,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T15:21:03.264741+00:00",
-      "score": 99,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.97,
-      "peak_volume_m5": 13611.84,
       "milestones_hit": []
     }
   ],
@@ -134737,6 +134721,25 @@
       "exit_price": 9.296e-05,
       "exit_pct": -10.53,
       "exit_time": "2026-08-31T15:18:24.274183+00:00"
+    },
+    {
+      "symbol": "OnlyApes",
+      "chain": "solana",
+      "address": "FwRnCYwsfu8qDHh5v3dUq6Sf1pP4cV9GeoHSZE12pump",
+      "source": "boost",
+      "entry_price": 0.0001549,
+      "peak_price": 0.0001549,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T15:21:03.264741+00:00",
+      "score": 99,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.14,
+      "peak_volume_m5": 14571.49,
+      "milestones_hit": [],
+      "exit_price": 0.0001361,
+      "exit_pct": -12.14,
+      "exit_time": "2026-08-31T15:32:58.065196+00:00"
     }
   ],
   "alerted": {
@@ -141560,6 +141563,7 @@
     "0x66D7eC6Bd9B76A70aB792D8a7481bd1c9467a69c": "2026-08-31T15:04:11.090475+00:00",
     "gukqEXJQ6GGioCc2R3zg2hZ13oLYTW92PGyo995pump": "2026-08-31T15:13:41.212079+00:00",
     "CSY8hJisZokTjuwBjHguSdE4koN5QbtHiVDBAPjWpump": "2026-08-31T15:14:40.273374+00:00",
-    "0x7783f628022F6956540508cF65497F93D0de9E1E": "2026-08-31T15:18:24.274183+00:00"
+    "0x7783f628022F6956540508cF65497F93D0de9E1E": "2026-08-31T15:18:24.274183+00:00",
+    "FwRnCYwsfu8qDHh5v3dUq6Sf1pP4cV9GeoHSZE12pump": "2026-08-31T15:32:58.065196+00:00"
   }
 }
