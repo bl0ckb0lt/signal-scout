@@ -24,30 +24,14 @@
       "address": "AUFk4hnNFTxkJ6DWbYB6ZkL7urYcRFzHdKxeUTpxpump",
       "source": "boost",
       "entry_price": 0.0001473,
-      "peak_price": 0.000166,
-      "trailing_active": false,
+      "peak_price": 0.0001882,
+      "trailing_active": true,
       "entry_time": "2026-08-31T19:01:04.016925+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.95,
+      "current_pct": 27.77,
       "peak_volume_m5": 52384.57,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SPOON",
-      "chain": "robinhood",
-      "address": "0x3b7729EDCd5e899F5A0688cC6ff91c503acd324f",
-      "source": "new",
-      "entry_price": 0.0002584,
-      "peak_price": 0.0002717,
-      "trailing_active": false,
-      "entry_time": "2026-08-31T19:01:08.309454+00:00",
-      "score": 62,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 5.15,
-      "peak_volume_m5": 16163.12,
       "milestones_hit": []
     }
   ],
@@ -135293,6 +135277,25 @@
       "exit_price": 0.000346,
       "exit_pct": -9.31,
       "exit_time": "2026-08-31T19:04:46.594249+00:00"
+    },
+    {
+      "symbol": "SPOON",
+      "chain": "robinhood",
+      "address": "0x3b7729EDCd5e899F5A0688cC6ff91c503acd324f",
+      "source": "new",
+      "entry_price": 0.0002584,
+      "peak_price": 0.0002717,
+      "trailing_active": false,
+      "entry_time": "2026-08-31T19:01:08.309454+00:00",
+      "score": 62,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.11,
+      "peak_volume_m5": 16163.12,
+      "milestones_hit": [],
+      "exit_price": 0.0002297,
+      "exit_pct": -11.11,
+      "exit_time": "2026-08-31T19:06:41.901495+00:00"
     }
   ],
   "alerted": {
@@ -142147,6 +142150,7 @@
     "0x8b1066d06809151fd9dc769fbd47ae3124ef6bb2": "2026-08-31T18:46:19.762785+00:00",
     "0x6b819e23ca63344ba42ad2ffd0392ee2af4d6f08": "2026-08-31T18:55:06.799601+00:00",
     "G689CLsniWUFEJ1Awuj992VsKbQtsmgXJPWYzbZhpump": "2026-08-31T19:03:50.012844+00:00",
-    "0xf7aF8D61915264b999de04FadD4f0687F01AFEfe": "2026-08-31T19:04:46.594249+00:00"
+    "0xf7aF8D61915264b999de04FadD4f0687F01AFEfe": "2026-08-31T19:04:46.594249+00:00",
+    "0x3b7729EDCd5e899F5A0688cC6ff91c503acd324f": "2026-08-31T19:06:41.901495+00:00"
   }
 }
