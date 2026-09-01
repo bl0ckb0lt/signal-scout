@@ -3,40 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GPRO",
-      "chain": "solana",
-      "address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-      "source": "new",
-      "entry_price": 0.0007523,
-      "peak_price": 0.001254,
-      "trailing_active": true,
-      "entry_time": "2026-09-01T01:01:11.057425+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 66.69,
-      "peak_volume_m5": 256671.75,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "FLACCID",
-      "chain": "robinhood",
-      "address": "0xBA630d620dBC4c4B5a1BeBed1A9648172CEc1e18",
-      "source": "new",
-      "entry_price": 4.36e-05,
-      "peak_price": 4.36e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T01:11:07.948505+00:00",
-      "score": 58,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.18,
-      "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PICKLES",
       "chain": "robinhood",
       "address": "0x87A6416ed64EdBf13fF8f2B9BB35e2977565DCDa",
@@ -46,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-01T01:21:03.809515+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "SUPERCOINS",
-      "chain": "robinhood",
-      "address": "0x9aAAb7A8BAd993E0FB2334783AfF4fD6793FD591",
-      "source": "new",
-      "entry_price": 0.0001177,
-      "peak_price": 0.0001177,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T01:21:05.220137+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.55,
+      "peak_volume_m5": 15620.99,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -136137,6 +136095,65 @@
       "exit_price": 0.002091,
       "exit_pct": 191.39,
       "exit_time": "2026-09-01T00:52:12.093385+00:00"
+    },
+    {
+      "symbol": "GPRO",
+      "chain": "solana",
+      "address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
+      "source": "new",
+      "entry_price": 0.0007523,
+      "peak_price": 0.001254,
+      "trailing_active": true,
+      "entry_time": "2026-09-01T01:01:11.057425+00:00",
+      "score": 87,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 48.48,
+      "peak_volume_m5": 308985.14,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.001117,
+      "exit_pct": 48.48,
+      "exit_time": "2026-09-01T01:22:31.559976+00:00"
+    },
+    {
+      "symbol": "FLACCID",
+      "chain": "robinhood",
+      "address": "0xBA630d620dBC4c4B5a1BeBed1A9648172CEc1e18",
+      "source": "new",
+      "entry_price": 4.36e-05,
+      "peak_price": 4.36e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T01:11:07.948505+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.33,
+      "peak_volume_m5": 1916.08,
+      "milestones_hit": [],
+      "exit_price": 3.735e-05,
+      "exit_pct": -14.33,
+      "exit_time": "2026-09-01T01:22:32.448226+00:00"
+    },
+    {
+      "symbol": "SUPERCOINS",
+      "chain": "robinhood",
+      "address": "0x9aAAb7A8BAd993E0FB2334783AfF4fD6793FD591",
+      "source": "new",
+      "entry_price": 0.0001177,
+      "peak_price": 0.0001177,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T01:21:05.220137+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.76,
+      "peak_volume_m5": 25583.6,
+      "milestones_hit": [],
+      "exit_price": 0.0001015,
+      "exit_pct": -13.76,
+      "exit_time": "2026-09-01T01:22:33.791843+00:00"
     }
   ],
   "alerted": {
@@ -143033,6 +143050,9 @@
     "0x960a8eB609257485e868766514118BDCE06b6b02": "2026-09-01T00:15:53.415687+00:00",
     "0xD39c5eD5231c86D2Df7c86c5825dEC3E61d937A8": "2026-09-01T00:32:09.118836+00:00",
     "0x5FEdfd66b542cCe3b5F949C0bb6A3abA9AdF1e18": "2026-09-01T00:34:44.037918+00:00",
-    "0x82EFfeE58389561A3B9e93cCBaF1129d32Ba35fA": "2026-09-01T00:52:12.093385+00:00"
+    "0x82EFfeE58389561A3B9e93cCBaF1129d32Ba35fA": "2026-09-01T00:52:12.093385+00:00",
+    "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy": "2026-09-01T01:22:31.559976+00:00",
+    "0xBA630d620dBC4c4B5a1BeBed1A9648172CEc1e18": "2026-09-01T01:22:32.448226+00:00",
+    "0x9aAAb7A8BAd993E0FB2334783AfF4fD6793FD591": "2026-09-01T01:22:33.791843+00:00"
   }
 }
