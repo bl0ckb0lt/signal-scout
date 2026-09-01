@@ -1,56 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "GPAPE",
-      "chain": "solana",
-      "address": "GyxvtA5LcxvDKBnK7wTqvrRyJr3fQdspRkxGbwwipump",
-      "source": "new",
-      "entry_price": 0.0001633,
-      "peak_price": 0.0001633,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T02:51:06.004772+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "FOMOnuts",
-      "chain": "solana",
-      "address": "4PBRa277WERzjyxCyXf5ehGvZjKEALkKyNUYYzTTpump",
-      "source": "new",
-      "entry_price": 0.0001158,
-      "peak_price": 0.0001158,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T02:51:07.685469+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "FOMOTRUMP",
-      "chain": "robinhood",
-      "address": "0x656a7c323Dd8cCAfEC7596c592c57008664b1D82",
-      "source": "new",
-      "entry_price": 8.909e-05,
-      "peak_price": 8.909e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T02:51:09.027977+00:00",
-      "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "POP",
-      "chain": "robinhood",
-      "address": "0xf176B06F6592d92e7A7a155c41dBAA2Fa8780909",
-      "source": "new",
-      "entry_price": 0.0002782,
-      "peak_price": 0.0002782,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T02:51:10.381786+00:00",
-      "score": 63,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -136387,6 +136338,82 @@
       "exit_price": 0.000508,
       "exit_pct": 250.59,
       "exit_time": "2026-09-01T02:36:23.707657+00:00"
+    },
+    {
+      "symbol": "GPAPE",
+      "chain": "solana",
+      "address": "GyxvtA5LcxvDKBnK7wTqvrRyJr3fQdspRkxGbwwipump",
+      "source": "new",
+      "entry_price": 0.0001633,
+      "peak_price": 0.0001633,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T02:51:06.004772+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.57,
+      "peak_volume_m5": 31268.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001395,
+      "exit_pct": -14.57,
+      "exit_time": "2026-09-01T02:52:53.952639+00:00"
+    },
+    {
+      "symbol": "FOMOnuts",
+      "chain": "solana",
+      "address": "4PBRa277WERzjyxCyXf5ehGvZjKEALkKyNUYYzTTpump",
+      "source": "new",
+      "entry_price": 0.0001158,
+      "peak_price": 0.0001158,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T02:51:07.685469+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.1,
+      "peak_volume_m5": 112072.28,
+      "milestones_hit": [],
+      "exit_price": 0.0001041,
+      "exit_pct": -10.1,
+      "exit_time": "2026-09-01T02:52:54.788986+00:00"
+    },
+    {
+      "symbol": "FOMOTRUMP",
+      "chain": "robinhood",
+      "address": "0x656a7c323Dd8cCAfEC7596c592c57008664b1D82",
+      "source": "new",
+      "entry_price": 8.909e-05,
+      "peak_price": 8.909e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T02:51:09.027977+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.44,
+      "peak_volume_m5": 14068.33,
+      "milestones_hit": [],
+      "exit_price": 7.444e-05,
+      "exit_pct": -16.44,
+      "exit_time": "2026-09-01T02:52:55.614641+00:00"
+    },
+    {
+      "symbol": "POP",
+      "chain": "robinhood",
+      "address": "0xf176B06F6592d92e7A7a155c41dBAA2Fa8780909",
+      "source": "new",
+      "entry_price": 0.0002782,
+      "peak_price": 0.0002782,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T02:51:10.381786+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.32,
+      "peak_volume_m5": 16953.64,
+      "milestones_hit": [],
+      "exit_price": 0.0002495,
+      "exit_pct": -10.32,
+      "exit_time": "2026-09-01T02:52:56.996129+00:00"
     }
   ],
   "alerted": {
@@ -143296,6 +143323,10 @@
     "6mYcNBqiior9gYj4S4x2jDnd3JjggmGvax4wYhUphga": "2026-09-01T02:17:02.130832+00:00",
     "0x4d41CcAa0eeB95C6EBC56d53adf637198c901e18": "2026-09-01T02:18:52.426947+00:00",
     "0xf21c6Bf40f08C55b63fDeC0FC02a214c3e4A64Ed": "2026-09-01T02:28:54.849158+00:00",
-    "0x4c04287E533534435adFAB23c3cEe9D730494d98": "2026-09-01T02:36:23.707657+00:00"
+    "0x4c04287E533534435adFAB23c3cEe9D730494d98": "2026-09-01T02:36:23.707657+00:00",
+    "GyxvtA5LcxvDKBnK7wTqvrRyJr3fQdspRkxGbwwipump": "2026-09-01T02:52:53.952639+00:00",
+    "4PBRa277WERzjyxCyXf5ehGvZjKEALkKyNUYYzTTpump": "2026-09-01T02:52:54.788986+00:00",
+    "0x656a7c323Dd8cCAfEC7596c592c57008664b1D82": "2026-09-01T02:52:55.614641+00:00",
+    "0xf176B06F6592d92e7A7a155c41dBAA2Fa8780909": "2026-09-01T02:52:56.996129+00:00"
   }
 }
