@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Fine",
-      "chain": "solana",
-      "address": "FBFSVbKL5ztEeD1mXFxrvaR7AjVfZAjd2j4W2yMJpump",
-      "source": "boost",
-      "entry_price": 0.000657,
-      "peak_price": 0.000657,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T22:11:01.522680+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "ASSDAQ",
       "chain": "solana",
       "address": "bttFLQwpfrkk7y3GXLLPkTxuCQtFuH6cuKGWPysi8sn",
       "source": "new",
       "entry_price": 0.0001517,
-      "peak_price": 0.0001517,
-      "trailing_active": false,
+      "peak_price": 0.000211,
+      "trailing_active": true,
       "entry_time": "2026-09-01T22:11:03.118247+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 39.09,
+      "peak_volume_m5": 73005.1,
+      "milestones_hit": []
     },
     {
       "symbol": "CASHBIRD",
@@ -48,11 +40,18 @@
       "address": "0x38C8f642A04FEaC9899990276b4207fE4F621e18",
       "source": "new",
       "entry_price": 0.0002624,
-      "peak_price": 0.0002624,
-      "trailing_active": false,
+      "peak_price": 0.0006178,
+      "trailing_active": true,
       "entry_time": "2026-09-01T22:11:04.458865+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 135.44,
+      "peak_volume_m5": 155756.61,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -139065,6 +139064,25 @@
       "exit_price": 0.0006799,
       "exit_pct": -23.68,
       "exit_time": "2026-09-01T22:03:23.135543+00:00"
+    },
+    {
+      "symbol": "Fine",
+      "chain": "solana",
+      "address": "FBFSVbKL5ztEeD1mXFxrvaR7AjVfZAjd2j4W2yMJpump",
+      "source": "boost",
+      "entry_price": 0.000657,
+      "peak_price": 0.000657,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T22:11:01.522680+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.72,
+      "peak_volume_m5": 36371.22,
+      "milestones_hit": [],
+      "exit_price": 0.0004946,
+      "exit_pct": -24.72,
+      "exit_time": "2026-09-01T22:15:29.722037+00:00"
     }
   ],
   "alerted": {
@@ -146086,7 +146104,7 @@
     "0x9D7C8FDD0872436397f38f45Beaa2d14c8BFaa7F": "2026-09-01T19:26:26.018598+00:00",
     "0x40ae9487248d0fed7D1d94039CDBE11206724d87": "2026-09-01T19:27:12.975308+00:00",
     "6dQocvGFwQybNVrf8srJa5SwvN7rRpfnzexaoeJLpump": "2026-09-01T19:41:12.547892+00:00",
-    "FBFSVbKL5ztEeD1mXFxrvaR7AjVfZAjd2j4W2yMJpump": "2026-09-01T20:02:33.981444+00:00",
+    "FBFSVbKL5ztEeD1mXFxrvaR7AjVfZAjd2j4W2yMJpump": "2026-09-01T22:15:29.722037+00:00",
     "5hpJtD4qvft1GBqu19v4s7GvLCSXKYt7hxrdKERBpump": "2026-09-01T20:03:32.846865+00:00",
     "5xYy9XSr8vRNcJZQqaKe5QMCmWpaSrTrtzM16vjUpump": "2026-09-01T20:06:07.103318+00:00",
     "AQV3ERV9wsMXYi7HC4LPef4NvXTzXZANUF76yMJRpump": "2026-09-01T20:08:08.710328+00:00",
