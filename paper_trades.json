@@ -8,23 +8,15 @@
       "address": "0x960a8eB609257485e868766514118BDCE06b6b02",
       "source": "boost",
       "entry_price": 0.00931,
-      "peak_price": 0.00931,
+      "peak_price": 0.009902,
       "trailing_active": false,
       "entry_time": "2026-09-01T00:11:03.755701+00:00",
       "score": 93,
-      "status": "open"
-    },
-    {
-      "symbol": "1",
-      "chain": "solana",
-      "address": "Cm69mN91iMmuHUggqZKM9PRZ36XRBJLKoLKvaRtHDRGS",
-      "source": "new",
-      "entry_price": 0.0003127,
-      "peak_price": 0.0003127,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T00:11:06.808853+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.36,
+      "peak_volume_m5": 186643.63,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -136004,6 +135996,25 @@
       "exit_price": 0.0004001,
       "exit_pct": 111.25,
       "exit_time": "2026-09-01T00:02:12.510389+00:00"
+    },
+    {
+      "symbol": "1",
+      "chain": "solana",
+      "address": "Cm69mN91iMmuHUggqZKM9PRZ36XRBJLKoLKvaRtHDRGS",
+      "source": "new",
+      "entry_price": 0.0003127,
+      "peak_price": 0.0003127,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T00:11:06.808853+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -37.86,
+      "peak_volume_m5": 369170.42,
+      "milestones_hit": [],
+      "exit_price": 0.0001943,
+      "exit_pct": -37.86,
+      "exit_time": "2026-09-01T00:12:56.343365+00:00"
     }
   ],
   "alerted": {
@@ -142895,6 +142906,7 @@
     "0x4c34525FAA6F42Fd933d12Fd5B914e16058C7632": "2026-08-31T23:22:11.386519+00:00",
     "0x32112F7AF51F7940556Ab0fBAB3455B77dd080EB": "2026-08-31T23:23:55.052222+00:00",
     "0x29A82594E967d062F163393A31B8f01bE5719bce": "2026-08-31T23:23:55.867498+00:00",
-    "0x1e69b254e5de9ce208bf9123fe093f457fb12d5b": "2026-09-01T00:02:12.510389+00:00"
+    "0x1e69b254e5de9ce208bf9123fe093f457fb12d5b": "2026-09-01T00:02:12.510389+00:00",
+    "Cm69mN91iMmuHUggqZKM9PRZ36XRBJLKoLKvaRtHDRGS": "2026-09-01T00:12:56.343365+00:00"
   }
 }
