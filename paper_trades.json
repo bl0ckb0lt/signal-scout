@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GB",
-      "chain": "robinhood",
-      "address": "0xd78650f3a96e55e0710282c4f459ac556ef3517e",
-      "source": "new",
-      "entry_price": 0.0004317,
-      "peak_price": 0.0004317,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T22:50:56.841688+00:00",
-      "score": 75,
-      "status": "open"
-    },
-    {
       "symbol": "KIMCHI",
       "chain": "robinhood",
       "address": "0x50142D76F2aea6f1D9FB35f7778e46BD2e1e1e18",
       "source": "new",
       "entry_price": 7.042e-05,
-      "peak_price": 7.042e-05,
+      "peak_price": 7.106e-05,
       "trailing_active": false,
       "entry_time": "2026-09-01T22:51:02.755923+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.91,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -139198,6 +139190,25 @@
       "exit_price": 0.000288,
       "exit_pct": 34.77,
       "exit_time": "2026-09-01T22:40:55.829484+00:00"
+    },
+    {
+      "symbol": "GB",
+      "chain": "robinhood",
+      "address": "0xd78650f3a96e55e0710282c4f459ac556ef3517e",
+      "source": "new",
+      "entry_price": 0.0004317,
+      "peak_price": 0.0004317,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T22:50:56.841688+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.27,
+      "peak_volume_m5": 0,
+      "milestones_hit": [],
+      "exit_price": 0.0003744,
+      "exit_pct": -13.27,
+      "exit_time": "2026-09-01T22:53:49.753008+00:00"
     }
   ],
   "alerted": {
@@ -146247,6 +146258,7 @@
     "0x5cc8c219c916FE53AB012983a6093529b5071e18": "2026-09-01T22:34:58.243192+00:00",
     "Cj3upTXz6cYCP1TLbyF5AseKX4hqaWK7eiRqR7uu6npU": "2026-09-01T22:35:56.592652+00:00",
     "0x15b07c4dCDDd0d4657559B4444b8408908b01e18": "2026-09-01T22:38:56.921160+00:00",
-    "0xEF455BEE1E4Fa2974A7111d0DC9a1E53660A4501": "2026-09-01T22:40:55.829484+00:00"
+    "0xEF455BEE1E4Fa2974A7111d0DC9a1E53660A4501": "2026-09-01T22:40:55.829484+00:00",
+    "0xd78650f3a96e55e0710282c4f459ac556ef3517e": "2026-09-01T22:53:49.753008+00:00"
   }
 }
