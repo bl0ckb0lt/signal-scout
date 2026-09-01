@@ -3,26 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "QCAT",
-      "chain": "robinhood",
-      "address": "0x97737986245C3A9fD61C40424aC98C816451d301",
-      "source": "new",
-      "entry_price": 4.982e-05,
-      "peak_price": 0.0001619,
-      "trailing_active": true,
-      "entry_time": "2026-09-01T11:01:11.479686+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 224.97,
-      "peak_volume_m5": 74246.87,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "MOBB",
       "chain": "robinhood",
       "address": "0x0172AD9020D6eE43346d50C288A4Bf705da87E8d",
@@ -32,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-01T11:11:04.936677+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.15,
+      "peak_volume_m5": 21616.09,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -137369,6 +137353,29 @@
       "exit_price": 0.0001115,
       "exit_pct": -19.67,
       "exit_time": "2026-09-01T11:04:57.050704+00:00"
+    },
+    {
+      "symbol": "QCAT",
+      "chain": "robinhood",
+      "address": "0x97737986245C3A9fD61C40424aC98C816451d301",
+      "source": "new",
+      "entry_price": 4.982e-05,
+      "peak_price": 0.0001619,
+      "trailing_active": true,
+      "entry_time": "2026-09-01T11:01:11.479686+00:00",
+      "score": 64,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 185.83,
+      "peak_volume_m5": 74246.87,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0001424,
+      "exit_pct": 185.83,
+      "exit_time": "2026-09-01T11:12:55.132455+00:00"
     }
   ],
   "alerted": {
@@ -144327,6 +144334,7 @@
     "0xEc664a0669C75ab4337c176926881100BF495c01": "2026-09-01T10:42:55.175513+00:00",
     "0x9B84650E23E44F779796437ECd3429A017e99F1c": "2026-09-01T10:44:41.017301+00:00",
     "0x334796C7A865892654E5d987756B1f9078B7b904": "2026-09-01T11:03:59.615441+00:00",
-    "BAX8hB13yHW6d4oUwhcS18QRvDxfZBe2qzjqXWz6pump": "2026-09-01T11:04:57.050704+00:00"
+    "BAX8hB13yHW6d4oUwhcS18QRvDxfZBe2qzjqXWz6pump": "2026-09-01T11:04:57.050704+00:00",
+    "0x97737986245C3A9fD61C40424aC98C816451d301": "2026-09-01T11:12:55.132455+00:00"
   }
 }
