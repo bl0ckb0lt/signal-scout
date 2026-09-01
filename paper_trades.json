@@ -14,21 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.66,
-      "peak_volume_m5": 5129.59,
+      "current_pct": -6.81,
+      "peak_volume_m5": 5496.0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "foms",
-      "chain": "solana",
-      "address": "FuJj8w53ZQhtjppXKByGaR7yTR1iAiytiA7U9qTxpump",
-      "source": "new",
-      "entry_price": 0.0001285,
-      "peak_price": 0.0001285,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T04:41:05.673563+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "CHIP",
@@ -36,11 +24,15 @@
       "address": "0xE38B1C963Afc21f06b9E82A2de36A84FbB9C6E59",
       "source": "new",
       "entry_price": 0.0001083,
-      "peak_price": 0.0001083,
+      "peak_price": 0.0001168,
       "trailing_active": false,
       "entry_time": "2026-09-01T04:41:10.189961+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.85,
+      "peak_volume_m5": 17929.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -136572,6 +136564,25 @@
       "exit_price": 8.805e-05,
       "exit_pct": 8.48,
       "exit_time": "2026-09-01T04:36:18.446613+00:00"
+    },
+    {
+      "symbol": "foms",
+      "chain": "solana",
+      "address": "FuJj8w53ZQhtjppXKByGaR7yTR1iAiytiA7U9qTxpump",
+      "source": "new",
+      "entry_price": 0.0001285,
+      "peak_price": 0.0001285,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T04:41:05.673563+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.25,
+      "peak_volume_m5": 129770.07,
+      "milestones_hit": [],
+      "exit_price": 9.477e-05,
+      "exit_pct": -26.25,
+      "exit_time": "2026-09-01T04:42:24.737100+00:00"
     }
   ],
   "alerted": {
@@ -143491,6 +143502,7 @@
     "6khz9z3k4CzxUBA5mWzZghPJDxmqLT7qsKmYTXYeaRQj": "2026-09-01T03:53:57.896821+00:00",
     "0xc315fBF5CC5435d386BBe1518131aF7514F11E18": "2026-09-01T04:12:50.884218+00:00",
     "2NEqdaNxeYhYCsMd1pQfoG8ws5Nc1A5pJECCkbnopump": "2026-09-01T04:22:26.608499+00:00",
-    "0x92b1dCf7784720BD215705019562015780A90a64": "2026-09-01T04:36:18.446613+00:00"
+    "0x92b1dCf7784720BD215705019562015780A90a64": "2026-09-01T04:36:18.446613+00:00",
+    "FuJj8w53ZQhtjppXKByGaR7yTR1iAiytiA7U9qTxpump": "2026-09-01T04:42:24.737100+00:00"
   }
 }
