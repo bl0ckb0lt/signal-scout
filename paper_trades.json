@@ -24,30 +24,14 @@
       "address": "0x6d685f2149af38CF9497a315866cD0b79A6551bF",
       "source": "new",
       "entry_price": 0.0009535,
-      "peak_price": 0.001113,
+      "peak_price": 0.001209,
       "trailing_active": true,
       "entry_time": "2026-09-01T15:41:08.114348+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 16.73,
+      "current_pct": 26.8,
       "peak_volume_m5": 36497.52,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "FATCOIN",
-      "chain": "robinhood",
-      "address": "0xd0d9916D53d43C1E2EC70daec79f231f9AFf59DA",
-      "source": "new",
-      "entry_price": 0.0002817,
-      "peak_price": 0.0003336,
-      "trailing_active": true,
-      "entry_time": "2026-09-01T15:51:12.748502+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 18.42,
-      "peak_volume_m5": 53087.56,
       "milestones_hit": []
     }
   ],
@@ -138044,6 +138028,29 @@
       "exit_price": 0.0001739,
       "exit_pct": -9.14,
       "exit_time": "2026-09-01T15:52:21.719573+00:00"
+    },
+    {
+      "symbol": "FATCOIN",
+      "chain": "robinhood",
+      "address": "0xd0d9916D53d43C1E2EC70daec79f231f9AFf59DA",
+      "source": "new",
+      "entry_price": 0.0002817,
+      "peak_price": 0.001007,
+      "trailing_active": true,
+      "entry_time": "2026-09-01T15:51:12.748502+00:00",
+      "score": 82,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 257.47,
+      "peak_volume_m5": 110709.52,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.001007,
+      "exit_pct": 257.47,
+      "exit_time": "2026-09-01T15:58:12.191742+00:00"
     }
   ],
   "alerted": {
@@ -145035,6 +145042,7 @@
     "BuY3MHzaDEd2ipwub6uAhddH8Ah95oHoZfNDVkVVpump": "2026-09-01T15:42:57.373417+00:00",
     "0xDA5ffdDff18cd5Df348ccC6a8DD8D8dFf510c25F": "2026-09-01T15:44:53.307339+00:00",
     "0xE572163F928dC223DDbBDE611e367116A5279d41": "2026-09-01T15:52:21.042976+00:00",
-    "0xabED98E3AA42b5AB79ccE9E7eBB274688ba2FfFf": "2026-09-01T15:52:21.719573+00:00"
+    "0xabED98E3AA42b5AB79ccE9E7eBB274688ba2FfFf": "2026-09-01T15:52:21.719573+00:00",
+    "0xd0d9916D53d43C1E2EC70daec79f231f9AFf59DA": "2026-09-01T15:58:12.191742+00:00"
   }
 }
