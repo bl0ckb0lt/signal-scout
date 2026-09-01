@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GROKCAT",
-      "chain": "solana",
-      "address": "2NEqdaNxeYhYCsMd1pQfoG8ws5Nc1A5pJECCkbnopump",
-      "source": "new",
-      "entry_price": 0.0001151,
-      "peak_price": 0.0001151,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T04:21:04.322918+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "ROBINCAT",
       "chain": "robinhood",
       "address": "0x92b1dCf7784720BD215705019562015780A90a64",
       "source": "new",
       "entry_price": 8.117e-05,
-      "peak_price": 8.117e-05,
-      "trailing_active": false,
+      "peak_price": 9.493e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-01T04:21:05.662486+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.95,
+      "peak_volume_m5": 6427.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -136518,6 +136510,25 @@
       "exit_price": 5.359e-05,
       "exit_pct": -9.42,
       "exit_time": "2026-09-01T04:12:50.884218+00:00"
+    },
+    {
+      "symbol": "GROKCAT",
+      "chain": "solana",
+      "address": "2NEqdaNxeYhYCsMd1pQfoG8ws5Nc1A5pJECCkbnopump",
+      "source": "new",
+      "entry_price": 0.0001151,
+      "peak_price": 0.0001151,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T04:21:04.322918+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.25,
+      "peak_volume_m5": 26121.66,
+      "milestones_hit": [],
+      "exit_price": 9.524e-05,
+      "exit_pct": -17.25,
+      "exit_time": "2026-09-01T04:22:26.608499+00:00"
     }
   ],
   "alerted": {
@@ -143435,6 +143446,7 @@
     "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3": "2026-09-01T03:03:40.055582+00:00",
     "0x58A63FC168D3Cd4309d067C6C89E5F3dA975caA9": "2026-09-01T03:27:41.337272+00:00",
     "6khz9z3k4CzxUBA5mWzZghPJDxmqLT7qsKmYTXYeaRQj": "2026-09-01T03:53:57.896821+00:00",
-    "0xc315fBF5CC5435d386BBe1518131aF7514F11E18": "2026-09-01T04:12:50.884218+00:00"
+    "0xc315fBF5CC5435d386BBe1518131aF7514F11E18": "2026-09-01T04:12:50.884218+00:00",
+    "2NEqdaNxeYhYCsMd1pQfoG8ws5Nc1A5pJECCkbnopump": "2026-09-01T04:22:26.608499+00:00"
   }
 }
