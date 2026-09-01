@@ -24,23 +24,15 @@
       "address": "6dQocvGFwQybNVrf8srJa5SwvN7rRpfnzexaoeJLpump",
       "source": "boost",
       "entry_price": 0.0004033,
-      "peak_price": 0.0004033,
+      "peak_price": 0.0004115,
       "trailing_active": false,
       "entry_time": "2026-09-01T19:01:03.461183+00:00",
       "score": 88,
-      "status": "open"
-    },
-    {
-      "symbol": "BOROS",
-      "chain": "robinhood",
-      "address": "0x7C509ae006f27AE3969a58D5E3c40e5f1Cd11493",
-      "source": "new",
-      "entry_price": 0.0001195,
-      "peak_price": 0.0001195,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T19:01:04.877865+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.03,
+      "peak_volume_m5": 5201.25,
+      "milestones_hit": []
     },
     {
       "symbol": "OMNI",
@@ -52,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-01T19:01:06.284077+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.91,
+      "peak_volume_m5": 138750.16,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -138484,6 +138480,25 @@
       "exit_price": 0.0002371,
       "exit_pct": -9.68,
       "exit_time": "2026-09-01T18:52:09.001704+00:00"
+    },
+    {
+      "symbol": "BOROS",
+      "chain": "robinhood",
+      "address": "0x7C509ae006f27AE3969a58D5E3c40e5f1Cd11493",
+      "source": "new",
+      "entry_price": 0.0001195,
+      "peak_price": 0.0001195,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T19:01:04.877865+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.8,
+      "peak_volume_m5": 3161.63,
+      "milestones_hit": [],
+      "exit_price": 0.0001054,
+      "exit_pct": -11.8,
+      "exit_time": "2026-09-01T19:02:16.614576+00:00"
     }
   ],
   "alerted": {
@@ -145497,6 +145512,7 @@
     "0xAe377E224765a26dc21eE1CbcF124ee30Fe0207d": "2026-09-01T18:12:06.934530+00:00",
     "0x143150200082dD95615fd82189932263F99F9Af0": "2026-09-01T18:32:52.731275+00:00",
     "BbLB3ikTnLkMH1HCNe1oXYYH29jjes7HP2s5VctApump": "2026-09-01T18:33:48.941551+00:00",
-    "0xd64058066E9AD063F410d053afc9539bB773c73E": "2026-09-01T18:52:09.001704+00:00"
+    "0xd64058066E9AD063F410d053afc9539bB773c73E": "2026-09-01T18:52:09.001704+00:00",
+    "0x7C509ae006f27AE3969a58D5E3c40e5f1Cd11493": "2026-09-01T19:02:16.614576+00:00"
   }
 }
