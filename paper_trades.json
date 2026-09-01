@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GPRO",
-      "chain": "solana",
-      "address": "EMyRs7pxz98znYnbzYYqko7eENUa8M8fi3B9MDatL8Sj",
-      "source": "new",
-      "entry_price": 0.0003337,
-      "peak_price": 0.0003337,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T15:21:11.974659+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "PSA",
       "chain": "robinhood",
       "address": "0x762952aae34acD9bf4b3055b0e11948a50Ee1799",
       "source": "new",
       "entry_price": 0.0001748,
-      "peak_price": 0.0001748,
+      "peak_price": 0.0001888,
       "trailing_active": false,
       "entry_time": "2026-09-01T15:21:13.304264+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.01,
+      "peak_volume_m5": 6983.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -137903,6 +137895,25 @@
       "exit_price": 0.0001445,
       "exit_pct": -3.34,
       "exit_time": "2026-09-01T15:04:41.441335+00:00"
+    },
+    {
+      "symbol": "GPRO",
+      "chain": "solana",
+      "address": "EMyRs7pxz98znYnbzYYqko7eENUa8M8fi3B9MDatL8Sj",
+      "source": "new",
+      "entry_price": 0.0003337,
+      "peak_price": 0.0003337,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T15:21:11.974659+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -32.3,
+      "peak_volume_m5": 22473.18,
+      "milestones_hit": [],
+      "exit_price": 0.0002259,
+      "exit_pct": -32.3,
+      "exit_time": "2026-09-01T15:23:35.477620+00:00"
     }
   ],
   "alerted": {
@@ -144887,6 +144898,7 @@
     "3trZJN24RBWW3qGaYYwmuZVrXXgwB6TDstaPK1bNpump": "2026-09-01T14:43:44.612698+00:00",
     "9nR2fjDsbSpQPcWmK8zz1HhKA1hQ7Zj7Gvb5YoEppump": "2026-09-01T14:52:58.319709+00:00",
     "0xF990dC4aC2682D168788cdcDeB541e2004D40d56": "2026-09-01T15:02:45.903647+00:00",
-    "9WXFTNCAqNAHV916RwHJcacxMCJJq4Bqb35wScgypump": "2026-09-01T15:04:41.441335+00:00"
+    "9WXFTNCAqNAHV916RwHJcacxMCJJq4Bqb35wScgypump": "2026-09-01T15:04:41.441335+00:00",
+    "EMyRs7pxz98znYnbzYYqko7eENUa8M8fi3B9MDatL8Sj": "2026-09-01T15:23:35.477620+00:00"
   }
 }
