@@ -24,13 +24,13 @@
       "address": "0x6d685f2149af38CF9497a315866cD0b79A6551bF",
       "source": "new",
       "entry_price": 0.0009535,
-      "peak_price": 0.001096,
-      "trailing_active": false,
+      "peak_price": 0.001113,
+      "trailing_active": true,
       "entry_time": "2026-09-01T15:41:08.114348+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.94,
+      "current_pct": 16.73,
       "peak_volume_m5": 36497.52,
       "milestones_hit": []
     },
@@ -40,35 +40,15 @@
       "address": "0xd0d9916D53d43C1E2EC70daec79f231f9AFf59DA",
       "source": "new",
       "entry_price": 0.0002817,
-      "peak_price": 0.0002817,
-      "trailing_active": false,
+      "peak_price": 0.0003336,
+      "trailing_active": true,
       "entry_time": "2026-09-01T15:51:12.748502+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "HDFI",
-      "chain": "robinhood",
-      "address": "0xE572163F928dC223DDbBDE611e367116A5279d41",
-      "source": "new",
-      "entry_price": 0.0002004,
-      "peak_price": 0.0002004,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T15:51:17.168151+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "CARE",
-      "chain": "bsc",
-      "address": "0xabED98E3AA42b5AB79ccE9E7eBB274688ba2FfFf",
-      "source": "new",
-      "entry_price": 0.0001914,
-      "peak_price": 0.0001914,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T15:51:20.349933+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.42,
+      "peak_volume_m5": 53087.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -138026,6 +138006,44 @@
       "exit_price": 9.558e-05,
       "exit_pct": -55.73,
       "exit_time": "2026-09-01T15:44:53.307339+00:00"
+    },
+    {
+      "symbol": "HDFI",
+      "chain": "robinhood",
+      "address": "0xE572163F928dC223DDbBDE611e367116A5279d41",
+      "source": "new",
+      "entry_price": 0.0002004,
+      "peak_price": 0.0002004,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T15:51:17.168151+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.45,
+      "peak_volume_m5": 88948.24,
+      "milestones_hit": [],
+      "exit_price": 0.0001494,
+      "exit_pct": -25.45,
+      "exit_time": "2026-09-01T15:52:21.042976+00:00"
+    },
+    {
+      "symbol": "CARE",
+      "chain": "bsc",
+      "address": "0xabED98E3AA42b5AB79ccE9E7eBB274688ba2FfFf",
+      "source": "new",
+      "entry_price": 0.0001914,
+      "peak_price": 0.0001914,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T15:51:20.349933+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.14,
+      "peak_volume_m5": 158252.54,
+      "milestones_hit": [],
+      "exit_price": 0.0001739,
+      "exit_pct": -9.14,
+      "exit_time": "2026-09-01T15:52:21.719573+00:00"
     }
   ],
   "alerted": {
@@ -145015,6 +145033,8 @@
     "0x762952aae34acD9bf4b3055b0e11948a50Ee1799": "2026-09-01T15:30:55.789095+00:00",
     "0x12D5ee7917cA430073C3A638ee1e6f0648A98a01": "2026-09-01T15:42:00.295905+00:00",
     "BuY3MHzaDEd2ipwub6uAhddH8Ah95oHoZfNDVkVVpump": "2026-09-01T15:42:57.373417+00:00",
-    "0xDA5ffdDff18cd5Df348ccC6a8DD8D8dFf510c25F": "2026-09-01T15:44:53.307339+00:00"
+    "0xDA5ffdDff18cd5Df348ccC6a8DD8D8dFf510c25F": "2026-09-01T15:44:53.307339+00:00",
+    "0xE572163F928dC223DDbBDE611e367116A5279d41": "2026-09-01T15:52:21.042976+00:00",
+    "0xabED98E3AA42b5AB79ccE9E7eBB274688ba2FfFf": "2026-09-01T15:52:21.719573+00:00"
   }
 }
