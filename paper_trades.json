@@ -8,13 +8,13 @@
       "address": "0xE1cBfFc71B992c255252040973F552662Ca43E7c",
       "source": "new",
       "entry_price": 1.009e-06,
-      "peak_price": 2.051e-06,
+      "peak_price": 2.566e-06,
       "trailing_active": true,
       "entry_time": "2026-09-01T06:01:10.322865+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 103.27,
+      "current_pct": 154.31,
       "peak_volume_m5": 49432.67,
       "milestones_hit": [
         50,
@@ -27,35 +27,15 @@
       "address": "7WJ3ksZauPhEQJjcWbopPY5SrtRhSSHKR973fRR3pump",
       "source": "boost",
       "entry_price": 0.000134,
-      "peak_price": 0.000134,
+      "peak_price": 0.0001464,
       "trailing_active": false,
       "entry_time": "2026-09-01T06:31:04.778129+00:00",
       "score": 71,
-      "status": "open"
-    },
-    {
-      "symbol": "MICRO",
-      "chain": "solana",
-      "address": "EeZ67jpgcxe55R3qGg9oF14eQ293bbSFyKL3VkKvFH3F",
-      "source": "new",
-      "entry_price": 0.0001106,
-      "peak_price": 0.0001106,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T06:31:06.371632+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "PANDA",
-      "chain": "robinhood",
-      "address": "0x751d209bd54c9c41953e78a107861ad6ed118a52",
-      "source": "new",
-      "entry_price": 0.0001063,
-      "peak_price": 0.0001063,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T06:31:07.702753+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.25,
+      "peak_volume_m5": 25290.78,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -136836,6 +136816,44 @@
       "exit_price": 0.0001552,
       "exit_pct": -10.86,
       "exit_time": "2026-09-01T05:59:54.110569+00:00"
+    },
+    {
+      "symbol": "MICRO",
+      "chain": "solana",
+      "address": "EeZ67jpgcxe55R3qGg9oF14eQ293bbSFyKL3VkKvFH3F",
+      "source": "new",
+      "entry_price": 0.0001106,
+      "peak_price": 0.0001106,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T06:31:06.371632+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.92,
+      "peak_volume_m5": 23268.82,
+      "milestones_hit": [],
+      "exit_price": 9.41e-05,
+      "exit_pct": -14.92,
+      "exit_time": "2026-09-01T06:32:44.949367+00:00"
+    },
+    {
+      "symbol": "PANDA",
+      "chain": "robinhood",
+      "address": "0x751d209bd54c9c41953e78a107861ad6ed118a52",
+      "source": "new",
+      "entry_price": 0.0001063,
+      "peak_price": 0.0001063,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T06:31:07.702753+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.88,
+      "peak_volume_m5": 5344.06,
+      "milestones_hit": [],
+      "exit_price": 8.836e-05,
+      "exit_pct": -16.88,
+      "exit_time": "2026-09-01T06:32:45.646391+00:00"
     }
   ],
   "alerted": {
@@ -143767,6 +143785,8 @@
     "7TRtkUGrm7YAiADRgvbLf2PVEDBpZP8kMjLRkM5Rpump": "2026-09-01T05:45:16.604030+00:00",
     "0xF5E41B2eddcbd83Aa5E1FBAC84F08dC5E03D887a": "2026-09-01T05:46:15.585053+00:00",
     "AQ9pKadi9jA1vTofHFPrsgXjUU8C2pF8FpFpg2oMpump": "2026-09-01T05:52:45.893202+00:00",
-    "9vE71yxHFSDhkzUTvMbiToMQK8oS1p6SLXYfg1Qdpump": "2026-09-01T05:59:54.110569+00:00"
+    "9vE71yxHFSDhkzUTvMbiToMQK8oS1p6SLXYfg1Qdpump": "2026-09-01T05:59:54.110569+00:00",
+    "EeZ67jpgcxe55R3qGg9oF14eQ293bbSFyKL3VkKvFH3F": "2026-09-01T06:32:44.949367+00:00",
+    "0x751d209bd54c9c41953e78a107861ad6ed118a52": "2026-09-01T06:32:45.646391+00:00"
   }
 }
