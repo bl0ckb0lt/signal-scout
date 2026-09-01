@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "DEMOTHREE",
-      "chain": "robinhood",
-      "address": "0x4c04287E533534435adFAB23c3cEe9D730494d98",
-      "source": "new",
-      "entry_price": 0.0001449,
-      "peak_price": 0.0001449,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T02:31:18.015425+00:00",
-      "score": 83,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -136328,6 +136315,29 @@
       "exit_price": 9.071e-05,
       "exit_pct": -17.91,
       "exit_time": "2026-09-01T02:28:54.849158+00:00"
+    },
+    {
+      "symbol": "DEMOTHREE",
+      "chain": "robinhood",
+      "address": "0x4c04287E533534435adFAB23c3cEe9D730494d98",
+      "source": "new",
+      "entry_price": 0.0001449,
+      "peak_price": 0.000508,
+      "trailing_active": true,
+      "entry_time": "2026-09-01T02:31:18.015425+00:00",
+      "score": 83,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 250.59,
+      "peak_volume_m5": 49334.35,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.000508,
+      "exit_pct": 250.59,
+      "exit_time": "2026-09-01T02:36:23.707657+00:00"
     }
   ],
   "alerted": {
@@ -143236,6 +143246,7 @@
     "0xCC3DC6fC9918b9846d1AD5Aaea740f8beD9a1e18": "2026-09-01T02:16:07.314300+00:00",
     "6mYcNBqiior9gYj4S4x2jDnd3JjggmGvax4wYhUphga": "2026-09-01T02:17:02.130832+00:00",
     "0x4d41CcAa0eeB95C6EBC56d53adf637198c901e18": "2026-09-01T02:18:52.426947+00:00",
-    "0xf21c6Bf40f08C55b63fDeC0FC02a214c3e4A64Ed": "2026-09-01T02:28:54.849158+00:00"
+    "0xf21c6Bf40f08C55b63fDeC0FC02a214c3e4A64Ed": "2026-09-01T02:28:54.849158+00:00",
+    "0x4c04287E533534435adFAB23c3cEe9D730494d98": "2026-09-01T02:36:23.707657+00:00"
   }
 }
