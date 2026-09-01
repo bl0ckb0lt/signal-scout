@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ORBIO",
-      "chain": "robinhood",
-      "address": "0x8f4bE897Ce564215Be47602B3dC463e9003eB324",
-      "source": "new",
-      "entry_price": 0.0001255,
-      "peak_price": 0.0002101,
-      "trailing_active": true,
-      "entry_time": "2026-09-01T08:48:14.648672+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 67.41,
-      "peak_volume_m5": 23560.84,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "fable",
       "chain": "robinhood",
       "address": "0x9B84650E23E44F779796437ECd3429A017e99F1c",
@@ -32,23 +14,11 @@
       "score": 59,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 52.11,
-      "peak_volume_m5": 3682.98,
+      "current_pct": 48.84,
+      "peak_volume_m5": 4187.27,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "QI",
-      "chain": "robinhood",
-      "address": "0xEc664a0669C75ab4337c176926881100BF495c01",
-      "source": "new",
-      "entry_price": 5.567e-05,
-      "peak_price": 5.567e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-01T10:41:15.477955+00:00",
-      "score": 64,
-      "status": "open"
     }
   ],
   "closed": [
@@ -137286,6 +137256,46 @@
       "exit_price": 0.007752,
       "exit_pct": 50.47,
       "exit_time": "2026-09-01T10:32:57.529789+00:00"
+    },
+    {
+      "symbol": "ORBIO",
+      "chain": "robinhood",
+      "address": "0x8f4bE897Ce564215Be47602B3dC463e9003eB324",
+      "source": "new",
+      "entry_price": 0.0001255,
+      "peak_price": 0.0002101,
+      "trailing_active": true,
+      "entry_time": "2026-09-01T08:48:14.648672+00:00",
+      "score": 63,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 67.41,
+      "peak_volume_m5": 23560.84,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002101,
+      "exit_pct": 67.41,
+      "exit_time": "2026-09-01T10:42:54.115830+00:00"
+    },
+    {
+      "symbol": "QI",
+      "chain": "robinhood",
+      "address": "0xEc664a0669C75ab4337c176926881100BF495c01",
+      "source": "new",
+      "entry_price": 5.567e-05,
+      "peak_price": 5.567e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-01T10:41:15.477955+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.29,
+      "peak_volume_m5": 2902.01,
+      "milestones_hit": [],
+      "exit_price": 4.66e-05,
+      "exit_pct": -16.29,
+      "exit_time": "2026-09-01T10:42:55.175513+00:00"
     }
   ],
   "alerted": {
@@ -144239,6 +144249,8 @@
     "0x95Ece92CF7341E0a2499Dd8AbD6314539CCA4FeF": "2026-09-01T10:13:18.225895+00:00",
     "0x7A58Bb4e0D4C5f36113dfB7D00302A8e7D8E26de": "2026-09-01T10:29:08.370752+00:00",
     "0x8478c6dcbd741d6F696d95FC7417EDD633db3E65": "2026-09-01T10:32:56.662672+00:00",
-    "0x9Fe1A89c2B5A702dD2F5EB9F783A08e3d6Cec737": "2026-09-01T10:32:57.529789+00:00"
+    "0x9Fe1A89c2B5A702dD2F5EB9F783A08e3d6Cec737": "2026-09-01T10:32:57.529789+00:00",
+    "0x8f4bE897Ce564215Be47602B3dC463e9003eB324": "2026-09-01T10:42:54.115830+00:00",
+    "0xEc664a0669C75ab4337c176926881100BF495c01": "2026-09-01T10:42:55.175513+00:00"
   }
 }
