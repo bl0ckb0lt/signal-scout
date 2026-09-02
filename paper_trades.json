@@ -1,50 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "TMUNCH",
-      "chain": "robinhood",
-      "address": "0xc4F2c59F8423B6c4a9F7ef3A9d762C8cdd29e146",
-      "source": "new",
-      "entry_price": 8.88e-07,
-      "peak_price": 1.365e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T22:01:08.169574+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.72,
-      "peak_volume_m5": 13595.73,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "RURU",
-      "chain": "robinhood",
-      "address": "0x817516EC6441B1641378f648E770f6aA6d256901",
-      "source": "new",
-      "entry_price": 0.000111,
-      "peak_price": 0.000111,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T22:21:02.848442+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "BOOMER",
-      "chain": "robinhood",
-      "address": "0xC4C05fcC940537DE6c75723b1Fd3a4097f1E7442",
-      "source": "new",
-      "entry_price": 0.0003607,
-      "peak_price": 0.0003607,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T22:21:04.211904+00:00",
-      "score": 59,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -142258,6 +142215,65 @@
       "exit_price": 0.0008222,
       "exit_pct": -26.85,
       "exit_time": "2026-09-02T22:19:48.560934+00:00"
+    },
+    {
+      "symbol": "TMUNCH",
+      "chain": "robinhood",
+      "address": "0xc4F2c59F8423B6c4a9F7ef3A9d762C8cdd29e146",
+      "source": "new",
+      "entry_price": 8.88e-07,
+      "peak_price": 1.365e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T22:01:08.169574+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 45.38,
+      "peak_volume_m5": 15138.11,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 1.291e-06,
+      "exit_pct": 45.38,
+      "exit_time": "2026-09-02T22:21:58.119414+00:00"
+    },
+    {
+      "symbol": "RURU",
+      "chain": "robinhood",
+      "address": "0x817516EC6441B1641378f648E770f6aA6d256901",
+      "source": "new",
+      "entry_price": 0.000111,
+      "peak_price": 0.000111,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T22:21:02.848442+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.32,
+      "peak_volume_m5": 2257.88,
+      "milestones_hit": [],
+      "exit_price": 9.955e-05,
+      "exit_pct": -10.32,
+      "exit_time": "2026-09-02T22:21:58.933201+00:00"
+    },
+    {
+      "symbol": "BOOMER",
+      "chain": "robinhood",
+      "address": "0xC4C05fcC940537DE6c75723b1Fd3a4097f1E7442",
+      "source": "new",
+      "entry_price": 0.0003607,
+      "peak_price": 0.0003607,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T22:21:04.211904+00:00",
+      "score": 59,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.26,
+      "peak_volume_m5": 13403.91,
+      "milestones_hit": [],
+      "exit_price": 0.0003273,
+      "exit_pct": -9.26,
+      "exit_time": "2026-09-02T22:21:59.635118+00:00"
     }
   ],
   "alerted": {
@@ -149461,6 +149477,9 @@
     "0xBa64FF67c45166D5Cb5116157ae9F837B83DaB4f": "2026-09-02T21:22:52.795821+00:00",
     "0xad6629157a774007E46945bb1B6013C79e7656C9": "2026-09-02T21:58:14.255234+00:00",
     "0x6840051011D6f46545c98CB8558586586Ef6387e": "2026-09-02T22:12:13.493394+00:00",
-    "0x8815cbAE8777d042Ff5dFabc3f298fe5Fc58AD65": "2026-09-02T22:19:48.560934+00:00"
+    "0x8815cbAE8777d042Ff5dFabc3f298fe5Fc58AD65": "2026-09-02T22:19:48.560934+00:00",
+    "0xc4F2c59F8423B6c4a9F7ef3A9d762C8cdd29e146": "2026-09-02T22:21:58.119414+00:00",
+    "0x817516EC6441B1641378f648E770f6aA6d256901": "2026-09-02T22:21:58.933201+00:00",
+    "0xC4C05fcC940537DE6c75723b1Fd3a4097f1E7442": "2026-09-02T22:21:59.635118+00:00"
   }
 }
