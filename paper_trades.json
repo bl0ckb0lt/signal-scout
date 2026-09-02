@@ -8,46 +8,14 @@
       "address": "Fq17uNNQgwJG5szmaEheVrQXUnoZn1BuFiDKFACLpump",
       "source": "new",
       "entry_price": 0.0001543,
-      "peak_price": 0.0001753,
-      "trailing_active": false,
+      "peak_price": 0.0001908,
+      "trailing_active": true,
       "entry_time": "2026-09-02T15:41:08.225828+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.68,
+      "current_pct": 23.66,
       "peak_volume_m5": 83943.74,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SOLDOG",
-      "chain": "solana",
-      "address": "CZ5K6VYWk7BJxKy7QUn3nUo2jYrZ3hNMjdp9vYjcpump",
-      "source": "new",
-      "entry_price": 0.0001899,
-      "peak_price": 0.0002842,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T16:01:09.853850+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 49.66,
-      "peak_volume_m5": 121797.46,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HOPE",
-      "chain": "solana",
-      "address": "232BE9YxiJ1qHAJH8ymCojmX7BjePxKcitaJ6dqopump",
-      "source": "new",
-      "entry_price": 0.0001774,
-      "peak_price": 0.0001774,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T16:01:12.889577+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.82,
-      "peak_volume_m5": 62086.86,
       "milestones_hit": []
     },
     {
@@ -56,11 +24,15 @@
       "address": "4EVGGsR3X3CU6XUeKu6gXrFGwo5hEQgA1bzBoCGgpump",
       "source": "new",
       "entry_price": 0.0001428,
-      "peak_price": 0.0001428,
+      "peak_price": 0.0001453,
       "trailing_active": false,
       "entry_time": "2026-09-02T16:11:17.723720+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.75,
+      "peak_volume_m5": 34553.66,
+      "milestones_hit": []
     },
     {
       "symbol": "WOJAK",
@@ -68,11 +40,15 @@
       "address": "0x86d916F551b8E05240c1Eb14E65F733B6d181e18",
       "source": "new",
       "entry_price": 7.099e-05,
-      "peak_price": 7.099e-05,
+      "peak_price": 7.183e-05,
       "trailing_active": false,
       "entry_time": "2026-09-02T16:11:19.107406+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.18,
+      "peak_volume_m5": 1323.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -141442,6 +141418,44 @@
       "exit_price": 0.0003322,
       "exit_pct": -17.57,
       "exit_time": "2026-09-02T15:52:47.275858+00:00"
+    },
+    {
+      "symbol": "SOLDOG",
+      "chain": "solana",
+      "address": "CZ5K6VYWk7BJxKy7QUn3nUo2jYrZ3hNMjdp9vYjcpump",
+      "source": "new",
+      "entry_price": 0.0001899,
+      "peak_price": 0.0002842,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T16:01:09.853850+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 35.39,
+      "peak_volume_m5": 126341.97,
+      "milestones_hit": [],
+      "exit_price": 0.0002571,
+      "exit_pct": 35.39,
+      "exit_time": "2026-09-02T16:12:15.322090+00:00"
+    },
+    {
+      "symbol": "HOPE",
+      "chain": "solana",
+      "address": "232BE9YxiJ1qHAJH8ymCojmX7BjePxKcitaJ6dqopump",
+      "source": "new",
+      "entry_price": 0.0001774,
+      "peak_price": 0.0001774,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T16:01:12.889577+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.7,
+      "peak_volume_m5": 62086.86,
+      "milestones_hit": [],
+      "exit_price": 0.0001531,
+      "exit_pct": -13.7,
+      "exit_time": "2026-09-02T16:12:16.144206+00:00"
     }
   ],
   "alerted": {
@@ -148603,6 +148617,8 @@
     "0x5eee484b130872c3f8D71705267e638755aA82d1": "2026-09-02T15:24:11.963840+00:00",
     "0x47c2fcbb2ee2746c6caf81ba23f81087f633a50e": "2026-09-02T15:32:38.405762+00:00",
     "4qTuQFoCMQDJij6ZQZRHntC6sNMx9yHeyiG7GHngqHoY": "2026-09-02T15:42:24.662435+00:00",
-    "0x0E59C13D6B4082d26bB8a2A9C46f8De54cA2815b": "2026-09-02T15:45:14.824022+00:00"
+    "0x0E59C13D6B4082d26bB8a2A9C46f8De54cA2815b": "2026-09-02T15:45:14.824022+00:00",
+    "CZ5K6VYWk7BJxKy7QUn3nUo2jYrZ3hNMjdp9vYjcpump": "2026-09-02T16:12:15.322090+00:00",
+    "232BE9YxiJ1qHAJH8ymCojmX7BjePxKcitaJ6dqopump": "2026-09-02T16:12:16.144206+00:00"
   }
 }
