@@ -3,37 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GYATT",
-      "chain": "robinhood",
-      "address": "0x411f1f31fDe5742dE52A19b3648206D872A899b3",
-      "source": "boost",
-      "entry_price": 0.0002119,
-      "peak_price": 0.000216,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T17:51:04.558192+00:00",
-      "score": 74,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.93,
-      "peak_volume_m5": 9211.81,
-      "milestones_hit": []
-    },
-    {
       "symbol": "nuBTC",
       "chain": "robinhood",
       "address": "0x0CfEe38B217eB02DeE212674c9Af901073a23801",
       "source": "new",
       "entry_price": 9.852e-05,
-      "peak_price": 0.0001622,
+      "peak_price": 0.000217,
       "trailing_active": true,
       "entry_time": "2026-09-02T17:51:05.951059+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 64.64,
-      "peak_volume_m5": 47704.86,
+      "current_pct": 120.26,
+      "peak_volume_m5": 58575.19,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
     }
   ],
@@ -141727,6 +141712,25 @@
       "exit_price": 0.0001779,
       "exit_pct": -19.39,
       "exit_time": "2026-09-02T17:55:12.509772+00:00"
+    },
+    {
+      "symbol": "GYATT",
+      "chain": "robinhood",
+      "address": "0x411f1f31fDe5742dE52A19b3648206D872A899b3",
+      "source": "boost",
+      "entry_price": 0.0002119,
+      "peak_price": 0.000216,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T17:51:04.558192+00:00",
+      "score": 74,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.47,
+      "peak_volume_m5": 14011.79,
+      "milestones_hit": [],
+      "exit_price": 0.0001982,
+      "exit_pct": -6.47,
+      "exit_time": "2026-09-02T17:58:03.402560+00:00"
     }
   ],
   "alerted": {
@@ -148904,6 +148908,7 @@
     "0x1ae9075209f8B664c2387514a63068395d4d7E55": "2026-09-02T17:24:01.614813+00:00",
     "0x58e000543D7C09Dbbe0b1755a42f037BC44F77Aa": "2026-09-02T17:33:00.531910+00:00",
     "0x7e3AB1f99D6dD3B00C11a02fe3A632b27352d6B1": "2026-09-02T17:43:10.402139+00:00",
-    "0x8d8f709357203b4933Af3Ac410CC521C5680611f": "2026-09-02T17:55:12.509772+00:00"
+    "0x8d8f709357203b4933Af3Ac410CC521C5680611f": "2026-09-02T17:55:12.509772+00:00",
+    "0x411f1f31fDe5742dE52A19b3648206D872A899b3": "2026-09-02T17:58:03.402560+00:00"
   }
 }
