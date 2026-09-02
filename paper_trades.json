@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Trump69",
-      "chain": "solana",
-      "address": "ERRK7hxgLBmkMaEFprtLiQB6rHKvGBDN4Ayjg72Mpump",
-      "source": "new",
-      "entry_price": 0.0001766,
-      "peak_price": 0.0001766,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T14:51:09.501581+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "JINQIAN",
       "chain": "robinhood",
       "address": "0xD35BF82b1b324B46b566c49e0A9Cda8EF04556b8",
       "source": "new",
       "entry_price": 0.01039,
-      "peak_price": 0.01039,
-      "trailing_active": false,
+      "peak_price": 0.01482,
+      "trailing_active": true,
       "entry_time": "2026-09-02T14:51:11.017868+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 42.64,
+      "peak_volume_m5": 27312.24,
+      "milestones_hit": []
     },
     {
       "symbol": "DVDN",
@@ -32,11 +24,15 @@
       "address": "0xCf6dCCfE5C3F1DfA18928F5ab564b47fE4a80528",
       "source": "new",
       "entry_price": 1.024e-06,
-      "peak_price": 1.024e-06,
+      "peak_price": 1.029e-06,
       "trailing_active": false,
       "entry_time": "2026-09-02T14:51:14.188854+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.49,
+      "peak_volume_m5": 127.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -141211,6 +141207,25 @@
       "exit_price": 0.03971,
       "exit_pct": 9.73,
       "exit_time": "2026-09-02T14:49:54.829376+00:00"
+    },
+    {
+      "symbol": "Trump69",
+      "chain": "solana",
+      "address": "ERRK7hxgLBmkMaEFprtLiQB6rHKvGBDN4Ayjg72Mpump",
+      "source": "new",
+      "entry_price": 0.0001766,
+      "peak_price": 0.0001766,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T14:51:09.501581+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.24,
+      "peak_volume_m5": 124890.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001338,
+      "exit_pct": -24.24,
+      "exit_time": "2026-09-02T14:57:39.862227+00:00"
     }
   ],
   "alerted": {
@@ -148363,6 +148378,7 @@
     "0x3eC8A8174129D5cBeCef67eE2AF8621319c34c03": "2026-09-02T14:32:49.663837+00:00",
     "0x61A858B42E68A7c381baf0C9B4B75d3b560CA995": "2026-09-02T14:34:43.776992+00:00",
     "0x68d12022732663576BD4f311900E23d22Ccc7777": "2026-09-02T14:36:00.711647+00:00",
-    "0xe81880c1C5054245e036359f5c7be31606E79F56": "2026-09-02T14:49:54.829376+00:00"
+    "0xe81880c1C5054245e036359f5c7be31606E79F56": "2026-09-02T14:49:54.829376+00:00",
+    "ERRK7hxgLBmkMaEFprtLiQB6rHKvGBDN4Ayjg72Mpump": "2026-09-02T14:57:39.862227+00:00"
   }
 }
