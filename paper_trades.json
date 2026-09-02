@@ -24,27 +24,15 @@
       "address": "0xE766b582fb90511C923bB28f1C9574170bcb2ac4",
       "source": "new",
       "entry_price": 0.0002159,
-      "peak_price": 0.0002284,
-      "trailing_active": false,
+      "peak_price": 0.0002882,
+      "trailing_active": true,
       "entry_time": "2026-09-02T09:01:09.285116+00:00",
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.79,
-      "peak_volume_m5": 30017.19,
+      "current_pct": 33.49,
+      "peak_volume_m5": 40352.66,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Biu",
-      "chain": "solana",
-      "address": "4rxNSU5BynixWPZvN3Nprvm4fdomjRSQynFb5XvQpump",
-      "source": "new",
-      "entry_price": 0.0001358,
-      "peak_price": 0.0001358,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T09:11:11.486521+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -140595,6 +140583,25 @@
       "exit_price": 0.0003694,
       "exit_pct": -26.03,
       "exit_time": "2026-09-02T08:47:12.897245+00:00"
+    },
+    {
+      "symbol": "Biu",
+      "chain": "solana",
+      "address": "4rxNSU5BynixWPZvN3Nprvm4fdomjRSQynFb5XvQpump",
+      "source": "new",
+      "entry_price": 0.0001358,
+      "peak_price": 0.0001358,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T09:11:11.486521+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.92,
+      "peak_volume_m5": 2346.1,
+      "milestones_hit": [],
+      "exit_price": 0.0001169,
+      "exit_pct": -13.92,
+      "exit_time": "2026-09-02T09:13:57.566771+00:00"
     }
   ],
   "alerted": {
@@ -147715,6 +147722,7 @@
     "0x000b2164a76560323163343431Db8bE550F164B8": "2026-09-02T08:12:13.080471+00:00",
     "0x27a8d57aba55dfe0212f1e4a89b09ac89c4fb648": "2026-09-02T08:45:16.898444+00:00",
     "0xdD03bf5B62Ce42Ec7edBDFe53a43d5Bf24983F55": "2026-09-02T08:46:12.545634+00:00",
-    "0x222497f4Fe11a589EeD094fbE93DD80c79C6EF56": "2026-09-02T08:47:12.897245+00:00"
+    "0x222497f4Fe11a589EeD094fbE93DD80c79C6EF56": "2026-09-02T08:47:12.897245+00:00",
+    "4rxNSU5BynixWPZvN3Nprvm4fdomjRSQynFb5XvQpump": "2026-09-02T09:13:57.566771+00:00"
   }
 }
