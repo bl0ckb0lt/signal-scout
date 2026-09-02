@@ -24,23 +24,15 @@
       "address": "0x4e7F402056b380d041A63789Dcac3611c0b432EF",
       "source": "new",
       "entry_price": 0.0001474,
-      "peak_price": 0.0001474,
-      "trailing_active": false,
+      "peak_price": 0.0001866,
+      "trailing_active": true,
       "entry_time": "2026-09-02T01:01:08.020992+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "DEBTCOIN",
-      "chain": "robinhood",
-      "address": "0x55D9bC094C032cE0F4c57Cb09e6AB8F225531E18",
-      "source": "new",
-      "entry_price": 0.0007367,
-      "peak_price": 0.0007367,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T01:01:09.557643+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.59,
+      "peak_volume_m5": 67545.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -139521,6 +139513,25 @@
       "exit_price": 7.704e-05,
       "exit_pct": -12.72,
       "exit_time": "2026-09-02T00:41:56.032209+00:00"
+    },
+    {
+      "symbol": "DEBTCOIN",
+      "chain": "robinhood",
+      "address": "0x55D9bC094C032cE0F4c57Cb09e6AB8F225531E18",
+      "source": "new",
+      "entry_price": 0.0007367,
+      "peak_price": 0.0007367,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T01:01:09.557643+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.38,
+      "peak_volume_m5": 163941.07,
+      "milestones_hit": [],
+      "exit_price": 0.0006897,
+      "exit_pct": -6.38,
+      "exit_time": "2026-09-02T01:06:30.618694+00:00"
     }
   ],
   "alerted": {
@@ -146587,6 +146598,7 @@
     "0x7ccc7e87ca902ab764cf359edef0fb0386221e18": "2026-09-02T00:06:52.349618+00:00",
     "0x1E5dDd3Bd0BA70eC9401e02C902822fCc7d178d7": "2026-09-02T00:22:21.385377+00:00",
     "0xC11023b79bB3d29354fc3b3a5a184066199e1E18": "2026-09-02T00:40:55.699301+00:00",
-    "0x57886902f922dC39aF881DccAF632C1969c7Ca01": "2026-09-02T00:41:56.032209+00:00"
+    "0x57886902f922dC39aF881DccAF632C1969c7Ca01": "2026-09-02T00:41:56.032209+00:00",
+    "0x55D9bC094C032cE0F4c57Cb09e6AB8F225531E18": "2026-09-02T01:06:30.618694+00:00"
   }
 }
