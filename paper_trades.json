@@ -1,27 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "nuBTC",
-      "chain": "robinhood",
-      "address": "0x0CfEe38B217eB02DeE212674c9Af901073a23801",
-      "source": "new",
-      "entry_price": 9.852e-05,
-      "peak_price": 0.000217,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T17:51:05.951059+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 120.26,
-      "peak_volume_m5": 58575.19,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -141731,6 +141711,29 @@
       "exit_price": 0.0001982,
       "exit_pct": -6.47,
       "exit_time": "2026-09-02T17:58:03.402560+00:00"
+    },
+    {
+      "symbol": "nuBTC",
+      "chain": "robinhood",
+      "address": "0x0CfEe38B217eB02DeE212674c9Af901073a23801",
+      "source": "new",
+      "entry_price": 9.852e-05,
+      "peak_price": 0.0003686,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T17:51:05.951059+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 274.14,
+      "peak_volume_m5": 118711.76,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003686,
+      "exit_pct": 274.14,
+      "exit_time": "2026-09-02T18:00:59.543741+00:00"
     }
   ],
   "alerted": {
@@ -148909,6 +148912,7 @@
     "0x58e000543D7C09Dbbe0b1755a42f037BC44F77Aa": "2026-09-02T17:33:00.531910+00:00",
     "0x7e3AB1f99D6dD3B00C11a02fe3A632b27352d6B1": "2026-09-02T17:43:10.402139+00:00",
     "0x8d8f709357203b4933Af3Ac410CC521C5680611f": "2026-09-02T17:55:12.509772+00:00",
-    "0x411f1f31fDe5742dE52A19b3648206D872A899b3": "2026-09-02T17:58:03.402560+00:00"
+    "0x411f1f31fDe5742dE52A19b3648206D872A899b3": "2026-09-02T17:58:03.402560+00:00",
+    "0x0CfEe38B217eB02DeE212674c9Af901073a23801": "2026-09-02T18:00:59.543741+00:00"
   }
 }
