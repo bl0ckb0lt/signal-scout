@@ -8,27 +8,15 @@
       "address": "0x7A83081c0A437d3Ff9b867873C43BAC3E4573c40",
       "source": "new",
       "entry_price": 9.491e-07,
-      "peak_price": 1.066e-06,
-      "trailing_active": false,
+      "peak_price": 1.25e-06,
+      "trailing_active": true,
       "entry_time": "2026-09-02T20:11:05.184533+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.32,
+      "current_pct": 31.7,
       "peak_volume_m5": 7100.46,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HOTDOG",
-      "chain": "robinhood",
-      "address": "0x1c1daef0300551adbfbe403e7d567b6c5aff566f",
-      "source": "new",
-      "entry_price": 0.00035,
-      "peak_price": 0.00035,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T20:21:07.775846+00:00",
-      "score": 71,
-      "status": "open"
     }
   ],
   "closed": [
@@ -142052,6 +142040,25 @@
       "exit_price": 0.0001577,
       "exit_pct": -17.09,
       "exit_time": "2026-09-02T19:53:07.822420+00:00"
+    },
+    {
+      "symbol": "HOTDOG",
+      "chain": "robinhood",
+      "address": "0x1c1daef0300551adbfbe403e7d567b6c5aff566f",
+      "source": "new",
+      "entry_price": 0.00035,
+      "peak_price": 0.00035,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T20:21:07.775846+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.26,
+      "peak_volume_m5": 160770.54,
+      "milestones_hit": [],
+      "exit_price": 0.0003001,
+      "exit_pct": -14.26,
+      "exit_time": "2026-09-02T20:30:27.948337+00:00"
     }
   ],
   "alerted": {
@@ -149245,6 +149252,7 @@
     "8yn9BwwDUvb8fCozrtza5bEgiGLFdpwtLJKXt2sHpump": "2026-09-02T19:32:32.967037+00:00",
     "0x0c17271Fa472eeEFcbb4f55cD1Ed6Cf320989001": "2026-09-02T19:32:33.768252+00:00",
     "0xdc590455b4C1C2452012414e9bd219DaC4269498": "2026-09-02T19:35:19.832452+00:00",
-    "FSvjwqWJoYCcRp2gvATGjSVzPQxNkRr4MNKzrdKupump": "2026-09-02T19:53:07.822420+00:00"
+    "FSvjwqWJoYCcRp2gvATGjSVzPQxNkRr4MNKzrdKupump": "2026-09-02T19:53:07.822420+00:00",
+    "0x1c1daef0300551adbfbe403e7d567b6c5aff566f": "2026-09-02T20:30:27.948337+00:00"
   }
 }
