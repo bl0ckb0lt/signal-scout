@@ -14,21 +14,9 @@
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 15.36,
+      "current_pct": 15.77,
       "peak_volume_m5": 2822.9,
       "milestones_hit": []
-    },
-    {
-      "symbol": "STRATTON",
-      "chain": "robinhood",
-      "address": "0xb7eaeCc89d3e2f9Fd597D61726aE824900dB8360",
-      "source": "new",
-      "entry_price": 0.001794,
-      "peak_price": 0.001794,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T17:01:12.008534+00:00",
-      "score": 87,
-      "status": "open"
     },
     {
       "symbol": "TRUMP STRAIT",
@@ -36,11 +24,15 @@
       "address": "0xbbde8eeE61578c9BCD69bcd41d5CC57b702f06EF",
       "source": "new",
       "entry_price": 0.0001614,
-      "peak_price": 0.0001614,
-      "trailing_active": false,
+      "peak_price": 0.0002097,
+      "trailing_active": true,
       "entry_time": "2026-09-02T17:01:13.471483+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.93,
+      "peak_volume_m5": 14314.7,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -141562,6 +141554,25 @@
       "exit_price": 0.0002349,
       "exit_pct": 7.41,
       "exit_time": "2026-09-02T16:39:41.142956+00:00"
+    },
+    {
+      "symbol": "STRATTON",
+      "chain": "robinhood",
+      "address": "0xb7eaeCc89d3e2f9Fd597D61726aE824900dB8360",
+      "source": "new",
+      "entry_price": 0.001794,
+      "peak_price": 0.001794,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T17:01:12.008534+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.44,
+      "peak_volume_m5": 111927.23,
+      "milestones_hit": [],
+      "exit_price": 0.001535,
+      "exit_pct": -14.44,
+      "exit_time": "2026-09-02T17:05:57.890145+00:00"
     }
   ],
   "alerted": {
@@ -148731,6 +148742,7 @@
     "0x868dd20Cb5fCC0f515C473E1EA051df999542E05": "2026-09-02T16:22:49.548743+00:00",
     "0x86d916F551b8E05240c1Eb14E65F733B6d181e18": "2026-09-02T16:26:32.423842+00:00",
     "0x52156A1AdD6c9EF022c2558a9114618E3E976B9C": "2026-09-02T16:35:54.800478+00:00",
-    "DGxNfqdqQLxCdrNZrbcA9AutX2cobj7Nx4dpJmDVpump": "2026-09-02T16:39:41.142956+00:00"
+    "DGxNfqdqQLxCdrNZrbcA9AutX2cobj7Nx4dpJmDVpump": "2026-09-02T16:39:41.142956+00:00",
+    "0xb7eaeCc89d3e2f9Fd597D61726aE824900dB8360": "2026-09-02T17:05:57.890145+00:00"
   }
 }
