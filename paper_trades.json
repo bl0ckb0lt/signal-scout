@@ -13,7 +13,7 @@
       "entry_time": "2026-09-01T11:31:05.470894+00:00",
       "score": 73,
       "status": "open",
-      "api_failures": 9,
+      "api_failures": 10,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -30,27 +30,11 @@
       "score": 75,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 60.5,
+      "current_pct": 56.17,
       "peak_volume_m5": 238173.63,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "Robin",
-      "chain": "robinhood",
-      "address": "0x56f32877a3C9358CeF284dFBF86BC78E9b5867d9",
-      "source": "new",
-      "entry_price": 9.882e-05,
-      "peak_price": 0.0001209,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T12:01:11.336156+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 22.34,
-      "peak_volume_m5": 17110.4,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -140869,6 +140853,25 @@
       "exit_price": 0.0002877,
       "exit_pct": -12.79,
       "exit_time": "2026-09-02T12:07:07.459571+00:00"
+    },
+    {
+      "symbol": "Robin",
+      "chain": "robinhood",
+      "address": "0x56f32877a3C9358CeF284dFBF86BC78E9b5867d9",
+      "source": "new",
+      "entry_price": 9.882e-05,
+      "peak_price": 0.0001209,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T12:01:11.336156+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -0.07,
+      "peak_volume_m5": 17110.4,
+      "milestones_hit": [],
+      "exit_price": 9.875e-05,
+      "exit_pct": -0.07,
+      "exit_time": "2026-09-02T12:08:16.760707+00:00"
     }
   ],
   "alerted": {
@@ -148003,6 +148006,7 @@
     "0x70358Cfe29ddb5d2d5cC956C7Db78694cCc52Cd5": "2026-09-02T11:51:53.992144+00:00",
     "0xAE0c4d5014E0DDfD1f9Cbe5acf814C62a84D8aD8": "2026-09-02T11:52:50.035474+00:00",
     "0x6Fa64b3b0fA9455b76fA25c0C3bD3aE1507Ad946": "2026-09-02T11:53:53.514074+00:00",
-    "5EHz51kdjgqmq7SH287DihsKZ2GkjziWLUpfpdrVpump": "2026-09-02T12:07:07.459571+00:00"
+    "5EHz51kdjgqmq7SH287DihsKZ2GkjziWLUpfpdrVpump": "2026-09-02T12:07:07.459571+00:00",
+    "0x56f32877a3C9358CeF284dFBF86BC78E9b5867d9": "2026-09-02T12:08:16.760707+00:00"
   }
 }
