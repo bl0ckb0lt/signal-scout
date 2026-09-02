@@ -8,52 +8,18 @@
       "address": "0x68d12022732663576BD4f311900E23d22Ccc7777",
       "source": "new",
       "entry_price": 2.576e-05,
-      "peak_price": 5.743e-05,
+      "peak_price": 5.948e-05,
       "trailing_active": true,
       "entry_time": "2026-09-02T13:31:00.265827+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 122.94,
+      "current_pct": 130.9,
       "peak_volume_m5": 5977.83,
       "milestones_hit": [
         50,
         100
       ]
-    },
-    {
-      "symbol": "MOGGY",
-      "chain": "solana",
-      "address": "7GiHstJv9zMvBeaFu85SXRmuaoSLYfjvruRbpqMvpump",
-      "source": "boost",
-      "entry_price": 0.0001317,
-      "peak_price": 0.0002184,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T13:51:06.696140+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 65.83,
-      "peak_volume_m5": 24381.61,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "DOGE-1",
-      "chain": "robinhood",
-      "address": "0x3eC8A8174129D5cBeCef67eE2AF8621319c34c03",
-      "source": "new",
-      "entry_price": 0.0001581,
-      "peak_price": 0.0001587,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T14:21:14.537080+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.38,
-      "peak_volume_m5": 3325.76,
-      "milestones_hit": []
     },
     {
       "symbol": "pippo",
@@ -65,7 +31,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-02T14:31:10.450355+00:00",
       "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.95,
+      "peak_volume_m5": 27720.42,
+      "milestones_hit": []
     },
     {
       "symbol": "JINQIAN",
@@ -77,7 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-02T14:31:13.762860+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.49,
+      "peak_volume_m5": 2150555.79,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -141152,6 +141126,46 @@
       "exit_price": 9.301e-05,
       "exit_pct": -15.29,
       "exit_time": "2026-09-02T13:58:37.558903+00:00"
+    },
+    {
+      "symbol": "MOGGY",
+      "chain": "solana",
+      "address": "7GiHstJv9zMvBeaFu85SXRmuaoSLYfjvruRbpqMvpump",
+      "source": "boost",
+      "entry_price": 0.0001317,
+      "peak_price": 0.0002184,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T13:51:06.696140+00:00",
+      "score": 86,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 57.18,
+      "peak_volume_m5": 24381.61,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000207,
+      "exit_pct": 57.18,
+      "exit_time": "2026-09-02T14:32:48.866255+00:00"
+    },
+    {
+      "symbol": "DOGE-1",
+      "chain": "robinhood",
+      "address": "0x3eC8A8174129D5cBeCef67eE2AF8621319c34c03",
+      "source": "new",
+      "entry_price": 0.0001581,
+      "peak_price": 0.0001587,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T14:21:14.537080+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.2,
+      "peak_volume_m5": 3325.76,
+      "milestones_hit": [],
+      "exit_price": 0.0001483,
+      "exit_pct": -6.2,
+      "exit_time": "2026-09-02T14:32:49.663837+00:00"
     }
   ],
   "alerted": {
@@ -148299,6 +148313,8 @@
     "9En6cypnSdGc6cLPxAP2u1cP6FbU9WfC8jEUCLqopump": "2026-09-02T13:36:09.409293+00:00",
     "0x75829c5A2635F8D34576d0a77233F55fC1aB37Cb": "2026-09-02T13:54:00.572862+00:00",
     "0x2878B01C6Aa7099Ed88DdB4D2951F1c887037777": "2026-09-02T13:56:25.415262+00:00",
-    "0x91019D61833bF97CA757341A7917Eeab7B60d0db": "2026-09-02T13:58:37.558903+00:00"
+    "0x91019D61833bF97CA757341A7917Eeab7B60d0db": "2026-09-02T13:58:37.558903+00:00",
+    "7GiHstJv9zMvBeaFu85SXRmuaoSLYfjvruRbpqMvpump": "2026-09-02T14:32:48.866255+00:00",
+    "0x3eC8A8174129D5cBeCef67eE2AF8621319c34c03": "2026-09-02T14:32:49.663837+00:00"
   }
 }
