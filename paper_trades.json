@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "APU",
-      "chain": "robinhood",
-      "address": "0xC11023b79bB3d29354fc3b3a5a184066199e1E18",
-      "source": "new",
-      "entry_price": 5.545e-05,
-      "peak_price": 7.305e-05,
-      "trailing_active": true,
-      "entry_time": "2026-09-02T00:31:10.524674+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 31.74,
-      "peak_volume_m5": 5610.77,
-      "milestones_hit": []
-    },
-    {
       "symbol": "SELFIE",
       "chain": "robinhood",
       "address": "0x57886902f922dC39aF881DccAF632C1969c7Ca01",
@@ -44,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-02T00:38:59.331442+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.88,
+      "peak_volume_m5": 7783.71,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -139487,6 +139475,25 @@
       "exit_price": 4.263e-05,
       "exit_pct": -10.61,
       "exit_time": "2026-09-02T00:22:21.385377+00:00"
+    },
+    {
+      "symbol": "APU",
+      "chain": "robinhood",
+      "address": "0xC11023b79bB3d29354fc3b3a5a184066199e1E18",
+      "source": "new",
+      "entry_price": 5.545e-05,
+      "peak_price": 7.305e-05,
+      "trailing_active": true,
+      "entry_time": "2026-09-02T00:31:10.524674+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 21.82,
+      "peak_volume_m5": 5610.77,
+      "milestones_hit": [],
+      "exit_price": 6.755e-05,
+      "exit_pct": 21.82,
+      "exit_time": "2026-09-02T00:40:55.699301+00:00"
     }
   ],
   "alerted": {
@@ -146551,6 +146558,7 @@
     "0x57C09A6E007db9BaE23Ec4213f490033a7299e5E": "2026-09-01T23:56:52.980541+00:00",
     "0x1731b892C7FbC7784Dc0116D2741C6e42E4F68Fa": "2026-09-02T00:03:55.410275+00:00",
     "0x7ccc7e87ca902ab764cf359edef0fb0386221e18": "2026-09-02T00:06:52.349618+00:00",
-    "0x1E5dDd3Bd0BA70eC9401e02C902822fCc7d178d7": "2026-09-02T00:22:21.385377+00:00"
+    "0x1E5dDd3Bd0BA70eC9401e02C902822fCc7d178d7": "2026-09-02T00:22:21.385377+00:00",
+    "0xC11023b79bB3d29354fc3b3a5a184066199e1E18": "2026-09-02T00:40:55.699301+00:00"
   }
 }
