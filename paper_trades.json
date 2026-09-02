@@ -30,7 +30,7 @@
       "score": 79,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.99,
+      "current_pct": 5.81,
       "peak_volume_m5": 48706.26,
       "milestones_hit": []
     },
@@ -40,23 +40,15 @@
       "address": "0x222497f4Fe11a589EeD094fbE93DD80c79C6EF56",
       "source": "new",
       "entry_price": 0.0004994,
-      "peak_price": 0.0004994,
-      "trailing_active": false,
+      "peak_price": 0.0006563,
+      "trailing_active": true,
       "entry_time": "2026-09-02T08:41:10.346200+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "FROGE",
-      "chain": "robinhood",
-      "address": "0x27a8d57aba55dfe0212f1e4a89b09ac89c4fb648",
-      "source": "new",
-      "entry_price": 0.0001055,
-      "peak_price": 0.0001055,
-      "trailing_active": false,
-      "entry_time": "2026-09-02T08:41:13.010748+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.42,
+      "peak_volume_m5": 98717.23,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -140550,6 +140542,25 @@
       "exit_price": 0.0004091,
       "exit_pct": 137.3,
       "exit_time": "2026-09-02T08:12:13.080471+00:00"
+    },
+    {
+      "symbol": "FROGE",
+      "chain": "robinhood",
+      "address": "0x27a8d57aba55dfe0212f1e4a89b09ac89c4fb648",
+      "source": "new",
+      "entry_price": 0.0001055,
+      "peak_price": 0.0001055,
+      "trailing_active": false,
+      "entry_time": "2026-09-02T08:41:13.010748+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.77,
+      "peak_volume_m5": 49296.43,
+      "milestones_hit": [],
+      "exit_price": 8.675e-05,
+      "exit_pct": -17.77,
+      "exit_time": "2026-09-02T08:45:16.898444+00:00"
     }
   ],
   "alerted": {
@@ -147667,6 +147678,7 @@
     "0xB5E6168157E645134457381C51adc32a84053e21": "2026-09-02T07:42:45.704394+00:00",
     "3buLhmc5HxpFZoKRhgdGMp3dvAworwzGiBKiQbo7pump": "2026-09-02T07:45:41.674030+00:00",
     "BEy3GeKMC3J9dr2eabXYTUuD37YGiSnwWFq13hSgpump": "2026-09-02T07:55:57.805274+00:00",
-    "0x000b2164a76560323163343431Db8bE550F164B8": "2026-09-02T08:12:13.080471+00:00"
+    "0x000b2164a76560323163343431Db8bE550F164B8": "2026-09-02T08:12:13.080471+00:00",
+    "0x27a8d57aba55dfe0212f1e4a89b09ac89c4fb648": "2026-09-02T08:45:16.898444+00:00"
   }
 }
