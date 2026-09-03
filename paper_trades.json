@@ -8,23 +8,15 @@
       "address": "0x6f84cB91DaBFFc7cAeA1838b9F9da97433b9a75b",
       "source": "new",
       "entry_price": 0.0004006,
-      "peak_price": 0.0004006,
-      "trailing_active": false,
+      "peak_price": 0.0005421,
+      "trailing_active": true,
       "entry_time": "2026-09-03T03:51:06.486582+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "PERV",
-      "chain": "robinhood",
-      "address": "0x9B51c3a7Bc18f084a6B89506F5ca1DE653E71E18",
-      "source": "new",
-      "entry_price": 6.707e-05,
-      "peak_price": 6.707e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T03:51:09.384378+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.32,
+      "peak_volume_m5": 18908.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -143159,6 +143151,25 @@
       "exit_price": 0.0008141,
       "exit_pct": 59.88,
       "exit_time": "2026-09-03T03:34:33.755133+00:00"
+    },
+    {
+      "symbol": "PERV",
+      "chain": "robinhood",
+      "address": "0x9B51c3a7Bc18f084a6B89506F5ca1DE653E71E18",
+      "source": "new",
+      "entry_price": 6.707e-05,
+      "peak_price": 6.707e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T03:51:09.384378+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.34,
+      "peak_volume_m5": 17.12,
+      "milestones_hit": [],
+      "exit_price": 6.282e-05,
+      "exit_pct": -6.34,
+      "exit_time": "2026-09-03T03:56:28.475491+00:00"
     }
   ],
   "alerted": {
@@ -150408,6 +150419,7 @@
     "0x8de9e06ef337615566afd9f722836e3ee0f9748e": "2026-09-03T03:02:41.215034+00:00",
     "0xc1a017EA82b79f2f5314CA931784b48D847001F8": "2026-09-03T03:05:59.906954+00:00",
     "0xF8b22322E2b3DEe225D173a36B7Bc421D7d9B0e3": "2026-09-03T03:32:42.936942+00:00",
-    "0x8a3bd7f2ef7b5d2d2a0f6bef8b9baaad5a592b63": "2026-09-03T03:34:33.755133+00:00"
+    "0x8a3bd7f2ef7b5d2d2a0f6bef8b9baaad5a592b63": "2026-09-03T03:34:33.755133+00:00",
+    "0x9B51c3a7Bc18f084a6B89506F5ca1DE653E71E18": "2026-09-03T03:56:28.475491+00:00"
   }
 }
