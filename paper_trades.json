@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "UNICORN",
-      "chain": "robinhood",
-      "address": "0x1345330E2f656a337A73236619da5B1fE3057368",
-      "source": "boost",
-      "entry_price": 0.0001088,
-      "peak_price": 0.0001088,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T06:01:03.865289+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "HIERO",
       "chain": "solana",
       "address": "C1JVw9Eecb13VRiVyV4QpXFpQNaJjmXWAXoFaGynpump",
       "source": "boost",
       "entry_price": 8.272e-05,
-      "peak_price": 8.272e-05,
+      "peak_price": 9.103e-05,
       "trailing_active": false,
       "entry_time": "2026-09-03T06:01:05.668589+00:00",
       "score": 89,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.05,
+      "peak_volume_m5": 2799.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -143446,6 +143438,25 @@
       "exit_price": 3.307e-05,
       "exit_pct": -47.11,
       "exit_time": "2026-09-03T05:53:39.983707+00:00"
+    },
+    {
+      "symbol": "UNICORN",
+      "chain": "robinhood",
+      "address": "0x1345330E2f656a337A73236619da5B1fE3057368",
+      "source": "boost",
+      "entry_price": 0.0001088,
+      "peak_price": 0.0001088,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T06:01:03.865289+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.9,
+      "peak_volume_m5": 29165.25,
+      "milestones_hit": [],
+      "exit_price": 9.368e-05,
+      "exit_pct": -13.9,
+      "exit_time": "2026-09-03T06:10:00.074778+00:00"
     }
   ],
   "alerted": {
@@ -150710,6 +150721,7 @@
     "96uv7R25f4vnyoiCFYJPozze9gyJJf5u3wRHRbEEpump": "2026-09-03T05:42:14.607770+00:00",
     "0xa20c2265B105B3763a527F38b704586a31bef459": "2026-09-03T05:42:15.802045+00:00",
     "0x9B7a8126Cc5768D665F7fd2bD416eFEE93eB7777": "2026-09-03T05:52:41.240541+00:00",
-    "0x47d66F477ef44aeb4455C8ffc50076B78BBF40bc": "2026-09-03T05:53:39.983707+00:00"
+    "0x47d66F477ef44aeb4455C8ffc50076B78BBF40bc": "2026-09-03T05:53:39.983707+00:00",
+    "0x1345330E2f656a337A73236619da5B1fE3057368": "2026-09-03T06:10:00.074778+00:00"
   }
 }
