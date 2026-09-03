@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PUMP",
-      "chain": "robinhood",
-      "address": "0x357792cb797c66f81C723b962e6198EeE3Ea4801",
-      "source": "new",
-      "entry_price": 6.329e-05,
-      "peak_price": 6.329e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T02:41:04.900641+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "RRINDEX",
       "chain": "robinhood",
       "address": "0xA0B699d31A72925f5f555B63D85c8C0e2cB51E18",
       "source": "new",
       "entry_price": 0.0002272,
-      "peak_price": 0.0002272,
-      "trailing_active": false,
+      "peak_price": 0.0003049,
+      "trailing_active": true,
       "entry_time": "2026-09-03T02:41:06.251687+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 34.2,
+      "peak_volume_m5": 20089.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -143003,6 +142995,25 @@
       "exit_price": 7.088e-05,
       "exit_pct": -6.42,
       "exit_time": "2026-09-03T02:37:16.421144+00:00"
+    },
+    {
+      "symbol": "PUMP",
+      "chain": "robinhood",
+      "address": "0x357792cb797c66f81C723b962e6198EeE3Ea4801",
+      "source": "new",
+      "entry_price": 6.329e-05,
+      "peak_price": 6.329e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T02:41:04.900641+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -58.6,
+      "peak_volume_m5": 11357.89,
+      "milestones_hit": [],
+      "exit_price": 2.62e-05,
+      "exit_pct": -58.6,
+      "exit_time": "2026-09-03T02:45:25.175837+00:00"
     }
   ],
   "alerted": {
@@ -150244,6 +150255,7 @@
     "0xeC7EB6c35628a5a7101AD657A9C2AE75d860C5eD": "2026-09-03T02:32:38.238241+00:00",
     "4h5d9ejz8QSfzhAAVMLU5s9uFNzv3xmK6UuZK2PDpump": "2026-09-03T02:33:41.235962+00:00",
     "0xfa3eb0a0be1b002f3ab41bbd67ae9f7eb26b578a": "2026-09-03T02:34:42.853624+00:00",
-    "0x143A7Be833609803bA3E76116B43f017F5E31e18": "2026-09-03T02:37:16.421144+00:00"
+    "0x143A7Be833609803bA3E76116B43f017F5E31e18": "2026-09-03T02:37:16.421144+00:00",
+    "0x357792cb797c66f81C723b962e6198EeE3Ea4801": "2026-09-03T02:45:25.175837+00:00"
   }
 }
