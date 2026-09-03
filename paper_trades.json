@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-03T20:11:12.242019+00:00",
       "score": 86,
-      "status": "open"
-    },
-    {
-      "symbol": "FOMO",
-      "chain": "solana",
-      "address": "GtPuLjZUvEyrTXZzNAUQWBNVcgf3YNCgJDKZ7kippump",
-      "source": "new",
-      "entry_price": 0.0004977,
-      "peak_price": 0.0004977,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T20:11:13.849739+00:00",
-      "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.41,
+      "peak_volume_m5": 105178.37,
+      "milestones_hit": []
     },
     {
       "symbol": "SHERWOOD",
@@ -32,23 +24,15 @@
       "address": "0xbE54596a4E5004eF80f57EaAE9c7eEe6B7646EbB",
       "source": "new",
       "entry_price": 0.002435,
-      "peak_price": 0.002435,
+      "peak_price": 0.002484,
       "trailing_active": false,
       "entry_time": "2026-09-03T20:11:15.289812+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "ABTC",
-      "chain": "bsc",
-      "address": "0x0203770b19d52B5036BA73d51cA3DE4506367777",
-      "source": "new",
-      "entry_price": 0.0001442,
-      "peak_price": 0.0001442,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T20:11:18.575674+00:00",
-      "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.01,
+      "peak_volume_m5": 100724.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -145595,6 +145579,44 @@
       "exit_price": 0.0002686,
       "exit_pct": 1.09,
       "exit_time": "2026-09-03T20:03:08.626223+00:00"
+    },
+    {
+      "symbol": "FOMO",
+      "chain": "solana",
+      "address": "GtPuLjZUvEyrTXZzNAUQWBNVcgf3YNCgJDKZ7kippump",
+      "source": "new",
+      "entry_price": 0.0004977,
+      "peak_price": 0.0004977,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T20:11:13.849739+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.83,
+      "peak_volume_m5": 1230135.35,
+      "milestones_hit": [],
+      "exit_price": 0.0003542,
+      "exit_pct": -28.83,
+      "exit_time": "2026-09-03T20:12:10.054664+00:00"
+    },
+    {
+      "symbol": "ABTC",
+      "chain": "bsc",
+      "address": "0x0203770b19d52B5036BA73d51cA3DE4506367777",
+      "source": "new",
+      "entry_price": 0.0001442,
+      "peak_price": 0.0001442,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T20:11:18.575674+00:00",
+      "score": 59,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.11,
+      "peak_volume_m5": 41814.47,
+      "milestones_hit": [],
+      "exit_price": 0.0001152,
+      "exit_pct": -20.11,
+      "exit_time": "2026-09-03T20:12:11.264846+00:00"
     }
   ],
   "alerted": {
@@ -152965,6 +152987,8 @@
     "228tbyCzYJAmD6dNichr5GAPfPw9JNKsLux2n4h8V5U5": "2026-09-03T19:59:58.123707+00:00",
     "0xEf1c4ba3070565d5c88c0849a749B5ECE9721e18": "2026-09-03T20:01:04.468491+00:00",
     "0x8C6Ef7f9Fffa46Bb685ee82af7497D841541018d": "2026-09-03T20:01:06.222453+00:00",
-    "0xBB0a14B28db546E6309A86c4E829f04D51d11fd1": "2026-09-03T20:03:08.626223+00:00"
+    "0xBB0a14B28db546E6309A86c4E829f04D51d11fd1": "2026-09-03T20:03:08.626223+00:00",
+    "GtPuLjZUvEyrTXZzNAUQWBNVcgf3YNCgJDKZ7kippump": "2026-09-03T20:12:10.054664+00:00",
+    "0x0203770b19d52B5036BA73d51cA3DE4506367777": "2026-09-03T20:12:11.264846+00:00"
   }
 }
