@@ -8,14 +8,14 @@
       "address": "0x89baF66f3C98b07CEF3D4f9e91da5956acA6252D",
       "source": "new",
       "entry_price": 0.0002262,
-      "peak_price": 0.0004681,
+      "peak_price": 0.0006524,
       "trailing_active": true,
       "entry_time": "2026-09-03T06:21:10.095486+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 106.94,
-      "peak_volume_m5": 70372.03,
+      "current_pct": 188.42,
+      "peak_volume_m5": 81931.63,
       "milestones_hit": [
         50,
         100
@@ -24,26 +24,20 @@
     {
       "symbol": "GBC",
       "chain": "robinhood",
-      "address": "0x0587e805aBf2F5f152ED775CE100b0159F626e5f",
-      "source": "new",
-      "entry_price": 0.000195,
-      "peak_price": 0.000195,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T06:31:04.879109+00:00",
-      "score": 71,
-      "status": "open"
-    },
-    {
-      "symbol": "GBC",
-      "chain": "robinhood",
       "address": "0x7579CDe1F33Fa3079f7CF8fCEa62481846df41ea",
       "source": "new",
       "entry_price": 5.976e-05,
-      "peak_price": 5.976e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001184,
+      "trailing_active": true,
       "entry_time": "2026-09-03T06:31:06.333310+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 98.13,
+      "peak_volume_m5": 59519.78,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "PONSZI",
@@ -51,11 +45,17 @@
       "address": "0x45b404afd47b5bca9ffa0beea9fdaef54b3e0985",
       "source": "new",
       "entry_price": 0.0001265,
-      "peak_price": 0.0001265,
-      "trailing_active": false,
+      "peak_price": 0.0002214,
+      "trailing_active": true,
       "entry_time": "2026-09-03T06:31:07.740447+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 75.02,
+      "peak_volume_m5": 91538.17,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -143515,6 +143515,25 @@
       "exit_price": 7.129e-05,
       "exit_pct": -13.82,
       "exit_time": "2026-09-03T06:12:54.694525+00:00"
+    },
+    {
+      "symbol": "GBC",
+      "chain": "robinhood",
+      "address": "0x0587e805aBf2F5f152ED775CE100b0159F626e5f",
+      "source": "new",
+      "entry_price": 0.000195,
+      "peak_price": 0.000195,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T06:31:04.879109+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.64,
+      "peak_volume_m5": 92171.37,
+      "milestones_hit": [],
+      "exit_price": 0.0001294,
+      "exit_pct": -33.64,
+      "exit_time": "2026-09-03T06:36:00.959214+00:00"
     }
   ],
   "alerted": {
@@ -150780,6 +150799,7 @@
     "0xa20c2265B105B3763a527F38b704586a31bef459": "2026-09-03T05:42:15.802045+00:00",
     "0x9B7a8126Cc5768D665F7fd2bD416eFEE93eB7777": "2026-09-03T05:52:41.240541+00:00",
     "0x47d66F477ef44aeb4455C8ffc50076B78BBF40bc": "2026-09-03T05:53:39.983707+00:00",
-    "0x1345330E2f656a337A73236619da5B1fE3057368": "2026-09-03T06:10:00.074778+00:00"
+    "0x1345330E2f656a337A73236619da5B1fE3057368": "2026-09-03T06:10:00.074778+00:00",
+    "0x0587e805aBf2F5f152ED775CE100b0159F626e5f": "2026-09-03T06:36:00.959214+00:00"
   }
 }
