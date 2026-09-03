@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "schizex",
-      "chain": "robinhood",
-      "address": "0xA2D6ef51C0277a2814b4A1C0ce1c0778E22D3452",
-      "source": "new",
-      "entry_price": 9.868e-05,
-      "peak_price": 9.868e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T06:51:03.245039+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "TriplePONS",
       "chain": "solana",
       "address": "DcxZYnRBF171nKzs1dd2gT2fCnLEJ6nqPRFt66WHpump",
       "source": "new",
       "entry_price": 0.0001659,
-      "peak_price": 0.0001659,
-      "trailing_active": false,
+      "peak_price": 0.0002006,
+      "trailing_active": true,
       "entry_time": "2026-09-03T06:51:04.888185+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.92,
+      "peak_volume_m5": 142329.85,
+      "milestones_hit": []
     },
     {
       "symbol": "KERMIT",
@@ -32,11 +24,15 @@
       "address": "0xE2d8D45c7031703dFf035Dc01b7FaB8F208CFAB1",
       "source": "new",
       "entry_price": 7.183e-05,
-      "peak_price": 7.183e-05,
+      "peak_price": 7.604e-05,
       "trailing_active": false,
       "entry_time": "2026-09-03T06:51:06.207200+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.86,
+      "peak_volume_m5": 20701.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -143581,6 +143577,25 @@
       "exit_price": 0.0002155,
       "exit_pct": 260.61,
       "exit_time": "2026-09-03T06:40:45.820958+00:00"
+    },
+    {
+      "symbol": "schizex",
+      "chain": "robinhood",
+      "address": "0xA2D6ef51C0277a2814b4A1C0ce1c0778E22D3452",
+      "source": "new",
+      "entry_price": 9.868e-05,
+      "peak_price": 9.868e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T06:51:03.245039+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.14,
+      "peak_volume_m5": 5039.03,
+      "milestones_hit": [],
+      "exit_price": 8.67e-05,
+      "exit_pct": -12.14,
+      "exit_time": "2026-09-03T06:52:40.457739+00:00"
     }
   ],
   "alerted": {
@@ -150850,6 +150865,7 @@
     "0x0587e805aBf2F5f152ED775CE100b0159F626e5f": "2026-09-03T06:36:00.959214+00:00",
     "0x89baF66f3C98b07CEF3D4f9e91da5956acA6252D": "2026-09-03T06:37:05.422830+00:00",
     "0x45b404afd47b5bca9ffa0beea9fdaef54b3e0985": "2026-09-03T06:37:07.331600+00:00",
-    "0x7579CDe1F33Fa3079f7CF8fCEa62481846df41ea": "2026-09-03T06:40:45.820958+00:00"
+    "0x7579CDe1F33Fa3079f7CF8fCEa62481846df41ea": "2026-09-03T06:40:45.820958+00:00",
+    "0xA2D6ef51C0277a2814b4A1C0ce1c0778E22D3452": "2026-09-03T06:52:40.457739+00:00"
   }
 }
