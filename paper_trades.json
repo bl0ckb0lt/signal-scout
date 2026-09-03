@@ -8,14 +8,14 @@
       "address": "0x3F0bCeBf350E72E669010fE41B3Eb8795a9429F4",
       "source": "new",
       "entry_price": 0.0001083,
-      "peak_price": 0.0001211,
-      "trailing_active": false,
+      "peak_price": 0.0001343,
+      "trailing_active": true,
       "entry_time": "2026-09-03T00:30:58.179055+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.82,
-      "peak_volume_m5": 1891.89,
+      "current_pct": 24.01,
+      "peak_volume_m5": 2593.36,
       "milestones_hit": []
     },
     {
@@ -35,34 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HA",
-      "chain": "robinhood",
-      "address": "0x9963997508934073bDCb849F72037D5489aC1E18",
-      "source": "new",
-      "entry_price": 9.507e-05,
-      "peak_price": 9.624e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T00:31:01.106396+00:00",
-      "score": 58,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.23,
-      "peak_volume_m5": 13481.39,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HIERO",
-      "chain": "solana",
-      "address": "C1JVw9Eecb13VRiVyV4QpXFpQNaJjmXWAXoFaGynpump",
-      "source": "boost",
-      "entry_price": 0.0005547,
-      "peak_price": 0.0005547,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T00:41:05.266427+00:00",
-      "score": 88,
-      "status": "open"
-    },
-    {
       "symbol": "BASKT",
       "chain": "robinhood",
       "address": "0x0000ca999f948969272812093B2d8aa9c64F701e",
@@ -72,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-03T00:41:07.980710+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     },
     {
       "symbol": "POGGERS",
@@ -80,11 +56,15 @@
       "address": "49FXK7sSJT9f6c9WQ36VsaN73XmBiCQfgsELTqAFqrcK",
       "source": "new",
       "entry_price": 0.0002474,
-      "peak_price": 0.0002474,
+      "peak_price": 0.0002569,
       "trailing_active": false,
       "entry_time": "2026-09-03T00:41:10.984078+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.84,
+      "peak_volume_m5": 61565.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -142650,6 +142630,44 @@
       "exit_price": 0.0002737,
       "exit_pct": -6.97,
       "exit_time": "2026-09-03T00:31:42.619713+00:00"
+    },
+    {
+      "symbol": "HA",
+      "chain": "robinhood",
+      "address": "0x9963997508934073bDCb849F72037D5489aC1E18",
+      "source": "new",
+      "entry_price": 9.507e-05,
+      "peak_price": 9.624e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T00:31:01.106396+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.51,
+      "peak_volume_m5": 13481.39,
+      "milestones_hit": [],
+      "exit_price": 8.032e-05,
+      "exit_pct": -15.51,
+      "exit_time": "2026-09-03T00:42:53.830218+00:00"
+    },
+    {
+      "symbol": "HIERO",
+      "chain": "solana",
+      "address": "C1JVw9Eecb13VRiVyV4QpXFpQNaJjmXWAXoFaGynpump",
+      "source": "boost",
+      "entry_price": 0.0005547,
+      "peak_price": 0.0005547,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T00:41:05.266427+00:00",
+      "score": 88,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.56,
+      "peak_volume_m5": 439568.46,
+      "milestones_hit": [],
+      "exit_price": 0.0004795,
+      "exit_pct": -13.56,
+      "exit_time": "2026-09-03T00:42:54.589822+00:00"
     }
   ],
   "alerted": {
@@ -149871,6 +149889,8 @@
     "0xcd70ACb57BcD1712C493aeaa63dD74A45b822102": "2026-09-03T00:12:02.537366+00:00",
     "0x9CC546a4091f184898C4155C1B9F6290075eF8Fb": "2026-09-03T00:23:01.401141+00:00",
     "0xaAc0Eaf0B8a17FB428903D274413a1Fca36AEB03": "2026-09-03T00:24:03.375232+00:00",
-    "GzttC7TXFVxcxgsSLja4PAHitaM9Jttc6YMDTUyrpump": "2026-09-03T00:31:42.619713+00:00"
+    "GzttC7TXFVxcxgsSLja4PAHitaM9Jttc6YMDTUyrpump": "2026-09-03T00:31:42.619713+00:00",
+    "0x9963997508934073bDCb849F72037D5489aC1E18": "2026-09-03T00:42:53.830218+00:00",
+    "C1JVw9Eecb13VRiVyV4QpXFpQNaJjmXWAXoFaGynpump": "2026-09-03T00:42:54.589822+00:00"
   }
 }
