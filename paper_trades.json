@@ -14,40 +14,9 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -5.25,
+      "current_pct": -4.46,
       "peak_volume_m5": 43955.49,
       "milestones_hit": []
-    },
-    {
-      "symbol": "VISTA",
-      "chain": "robinhood",
-      "address": "0x6a55Ed8Aa39f340AE5036Eca8f9eb6833b4afAE6",
-      "source": "new",
-      "entry_price": 0.000545,
-      "peak_price": 0.001095,
-      "trailing_active": true,
-      "entry_time": "2026-09-03T11:41:09.898877+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 100.92,
-      "peak_volume_m5": 33184.57,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "SHOOT",
-      "chain": "robinhood",
-      "address": "0x85AF965790cEC61CAFaCf92A520197e3520a7Eb1",
-      "source": "new",
-      "entry_price": 0.0003026,
-      "peak_price": 0.0003026,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T11:51:12.924789+00:00",
-      "score": 82,
-      "status": "open"
     },
     {
       "symbol": "BEAVERCOIN",
@@ -55,11 +24,15 @@
       "address": "0x8933c506828A3a110735F9c508800cA51e2d2E4b",
       "source": "new",
       "entry_price": 7.095e-05,
-      "peak_price": 7.095e-05,
+      "peak_price": 7.764e-05,
       "trailing_active": false,
       "entry_time": "2026-09-03T11:51:15.800575+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.43,
+      "peak_volume_m5": 35309.78,
+      "milestones_hit": []
     },
     {
       "symbol": "LONGCOIN",
@@ -71,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-03T11:51:17.242610+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.57,
+      "peak_volume_m5": 9767.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -144236,6 +144213,47 @@
       "exit_price": 0.0001473,
       "exit_pct": -20.42,
       "exit_time": "2026-09-03T11:42:29.929488+00:00"
+    },
+    {
+      "symbol": "VISTA",
+      "chain": "robinhood",
+      "address": "0x6a55Ed8Aa39f340AE5036Eca8f9eb6833b4afAE6",
+      "source": "new",
+      "entry_price": 0.000545,
+      "peak_price": 0.001095,
+      "trailing_active": true,
+      "entry_time": "2026-09-03T11:41:09.898877+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 89.54,
+      "peak_volume_m5": 40196.93,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.001033,
+      "exit_pct": 89.54,
+      "exit_time": "2026-09-03T11:52:34.172739+00:00"
+    },
+    {
+      "symbol": "SHOOT",
+      "chain": "robinhood",
+      "address": "0x85AF965790cEC61CAFaCf92A520197e3520a7Eb1",
+      "source": "new",
+      "entry_price": 0.0003026,
+      "peak_price": 0.0003026,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T11:51:12.924789+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.6,
+      "peak_volume_m5": 43860.03,
+      "milestones_hit": [],
+      "exit_price": 0.0002554,
+      "exit_pct": -15.6,
+      "exit_time": "2026-09-03T11:52:35.065639+00:00"
     }
   ],
   "alerted": {
@@ -151536,6 +151554,8 @@
     "J6Rfx6ZTAycGaxTwzcLHEaQzMbnjo2ZUAUzz9ouVpump": "2026-09-03T10:54:54.564257+00:00",
     "0xD0782C1358E20FF07A4d3b420221D78F3C160485": "2026-09-03T11:06:19.215232+00:00",
     "EnYMMJKBdFMvx4WvajicJmktkSV4Zj4fcdD1w8LPpump": "2026-09-03T11:42:29.130596+00:00",
-    "0x791181B0c1B2099B27239217C2A8a20944AD1F8B": "2026-09-03T11:42:29.929488+00:00"
+    "0x791181B0c1B2099B27239217C2A8a20944AD1F8B": "2026-09-03T11:42:29.929488+00:00",
+    "0x6a55Ed8Aa39f340AE5036Eca8f9eb6833b4afAE6": "2026-09-03T11:52:34.172739+00:00",
+    "0x85AF965790cEC61CAFaCf92A520197e3520a7Eb1": "2026-09-03T11:52:35.065639+00:00"
   }
 }
