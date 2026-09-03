@@ -30,7 +30,7 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.59,
+      "current_pct": 13.07,
       "peak_volume_m5": 1450.25,
       "milestones_hit": []
     },
@@ -51,28 +51,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "AI",
-      "chain": "solana",
-      "address": "Bk6Dx58vseLFEa36nxPSGkWp2MGQnEBBCVbWaktQpump",
-      "source": "new",
-      "entry_price": 0.0001611,
-      "peak_price": 0.0001611,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T15:30:58.173907+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "BIRKINCOIN",
       "chain": "solana",
       "address": "DZmazgNXXUVkhhLsZefAYUYvMS1wamkZgMYUrzFgpump",
       "source": "new",
       "entry_price": 0.0001499,
-      "peak_price": 0.0001499,
+      "peak_price": 0.0001532,
       "trailing_active": false,
       "entry_time": "2026-09-03T15:30:59.870866+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.2,
+      "peak_volume_m5": 22970.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -144649,6 +144641,25 @@
       "exit_price": 0.000102,
       "exit_pct": 15.05,
       "exit_time": "2026-09-03T15:17:34.572485+00:00"
+    },
+    {
+      "symbol": "AI",
+      "chain": "solana",
+      "address": "Bk6Dx58vseLFEa36nxPSGkWp2MGQnEBBCVbWaktQpump",
+      "source": "new",
+      "entry_price": 0.0001611,
+      "peak_price": 0.0001611,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T15:30:58.173907+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -32.59,
+      "peak_volume_m5": 125728.57,
+      "milestones_hit": [],
+      "exit_price": 0.0001086,
+      "exit_pct": -32.59,
+      "exit_time": "2026-09-03T15:32:15.806547+00:00"
     }
   ],
   "alerted": {
@@ -151970,6 +151981,7 @@
     "0x8A47f369b17408fD9FE91Ba5b9383844Ee8A36bb": "2026-09-03T14:46:20.348593+00:00",
     "0xb1c2f69b6334f1e9e806f6500906103d4c66f6e6": "2026-09-03T14:52:44.375667+00:00",
     "0x9c45c8e90AE6c5351b96d81A86c9D6703eB81e18": "2026-09-03T15:14:03.514067+00:00",
-    "0x38a8EF398289D4Fc21B3C335278049A181835709": "2026-09-03T15:17:34.572485+00:00"
+    "0x38a8EF398289D4Fc21B3C335278049A181835709": "2026-09-03T15:17:34.572485+00:00",
+    "Bk6Dx58vseLFEa36nxPSGkWp2MGQnEBBCVbWaktQpump": "2026-09-03T15:32:15.806547+00:00"
   }
 }
