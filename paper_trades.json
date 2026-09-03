@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SLK",
-      "chain": "bsc",
-      "address": "0x34e9D3d9386b0DBfa949aB414415361e7D857777",
-      "source": "new",
-      "entry_price": 3.366e-05,
-      "peak_price": 3.857e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T15:21:12.452933+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.14,
-      "peak_volume_m5": 1450.25,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HUGCOIN",
       "chain": "robinhood",
       "address": "0xaD94A6EA748E1ae0397c979d19C707F8de089Ed3",
@@ -56,13 +40,13 @@
       "address": "DZmazgNXXUVkhhLsZefAYUYvMS1wamkZgMYUrzFgpump",
       "source": "new",
       "entry_price": 0.0001499,
-      "peak_price": 0.0001766,
+      "peak_price": 0.0002232,
       "trailing_active": true,
       "entry_time": "2026-09-03T15:30:59.870866+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.81,
+      "current_pct": 48.9,
       "peak_volume_m5": 22970.07,
       "milestones_hit": []
     },
@@ -76,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-03T15:41:11.471541+00:00",
       "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     },
     {
       "symbol": "CTO",
@@ -84,11 +72,15 @@
       "address": "5fzi6CvA6Zh3orqkHNoKKKzWfwCj1nr3FmJjPJ8RPsPu",
       "source": "new",
       "entry_price": 0.0001336,
-      "peak_price": 0.0001336,
+      "peak_price": 0.0001348,
       "trailing_active": false,
       "entry_time": "2026-09-03T15:41:17.226775+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.9,
+      "peak_volume_m5": 2949.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -144684,6 +144676,25 @@
       "exit_price": 0.0001086,
       "exit_pct": -32.59,
       "exit_time": "2026-09-03T15:32:15.806547+00:00"
+    },
+    {
+      "symbol": "SLK",
+      "chain": "bsc",
+      "address": "0x34e9D3d9386b0DBfa949aB414415361e7D857777",
+      "source": "new",
+      "entry_price": 3.366e-05,
+      "peak_price": 3.857e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T15:21:12.452933+00:00",
+      "score": 68,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 11.94,
+      "peak_volume_m5": 1450.25,
+      "milestones_hit": [],
+      "exit_price": 3.768e-05,
+      "exit_pct": 11.94,
+      "exit_time": "2026-09-03T15:43:41.930757+00:00"
     }
   ],
   "alerted": {
@@ -152006,6 +152017,7 @@
     "0xb1c2f69b6334f1e9e806f6500906103d4c66f6e6": "2026-09-03T14:52:44.375667+00:00",
     "0x9c45c8e90AE6c5351b96d81A86c9D6703eB81e18": "2026-09-03T15:14:03.514067+00:00",
     "0x38a8EF398289D4Fc21B3C335278049A181835709": "2026-09-03T15:17:34.572485+00:00",
-    "Bk6Dx58vseLFEa36nxPSGkWp2MGQnEBBCVbWaktQpump": "2026-09-03T15:32:15.806547+00:00"
+    "Bk6Dx58vseLFEa36nxPSGkWp2MGQnEBBCVbWaktQpump": "2026-09-03T15:32:15.806547+00:00",
+    "0x34e9D3d9386b0DBfa949aB414415361e7D857777": "2026-09-03T15:43:41.930757+00:00"
   }
 }
