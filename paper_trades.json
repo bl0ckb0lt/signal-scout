@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FLOPS",
-      "chain": "robinhood",
-      "address": "0xEf1c4ba3070565d5c88c0849a749B5ECE9721e18",
-      "source": "new",
-      "entry_price": 7.728e-05,
-      "peak_price": 8.446e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T19:31:13.997346+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -14.34,
-      "peak_volume_m5": 9077.48,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HULK",
       "chain": "robinhood",
       "address": "0xBB0a14B28db546E6309A86c4E829f04D51d11fd1",
@@ -30,27 +14,9 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.31,
+      "current_pct": 16.45,
       "peak_volume_m5": 59378.64,
       "milestones_hit": []
-    },
-    {
-      "symbol": "SHERWOOD",
-      "chain": "robinhood",
-      "address": "0x8C6Ef7f9Fffa46Bb685ee82af7497D841541018d",
-      "source": "new",
-      "entry_price": 9.302e-05,
-      "peak_price": 0.0001725,
-      "trailing_active": true,
-      "entry_time": "2026-09-03T19:59:02.878486+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 85.44,
-      "peak_volume_m5": 25463.77,
-      "milestones_hit": [
-        50
-      ]
     }
   ],
   "closed": [
@@ -145538,6 +145504,46 @@
       "exit_price": 0.0001013,
       "exit_pct": -10.2,
       "exit_time": "2026-09-03T19:59:58.123707+00:00"
+    },
+    {
+      "symbol": "FLOPS",
+      "chain": "robinhood",
+      "address": "0xEf1c4ba3070565d5c88c0849a749B5ECE9721e18",
+      "source": "new",
+      "entry_price": 7.728e-05,
+      "peak_price": 8.446e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T19:31:13.997346+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.81,
+      "peak_volume_m5": 9077.48,
+      "milestones_hit": [],
+      "exit_price": 6.506e-05,
+      "exit_pct": -15.81,
+      "exit_time": "2026-09-03T20:01:04.468491+00:00"
+    },
+    {
+      "symbol": "SHERWOOD",
+      "chain": "robinhood",
+      "address": "0x8C6Ef7f9Fffa46Bb685ee82af7497D841541018d",
+      "source": "new",
+      "entry_price": 9.302e-05,
+      "peak_price": 0.0001725,
+      "trailing_active": true,
+      "entry_time": "2026-09-03T19:59:02.878486+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 51.37,
+      "peak_volume_m5": 37765.17,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001408,
+      "exit_pct": 51.37,
+      "exit_time": "2026-09-03T20:01:06.222453+00:00"
     }
   ],
   "alerted": {
@@ -152905,6 +152911,8 @@
     "0x6E3FDFD69fbE1572AB63b09a3Fb7b47C1912167f": "2026-09-03T19:49:32.344936+00:00",
     "Ae5bfgg6DbxqZny2JSsuGYJnhQEKzNkqVL7SsdqUpump": "2026-09-03T19:52:29.531589+00:00",
     "0xc5CfB1a50a9Fc816B6419B08807D79fE34901E18": "2026-09-03T19:54:05.736336+00:00",
-    "228tbyCzYJAmD6dNichr5GAPfPw9JNKsLux2n4h8V5U5": "2026-09-03T19:59:58.123707+00:00"
+    "228tbyCzYJAmD6dNichr5GAPfPw9JNKsLux2n4h8V5U5": "2026-09-03T19:59:58.123707+00:00",
+    "0xEf1c4ba3070565d5c88c0849a749B5ECE9721e18": "2026-09-03T20:01:04.468491+00:00",
+    "0x8C6Ef7f9Fffa46Bb685ee82af7497D841541018d": "2026-09-03T20:01:06.222453+00:00"
   }
 }
