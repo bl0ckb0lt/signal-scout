@@ -8,23 +8,15 @@
       "address": "0x5f5864179e56F6e75c1ACFb9026B45c6eA816E5E",
       "source": "new",
       "entry_price": 8.8e-05,
-      "peak_price": 8.8e-05,
+      "peak_price": 9.083e-05,
       "trailing_active": false,
       "entry_time": "2026-09-03T20:51:03.523816+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "FlappyBill",
-      "chain": "robinhood",
-      "address": "0xEe5D62d5276529dff50918885140ecda1D87dC02",
-      "source": "new",
-      "entry_price": 0.0001221,
-      "peak_price": 0.0001221,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T20:51:04.881489+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.22,
+      "peak_volume_m5": 18453.31,
+      "milestones_hit": []
     },
     {
       "symbol": "MEME",
@@ -32,35 +24,15 @@
       "address": "0x385F4f8ae47651ce5F58F5265395a669f8281e18",
       "source": "new",
       "entry_price": 6.4e-05,
-      "peak_price": 6.4e-05,
-      "trailing_active": false,
+      "peak_price": 8.728e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-03T20:51:06.282165+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "OOPS",
-      "chain": "robinhood",
-      "address": "0x96de27DaA8ef3Acc45E2A813C0b9d39288c0ab01",
-      "source": "new",
-      "entry_price": 6.411e-05,
-      "peak_price": 6.411e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T20:51:07.949052+00:00",
-      "score": 63,
-      "status": "open"
-    },
-    {
-      "symbol": "MERA",
-      "chain": "robinhood",
-      "address": "0xa4586bBCD0F6891BC377029b3D1C4732E7e1378C",
-      "source": "new",
-      "entry_price": 0.0001229,
-      "peak_price": 0.0001229,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T20:51:09.304957+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 36.38,
+      "peak_volume_m5": 31350.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -145759,6 +145731,63 @@
       "exit_price": 0.0002386,
       "exit_pct": 18.12,
       "exit_time": "2026-09-03T20:49:54.310047+00:00"
+    },
+    {
+      "symbol": "FlappyBill",
+      "chain": "robinhood",
+      "address": "0xEe5D62d5276529dff50918885140ecda1D87dC02",
+      "source": "new",
+      "entry_price": 0.0001221,
+      "peak_price": 0.0001221,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T20:51:04.881489+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.2,
+      "peak_volume_m5": 40137.34,
+      "milestones_hit": [],
+      "exit_price": 9.866e-05,
+      "exit_pct": -19.2,
+      "exit_time": "2026-09-03T20:52:39.269096+00:00"
+    },
+    {
+      "symbol": "OOPS",
+      "chain": "robinhood",
+      "address": "0x96de27DaA8ef3Acc45E2A813C0b9d39288c0ab01",
+      "source": "new",
+      "entry_price": 6.411e-05,
+      "peak_price": 6.411e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T20:51:07.949052+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -45.95,
+      "peak_volume_m5": 22298.18,
+      "milestones_hit": [],
+      "exit_price": 3.465e-05,
+      "exit_pct": -45.95,
+      "exit_time": "2026-09-03T20:52:40.730854+00:00"
+    },
+    {
+      "symbol": "MERA",
+      "chain": "robinhood",
+      "address": "0xa4586bBCD0F6891BC377029b3D1C4732E7e1378C",
+      "source": "new",
+      "entry_price": 0.0001229,
+      "peak_price": 0.0001229,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T20:51:09.304957+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.9,
+      "peak_volume_m5": 14872.4,
+      "milestones_hit": [],
+      "exit_price": 0.0001095,
+      "exit_pct": -10.9,
+      "exit_time": "2026-09-03T20:52:41.469509+00:00"
     }
   ],
   "alerted": {
@@ -153137,6 +153166,9 @@
     "0x7Cd3C3C6e7a509421cD956D4BeD11aCfb935F75d": "2026-09-03T20:23:03.208021+00:00",
     "0xFA19ccF5720c6761093a3A01C85acA7246dF74fe": "2026-09-03T20:24:49.541886+00:00",
     "0x91767B7E31Ecf3A2E44C1DC76FE75173f598E1CB": "2026-09-03T20:42:42.867293+00:00",
-    "0x502db6f6a0c6c230a0cc6647d02715f37b802a55": "2026-09-03T20:49:54.310047+00:00"
+    "0x502db6f6a0c6c230a0cc6647d02715f37b802a55": "2026-09-03T20:49:54.310047+00:00",
+    "0xEe5D62d5276529dff50918885140ecda1D87dC02": "2026-09-03T20:52:39.269096+00:00",
+    "0x96de27DaA8ef3Acc45E2A813C0b9d39288c0ab01": "2026-09-03T20:52:40.730854+00:00",
+    "0xa4586bBCD0F6891BC377029b3D1C4732E7e1378C": "2026-09-03T20:52:41.469509+00:00"
   }
 }
