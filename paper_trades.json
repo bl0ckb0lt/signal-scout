@@ -14,7 +14,7 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 168.87,
+      "current_pct": 167.25,
       "peak_volume_m5": 43799.72,
       "milestones_hit": [
         50,
@@ -27,11 +27,15 @@
       "address": "0x277caDb1b78Bc71f66EAC7713dffa6d95b498035",
       "source": "new",
       "entry_price": 0.0004103,
-      "peak_price": 0.0004103,
-      "trailing_active": false,
+      "peak_price": 0.0005098,
+      "trailing_active": true,
       "entry_time": "2026-09-03T19:11:10.675464+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.25,
+      "peak_volume_m5": 6114.58,
+      "milestones_hit": []
     },
     {
       "symbol": "SILVERBACK",
@@ -39,23 +43,15 @@
       "address": "0x3d7341A260A2EE460C9D68E302C2E0C883487039",
       "source": "new",
       "entry_price": 4.527e-05,
-      "peak_price": 4.527e-05,
-      "trailing_active": false,
+      "peak_price": 5.516e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-03T19:11:12.104922+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Lucia",
-      "chain": "solana",
-      "address": "TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh",
-      "source": "new",
-      "entry_price": 0.0001934,
-      "peak_price": 0.0001934,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T19:11:14.129539+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.85,
+      "peak_volume_m5": 3641.65,
+      "milestones_hit": []
     },
     {
       "symbol": "CLAY",
@@ -67,19 +63,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-03T19:11:15.504988+00:00",
       "score": 62,
-      "status": "open"
-    },
-    {
-      "symbol": "BE",
-      "chain": "robinhood",
-      "address": "0x7981992155389b44c17e08422749d77023Be2ba3",
-      "source": "new",
-      "entry_price": 6.19e-07,
-      "peak_price": 6.19e-07,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T19:11:16.846635+00:00",
-      "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 104.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -145353,6 +145341,44 @@
       "exit_price": 0.0001918,
       "exit_pct": -5.47,
       "exit_time": "2026-09-03T19:02:44.592606+00:00"
+    },
+    {
+      "symbol": "Lucia",
+      "chain": "solana",
+      "address": "TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh",
+      "source": "new",
+      "entry_price": 0.0001934,
+      "peak_price": 0.0001934,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T19:11:14.129539+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.09,
+      "peak_volume_m5": 50944.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001294,
+      "exit_pct": -33.09,
+      "exit_time": "2026-09-03T19:12:55.166413+00:00"
+    },
+    {
+      "symbol": "BE",
+      "chain": "robinhood",
+      "address": "0x7981992155389b44c17e08422749d77023Be2ba3",
+      "source": "new",
+      "entry_price": 6.19e-07,
+      "peak_price": 6.19e-07,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T19:11:16.846635+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.23,
+      "peak_volume_m5": 86827.61,
+      "milestones_hit": [],
+      "exit_price": 4.628e-07,
+      "exit_pct": -25.23,
+      "exit_time": "2026-09-03T19:12:56.198667+00:00"
     }
   ],
   "alerted": {
@@ -152709,6 +152735,8 @@
     "0x887af63bd843a1f06edfc450856afe0f753d942b": "2026-09-03T18:33:02.240053+00:00",
     "0x7d4727A173aab10d158D6F164B671C92f99d6647": "2026-09-03T18:42:05.774131+00:00",
     "0xD578B7A33e6688607f32D51727D70e7CDa5427FE": "2026-09-03T18:55:03.837980+00:00",
-    "0xC66972CB293b77B52b3f5af7f592abC4fb82A1AE": "2026-09-03T19:02:44.592606+00:00"
+    "0xC66972CB293b77B52b3f5af7f592abC4fb82A1AE": "2026-09-03T19:02:44.592606+00:00",
+    "TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh": "2026-09-03T19:12:55.166413+00:00",
+    "0x7981992155389b44c17e08422749d77023Be2ba3": "2026-09-03T19:12:56.198667+00:00"
   }
 }
