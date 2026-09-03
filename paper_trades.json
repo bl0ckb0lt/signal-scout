@@ -14,7 +14,7 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -4.46,
+      "current_pct": -5.68,
       "peak_volume_m5": 43955.49,
       "milestones_hit": []
     },
@@ -24,30 +24,14 @@
       "address": "0x8933c506828A3a110735F9c508800cA51e2d2E4b",
       "source": "new",
       "entry_price": 7.095e-05,
-      "peak_price": 7.764e-05,
-      "trailing_active": false,
+      "peak_price": 8.381e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-03T11:51:15.800575+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 9.43,
+      "current_pct": 18.13,
       "peak_volume_m5": 35309.78,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "LONGCOIN",
-      "chain": "robinhood",
-      "address": "0x0DA2c0b1D25EFa54D01c5d9F188b5Ff17f371E18",
-      "source": "new",
-      "entry_price": 7.346e-05,
-      "peak_price": 7.346e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T11:51:17.242610+00:00",
-      "score": 62,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.57,
-      "peak_volume_m5": 9767.28,
       "milestones_hit": []
     }
   ],
@@ -144254,6 +144238,25 @@
       "exit_price": 0.0002554,
       "exit_pct": -15.6,
       "exit_time": "2026-09-03T11:52:35.065639+00:00"
+    },
+    {
+      "symbol": "LONGCOIN",
+      "chain": "robinhood",
+      "address": "0x0DA2c0b1D25EFa54D01c5d9F188b5Ff17f371E18",
+      "source": "new",
+      "entry_price": 7.346e-05,
+      "peak_price": 7.346e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T11:51:17.242610+00:00",
+      "score": 62,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.89,
+      "peak_volume_m5": 10519.74,
+      "milestones_hit": [],
+      "exit_price": 6.399e-05,
+      "exit_pct": -12.89,
+      "exit_time": "2026-09-03T11:53:34.798049+00:00"
     }
   ],
   "alerted": {
@@ -151556,6 +151559,7 @@
     "EnYMMJKBdFMvx4WvajicJmktkSV4Zj4fcdD1w8LPpump": "2026-09-03T11:42:29.130596+00:00",
     "0x791181B0c1B2099B27239217C2A8a20944AD1F8B": "2026-09-03T11:42:29.929488+00:00",
     "0x6a55Ed8Aa39f340AE5036Eca8f9eb6833b4afAE6": "2026-09-03T11:52:34.172739+00:00",
-    "0x85AF965790cEC61CAFaCf92A520197e3520a7Eb1": "2026-09-03T11:52:35.065639+00:00"
+    "0x85AF965790cEC61CAFaCf92A520197e3520a7Eb1": "2026-09-03T11:52:35.065639+00:00",
+    "0x0DA2c0b1D25EFa54D01c5d9F188b5Ff17f371E18": "2026-09-03T11:53:34.798049+00:00"
   }
 }
