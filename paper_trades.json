@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SOLLESS",
-      "chain": "solana",
-      "address": "CfvwFqrjDimhdMgY9uy25xQSu3LST4tv7u9ZxnRmpump",
-      "source": "new",
-      "entry_price": 0.0001629,
-      "peak_price": 0.0001629,
-      "trailing_active": false,
-      "entry_time": "2026-09-03T08:01:09.587964+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "FARTCOIN",
       "chain": "robinhood",
       "address": "0x9BB61090F2F82C2bf419eE1055a1121F0B078809",
       "source": "new",
       "entry_price": 0.0004976,
-      "peak_price": 0.0004976,
-      "trailing_active": false,
+      "peak_price": 0.0006952,
+      "trailing_active": true,
       "entry_time": "2026-09-03T08:01:11.201899+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 39.71,
+      "peak_volume_m5": 57922.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -143724,6 +143716,25 @@
       "exit_price": 0.0001891,
       "exit_pct": -5.45,
       "exit_time": "2026-09-03T07:52:59.890534+00:00"
+    },
+    {
+      "symbol": "SOLLESS",
+      "chain": "solana",
+      "address": "CfvwFqrjDimhdMgY9uy25xQSu3LST4tv7u9ZxnRmpump",
+      "source": "new",
+      "entry_price": 0.0001629,
+      "peak_price": 0.0001629,
+      "trailing_active": false,
+      "entry_time": "2026-09-03T08:01:09.587964+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.42,
+      "peak_volume_m5": 64509.32,
+      "milestones_hit": [],
+      "exit_price": 0.0001329,
+      "exit_pct": -18.42,
+      "exit_time": "2026-09-03T08:02:15.298861+00:00"
     }
   ],
   "alerted": {
@@ -151001,6 +151012,7 @@
     "0x68051601dF6bC5712078b96Ac27caB7dfbF2cFc6": "2026-09-03T07:32:14.877347+00:00",
     "0xA2032f9529dd19D4df269f195F32035F43685501": "2026-09-03T07:38:02.469312+00:00",
     "4Pu3iy2JVbHhiW4QreYDjceQVhWbgGMb5Ravf7Bapump": "2026-09-03T07:43:50.840350+00:00",
-    "HeJY3gwRvLZyknKv11qJ78cbt4aRPuKDy7YAHq3Apump": "2026-09-03T07:52:59.890534+00:00"
+    "HeJY3gwRvLZyknKv11qJ78cbt4aRPuKDy7YAHq3Apump": "2026-09-03T07:52:59.890534+00:00",
+    "CfvwFqrjDimhdMgY9uy25xQSu3LST4tv7u9ZxnRmpump": "2026-09-03T08:02:15.298861+00:00"
   }
 }
