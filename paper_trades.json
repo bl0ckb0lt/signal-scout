@@ -14,7 +14,7 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 2.91,
+      "current_pct": 2.09,
       "peak_volume_m5": 45428.59,
       "milestones_hit": []
     },
@@ -24,33 +24,18 @@
       "address": "0xFA89ed9D12Bf74aDD8253ddFAA426c4D8A0fa603",
       "source": "new",
       "entry_price": 0.009421,
-      "peak_price": 0.01821,
+      "peak_price": 0.02205,
       "trailing_active": true,
       "entry_time": "2026-09-04T23:31:07.678906+00:00",
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 93.29,
-      "peak_volume_m5": 10607763.91,
+      "current_pct": 134.05,
+      "peak_volume_m5": 13117717.78,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "PARCAT",
-      "chain": "robinhood",
-      "address": "0xF3c5B06CD59c5E2018EA483482eCe29005Cff7Ba",
-      "source": "new",
-      "entry_price": 0.0001201,
-      "peak_price": 0.0001201,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T23:31:14.208384+00:00",
-      "score": 69,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -0.75,
-      "peak_volume_m5": 18363.4,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -149917,6 +149902,25 @@
       "exit_price": 7.795e-05,
       "exit_pct": -20.26,
       "exit_time": "2026-09-04T23:32:47.106443+00:00"
+    },
+    {
+      "symbol": "PARCAT",
+      "chain": "robinhood",
+      "address": "0xF3c5B06CD59c5E2018EA483482eCe29005Cff7Ba",
+      "source": "new",
+      "entry_price": 0.0001201,
+      "peak_price": 0.0001201,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T23:31:14.208384+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.74,
+      "peak_volume_m5": 18363.4,
+      "milestones_hit": [],
+      "exit_price": 0.0001096,
+      "exit_pct": -8.74,
+      "exit_time": "2026-09-04T23:33:55.174722+00:00"
     }
   ],
   "alerted": {
@@ -157507,6 +157511,7 @@
     "0xe6f4225a974b19ee68ed69821d489189b0ae9ba9": "2026-09-04T23:06:24.708459+00:00",
     "0x6BE7f3dA0809DcEe41de05003391149338ac2f3D": "2026-09-04T23:10:00.092914+00:00",
     "0xe4F44D4444385B199d65bDBaac486DcAA12E1E18": "2026-09-04T23:23:51.140264+00:00",
-    "0xc72a5A78f49e65E06391bd41f806B392F10A2a23": "2026-09-04T23:32:47.106443+00:00"
+    "0xc72a5A78f49e65E06391bd41f806B392F10A2a23": "2026-09-04T23:32:47.106443+00:00",
+    "0xF3c5B06CD59c5E2018EA483482eCe29005Cff7Ba": "2026-09-04T23:33:55.174722+00:00"
   }
 }
