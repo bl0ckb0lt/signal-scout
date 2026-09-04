@@ -3,37 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "7645",
-      "chain": "robinhood",
-      "address": "0x31F49Cd40827C308B1fbC23314C0D069ee746B15",
-      "source": "new",
-      "entry_price": 9.969e-05,
-      "peak_price": 0.0002306,
-      "trailing_active": true,
-      "entry_time": "2026-09-04T12:41:09.875866+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 131.32,
-      "peak_volume_m5": 19007.51,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "BONK",
-      "chain": "robinhood",
-      "address": "0x60a4f839f3e6A42a2Af117447De6eDe5934BB263",
-      "source": "new",
-      "entry_price": 0.0003351,
-      "peak_price": 0.0003351,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T12:51:10.939905+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
       "symbol": "RevX",
       "chain": "robinhood",
       "address": "0xBD6Db331dC964D245E63beC1235918De8de7046A",
@@ -43,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-04T12:51:14.668537+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.23,
+      "peak_volume_m5": 373.37,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148021,6 +147994,47 @@
       "exit_price": 0.0002633,
       "exit_pct": -11.08,
       "exit_time": "2026-09-04T12:37:29.565448+00:00"
+    },
+    {
+      "symbol": "7645",
+      "chain": "robinhood",
+      "address": "0x31F49Cd40827C308B1fbC23314C0D069ee746B15",
+      "source": "new",
+      "entry_price": 9.969e-05,
+      "peak_price": 0.0002306,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T12:41:09.875866+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 83.07,
+      "peak_volume_m5": 23285.07,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0001825,
+      "exit_pct": 83.07,
+      "exit_time": "2026-09-04T12:52:21.756283+00:00"
+    },
+    {
+      "symbol": "BONK",
+      "chain": "robinhood",
+      "address": "0x60a4f839f3e6A42a2Af117447De6eDe5934BB263",
+      "source": "new",
+      "entry_price": 0.0003351,
+      "peak_price": 0.0003351,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T12:51:10.939905+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.26,
+      "peak_volume_m5": 7120.93,
+      "milestones_hit": [],
+      "exit_price": 0.0002471,
+      "exit_pct": -26.26,
+      "exit_time": "2026-09-04T12:52:22.593232+00:00"
     }
   ],
   "alerted": {
@@ -155515,6 +155529,8 @@
     "0xED4fbDA09Cb7F5ADD61bd6729D584c6684E81E18": "2026-09-04T12:11:04.370252+00:00",
     "0xe801B33366826E54d284D1120d5d6988631506Dd": "2026-09-04T12:11:59.915420+00:00",
     "0x8cAfcf3aA6F10D901F88dB2c8818e6fE787f8CcF": "2026-09-04T12:23:55.593392+00:00",
-    "0xBB87378B58894338F0937b9691A5A6DC3A5A7777": "2026-09-04T12:37:29.565448+00:00"
+    "0xBB87378B58894338F0937b9691A5A6DC3A5A7777": "2026-09-04T12:37:29.565448+00:00",
+    "0x31F49Cd40827C308B1fbC23314C0D069ee746B15": "2026-09-04T12:52:21.756283+00:00",
+    "0x60a4f839f3e6A42a2Af117447De6eDe5934BB263": "2026-09-04T12:52:22.593232+00:00"
   }
 }
