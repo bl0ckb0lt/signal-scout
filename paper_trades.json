@@ -14,27 +14,9 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.88,
+      "current_pct": -0.92,
       "peak_volume_m5": 828.98,
       "milestones_hit": []
-    },
-    {
-      "symbol": "KPOP",
-      "chain": "robinhood",
-      "address": "0xca3ce24FB1a6E7dB0003f9c785405A851E3F1e18",
-      "source": "new",
-      "entry_price": 6.073e-05,
-      "peak_price": 0.0001031,
-      "trailing_active": true,
-      "entry_time": "2026-09-04T20:21:09.794103+00:00",
-      "score": 58,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 69.77,
-      "peak_volume_m5": 12320.93,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "WKND",
@@ -48,7 +30,7 @@
       "score": 62,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.89,
+      "current_pct": 14.62,
       "peak_volume_m5": 13406.96,
       "milestones_hit": []
     }
@@ -149411,6 +149393,29 @@
       "exit_price": 0.0006428,
       "exit_pct": -16.6,
       "exit_time": "2026-09-04T20:32:52.583730+00:00"
+    },
+    {
+      "symbol": "KPOP",
+      "chain": "robinhood",
+      "address": "0xca3ce24FB1a6E7dB0003f9c785405A851E3F1e18",
+      "source": "new",
+      "entry_price": 6.073e-05,
+      "peak_price": 0.0004209,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T20:21:09.794103+00:00",
+      "score": 58,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 593.07,
+      "peak_volume_m5": 117775.53,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0004209,
+      "exit_pct": 593.07,
+      "exit_time": "2026-09-04T20:33:57.397381+00:00"
     }
   ],
   "alerted": {
@@ -156975,6 +156980,7 @@
     "0xD51fF9b1612e5099245B068ce0B6803d8f4adc8e": "2026-09-04T20:21:59.166527+00:00",
     "0xD4d8BD15864DF1c70779C355B3ede78e915264AE": "2026-09-04T20:22:00.380959+00:00",
     "7pTFAhuQSxhyXHni1soswozhJwAGz13kErrGVNHUpump": "2026-09-04T20:32:01.749399+00:00",
-    "0x446adB118f5F15F2a749E38288D4025b55F3e095": "2026-09-04T20:32:52.583730+00:00"
+    "0x446adB118f5F15F2a749E38288D4025b55F3e095": "2026-09-04T20:32:52.583730+00:00",
+    "0xca3ce24FB1a6E7dB0003f9c785405A851E3F1e18": "2026-09-04T20:33:57.397381+00:00"
   }
 }
