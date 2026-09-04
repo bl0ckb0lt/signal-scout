@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AWI",
-      "chain": "solana",
-      "address": "CTWmAqbjfvzijyFof3Wwxxq7b8KTRAweb1ZAL1tPpump",
-      "source": "new",
-      "entry_price": 0.0001231,
-      "peak_price": 0.0001231,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T14:11:10.102063+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "GOLDEN",
       "chain": "robinhood",
       "address": "0x92e4B008161aC64a7D0C5e540F453F8e6B8Bd8D7",
       "source": "new",
       "entry_price": 0.000195,
-      "peak_price": 0.000195,
+      "peak_price": 0.0002004,
       "trailing_active": false,
       "entry_time": "2026-09-04T14:11:11.511161+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "PONSHOUSE",
-      "chain": "robinhood",
-      "address": "0xdb44179AE5b7d25EF913035E9408D44B630DA69B",
-      "source": "new",
-      "entry_price": 0.0009412,
-      "peak_price": 0.0009412,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T14:11:14.747940+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.77,
+      "peak_volume_m5": 4455.79,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148250,6 +148230,44 @@
       "exit_price": 0.0004885,
       "exit_pct": 6.01,
       "exit_time": "2026-09-04T14:05:54.741115+00:00"
+    },
+    {
+      "symbol": "AWI",
+      "chain": "solana",
+      "address": "CTWmAqbjfvzijyFof3Wwxxq7b8KTRAweb1ZAL1tPpump",
+      "source": "new",
+      "entry_price": 0.0001231,
+      "peak_price": 0.0001231,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T14:11:10.102063+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.4,
+      "peak_volume_m5": 104999.97,
+      "milestones_hit": [],
+      "exit_price": 0.0001066,
+      "exit_pct": -13.4,
+      "exit_time": "2026-09-04T14:12:05.020567+00:00"
+    },
+    {
+      "symbol": "PONSHOUSE",
+      "chain": "robinhood",
+      "address": "0xdb44179AE5b7d25EF913035E9408D44B630DA69B",
+      "source": "new",
+      "entry_price": 0.0009412,
+      "peak_price": 0.0009412,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T14:11:14.747940+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.7,
+      "peak_volume_m5": 70386.94,
+      "milestones_hit": [],
+      "exit_price": 0.0008499,
+      "exit_pct": -9.7,
+      "exit_time": "2026-09-04T14:12:06.094386+00:00"
     }
   ],
   "alerted": {
@@ -155755,6 +155773,8 @@
     "31Y5EFKjZXxCXLBHrs16bzG52V8ry3BKgy41HqW9pump": "2026-09-04T14:02:59.642278+00:00",
     "3pCfBG2gNWWwWbKEs7cxvPcvDtaQi7yh9qmVB2Cqpump": "2026-09-04T14:03:50.042148+00:00",
     "0x6b2889161B511dd5a4e6b7857119358753a57322": "2026-09-04T14:04:55.888413+00:00",
-    "9CzNGAEutxKHJ5CwYC5Lk8X8YzgYrQnvKChP2BFEpump": "2026-09-04T14:05:54.741115+00:00"
+    "9CzNGAEutxKHJ5CwYC5Lk8X8YzgYrQnvKChP2BFEpump": "2026-09-04T14:05:54.741115+00:00",
+    "CTWmAqbjfvzijyFof3Wwxxq7b8KTRAweb1ZAL1tPpump": "2026-09-04T14:12:05.020567+00:00",
+    "0xdb44179AE5b7d25EF913035E9408D44B630DA69B": "2026-09-04T14:12:06.094386+00:00"
   }
 }
