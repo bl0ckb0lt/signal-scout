@@ -8,39 +8,15 @@
       "address": "0x1F20837dAf4F566Ba0db16Ceb25F879fB411ab1c",
       "source": "boost",
       "entry_price": 0.00028,
-      "peak_price": 0.0003198,
-      "trailing_active": false,
+      "peak_price": 0.0003482,
+      "trailing_active": true,
       "entry_time": "2026-09-04T18:21:12.396964+00:00",
       "score": 84,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.25,
+      "current_pct": 24.36,
       "peak_volume_m5": 32150.27,
       "milestones_hit": []
-    },
-    {
-      "symbol": "StonkCat",
-      "chain": "solana",
-      "address": "DXJCE5WfuZfZxF5Jj2DndHTTT8jR56eUGgsiFs1Mpump",
-      "source": "new",
-      "entry_price": 0.0001441,
-      "peak_price": 0.0001441,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T18:31:12.090155+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "JERSEY",
-      "chain": "robinhood",
-      "address": "0x8145Ed0Fda64C3a1ef67DB765becf1DA4255DC8E",
-      "source": "new",
-      "entry_price": 0.0001183,
-      "peak_price": 0.0001183,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T18:31:13.568867+00:00",
-      "score": 82,
-      "status": "open"
     },
     {
       "symbol": "SELFIE",
@@ -48,11 +24,15 @@
       "address": "5Cbrtd7xGDYrqAgMCrib44Jsw6oZyyru6srAUMoxpump",
       "source": "boost",
       "entry_price": 0.000105,
-      "peak_price": 0.000105,
+      "peak_price": 0.0001078,
       "trailing_active": false,
       "entry_time": "2026-09-04T18:31:15.423264+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.67,
+      "peak_volume_m5": 11812.86,
+      "milestones_hit": []
     },
     {
       "symbol": "CLAUDE",
@@ -60,11 +40,15 @@
       "address": "0xd4d3051D96a65301a3612e6B9F9F1DEAD1C31e18",
       "source": "new",
       "entry_price": 9.973e-05,
-      "peak_price": 9.973e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001318,
+      "trailing_active": true,
       "entry_time": "2026-09-04T18:31:16.867166+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.16,
+      "peak_volume_m5": 39021.03,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148922,6 +148906,44 @@
       "exit_price": 0.04109,
       "exit_pct": 74.93,
       "exit_time": "2026-09-04T18:28:01.929248+00:00"
+    },
+    {
+      "symbol": "StonkCat",
+      "chain": "solana",
+      "address": "DXJCE5WfuZfZxF5Jj2DndHTTT8jR56eUGgsiFs1Mpump",
+      "source": "new",
+      "entry_price": 0.0001441,
+      "peak_price": 0.0001441,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T18:31:12.090155+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.72,
+      "peak_volume_m5": 86191.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001128,
+      "exit_pct": -21.72,
+      "exit_time": "2026-09-04T18:32:34.823571+00:00"
+    },
+    {
+      "symbol": "JERSEY",
+      "chain": "robinhood",
+      "address": "0x8145Ed0Fda64C3a1ef67DB765becf1DA4255DC8E",
+      "source": "new",
+      "entry_price": 0.0001183,
+      "peak_price": 0.0001183,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T18:31:13.568867+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.98,
+      "peak_volume_m5": 54225.08,
+      "milestones_hit": [],
+      "exit_price": 9.23e-05,
+      "exit_pct": -21.98,
+      "exit_time": "2026-09-04T18:32:35.555820+00:00"
     }
   ],
   "alerted": {
@@ -156460,6 +156482,8 @@
     "0xbc9dD6E9eBaFDb4B1c770F7EeE53798Bb0903C30": "2026-09-04T18:12:13.436632+00:00",
     "AAqfvSC92UkBxPfg8siK5AuYkCywpihud9ebGHpPpump": "2026-09-04T18:13:11.510813+00:00",
     "0x5b32971ee68B1Ed6D11476760106F29D81f77f6e": "2026-09-04T18:15:06.804990+00:00",
-    "0x62e049Ea651E77467AB3eB51281da745b4cce78F": "2026-09-04T18:28:01.929248+00:00"
+    "0x62e049Ea651E77467AB3eB51281da745b4cce78F": "2026-09-04T18:28:01.929248+00:00",
+    "DXJCE5WfuZfZxF5Jj2DndHTTT8jR56eUGgsiFs1Mpump": "2026-09-04T18:32:34.823571+00:00",
+    "0x8145Ed0Fda64C3a1ef67DB765becf1DA4255DC8E": "2026-09-04T18:32:35.555820+00:00"
   }
 }
