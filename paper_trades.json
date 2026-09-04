@@ -8,13 +8,13 @@
       "address": "0xc9d825E83AadA475bD4d38C8ca984eD746277777",
       "source": "new",
       "entry_price": 0.005916,
-      "peak_price": 0.007827,
+      "peak_price": 0.00822,
       "trailing_active": true,
       "entry_time": "2026-09-04T15:41:11.910131+00:00",
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 32.3,
+      "current_pct": 38.95,
       "peak_volume_m5": 373730.81,
       "milestones_hit": []
     },
@@ -28,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-04T16:01:09.818493+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "Robin",
-      "chain": "robinhood",
-      "address": "0xA86DeBB6E39ED828ee49D5C5238d8a8d853e6700",
-      "source": "new",
-      "entry_price": 0.0001131,
-      "peak_price": 0.0001131,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T16:01:11.187976+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.03,
+      "peak_volume_m5": 148452.76,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148429,6 +148421,25 @@
       "exit_price": 8.978e-05,
       "exit_pct": 32.83,
       "exit_time": "2026-09-04T15:50:55.299190+00:00"
+    },
+    {
+      "symbol": "Robin",
+      "chain": "robinhood",
+      "address": "0xA86DeBB6E39ED828ee49D5C5238d8a8d853e6700",
+      "source": "new",
+      "entry_price": 0.0001131,
+      "peak_price": 0.0001131,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T16:01:11.187976+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.62,
+      "peak_volume_m5": 11071.16,
+      "milestones_hit": [],
+      "exit_price": 8.978e-05,
+      "exit_pct": -20.62,
+      "exit_time": "2026-09-04T16:02:37.905472+00:00"
     }
   ],
   "alerted": {
@@ -155943,6 +155954,7 @@
     "0xc6E8C393d46B685C2Fb2177F759F2b16eB7A7D54": "2026-09-04T14:44:07.418607+00:00",
     "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": "2026-09-04T15:22:37.057433+00:00",
     "0x43fc985359AAB8B3244914658e4055361d8d1E18": "2026-09-04T15:46:50.773862+00:00",
-    "0x37D21fD322DE90B946E6B6e4B4FC5AD1b50A1e18": "2026-09-04T15:50:55.299190+00:00"
+    "0x37D21fD322DE90B946E6B6e4B4FC5AD1b50A1e18": "2026-09-04T15:50:55.299190+00:00",
+    "0xA86DeBB6E39ED828ee49D5C5238d8a8d853e6700": "2026-09-04T16:02:37.905472+00:00"
   }
 }
