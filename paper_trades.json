@@ -14,24 +14,8 @@
       "score": 84,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 24.36,
+      "current_pct": 17.36,
       "peak_volume_m5": 32150.27,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SELFIE",
-      "chain": "solana",
-      "address": "5Cbrtd7xGDYrqAgMCrib44Jsw6oZyyru6srAUMoxpump",
-      "source": "boost",
-      "entry_price": 0.000105,
-      "peak_price": 0.0001078,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T18:31:15.423264+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.67,
-      "peak_volume_m5": 11812.86,
       "milestones_hit": []
     },
     {
@@ -40,15 +24,17 @@
       "address": "0xd4d3051D96a65301a3612e6B9F9F1DEAD1C31e18",
       "source": "new",
       "entry_price": 9.973e-05,
-      "peak_price": 0.0001318,
+      "peak_price": 0.0001795,
       "trailing_active": true,
       "entry_time": "2026-09-04T18:31:16.867166+00:00",
       "score": 62,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 32.16,
-      "peak_volume_m5": 39021.03,
-      "milestones_hit": []
+      "current_pct": 79.99,
+      "peak_volume_m5": 53876.11,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -148944,6 +148930,25 @@
       "exit_price": 9.23e-05,
       "exit_pct": -21.98,
       "exit_time": "2026-09-04T18:32:35.555820+00:00"
+    },
+    {
+      "symbol": "SELFIE",
+      "chain": "solana",
+      "address": "5Cbrtd7xGDYrqAgMCrib44Jsw6oZyyru6srAUMoxpump",
+      "source": "boost",
+      "entry_price": 0.000105,
+      "peak_price": 0.0001078,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T18:31:15.423264+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.12,
+      "peak_volume_m5": 11812.86,
+      "milestones_hit": [],
+      "exit_price": 9.437e-05,
+      "exit_pct": -10.12,
+      "exit_time": "2026-09-04T18:34:20.195708+00:00"
     }
   ],
   "alerted": {
@@ -156484,6 +156489,7 @@
     "0x5b32971ee68B1Ed6D11476760106F29D81f77f6e": "2026-09-04T18:15:06.804990+00:00",
     "0x62e049Ea651E77467AB3eB51281da745b4cce78F": "2026-09-04T18:28:01.929248+00:00",
     "DXJCE5WfuZfZxF5Jj2DndHTTT8jR56eUGgsiFs1Mpump": "2026-09-04T18:32:34.823571+00:00",
-    "0x8145Ed0Fda64C3a1ef67DB765becf1DA4255DC8E": "2026-09-04T18:32:35.555820+00:00"
+    "0x8145Ed0Fda64C3a1ef67DB765becf1DA4255DC8E": "2026-09-04T18:32:35.555820+00:00",
+    "5Cbrtd7xGDYrqAgMCrib44Jsw6oZyyru6srAUMoxpump": "2026-09-04T18:34:20.195708+00:00"
   }
 }
