@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MSTR",
-      "chain": "robinhood",
-      "address": "0x99452D7519e103daF9bC9f02311DD164a073A7A2",
-      "source": "new",
-      "entry_price": 0.0002704,
-      "peak_price": 0.0002704,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T06:01:03.892370+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "PIPA",
       "chain": "solana",
       "address": "7oMBpXVeVEaLjkyxw4TiaXRc24WbC4iUyvuSdcPQpump",
       "source": "new",
       "entry_price": 0.0001514,
-      "peak_price": 0.0001514,
+      "peak_price": 0.0001713,
       "trailing_active": false,
       "entry_time": "2026-09-04T06:01:06.964186+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.14,
+      "peak_volume_m5": 32992.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -147000,6 +146992,25 @@
       "exit_price": 8.691e-05,
       "exit_pct": -15.87,
       "exit_time": "2026-09-04T05:32:11.084317+00:00"
+    },
+    {
+      "symbol": "MSTR",
+      "chain": "robinhood",
+      "address": "0x99452D7519e103daF9bC9f02311DD164a073A7A2",
+      "source": "new",
+      "entry_price": 0.0002704,
+      "peak_price": 0.0002704,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T06:01:03.892370+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.64,
+      "peak_volume_m5": 26114.02,
+      "milestones_hit": [],
+      "exit_price": 0.0002281,
+      "exit_pct": -15.64,
+      "exit_time": "2026-09-04T06:02:51.522913+00:00"
     }
   ],
   "alerted": {
@@ -154444,6 +154455,7 @@
     "0x33C042495874A5aE3FD5F367a1228631597D788c": "2026-09-04T04:53:01.424384+00:00",
     "0x75B364916b65f1e8959fa0210A6922C2EE237777": "2026-09-04T05:07:19.098370+00:00",
     "0x4fFb83d51bc4E2658ccD6cBff684f68559c4c28c": "2026-09-04T05:23:51.659989+00:00",
-    "0xA8D401D070F0FBF7EC202a48BeFc5904a6CA0AaC": "2026-09-04T05:32:11.084317+00:00"
+    "0xA8D401D070F0FBF7EC202a48BeFc5904a6CA0AaC": "2026-09-04T05:32:11.084317+00:00",
+    "0x99452D7519e103daF9bC9f02311DD164a073A7A2": "2026-09-04T06:02:51.522913+00:00"
   }
 }
