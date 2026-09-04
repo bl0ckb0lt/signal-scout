@@ -3,32 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "spy",
-      "chain": "robinhood",
-      "address": "0x5e1F3557801CC208105eE27C7ce351d435030F69",
-      "source": "new",
-      "entry_price": 0.0001308,
-      "peak_price": 0.0001402,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T07:31:04.233968+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.19,
-      "peak_volume_m5": 25714.57,
-      "milestones_hit": []
-    },
-    {
       "symbol": "RCOMBINATOR",
       "chain": "robinhood",
       "address": "0x37336e5441E1EA20A6684f22aafC29fd266E1786",
       "source": "new",
       "entry_price": 0.0001225,
-      "peak_price": 0.0001225,
-      "trailing_active": false,
+      "peak_price": 0.0002765,
+      "trailing_active": true,
       "entry_time": "2026-09-04T07:41:02.408706+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 125.71,
+      "peak_volume_m5": 61680.41,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -147221,6 +147212,29 @@
       "exit_price": 0.0001784,
       "exit_pct": 18.77,
       "exit_time": "2026-09-04T07:16:41.514930+00:00"
+    },
+    {
+      "symbol": "spy",
+      "chain": "robinhood",
+      "address": "0x5e1F3557801CC208105eE27C7ce351d435030F69",
+      "source": "new",
+      "entry_price": 0.0001308,
+      "peak_price": 0.0005205,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T07:31:04.233968+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 297.94,
+      "peak_volume_m5": 46389.58,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005205,
+      "exit_pct": 297.94,
+      "exit_time": "2026-09-04T07:50:20.201490+00:00"
     }
   ],
   "alerted": {
@@ -154676,6 +154690,7 @@
     "0x5e857cb15616B907db0999940EF76A2Ce6061E18": "2026-09-04T07:05:53.284570+00:00",
     "0xe15b43Fd6e8B384920E63B23Cc6923FA1A4A9A92": "2026-09-04T07:12:18.824465+00:00",
     "0x4C24e2bD3ad36af26B805Bfbe629eA614323e0A0": "2026-09-04T07:13:49.363864+00:00",
-    "JBrzNDUrpovsi7FSUR17pxcajoN5XAxK1dMDNwuKbamf": "2026-09-04T07:16:41.514930+00:00"
+    "JBrzNDUrpovsi7FSUR17pxcajoN5XAxK1dMDNwuKbamf": "2026-09-04T07:16:41.514930+00:00",
+    "0x5e1F3557801CC208105eE27C7ce351d435030F69": "2026-09-04T07:50:20.201490+00:00"
   }
 }
