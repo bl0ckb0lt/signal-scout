@@ -3,26 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRDN",
-      "chain": "robinhood",
-      "address": "0x74291964Ba29D4597308EbE89389cFc16A651F89",
-      "source": "new",
-      "entry_price": 6.688e-07,
-      "peak_price": 2.077e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-04T02:11:09.049731+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 210.56,
-      "peak_volume_m5": 51836.41,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "V4",
       "chain": "robinhood",
       "address": "0xC60bA256B44334A0Cd2C7242E98B88f031abB006",
@@ -34,21 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.93,
+      "current_pct": -0.46,
       "peak_volume_m5": 4745.79,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BLEND",
-      "chain": "robinhood",
-      "address": "0x72a9676fED3A14Ff3dd8b419e1acCbf032cbe1C8",
-      "source": "new",
-      "entry_price": 8.467e-05,
-      "peak_price": 8.467e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T02:31:05.678728+00:00",
-      "score": 73,
-      "status": "open"
     }
   ],
   "closed": [
@@ -146618,6 +146586,48 @@
       "exit_price": 0.0004532,
       "exit_pct": -11.1,
       "exit_time": "2026-09-04T02:22:55.910189+00:00"
+    },
+    {
+      "symbol": "TRDN",
+      "chain": "robinhood",
+      "address": "0x74291964Ba29D4597308EbE89389cFc16A651F89",
+      "source": "new",
+      "entry_price": 6.688e-07,
+      "peak_price": 2.545e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T02:11:09.049731+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 280.53,
+      "peak_volume_m5": 51836.41,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 2.545e-06,
+      "exit_pct": 280.53,
+      "exit_time": "2026-09-04T02:32:25.130007+00:00"
+    },
+    {
+      "symbol": "BLEND",
+      "chain": "robinhood",
+      "address": "0x72a9676fED3A14Ff3dd8b419e1acCbf032cbe1C8",
+      "source": "new",
+      "entry_price": 8.467e-05,
+      "peak_price": 8.467e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T02:31:05.678728+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.97,
+      "peak_volume_m5": 6793.46,
+      "milestones_hit": [],
+      "exit_price": 7.538e-05,
+      "exit_pct": -10.97,
+      "exit_time": "2026-09-04T02:32:26.114662+00:00"
     }
   ],
   "alerted": {
@@ -154041,6 +154051,8 @@
     "2ezdFs8GwqxxQCVFUAWEzYBKVnGVHskd1kthJASipump": "2026-09-04T02:02:39.408753+00:00",
     "6tjrGSQiRXgeTC6RASNbAJVYJN9GcV75kzfhNGuxpump": "2026-09-04T02:13:55.617629+00:00",
     "0x75E2Fc69Ff2ac12aF65Ba7D321bBf4f878c535d2": "2026-09-04T02:14:57.653983+00:00",
-    "0xAf373c34F403F811fD269999b1b8A1677CA4f158": "2026-09-04T02:22:55.910189+00:00"
+    "0xAf373c34F403F811fD269999b1b8A1677CA4f158": "2026-09-04T02:22:55.910189+00:00",
+    "0x74291964Ba29D4597308EbE89389cFc16A651F89": "2026-09-04T02:32:25.130007+00:00",
+    "0x72a9676fED3A14Ff3dd8b419e1acCbf032cbe1C8": "2026-09-04T02:32:26.114662+00:00"
   }
 }
