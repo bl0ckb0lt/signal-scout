@@ -3,44 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GOLDENCAT",
-      "chain": "robinhood",
-      "address": "0x25caf5Ea23CE1B6b913761129D93A873205d273a",
-      "source": "new",
-      "entry_price": 9.699e-05,
-      "peak_price": 9.943e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T21:20:59.437542+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.52,
-      "peak_volume_m5": 2591.39,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "DAVE",
-      "chain": "solana",
-      "address": "DeSWVDmFkvevJQ5Li7zHX6JAwLF3WR9gXb9He8aSpump",
-      "source": "new",
-      "entry_price": 0.0002347,
-      "peak_price": 0.0002347,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T21:31:04.244752+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "ACAT",
       "chain": "bsc",
       "address": "0x70F7cBCf703B882295a8bbee49AE159A29237777",
       "source": "new",
       "entry_price": 9.579e-05,
-      "peak_price": 9.579e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001656,
+      "trailing_active": true,
       "entry_time": "2026-09-04T21:31:06.143738+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 72.88,
+      "peak_volume_m5": 27406.6,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -149618,6 +149596,44 @@
       "exit_price": 0.0001455,
       "exit_pct": -15.11,
       "exit_time": "2026-09-04T21:21:51.727430+00:00"
+    },
+    {
+      "symbol": "GOLDENCAT",
+      "chain": "robinhood",
+      "address": "0x25caf5Ea23CE1B6b913761129D93A873205d273a",
+      "source": "new",
+      "entry_price": 9.699e-05,
+      "peak_price": 9.943e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T21:20:59.437542+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.52,
+      "peak_volume_m5": 3409.27,
+      "milestones_hit": [],
+      "exit_price": 6.933e-05,
+      "exit_pct": -28.52,
+      "exit_time": "2026-09-04T21:32:36.429297+00:00"
+    },
+    {
+      "symbol": "DAVE",
+      "chain": "solana",
+      "address": "DeSWVDmFkvevJQ5Li7zHX6JAwLF3WR9gXb9He8aSpump",
+      "source": "new",
+      "entry_price": 0.0002347,
+      "peak_price": 0.0002347,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T21:31:04.244752+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.85,
+      "peak_volume_m5": 143123.27,
+      "milestones_hit": [],
+      "exit_price": 0.0001623,
+      "exit_pct": -30.85,
+      "exit_time": "2026-09-04T21:32:37.252563+00:00"
     }
   ],
   "alerted": {
@@ -157193,6 +157209,8 @@
     "0x428f3360EcABab0B8FAfa773FF4E3a2936831E18": "2026-09-04T20:50:30.362936+00:00",
     "0x864dc06bca9d442aeb524b71ba3bbff789a9be8e": "2026-09-04T21:02:15.767365+00:00",
     "0x909f6b1992b1b54f19b89c86f601C80C6Dae4555": "2026-09-04T21:08:05.218415+00:00",
-    "0xC504DFe20417CC3f7B7Eda0B1e0bf8da0D52d47d": "2026-09-04T21:21:51.727430+00:00"
+    "0xC504DFe20417CC3f7B7Eda0B1e0bf8da0D52d47d": "2026-09-04T21:21:51.727430+00:00",
+    "0x25caf5Ea23CE1B6b913761129D93A873205d273a": "2026-09-04T21:32:36.429297+00:00",
+    "DeSWVDmFkvevJQ5Li7zHX6JAwLF3WR9gXb9He8aSpump": "2026-09-04T21:32:37.252563+00:00"
   }
 }
