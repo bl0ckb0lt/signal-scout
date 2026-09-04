@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DCRESIST",
-      "chain": "solana",
-      "address": "D5yp7UDBv2yHBq5MKaRETTdLWdLX8KJCTtk8K33zpump",
-      "source": "new",
-      "entry_price": 0.0001597,
-      "peak_price": 0.0001597,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T17:11:05.418183+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "GOOFLE",
       "chain": "robinhood",
       "address": "0x62e049Ea651E77467AB3eB51281da745b4cce78F",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-04T17:11:08.788835+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.62,
+      "peak_volume_m5": 19206.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148665,6 +148657,25 @@
       "exit_price": 4.528e-05,
       "exit_pct": -32.15,
       "exit_time": "2026-09-04T17:03:59.333036+00:00"
+    },
+    {
+      "symbol": "DCRESIST",
+      "chain": "solana",
+      "address": "D5yp7UDBv2yHBq5MKaRETTdLWdLX8KJCTtk8K33zpump",
+      "source": "new",
+      "entry_price": 0.0001597,
+      "peak_price": 0.0001597,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T17:11:05.418183+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.72,
+      "peak_volume_m5": 48813.03,
+      "milestones_hit": [],
+      "exit_price": 0.0001314,
+      "exit_pct": -17.72,
+      "exit_time": "2026-09-04T17:12:48.204072+00:00"
     }
   ],
   "alerted": {
@@ -156192,6 +156203,7 @@
     "0x55fEebc76e84D86b3863f3C1f920d9339848b104": "2026-09-04T16:43:59.391172+00:00",
     "6zom8xrWeoHS6Z3MSyPspHgi1AoM1yif8JUFeUwmpump": "2026-09-04T16:49:10.375125+00:00",
     "0xB3db069a9585dEA9544cC9Db0A9b92A92aEF7b4B": "2026-09-04T16:53:45.112491+00:00",
-    "0x24b89234a8b34E12eF7fe06c75e2fE61082791CE": "2026-09-04T17:03:59.333036+00:00"
+    "0x24b89234a8b34E12eF7fe06c75e2fE61082791CE": "2026-09-04T17:03:59.333036+00:00",
+    "D5yp7UDBv2yHBq5MKaRETTdLWdLX8KJCTtk8K33zpump": "2026-09-04T17:12:48.204072+00:00"
   }
 }
