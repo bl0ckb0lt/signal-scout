@@ -8,13 +8,13 @@
       "address": "0xc9d825E83AadA475bD4d38C8ca984eD746277777",
       "source": "new",
       "entry_price": 0.005916,
-      "peak_price": 0.0128,
+      "peak_price": 0.01375,
       "trailing_active": true,
       "entry_time": "2026-09-04T15:41:11.910131+00:00",
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 116.36,
+      "current_pct": 132.42,
       "peak_volume_m5": 562044.13,
       "milestones_hit": [
         50,
@@ -27,23 +27,15 @@
       "address": "B6DfUsHYvvDjunsCWFiYcJSNMghfW7W3Hr82wSGqpump",
       "source": "new",
       "entry_price": 0.0001848,
-      "peak_price": 0.0001848,
+      "peak_price": 0.0001985,
       "trailing_active": false,
       "entry_time": "2026-09-04T16:31:07.893885+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "\u306e\u3073\u5b50",
-      "chain": "solana",
-      "address": "9NsrMqgLSudVXZ4aVsk6yfqDxpUQ64Sr2shJX4Yspump",
-      "source": "new",
-      "entry_price": 0.0001849,
-      "peak_price": 0.0001849,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T16:31:09.688396+00:00",
-      "score": 91,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.41,
+      "peak_volume_m5": 33706.76,
+      "milestones_hit": []
     },
     {
       "symbol": "STONKTROLL",
@@ -55,7 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-04T16:31:13.194738+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.87,
+      "peak_volume_m5": 7480.19,
+      "milestones_hit": []
     },
     {
       "symbol": "ARGOS",
@@ -63,11 +59,15 @@
       "address": "HLBm9EovjiN7H2TCZGE3vsbmadhzwvc6WhrRLBRypump",
       "source": "new",
       "entry_price": 0.0001021,
-      "peak_price": 0.0001021,
-      "trailing_active": false,
+      "peak_price": 0.0001504,
+      "trailing_active": true,
       "entry_time": "2026-09-04T16:31:14.988307+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 47.31,
+      "peak_volume_m5": 230998.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -148553,6 +148553,25 @@
       "exit_price": 0.0001914,
       "exit_pct": 24.21,
       "exit_time": "2026-09-04T16:26:54.008334+00:00"
+    },
+    {
+      "symbol": "\u306e\u3073\u5b50",
+      "chain": "solana",
+      "address": "9NsrMqgLSudVXZ4aVsk6yfqDxpUQ64Sr2shJX4Yspump",
+      "source": "new",
+      "entry_price": 0.0001849,
+      "peak_price": 0.0001849,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T16:31:09.688396+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.39,
+      "peak_volume_m5": 95982.96,
+      "milestones_hit": [],
+      "exit_price": 0.000162,
+      "exit_pct": -12.39,
+      "exit_time": "2026-09-04T16:35:30.588334+00:00"
     }
   ],
   "alerted": {
@@ -156072,6 +156091,7 @@
     "0xe7534eFB738182D5fF5C3d2aBBE6410047609065": "2026-09-04T16:14:20.554352+00:00",
     "0xd852809acfb46a237327f90b529311153cdb811b": "2026-09-04T16:15:24.932258+00:00",
     "B5Sfd4BDP5UVhRjYRMBYqr5Z7wNexk4UmvVVZeF6pump": "2026-09-04T16:26:02.483819+00:00",
-    "F5FhYeBGpSFe5eqfFmHtLo9u7RUjusbE8WBuz5oapump": "2026-09-04T16:26:54.008334+00:00"
+    "F5FhYeBGpSFe5eqfFmHtLo9u7RUjusbE8WBuz5oapump": "2026-09-04T16:26:54.008334+00:00",
+    "9NsrMqgLSudVXZ4aVsk6yfqDxpUQ64Sr2shJX4Yspump": "2026-09-04T16:35:30.588334+00:00"
   }
 }
