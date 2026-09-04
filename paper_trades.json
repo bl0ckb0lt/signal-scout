@@ -8,13 +8,13 @@
       "address": "0x0642c0a11Ae3F80eF2e58a544A0F582172341E18",
       "source": "new",
       "entry_price": 8.972e-05,
-      "peak_price": 0.0001005,
-      "trailing_active": false,
+      "peak_price": 0.0001033,
+      "trailing_active": true,
       "entry_time": "2026-09-04T02:40:58.688990+00:00",
       "score": 62,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.02,
+      "current_pct": 15.14,
       "peak_volume_m5": 5755.39,
       "milestones_hit": []
     },
@@ -24,11 +24,15 @@
       "address": "0x43304bA2ECE7CdB58d0c572B10ae64fC0697088a",
       "source": "new",
       "entry_price": 0.0001218,
-      "peak_price": 0.0001218,
-      "trailing_active": false,
+      "peak_price": 0.0001806,
+      "trailing_active": true,
       "entry_time": "2026-09-04T02:51:10.319097+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 48.28,
+      "peak_volume_m5": 75897.64,
+      "milestones_hit": []
     },
     {
       "symbol": "BUTTHOLE",
@@ -36,23 +40,15 @@
       "address": "0xDD0b80c2a4B341676C5316F0107f6939ae021E18",
       "source": "new",
       "entry_price": 0.001842,
-      "peak_price": 0.001842,
+      "peak_price": 0.002036,
       "trailing_active": false,
       "entry_time": "2026-09-04T02:51:11.822022+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "WOJAK",
-      "chain": "robinhood",
-      "address": "0xbac1fac924c18f6d11e7025ef4babfe3e191cdfb",
-      "source": "new",
-      "entry_price": 9.738e-05,
-      "peak_price": 9.738e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T02:51:13.305867+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.53,
+      "peak_volume_m5": 54986.33,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -146702,6 +146698,25 @@
       "exit_price": 0.004232,
       "exit_pct": -10.7,
       "exit_time": "2026-09-04T02:45:27.825859+00:00"
+    },
+    {
+      "symbol": "WOJAK",
+      "chain": "robinhood",
+      "address": "0xbac1fac924c18f6d11e7025ef4babfe3e191cdfb",
+      "source": "new",
+      "entry_price": 9.738e-05,
+      "peak_price": 9.738e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T02:51:13.305867+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.39,
+      "peak_volume_m5": 9630.35,
+      "milestones_hit": [],
+      "exit_price": 8.434e-05,
+      "exit_pct": -13.39,
+      "exit_time": "2026-09-04T02:52:47.402215+00:00"
     }
   ],
   "alerted": {
@@ -154129,6 +154144,7 @@
     "0x74291964Ba29D4597308EbE89389cFc16A651F89": "2026-09-04T02:32:25.130007+00:00",
     "0x72a9676fED3A14Ff3dd8b419e1acCbf032cbe1C8": "2026-09-04T02:32:26.114662+00:00",
     "0x13ED6728D3230574f7d7B77a0B5965f969D7e780": "2026-09-04T02:41:51.267723+00:00",
-    "0xC60bA256B44334A0Cd2C7242E98B88f031abB006": "2026-09-04T02:45:27.825859+00:00"
+    "0xC60bA256B44334A0Cd2C7242E98B88f031abB006": "2026-09-04T02:45:27.825859+00:00",
+    "0xbac1fac924c18f6d11e7025ef4babfe3e191cdfb": "2026-09-04T02:52:47.402215+00:00"
   }
 }
