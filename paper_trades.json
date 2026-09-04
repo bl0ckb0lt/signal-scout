@@ -8,30 +8,14 @@
       "address": "0x33C042495874A5aE3FD5F367a1228631597D788c",
       "source": "new",
       "entry_price": 0.0001996,
-      "peak_price": 0.0002673,
+      "peak_price": 0.0002793,
       "trailing_active": true,
       "entry_time": "2026-09-04T04:30:59.408794+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 33.92,
+      "current_pct": 39.93,
       "peak_volume_m5": 4327.28,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BIAO",
-      "chain": "bsc",
-      "address": "0x49155a254886d838e92e1e5b3a205081e76c7777",
-      "source": "new",
-      "entry_price": 0.0001021,
-      "peak_price": 0.0001381,
-      "trailing_active": true,
-      "entry_time": "2026-09-04T04:41:08.240837+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 35.26,
-      "peak_volume_m5": 36620.83,
       "milestones_hit": []
     },
     {
@@ -40,15 +24,18 @@
       "address": "0x997e29e62e16140fbb10077668bb1998831b1da0",
       "source": "new",
       "entry_price": 0.0002783,
-      "peak_price": 0.0003904,
+      "peak_price": 0.0005592,
       "trailing_active": true,
       "entry_time": "2026-09-04T04:41:09.728983+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 40.28,
+      "current_pct": 100.93,
       "peak_volume_m5": 151775.42,
-      "milestones_hit": []
+      "milestones_hit": [
+        50,
+        100
+      ]
     },
     {
       "symbol": "TrustCat",
@@ -56,11 +43,15 @@
       "address": "0x75B364916b65f1e8959fa0210A6922C2EE237777",
       "source": "new",
       "entry_price": 6.988e-05,
-      "peak_price": 6.988e-05,
+      "peak_price": 7.766e-05,
       "trailing_active": false,
       "entry_time": "2026-09-04T04:49:07.722874+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.13,
+      "peak_volume_m5": 6223.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -146919,6 +146910,25 @@
       "exit_price": 6.626e-05,
       "exit_pct": -28.92,
       "exit_time": "2026-09-04T04:43:40.150139+00:00"
+    },
+    {
+      "symbol": "BIAO",
+      "chain": "bsc",
+      "address": "0x49155a254886d838e92e1e5b3a205081e76c7777",
+      "source": "new",
+      "entry_price": 0.0001021,
+      "peak_price": 0.0001381,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T04:41:08.240837+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -1.96,
+      "peak_volume_m5": 38674.61,
+      "milestones_hit": [],
+      "exit_price": 0.0001001,
+      "exit_pct": -1.96,
+      "exit_time": "2026-09-04T04:50:18.144709+00:00"
     }
   ],
   "alerted": {
@@ -154357,6 +154367,7 @@
     "0xe2dAE1c072B9F66BeD999873b94798b2152af7e1": "2026-09-04T04:22:59.168220+00:00",
     "0xE0514A254B465C8c804F77230FB1059f84b21E18": "2026-09-04T04:23:54.035905+00:00",
     "0xEF67e3064bEf1a27e81925eC7132f23E533bd5f6": "2026-09-04T04:37:01.765176+00:00",
-    "AkhdUwDZgNtah8wZkaPJXGAjY3T36hQqtxvviYUDpump": "2026-09-04T04:43:40.150139+00:00"
+    "AkhdUwDZgNtah8wZkaPJXGAjY3T36hQqtxvviYUDpump": "2026-09-04T04:43:40.150139+00:00",
+    "0x49155a254886d838e92e1e5b3a205081e76c7777": "2026-09-04T04:50:18.144709+00:00"
   }
 }
