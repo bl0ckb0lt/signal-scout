@@ -3,46 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Tendies",
-      "chain": "robinhood",
-      "address": "0xFd8A9e1f3DE31cA988142Cd68b52746F49845419",
-      "source": "new",
-      "entry_price": 0.0001936,
-      "peak_price": 0.0003858,
-      "trailing_active": true,
-      "entry_time": "2026-09-04T08:51:22.411148+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 99.28,
-      "peak_volume_m5": 119518.89,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "TAMC",
       "chain": "robinhood",
       "address": "0xd006A2953572F68B77C2c36aD9a80eA0593436c0",
       "source": "boost",
       "entry_price": 0.0003039,
-      "peak_price": 0.0003039,
-      "trailing_active": false,
+      "peak_price": 0.0003543,
+      "trailing_active": true,
       "entry_time": "2026-09-04T09:01:12.724925+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "KIWI",
-      "chain": "robinhood",
-      "address": "0xd5FEE75B0E9084262b22f934aA39a6898F584EEa",
-      "source": "new",
-      "entry_price": 0.0001659,
-      "peak_price": 0.0001659,
-      "trailing_active": false,
-      "entry_time": "2026-09-04T09:01:14.093683+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.58,
+      "peak_volume_m5": 23483.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -147375,6 +147349,46 @@
       "exit_price": 3.689e-05,
       "exit_pct": -15.0,
       "exit_time": "2026-09-04T08:36:01.773665+00:00"
+    },
+    {
+      "symbol": "Tendies",
+      "chain": "robinhood",
+      "address": "0xFd8A9e1f3DE31cA988142Cd68b52746F49845419",
+      "source": "new",
+      "entry_price": 0.0001936,
+      "peak_price": 0.0003858,
+      "trailing_active": true,
+      "entry_time": "2026-09-04T08:51:22.411148+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 43.7,
+      "peak_volume_m5": 119518.89,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002782,
+      "exit_pct": 43.7,
+      "exit_time": "2026-09-04T09:02:14.416877+00:00"
+    },
+    {
+      "symbol": "KIWI",
+      "chain": "robinhood",
+      "address": "0xd5FEE75B0E9084262b22f934aA39a6898F584EEa",
+      "source": "new",
+      "entry_price": 0.0001659,
+      "peak_price": 0.0001659,
+      "trailing_active": false,
+      "entry_time": "2026-09-04T09:01:14.093683+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.85,
+      "peak_volume_m5": 35193.05,
+      "milestones_hit": [],
+      "exit_price": 0.0001396,
+      "exit_pct": -15.85,
+      "exit_time": "2026-09-04T09:02:15.834575+00:00"
     }
   ],
   "alerted": {
@@ -154837,6 +154851,8 @@
     "0xeD996de448b7499Db2e20B9Ab4226420c0828601": "2026-09-04T08:07:46.243370+00:00",
     "0xADE76Ad1F5249E7D90A04837568ebF386F0Ac201": "2026-09-04T08:22:15.346893+00:00",
     "0x52F3fCc55cAe09Fe4B469a487CE95214d03a7777": "2026-09-04T08:33:11.214473+00:00",
-    "0x192753ae7300887EaD209DA120612A69d051Fa01": "2026-09-04T08:36:01.773665+00:00"
+    "0x192753ae7300887EaD209DA120612A69d051Fa01": "2026-09-04T08:36:01.773665+00:00",
+    "0xFd8A9e1f3DE31cA988142Cd68b52746F49845419": "2026-09-04T09:02:14.416877+00:00",
+    "0xd5FEE75B0E9084262b22f934aA39a6898F584EEa": "2026-09-04T09:02:15.834575+00:00"
   }
 }
