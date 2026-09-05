@@ -19,40 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "STONKGUY",
-      "chain": "robinhood",
-      "address": "0xE03f7Cd088c64A2aa27c11792c0eD6Cb81D5264E",
-      "source": "new",
-      "entry_price": 0.0001865,
-      "peak_price": 0.0001865,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T19:51:01.244201+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "JACKMAN",
-      "chain": "solana",
-      "address": "CEoBBZCu9J4W4mpHroaW5GfPYJrkF2ahDXcmo8v6pump",
-      "source": "new",
-      "entry_price": 9.709e-05,
-      "peak_price": 9.709e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T19:51:02.927404+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "SLOP",
       "chain": "robinhood",
       "address": "0x0Cb7041BB6f09F2F1B2c8F3175D3C0041e634B22",
       "source": "new",
       "entry_price": 0.0001614,
-      "peak_price": 0.0001614,
+      "peak_price": 0.000168,
       "trailing_active": false,
       "entry_time": "2026-09-05T19:51:04.380121+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.09,
+      "peak_volume_m5": 446.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152930,6 +152910,44 @@
       "exit_price": 0.0008032,
       "exit_pct": -19.66,
       "exit_time": "2026-09-05T19:49:16.508293+00:00"
+    },
+    {
+      "symbol": "STONKGUY",
+      "chain": "robinhood",
+      "address": "0xE03f7Cd088c64A2aa27c11792c0eD6Cb81D5264E",
+      "source": "new",
+      "entry_price": 0.0001865,
+      "peak_price": 0.0001865,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T19:51:01.244201+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.06,
+      "peak_volume_m5": 31101.41,
+      "milestones_hit": [],
+      "exit_price": 0.0001696,
+      "exit_pct": -9.06,
+      "exit_time": "2026-09-05T19:52:51.540699+00:00"
+    },
+    {
+      "symbol": "JACKMAN",
+      "chain": "solana",
+      "address": "CEoBBZCu9J4W4mpHroaW5GfPYJrkF2ahDXcmo8v6pump",
+      "source": "new",
+      "entry_price": 9.709e-05,
+      "peak_price": 9.709e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T19:51:02.927404+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -97.36,
+      "peak_volume_m5": 25957.48,
+      "milestones_hit": [],
+      "exit_price": 2.56e-06,
+      "exit_pct": -97.36,
+      "exit_time": "2026-09-05T19:52:52.276939+00:00"
     }
   ],
   "alerted": {
@@ -160674,6 +160692,8 @@
     "0x942E390b0D316C897336620da42a2F2a340F93EC": "2026-09-05T19:32:06.558870+00:00",
     "2pwi16Jepton8ncLZ9XTrsB2c5R1fPK4EpdeKwrDpump": "2026-09-05T19:32:08.091787+00:00",
     "0xB3D2857bC560Ab8EC80C346CB2931848119Aa4fe": "2026-09-05T19:33:08.333066+00:00",
-    "0x61184E3E55aD1512f5af7363BB03C07e0348850D": "2026-09-05T19:42:16.933643+00:00"
+    "0x61184E3E55aD1512f5af7363BB03C07e0348850D": "2026-09-05T19:42:16.933643+00:00",
+    "0xE03f7Cd088c64A2aa27c11792c0eD6Cb81D5264E": "2026-09-05T19:52:51.540699+00:00",
+    "CEoBBZCu9J4W4mpHroaW5GfPYJrkF2ahDXcmo8v6pump": "2026-09-05T19:52:52.276939+00:00"
   }
 }
