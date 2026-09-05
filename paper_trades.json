@@ -24,23 +24,15 @@
       "address": "0x5174ec882e98341f54c84a790b8f0983b3af671a",
       "source": "new",
       "entry_price": 0.000117,
-      "peak_price": 0.000117,
-      "trailing_active": false,
+      "peak_price": 0.0001403,
+      "trailing_active": true,
       "entry_time": "2026-09-05T20:51:08.272031+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "MUPPETS",
-      "chain": "robinhood",
-      "address": "0x5e7516be1be5d4396b060908cd44c9db093c4189",
-      "source": "new",
-      "entry_price": 0.000255,
-      "peak_price": 0.000255,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T20:51:09.843706+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.91,
+      "peak_volume_m5": 21513.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -153150,6 +153142,25 @@
       "exit_price": 0.0002041,
       "exit_pct": -8.1,
       "exit_time": "2026-09-05T20:41:59.593422+00:00"
+    },
+    {
+      "symbol": "MUPPETS",
+      "chain": "robinhood",
+      "address": "0x5e7516be1be5d4396b060908cd44c9db093c4189",
+      "source": "new",
+      "entry_price": 0.000255,
+      "peak_price": 0.000255,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T20:51:09.843706+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.27,
+      "peak_volume_m5": 70184.69,
+      "milestones_hit": [],
+      "exit_price": 0.0002288,
+      "exit_pct": -10.27,
+      "exit_time": "2026-09-05T20:53:00.464719+00:00"
     }
   ],
   "alerted": {
@@ -160906,6 +160917,7 @@
     "0xb2000000000000000000008C031790942731B001": "2026-09-05T20:34:46.257056+00:00",
     "HeNr8GJsX1YXem7NyxkJasSJVrWjKhyom4oZQHZuwmXj": "2026-09-05T20:35:40.569428+00:00",
     "2pw42Poei4ys5drzQXnr8ePXUuc8utM8r2S98urSpump": "2026-09-05T20:35:41.234940+00:00",
-    "0x491D91d9DcAE7C42f9B1C97C9F1DF23A64Bfadb2": "2026-09-05T20:41:59.593422+00:00"
+    "0x491D91d9DcAE7C42f9B1C97C9F1DF23A64Bfadb2": "2026-09-05T20:41:59.593422+00:00",
+    "0x5e7516be1be5d4396b060908cd44c9db093c4189": "2026-09-05T20:53:00.464719+00:00"
   }
 }
