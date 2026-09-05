@@ -24,29 +24,18 @@
       "address": "0x5Ec9cd905ff6695fC8b5943A5e1E83A23B610156",
       "source": "new",
       "entry_price": 0.0001835,
-      "peak_price": 0.0002878,
+      "peak_price": 0.0004517,
       "trailing_active": true,
       "entry_time": "2026-09-05T18:51:08.045569+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 56.84,
-      "peak_volume_m5": 9590.01,
+      "current_pct": 146.16,
+      "peak_volume_m5": 59215.88,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "Gimo",
-      "chain": "robinhood",
-      "address": "0x7733DE4B737e5cDC5891e53B86FFEaB3F82916c3",
-      "source": "new",
-      "entry_price": 0.0001434,
-      "peak_price": 0.0001434,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T19:01:03.247466+00:00",
-      "score": 82,
-      "status": "open"
     },
     {
       "symbol": "v0",
@@ -58,7 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T19:01:05.203431+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 22040.96,
+      "milestones_hit": []
     },
     {
       "symbol": "GRACE",
@@ -66,11 +59,15 @@
       "address": "0x9565828b1c141aad90E0FA7220C75c3CA72ddAf1",
       "source": "new",
       "entry_price": 0.0004859,
-      "peak_price": 0.0004859,
+      "peak_price": 0.0004866,
       "trailing_active": false,
       "entry_time": "2026-09-05T19:01:06.607028+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.14,
+      "peak_volume_m5": 220350.54,
+      "milestones_hit": []
     },
     {
       "symbol": "ENTITY",
@@ -82,7 +79,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T19:01:08.050369+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.59,
+      "peak_volume_m5": 42618.44,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152729,6 +152730,25 @@
       "exit_price": 9.88e-05,
       "exit_pct": -22.75,
       "exit_time": "2026-09-05T19:00:50.038949+00:00"
+    },
+    {
+      "symbol": "Gimo",
+      "chain": "robinhood",
+      "address": "0x7733DE4B737e5cDC5891e53B86FFEaB3F82916c3",
+      "source": "new",
+      "entry_price": 0.0001434,
+      "peak_price": 0.0001434,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T19:01:03.247466+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.62,
+      "peak_volume_m5": 70774.86,
+      "milestones_hit": [],
+      "exit_price": 0.000121,
+      "exit_pct": -15.62,
+      "exit_time": "2026-09-05T19:02:03.837281+00:00"
     }
   ],
   "alerted": {
@@ -160462,6 +160482,7 @@
     "0x292655A45D04CA013c637694447Ec94Ca4bE7777": "2026-09-05T18:47:00.223847+00:00",
     "0x7FE0C11A0fbAeD5b96cfeEcae0C7951afF5e48CE": "2026-09-05T18:49:55.400393+00:00",
     "0x17c35105daB9936F113aF60f3bF74783Caf08301": "2026-09-05T18:59:05.245039+00:00",
-    "0x0a3899D06dBE8669A9673293Fbb062613CFcB957": "2026-09-05T19:00:50.038949+00:00"
+    "0x0a3899D06dBE8669A9673293Fbb062613CFcB957": "2026-09-05T19:00:50.038949+00:00",
+    "0x7733DE4B737e5cDC5891e53B86FFEaB3F82916c3": "2026-09-05T19:02:03.837281+00:00"
   }
 }
