@@ -8,13 +8,13 @@
       "address": "9PkupVU1PdCLhgNGMq6P7j1RKeUWS8SbfWe1QVdBpump",
       "source": "new",
       "entry_price": 0.0001187,
-      "peak_price": 0.0001257,
+      "peak_price": 0.0001298,
       "trailing_active": false,
       "entry_time": "2026-09-05T06:41:00.645662+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.9,
+      "current_pct": 9.35,
       "peak_volume_m5": 31409.16,
       "milestones_hit": []
     },
@@ -28,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T06:51:11.079728+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "Sue",
-      "chain": "robinhood",
-      "address": "0x54f6513c1d6784d9a8b54B4665A31F8FA10dc410",
-      "source": "new",
-      "entry_price": 8.061e-05,
-      "peak_price": 8.061e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T06:51:12.595427+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.84,
+      "peak_volume_m5": 26701.26,
+      "milestones_hit": []
     },
     {
       "symbol": "CATSTRO",
@@ -48,11 +40,15 @@
       "address": "0xc326Bbc39D7F8189Bb8D5f43CB14Ba4C1EC74222",
       "source": "new",
       "entry_price": 0.000113,
-      "peak_price": 0.000113,
+      "peak_price": 0.0001252,
       "trailing_active": false,
       "entry_time": "2026-09-05T06:51:14.199409+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.8,
+      "peak_volume_m5": 3623.03,
+      "milestones_hit": []
     },
     {
       "symbol": "Slunker",
@@ -60,11 +56,15 @@
       "address": "0x245DE523FfF712a50d62123BdF47040B21fF3DBd",
       "source": "new",
       "entry_price": 9.563e-05,
-      "peak_price": 9.563e-05,
+      "peak_price": 0.0001041,
       "trailing_active": false,
       "entry_time": "2026-09-05T06:51:15.745537+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.86,
+      "peak_volume_m5": 92282.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -150804,6 +150804,25 @@
       "exit_price": 0.000154,
       "exit_pct": -31.0,
       "exit_time": "2026-09-05T06:12:28.019049+00:00"
+    },
+    {
+      "symbol": "Sue",
+      "chain": "robinhood",
+      "address": "0x54f6513c1d6784d9a8b54B4665A31F8FA10dc410",
+      "source": "new",
+      "entry_price": 8.061e-05,
+      "peak_price": 8.061e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T06:51:12.595427+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.01,
+      "peak_volume_m5": 35607.33,
+      "milestones_hit": [],
+      "exit_price": 6.69e-05,
+      "exit_pct": -17.01,
+      "exit_time": "2026-09-05T06:52:41.432051+00:00"
     }
   ],
   "alerted": {
@@ -158438,6 +158457,7 @@
     "0x7aBD95f54Ba25e3126F413e49F88c6cD9BC57756": "2026-09-05T06:03:36.570045+00:00",
     "0x8e859dbdfbfd2df6a99870e2871eaa58e8784e05": "2026-09-05T06:08:53.323765+00:00",
     "6L3k4uNXdeVo7RwEvvSkHtNxSmcUWLVyx7udWQMWpump": "2026-09-05T06:12:27.293667+00:00",
-    "6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz": "2026-09-05T06:12:28.019049+00:00"
+    "6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz": "2026-09-05T06:12:28.019049+00:00",
+    "0x54f6513c1d6784d9a8b54B4665A31F8FA10dc410": "2026-09-05T06:52:41.432051+00:00"
   }
 }
