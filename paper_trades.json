@@ -8,23 +8,15 @@
       "address": "0x2308d75f038bdEa0F8bA19B62Ea49CA429f6Ff77",
       "source": "new",
       "entry_price": 0.0001067,
-      "peak_price": 0.0001067,
-      "trailing_active": false,
+      "peak_price": 0.0001533,
+      "trailing_active": true,
       "entry_time": "2026-09-05T09:20:58.414948+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "LKN",
-      "chain": "robinhood",
-      "address": "0x0d6bBdD979eF4802567425AE4AB352eDaA468F1d",
-      "source": "new",
-      "entry_price": 0.000112,
-      "peak_price": 0.000112,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T09:20:59.789953+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 43.67,
+      "peak_volume_m5": 60872.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -151051,6 +151043,25 @@
       "exit_price": 9.573e-05,
       "exit_pct": -13.83,
       "exit_time": "2026-09-05T09:10:46.452753+00:00"
+    },
+    {
+      "symbol": "LKN",
+      "chain": "robinhood",
+      "address": "0x0d6bBdD979eF4802567425AE4AB352eDaA468F1d",
+      "source": "new",
+      "entry_price": 0.000112,
+      "peak_price": 0.000112,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T09:20:59.789953+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.79,
+      "peak_volume_m5": 7955.84,
+      "milestones_hit": [],
+      "exit_price": 9.432e-05,
+      "exit_pct": -15.79,
+      "exit_time": "2026-09-05T09:25:49.821503+00:00"
     }
   ],
   "alerted": {
@@ -158700,6 +158711,7 @@
     "0x7ad7b2256ffcf7c6f7c7d95cf238d2ecc2c485e0": "2026-09-05T08:19:52.769647+00:00",
     "6zbYeyBbr5hjkPrApW8QDBstMuxbRV8zMP9cYeUwpump": "2026-09-05T08:23:33.010980+00:00",
     "0x29ad28dd0db0Fb84a348a2B6B5feeCDCe5290D33": "2026-09-05T08:52:41.858341+00:00",
-    "0xaDf31AC9dD9782E64b930849EfBb8c4db961511c": "2026-09-05T09:10:46.452753+00:00"
+    "0xaDf31AC9dD9782E64b930849EfBb8c4db961511c": "2026-09-05T09:10:46.452753+00:00",
+    "0x0d6bBdD979eF4802567425AE4AB352eDaA468F1d": "2026-09-05T09:25:49.821503+00:00"
   }
 }
