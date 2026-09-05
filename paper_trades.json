@@ -30,33 +30,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.77,
+      "current_pct": 3.96,
       "peak_volume_m5": 25081.94,
       "milestones_hit": []
-    },
-    {
-      "symbol": "ASTRA",
-      "chain": "robinhood",
-      "address": "0x7B7fB33ad9D3cD58D30252c8588Ac1AD0a87e443",
-      "source": "new",
-      "entry_price": 0.0002073,
-      "peak_price": 0.0002073,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T16:51:03.339939+00:00",
-      "score": 79,
-      "status": "open"
-    },
-    {
-      "symbol": "KREDS",
-      "chain": "robinhood",
-      "address": "0xB25f00d36b54C229f679A64421B672315885b130",
-      "source": "new",
-      "entry_price": 0.0002303,
-      "peak_price": 0.0002303,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T16:51:06.273681+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "MUMU",
@@ -64,11 +40,15 @@
       "address": "0x1eacF235fCd1b6a637E9c8CB39e08C2258725968",
       "source": "new",
       "entry_price": 0.0001283,
-      "peak_price": 0.0001283,
+      "peak_price": 0.0001438,
       "trailing_active": false,
       "entry_time": "2026-09-05T16:51:07.767904+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.08,
+      "peak_volume_m5": 9885.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152217,6 +152197,44 @@
       "exit_price": 2.531e-06,
       "exit_pct": 12.69,
       "exit_time": "2026-09-05T16:48:56.663865+00:00"
+    },
+    {
+      "symbol": "ASTRA",
+      "chain": "robinhood",
+      "address": "0x7B7fB33ad9D3cD58D30252c8588Ac1AD0a87e443",
+      "source": "new",
+      "entry_price": 0.0002073,
+      "peak_price": 0.0002073,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T16:51:03.339939+00:00",
+      "score": 79,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.11,
+      "peak_volume_m5": 5577.4,
+      "milestones_hit": [],
+      "exit_price": 0.0001822,
+      "exit_pct": -12.11,
+      "exit_time": "2026-09-05T16:52:44.978641+00:00"
+    },
+    {
+      "symbol": "KREDS",
+      "chain": "robinhood",
+      "address": "0xB25f00d36b54C229f679A64421B672315885b130",
+      "source": "new",
+      "entry_price": 0.0002303,
+      "peak_price": 0.0002303,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T16:51:06.273681+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.45,
+      "peak_volume_m5": 38182.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001832,
+      "exit_pct": -20.45,
+      "exit_time": "2026-09-05T16:52:45.952458+00:00"
     }
   ],
   "alerted": {
@@ -159924,6 +159942,8 @@
     "0x4120C2a84A38239133811ac88383E7C9f098d1a0": "2026-09-05T16:33:34.765269+00:00",
     "0x300b3b20416809d7d71989Bb72C3c4593Fa69513": "2026-09-05T16:33:35.443869+00:00",
     "0xB3fC49c53BC76b957835e9AEf05548016D0364CC": "2026-09-05T16:43:50.569570+00:00",
-    "0x161ce4c426b0583bA1fcD94617CddEa79DC88bA3": "2026-09-05T16:48:56.663865+00:00"
+    "0x161ce4c426b0583bA1fcD94617CddEa79DC88bA3": "2026-09-05T16:48:56.663865+00:00",
+    "0x7B7fB33ad9D3cD58D30252c8588Ac1AD0a87e443": "2026-09-05T16:52:44.978641+00:00",
+    "0xB25f00d36b54C229f679A64421B672315885b130": "2026-09-05T16:52:45.952458+00:00"
   }
 }
