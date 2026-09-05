@@ -24,23 +24,15 @@
       "address": "CXm4n3e5xKctjaor4g3H17Yje3z5RZV4YkUeFkafpump",
       "source": "new",
       "entry_price": 0.0001134,
-      "peak_price": 0.0001134,
-      "trailing_active": false,
+      "peak_price": 0.000158,
+      "trailing_active": true,
       "entry_time": "2026-09-05T19:11:08.265600+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "PENNY",
-      "chain": "solana",
-      "address": "J9CxwCpANRhQwtbsF6KdkkDnkMfDXZNrbc2EwJzwpump",
-      "source": "new",
-      "entry_price": 0.000226,
-      "peak_price": 0.000226,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T19:11:10.226876+00:00",
-      "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 39.33,
+      "peak_volume_m5": 50368.03,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152785,6 +152777,25 @@
       "exit_price": 5.505e-24,
       "exit_pct": -100.0,
       "exit_time": "2026-09-05T19:10:05.500522+00:00"
+    },
+    {
+      "symbol": "PENNY",
+      "chain": "solana",
+      "address": "J9CxwCpANRhQwtbsF6KdkkDnkMfDXZNrbc2EwJzwpump",
+      "source": "new",
+      "entry_price": 0.000226,
+      "peak_price": 0.000226,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T19:11:10.226876+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.76,
+      "peak_volume_m5": 117947.47,
+      "milestones_hit": [],
+      "exit_price": 0.0001949,
+      "exit_pct": -13.76,
+      "exit_time": "2026-09-05T19:14:56.529768+00:00"
     }
   ],
   "alerted": {
@@ -160523,6 +160534,7 @@
     "0x5Ec9cd905ff6695fC8b5943A5e1E83A23B610156": "2026-09-05T19:03:01.752199+00:00",
     "0x9565828b1c141aad90E0FA7220C75c3CA72ddAf1": "2026-09-05T19:03:02.822872+00:00",
     "0x2862d471505f7d365ce6f53cf1176baaa8d666f6": "2026-09-05T19:03:58.093682+00:00",
-    "0xE51df98C31fd5291E049C16Bd6E8B6D7720B4B92": "2026-09-05T19:10:05.500522+00:00"
+    "0xE51df98C31fd5291E049C16Bd6E8B6D7720B4B92": "2026-09-05T19:10:05.500522+00:00",
+    "J9CxwCpANRhQwtbsF6KdkkDnkMfDXZNrbc2EwJzwpump": "2026-09-05T19:14:56.529768+00:00"
   }
 }
