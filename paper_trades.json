@@ -8,23 +8,15 @@
       "address": "0x2F219C706E052Dc25372A0c59Dcc2afe0CaB12f3",
       "source": "new",
       "entry_price": 0.001391,
-      "peak_price": 0.001391,
-      "trailing_active": false,
+      "peak_price": 0.001698,
+      "trailing_active": true,
       "entry_time": "2026-09-05T03:41:00.591618+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "GoMeme",
-      "chain": "solana",
-      "address": "925phSqb5LFULiLbU6L8dUH4UiHYPewsdKp5xH31pump",
-      "source": "boost",
-      "entry_price": 0.0002254,
-      "peak_price": 0.0002254,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T03:41:04.880440+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.07,
+      "peak_volume_m5": 248979.83,
+      "milestones_hit": []
     },
     {
       "symbol": "Juror",
@@ -32,23 +24,15 @@
       "address": "0x4095CB749997Dc73CdB9674f2Ecaf96ff1877c00",
       "source": "new",
       "entry_price": 0.0001358,
-      "peak_price": 0.0001358,
+      "peak_price": 0.0001365,
       "trailing_active": false,
       "entry_time": "2026-09-05T03:41:06.338477+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "SHEKEL",
-      "chain": "robinhood",
-      "address": "0xa71a93AB155D55eD3d62Fb5F5650801f787f806f",
-      "source": "new",
-      "entry_price": 0.0001306,
-      "peak_price": 0.0001306,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T03:41:07.784428+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.52,
+      "peak_volume_m5": 38845.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -150423,6 +150407,44 @@
       "exit_price": 0.0004306,
       "exit_pct": 12.84,
       "exit_time": "2026-09-05T03:37:46.452238+00:00"
+    },
+    {
+      "symbol": "GoMeme",
+      "chain": "solana",
+      "address": "925phSqb5LFULiLbU6L8dUH4UiHYPewsdKp5xH31pump",
+      "source": "boost",
+      "entry_price": 0.0002254,
+      "peak_price": 0.0002254,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T03:41:04.880440+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.15,
+      "peak_volume_m5": 15684.7,
+      "milestones_hit": [],
+      "exit_price": 0.000189,
+      "exit_pct": -16.15,
+      "exit_time": "2026-09-05T03:42:17.712564+00:00"
+    },
+    {
+      "symbol": "SHEKEL",
+      "chain": "robinhood",
+      "address": "0xa71a93AB155D55eD3d62Fb5F5650801f787f806f",
+      "source": "new",
+      "entry_price": 0.0001306,
+      "peak_price": 0.0001306,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T03:41:07.784428+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.7,
+      "peak_volume_m5": 56182.14,
+      "milestones_hit": [],
+      "exit_price": 9.442e-05,
+      "exit_pct": -27.7,
+      "exit_time": "2026-09-05T03:42:18.877353+00:00"
     }
   ],
   "alerted": {
@@ -158039,6 +158061,8 @@
     "0x3dc62e011924d700295eaaff329a21dc8d9091f1": "2026-09-05T03:22:25.300683+00:00",
     "7qsnJuQdWHZcmv3H9LcESqNAKZf6K3mtPYkYtpfqpump": "2026-09-05T03:22:27.872135+00:00",
     "0xA71c9C981f2a6bab8e9204F6d633cD617aA38c7e": "2026-09-05T03:32:37.476636+00:00",
-    "CYAQyGC9Nc9RV5MiSiJxdE8utWZtdjtt3tKe1Uvjpump": "2026-09-05T03:37:46.452238+00:00"
+    "CYAQyGC9Nc9RV5MiSiJxdE8utWZtdjtt3tKe1Uvjpump": "2026-09-05T03:37:46.452238+00:00",
+    "925phSqb5LFULiLbU6L8dUH4UiHYPewsdKp5xH31pump": "2026-09-05T03:42:17.712564+00:00",
+    "0xa71a93AB155D55eD3d62Fb5F5650801f787f806f": "2026-09-05T03:42:18.877353+00:00"
   }
 }
