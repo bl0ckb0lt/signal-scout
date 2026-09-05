@@ -19,44 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "RSRV",
-      "chain": "robinhood",
-      "address": "0x942E390b0D316C897336620da42a2F2a340F93EC",
-      "source": "new",
-      "entry_price": 0.0004206,
-      "peak_price": 0.0005629,
-      "trailing_active": true,
-      "entry_time": "2026-09-05T19:21:09.631446+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 33.83,
-      "peak_volume_m5": 38029.17,
-      "milestones_hit": []
-    },
-    {
       "symbol": "STONKCHUMP",
       "chain": "solana",
       "address": "8Ge69MMq3SN6G2UfvhqYt5ywUDVzXeBtASnZjQXbpump",
       "source": "boost",
       "entry_price": 0.0009998,
-      "peak_price": 0.0009998,
+      "peak_price": 0.00102,
       "trailing_active": false,
       "entry_time": "2026-09-05T19:31:08.343642+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "STONKCAT",
-      "chain": "solana",
-      "address": "2pwi16Jepton8ncLZ9XTrsB2c5R1fPK4EpdeKwrDpump",
-      "source": "boost",
-      "entry_price": 0.0002035,
-      "peak_price": 0.0002035,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T19:31:10.246632+00:00",
-      "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.02,
+      "peak_volume_m5": 12663.81,
+      "milestones_hit": []
     },
     {
       "symbol": "vladstonks",
@@ -64,11 +40,15 @@
       "address": "0xB3D2857bC560Ab8EC80C346CB2931848119Aa4fe",
       "source": "new",
       "entry_price": 8.377e-05,
-      "peak_price": 8.377e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001061,
+      "trailing_active": true,
       "entry_time": "2026-09-05T19:31:13.173135+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.66,
+      "peak_volume_m5": 27208.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152851,6 +152831,44 @@
       "exit_price": 0.0001365,
       "exit_pct": 20.37,
       "exit_time": "2026-09-05T19:15:47.777092+00:00"
+    },
+    {
+      "symbol": "RSRV",
+      "chain": "robinhood",
+      "address": "0x942E390b0D316C897336620da42a2F2a340F93EC",
+      "source": "new",
+      "entry_price": 0.0004206,
+      "peak_price": 0.0005629,
+      "trailing_active": true,
+      "entry_time": "2026-09-05T19:21:09.631446+00:00",
+      "score": 80,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 21.04,
+      "peak_volume_m5": 45910.32,
+      "milestones_hit": [],
+      "exit_price": 0.0005091,
+      "exit_pct": 21.04,
+      "exit_time": "2026-09-05T19:32:06.558870+00:00"
+    },
+    {
+      "symbol": "STONKCAT",
+      "chain": "solana",
+      "address": "2pwi16Jepton8ncLZ9XTrsB2c5R1fPK4EpdeKwrDpump",
+      "source": "boost",
+      "entry_price": 0.0002035,
+      "peak_price": 0.0002035,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T19:31:10.246632+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.52,
+      "peak_volume_m5": 11242.34,
+      "milestones_hit": [],
+      "exit_price": 0.0001821,
+      "exit_pct": -10.52,
+      "exit_time": "2026-09-05T19:32:08.091787+00:00"
     }
   ],
   "alerted": {
@@ -160591,6 +160609,8 @@
     "0x2862d471505f7d365ce6f53cf1176baaa8d666f6": "2026-09-05T19:03:58.093682+00:00",
     "0xE51df98C31fd5291E049C16Bd6E8B6D7720B4B92": "2026-09-05T19:10:05.500522+00:00",
     "J9CxwCpANRhQwtbsF6KdkkDnkMfDXZNrbc2EwJzwpump": "2026-09-05T19:14:56.529768+00:00",
-    "CXm4n3e5xKctjaor4g3H17Yje3z5RZV4YkUeFkafpump": "2026-09-05T19:15:47.777092+00:00"
+    "CXm4n3e5xKctjaor4g3H17Yje3z5RZV4YkUeFkafpump": "2026-09-05T19:15:47.777092+00:00",
+    "0x942E390b0D316C897336620da42a2F2a340F93EC": "2026-09-05T19:32:06.558870+00:00",
+    "2pwi16Jepton8ncLZ9XTrsB2c5R1fPK4EpdeKwrDpump": "2026-09-05T19:32:08.091787+00:00"
   }
 }
