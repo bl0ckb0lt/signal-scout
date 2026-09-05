@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RIG",
-      "chain": "robinhood",
-      "address": "0x3c31029d4Eb1CD8BCa6B26E03aF647dE5dfa943f",
-      "source": "boost",
-      "entry_price": 8.881e-05,
-      "peak_price": 0.0001025,
-      "trailing_active": true,
-      "entry_time": "2026-09-05T05:51:01.303984+00:00",
-      "score": 89,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 15.41,
-      "peak_volume_m5": 1892.36,
-      "milestones_hit": []
-    },
-    {
       "symbol": "SPY",
       "chain": "robinhood",
       "address": "0x7aBD95f54Ba25e3126F413e49F88c6cD9BC57756",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T06:01:11.488809+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.96,
+      "peak_volume_m5": 51255.81,
+      "milestones_hit": []
     },
     {
       "symbol": "NEST",
@@ -36,11 +24,15 @@
       "address": "0x8e859dbdfbfd2df6a99870e2871eaa58e8784e05",
       "source": "new",
       "entry_price": 0.0004288,
-      "peak_price": 0.0004288,
-      "trailing_active": false,
+      "peak_price": 0.0005266,
+      "trailing_active": true,
       "entry_time": "2026-09-05T06:01:12.838168+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.81,
+      "peak_volume_m5": 54831.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -150681,6 +150673,25 @@
       "exit_price": 6.744e-05,
       "exit_pct": -10.83,
       "exit_time": "2026-09-05T05:50:52.073190+00:00"
+    },
+    {
+      "symbol": "RIG",
+      "chain": "robinhood",
+      "address": "0x3c31029d4Eb1CD8BCa6B26E03aF647dE5dfa943f",
+      "source": "boost",
+      "entry_price": 8.881e-05,
+      "peak_price": 0.0001025,
+      "trailing_active": true,
+      "entry_time": "2026-09-05T05:51:01.303984+00:00",
+      "score": 89,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -15.65,
+      "peak_volume_m5": 3361.91,
+      "milestones_hit": [],
+      "exit_price": 7.491e-05,
+      "exit_pct": -15.65,
+      "exit_time": "2026-09-05T06:02:42.874011+00:00"
     }
   ],
   "alerted": {
@@ -158291,7 +158302,7 @@
     "0xef2dF55c0B7bbB60971682A6eD981f0F6531b225": "2026-09-05T02:42:52.594743+00:00",
     "0xB6a9fa9a471331A5731d51733e767eA008FbfC70": "2026-09-05T02:42:53.334133+00:00",
     "AxrRVydXi8YGVxAi6w6aFkm6BxFrXYrVrLtpcwakpump": "2026-09-05T02:52:03.115570+00:00",
-    "0x3c31029d4Eb1CD8BCa6B26E03aF647dE5dfa943f": "2026-09-05T02:54:46.246183+00:00",
+    "0x3c31029d4Eb1CD8BCa6B26E03aF647dE5dfa943f": "2026-09-05T06:02:42.874011+00:00",
     "9H5xgKFTERSzXbEd8qRsZk5G7Z8Qfq8wmPEaox43pump": "2026-09-05T03:03:54.811284+00:00",
     "0xBE2F94A9566e9B1419C3f3Fc2b6Ebbf9744CFDc6": "2026-09-05T03:22:24.436115+00:00",
     "0x3dc62e011924d700295eaaff329a21dc8d9091f1": "2026-09-05T03:22:25.300683+00:00",
