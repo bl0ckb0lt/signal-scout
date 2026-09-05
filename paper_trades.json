@@ -24,11 +24,15 @@
       "address": "0x50aC4a09C6764B69F0132E283B059C8Ab1374b36",
       "source": "boost",
       "entry_price": 0.0001285,
-      "peak_price": 0.0001285,
+      "peak_price": 0.000133,
       "trailing_active": false,
       "entry_time": "2026-09-05T12:31:01.512609+00:00",
       "score": 89,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.5,
+      "peak_volume_m5": 1013.67,
+      "milestones_hit": []
     },
     {
       "symbol": "Bridge",
@@ -36,35 +40,15 @@
       "address": "0xb41D20F04157DB32863284E2317468D01989dDe2",
       "source": "new",
       "entry_price": 0.0001182,
-      "peak_price": 0.0001182,
-      "trailing_active": false,
+      "peak_price": 0.0001524,
+      "trailing_active": true,
       "entry_time": "2026-09-05T12:31:06.381822+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "ikun",
-      "chain": "bsc",
-      "address": "0xEcB816C7D341a99a206034033cC1ffA873B07777",
-      "source": "new",
-      "entry_price": 0.0006509,
-      "peak_price": 0.0006509,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T12:31:08.538596+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "COLLECT",
-      "chain": "robinhood",
-      "address": "0xa1243aa393fe014b65a0d925a54a0165385ae26d",
-      "source": "new",
-      "entry_price": 0.0001024,
-      "peak_price": 0.0001024,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T12:31:09.981533+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.93,
+      "peak_volume_m5": 22793.66,
+      "milestones_hit": []
     },
     {
       "symbol": "CREO",
@@ -72,11 +56,15 @@
       "address": "0xe612c939d82981F8e17CCAC3b59c1084c2Aa02Bb",
       "source": "new",
       "entry_price": 0.000109,
-      "peak_price": 0.000109,
-      "trailing_active": false,
+      "peak_price": 0.0001466,
+      "trailing_active": true,
       "entry_time": "2026-09-05T12:31:11.367698+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 34.5,
+      "peak_volume_m5": 25322.95,
+      "milestones_hit": []
     },
     {
       "symbol": "NESTEGG",
@@ -88,7 +76,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T12:31:12.756195+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.38,
+      "peak_volume_m5": 2763.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -151351,6 +151343,44 @@
       "exit_price": 0.0001557,
       "exit_pct": 250.2,
       "exit_time": "2026-09-05T12:29:58.754044+00:00"
+    },
+    {
+      "symbol": "ikun",
+      "chain": "bsc",
+      "address": "0xEcB816C7D341a99a206034033cC1ffA873B07777",
+      "source": "new",
+      "entry_price": 0.0006509,
+      "peak_price": 0.0006509,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T12:31:08.538596+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.71,
+      "peak_volume_m5": 54789.88,
+      "milestones_hit": [],
+      "exit_price": 0.0005812,
+      "exit_pct": -10.71,
+      "exit_time": "2026-09-05T12:32:31.848097+00:00"
+    },
+    {
+      "symbol": "COLLECT",
+      "chain": "robinhood",
+      "address": "0xa1243aa393fe014b65a0d925a54a0165385ae26d",
+      "source": "new",
+      "entry_price": 0.0001024,
+      "peak_price": 0.0001024,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T12:31:09.981533+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.82,
+      "peak_volume_m5": 10552.4,
+      "milestones_hit": [],
+      "exit_price": 8.518e-05,
+      "exit_pct": -16.82,
+      "exit_time": "2026-09-05T12:32:32.675060+00:00"
     }
   ],
   "alerted": {
@@ -159012,6 +159042,8 @@
     "8RQniNaU348sKHap11zQWWSh6WfDgWm5GbEMjsVRpump": "2026-09-05T11:51:48.147560+00:00",
     "G8dA2DLMbss32Cp1Lvk31G3RbxSUh8r6LgjiE9cLpump": "2026-09-05T12:10:54.574259+00:00",
     "0x62F1F3cf2c72bebdd4bc2C628ed1A03626761e18": "2026-09-05T12:21:01.087320+00:00",
-    "0x93D594645B0938E10C12Be8f363eaB0D4CC110d4": "2026-09-05T12:29:58.754044+00:00"
+    "0x93D594645B0938E10C12Be8f363eaB0D4CC110d4": "2026-09-05T12:29:58.754044+00:00",
+    "0xEcB816C7D341a99a206034033cC1ffA873B07777": "2026-09-05T12:32:31.848097+00:00",
+    "0xa1243aa393fe014b65a0d925a54a0165385ae26d": "2026-09-05T12:32:32.675060+00:00"
   }
 }
