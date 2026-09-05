@@ -30,57 +30,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 42.66,
+      "current_pct": 40.45,
       "peak_volume_m5": 33209.37,
       "milestones_hit": []
-    },
-    {
-      "symbol": "TEST",
-      "chain": "robinhood",
-      "address": "0x0A24A2675A730068c4e525AdfA0Edb63e3fFc6dc",
-      "source": "new",
-      "entry_price": 0.0004466,
-      "peak_price": 0.0004466,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T21:41:07.042343+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "AOBS",
-      "chain": "robinhood",
-      "address": "0x47366e0F257Ac009e82bD46fB74e2Fb50826cE98",
-      "source": "new",
-      "entry_price": 0.0004142,
-      "peak_price": 0.0004142,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T21:41:10.122594+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "YILD",
-      "chain": "robinhood",
-      "address": "0xdDE892AE8de389dCd7d44B04B720A52868118717",
-      "source": "new",
-      "entry_price": 0.0004406,
-      "peak_price": 0.0004406,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T21:41:12.823748+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "COCAINE",
-      "chain": "robinhood",
-      "address": "0x67265602261Fc9269B811f5f57C4D6261eEb1e18",
-      "source": "new",
-      "entry_price": 0.0001225,
-      "peak_price": 0.0001225,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T21:41:14.189689+00:00",
-      "score": 67,
-      "status": "open"
     },
     {
       "symbol": "$TPS",
@@ -92,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T21:41:15.540661+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.11,
+      "peak_volume_m5": 195.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -153418,6 +153374,82 @@
       "exit_price": 0.0002866,
       "exit_pct": -13.6,
       "exit_time": "2026-09-05T21:37:34.479977+00:00"
+    },
+    {
+      "symbol": "TEST",
+      "chain": "robinhood",
+      "address": "0x0A24A2675A730068c4e525AdfA0Edb63e3fFc6dc",
+      "source": "new",
+      "entry_price": 0.0004466,
+      "peak_price": 0.0004466,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T21:41:07.042343+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.91,
+      "peak_volume_m5": 306611.09,
+      "milestones_hit": [],
+      "exit_price": 0.0003175,
+      "exit_pct": -28.91,
+      "exit_time": "2026-09-05T21:42:53.056898+00:00"
+    },
+    {
+      "symbol": "AOBS",
+      "chain": "robinhood",
+      "address": "0x47366e0F257Ac009e82bD46fB74e2Fb50826cE98",
+      "source": "new",
+      "entry_price": 0.0004142,
+      "peak_price": 0.0004142,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T21:41:10.122594+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.33,
+      "peak_volume_m5": 41022.99,
+      "milestones_hit": [],
+      "exit_price": 0.0003424,
+      "exit_pct": -17.33,
+      "exit_time": "2026-09-05T21:42:53.956100+00:00"
+    },
+    {
+      "symbol": "YILD",
+      "chain": "robinhood",
+      "address": "0xdDE892AE8de389dCd7d44B04B720A52868118717",
+      "source": "new",
+      "entry_price": 0.0004406,
+      "peak_price": 0.0004406,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T21:41:12.823748+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.73,
+      "peak_volume_m5": 89579.97,
+      "milestones_hit": [],
+      "exit_price": 0.000314,
+      "exit_pct": -28.73,
+      "exit_time": "2026-09-05T21:42:54.811048+00:00"
+    },
+    {
+      "symbol": "COCAINE",
+      "chain": "robinhood",
+      "address": "0x67265602261Fc9269B811f5f57C4D6261eEb1e18",
+      "source": "new",
+      "entry_price": 0.0001225,
+      "peak_price": 0.0001225,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T21:41:14.189689+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.43,
+      "peak_volume_m5": 6743.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001036,
+      "exit_pct": -15.43,
+      "exit_time": "2026-09-05T21:42:55.647284+00:00"
     }
   ],
   "alerted": {
@@ -161185,6 +161217,10 @@
     "0xa1aefC401135Ab71Fb751d0f0573E9d78D01B263": "2026-09-05T21:18:03.862539+00:00",
     "0xD61bfF4D8F05616975D15584B027eB0147D9C4ca": "2026-09-05T21:22:30.459035+00:00",
     "0xd49f8d519a1669944B19369eefbC15917f59aDbF": "2026-09-05T21:31:05.090510+00:00",
-    "0x23dd4CAA26b1522B397274C12cA8cD49628E1E18": "2026-09-05T21:37:34.479977+00:00"
+    "0x23dd4CAA26b1522B397274C12cA8cD49628E1E18": "2026-09-05T21:37:34.479977+00:00",
+    "0x0A24A2675A730068c4e525AdfA0Edb63e3fFc6dc": "2026-09-05T21:42:53.056898+00:00",
+    "0x47366e0F257Ac009e82bD46fB74e2Fb50826cE98": "2026-09-05T21:42:53.956100+00:00",
+    "0xdDE892AE8de389dCd7d44B04B720A52868118717": "2026-09-05T21:42:54.811048+00:00",
+    "0x67265602261Fc9269B811f5f57C4D6261eEb1e18": "2026-09-05T21:42:55.647284+00:00"
   }
 }
