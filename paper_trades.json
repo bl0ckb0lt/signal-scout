@@ -30,27 +30,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.81,
+      "current_pct": 3.52,
       "peak_volume_m5": 25081.94,
       "milestones_hit": []
-    },
-    {
-      "symbol": "MUMU",
-      "chain": "robinhood",
-      "address": "0x1eacF235fCd1b6a637E9c8CB39e08C2258725968",
-      "source": "new",
-      "entry_price": 0.0001283,
-      "peak_price": 0.000202,
-      "trailing_active": true,
-      "entry_time": "2026-09-05T16:51:07.767904+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 57.44,
-      "peak_volume_m5": 19829.93,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "FONELESS",
@@ -58,23 +40,15 @@
       "address": "7vZcbz7mQ232GQq1jjG9Lxd7KCkfbyEiDrRFCWUxpump",
       "source": "new",
       "entry_price": 0.0002068,
-      "peak_price": 0.0002068,
+      "peak_price": 0.0002082,
       "trailing_active": false,
       "entry_time": "2026-09-05T17:01:11.496568+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "ETHOSIS",
-      "chain": "robinhood",
-      "address": "0x06BBC2Ca0843A19C90254f65f87f092DDD46Ab44",
-      "source": "new",
-      "entry_price": 0.0001785,
-      "peak_price": 0.0001785,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T17:01:15.744470+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.68,
+      "peak_volume_m5": 21356.31,
+      "milestones_hit": []
     },
     {
       "symbol": "KAIRO",
@@ -82,11 +56,15 @@
       "address": "0xa961Da558115b896E015C4418CbE3f441213399E",
       "source": "new",
       "entry_price": 0.0001344,
-      "peak_price": 0.0001344,
+      "peak_price": 0.0001347,
       "trailing_active": false,
       "entry_time": "2026-09-05T17:01:17.163830+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.22,
+      "peak_volume_m5": 3402.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -152273,6 +152251,46 @@
       "exit_price": 0.0001832,
       "exit_pct": -20.45,
       "exit_time": "2026-09-05T16:52:45.952458+00:00"
+    },
+    {
+      "symbol": "MUMU",
+      "chain": "robinhood",
+      "address": "0x1eacF235fCd1b6a637E9c8CB39e08C2258725968",
+      "source": "new",
+      "entry_price": 0.0001283,
+      "peak_price": 0.000202,
+      "trailing_active": true,
+      "entry_time": "2026-09-05T16:51:07.767904+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 35.93,
+      "peak_volume_m5": 19829.93,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001744,
+      "exit_pct": 35.93,
+      "exit_time": "2026-09-05T17:02:03.099080+00:00"
+    },
+    {
+      "symbol": "ETHOSIS",
+      "chain": "robinhood",
+      "address": "0x06BBC2Ca0843A19C90254f65f87f092DDD46Ab44",
+      "source": "new",
+      "entry_price": 0.0001785,
+      "peak_price": 0.0001785,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T17:01:15.744470+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.49,
+      "peak_volume_m5": 24753.26,
+      "milestones_hit": [],
+      "exit_price": 0.0001562,
+      "exit_pct": -12.49,
+      "exit_time": "2026-09-05T17:02:04.109903+00:00"
     }
   ],
   "alerted": {
@@ -159982,6 +160000,8 @@
     "0xB3fC49c53BC76b957835e9AEf05548016D0364CC": "2026-09-05T16:43:50.569570+00:00",
     "0x161ce4c426b0583bA1fcD94617CddEa79DC88bA3": "2026-09-05T16:48:56.663865+00:00",
     "0x7B7fB33ad9D3cD58D30252c8588Ac1AD0a87e443": "2026-09-05T16:52:44.978641+00:00",
-    "0xB25f00d36b54C229f679A64421B672315885b130": "2026-09-05T16:52:45.952458+00:00"
+    "0xB25f00d36b54C229f679A64421B672315885b130": "2026-09-05T16:52:45.952458+00:00",
+    "0x1eacF235fCd1b6a637E9c8CB39e08C2258725968": "2026-09-05T17:02:03.099080+00:00",
+    "0x06BBC2Ca0843A19C90254f65f87f092DDD46Ab44": "2026-09-05T17:02:04.109903+00:00"
   }
 }
