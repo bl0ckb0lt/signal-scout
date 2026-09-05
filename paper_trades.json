@@ -24,23 +24,15 @@
       "address": "0xb2000000000000000000008C031790942731B001",
       "source": "new",
       "entry_price": 0.0006144,
-      "peak_price": 0.0006144,
-      "trailing_active": false,
+      "peak_price": 0.0008825,
+      "trailing_active": true,
       "entry_time": "2026-09-05T20:31:02.775896+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "HODL",
-      "chain": "robinhood",
-      "address": "0x7CbecEe58b426bD390D4aB590ACffC9C11747777",
-      "source": "new",
-      "entry_price": 0.0005014,
-      "peak_price": 0.0005014,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T20:31:05.600137+00:00",
-      "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 43.64,
+      "peak_volume_m5": 113434.06,
+      "milestones_hit": []
     },
     {
       "symbol": "\u3164\u202e",
@@ -48,22 +40,38 @@
       "address": "HeNr8GJsX1YXem7NyxkJasSJVrWjKhyom4oZQHZuwmXj",
       "source": "new",
       "entry_price": 0.0001028,
-      "peak_price": 0.0001028,
+      "peak_price": 0.0001143,
       "trailing_active": false,
       "entry_time": "2026-09-05T20:31:07.400252+00:00",
       "score": 68,
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.19,
+      "peak_volume_m5": 3915.07,
+      "milestones_hit": []
+    },
+    {
+      "symbol": "POINTLESS",
+      "chain": "solana",
+      "address": "2pw42Poei4ys5drzQXnr8ePXUuc8utM8r2S98urSpump",
+      "source": "new",
+      "entry_price": 0.0001641,
+      "peak_price": 0.0001641,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T20:32:39.546135+00:00",
+      "score": 83,
       "status": "open"
     },
     {
-      "symbol": "BIRK",
-      "chain": "robinhood",
-      "address": "0x64b68C48E29F2923eA29778591756fd7DC7F26CD",
+      "symbol": "SWIFT",
+      "chain": "solana",
+      "address": "DHLqUh8wJjJCnfdZpjFkeKhdic9nTpMxzD1Vkx8DG17U",
       "source": "new",
-      "entry_price": 0.0001028,
-      "peak_price": 0.0001028,
+      "entry_price": 0.0001213,
+      "peak_price": 0.0001213,
       "trailing_active": false,
-      "entry_time": "2026-09-05T20:31:08.828626+00:00",
-      "score": 67,
+      "entry_time": "2026-09-05T20:32:44.112309+00:00",
+      "score": 68,
       "status": "open"
     }
   ],
@@ -153041,6 +153049,44 @@
       "exit_price": 0.0003091,
       "exit_pct": 39.36,
       "exit_time": "2026-09-05T20:13:57.940862+00:00"
+    },
+    {
+      "symbol": "HODL",
+      "chain": "robinhood",
+      "address": "0x7CbecEe58b426bD390D4aB590ACffC9C11747777",
+      "source": "new",
+      "entry_price": 0.0005014,
+      "peak_price": 0.0005014,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T20:31:05.600137+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.03,
+      "peak_volume_m5": 19672.1,
+      "milestones_hit": [],
+      "exit_price": 0.0004561,
+      "exit_pct": -9.03,
+      "exit_time": "2026-09-05T20:32:26.360574+00:00"
+    },
+    {
+      "symbol": "BIRK",
+      "chain": "robinhood",
+      "address": "0x64b68C48E29F2923eA29778591756fd7DC7F26CD",
+      "source": "new",
+      "entry_price": 0.0001028,
+      "peak_price": 0.0001028,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T20:31:08.828626+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.16,
+      "peak_volume_m5": 32848.0,
+      "milestones_hit": [],
+      "exit_price": 9.441e-05,
+      "exit_pct": -8.16,
+      "exit_time": "2026-09-05T20:32:27.382540+00:00"
     }
   ],
   "alerted": {
@@ -160790,6 +160836,8 @@
     "CEoBBZCu9J4W4mpHroaW5GfPYJrkF2ahDXcmo8v6pump": "2026-09-05T19:52:52.276939+00:00",
     "0x0Cb7041BB6f09F2F1B2c8F3175D3C0041e634B22": "2026-09-05T19:56:50.609400+00:00",
     "0x275Bd09E2dd9Ea3Da99E9160277D8691E33F47fa": "2026-09-05T20:12:07.440637+00:00",
-    "0x78b96280c3347e0f58a7147b73eb0ec5ffff025d": "2026-09-05T20:13:57.940862+00:00"
+    "0x78b96280c3347e0f58a7147b73eb0ec5ffff025d": "2026-09-05T20:13:57.940862+00:00",
+    "0x7CbecEe58b426bD390D4aB590ACffC9C11747777": "2026-09-05T20:32:26.360574+00:00",
+    "0x64b68C48E29F2923eA29778591756fd7DC7F26CD": "2026-09-05T20:32:27.382540+00:00"
   }
 }
