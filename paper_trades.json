@@ -24,11 +24,15 @@
       "address": "0xa1aefC401135Ab71Fb751d0f0573E9d78D01B263",
       "source": "new",
       "entry_price": 0.0005557,
-      "peak_price": 0.0005557,
+      "peak_price": 0.0005781,
       "trailing_active": false,
       "entry_time": "2026-09-05T21:00:56.551842+00:00",
       "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.03,
+      "peak_volume_m5": 28126.83,
+      "milestones_hit": []
     },
     {
       "symbol": "ROI",
@@ -36,23 +40,15 @@
       "address": "4kde5Gy2ZaE1d6JmyxdCQL5jPaEEjQQNyS7GiiCvpump",
       "source": "new",
       "entry_price": 0.0001908,
-      "peak_price": 0.0001908,
+      "peak_price": 0.0001986,
       "trailing_active": false,
       "entry_time": "2026-09-05T21:01:00.386082+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "ELON",
-      "chain": "robinhood",
-      "address": "0xf5308199fDEb5f8bEd30244bA472efaB4ECb17B5",
-      "source": "new",
-      "entry_price": 0.0003014,
-      "peak_price": 0.0003014,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T21:01:01.936873+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.09,
+      "peak_volume_m5": 148328.46,
+      "milestones_hit": []
     },
     {
       "symbol": "D",
@@ -64,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-05T21:01:03.473026+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.18,
+      "peak_volume_m5": 282798.03,
+      "milestones_hit": []
     },
     {
       "symbol": "Openbell",
@@ -72,11 +72,18 @@
       "address": "0xbcb210310F90Ac2aeF979D43b2A25AC4741f6638",
       "source": "new",
       "entry_price": 0.000103,
-      "peak_price": 0.000103,
-      "trailing_active": false,
+      "peak_price": 0.0002365,
+      "trailing_active": true,
       "entry_time": "2026-09-05T21:01:07.343118+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 129.61,
+      "peak_volume_m5": 95682.18,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -153224,6 +153231,25 @@
       "exit_price": 9.966e-05,
       "exit_pct": -14.82,
       "exit_time": "2026-09-05T20:54:55.229061+00:00"
+    },
+    {
+      "symbol": "ELON",
+      "chain": "robinhood",
+      "address": "0xf5308199fDEb5f8bEd30244bA472efaB4ECb17B5",
+      "source": "new",
+      "entry_price": 0.0003014,
+      "peak_price": 0.0003014,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T21:01:01.936873+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -45.19,
+      "peak_volume_m5": 243256.71,
+      "milestones_hit": [],
+      "exit_price": 0.0001652,
+      "exit_pct": -45.19,
+      "exit_time": "2026-09-05T21:02:06.724265+00:00"
     }
   ],
   "alerted": {
@@ -160982,6 +161008,7 @@
     "2pw42Poei4ys5drzQXnr8ePXUuc8utM8r2S98urSpump": "2026-09-05T20:35:41.234940+00:00",
     "0x491D91d9DcAE7C42f9B1C97C9F1DF23A64Bfadb2": "2026-09-05T20:41:59.593422+00:00",
     "0x5e7516be1be5d4396b060908cd44c9db093c4189": "2026-09-05T20:53:00.464719+00:00",
-    "0x5174ec882e98341f54c84a790b8f0983b3af671a": "2026-09-05T20:54:55.229061+00:00"
+    "0x5174ec882e98341f54c84a790b8f0983b3af671a": "2026-09-05T20:54:55.229061+00:00",
+    "0xf5308199fDEb5f8bEd30244bA472efaB4ECb17B5": "2026-09-05T21:02:06.724265+00:00"
   }
 }
