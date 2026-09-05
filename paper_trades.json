@@ -35,28 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "PINE",
-      "chain": "robinhood",
-      "address": "0xADB2487a1f225e4AC73FF2D32cB2EE360B857777",
-      "source": "new",
-      "entry_price": 0.0004973,
-      "peak_price": 0.0004973,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T22:01:10.973675+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "Windows",
       "chain": "robinhood",
       "address": "0xE741592c26d70E6b69c0Ff1d860515619BA625fA",
       "source": "new",
       "entry_price": 0.0003107,
-      "peak_price": 0.0003107,
+      "peak_price": 0.0003369,
       "trailing_active": false,
       "entry_time": "2026-09-05T22:01:12.351037+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.43,
+      "peak_volume_m5": 4446.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -153496,6 +153488,25 @@
       "exit_price": 0.0003197,
       "exit_pct": -26.89,
       "exit_time": "2026-09-05T21:53:57.022077+00:00"
+    },
+    {
+      "symbol": "PINE",
+      "chain": "robinhood",
+      "address": "0xADB2487a1f225e4AC73FF2D32cB2EE360B857777",
+      "source": "new",
+      "entry_price": 0.0004973,
+      "peak_price": 0.0004973,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T22:01:10.973675+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.48,
+      "peak_volume_m5": 16333.5,
+      "milestones_hit": [],
+      "exit_price": 0.0004203,
+      "exit_pct": -15.48,
+      "exit_time": "2026-09-05T22:02:04.155809+00:00"
     }
   ],
   "alerted": {
@@ -161269,6 +161280,7 @@
     "0xdDE892AE8de389dCd7d44B04B720A52868118717": "2026-09-05T21:42:54.811048+00:00",
     "0x67265602261Fc9269B811f5f57C4D6261eEb1e18": "2026-09-05T21:42:55.647284+00:00",
     "EcZMqqYxFdcKSMMEYuacVoaeeRxpc7R7G7zWma9zpump": "2026-09-05T21:45:54.229727+00:00",
-    "0xF74C13937297Cabc02920D4fFc04Ed2463ec55Ed": "2026-09-05T21:53:57.022077+00:00"
+    "0xF74C13937297Cabc02920D4fFc04Ed2463ec55Ed": "2026-09-05T21:53:57.022077+00:00",
+    "0xADB2487a1f225e4AC73FF2D32cB2EE360B857777": "2026-09-05T22:02:04.155809+00:00"
   }
 }
