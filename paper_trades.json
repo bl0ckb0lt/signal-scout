@@ -46,28 +46,9 @@
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 31.98,
+      "current_pct": 34.88,
       "peak_volume_m5": 4730.09,
       "milestones_hit": []
-    },
-    {
-      "symbol": "NODAL",
-      "chain": "robinhood",
-      "address": "0xc1c7679e3edA3D0949A879e125765ddeA302E6a3",
-      "source": "new",
-      "entry_price": 0.0001823,
-      "peak_price": 0.0004617,
-      "trailing_active": true,
-      "entry_time": "2026-09-06T10:21:01.987522+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 153.26,
-      "peak_volume_m5": 154533.48,
-      "milestones_hit": [
-        50,
-        100
-      ]
     },
     {
       "symbol": "ASTRA",
@@ -79,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T10:31:06.247686+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.09,
+      "peak_volume_m5": 66383.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -154944,6 +154929,28 @@
       "exit_price": 0.0002597,
       "exit_pct": -1.52,
       "exit_time": "2026-09-06T10:12:37.863520+00:00"
+    },
+    {
+      "symbol": "NODAL",
+      "chain": "robinhood",
+      "address": "0xc1c7679e3edA3D0949A879e125765ddeA302E6a3",
+      "source": "new",
+      "entry_price": 0.0001823,
+      "peak_price": 0.0004617,
+      "trailing_active": true,
+      "entry_time": "2026-09-06T10:21:01.987522+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 102.19,
+      "peak_volume_m5": 154533.48,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0003686,
+      "exit_pct": 102.19,
+      "exit_time": "2026-09-06T10:32:38.901570+00:00"
     }
   ],
   "alerted": {
@@ -162789,6 +162796,7 @@
     "0xb38e46b510c6b3901656aa64cb248da5ab8157af": "2026-09-06T09:32:12.120150+00:00",
     "79QBSBKfjKDigHJxJxJLxZe5WrHBMpiLULYyHQyApump": "2026-09-06T09:32:12.921663+00:00",
     "0x7E8eb43469499795dbFd60d4b0F81fF66aBecc11": "2026-09-06T09:33:52.681847+00:00",
-    "5V5YbQFWZe59YZGxP9yMZtCAUJ7b3nFmHgnWbYFUpump": "2026-09-06T10:12:37.863520+00:00"
+    "5V5YbQFWZe59YZGxP9yMZtCAUJ7b3nFmHgnWbYFUpump": "2026-09-06T10:12:37.863520+00:00",
+    "0xc1c7679e3edA3D0949A879e125765ddeA302E6a3": "2026-09-06T10:32:38.901570+00:00"
   }
 }
