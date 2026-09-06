@@ -40,27 +40,15 @@
       "address": "33LZGLLvtRDx3uAfJ1CcBSC7pNFqdiCBAvwPsVkBpump",
       "source": "new",
       "entry_price": 0.0007347,
-      "peak_price": 0.0008189,
-      "trailing_active": false,
+      "peak_price": 0.0009964,
+      "trailing_active": true,
       "entry_time": "2026-09-06T12:20:55.209941+00:00",
       "score": 87,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.46,
-      "peak_volume_m5": 74229.54,
+      "current_pct": 35.62,
+      "peak_volume_m5": 100738.16,
       "milestones_hit": []
-    },
-    {
-      "symbol": "DCAT",
-      "chain": "solana",
-      "address": "2sywcwJdrYWXr7h3xqNAoSKQfyutcBnFeVg5vP96pump",
-      "source": "boost",
-      "entry_price": 0.0001146,
-      "peak_price": 0.0001146,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T12:31:09.873488+00:00",
-      "score": 75,
-      "status": "open"
     },
     {
       "symbol": "LABCAT",
@@ -72,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T12:31:12.640804+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.9,
+      "peak_volume_m5": 1905.82,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -155195,6 +155187,25 @@
       "exit_price": 0.0002244,
       "exit_pct": -13.53,
       "exit_time": "2026-09-06T12:04:55.893268+00:00"
+    },
+    {
+      "symbol": "DCAT",
+      "chain": "solana",
+      "address": "2sywcwJdrYWXr7h3xqNAoSKQfyutcBnFeVg5vP96pump",
+      "source": "boost",
+      "entry_price": 0.0001146,
+      "peak_price": 0.0001146,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T12:31:09.873488+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.69,
+      "peak_volume_m5": 4697.29,
+      "milestones_hit": [],
+      "exit_price": 0.0001035,
+      "exit_pct": -9.69,
+      "exit_time": "2026-09-06T12:35:55.037261+00:00"
     }
   ],
   "alerted": {
@@ -163053,6 +163064,7 @@
     "0x71778C68a19F78Ec9dF17e7d3757363B16496689": "2026-09-06T11:42:34.820007+00:00",
     "0xF2E122a481b440C40Eee7A7cA6D5EEF65A591B76": "2026-09-06T11:44:39.461468+00:00",
     "8g9y9quGG4FPqWdzgamcBV3tkz2SKGMreKFTPob3pump": "2026-09-06T11:48:01.906905+00:00",
-    "GSBZLSX8R8nq9qp2fs5oaLcQS72aG1SFEyuqbS1Apump": "2026-09-06T12:04:55.893268+00:00"
+    "GSBZLSX8R8nq9qp2fs5oaLcQS72aG1SFEyuqbS1Apump": "2026-09-06T12:04:55.893268+00:00",
+    "2sywcwJdrYWXr7h3xqNAoSKQfyutcBnFeVg5vP96pump": "2026-09-06T12:35:55.037261+00:00"
   }
 }
