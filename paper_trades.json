@@ -17,18 +17,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BREW",
-      "chain": "bsc",
-      "address": "0xfa6D9B504848606Eb9aeC04CCc161D169B3f2159",
-      "source": "new",
-      "entry_price": 7.348e-05,
-      "peak_price": 7.348e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T04:00:55.115407+00:00",
-      "score": 73,
-      "status": "open"
     }
   ],
   "closed": [
@@ -154139,6 +154127,29 @@
       "exit_price": 8.808e-05,
       "exit_pct": -17.37,
       "exit_time": "2026-09-06T03:53:50.558364+00:00"
+    },
+    {
+      "symbol": "BREW",
+      "chain": "bsc",
+      "address": "0xfa6D9B504848606Eb9aeC04CCc161D169B3f2159",
+      "source": "new",
+      "entry_price": 7.348e-05,
+      "peak_price": 0.0003347,
+      "trailing_active": true,
+      "entry_time": "2026-09-06T04:00:55.115407+00:00",
+      "score": 73,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 355.5,
+      "peak_volume_m5": 64571.91,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003347,
+      "exit_pct": 355.5,
+      "exit_time": "2026-09-06T04:10:02.329576+00:00"
     }
   ],
   "alerted": {
@@ -161946,6 +161957,7 @@
     "0xE77Ed03b608A02829f569b0f116ec85cB7bF3cc7": "2026-09-06T03:36:44.168603+00:00",
     "9UV4VnRfPNLjhow9GqAMiYxJKUUJKvp3AHxcAmzcpump": "2026-09-06T03:43:45.447886+00:00",
     "4ytoC4JhuZsqyLC9jTYGxLvwGu4vELA9w4xWc4qRgHik": "2026-09-06T03:43:46.206684+00:00",
-    "0x1AE44823cC34C49dbf569511F91D61cc50F2cC23": "2026-09-06T03:53:50.558364+00:00"
+    "0x1AE44823cC34C49dbf569511F91D61cc50F2cC23": "2026-09-06T03:53:50.558364+00:00",
+    "0xfa6D9B504848606Eb9aeC04CCc161D169B3f2159": "2026-09-06T04:10:02.329576+00:00"
   }
 }
