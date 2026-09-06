@@ -60,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T15:01:09.970264+00:00",
       "score": 90,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.67,
+      "peak_volume_m5": 261372.9,
+      "milestones_hit": []
     },
     {
       "symbol": "WORTHLESS",
@@ -68,47 +72,15 @@
       "address": "EFxorMWHxTZhNK3gjnGAgmYUKTfqXRt6mKCpnFjipump",
       "source": "new",
       "entry_price": 0.0003166,
-      "peak_price": 0.0003166,
+      "peak_price": 0.0003466,
       "trailing_active": false,
       "entry_time": "2026-09-06T15:01:12.911397+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "ULCAT",
-      "chain": "solana",
-      "address": "Y8kyGRvobqkptmXPH2PLepA9cgYm7tsdeGuikRrpump",
-      "source": "boost",
-      "entry_price": 0.0002411,
-      "peak_price": 0.0002411,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T15:01:14.529003+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "IBM",
-      "chain": "robinhood",
-      "address": "0xe3899941514723b8f463ba115d8b0254cdfd9706",
-      "source": "new",
-      "entry_price": 0.000152,
-      "peak_price": 0.000152,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T15:01:15.950391+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "WU",
-      "chain": "robinhood",
-      "address": "0x727E02c785D3DD40148ff0a831Aee55990711e18",
-      "source": "new",
-      "entry_price": 0.0002555,
-      "peak_price": 0.0002555,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T15:01:17.376797+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.48,
+      "peak_volume_m5": 115741.47,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -155721,6 +155693,63 @@
       "exit_price": 8.615e-05,
       "exit_pct": -45.99,
       "exit_time": "2026-09-06T14:55:15.833255+00:00"
+    },
+    {
+      "symbol": "ULCAT",
+      "chain": "solana",
+      "address": "Y8kyGRvobqkptmXPH2PLepA9cgYm7tsdeGuikRrpump",
+      "source": "boost",
+      "entry_price": 0.0002411,
+      "peak_price": 0.0002411,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T15:01:14.529003+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.12,
+      "peak_volume_m5": 78318.56,
+      "milestones_hit": [],
+      "exit_price": 0.0002167,
+      "exit_pct": -10.12,
+      "exit_time": "2026-09-06T15:03:00.257287+00:00"
+    },
+    {
+      "symbol": "IBM",
+      "chain": "robinhood",
+      "address": "0xe3899941514723b8f463ba115d8b0254cdfd9706",
+      "source": "new",
+      "entry_price": 0.000152,
+      "peak_price": 0.000152,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T15:01:15.950391+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.8,
+      "peak_volume_m5": 61010.18,
+      "milestones_hit": [],
+      "exit_price": 9.303e-05,
+      "exit_pct": -38.8,
+      "exit_time": "2026-09-06T15:03:01.014184+00:00"
+    },
+    {
+      "symbol": "WU",
+      "chain": "robinhood",
+      "address": "0x727E02c785D3DD40148ff0a831Aee55990711e18",
+      "source": "new",
+      "entry_price": 0.0002555,
+      "peak_price": 0.0002555,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T15:01:17.376797+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.39,
+      "peak_volume_m5": 48072.49,
+      "milestones_hit": [],
+      "exit_price": 0.0002264,
+      "exit_pct": -11.39,
+      "exit_time": "2026-09-06T15:03:01.806805+00:00"
     }
   ],
   "alerted": {
@@ -163604,6 +163633,9 @@
     "0xb2758f0bd7f4D7976c4EfC825dca79882EdFE610": "2026-09-06T14:37:03.182751+00:00",
     "0x88Cb1c5F17e2baf333BB2841f0E0b8d40B9cd6a1": "2026-09-06T14:38:45.894962+00:00",
     "0xD95B2ba76c74dD9ec25c3a07Be6224A26F055816": "2026-09-06T14:43:38.478149+00:00",
-    "476MWyHnzcUc2jAnBxdqVBFZpArT3VGGwPsUHjnjA3GC": "2026-09-06T14:55:15.833255+00:00"
+    "476MWyHnzcUc2jAnBxdqVBFZpArT3VGGwPsUHjnjA3GC": "2026-09-06T14:55:15.833255+00:00",
+    "Y8kyGRvobqkptmXPH2PLepA9cgYm7tsdeGuikRrpump": "2026-09-06T15:03:00.257287+00:00",
+    "0xe3899941514723b8f463ba115d8b0254cdfd9706": "2026-09-06T15:03:01.014184+00:00",
+    "0x727E02c785D3DD40148ff0a831Aee55990711e18": "2026-09-06T15:03:01.806805+00:00"
   }
 }
