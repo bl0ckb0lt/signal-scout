@@ -51,28 +51,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ONLYSTICK",
-      "chain": "solana",
-      "address": "ACDCA4ndipepbaCQnkYyPhayGGNDS9PqnobSDirNpump",
-      "source": "new",
-      "entry_price": 0.000188,
-      "peak_price": 0.000188,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T20:41:03.419532+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "ERCM",
       "chain": "robinhood",
       "address": "0x19732a3DaE0a786274A0b7E3bc4D2EDB024b18E6",
       "source": "new",
       "entry_price": 1.427e-07,
-      "peak_price": 1.427e-07,
-      "trailing_active": false,
+      "peak_price": 1.801e-07,
+      "trailing_active": true,
       "entry_time": "2026-09-06T20:41:04.810610+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.21,
+      "peak_volume_m5": 28258.66,
+      "milestones_hit": []
     },
     {
       "symbol": "BREWING",
@@ -84,19 +76,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T20:41:06.733558+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "TOKUBI",
-      "chain": "solana",
-      "address": "AZJxs5CpVRDV5T4wxTCaHRaRHzZffQLiTR1LkET7pump",
-      "source": "new",
-      "entry_price": 0.0001118,
-      "peak_price": 0.0001118,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T20:41:08.465927+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.22,
+      "peak_volume_m5": 18014.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -156717,6 +156701,44 @@
       "exit_price": 2.374e-06,
       "exit_pct": -99.33,
       "exit_time": "2026-09-06T20:39:39.813157+00:00"
+    },
+    {
+      "symbol": "ONLYSTICK",
+      "chain": "solana",
+      "address": "ACDCA4ndipepbaCQnkYyPhayGGNDS9PqnobSDirNpump",
+      "source": "new",
+      "entry_price": 0.000188,
+      "peak_price": 0.000188,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T20:41:03.419532+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.29,
+      "peak_volume_m5": 23341.33,
+      "milestones_hit": [],
+      "exit_price": 0.0001649,
+      "exit_pct": -12.29,
+      "exit_time": "2026-09-06T20:42:15.966138+00:00"
+    },
+    {
+      "symbol": "TOKUBI",
+      "chain": "solana",
+      "address": "AZJxs5CpVRDV5T4wxTCaHRaRHzZffQLiTR1LkET7pump",
+      "source": "new",
+      "entry_price": 0.0001118,
+      "peak_price": 0.0001118,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T20:41:08.465927+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -93.84,
+      "peak_volume_m5": 176407.03,
+      "milestones_hit": [],
+      "exit_price": 6.885e-06,
+      "exit_pct": -93.84,
+      "exit_time": "2026-09-06T20:42:17.999316+00:00"
     }
   ],
   "alerted": {
@@ -164649,6 +164671,8 @@
     "FMRVmq3BWA2hZWBLCW389bsdoCRYd3YgSfSFdYaYpump": "2026-09-06T20:22:54.748042+00:00",
     "8oQo38kn5T1Lafzw3aUYdjJz7AwkVLmU3q4qrMQApump": "2026-09-06T20:23:54.497136+00:00",
     "0x827EcD0Dcd41DdfA8A42d7fc393f29cd9A7E1872": "2026-09-06T20:29:25.628278+00:00",
-    "FGrtNFHUZHbGoKXivi2r4gRmVstjsFqKZ3geVByHpump": "2026-09-06T20:39:39.813157+00:00"
+    "FGrtNFHUZHbGoKXivi2r4gRmVstjsFqKZ3geVByHpump": "2026-09-06T20:39:39.813157+00:00",
+    "ACDCA4ndipepbaCQnkYyPhayGGNDS9PqnobSDirNpump": "2026-09-06T20:42:15.966138+00:00",
+    "AZJxs5CpVRDV5T4wxTCaHRaRHzZffQLiTR1LkET7pump": "2026-09-06T20:42:17.999316+00:00"
   }
 }
