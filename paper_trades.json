@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "REBELLION",
-      "chain": "robinhood",
-      "address": "0xaa91C3000e3e84ac8B150a2b35C681D98E6e78E0",
-      "source": "new",
-      "entry_price": 0.0001418,
-      "peak_price": 0.0001418,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T06:21:08.870001+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "\u86cb\u5c0f\u9ed1",
       "chain": "bsc",
       "address": "0x30454106AA5DbB80d7D08cd81D513A7698F27777",
       "source": "new",
       "entry_price": 7.544e-05,
-      "peak_price": 7.544e-05,
+      "peak_price": 7.781e-05,
       "trailing_active": false,
       "entry_time": "2026-09-06T06:21:10.696550+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.14,
+      "peak_volume_m5": 3566.63,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -154464,6 +154456,25 @@
       "exit_price": 6.789e-05,
       "exit_pct": -8.36,
       "exit_time": "2026-09-06T06:03:52.159603+00:00"
+    },
+    {
+      "symbol": "REBELLION",
+      "chain": "robinhood",
+      "address": "0xaa91C3000e3e84ac8B150a2b35C681D98E6e78E0",
+      "source": "new",
+      "entry_price": 0.0001418,
+      "peak_price": 0.0001418,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T06:21:08.870001+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.25,
+      "peak_volume_m5": 33977.23,
+      "milestones_hit": [],
+      "exit_price": 0.0001216,
+      "exit_pct": -14.25,
+      "exit_time": "2026-09-06T06:22:02.360903+00:00"
     }
   ],
   "alerted": {
@@ -162286,6 +162297,7 @@
     "0xac9a8dc5b9bf3f87bc0b7e05b1b5bd420a776e06": "2026-09-06T05:33:23.969962+00:00",
     "D34ZQzp7voGxco9TGBxdn534eTi7xQtzAADfRGmYpump": "2026-09-06T05:42:18.693203+00:00",
     "0xfcb58396bC4d188cD812d1F19D98AC2a58f38dbE": "2026-09-06T05:42:19.367610+00:00",
-    "0x2Ff153bA4591d1B134E1e2ef42Fd897d2E686cC3": "2026-09-06T06:03:52.159603+00:00"
+    "0x2Ff153bA4591d1B134E1e2ef42Fd897d2E686cC3": "2026-09-06T06:03:52.159603+00:00",
+    "0xaa91C3000e3e84ac8B150a2b35C681D98E6e78E0": "2026-09-06T06:22:02.360903+00:00"
   }
 }
