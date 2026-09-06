@@ -40,11 +40,15 @@
       "address": "2HZ2kHzXTnHfVG7xsguWQEgNKrMUfjVz1qwU4srRpump",
       "source": "new",
       "entry_price": 0.0001408,
-      "peak_price": 0.0001408,
-      "trailing_active": false,
+      "peak_price": 0.0001879,
+      "trailing_active": true,
       "entry_time": "2026-09-06T13:21:10.263147+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.45,
+      "peak_volume_m5": 20125.11,
+      "milestones_hit": []
     },
     {
       "symbol": "Investor",
@@ -52,23 +56,15 @@
       "address": "0xa1296D2e89d2d79284f2c4125A7fAD70A5CF2Ed8",
       "source": "new",
       "entry_price": 0.0001205,
-      "peak_price": 0.0001205,
+      "peak_price": 0.0001245,
       "trailing_active": false,
       "entry_time": "2026-09-06T13:21:11.767851+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "Ruben",
-      "chain": "robinhood",
-      "address": "0xe041b7d2EaDD77BcB4F1C5FB6d4cc7B8f56840Dd",
-      "source": "new",
-      "entry_price": 0.000281,
-      "peak_price": 0.000281,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T13:21:14.790500+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.32,
+      "peak_volume_m5": 24998.99,
+      "milestones_hit": []
     },
     {
       "symbol": "NAUT",
@@ -76,11 +72,15 @@
       "address": "0x8053Aa09fC179ba5d36724735669Dd5FEd130e58",
       "source": "new",
       "entry_price": 0.0001134,
-      "peak_price": 0.0001134,
+      "peak_price": 0.0001231,
       "trailing_active": false,
       "entry_time": "2026-09-06T13:21:16.304342+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.55,
+      "peak_volume_m5": 3588.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -155419,6 +155419,25 @@
       "exit_price": 0.0005071,
       "exit_pct": -14.74,
       "exit_time": "2026-09-06T13:13:38.192910+00:00"
+    },
+    {
+      "symbol": "Ruben",
+      "chain": "robinhood",
+      "address": "0xe041b7d2EaDD77BcB4F1C5FB6d4cc7B8f56840Dd",
+      "source": "new",
+      "entry_price": 0.000281,
+      "peak_price": 0.000281,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T13:21:14.790500+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.63,
+      "peak_volume_m5": 53093.72,
+      "milestones_hit": [],
+      "exit_price": 0.0002455,
+      "exit_pct": -12.63,
+      "exit_time": "2026-09-06T13:23:41.317321+00:00"
     }
   ],
   "alerted": {
@@ -163288,6 +163307,7 @@
     "AnDQ9hDLAPBBcPebrqukTUGKGxC1zDSUBzyh3YXzpump": "2026-09-06T13:08:55.344412+00:00",
     "EaDv9jVZcNZiTtws2LWkiyeGGAx1w5P5Ba9BEKTWpump": "2026-09-06T13:12:45.744397+00:00",
     "0xABdf8FC81E0007513e8F391383bb9B772CB668b3": "2026-09-06T13:13:37.378753+00:00",
-    "0xA964AEc3C3F0D9b1394d9B0C7D7A9C221eD6bBef": "2026-09-06T13:13:38.192910+00:00"
+    "0xA964AEc3C3F0D9b1394d9B0C7D7A9C221eD6bBef": "2026-09-06T13:13:38.192910+00:00",
+    "0xe041b7d2EaDD77BcB4F1C5FB6d4cc7B8f56840Dd": "2026-09-06T13:23:41.317321+00:00"
   }
 }
