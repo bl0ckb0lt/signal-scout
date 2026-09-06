@@ -35,36 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "PUMPS",
-      "chain": "robinhood",
-      "address": "0x35a096fa83Dd98F44F1571732B86daAFd9762cA6",
-      "source": "new",
-      "entry_price": 0.0005611,
-      "peak_price": 0.001042,
-      "trailing_active": true,
-      "entry_time": "2026-09-06T11:10:56.348414+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 85.71,
-      "peak_volume_m5": 99251.29,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "SOLDOG",
-      "chain": "solana",
-      "address": "B9tCVUWeABvVs2J4MYJLB6v2Tj8muhZwQ8RHpwswpump",
-      "source": "boost",
-      "entry_price": 0.0001892,
-      "peak_price": 0.0001892,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T11:31:05.629856+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "OP",
       "chain": "robinhood",
       "address": "0x71778C68a19F78Ec9dF17e7d3757363B16496689",
@@ -74,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T11:31:07.149614+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "BABYPONS",
-      "chain": "robinhood",
-      "address": "0xBc7e5d630Fc4eE095De2535D20e5aF26958111A7",
-      "source": "boost",
-      "entry_price": 0.0001507,
-      "peak_price": 0.0001507,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T11:31:10.220783+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.89,
+      "peak_volume_m5": 60828.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -155072,6 +155034,65 @@
       "exit_price": 0.0002046,
       "exit_pct": -27.08,
       "exit_time": "2026-09-06T11:10:44.831755+00:00"
+    },
+    {
+      "symbol": "PUMPS",
+      "chain": "robinhood",
+      "address": "0x35a096fa83Dd98F44F1571732B86daAFd9762cA6",
+      "source": "new",
+      "entry_price": 0.0005611,
+      "peak_price": 0.001042,
+      "trailing_active": true,
+      "entry_time": "2026-09-06T11:10:56.348414+00:00",
+      "score": 87,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 0.78,
+      "peak_volume_m5": 109618.16,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0005655,
+      "exit_pct": 0.78,
+      "exit_time": "2026-09-06T11:32:36.828019+00:00"
+    },
+    {
+      "symbol": "SOLDOG",
+      "chain": "solana",
+      "address": "B9tCVUWeABvVs2J4MYJLB6v2Tj8muhZwQ8RHpwswpump",
+      "source": "boost",
+      "entry_price": 0.0001892,
+      "peak_price": 0.0001892,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T11:31:05.629856+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -55.53,
+      "peak_volume_m5": 45634.88,
+      "milestones_hit": [],
+      "exit_price": 8.414e-05,
+      "exit_pct": -55.53,
+      "exit_time": "2026-09-06T11:32:37.515222+00:00"
+    },
+    {
+      "symbol": "BABYPONS",
+      "chain": "robinhood",
+      "address": "0xBc7e5d630Fc4eE095De2535D20e5aF26958111A7",
+      "source": "boost",
+      "entry_price": 0.0001507,
+      "peak_price": 0.0001507,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T11:31:10.220783+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.48,
+      "peak_volume_m5": 23257.09,
+      "milestones_hit": [],
+      "exit_price": 0.0001334,
+      "exit_pct": -11.48,
+      "exit_time": "2026-09-06T11:32:38.549412+00:00"
     }
   ],
   "alerted": {
@@ -162923,6 +162944,9 @@
     "0x17472b240aa48F6e0D25b5a590C2dae2668d1823": "2026-09-06T10:44:01.766693+00:00",
     "AaEhFTX4naHSWSXz9TVe5QgLbtSLT8ZqYJGZzDDcoroh": "2026-09-06T10:52:00.460498+00:00",
     "0xa3a273b2B389e718c0C490a4BAEE9347cD4a007b": "2026-09-06T10:53:56.675062+00:00",
-    "EpzHhVpUU1QBNkGqqUSMQi74RpDqkbgbaRRMHsitpump": "2026-09-06T11:10:44.831755+00:00"
+    "EpzHhVpUU1QBNkGqqUSMQi74RpDqkbgbaRRMHsitpump": "2026-09-06T11:10:44.831755+00:00",
+    "0x35a096fa83Dd98F44F1571732B86daAFd9762cA6": "2026-09-06T11:32:36.828019+00:00",
+    "B9tCVUWeABvVs2J4MYJLB6v2Tj8muhZwQ8RHpwswpump": "2026-09-06T11:32:37.515222+00:00",
+    "0xBc7e5d630Fc4eE095De2535D20e5aF26958111A7": "2026-09-06T11:32:38.549412+00:00"
   }
 }
