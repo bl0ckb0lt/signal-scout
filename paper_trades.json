@@ -51,22 +51,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "MAGNET",
-      "chain": "robinhood",
-      "address": "0x23f48Ab4f77Fb8A4Aae597652633b14Be2aC1E18",
-      "source": "new",
-      "entry_price": 7.349e-05,
-      "peak_price": 8.226e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-05T23:51:04.946377+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 8.76,
-      "peak_volume_m5": 3113.08,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PONSG",
       "chain": "solana",
       "address": "GobuMLzJWbWcyAkbi3pYtZbJMTYjTWKVRVL1PYHTpump",
@@ -76,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-06T00:04:22.185281+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.74,
+      "peak_volume_m5": 99072.95,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -153789,6 +153777,25 @@
       "exit_price": 0.0004733,
       "exit_pct": -17.39,
       "exit_time": "2026-09-06T00:02:41.135480+00:00"
+    },
+    {
+      "symbol": "MAGNET",
+      "chain": "robinhood",
+      "address": "0x23f48Ab4f77Fb8A4Aae597652633b14Be2aC1E18",
+      "source": "new",
+      "entry_price": 7.349e-05,
+      "peak_price": 8.226e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-05T23:51:04.946377+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.45,
+      "peak_volume_m5": 4024.28,
+      "milestones_hit": [],
+      "exit_price": 6.728e-05,
+      "exit_pct": -8.45,
+      "exit_time": "2026-09-06T00:05:13.271653+00:00"
     }
   ],
   "alerted": {
@@ -161576,6 +161583,7 @@
     "0x8d1612b4B78eBf08CFBf01A04Fa270CCbB0509A2": "2026-09-05T23:43:32.316323+00:00",
     "0x1eC871553BE07Dc68Ec1661c32ecA7e2E46E1E18": "2026-09-05T23:43:33.217972+00:00",
     "0x6f02944b67df2f41f8210916c4E8C0bf74d2672c": "2026-09-05T23:52:41.383295+00:00",
-    "0x608970DE78059C3eEf829d21f979D78Fe155c18f": "2026-09-06T00:02:41.135480+00:00"
+    "0x608970DE78059C3eEf829d21f979D78Fe155c18f": "2026-09-06T00:02:41.135480+00:00",
+    "0x23f48Ab4f77Fb8A4Aae597652633b14Be2aC1E18": "2026-09-06T00:05:13.271653+00:00"
   }
 }
