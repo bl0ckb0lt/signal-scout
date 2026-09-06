@@ -49,30 +49,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Orlando",
-      "chain": "robinhood",
-      "address": "0x9b46832bC872F0B3E6c94f5b8E6333C8a762f047",
-      "source": "new",
-      "entry_price": 0.0001424,
-      "peak_price": 0.0001424,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T17:01:04.198951+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "DONG",
-      "chain": "robinhood",
-      "address": "0x5423e9130f00f704f32d06e7da294f1ab6b3ffef",
-      "source": "new",
-      "entry_price": 0.0002565,
-      "peak_price": 0.0002565,
-      "trailing_active": false,
-      "entry_time": "2026-09-06T17:01:05.881588+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -155997,6 +155973,44 @@
       "exit_price": 0.0001422,
       "exit_pct": -22.8,
       "exit_time": "2026-09-06T16:55:56.845502+00:00"
+    },
+    {
+      "symbol": "Orlando",
+      "chain": "robinhood",
+      "address": "0x9b46832bC872F0B3E6c94f5b8E6333C8a762f047",
+      "source": "new",
+      "entry_price": 0.0001424,
+      "peak_price": 0.0001424,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T17:01:04.198951+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -46.05,
+      "peak_volume_m5": 44018.62,
+      "milestones_hit": [],
+      "exit_price": 7.682e-05,
+      "exit_pct": -46.05,
+      "exit_time": "2026-09-06T17:01:50.890397+00:00"
+    },
+    {
+      "symbol": "DONG",
+      "chain": "robinhood",
+      "address": "0x5423e9130f00f704f32d06e7da294f1ab6b3ffef",
+      "source": "new",
+      "entry_price": 0.0002565,
+      "peak_price": 0.0002565,
+      "trailing_active": false,
+      "entry_time": "2026-09-06T17:01:05.881588+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.81,
+      "peak_volume_m5": 226961.94,
+      "milestones_hit": [],
+      "exit_price": 0.000198,
+      "exit_pct": -22.81,
+      "exit_time": "2026-09-06T17:01:51.742036+00:00"
     }
   ],
   "alerted": {
@@ -163895,6 +163909,8 @@
     "0xFd1c237B46D03a614EBd69a51455Dce3a0cE4487": "2026-09-06T16:08:55.477762+00:00",
     "0x56E82e94B1354C771f5901E4Af7eE4F1b08d4011": "2026-09-06T16:12:26.619817+00:00",
     "0xb6A98Fa2218829785ae62dFdc6900dFB8D48B7C2": "2026-09-06T16:43:17.015951+00:00",
-    "0xafa57C4c5a72d36530c8e816ad6E9a5947941536": "2026-09-06T16:55:56.845502+00:00"
+    "0xafa57C4c5a72d36530c8e816ad6E9a5947941536": "2026-09-06T16:55:56.845502+00:00",
+    "0x9b46832bC872F0B3E6c94f5b8E6333C8a762f047": "2026-09-06T17:01:50.890397+00:00",
+    "0x5423e9130f00f704f32d06e7da294f1ab6b3ffef": "2026-09-06T17:01:51.742036+00:00"
   }
 }
