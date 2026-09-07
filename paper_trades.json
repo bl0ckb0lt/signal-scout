@@ -13,7 +13,7 @@
       "entry_time": "2026-09-06T14:11:06.571304+00:00",
       "score": 86,
       "status": "open",
-      "api_failures": 15,
+      "api_failures": 16,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -37,34 +37,18 @@
       ]
     },
     {
-      "symbol": "DIME",
-      "chain": "robinhood",
-      "address": "0xE8A538FE95fFaFf5303FC138C124f6ece84a25eA",
-      "source": "new",
-      "entry_price": 0.000198,
-      "peak_price": 0.0002,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T12:31:17.051348+00:00",
-      "score": 74,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.01,
-      "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
       "symbol": "SPY",
       "chain": "robinhood",
       "address": "0xE87415417a9245EdaC806e588AE7a6d2247F54bA",
       "source": "new",
       "entry_price": 0.0001712,
-      "peak_price": 0.0002048,
+      "peak_price": 0.0002193,
       "trailing_active": true,
       "entry_time": "2026-09-07T14:31:08.468045+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 19.39,
+      "current_pct": 28.1,
       "peak_volume_m5": 3798.33,
       "milestones_hit": []
     }
@@ -159926,6 +159910,25 @@
       "exit_price": 0.0001087,
       "exit_pct": -23.88,
       "exit_time": "2026-09-07T14:53:31.903459+00:00"
+    },
+    {
+      "symbol": "DIME",
+      "chain": "robinhood",
+      "address": "0xE8A538FE95fFaFf5303FC138C124f6ece84a25eA",
+      "source": "new",
+      "entry_price": 0.000198,
+      "peak_price": 0.0002,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T12:31:17.051348+00:00",
+      "score": 74,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -100.0,
+      "peak_volume_m5": 22475.9,
+      "milestones_hit": [],
+      "exit_price": 2.031e-10,
+      "exit_pct": -100.0,
+      "exit_time": "2026-09-07T14:57:16.509744+00:00"
     }
   ],
   "alerted": {
@@ -168023,6 +168026,7 @@
     "0x10603834F033c6d949b174415EDa005A0B4727bb": "2026-09-07T14:52:29.064613+00:00",
     "0x319C5B3f8E46B70CB00769bC8020b4c08dDbc182": "2026-09-07T14:52:30.759546+00:00",
     "0x56aAa501Fa9Eb6670d6175D686957434c3d21E18": "2026-09-07T14:53:31.029486+00:00",
-    "0xD28c39841669a277B0e609502517e36316e8Bb2e": "2026-09-07T14:53:31.903459+00:00"
+    "0xD28c39841669a277B0e609502517e36316e8Bb2e": "2026-09-07T14:53:31.903459+00:00",
+    "0xE8A538FE95fFaFf5303FC138C124f6ece84a25eA": "2026-09-07T14:57:16.509744+00:00"
   }
 }
