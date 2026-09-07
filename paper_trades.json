@@ -13,7 +13,7 @@
       "entry_time": "2026-09-06T14:11:06.571304+00:00",
       "score": 86,
       "status": "open",
-      "api_failures": 7,
+      "api_failures": 8,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -53,32 +53,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ROBBY",
-      "chain": "robinhood",
-      "address": "0xF28f00d39C6aa5fF851978a70B6dD7340891FD5f",
-      "source": "new",
-      "entry_price": 0.0002498,
-      "peak_price": 0.0003587,
-      "trailing_active": true,
-      "entry_time": "2026-09-07T14:11:06.259621+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 34.95,
-      "peak_volume_m5": 7317.9,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HCLUB",
       "chain": "robinhood",
       "address": "0x10603834F033c6d949b174415EDa005A0B4727bb",
       "source": "new",
       "entry_price": 0.0004113,
-      "peak_price": 0.0004113,
-      "trailing_active": false,
+      "peak_price": 0.0005107,
+      "trailing_active": true,
       "entry_time": "2026-09-07T14:31:07.006895+00:00",
       "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.17,
+      "peak_volume_m5": 70840.19,
+      "milestones_hit": []
     },
     {
       "symbol": "SPY",
@@ -86,11 +74,15 @@
       "address": "0xE87415417a9245EdaC806e588AE7a6d2247F54bA",
       "source": "new",
       "entry_price": 0.0001712,
-      "peak_price": 0.0001712,
+      "peak_price": 0.0001783,
       "trailing_active": false,
       "entry_time": "2026-09-07T14:31:08.468045+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.15,
+      "peak_volume_m5": 3322.56,
+      "milestones_hit": []
     },
     {
       "symbol": "PACE",
@@ -98,11 +90,18 @@
       "address": "0x4ad2e9b5d56F14618bF52156bA4A8D3eA4A860d3",
       "source": "new",
       "entry_price": 0.0002949,
-      "peak_price": 0.0002949,
-      "trailing_active": false,
+      "peak_price": 0.0006987,
+      "trailing_active": true,
       "entry_time": "2026-09-07T14:31:09.905136+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 136.93,
+      "peak_volume_m5": 345957.11,
+      "milestones_hit": [
+        50,
+        100
+      ]
     },
     {
       "symbol": "ZSQUIRREL",
@@ -110,11 +109,15 @@
       "address": "FQ32S9X3LaQcZSmU84c7bMf14a41MCwJ3QhgqaBQR86E",
       "source": "new",
       "entry_price": 9.851e-05,
-      "peak_price": 9.851e-05,
+      "peak_price": 0.0001053,
       "trailing_active": false,
       "entry_time": "2026-09-07T14:31:11.754840+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.89,
+      "peak_volume_m5": 9118.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -159813,6 +159816,25 @@
       "exit_price": 0.0002164,
       "exit_pct": 16.91,
       "exit_time": "2026-09-07T14:25:03.018649+00:00"
+    },
+    {
+      "symbol": "ROBBY",
+      "chain": "robinhood",
+      "address": "0xF28f00d39C6aa5fF851978a70B6dD7340891FD5f",
+      "source": "new",
+      "entry_price": 0.0002498,
+      "peak_price": 0.0003587,
+      "trailing_active": true,
+      "entry_time": "2026-09-07T14:11:06.259621+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 31.31,
+      "peak_volume_m5": 9599.47,
+      "milestones_hit": [],
+      "exit_price": 0.000328,
+      "exit_pct": 31.31,
+      "exit_time": "2026-09-07T14:32:53.009883+00:00"
     }
   ],
   "alerted": {
@@ -167902,6 +167924,7 @@
     "9mEW4vsVNyHuDZHp5SfYNtGWC8o7HEbNt6fbXP4ypump": "2026-09-07T13:52:50.252411+00:00",
     "2fCGfgPvRKiXDGr8xd1imfhi4TGAt86P6V2BdNUCpump": "2026-09-07T14:02:20.465320+00:00",
     "3AYoXndydYjUwXuvxho8nCgTgtc4gBM3Bv7BZxCypump": "2026-09-07T14:22:53.663434+00:00",
-    "69i2k5bwac9f7UAackSGN1kXAngvttEcyMBfowkpump": "2026-09-07T14:25:03.018649+00:00"
+    "69i2k5bwac9f7UAackSGN1kXAngvttEcyMBfowkpump": "2026-09-07T14:25:03.018649+00:00",
+    "0xF28f00d39C6aa5fF851978a70B6dD7340891FD5f": "2026-09-07T14:32:53.009883+00:00"
   }
 }
