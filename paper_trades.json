@@ -37,22 +37,6 @@
       ]
     },
     {
-      "symbol": "NVIDUCK",
-      "chain": "solana",
-      "address": "38fFmvnHU2QFWTN9uwLwSwpvAJ3DcnyESYopPyTUpump",
-      "source": "new",
-      "entry_price": 0.0001962,
-      "peak_price": 0.0002524,
-      "trailing_active": true,
-      "entry_time": "2026-09-07T12:31:13.902693+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 28.64,
-      "peak_volume_m5": 67340.2,
-      "milestones_hit": []
-    },
-    {
       "symbol": "DIME",
       "chain": "robinhood",
       "address": "0xE8A538FE95fFaFf5303FC138C124f6ece84a25eA",
@@ -69,28 +53,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "TESLOTH",
-      "chain": "solana",
-      "address": "uUMv7qqANodrkLgZ5DKv1W8ZtpHZcRRJGZ2fcThpump",
-      "source": "new",
-      "entry_price": 0.0001497,
-      "peak_price": 0.0001497,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T12:41:15.247813+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "OPTIONSPAD",
       "chain": "robinhood",
       "address": "0xB909312023F7087d894A9b958599CB36F2D19967",
       "source": "new",
       "entry_price": 0.0001402,
-      "peak_price": 0.0001402,
-      "trailing_active": false,
+      "peak_price": 0.0002215,
+      "trailing_active": true,
       "entry_time": "2026-09-07T12:41:16.757603+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 57.99,
+      "peak_volume_m5": 19027.21,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "ANYTHINGPAD",
@@ -98,11 +76,15 @@
       "address": "0x7fdcc669014afa2c33df27a96169f900b17f737d",
       "source": "new",
       "entry_price": 0.000174,
-      "peak_price": 0.000174,
-      "trailing_active": false,
+      "peak_price": 0.0002005,
+      "trailing_active": true,
       "entry_time": "2026-09-07T12:41:25.482992+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.23,
+      "peak_volume_m5": 145925.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -159492,6 +159474,44 @@
       "exit_price": 0.0001535,
       "exit_pct": -5.07,
       "exit_time": "2026-09-07T12:33:19.759943+00:00"
+    },
+    {
+      "symbol": "NVIDUCK",
+      "chain": "solana",
+      "address": "38fFmvnHU2QFWTN9uwLwSwpvAJ3DcnyESYopPyTUpump",
+      "source": "new",
+      "entry_price": 0.0001962,
+      "peak_price": 0.0002524,
+      "trailing_active": true,
+      "entry_time": "2026-09-07T12:31:13.902693+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 1.78,
+      "peak_volume_m5": 67340.2,
+      "milestones_hit": [],
+      "exit_price": 0.0001997,
+      "exit_pct": 1.78,
+      "exit_time": "2026-09-07T12:42:32.844748+00:00"
+    },
+    {
+      "symbol": "TESLOTH",
+      "chain": "solana",
+      "address": "uUMv7qqANodrkLgZ5DKv1W8ZtpHZcRRJGZ2fcThpump",
+      "source": "new",
+      "entry_price": 0.0001497,
+      "peak_price": 0.0001497,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T12:41:15.247813+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -44.18,
+      "peak_volume_m5": 128932.39,
+      "milestones_hit": [],
+      "exit_price": 8.356e-05,
+      "exit_pct": -44.18,
+      "exit_time": "2026-09-07T12:42:33.878118+00:00"
     }
   ],
   "alerted": {
@@ -167565,6 +167585,8 @@
     "0xE67a65315F8a0fa59F338f749789c58C726dbD96": "2026-09-07T12:32:27.310541+00:00",
     "0x7A49E2A5F3AC5C7566625D449cD9e31cf7dA6E0a": "2026-09-07T12:32:29.378749+00:00",
     "0xE05BA8A2a80E8856ffa1170A792BA9a4aC09b810": "2026-09-07T12:32:30.067110+00:00",
-    "FZpngrJ1Z2BbAthurPHVQT3eBqQkK37wnJJCDpD2pump": "2026-09-07T12:33:19.759943+00:00"
+    "FZpngrJ1Z2BbAthurPHVQT3eBqQkK37wnJJCDpD2pump": "2026-09-07T12:33:19.759943+00:00",
+    "38fFmvnHU2QFWTN9uwLwSwpvAJ3DcnyESYopPyTUpump": "2026-09-07T12:42:32.844748+00:00",
+    "uUMv7qqANodrkLgZ5DKv1W8ZtpHZcRRJGZ2fcThpump": "2026-09-07T12:42:33.878118+00:00"
   }
 }
