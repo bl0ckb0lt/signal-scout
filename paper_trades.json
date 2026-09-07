@@ -26,23 +26,15 @@
       "address": "0xBc9cc4b93A08B2dfBA87067a9C53E713DB3314Ce",
       "source": "boost",
       "entry_price": 0.001764,
-      "peak_price": 0.001764,
-      "trailing_active": false,
+      "peak_price": 0.002058,
+      "trailing_active": true,
       "entry_time": "2026-09-07T22:21:03.323369+00:00",
       "score": 100,
-      "status": "open"
-    },
-    {
-      "symbol": "LIGER",
-      "chain": "solana",
-      "address": "J36mBMBFnGznSibqSemkCFnT2BNvaxNsxDMNS2mYLeA9",
-      "source": "new",
-      "entry_price": 0.002167,
-      "peak_price": 0.002167,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T22:21:11.634686+00:00",
-      "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.67,
+      "peak_volume_m5": 293277.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161682,6 +161674,25 @@
       "exit_price": 0.0001122,
       "exit_pct": 9.25,
       "exit_time": "2026-09-07T22:18:21.592318+00:00"
+    },
+    {
+      "symbol": "LIGER",
+      "chain": "solana",
+      "address": "J36mBMBFnGznSibqSemkCFnT2BNvaxNsxDMNS2mYLeA9",
+      "source": "new",
+      "entry_price": 0.002167,
+      "peak_price": 0.002167,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T22:21:11.634686+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.61,
+      "peak_volume_m5": 325762.75,
+      "milestones_hit": [],
+      "exit_price": 0.001417,
+      "exit_pct": -34.61,
+      "exit_time": "2026-09-07T22:22:53.933639+00:00"
     }
   ],
   "alerted": {
@@ -169868,6 +169879,7 @@
     "0xf1D0c16A8924207783C0B2397b68Bc7635908736": "2026-09-07T22:12:43.832372+00:00",
     "0x5b6c8dBd88b8d2834B2F4cC03D81b3171842a2AE": "2026-09-07T22:13:43.693492+00:00",
     "G1iAXxMEsx6EwtPyw5mLgvWoZZVPhNKiHjimFti8pump": "2026-09-07T22:13:45.639697+00:00",
-    "7m8rtqGqC39TdYxwSP8Rg2tfpoRUdT9bVKmqNeGzpump": "2026-09-07T22:18:21.592318+00:00"
+    "7m8rtqGqC39TdYxwSP8Rg2tfpoRUdT9bVKmqNeGzpump": "2026-09-07T22:18:21.592318+00:00",
+    "J36mBMBFnGznSibqSemkCFnT2BNvaxNsxDMNS2mYLeA9": "2026-09-07T22:22:53.933639+00:00"
   }
 }
