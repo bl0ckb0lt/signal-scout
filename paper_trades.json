@@ -33,22 +33,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BEBE",
-      "chain": "solana",
-      "address": "B5npKQVxAJc3ojyFbfPwxFXxmpdqfssqRNHnk39xpump",
-      "source": "new",
-      "entry_price": 0.001043,
-      "peak_price": 0.001268,
-      "trailing_active": true,
-      "entry_time": "2026-09-07T01:01:08.305270+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.57,
-      "peak_volume_m5": 2319.42,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -157592,6 +157576,25 @@
       "exit_price": 7.774e-05,
       "exit_pct": -40.79,
       "exit_time": "2026-09-07T01:22:46.040132+00:00"
+    },
+    {
+      "symbol": "BEBE",
+      "chain": "solana",
+      "address": "B5npKQVxAJc3ojyFbfPwxFXxmpdqfssqRNHnk39xpump",
+      "source": "new",
+      "entry_price": 0.001043,
+      "peak_price": 0.00128,
+      "trailing_active": true,
+      "entry_time": "2026-09-07T01:01:08.305270+00:00",
+      "score": 78,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 22.72,
+      "peak_volume_m5": 2319.42,
+      "milestones_hit": [],
+      "exit_price": 0.00128,
+      "exit_pct": 22.72,
+      "exit_time": "2026-09-07T01:27:25.557721+00:00"
     }
   ],
   "alerted": {
@@ -165571,6 +165574,7 @@
     "0x918fb5cAC0438bFc404890c867Ec8b71BA6C7777": "2026-09-07T01:03:32.358159+00:00",
     "0xC8Ddfa7773362e616B0D7FC35576Bf96cE31e5D9": "2026-09-07T01:17:01.496732+00:00",
     "0xD7f1B405c3eBB168F2c2329324D88a9e65C427d2": "2026-09-07T01:22:45.372567+00:00",
-    "0x77f34db03AC887b3c432332b20521C6Ed985666d": "2026-09-07T01:22:46.040132+00:00"
+    "0x77f34db03AC887b3c432332b20521C6Ed985666d": "2026-09-07T01:22:46.040132+00:00",
+    "B5npKQVxAJc3ojyFbfPwxFXxmpdqfssqRNHnk39xpump": "2026-09-07T01:27:25.557721+00:00"
   }
 }
