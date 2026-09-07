@@ -35,37 +35,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Feetcoin",
-      "chain": "solana",
-      "address": "4io5KiYScZS89bQqDVoGkmvyXY4RsQXs8WcLe758J9jX",
-      "source": "new",
-      "entry_price": 0.0001427,
-      "peak_price": 0.0001528,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T02:21:10.420257+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.08,
-      "peak_volume_m5": 32582.42,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PRIMECAT",
       "chain": "solana",
       "address": "6fbgUAM323YmfyA9cE3wozr7UKHhgquW4qBCgGhxHLDt",
       "source": "new",
       "entry_price": 8.074e-05,
-      "peak_price": 0.0001572,
+      "peak_price": 0.0001672,
       "trailing_active": true,
       "entry_time": "2026-09-07T02:21:12.356786+00:00",
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 94.7,
+      "current_pct": 107.08,
       "peak_volume_m5": 22736.68,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
     },
     {
@@ -74,23 +59,15 @@
       "address": "ERUxAtmgigYMwAVXWHxZC32Tw4rkGjQEcPxQBwL1pump",
       "source": "new",
       "entry_price": 0.0001113,
-      "peak_price": 0.0001113,
-      "trailing_active": false,
+      "peak_price": 0.0001486,
+      "trailing_active": true,
       "entry_time": "2026-09-07T02:31:15.678651+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "LPY",
-      "chain": "robinhood",
-      "address": "0x657D61EB6952Be67750C87F88298ff47ECE51E18",
-      "source": "new",
-      "entry_price": 0.0001665,
-      "peak_price": 0.0001665,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T02:31:19.060015+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.51,
+      "peak_volume_m5": 103494.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -157812,6 +157789,44 @@
       "exit_price": 0.001842,
       "exit_pct": -14.56,
       "exit_time": "2026-09-07T02:13:23.781215+00:00"
+    },
+    {
+      "symbol": "Feetcoin",
+      "chain": "solana",
+      "address": "4io5KiYScZS89bQqDVoGkmvyXY4RsQXs8WcLe758J9jX",
+      "source": "new",
+      "entry_price": 0.0001427,
+      "peak_price": 0.0001528,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T02:21:10.420257+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.84,
+      "peak_volume_m5": 32582.42,
+      "milestones_hit": [],
+      "exit_price": 0.0001201,
+      "exit_pct": -15.84,
+      "exit_time": "2026-09-07T02:32:47.500565+00:00"
+    },
+    {
+      "symbol": "LPY",
+      "chain": "robinhood",
+      "address": "0x657D61EB6952Be67750C87F88298ff47ECE51E18",
+      "source": "new",
+      "entry_price": 0.0001665,
+      "peak_price": 0.0001665,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T02:31:19.060015+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.23,
+      "peak_volume_m5": 11607.56,
+      "milestones_hit": [],
+      "exit_price": 0.0001528,
+      "exit_pct": -8.23,
+      "exit_time": "2026-09-07T02:32:49.437268+00:00"
     }
   ],
   "alerted": {
@@ -165800,6 +165815,8 @@
     "CTALnV64vd1dkMxvtsuBgoYVhzB8tZ1XyRQFNS3ppump": "2026-09-07T01:53:21.465742+00:00",
     "0xaFBE8e2b28c2Fa700bf272D2438a58A238947777": "2026-09-07T02:02:38.935597+00:00",
     "5wwPbfPwiHXbrejgX5qQeMh5t8Q5wPgH1fkEyyVYpump": "2026-09-07T02:03:30.692122+00:00",
-    "0xb19f5a6E22f9057980b08fF05B7f5a6878aB0C8A": "2026-09-07T02:13:23.781215+00:00"
+    "0xb19f5a6E22f9057980b08fF05B7f5a6878aB0C8A": "2026-09-07T02:13:23.781215+00:00",
+    "4io5KiYScZS89bQqDVoGkmvyXY4RsQXs8WcLe758J9jX": "2026-09-07T02:32:47.500565+00:00",
+    "0x657D61EB6952Be67750C87F88298ff47ECE51E18": "2026-09-07T02:32:49.437268+00:00"
   }
 }
