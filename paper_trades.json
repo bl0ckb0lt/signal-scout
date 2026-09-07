@@ -32,23 +32,11 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 50.06,
+      "current_pct": 47.96,
       "peak_volume_m5": 3798.33,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "ABOX",
-      "chain": "robinhood",
-      "address": "0x88432b4130df938808D677a35794868fA995086A",
-      "source": "new",
-      "entry_price": 0.0001723,
-      "peak_price": 0.0001723,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T15:41:12.478673+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "PRE-CRIME",
@@ -60,7 +48,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T15:41:14.033866+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.04,
+      "peak_volume_m5": 29229.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -160096,6 +160088,25 @@
       "exit_price": 8.815e-05,
       "exit_pct": 8.89,
       "exit_time": "2026-09-07T15:40:09.583830+00:00"
+    },
+    {
+      "symbol": "ABOX",
+      "chain": "robinhood",
+      "address": "0x88432b4130df938808D677a35794868fA995086A",
+      "source": "new",
+      "entry_price": 0.0001723,
+      "peak_price": 0.0001723,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T15:41:12.478673+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -47.59,
+      "peak_volume_m5": 52979.86,
+      "milestones_hit": [],
+      "exit_price": 9.03e-05,
+      "exit_pct": -47.59,
+      "exit_time": "2026-09-07T15:42:05.928040+00:00"
     }
   ],
   "alerted": {
@@ -168202,6 +168213,7 @@
     "0x28AE239860213C91beb2c43F32667d630419cbda": "2026-09-07T15:34:50.336765+00:00",
     "BGbzLQAF4AGou24pZCRVYdAb1yCmobKAPFPtb5zfs6My": "2026-09-07T15:34:52.148830+00:00",
     "0x5c3938dedd3a74A6F1863d1CB3cDBEeE85accB9E": "2026-09-07T15:34:54.489798+00:00",
-    "0x04B40C0Bb4d675642662688AFF294fE288877Cb8": "2026-09-07T15:40:09.583830+00:00"
+    "0x04B40C0Bb4d675642662688AFF294fE288877Cb8": "2026-09-07T15:40:09.583830+00:00",
+    "0x88432b4130df938808D677a35794868fA995086A": "2026-09-07T15:42:05.928040+00:00"
   }
 }
