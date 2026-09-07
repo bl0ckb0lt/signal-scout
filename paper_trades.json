@@ -21,40 +21,20 @@
       ]
     },
     {
-      "symbol": "MAYE",
-      "chain": "robinhood",
-      "address": "0x23A0669e8AB50b1d9E9a72DB808399dfF952cc80",
-      "source": "new",
-      "entry_price": 0.004029,
-      "peak_price": 0.004029,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T20:31:05.114678+00:00",
-      "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "stonk",
-      "chain": "bsc",
-      "address": "0xC004A39Dc3556316dd7E672B0eeE1BE26c747777",
-      "source": "new",
-      "entry_price": 0.0004799,
-      "peak_price": 0.0004799,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T20:31:07.138151+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "FIN",
       "chain": "solana",
       "address": "Er3NK7e3ax7f8mGDC9fWtTseZjDYpvCFiBoF9YX7N3ZS",
       "source": "new",
       "entry_price": 0.0001813,
-      "peak_price": 0.0001813,
+      "peak_price": 0.0001851,
       "trailing_active": false,
       "entry_time": "2026-09-07T20:31:08.969445+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.1,
+      "peak_volume_m5": 42693.82,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161170,6 +161150,44 @@
       "exit_price": 8.46e-05,
       "exit_pct": -15.05,
       "exit_time": "2026-09-07T20:21:05.131334+00:00"
+    },
+    {
+      "symbol": "MAYE",
+      "chain": "robinhood",
+      "address": "0x23A0669e8AB50b1d9E9a72DB808399dfF952cc80",
+      "source": "new",
+      "entry_price": 0.004029,
+      "peak_price": 0.004029,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T20:31:05.114678+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.32,
+      "peak_volume_m5": 1261904.61,
+      "milestones_hit": [],
+      "exit_price": 0.003573,
+      "exit_pct": -11.32,
+      "exit_time": "2026-09-07T20:32:08.864661+00:00"
+    },
+    {
+      "symbol": "stonk",
+      "chain": "bsc",
+      "address": "0xC004A39Dc3556316dd7E672B0eeE1BE26c747777",
+      "source": "new",
+      "entry_price": 0.0004799,
+      "peak_price": 0.0004799,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T20:31:07.138151+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.96,
+      "peak_volume_m5": 231082.34,
+      "milestones_hit": [],
+      "exit_price": 0.0004369,
+      "exit_pct": -8.96,
+      "exit_time": "2026-09-07T20:32:09.529638+00:00"
     }
   ],
   "alerted": {
@@ -169330,6 +169348,8 @@
     "GiwMipRgtHGG2qPxBRioQ7ZLzFneKm6py4jKKs6ipump": "2026-09-07T20:02:55.596741+00:00",
     "0x670231f7AEA584cc192265357e391db6EB0aDC63": "2026-09-07T20:02:56.643680+00:00",
     "32ZMoTEWAUa4Ac1awAqhxNuK8BckupLuARYjkMqrpump": "2026-09-07T20:04:53.950146+00:00",
-    "0xc0878eF2BbDc2b0e1bA0061931f32B696a1796E3": "2026-09-07T20:21:05.131334+00:00"
+    "0xc0878eF2BbDc2b0e1bA0061931f32B696a1796E3": "2026-09-07T20:21:05.131334+00:00",
+    "0x23A0669e8AB50b1d9E9a72DB808399dfF952cc80": "2026-09-07T20:32:08.864661+00:00",
+    "0xC004A39Dc3556316dd7E672B0eeE1BE26c747777": "2026-09-07T20:32:09.529638+00:00"
   }
 }
