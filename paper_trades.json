@@ -21,28 +21,20 @@
       ]
     },
     {
-      "symbol": "NVDA6900",
-      "chain": "solana",
-      "address": "5RficTcrnsNbrc51SptB98bPQTCNpJ1d2sJ8V7eDpump",
-      "source": "new",
-      "entry_price": 0.0002532,
-      "peak_price": 0.0002532,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T18:21:06.069328+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "COMPONS",
       "chain": "robinhood",
       "address": "0x8892f21654c03A1900581AFFFD955d2a867F5E68",
       "source": "new",
       "entry_price": 0.0003285,
-      "peak_price": 0.0003285,
+      "peak_price": 0.0003478,
       "trailing_active": false,
       "entry_time": "2026-09-07T18:21:07.595107+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.88,
+      "peak_volume_m5": 146375.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -160675,6 +160667,25 @@
       "exit_price": 0.0001153,
       "exit_pct": -18.4,
       "exit_time": "2026-09-07T18:16:14.261501+00:00"
+    },
+    {
+      "symbol": "NVDA6900",
+      "chain": "solana",
+      "address": "5RficTcrnsNbrc51SptB98bPQTCNpJ1d2sJ8V7eDpump",
+      "source": "new",
+      "entry_price": 0.0002532,
+      "peak_price": 0.0002532,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T18:21:06.069328+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.48,
+      "peak_volume_m5": 104744.34,
+      "milestones_hit": [],
+      "exit_price": 0.000214,
+      "exit_pct": -15.48,
+      "exit_time": "2026-09-07T18:22:44.564661+00:00"
     }
   ],
   "alerted": {
@@ -168811,6 +168822,7 @@
     "0x4715458c63FF186Fe2B2e7E275d048C1EA85DC85": "2026-09-07T18:07:08.355100+00:00",
     "0xF86410053A066ae60947940cB25a63DEeBf8650e": "2026-09-07T18:12:33.721615+00:00",
     "8VsFryV6n8tNfU49L1GmaDp9LU1ubz6DbgjqKBMF3G3G": "2026-09-07T18:14:22.753450+00:00",
-    "FnTGZSH7aASVNmxUKpBFaVgFfxrb5uotuujqJbaMNN65": "2026-09-07T18:16:14.261501+00:00"
+    "FnTGZSH7aASVNmxUKpBFaVgFfxrb5uotuujqJbaMNN65": "2026-09-07T18:16:14.261501+00:00",
+    "5RficTcrnsNbrc51SptB98bPQTCNpJ1d2sJ8V7eDpump": "2026-09-07T18:22:44.564661+00:00"
   }
 }
