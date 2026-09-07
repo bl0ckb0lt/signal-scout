@@ -21,28 +21,20 @@
       ]
     },
     {
-      "symbol": "LEVERTRUMP",
-      "chain": "solana",
-      "address": "DCTmfZU4R7dkPKPUoyJzMyUYX52umw5Zzoe7NuGLpump",
-      "source": "new",
-      "entry_price": 0.0002412,
-      "peak_price": 0.0002412,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T21:21:01.815468+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "ape",
       "chain": "solana",
       "address": "74ibkiorSf8xkyVZD7ewhbL3H7upqevjoQCDATxwpump",
       "source": "new",
       "entry_price": 0.0001629,
-      "peak_price": 0.0001629,
-      "trailing_active": false,
+      "peak_price": 0.0001943,
+      "trailing_active": true,
       "entry_time": "2026-09-07T21:21:06.644507+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.28,
+      "peak_volume_m5": 39358.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161336,6 +161328,25 @@
       "exit_price": 0.0009429,
       "exit_pct": -14.98,
       "exit_time": "2026-09-07T21:18:05.388420+00:00"
+    },
+    {
+      "symbol": "LEVERTRUMP",
+      "chain": "solana",
+      "address": "DCTmfZU4R7dkPKPUoyJzMyUYX52umw5Zzoe7NuGLpump",
+      "source": "new",
+      "entry_price": 0.0002412,
+      "peak_price": 0.0002412,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T21:21:01.815468+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.93,
+      "peak_volume_m5": 111321.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001473,
+      "exit_pct": -38.93,
+      "exit_time": "2026-09-07T21:22:41.981832+00:00"
     }
   ],
   "alerted": {
@@ -169504,6 +169515,7 @@
     "0x1a7EAEc7d9E7e5123416b7B29ae8bC9B57c00922": "2026-09-07T20:56:55.353111+00:00",
     "J4jBCJgHAyskfZXe1LrvK8gBHpVzDqXX8NV7R9ANpump": "2026-09-07T20:57:57.364218+00:00",
     "0x32c4fDDeF84A68B3301fEdb6304a6044940A3594": "2026-09-07T21:07:27.450209+00:00",
-    "0xa2bC8eB4fC7799F950C0682077B331C75047Ab76": "2026-09-07T21:14:35.217724+00:00"
+    "0xa2bC8eB4fC7799F950C0682077B331C75047Ab76": "2026-09-07T21:14:35.217724+00:00",
+    "DCTmfZU4R7dkPKPUoyJzMyUYX52umw5Zzoe7NuGLpump": "2026-09-07T21:22:41.981832+00:00"
   }
 }
