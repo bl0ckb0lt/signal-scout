@@ -35,18 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Grogu",
-      "chain": "bsc",
-      "address": "0x9e9D2D61E5eF2D7D778ABa46799E4Bf731cD626B",
-      "source": "new",
-      "entry_price": 0.0003711,
-      "peak_price": 0.0003711,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T01:01:06.591609+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "BEBE",
       "chain": "solana",
       "address": "B5npKQVxAJc3ojyFbfPwxFXxmpdqfssqRNHnk39xpump",
@@ -56,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T01:01:08.305270+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "Nasduck",
-      "chain": "solana",
-      "address": "7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze",
-      "source": "new",
-      "entry_price": 0.0002521,
-      "peak_price": 0.0002521,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T01:01:09.992930+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 127.66,
+      "milestones_hit": []
     },
     {
       "symbol": "\u9690\u79c1\u72d7",
@@ -80,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T01:01:11.540083+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.44,
+      "peak_volume_m5": 16493.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -157510,6 +157494,44 @@
       "exit_price": 0.0002169,
       "exit_pct": -12.75,
       "exit_time": "2026-09-07T00:47:03.101490+00:00"
+    },
+    {
+      "symbol": "Grogu",
+      "chain": "bsc",
+      "address": "0x9e9D2D61E5eF2D7D778ABa46799E4Bf731cD626B",
+      "source": "new",
+      "entry_price": 0.0003711,
+      "peak_price": 0.0003711,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T01:01:06.591609+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.8,
+      "peak_volume_m5": 37017.36,
+      "milestones_hit": [],
+      "exit_price": 0.0002939,
+      "exit_pct": -20.8,
+      "exit_time": "2026-09-07T01:02:36.557261+00:00"
+    },
+    {
+      "symbol": "Nasduck",
+      "chain": "solana",
+      "address": "7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze",
+      "source": "new",
+      "entry_price": 0.0002521,
+      "peak_price": 0.0002521,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T01:01:09.992930+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.6,
+      "peak_volume_m5": 155846.86,
+      "milestones_hit": [],
+      "exit_price": 0.0002153,
+      "exit_pct": -14.6,
+      "exit_time": "2026-09-07T01:02:37.673464+00:00"
     }
   ],
   "alerted": {
@@ -165483,6 +165505,8 @@
     "0xe1f61f26e37c71405bFf10398a1E553913F9AC16": "2026-09-07T00:29:33.517371+00:00",
     "0xdc796113a6E389F99D2fD2711b2efa404Dd01088": "2026-09-07T00:33:45.821023+00:00",
     "0xcC3CC9cE3A657472f3c10749aB8EBd3885b4B19e": "2026-09-07T00:42:24.516396+00:00",
-    "F3hJ64M6xTmHYGgqkcgVPZx7sVMxb9FqUHBeXby3pump": "2026-09-07T00:47:03.101490+00:00"
+    "F3hJ64M6xTmHYGgqkcgVPZx7sVMxb9FqUHBeXby3pump": "2026-09-07T00:47:03.101490+00:00",
+    "0x9e9D2D61E5eF2D7D778ABa46799E4Bf731cD626B": "2026-09-07T01:02:36.557261+00:00",
+    "7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze": "2026-09-07T01:02:37.673464+00:00"
   }
 }
