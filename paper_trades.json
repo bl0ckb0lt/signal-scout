@@ -21,28 +21,20 @@
       ]
     },
     {
-      "symbol": "MEOWGN",
-      "chain": "solana",
-      "address": "D8thZLXaSCpYi4uCT9Sb38JThgxF8kPXjZKXraoGpump",
-      "source": "new",
-      "entry_price": 0.0001746,
-      "peak_price": 0.0001746,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T23:30:56.722517+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "PRISM",
       "chain": "robinhood",
       "address": "0x13F8469F141B0dEcae70529164eDeBc1D1f1b37C",
       "source": "new",
       "entry_price": 0.0001127,
-      "peak_price": 0.0001127,
-      "trailing_active": false,
+      "peak_price": 0.0001419,
+      "trailing_active": true,
       "entry_time": "2026-09-07T23:30:58.092324+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 25.91,
+      "peak_volume_m5": 36201.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161836,6 +161828,25 @@
       "exit_price": 0.0002474,
       "exit_pct": 41.78,
       "exit_time": "2026-09-07T23:23:33.986513+00:00"
+    },
+    {
+      "symbol": "MEOWGN",
+      "chain": "solana",
+      "address": "D8thZLXaSCpYi4uCT9Sb38JThgxF8kPXjZKXraoGpump",
+      "source": "new",
+      "entry_price": 0.0001746,
+      "peak_price": 0.0001746,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T23:30:56.722517+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.27,
+      "peak_volume_m5": 48086.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001462,
+      "exit_pct": -16.27,
+      "exit_time": "2026-09-07T23:32:26.759064+00:00"
     }
   ],
   "alerted": {
@@ -170030,6 +170041,7 @@
     "0x94B931fA19FacCFfB01773507bef2F5FAB3286Ea": "2026-09-07T22:37:55.986418+00:00",
     "0x3470f1cC6F710Df466a2108432D227805cDCB599": "2026-09-07T22:53:56.933289+00:00",
     "0xDC1bebBE6699242e0fD33E5B8ce2D369e582466a": "2026-09-07T23:20:53.074582+00:00",
-    "J6HiEgR1Tvf6uTbz7kvMLtVWNypkhkwdsMBoRKLz4WQs": "2026-09-07T23:23:33.986513+00:00"
+    "J6HiEgR1Tvf6uTbz7kvMLtVWNypkhkwdsMBoRKLz4WQs": "2026-09-07T23:23:33.986513+00:00",
+    "D8thZLXaSCpYi4uCT9Sb38JThgxF8kPXjZKXraoGpump": "2026-09-07T23:32:26.759064+00:00"
   }
 }
