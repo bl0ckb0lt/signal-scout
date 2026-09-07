@@ -46,21 +46,9 @@
       "score": 74,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 15.01,
+      "current_pct": 12.74,
       "peak_volume_m5": 2098.49,
       "milestones_hit": []
-    },
-    {
-      "symbol": "ASS",
-      "chain": "solana",
-      "address": "BWwj8gtTFSroDx4SzArpdwDPKA3h4Dn8Crn68idezXMb",
-      "source": "new",
-      "entry_price": 0.0001793,
-      "peak_price": 0.0001793,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T00:21:03.747906+00:00",
-      "score": 77,
-      "status": "open"
     },
     {
       "symbol": "BUXX",
@@ -68,23 +56,15 @@
       "address": "0xe1f61f26e37c71405bFf10398a1E553913F9AC16",
       "source": "new",
       "entry_price": 0.0004806,
-      "peak_price": 0.0004806,
+      "peak_price": 0.0005374,
       "trailing_active": false,
       "entry_time": "2026-09-07T00:21:06.391243+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "SHITCOIN",
-      "chain": "robinhood",
-      "address": "0xDE409C901b3e39e1F8999f407285C0a2dBdA4Da6",
-      "source": "new",
-      "entry_price": 0.0001061,
-      "peak_price": 0.0001061,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T00:21:07.706621+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.82,
+      "peak_volume_m5": 12609.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -157381,6 +157361,44 @@
       "exit_price": 0.0001975,
       "exit_pct": -14.28,
       "exit_time": "2026-09-07T00:14:53.281188+00:00"
+    },
+    {
+      "symbol": "ASS",
+      "chain": "solana",
+      "address": "BWwj8gtTFSroDx4SzArpdwDPKA3h4Dn8Crn68idezXMb",
+      "source": "new",
+      "entry_price": 0.0001793,
+      "peak_price": 0.0001793,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T00:21:03.747906+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.7,
+      "peak_volume_m5": 6654.32,
+      "milestones_hit": [],
+      "exit_price": 0.0001637,
+      "exit_pct": -8.7,
+      "exit_time": "2026-09-07T00:23:53.161725+00:00"
+    },
+    {
+      "symbol": "SHITCOIN",
+      "chain": "robinhood",
+      "address": "0xDE409C901b3e39e1F8999f407285C0a2dBdA4Da6",
+      "source": "new",
+      "entry_price": 0.0001061,
+      "peak_price": 0.0001061,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T00:21:07.706621+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.72,
+      "peak_volume_m5": 3017.95,
+      "milestones_hit": [],
+      "exit_price": 9.366e-05,
+      "exit_pct": -11.72,
+      "exit_time": "2026-09-07T00:23:54.203141+00:00"
     }
   ],
   "alerted": {
@@ -165348,6 +165366,8 @@
     "2LQFVf74b5z3Fx3JcB5Kev4Edvz7WAFMGprwtzkppump": "2026-09-06T23:58:21.528918+00:00",
     "DqVCyJqV3Tsm3ve1426cWi1NeEpgJRWAGFj6GRsVpump": "2026-09-07T00:00:58.293984+00:00",
     "6Fh8duBjyLk5HUvuK9cJKfh3TLDNDSE4XbgMLRdpump": "2026-09-07T00:03:01.104121+00:00",
-    "0x8729B8979Bbfbaed759B95901C5c076b49C36Bf5": "2026-09-07T00:14:53.281188+00:00"
+    "0x8729B8979Bbfbaed759B95901C5c076b49C36Bf5": "2026-09-07T00:14:53.281188+00:00",
+    "BWwj8gtTFSroDx4SzArpdwDPKA3h4Dn8Crn68idezXMb": "2026-09-07T00:23:53.161725+00:00",
+    "0xDE409C901b3e39e1F8999f407285C0a2dBdA4Da6": "2026-09-07T00:23:54.203141+00:00"
   }
 }
