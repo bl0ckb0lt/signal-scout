@@ -21,18 +21,6 @@
       ]
     },
     {
-      "symbol": "zDOG",
-      "chain": "bsc",
-      "address": "0x4f4A59AC165c6F05ed771Df3530741494B1C7777",
-      "source": "new",
-      "entry_price": 0.002231,
-      "peak_price": 0.002231,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T16:31:02.383010+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "VC",
       "chain": "solana",
       "address": "DRqXeQA5sKGeksnRTvhTGEwpaqNtHQo8bQqub7pjpump",
@@ -42,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T16:31:05.751427+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -10.69,
+      "peak_volume_m5": 41166.4,
+      "milestones_hit": []
     },
     {
       "symbol": "HCRACK",
@@ -54,19 +46,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T16:31:07.124884+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "ZPRISM",
-      "chain": "solana",
-      "address": "BwgfkkkELb33SXnJkjD7GEw9m9T4YsoVfE3Yz7LApump",
-      "source": "new",
-      "entry_price": 9.534e-05,
-      "peak_price": 9.534e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T16:31:08.756509+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.42,
+      "peak_volume_m5": 53649.22,
+      "milestones_hit": []
     },
     {
       "symbol": "MARLIN",
@@ -74,11 +58,15 @@
       "address": "0xaB35D04E1Ee39c789c4A65D522417b3C7F2E4723",
       "source": "new",
       "entry_price": 0.000146,
-      "peak_price": 0.000146,
-      "trailing_active": false,
+      "peak_price": 0.0001738,
+      "trailing_active": true,
       "entry_time": "2026-09-07T16:31:10.083930+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.04,
+      "peak_volume_m5": 17329.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -160289,6 +160277,44 @@
       "exit_price": 0.0001789,
       "exit_pct": -11.22,
       "exit_time": "2026-09-07T16:22:58.520386+00:00"
+    },
+    {
+      "symbol": "zDOG",
+      "chain": "bsc",
+      "address": "0x4f4A59AC165c6F05ed771Df3530741494B1C7777",
+      "source": "new",
+      "entry_price": 0.002231,
+      "peak_price": 0.002231,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T16:31:02.383010+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.8,
+      "peak_volume_m5": 378150.76,
+      "milestones_hit": [],
+      "exit_price": 0.0017,
+      "exit_pct": -23.8,
+      "exit_time": "2026-09-07T16:33:57.387032+00:00"
+    },
+    {
+      "symbol": "ZPRISM",
+      "chain": "solana",
+      "address": "BwgfkkkELb33SXnJkjD7GEw9m9T4YsoVfE3Yz7LApump",
+      "source": "new",
+      "entry_price": 9.534e-05,
+      "peak_price": 9.534e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T16:31:08.756509+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.71,
+      "peak_volume_m5": 119934.02,
+      "milestones_hit": [],
+      "exit_price": 8.132e-05,
+      "exit_pct": -14.71,
+      "exit_time": "2026-09-07T16:33:58.777333+00:00"
     }
   ],
   "alerted": {
@@ -168404,6 +168430,8 @@
     "0x574778D38e761728e6E599b5dAc8f3C0D60497Dd": "2026-09-07T16:05:02.833065+00:00",
     "3FXq1br3iNSiaHWPCU67NjHCSgSfAu6JZD4YBLhapump": "2026-09-07T16:13:40.217547+00:00",
     "0x7Be44338B50591868Ef8f469d448467b5C99901d": "2026-09-07T16:20:03.087577+00:00",
-    "0x328496E7A6e8269738170e98fE2A86f421271Fd4": "2026-09-07T16:22:58.520386+00:00"
+    "0x328496E7A6e8269738170e98fE2A86f421271Fd4": "2026-09-07T16:22:58.520386+00:00",
+    "0x4f4A59AC165c6F05ed771Df3530741494B1C7777": "2026-09-07T16:33:57.387032+00:00",
+    "BwgfkkkELb33SXnJkjD7GEw9m9T4YsoVfE3Yz7LApump": "2026-09-07T16:33:58.777333+00:00"
   }
 }
