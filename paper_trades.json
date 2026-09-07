@@ -13,7 +13,7 @@
       "entry_time": "2026-09-06T14:11:06.571304+00:00",
       "score": 86,
       "status": "open",
-      "api_failures": 1,
+      "api_failures": 2,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -51,18 +51,6 @@
       "current_pct": 1.01,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "$BREAKER",
-      "chain": "solana",
-      "address": "2fCGfgPvRKiXDGr8xd1imfhi4TGAt86P6V2BdNUCpump",
-      "source": "new",
-      "entry_price": 0.0001063,
-      "peak_price": 0.0001063,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T14:01:08.683052+00:00",
-      "score": 83,
-      "status": "open"
     }
   ],
   "closed": [
@@ -159704,6 +159692,25 @@
       "exit_price": 0.000213,
       "exit_pct": -35.0,
       "exit_time": "2026-09-07T13:52:50.252411+00:00"
+    },
+    {
+      "symbol": "$BREAKER",
+      "chain": "solana",
+      "address": "2fCGfgPvRKiXDGr8xd1imfhi4TGAt86P6V2BdNUCpump",
+      "source": "new",
+      "entry_price": 0.0001063,
+      "peak_price": 0.0001063,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T14:01:08.683052+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.61,
+      "peak_volume_m5": 45648.17,
+      "milestones_hit": [],
+      "exit_price": 8.758e-05,
+      "exit_pct": -17.61,
+      "exit_time": "2026-09-07T14:02:20.465320+00:00"
     }
   ],
   "alerted": {
@@ -167790,6 +167797,7 @@
     "0xb37bb72725ff0e0a08be1b0942dab0d61f66cf05": "2026-09-07T13:33:32.927438+00:00",
     "0x791E750fa8B2237288A6FE6c47Ea81C50093449A": "2026-09-07T13:42:41.277003+00:00",
     "24FCUL6i3kdpxkjQuDcqaoJTFLoNEffbY7gun54Zpump": "2026-09-07T13:43:45.939092+00:00",
-    "9mEW4vsVNyHuDZHp5SfYNtGWC8o7HEbNt6fbXP4ypump": "2026-09-07T13:52:50.252411+00:00"
+    "9mEW4vsVNyHuDZHp5SfYNtGWC8o7HEbNt6fbXP4ypump": "2026-09-07T13:52:50.252411+00:00",
+    "2fCGfgPvRKiXDGr8xd1imfhi4TGAt86P6V2BdNUCpump": "2026-09-07T14:02:20.465320+00:00"
   }
 }
