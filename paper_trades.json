@@ -13,7 +13,7 @@
       "entry_time": "2026-09-06T14:11:06.571304+00:00",
       "score": 86,
       "status": "open",
-      "api_failures": 21,
+      "api_failures": 22,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -48,23 +48,11 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 47.96,
+      "current_pct": 48.83,
       "peak_volume_m5": 3798.33,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "LAPTOP",
-      "chain": "robinhood",
-      "address": "0x76Ed1E2A8Fc3873FcB5c514688Ca2Fe8A3600b7F",
-      "source": "new",
-      "entry_price": 0.001543,
-      "peak_price": 0.001543,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T15:31:08.322468+00:00",
-      "score": 87,
-      "status": "open"
     },
     {
       "symbol": "ELONCOIN",
@@ -72,11 +60,17 @@
       "address": "BGbzLQAF4AGou24pZCRVYdAb1yCmobKAPFPtb5zfs6My",
       "source": "new",
       "entry_price": 0.0005353,
-      "peak_price": 0.0005353,
-      "trailing_active": false,
+      "peak_price": 0.0009938,
+      "trailing_active": true,
       "entry_time": "2026-09-07T15:31:09.973566+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 85.65,
+      "peak_volume_m5": 159018.82,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "IBM",
@@ -88,7 +82,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T15:31:11.631979+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.32,
+      "peak_volume_m5": 50111.37,
+      "milestones_hit": []
     },
     {
       "symbol": "boden",
@@ -96,11 +94,15 @@
       "address": "0x04B40C0Bb4d675642662688AFF294fE288877Cb8",
       "source": "new",
       "entry_price": 8.095e-05,
-      "peak_price": 8.095e-05,
+      "peak_price": 8.356e-05,
       "trailing_active": false,
       "entry_time": "2026-09-07T15:31:13.002634+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.22,
+      "peak_volume_m5": 12816.46,
+      "milestones_hit": []
     },
     {
       "symbol": "LAPTOP",
@@ -112,7 +114,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T15:31:14.369542+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.84,
+      "peak_volume_m5": 39859.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -160031,6 +160037,25 @@
       "exit_price": 9.166e-05,
       "exit_pct": 48.7,
       "exit_time": "2026-09-07T15:21:24.089053+00:00"
+    },
+    {
+      "symbol": "LAPTOP",
+      "chain": "robinhood",
+      "address": "0x76Ed1E2A8Fc3873FcB5c514688Ca2Fe8A3600b7F",
+      "source": "new",
+      "entry_price": 0.001543,
+      "peak_price": 0.001543,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T15:31:08.322468+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -42.83,
+      "peak_volume_m5": 300599.4,
+      "milestones_hit": [],
+      "exit_price": 0.0008822,
+      "exit_pct": -42.83,
+      "exit_time": "2026-09-07T15:32:42.838889+00:00"
     }
   ],
   "alerted": {
@@ -168131,6 +168156,7 @@
     "0xD28c39841669a277B0e609502517e36316e8Bb2e": "2026-09-07T14:53:31.903459+00:00",
     "0xE8A538FE95fFaFf5303FC138C124f6ece84a25eA": "2026-09-07T14:57:16.509744+00:00",
     "EBEw4JPkQ7b7QjgjtwxvbQ2uGrh5stx98Y4c9SMxpump": "2026-09-07T15:20:35.960611+00:00",
-    "0x090CA88B9668660f20B67994895794d32B157777": "2026-09-07T15:21:24.089053+00:00"
+    "0x090CA88B9668660f20B67994895794d32B157777": "2026-09-07T15:21:24.089053+00:00",
+    "0x76Ed1E2A8Fc3873FcB5c514688Ca2Fe8A3600b7F": "2026-09-07T15:32:42.838889+00:00"
   }
 }
