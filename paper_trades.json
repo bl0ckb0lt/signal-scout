@@ -26,23 +26,15 @@
       "address": "0xDC1bebBE6699242e0fD33E5B8ce2D369e582466a",
       "source": "boost",
       "entry_price": 0.0001481,
-      "peak_price": 0.0001481,
+      "peak_price": 0.00015,
       "trailing_active": false,
       "entry_time": "2026-09-07T22:51:01.186006+00:00",
       "score": 79,
-      "status": "open"
-    },
-    {
-      "symbol": "FAME",
-      "chain": "robinhood",
-      "address": "0x3470f1cC6F710Df466a2108432D227805cDCB599",
-      "source": "new",
-      "entry_price": 0.0001723,
-      "peak_price": 0.0001723,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T22:51:04.240668+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.28,
+      "peak_volume_m5": 156.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161777,6 +161769,25 @@
       "exit_price": 0.0008079,
       "exit_pct": -13.21,
       "exit_time": "2026-09-07T22:37:55.986418+00:00"
+    },
+    {
+      "symbol": "FAME",
+      "chain": "robinhood",
+      "address": "0x3470f1cC6F710Df466a2108432D227805cDCB599",
+      "source": "new",
+      "entry_price": 0.0001723,
+      "peak_price": 0.0001723,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T22:51:04.240668+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.67,
+      "peak_volume_m5": 41792.23,
+      "milestones_hit": [],
+      "exit_price": 0.0001229,
+      "exit_pct": -28.67,
+      "exit_time": "2026-09-07T22:53:56.933289+00:00"
     }
   ],
   "alerted": {
@@ -169968,6 +169979,7 @@
     "XSBkyyoDovwqFgi94pZQzAuJockqAUMhadb4T1kpump": "2026-09-07T22:32:43.668176+00:00",
     "7zW2s4GE5i4y3MCCmFSEh7n2CB7S8aRDfvJpYYAtsQ1H": "2026-09-07T22:35:59.870322+00:00",
     "0xBc9cc4b93A08B2dfBA87067a9C53E713DB3314Ce": "2026-09-07T22:37:55.068500+00:00",
-    "0x94B931fA19FacCFfB01773507bef2F5FAB3286Ea": "2026-09-07T22:37:55.986418+00:00"
+    "0x94B931fA19FacCFfB01773507bef2F5FAB3286Ea": "2026-09-07T22:37:55.986418+00:00",
+    "0x3470f1cC6F710Df466a2108432D227805cDCB599": "2026-09-07T22:53:56.933289+00:00"
   }
 }
