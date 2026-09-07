@@ -30,19 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T21:10:49.062209+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "StockCat",
-      "chain": "robinhood",
-      "address": "0xa2bC8eB4fC7799F950C0682077B331C75047Ab76",
-      "source": "new",
-      "entry_price": 0.0001445,
-      "peak_price": 0.0001445,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T21:10:51.979855+00:00",
-      "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.96,
+      "peak_volume_m5": 120208.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161294,6 +161286,29 @@
       "exit_price": 0.002661,
       "exit_pct": 190.38,
       "exit_time": "2026-09-07T21:07:27.450209+00:00"
+    },
+    {
+      "symbol": "StockCat",
+      "chain": "robinhood",
+      "address": "0xa2bC8eB4fC7799F950C0682077B331C75047Ab76",
+      "source": "new",
+      "entry_price": 0.0001445,
+      "peak_price": 0.003608,
+      "trailing_active": true,
+      "entry_time": "2026-09-07T21:10:51.979855+00:00",
+      "score": 78,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 2396.89,
+      "peak_volume_m5": 82741.98,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.003608,
+      "exit_pct": 2396.89,
+      "exit_time": "2026-09-07T21:14:35.217724+00:00"
     }
   ],
   "alerted": {
@@ -169461,6 +169476,7 @@
     "32VaBmnrhWnHnM3n3AsbvrStnTN9jU1inzQBzDbapump": "2026-09-07T20:51:01.361656+00:00",
     "0x1a7EAEc7d9E7e5123416b7B29ae8bC9B57c00922": "2026-09-07T20:56:55.353111+00:00",
     "J4jBCJgHAyskfZXe1LrvK8gBHpVzDqXX8NV7R9ANpump": "2026-09-07T20:57:57.364218+00:00",
-    "0x32c4fDDeF84A68B3301fEdb6304a6044940A3594": "2026-09-07T21:07:27.450209+00:00"
+    "0x32c4fDDeF84A68B3301fEdb6304a6044940A3594": "2026-09-07T21:07:27.450209+00:00",
+    "0xa2bC8eB4fC7799F950C0682077B331C75047Ab76": "2026-09-07T21:14:35.217724+00:00"
   }
 }
