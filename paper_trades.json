@@ -32,7 +32,7 @@
       "score": 74,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.61,
+      "current_pct": 5.14,
       "peak_volume_m5": 7622.12,
       "milestones_hit": []
     },
@@ -42,23 +42,15 @@
       "address": "BrPyKjsEDuvgJPkS6o6XC8zLC9L8kRhhr9b2xhDzpump",
       "source": "new",
       "entry_price": 0.0004227,
-      "peak_price": 0.0004227,
-      "trailing_active": false,
+      "peak_price": 0.0005145,
+      "trailing_active": true,
       "entry_time": "2026-09-07T18:41:01.132194+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "FGOD",
-      "chain": "robinhood",
-      "address": "0x2dF49aC64ec948eFF3446A9cE726454B9C17f745",
-      "source": "new",
-      "entry_price": 0.001125,
-      "peak_price": 0.001125,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T18:41:02.547378+00:00",
-      "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.72,
+      "peak_volume_m5": 40333.44,
+      "milestones_hit": []
     },
     {
       "symbol": "O1BOT",
@@ -66,11 +58,17 @@
       "address": "0xF7d77243Fbd0413a6528edc275b09D31c25CB201",
       "source": "new",
       "entry_price": 9.222e-05,
-      "peak_price": 9.222e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001579,
+      "trailing_active": true,
       "entry_time": "2026-09-07T18:41:07.250488+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 71.22,
+      "peak_volume_m5": 62994.54,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "PUMPCAT",
@@ -78,11 +76,15 @@
       "address": "3GXtoGmXaZHYEASkeDxejdrSWpeqqRWxCdzUVAagpump",
       "source": "new",
       "entry_price": 9.79e-05,
-      "peak_price": 9.79e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001165,
+      "trailing_active": true,
       "entry_time": "2026-09-07T18:41:10.464597+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.0,
+      "peak_volume_m5": 624558.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -160810,6 +160812,25 @@
       "exit_price": 0.0001448,
       "exit_pct": -6.34,
       "exit_time": "2026-09-07T18:38:24.427599+00:00"
+    },
+    {
+      "symbol": "FGOD",
+      "chain": "robinhood",
+      "address": "0x2dF49aC64ec948eFF3446A9cE726454B9C17f745",
+      "source": "new",
+      "entry_price": 0.001125,
+      "peak_price": 0.001125,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T18:41:02.547378+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.78,
+      "peak_volume_m5": 105174.16,
+      "milestones_hit": [],
+      "exit_price": 0.0009137,
+      "exit_pct": -18.78,
+      "exit_time": "2026-09-07T18:45:56.136552+00:00"
     }
   ],
   "alerted": {
@@ -168951,6 +168972,7 @@
     "0x8892f21654c03A1900581AFFFD955d2a867F5E68": "2026-09-07T18:29:30.804532+00:00",
     "0xeE9D856231DE2b5B3f39Ffce6fda896794DB4aD1": "2026-09-07T18:32:16.048735+00:00",
     "0x39B6c478d38116143251497a9399Cc5cCC5B4C31": "2026-09-07T18:32:17.259823+00:00",
-    "0x09eE7780c0287d29eeFED621318A7fFf8d26F4F1": "2026-09-07T18:38:24.427599+00:00"
+    "0x09eE7780c0287d29eeFED621318A7fFf8d26F4F1": "2026-09-07T18:38:24.427599+00:00",
+    "0x2dF49aC64ec948eFF3446A9cE726454B9C17f745": "2026-09-07T18:45:56.136552+00:00"
   }
 }
