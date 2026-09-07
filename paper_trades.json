@@ -30,7 +30,7 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.93,
+      "current_pct": 15.38,
       "peak_volume_m5": 23185.31,
       "milestones_hit": []
     },
@@ -40,23 +40,17 @@
       "address": "5XLc2qsmvRkQ6sXu1BtketaKGnLobEQMMVVmsPr7pump",
       "source": "new",
       "entry_price": 0.0002718,
-      "peak_price": 0.0002718,
-      "trailing_active": false,
+      "peak_price": 0.0004173,
+      "trailing_active": true,
       "entry_time": "2026-09-07T09:01:08.208264+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Zeppy",
-      "chain": "robinhood",
-      "address": "0x1526b9798b76975a79f89069c99657b23a1162dc",
-      "source": "new",
-      "entry_price": 0.0001718,
-      "peak_price": 0.0001718,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T09:01:09.551846+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 53.53,
+      "peak_volume_m5": 427787.2,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -158767,6 +158761,25 @@
       "exit_price": 0.0002011,
       "exit_pct": -14.02,
       "exit_time": "2026-09-07T08:54:00.480858+00:00"
+    },
+    {
+      "symbol": "Zeppy",
+      "chain": "robinhood",
+      "address": "0x1526b9798b76975a79f89069c99657b23a1162dc",
+      "source": "new",
+      "entry_price": 0.0001718,
+      "peak_price": 0.0001718,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T09:01:09.551846+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.64,
+      "peak_volume_m5": 19082.41,
+      "milestones_hit": [],
+      "exit_price": 0.0001518,
+      "exit_pct": -11.64,
+      "exit_time": "2026-09-07T09:04:10.191181+00:00"
     }
   ],
   "alerted": {
@@ -166805,6 +166818,7 @@
     "0x875bd2fdb280740bf035026057d31c7c33c916ec": "2026-09-07T08:45:19.494881+00:00",
     "5oR6SgeEJozxBeSRJy5ciszxDRqvExdSmtpVV6agpump": "2026-09-07T08:52:58.362041+00:00",
     "0xc255d8b48eFbCE2Cb821A28517678aE685587777": "2026-09-07T08:53:59.656616+00:00",
-    "0xf1CF4514cA43a92d9d4D467885f6Bc6445b576C6": "2026-09-07T08:54:00.480858+00:00"
+    "0xf1CF4514cA43a92d9d4D467885f6Bc6445b576C6": "2026-09-07T08:54:00.480858+00:00",
+    "0x1526b9798b76975a79f89069c99657b23a1162dc": "2026-09-07T09:04:10.191181+00:00"
   }
 }
