@@ -13,7 +13,7 @@
       "entry_time": "2026-09-06T14:11:06.571304+00:00",
       "score": 86,
       "status": "open",
-      "api_failures": 11,
+      "api_failures": 12,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
@@ -58,13 +58,13 @@
       "address": "0x10603834F033c6d949b174415EDa005A0B4727bb",
       "source": "new",
       "entry_price": 0.0004113,
-      "peak_price": 0.0006447,
+      "peak_price": 0.0006568,
       "trailing_active": true,
       "entry_time": "2026-09-07T14:31:07.006895+00:00",
       "score": 87,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 56.31,
+      "current_pct": 59.69,
       "peak_volume_m5": 78604.12,
       "milestones_hit": [
         50
@@ -82,21 +82,9 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.61,
+      "current_pct": 12.09,
       "peak_volume_m5": 3798.33,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BBRV2",
-      "chain": "robinhood",
-      "address": "0x3b34bb7cf51704011d64ada65061aefa9aeb78ef",
-      "source": "new",
-      "entry_price": 0.0001414,
-      "peak_price": 0.0001414,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T14:41:14.039181+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "DUO",
@@ -104,11 +92,15 @@
       "address": "0x56aAa501Fa9Eb6670d6175D686957434c3d21E18",
       "source": "new",
       "entry_price": 6.57e-05,
-      "peak_price": 6.57e-05,
-      "trailing_active": false,
+      "peak_price": 8.413e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-07T14:41:17.575826+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.05,
+      "peak_volume_m5": 13001.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -159867,6 +159859,25 @@
       "exit_price": 0.0001135,
       "exit_pct": 15.22,
       "exit_time": "2026-09-07T14:34:57.472704+00:00"
+    },
+    {
+      "symbol": "BBRV2",
+      "chain": "robinhood",
+      "address": "0x3b34bb7cf51704011d64ada65061aefa9aeb78ef",
+      "source": "new",
+      "entry_price": 0.0001414,
+      "peak_price": 0.0001414,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T14:41:14.039181+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -49.01,
+      "peak_volume_m5": 82497.31,
+      "milestones_hit": [],
+      "exit_price": 7.21e-05,
+      "exit_pct": -49.01,
+      "exit_time": "2026-09-07T14:42:53.987908+00:00"
     }
   ],
   "alerted": {
@@ -167959,6 +167970,7 @@
     "69i2k5bwac9f7UAackSGN1kXAngvttEcyMBfowkpump": "2026-09-07T14:25:03.018649+00:00",
     "0xF28f00d39C6aa5fF851978a70B6dD7340891FD5f": "2026-09-07T14:32:53.009883+00:00",
     "0x4ad2e9b5d56F14618bF52156bA4A8D3eA4A860d3": "2026-09-07T14:33:44.692463+00:00",
-    "FQ32S9X3LaQcZSmU84c7bMf14a41MCwJ3QhgqaBQR86E": "2026-09-07T14:34:57.472704+00:00"
+    "FQ32S9X3LaQcZSmU84c7bMf14a41MCwJ3QhgqaBQR86E": "2026-09-07T14:34:57.472704+00:00",
+    "0x3b34bb7cf51704011d64ada65061aefa9aeb78ef": "2026-09-07T14:42:53.987908+00:00"
   }
 }
