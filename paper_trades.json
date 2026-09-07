@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NASDONK",
-      "chain": "solana",
-      "address": "AQVZAvm9VZSFfctKuTKvbnjPNtnYxuDZ2QnkCU4gpump",
-      "source": "new",
-      "entry_price": 0.0001088,
-      "peak_price": 0.0001088,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T10:41:06.285990+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "DEMM",
       "chain": "robinhood",
       "address": "0x7c7D02B2a071E526AeCAEb8960E4E93Cb8d04613",
       "source": "new",
       "entry_price": 0.0002014,
-      "peak_price": 0.0002014,
-      "trailing_active": false,
+      "peak_price": 0.0002425,
+      "trailing_active": true,
       "entry_time": "2026-09-07T10:41:10.610182+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.41,
+      "peak_volume_m5": 37255.7,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -159122,6 +159114,25 @@
       "exit_price": 0.0002379,
       "exit_pct": -30.36,
       "exit_time": "2026-09-07T10:32:26.201059+00:00"
+    },
+    {
+      "symbol": "NASDONK",
+      "chain": "solana",
+      "address": "AQVZAvm9VZSFfctKuTKvbnjPNtnYxuDZ2QnkCU4gpump",
+      "source": "new",
+      "entry_price": 0.0001088,
+      "peak_price": 0.0001088,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T10:41:06.285990+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.92,
+      "peak_volume_m5": 13137.55,
+      "milestones_hit": [],
+      "exit_price": 8.713e-05,
+      "exit_pct": -19.92,
+      "exit_time": "2026-09-07T10:43:33.232567+00:00"
     }
   ],
   "alerted": {
@@ -167179,6 +167190,7 @@
     "0x3d7587686ee3412f9546d566ddf108a29df47991": "2026-09-07T10:22:40.071153+00:00",
     "0x0f238c10dC0fe40915Ea63B9FC3F3ca2d81b84C4": "2026-09-07T10:27:07.759354+00:00",
     "0x72BEBBe118Dc1cDb38a10db09C11DB53eC4C7977": "2026-09-07T10:32:25.517739+00:00",
-    "0x22Ce16962f51ac19C34616efacFfB1FEE2eFE6B1": "2026-09-07T10:32:26.201059+00:00"
+    "0x22Ce16962f51ac19C34616efacFfB1FEE2eFE6B1": "2026-09-07T10:32:26.201059+00:00",
+    "AQVZAvm9VZSFfctKuTKvbnjPNtnYxuDZ2QnkCU4gpump": "2026-09-07T10:43:33.232567+00:00"
   }
 }
