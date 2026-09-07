@@ -40,39 +40,15 @@
       "address": "G64WzsH9xbgWnXwzWAhW7NDBkHiFYcEoexQqY9Kwpump",
       "source": "new",
       "entry_price": 0.0001916,
-      "peak_price": 0.0001916,
+      "peak_price": 0.0002035,
       "trailing_active": false,
       "entry_time": "2026-09-07T06:11:08.845326+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -1.72,
+      "current_pct": 6.21,
       "peak_volume_m5": 44142.71,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Anthropig",
-      "chain": "solana",
-      "address": "Cwo8S7E1Gbz7vFAysTENW9h8rKepQc9sdRprtmHUR6Nf",
-      "source": "new",
-      "entry_price": 0.0001065,
-      "peak_price": 0.0001065,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T06:15:58.400083+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "CYBERBEER",
-      "chain": "robinhood",
-      "address": "0x9897416b57cEAbdED1bB0A8Ba29ddB6d708f4e1C",
-      "source": "new",
-      "entry_price": 0.0002098,
-      "peak_price": 0.0002098,
-      "trailing_active": false,
-      "entry_time": "2026-09-07T06:15:59.901626+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "MACINTOSH",
@@ -84,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-07T06:16:01.420865+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.64,
+      "peak_volume_m5": 30230.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -158351,6 +158331,44 @@
       "exit_price": 0.0004854,
       "exit_pct": -12.4,
       "exit_time": "2026-09-07T06:14:29.247890+00:00"
+    },
+    {
+      "symbol": "Anthropig",
+      "chain": "solana",
+      "address": "Cwo8S7E1Gbz7vFAysTENW9h8rKepQc9sdRprtmHUR6Nf",
+      "source": "new",
+      "entry_price": 0.0001065,
+      "peak_price": 0.0001065,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T06:15:58.400083+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.31,
+      "peak_volume_m5": 15192.56,
+      "milestones_hit": [],
+      "exit_price": 9.232e-05,
+      "exit_pct": -13.31,
+      "exit_time": "2026-09-07T06:17:10.853030+00:00"
+    },
+    {
+      "symbol": "CYBERBEER",
+      "chain": "robinhood",
+      "address": "0x9897416b57cEAbdED1bB0A8Ba29ddB6d708f4e1C",
+      "source": "new",
+      "entry_price": 0.0002098,
+      "peak_price": 0.0002098,
+      "trailing_active": false,
+      "entry_time": "2026-09-07T06:15:59.901626+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.03,
+      "peak_volume_m5": 138579.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001384,
+      "exit_pct": -34.03,
+      "exit_time": "2026-09-07T06:17:11.550518+00:00"
     }
   ],
   "alerted": {
@@ -166366,6 +166384,8 @@
     "0x240d79aEE2CB86f9abd675D70cB297a13CFfe8E2": "2026-09-07T05:53:55.675155+00:00",
     "0x578153411b884E914c3d96C2d2838101a270B6eE": "2026-09-07T06:02:45.545289+00:00",
     "0xb3B5F0812E90206174aaC7b319d3CAD2BB21B840": "2026-09-07T06:02:46.363843+00:00",
-    "0xB7896F3C8f18b2308e4ddE6B3E95034702477777": "2026-09-07T06:14:29.247890+00:00"
+    "0xB7896F3C8f18b2308e4ddE6B3E95034702477777": "2026-09-07T06:14:29.247890+00:00",
+    "Cwo8S7E1Gbz7vFAysTENW9h8rKepQc9sdRprtmHUR6Nf": "2026-09-07T06:17:10.853030+00:00",
+    "0x9897416b57cEAbdED1bB0A8Ba29ddB6d708f4e1C": "2026-09-07T06:17:11.550518+00:00"
   }
 }
