@@ -35,30 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "TOPBLAST",
-      "chain": "robinhood",
-      "address": "0xE4EAB6A4335fca23f504753352886109E4C74240",
-      "source": "new",
-      "entry_price": 0.0002671,
-      "peak_price": 0.0002671,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T18:41:11.906027+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "LOOT",
-      "chain": "robinhood",
-      "address": "0x1ABC0bE1B77dc9B8CF057EbEe337D630bB22DE4E",
-      "source": "new",
-      "entry_price": 0.0002135,
-      "peak_price": 0.0002135,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T18:41:15.152257+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "XMRCAT",
       "chain": "solana",
       "address": "CHztigebeDZwDCg3Q8sbKnLQ6vxjyA1DQ97wBabD4NSU",
@@ -68,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T18:41:17.027525+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.14,
+      "peak_volume_m5": 22666.55,
+      "milestones_hit": []
     },
     {
       "symbol": "RHBALL",
@@ -80,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T18:41:18.379408+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 11614.27,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -164865,6 +164849,44 @@
       "exit_price": 0.0001141,
       "exit_pct": -24.09,
       "exit_time": "2026-09-08T18:32:55.635281+00:00"
+    },
+    {
+      "symbol": "TOPBLAST",
+      "chain": "robinhood",
+      "address": "0xE4EAB6A4335fca23f504753352886109E4C74240",
+      "source": "new",
+      "entry_price": 0.0002671,
+      "peak_price": 0.0002671,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T18:41:11.906027+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.03,
+      "peak_volume_m5": 24311.09,
+      "milestones_hit": [],
+      "exit_price": 0.0002323,
+      "exit_pct": -13.03,
+      "exit_time": "2026-09-08T18:42:17.662610+00:00"
+    },
+    {
+      "symbol": "LOOT",
+      "chain": "robinhood",
+      "address": "0x1ABC0bE1B77dc9B8CF057EbEe337D630bB22DE4E",
+      "source": "new",
+      "entry_price": 0.0002135,
+      "peak_price": 0.0002135,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T18:41:15.152257+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -43.56,
+      "peak_volume_m5": 49361.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001205,
+      "exit_pct": -43.56,
+      "exit_time": "2026-09-08T18:42:18.320759+00:00"
     }
   ],
   "alerted": {
@@ -173212,6 +173234,8 @@
     "GxFZAkFEeEhoPXaL7Tyq6AMcbsmt5WrEbPDTg58EbCwV": "2026-09-08T18:23:25.541900+00:00",
     "0xb47efCc461d3CD6b270dAf15388A77a3fAe64AD1": "2026-09-08T18:26:17.796777+00:00",
     "28ZHuzqJwtg97KhJzuUwypC82vMCKuZa629FaCmrpump": "2026-09-08T18:29:19.373886+00:00",
-    "0xaC0909D9A4C0E426fEcD9924c4AB8B5F8B51EBeC": "2026-09-08T18:32:55.635281+00:00"
+    "0xaC0909D9A4C0E426fEcD9924c4AB8B5F8B51EBeC": "2026-09-08T18:32:55.635281+00:00",
+    "0xE4EAB6A4335fca23f504753352886109E4C74240": "2026-09-08T18:42:17.662610+00:00",
+    "0x1ABC0bE1B77dc9B8CF057EbEe337D630bB22DE4E": "2026-09-08T18:42:18.320759+00:00"
   }
 }
