@@ -46,7 +46,7 @@
       "score": 103,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.22,
+      "current_pct": 5.17,
       "peak_volume_m5": 19639.11,
       "milestones_hit": []
     },
@@ -56,23 +56,15 @@
       "address": "0x1B2f48fcecAA15e56D335d185BEdCfEa2321cC89",
       "source": "new",
       "entry_price": 0.0001781,
-      "peak_price": 0.0001781,
+      "peak_price": 0.0001897,
       "trailing_active": false,
       "entry_time": "2026-09-08T22:31:00.156027+00:00",
       "score": 86,
-      "status": "open"
-    },
-    {
-      "symbol": "Mooncoin",
-      "chain": "solana",
-      "address": "9RdsqgqtfkFkteNcWSu27wDGKcn6A9hTXoVet6TfS5H4",
-      "source": "new",
-      "entry_price": 0.0002832,
-      "peak_price": 0.0002832,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T22:31:02.162463+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.51,
+      "peak_volume_m5": 104293.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -165872,6 +165864,25 @@
       "exit_price": 0.0001472,
       "exit_pct": -4.6,
       "exit_time": "2026-09-08T22:24:22.178829+00:00"
+    },
+    {
+      "symbol": "Mooncoin",
+      "chain": "solana",
+      "address": "9RdsqgqtfkFkteNcWSu27wDGKcn6A9hTXoVet6TfS5H4",
+      "source": "new",
+      "entry_price": 0.0002832,
+      "peak_price": 0.0002832,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T22:31:02.162463+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -46.72,
+      "peak_volume_m5": 212062.84,
+      "milestones_hit": [],
+      "exit_price": 0.0001509,
+      "exit_pct": -46.72,
+      "exit_time": "2026-09-08T22:32:37.121998+00:00"
     }
   ],
   "alerted": {
@@ -174270,6 +174281,7 @@
     "0x6c8ed008c54e22368d1b6723369c3d39a4451859": "2026-09-08T22:22:43.051780+00:00",
     "0x97C59c0a7eAe72592EE5Ae13fd2057C7BAd7F0D9": "2026-09-08T22:22:44.372573+00:00",
     "0x77988EE3223BA8e9e597B60A9e4259C6c81e5905": "2026-09-08T22:24:21.330230+00:00",
-    "0xaa6953871c9e6738017c3ebac0afaaad6cf78b60": "2026-09-08T22:24:22.178829+00:00"
+    "0xaa6953871c9e6738017c3ebac0afaaad6cf78b60": "2026-09-08T22:24:22.178829+00:00",
+    "9RdsqgqtfkFkteNcWSu27wDGKcn6A9hTXoVet6TfS5H4": "2026-09-08T22:32:37.121998+00:00"
   }
 }
