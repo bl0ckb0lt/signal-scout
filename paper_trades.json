@@ -21,34 +21,20 @@
       ]
     },
     {
-      "symbol": "STBL",
-      "chain": "robinhood",
-      "address": "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F",
-      "source": "new",
-      "entry_price": 0.0002872,
-      "peak_price": 0.0005607,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T03:41:13.054360+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 95.23,
-      "peak_volume_m5": 12825.27,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "ARTON",
       "chain": "robinhood",
       "address": "0xd6C5eD7DC12A7D7CAbD8F968aD5f4DEbb766B253",
       "source": "new",
       "entry_price": 0.0001382,
-      "peak_price": 0.0001382,
-      "trailing_active": false,
+      "peak_price": 0.0002007,
+      "trailing_active": true,
       "entry_time": "2026-09-08T04:01:04.895973+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 45.22,
+      "peak_volume_m5": 14447.84,
+      "milestones_hit": []
     },
     {
       "symbol": "BNC",
@@ -60,7 +46,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T04:01:06.493062+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.78,
+      "peak_volume_m5": 47798.98,
+      "milestones_hit": []
     },
     {
       "symbol": "Kuro",
@@ -68,11 +58,15 @@
       "address": "J8DBVb6dn5fpDzDhHWZ6yP8wAGJwWZRBmje5J1Gwpump",
       "source": "new",
       "entry_price": 0.0001532,
-      "peak_price": 0.0001532,
-      "trailing_active": false,
+      "peak_price": 0.0002141,
+      "trailing_active": true,
       "entry_time": "2026-09-08T04:01:08.092537+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 39.75,
+      "peak_volume_m5": 52774.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -162532,6 +162526,27 @@
       "exit_price": 0.0001873,
       "exit_pct": -10.98,
       "exit_time": "2026-09-08T03:53:23.970534+00:00"
+    },
+    {
+      "symbol": "STBL",
+      "chain": "robinhood",
+      "address": "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F",
+      "source": "new",
+      "entry_price": 0.0002872,
+      "peak_price": 0.0005607,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T03:41:13.054360+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 69.32,
+      "peak_volume_m5": 12825.27,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0004863,
+      "exit_pct": 69.32,
+      "exit_time": "2026-09-08T04:02:34.686230+00:00"
     }
   ],
   "alerted": {
@@ -170760,6 +170775,7 @@
     "0x7C8D5502b544dDAf8852Fc46D1174E34876D545C": "2026-09-08T03:42:37.843500+00:00",
     "0x649792631ddbC52551fd765A17382B4d375B9B78": "2026-09-08T03:43:20.117206+00:00",
     "0xd74af769df9fbfafdfbacdf682a2c9a1d572e5ef": "2026-09-08T03:44:18.726751+00:00",
-    "0x901A8fd14283C827343D679db5a650AB36Cc4434": "2026-09-08T03:53:23.970534+00:00"
+    "0x901A8fd14283C827343D679db5a650AB36Cc4434": "2026-09-08T03:53:23.970534+00:00",
+    "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F": "2026-09-08T04:02:34.686230+00:00"
   }
 }
