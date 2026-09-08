@@ -1,58 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "VLEAP",
-      "chain": "robinhood",
-      "address": "0x7A02073BEB53536956423ebBCeEc4F4540e90117",
-      "source": "new",
-      "entry_price": 9.098e-07,
-      "peak_price": 1.647e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T12:41:00.778529+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 81.03,
-      "peak_volume_m5": 11432.95,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "Binance baby",
-      "chain": "bsc",
-      "address": "0x6fa7F7822E8d8F21077865EB656a2Bc3569d7777",
-      "source": "new",
-      "entry_price": 0.0001741,
-      "peak_price": 0.0001817,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T12:41:12.787850+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.37,
-      "peak_volume_m5": 3247.98,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Nascat",
-      "chain": "solana",
-      "address": "9e2g754kYeUjNuLkPuZUbUxyYwNhCr9iaKDPJbphpump",
-      "source": "new",
-      "entry_price": 0.000266,
-      "peak_price": 0.000266,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T12:51:09.192777+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -8.72,
-      "peak_volume_m5": 32448.69,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -163730,6 +163679,65 @@
       "exit_price": 0.0001127,
       "exit_pct": -29.78,
       "exit_time": "2026-09-08T12:54:01.870812+00:00"
+    },
+    {
+      "symbol": "VLEAP",
+      "chain": "robinhood",
+      "address": "0x7A02073BEB53536956423ebBCeEc4F4540e90117",
+      "source": "new",
+      "entry_price": 9.098e-07,
+      "peak_price": 1.647e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T12:41:00.778529+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 70.15,
+      "peak_volume_m5": 11432.95,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 1.548e-06,
+      "exit_pct": 70.15,
+      "exit_time": "2026-09-08T12:58:32.831017+00:00"
+    },
+    {
+      "symbol": "Binance baby",
+      "chain": "bsc",
+      "address": "0x6fa7F7822E8d8F21077865EB656a2Bc3569d7777",
+      "source": "new",
+      "entry_price": 0.0001741,
+      "peak_price": 0.0001817,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T12:41:12.787850+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.12,
+      "peak_volume_m5": 5811.73,
+      "milestones_hit": [],
+      "exit_price": 0.000153,
+      "exit_pct": -12.12,
+      "exit_time": "2026-09-08T12:58:33.529808+00:00"
+    },
+    {
+      "symbol": "Nascat",
+      "chain": "solana",
+      "address": "9e2g754kYeUjNuLkPuZUbUxyYwNhCr9iaKDPJbphpump",
+      "source": "new",
+      "entry_price": 0.000266,
+      "peak_price": 0.000266,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T12:51:09.192777+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.55,
+      "peak_volume_m5": 43181.52,
+      "milestones_hit": [],
+      "exit_price": 0.0002273,
+      "exit_pct": -14.55,
+      "exit_time": "2026-09-08T12:58:34.226420+00:00"
     }
   ],
   "alerted": {
@@ -172021,6 +172029,9 @@
     "0x0853F6E8fC97B7B535B0a08144e5c7ff700696a1": "2026-09-08T12:23:38.107694+00:00",
     "0xa0b205f222254c3c2124F345874F2371879A4d71": "2026-09-08T12:33:50.719117+00:00",
     "0xac9265Cd1e395e435100Dfe2f9A14aD84ec725F0": "2026-09-08T12:37:34.208735+00:00",
-    "7ef82emcje2RvFYx5jK2dHsTmcr3ubQteAWM4rqSpump": "2026-09-08T12:54:01.870812+00:00"
+    "7ef82emcje2RvFYx5jK2dHsTmcr3ubQteAWM4rqSpump": "2026-09-08T12:54:01.870812+00:00",
+    "0x7A02073BEB53536956423ebBCeEc4F4540e90117": "2026-09-08T12:58:32.831017+00:00",
+    "0x6fa7F7822E8d8F21077865EB656a2Bc3569d7777": "2026-09-08T12:58:33.529808+00:00",
+    "9e2g754kYeUjNuLkPuZUbUxyYwNhCr9iaKDPJbphpump": "2026-09-08T12:58:34.226420+00:00"
   }
 }
