@@ -21,18 +21,6 @@
       ]
     },
     {
-      "symbol": "PERPCAT",
-      "chain": "solana",
-      "address": "5qSo7XuuMJ16iqHqVMEwgvG3BTREuHXXBGkpipw8uVD7",
-      "source": "new",
-      "entry_price": 0.0005455,
-      "peak_price": 0.0005455,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T00:11:06.673644+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "MAGIKARP",
       "chain": "solana",
       "address": "5JDohZNNsTvHHvxn7EpBn9SEKNxnntcCQjgNzbr6rBsz",
@@ -42,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T00:11:08.583677+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.48,
+      "peak_volume_m5": 856.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -161950,6 +161942,25 @@
       "exit_price": 2.894e-05,
       "exit_pct": -96.53,
       "exit_time": "2026-09-08T00:02:52.266198+00:00"
+    },
+    {
+      "symbol": "PERPCAT",
+      "chain": "solana",
+      "address": "5qSo7XuuMJ16iqHqVMEwgvG3BTREuHXXBGkpipw8uVD7",
+      "source": "new",
+      "entry_price": 0.0005455,
+      "peak_price": 0.0005455,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T00:11:06.673644+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.55,
+      "peak_volume_m5": 84258.16,
+      "milestones_hit": [],
+      "exit_price": 0.0004607,
+      "exit_pct": -15.55,
+      "exit_time": "2026-09-08T00:16:00.504469+00:00"
     }
   ],
   "alerted": {
@@ -170150,6 +170161,7 @@
     "0xe01a027Dd17aB39a4E5978E231EA405B8f1bEf2e": "2026-09-07T23:42:46.934886+00:00",
     "0x4243D0f678A76b736075231bCeCC7eF825aad89B": "2026-09-07T23:43:42.439357+00:00",
     "57R2hzeLgima4a6681R5UPZpk6g1Pqjk7wJGRt6Cpump": "2026-09-07T23:52:35.068092+00:00",
-    "0x79C76abab0BFF8e583bcFC5C9A3F6dFe161C5D05": "2026-09-08T00:02:52.266198+00:00"
+    "0x79C76abab0BFF8e583bcFC5C9A3F6dFe161C5D05": "2026-09-08T00:02:52.266198+00:00",
+    "5qSo7XuuMJ16iqHqVMEwgvG3BTREuHXXBGkpipw8uVD7": "2026-09-08T00:16:00.504469+00:00"
   }
 }
