@@ -40,33 +40,16 @@
       "address": "0x7d9B948664EA388f94161505CdD51a1AFcBdFB5b",
       "source": "new",
       "entry_price": 7.228e-05,
-      "peak_price": 0.0001067,
+      "peak_price": 0.0001113,
       "trailing_active": true,
       "entry_time": "2026-09-08T20:21:16.841220+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 47.62,
+      "current_pct": 53.98,
       "peak_volume_m5": 19268.81,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "AIBUBBLE",
-      "chain": "solana",
-      "address": "H118HpvTMPGno3rSiq2Bx6GF6WMcUyyGUzWSfw24pump",
-      "source": "new",
-      "entry_price": 0.000103,
-      "peak_price": 0.0002988,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T20:21:23.459006+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 190.1,
-      "peak_volume_m5": 211126.52,
       "milestones_hit": [
-        50,
-        100
+        50
       ]
     }
   ],
@@ -165386,6 +165369,29 @@
       "exit_price": 0.0001357,
       "exit_pct": -16.8,
       "exit_time": "2026-09-08T20:24:16.344672+00:00"
+    },
+    {
+      "symbol": "AIBUBBLE",
+      "chain": "solana",
+      "address": "H118HpvTMPGno3rSiq2Bx6GF6WMcUyyGUzWSfw24pump",
+      "source": "new",
+      "entry_price": 0.000103,
+      "peak_price": 0.0003641,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T20:21:23.459006+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 253.5,
+      "peak_volume_m5": 292063.63,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003641,
+      "exit_pct": 253.5,
+      "exit_time": "2026-09-08T20:25:16.223826+00:00"
     }
   ],
   "alerted": {
@@ -173760,6 +173766,7 @@
     "CgPua3juHhCyfSCBRMM8kuRjEvuvt4rf4UbFSE5spump": "2026-09-08T20:22:08.942753+00:00",
     "0x8FA526d529e1de1E8C4a083BD3eE8260134B6996": "2026-09-08T20:23:11.557824+00:00",
     "0xF167d6aC8A68Cba5b3e1812D3Da26955b40f5224": "2026-09-08T20:24:14.661874+00:00",
-    "0xd6CDDc9ef9B58267796811700A66E02eE849953f": "2026-09-08T20:24:16.344672+00:00"
+    "0xd6CDDc9ef9B58267796811700A66E02eE849953f": "2026-09-08T20:24:16.344672+00:00",
+    "H118HpvTMPGno3rSiq2Bx6GF6WMcUyyGUzWSfw24pump": "2026-09-08T20:25:16.223826+00:00"
   }
 }
