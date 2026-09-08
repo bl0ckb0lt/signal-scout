@@ -21,30 +21,6 @@
       ]
     },
     {
-      "symbol": "ABROAD",
-      "chain": "bsc",
-      "address": "0x5E029Fd13615f795fED189a78e080B260B6F7777",
-      "source": "new",
-      "entry_price": 0.0001096,
-      "peak_price": 0.0001096,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T04:21:02.423722+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "XRP",
-      "chain": "robinhood",
-      "address": "0x03393Ca0f05C086caAfc75d3af4b80C62d877d88",
-      "source": "new",
-      "entry_price": 0.0001386,
-      "peak_price": 0.0001386,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T04:21:03.755680+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "NORA",
       "chain": "robinhood",
       "address": "0x3457B91A1f4473633D1C03ed59e9432b1b8e54E2",
@@ -54,6 +30,22 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T04:21:05.091252+00:00",
       "score": 68,
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.41,
+      "peak_volume_m5": 55459.01,
+      "milestones_hit": []
+    },
+    {
+      "symbol": "CHIMICHI",
+      "chain": "solana",
+      "address": "J7tRMsegkuERmotCB3Bn3QtNreMtJGne4aLD6msGpump",
+      "source": "new",
+      "entry_price": 9.74e-05,
+      "peak_price": 9.74e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T04:22:22.885886+00:00",
+      "score": 73,
       "status": "open"
     }
   ],
@@ -162594,6 +162586,44 @@
       "exit_price": 0.0001789,
       "exit_pct": 29.45,
       "exit_time": "2026-09-08T04:04:24.340602+00:00"
+    },
+    {
+      "symbol": "ABROAD",
+      "chain": "bsc",
+      "address": "0x5E029Fd13615f795fED189a78e080B260B6F7777",
+      "source": "new",
+      "entry_price": 0.0001096,
+      "peak_price": 0.0001096,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T04:21:02.423722+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -67.36,
+      "peak_volume_m5": 97338.5,
+      "milestones_hit": [],
+      "exit_price": 3.577e-05,
+      "exit_pct": -67.36,
+      "exit_time": "2026-09-08T04:22:11.028028+00:00"
+    },
+    {
+      "symbol": "XRP",
+      "chain": "robinhood",
+      "address": "0x03393Ca0f05C086caAfc75d3af4b80C62d877d88",
+      "source": "new",
+      "entry_price": 0.0001386,
+      "peak_price": 0.0001386,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T04:21:03.755680+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.41,
+      "peak_volume_m5": 21611.0,
+      "milestones_hit": [],
+      "exit_price": 0.0001214,
+      "exit_pct": -12.41,
+      "exit_time": "2026-09-08T04:22:11.881666+00:00"
     }
   ],
   "alerted": {
@@ -170826,6 +170856,8 @@
     "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F": "2026-09-08T04:02:34.686230+00:00",
     "0x17616C8F6CACf14FcFf63f3188A30691802EFfFF": "2026-09-08T04:03:33.248613+00:00",
     "J8DBVb6dn5fpDzDhHWZ6yP8wAGJwWZRBmje5J1Gwpump": "2026-09-08T04:03:33.945697+00:00",
-    "0xd6C5eD7DC12A7D7CAbD8F968aD5f4DEbb766B253": "2026-09-08T04:04:24.340602+00:00"
+    "0xd6C5eD7DC12A7D7CAbD8F968aD5f4DEbb766B253": "2026-09-08T04:04:24.340602+00:00",
+    "0x5E029Fd13615f795fED189a78e080B260B6F7777": "2026-09-08T04:22:11.028028+00:00",
+    "0x03393Ca0f05C086caAfc75d3af4b80C62d877d88": "2026-09-08T04:22:11.881666+00:00"
   }
 }
