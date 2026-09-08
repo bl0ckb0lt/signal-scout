@@ -26,15 +26,17 @@
       "address": "FjhTgMeDgSE2bfo9nHsPtvZanJrDGtVye78a1garpump",
       "source": "boost",
       "entry_price": 0.0004624,
-      "peak_price": 0.0006614,
+      "peak_price": 0.0007216,
       "trailing_active": true,
       "entry_time": "2026-09-08T00:51:00.480289+00:00",
       "score": 93,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 43.04,
+      "current_pct": 56.06,
       "peak_volume_m5": 35622.36,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "CME",
@@ -42,15 +44,42 @@
       "address": "0xe2324FF2a59F8eCBa8c321c6466e59121C00e795",
       "source": "new",
       "entry_price": 0.0005629,
-      "peak_price": 0.0005975,
-      "trailing_active": false,
+      "peak_price": 0.001254,
+      "trailing_active": true,
       "entry_time": "2026-09-08T01:31:03.885301+00:00",
       "score": 75,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.15,
-      "peak_volume_m5": 237054.7,
-      "milestones_hit": []
+      "current_pct": 122.77,
+      "peak_volume_m5": 332684.33,
+      "milestones_hit": [
+        50,
+        100
+      ]
+    },
+    {
+      "symbol": "APPLECAT",
+      "chain": "solana",
+      "address": "6FW5tmYT2NoJv27aVETUt7cAHCvZ3spekpGfALKxpump",
+      "source": "new",
+      "entry_price": 0.000276,
+      "peak_price": 0.000276,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T01:41:10.125461+00:00",
+      "score": 83,
+      "status": "open"
+    },
+    {
+      "symbol": "HOODCAT",
+      "chain": "robinhood",
+      "address": "0x2539b45B46F8ca3d830892Fc7d303289364788DA",
+      "source": "new",
+      "entry_price": 0.0001231,
+      "peak_price": 0.0001231,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T01:41:16.554312+00:00",
+      "score": 68,
+      "status": "open"
     }
   ],
   "closed": [
