@@ -14,7 +14,7 @@
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.61,
+      "current_pct": 1.58,
       "peak_volume_m5": 978.24,
       "milestones_hit": []
     },
@@ -30,7 +30,7 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.0,
+      "current_pct": -0.1,
       "peak_volume_m5": 0,
       "milestones_hit": []
     },
@@ -40,33 +40,15 @@
       "address": "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump",
       "source": "new",
       "entry_price": 0.0003224,
-      "peak_price": 0.0003908,
+      "peak_price": 0.0004411,
       "trailing_active": true,
       "entry_time": "2026-09-08T17:31:08.872416+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.22,
+      "current_pct": 36.82,
       "peak_volume_m5": 64772.08,
       "milestones_hit": []
-    },
-    {
-      "symbol": "PONSPULSE",
-      "chain": "robinhood",
-      "address": "0x7E797Ba9D48e6c1a68ba756dAfdE2602C3a74A3A",
-      "source": "new",
-      "entry_price": 8.454e-05,
-      "peak_price": 0.000162,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T17:40:57.770026+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 91.63,
-      "peak_volume_m5": 11929.07,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "MSFT",
@@ -80,9 +62,33 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.48,
+      "current_pct": -1.7,
       "peak_volume_m5": 59645.77,
       "milestones_hit": []
+    },
+    {
+      "symbol": "DFC",
+      "chain": "robinhood",
+      "address": "0xBCA75C388f54DAB85D0da1F66914a6CB034994F0",
+      "source": "new",
+      "entry_price": 9.552e-05,
+      "peak_price": 9.552e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T18:01:13.177591+00:00",
+      "score": 72,
+      "status": "open"
+    },
+    {
+      "symbol": "HOODINU",
+      "chain": "robinhood",
+      "address": "0xcf5A2d4562162D06c19770a23e7a28cEeFEccB57",
+      "source": "new",
+      "entry_price": 0.0001352,
+      "peak_price": 0.0001352,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T18:01:14.655864+00:00",
+      "score": 71,
+      "status": "open"
     }
   ],
   "closed": [
@@ -164690,6 +164696,27 @@
       "exit_price": 0.0001163,
       "exit_pct": -18.67,
       "exit_time": "2026-09-08T17:53:01.983201+00:00"
+    },
+    {
+      "symbol": "PONSPULSE",
+      "chain": "robinhood",
+      "address": "0x7E797Ba9D48e6c1a68ba756dAfdE2602C3a74A3A",
+      "source": "new",
+      "entry_price": 8.454e-05,
+      "peak_price": 0.000162,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T17:40:57.770026+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 64.42,
+      "peak_volume_m5": 11929.07,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000139,
+      "exit_pct": 64.42,
+      "exit_time": "2026-09-08T18:00:59.029553+00:00"
     }
   ],
   "alerted": {
@@ -173028,6 +173055,7 @@
     "0xdc54159dB976B065F24b9021DB9F2A9e200913a7": "2026-09-08T17:34:25.520658+00:00",
     "4oWhtcmBBsMG1bLZCLKusmq4t9fxdVVfbyJLevsYg5Ct": "2026-09-08T17:36:11.501242+00:00",
     "0xdD84faAEA514A6E7FBd1A8Ed026EF06Fb276B72c": "2026-09-08T17:42:30.648685+00:00",
-    "5VoE3y8yAQNFwogdCg6NNAKzovawz4JY1uBHYkXzpump": "2026-09-08T17:53:01.983201+00:00"
+    "5VoE3y8yAQNFwogdCg6NNAKzovawz4JY1uBHYkXzpump": "2026-09-08T17:53:01.983201+00:00",
+    "0x7E797Ba9D48e6c1a68ba756dAfdE2602C3a74A3A": "2026-09-08T18:00:59.029553+00:00"
   }
 }
