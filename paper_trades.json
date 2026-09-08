@@ -26,47 +26,17 @@
       "address": "0xd6C5eD7DC12A7D7CAbD8F968aD5f4DEbb766B253",
       "source": "new",
       "entry_price": 0.0001382,
-      "peak_price": 0.0002007,
+      "peak_price": 0.0002086,
       "trailing_active": true,
       "entry_time": "2026-09-08T04:01:04.895973+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 45.22,
-      "peak_volume_m5": 14447.84,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BNC",
-      "chain": "bsc",
-      "address": "0x17616C8F6CACf14FcFf63f3188A30691802EFfFF",
-      "source": "new",
-      "entry_price": 0.000736,
-      "peak_price": 0.000736,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T04:01:06.493062+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.78,
-      "peak_volume_m5": 47798.98,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Kuro",
-      "chain": "solana",
-      "address": "J8DBVb6dn5fpDzDhHWZ6yP8wAGJwWZRBmje5J1Gwpump",
-      "source": "new",
-      "entry_price": 0.0001532,
-      "peak_price": 0.0002141,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T04:01:08.092537+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 39.75,
-      "peak_volume_m5": 52774.18,
-      "milestones_hit": []
+      "current_pct": 50.94,
+      "peak_volume_m5": 16000.91,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -162547,6 +162517,44 @@
       "exit_price": 0.0004863,
       "exit_pct": 69.32,
       "exit_time": "2026-09-08T04:02:34.686230+00:00"
+    },
+    {
+      "symbol": "BNC",
+      "chain": "bsc",
+      "address": "0x17616C8F6CACf14FcFf63f3188A30691802EFfFF",
+      "source": "new",
+      "entry_price": 0.000736,
+      "peak_price": 0.000736,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T04:01:06.493062+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.18,
+      "peak_volume_m5": 47798.98,
+      "milestones_hit": [],
+      "exit_price": 0.0006611,
+      "exit_pct": -10.18,
+      "exit_time": "2026-09-08T04:03:33.248613+00:00"
+    },
+    {
+      "symbol": "Kuro",
+      "chain": "solana",
+      "address": "J8DBVb6dn5fpDzDhHWZ6yP8wAGJwWZRBmje5J1Gwpump",
+      "source": "new",
+      "entry_price": 0.0001532,
+      "peak_price": 0.0002141,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T04:01:08.092537+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 27.74,
+      "peak_volume_m5": 58504.15,
+      "milestones_hit": [],
+      "exit_price": 0.0001957,
+      "exit_pct": 27.74,
+      "exit_time": "2026-09-08T04:03:33.945697+00:00"
     }
   ],
   "alerted": {
@@ -170776,6 +170784,8 @@
     "0x649792631ddbC52551fd765A17382B4d375B9B78": "2026-09-08T03:43:20.117206+00:00",
     "0xd74af769df9fbfafdfbacdf682a2c9a1d572e5ef": "2026-09-08T03:44:18.726751+00:00",
     "0x901A8fd14283C827343D679db5a650AB36Cc4434": "2026-09-08T03:53:23.970534+00:00",
-    "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F": "2026-09-08T04:02:34.686230+00:00"
+    "0x79A74fD91F8E1c4AB8E76253Dec5C91F3094393F": "2026-09-08T04:02:34.686230+00:00",
+    "0x17616C8F6CACf14FcFf63f3188A30691802EFfFF": "2026-09-08T04:03:33.248613+00:00",
+    "J8DBVb6dn5fpDzDhHWZ6yP8wAGJwWZRBmje5J1Gwpump": "2026-09-08T04:03:33.945697+00:00"
   }
 }
