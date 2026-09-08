@@ -14,7 +14,7 @@
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.42,
+      "current_pct": 3.23,
       "peak_volume_m5": 1099.96,
       "milestones_hit": []
     },
@@ -35,28 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "MONEROCHAN",
-      "chain": "solana",
-      "address": "39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy",
-      "source": "new",
-      "entry_price": 0.001172,
-      "peak_price": 0.001172,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T21:21:02.261164+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "AIBUBBLE",
       "chain": "robinhood",
       "address": "0x15b0CB439ED2ec42319199cAD2B57c665A3e4497",
       "source": "new",
       "entry_price": 0.0001002,
-      "peak_price": 0.0001002,
-      "trailing_active": false,
+      "peak_price": 0.0001237,
+      "trailing_active": true,
       "entry_time": "2026-09-08T21:21:04.951575+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.45,
+      "peak_volume_m5": 27637.03,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -165552,6 +165544,25 @@
       "exit_price": 0.0001062,
       "exit_pct": -13.45,
       "exit_time": "2026-09-08T21:15:56.781285+00:00"
+    },
+    {
+      "symbol": "MONEROCHAN",
+      "chain": "solana",
+      "address": "39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy",
+      "source": "new",
+      "entry_price": 0.001172,
+      "peak_price": 0.001172,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T21:21:02.261164+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.71,
+      "peak_volume_m5": 49287.59,
+      "milestones_hit": [],
+      "exit_price": 0.001023,
+      "exit_pct": -12.71,
+      "exit_time": "2026-09-08T21:22:12.431016+00:00"
     }
   ],
   "alerted": {
@@ -173935,6 +173946,7 @@
     "0x11cE7a5a895B98300e901d2f8764437cc782DB96": "2026-09-08T20:52:18.123411+00:00",
     "0x2ef1D9EB9141CeF41e5A216608ff37Fc3387526e": "2026-09-08T20:52:19.059349+00:00",
     "0x29A6B0F110ebbea002531Dae8CD77B6499aDE8cE": "2026-09-08T20:52:20.204323+00:00",
-    "0xef42B172f2866c54490a8cE33454a3952c501074": "2026-09-08T21:15:56.781285+00:00"
+    "0xef42B172f2866c54490a8cE33454a3952c501074": "2026-09-08T21:15:56.781285+00:00",
+    "39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy": "2026-09-08T21:22:12.431016+00:00"
   }
 }
