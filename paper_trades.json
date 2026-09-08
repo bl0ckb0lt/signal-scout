@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MEWZ",
-      "chain": "solana",
-      "address": "7guzU2RreQG9N3mF7nqBM1NBDTDkURKDFzGGdA7bpump",
-      "source": "new",
-      "entry_price": 0.0001793,
-      "peak_price": 0.0001793,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T14:41:02.285693+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "INTC",
       "chain": "solana",
       "address": "5cNaeFkSqLGVE3BJufKVAzJtxkH2zHhKu3Ao7PCipump",
       "source": "new",
       "entry_price": 0.0002266,
-      "peak_price": 0.0002266,
-      "trailing_active": false,
+      "peak_price": 0.0003118,
+      "trailing_active": true,
       "entry_time": "2026-09-08T14:41:04.201722+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.6,
+      "peak_volume_m5": 30519.48,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -163996,6 +163988,25 @@
       "exit_price": 0.0001161,
       "exit_pct": -14.32,
       "exit_time": "2026-09-08T14:35:28.571326+00:00"
+    },
+    {
+      "symbol": "MEWZ",
+      "chain": "solana",
+      "address": "7guzU2RreQG9N3mF7nqBM1NBDTDkURKDFzGGdA7bpump",
+      "source": "new",
+      "entry_price": 0.0001793,
+      "peak_price": 0.0001793,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T14:41:02.285693+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.7,
+      "peak_volume_m5": 63319.53,
+      "milestones_hit": [],
+      "exit_price": 0.0001404,
+      "exit_pct": -21.7,
+      "exit_time": "2026-09-08T14:49:00.244975+00:00"
     }
   ],
   "alerted": {
@@ -172302,6 +172313,7 @@
     "0x232eCBdb38040c93EEBf497121e1241067e937bF": "2026-09-08T14:03:54.242543+00:00",
     "0xD79eb5D4EdF7bd843eeF5109F1a1FF5C96b17948": "2026-09-08T14:12:51.819391+00:00",
     "0x038Ad1734258cFa2799208D8b6cc7E55704D2B0c": "2026-09-08T14:22:32.983409+00:00",
-    "0xe6034F8A7773c890C0fa20042745E4857B1c7851": "2026-09-08T14:35:28.571326+00:00"
+    "0xe6034F8A7773c890C0fa20042745E4857B1c7851": "2026-09-08T14:35:28.571326+00:00",
+    "7guzU2RreQG9N3mF7nqBM1NBDTDkURKDFzGGdA7bpump": "2026-09-08T14:49:00.244975+00:00"
   }
 }
