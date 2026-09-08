@@ -32,7 +32,7 @@
       "score": 93,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.41,
+      "current_pct": 6.29,
       "peak_volume_m5": 21947.03,
       "milestones_hit": []
     },
@@ -53,22 +53,6 @@
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "AMD",
-      "chain": "solana",
-      "address": "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump",
-      "source": "new",
-      "entry_price": 0.0003402,
-      "peak_price": 0.0003534,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T01:21:10.337254+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.88,
-      "peak_volume_m5": 37673.83,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -162113,6 +162097,25 @@
       "exit_price": 0.001091,
       "exit_pct": 213.42,
       "exit_time": "2026-09-08T01:22:30.598136+00:00"
+    },
+    {
+      "symbol": "AMD",
+      "chain": "solana",
+      "address": "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump",
+      "source": "new",
+      "entry_price": 0.0003402,
+      "peak_price": 0.0003534,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T01:21:10.337254+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.37,
+      "peak_volume_m5": 37673.83,
+      "milestones_hit": [],
+      "exit_price": 0.0002879,
+      "exit_pct": -15.37,
+      "exit_time": "2026-09-08T01:23:30.048716+00:00"
     }
   ],
   "alerted": {
@@ -170320,6 +170323,7 @@
     "0x8b59adf6DbF4E01E7570C124c363694C12f5664A": "2026-09-08T00:32:39.698772+00:00",
     "0xBE7B87d823DdF0563cb6537A8c8Ab91F6441bfCE": "2026-09-08T00:52:56.220213+00:00",
     "24iJ9zyRhNpDrMVAEByrYNryqdu8k1XqkZ9mAbScj1CH": "2026-09-08T00:56:49.340187+00:00",
-    "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump": "2026-09-08T01:22:30.598136+00:00"
+    "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump": "2026-09-08T01:22:30.598136+00:00",
+    "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump": "2026-09-08T01:23:30.048716+00:00"
   }
 }
