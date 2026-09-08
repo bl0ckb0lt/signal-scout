@@ -26,33 +26,15 @@
       "address": "FjhTgMeDgSE2bfo9nHsPtvZanJrDGtVye78a1garpump",
       "source": "boost",
       "entry_price": 0.0004624,
-      "peak_price": 0.000516,
-      "trailing_active": false,
+      "peak_price": 0.0005837,
+      "trailing_active": true,
       "entry_time": "2026-09-08T00:51:00.480289+00:00",
       "score": 93,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.29,
+      "current_pct": 26.23,
       "peak_volume_m5": 21947.03,
       "milestones_hit": []
-    },
-    {
-      "symbol": "COMPUTE",
-      "chain": "robinhood",
-      "address": "0x496c5eBA23d3F9e3Ab1566dd0b3a071aEEB05c96",
-      "source": "new",
-      "entry_price": 0.0002258,
-      "peak_price": 0.0004441,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T01:11:06.144042+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 96.68,
-      "peak_volume_m5": 5580.82,
-      "milestones_hit": [
-        50
-      ]
     }
   ],
   "closed": [
@@ -162116,6 +162098,27 @@
       "exit_price": 0.0002879,
       "exit_pct": -15.37,
       "exit_time": "2026-09-08T01:23:30.048716+00:00"
+    },
+    {
+      "symbol": "COMPUTE",
+      "chain": "robinhood",
+      "address": "0x496c5eBA23d3F9e3Ab1566dd0b3a071aEEB05c96",
+      "source": "new",
+      "entry_price": 0.0002258,
+      "peak_price": 0.0004446,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T01:11:06.144042+00:00",
+      "score": 78,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 96.9,
+      "peak_volume_m5": 5580.82,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0004446,
+      "exit_pct": 96.9,
+      "exit_time": "2026-09-08T01:26:14.819505+00:00"
     }
   ],
   "alerted": {
@@ -170324,6 +170327,7 @@
     "0xBE7B87d823DdF0563cb6537A8c8Ab91F6441bfCE": "2026-09-08T00:52:56.220213+00:00",
     "24iJ9zyRhNpDrMVAEByrYNryqdu8k1XqkZ9mAbScj1CH": "2026-09-08T00:56:49.340187+00:00",
     "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump": "2026-09-08T01:22:30.598136+00:00",
-    "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump": "2026-09-08T01:23:30.048716+00:00"
+    "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump": "2026-09-08T01:23:30.048716+00:00",
+    "0x496c5eBA23d3F9e3Ab1566dd0b3a071aEEB05c96": "2026-09-08T01:26:14.819505+00:00"
   }
 }
