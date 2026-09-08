@@ -14,24 +14,8 @@
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.4,
+      "current_pct": 1.44,
       "peak_volume_m5": 978.24,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "NYSEDOG",
-      "chain": "solana",
-      "address": "ALBMTj6ZL8AUVo1GTk9F2qeHm1qTfJKu8LMXFe7Cpump",
-      "source": "new",
-      "entry_price": 0.0001681,
-      "peak_price": 0.0002422,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T16:01:20.393746+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 44.08,
-      "peak_volume_m5": 50174.88,
       "milestones_hit": []
     },
     {
@@ -40,11 +24,15 @@
       "address": "GHkX4EcWr9DLmSoZ4mdaFd6ciaPEf5aSfDqDxdUgpump",
       "source": "new",
       "entry_price": 0.000212,
-      "peak_price": 0.000212,
-      "trailing_active": false,
+      "peak_price": 0.0002472,
+      "trailing_active": true,
       "entry_time": "2026-09-08T16:11:07.700154+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.6,
+      "peak_volume_m5": 74991.67,
+      "milestones_hit": []
     },
     {
       "symbol": "ASHIBA",
@@ -56,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T16:11:10.650686+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "POPCORN",
-      "chain": "robinhood",
-      "address": "0x7C217dA8B5d376935e3cAF34CF29FA682eDB7e84",
-      "source": "new",
-      "entry_price": 0.0001185,
-      "peak_price": 0.0001185,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T16:11:11.989444+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.76,
+      "peak_volume_m5": 3092.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -164294,6 +164274,44 @@
       "exit_price": 0.0002194,
       "exit_pct": 107.37,
       "exit_time": "2026-09-08T16:06:21.537567+00:00"
+    },
+    {
+      "symbol": "NYSEDOG",
+      "chain": "solana",
+      "address": "ALBMTj6ZL8AUVo1GTk9F2qeHm1qTfJKu8LMXFe7Cpump",
+      "source": "new",
+      "entry_price": 0.0001681,
+      "peak_price": 0.0002422,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T16:01:20.393746+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 24.39,
+      "peak_volume_m5": 56002.01,
+      "milestones_hit": [],
+      "exit_price": 0.0002091,
+      "exit_pct": 24.39,
+      "exit_time": "2026-09-08T16:12:15.726305+00:00"
+    },
+    {
+      "symbol": "POPCORN",
+      "chain": "robinhood",
+      "address": "0x7C217dA8B5d376935e3cAF34CF29FA682eDB7e84",
+      "source": "new",
+      "entry_price": 0.0001185,
+      "peak_price": 0.0001185,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T16:11:11.989444+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.77,
+      "peak_volume_m5": 3532.6,
+      "milestones_hit": [],
+      "exit_price": 0.000101,
+      "exit_pct": -14.77,
+      "exit_time": "2026-09-08T16:12:17.459250+00:00"
     }
   ],
   "alerted": {
@@ -172613,6 +172631,8 @@
     "nRSVkD3zpmaB3nHFkrVvboedb2NihwjNYK55s3bqqVJ": "2026-09-08T15:43:58.055090+00:00",
     "9nQ19kEKYcmtSHZA9hEgxXBkEAGAotgXQFJFBFgUpump": "2026-09-08T15:55:10.140267+00:00",
     "7KiuMuTynyjg9KFWJhj1LctUF2zh2LZDuqEkocdYpump": "2026-09-08T16:04:27.676122+00:00",
-    "0xcd79F4F2ECEBd304e07438EA74D5a9e6BA4573e0": "2026-09-08T16:06:21.537567+00:00"
+    "0xcd79F4F2ECEBd304e07438EA74D5a9e6BA4573e0": "2026-09-08T16:06:21.537567+00:00",
+    "ALBMTj6ZL8AUVo1GTk9F2qeHm1qTfJKu8LMXFe7Cpump": "2026-09-08T16:12:15.726305+00:00",
+    "0x7C217dA8B5d376935e3cAF34CF29FA682eDB7e84": "2026-09-08T16:12:17.459250+00:00"
   }
 }
