@@ -35,54 +35,23 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HAPPYCAT",
-      "chain": "solana",
-      "address": "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump",
-      "source": "boost",
-      "entry_price": 0.0009727,
-      "peak_price": 0.001301,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T21:51:05.334746+00:00",
-      "score": 103,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 33.75,
-      "peak_volume_m5": 78616.53,
-      "milestones_hit": []
-    },
-    {
       "symbol": "VVVCAT",
       "chain": "base",
       "address": "0xb200000000000000000000334e81C5BF698BDC01",
       "source": "new",
       "entry_price": 6.743e-05,
-      "peak_price": 0.000124,
+      "peak_price": 0.0001368,
       "trailing_active": true,
       "entry_time": "2026-09-08T23:21:14.078783+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 83.89,
+      "current_pct": 102.88,
       "peak_volume_m5": 15165.55,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "CAGE",
-      "chain": "solana",
-      "address": "4rLL1jNABtg6z6P9gJNQTk2jkbVwU514VHtf2xXopump",
-      "source": "new",
-      "entry_price": 0.0001485,
-      "peak_price": 0.0001485,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T23:21:16.024991+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.81,
-      "peak_volume_m5": 8956.05,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -166078,6 +166047,44 @@
       "exit_price": 8.882e-05,
       "exit_pct": -11.97,
       "exit_time": "2026-09-08T23:24:54.642167+00:00"
+    },
+    {
+      "symbol": "HAPPYCAT",
+      "chain": "solana",
+      "address": "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump",
+      "source": "boost",
+      "entry_price": 0.0009727,
+      "peak_price": 0.001301,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T21:51:05.334746+00:00",
+      "score": 103,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 23.27,
+      "peak_volume_m5": 78616.53,
+      "milestones_hit": [],
+      "exit_price": 0.001199,
+      "exit_pct": 23.27,
+      "exit_time": "2026-09-08T23:25:55.244095+00:00"
+    },
+    {
+      "symbol": "CAGE",
+      "chain": "solana",
+      "address": "4rLL1jNABtg6z6P9gJNQTk2jkbVwU514VHtf2xXopump",
+      "source": "new",
+      "entry_price": 0.0001485,
+      "peak_price": 0.0001485,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T23:21:16.024991+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -98.43,
+      "peak_volume_m5": 21462.18,
+      "milestones_hit": [],
+      "exit_price": 2.325e-06,
+      "exit_pct": -98.43,
+      "exit_time": "2026-09-08T23:25:56.827115+00:00"
     }
   ],
   "alerted": {
@@ -174420,7 +174427,7 @@
     "0x7E797Ba9D48e6c1a68ba756dAfdE2602C3a74A3A": "2026-09-08T18:00:59.029553+00:00",
     "0xBCA75C388f54DAB85D0da1F66914a6CB034994F0": "2026-09-08T18:02:23.158587+00:00",
     "0xcf5A2d4562162D06c19770a23e7a28cEeFEccB57": "2026-09-08T18:03:15.615782+00:00",
-    "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump": "2026-09-08T18:05:06.611425+00:00",
+    "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump": "2026-09-08T23:25:55.244095+00:00",
     "0xC103aC00A25173870c909223c5676D50bf5728b2": "2026-09-08T18:23:24.304462+00:00",
     "GxFZAkFEeEhoPXaL7Tyq6AMcbsmt5WrEbPDTg58EbCwV": "2026-09-08T18:23:25.541900+00:00",
     "0xb47efCc461d3CD6b270dAf15388A77a3fAe64AD1": "2026-09-08T18:26:17.796777+00:00",
@@ -174486,6 +174493,7 @@
     "0xc5AB9C53B3f7D579C7f165752c5160Dc3627a045": "2026-09-08T23:05:26.578784+00:00",
     "Dqniq85aHUhZso6gv4d6FqnWio7bn3SRMFQrHPxapump": "2026-09-08T23:06:26.727799+00:00",
     "0xc6Ee1CF421413dd2404da16e1052605e0A8E9149": "2026-09-08T23:08:13.500756+00:00",
-    "FCLgsb8utgpPivdhrfHBpkqsns3ki9e9nhXbtEbEpump": "2026-09-08T23:24:54.642167+00:00"
+    "FCLgsb8utgpPivdhrfHBpkqsns3ki9e9nhXbtEbEpump": "2026-09-08T23:24:54.642167+00:00",
+    "4rLL1jNABtg6z6P9gJNQTk2jkbVwU514VHtf2xXopump": "2026-09-08T23:25:56.827115+00:00"
   }
 }
