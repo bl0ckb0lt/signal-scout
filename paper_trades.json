@@ -26,13 +26,13 @@
       "address": "FjhTgMeDgSE2bfo9nHsPtvZanJrDGtVye78a1garpump",
       "source": "boost",
       "entry_price": 0.0004624,
-      "peak_price": 0.0005964,
+      "peak_price": 0.0006614,
       "trailing_active": true,
       "entry_time": "2026-09-08T00:51:00.480289+00:00",
       "score": 93,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 28.98,
+      "current_pct": 43.04,
       "peak_volume_m5": 35622.36,
       "milestones_hit": []
     },
@@ -42,23 +42,15 @@
       "address": "0xe2324FF2a59F8eCBa8c321c6466e59121C00e795",
       "source": "new",
       "entry_price": 0.0005629,
-      "peak_price": 0.0005629,
+      "peak_price": 0.0005975,
       "trailing_active": false,
       "entry_time": "2026-09-08T01:31:03.885301+00:00",
       "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "SPAGHETTI",
-      "chain": "robinhood",
-      "address": "0x39408763876499Bd9C993b0422f3fF21Dec64ED1",
-      "source": "new",
-      "entry_price": 0.0001585,
-      "peak_price": 0.0001585,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T01:31:07.022613+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.15,
+      "peak_volume_m5": 237054.7,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -162143,6 +162135,25 @@
       "exit_price": 0.0004446,
       "exit_pct": 96.9,
       "exit_time": "2026-09-08T01:26:14.819505+00:00"
+    },
+    {
+      "symbol": "SPAGHETTI",
+      "chain": "robinhood",
+      "address": "0x39408763876499Bd9C993b0422f3fF21Dec64ED1",
+      "source": "new",
+      "entry_price": 0.0001585,
+      "peak_price": 0.0001585,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T01:31:07.022613+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.03,
+      "peak_volume_m5": 38594.06,
+      "milestones_hit": [],
+      "exit_price": 0.0001315,
+      "exit_pct": -17.03,
+      "exit_time": "2026-09-08T01:32:33.383142+00:00"
     }
   ],
   "alerted": {
@@ -170352,6 +170363,7 @@
     "24iJ9zyRhNpDrMVAEByrYNryqdu8k1XqkZ9mAbScj1CH": "2026-09-08T00:56:49.340187+00:00",
     "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump": "2026-09-08T01:22:30.598136+00:00",
     "7NJ9KEDASTQLNA7WbMeBdH5yNeBYdcU4v5cpbfELpump": "2026-09-08T01:23:30.048716+00:00",
-    "0x496c5eBA23d3F9e3Ab1566dd0b3a071aEEB05c96": "2026-09-08T01:26:14.819505+00:00"
+    "0x496c5eBA23d3F9e3Ab1566dd0b3a071aEEB05c96": "2026-09-08T01:26:14.819505+00:00",
+    "0x39408763876499Bd9C993b0422f3fF21Dec64ED1": "2026-09-08T01:32:33.383142+00:00"
   }
 }
