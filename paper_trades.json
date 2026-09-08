@@ -46,24 +46,8 @@
       "score": 103,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -5.05,
+      "current_pct": -3.99,
       "peak_volume_m5": 19639.11,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "COH",
-      "chain": "solana",
-      "address": "Dqniq85aHUhZso6gv4d6FqnWio7bn3SRMFQrHPxapump",
-      "source": "new",
-      "entry_price": 0.0002944,
-      "peak_price": 0.0003287,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T22:51:16.260991+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.88,
-      "peak_volume_m5": 6331.58,
       "milestones_hit": []
     },
     {
@@ -72,15 +56,16 @@
       "address": "0xc6Ee1CF421413dd2404da16e1052605e0A8E9149",
       "source": "new",
       "entry_price": 0.000296,
-      "peak_price": 0.0006686,
+      "peak_price": 0.0008912,
       "trailing_active": true,
       "entry_time": "2026-09-08T23:01:12.854898+00:00",
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 125.88,
-      "peak_volume_m5": 79141.51,
+      "current_pct": 201.08,
+      "peak_volume_m5": 89432.75,
       "milestones_hit": [
+        200,
         50,
         100
       ]
@@ -166018,6 +166003,25 @@
       "exit_price": 9.535e-05,
       "exit_pct": -15.54,
       "exit_time": "2026-09-08T23:05:26.578784+00:00"
+    },
+    {
+      "symbol": "COH",
+      "chain": "solana",
+      "address": "Dqniq85aHUhZso6gv4d6FqnWio7bn3SRMFQrHPxapump",
+      "source": "new",
+      "entry_price": 0.0002944,
+      "peak_price": 0.0003287,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T22:51:16.260991+00:00",
+      "score": 81,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 8.46,
+      "peak_volume_m5": 6331.58,
+      "milestones_hit": [],
+      "exit_price": 0.0003193,
+      "exit_pct": 8.46,
+      "exit_time": "2026-09-08T23:06:26.727799+00:00"
     }
   ],
   "alerted": {
@@ -174423,6 +174427,7 @@
     "0x1B2f48fcecAA15e56D335d185BEdCfEa2321cC89": "2026-09-08T22:55:59.065901+00:00",
     "0x923cF92860f7E84F525051Dfec371888Be51ed6B": "2026-09-08T22:57:59.543979+00:00",
     "0x113D68C8CcA4fE5bA25f49c00784079D168E7777": "2026-09-08T23:02:53.292362+00:00",
-    "0xc5AB9C53B3f7D579C7f165752c5160Dc3627a045": "2026-09-08T23:05:26.578784+00:00"
+    "0xc5AB9C53B3f7D579C7f165752c5160Dc3627a045": "2026-09-08T23:05:26.578784+00:00",
+    "Dqniq85aHUhZso6gv4d6FqnWio7bn3SRMFQrHPxapump": "2026-09-08T23:06:26.727799+00:00"
   }
 }
