@@ -14,7 +14,7 @@
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.12,
+      "current_pct": 4.11,
       "peak_volume_m5": 1099.96,
       "milestones_hit": []
     },
@@ -35,22 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "RBLT",
-      "chain": "robinhood",
-      "address": "0xd1A27fc85334D2e3920333500D76479796E065C2",
-      "source": "new",
-      "entry_price": 0.002316,
-      "peak_price": 0.002985,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T21:41:11.808593+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 22.84,
-      "peak_volume_m5": 10099.25,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HAPPYCAT",
       "chain": "solana",
       "address": "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump",
@@ -62,7 +46,7 @@
       "score": 103,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.29,
+      "current_pct": 2.91,
       "peak_volume_m5": 18488.77,
       "milestones_hit": []
     },
@@ -76,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-08T22:01:12.683135+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.81,
+      "peak_volume_m5": 75940.9,
+      "milestones_hit": []
     },
     {
       "symbol": "UNSTONK",
@@ -84,11 +72,15 @@
       "address": "0xd94a66fa26e82c1d8f6c6412fd3bdf46ecf55a23",
       "source": "new",
       "entry_price": 0.0001579,
-      "peak_price": 0.0001579,
-      "trailing_active": false,
+      "peak_price": 0.0002145,
+      "trailing_active": true,
       "entry_time": "2026-09-08T22:01:15.457239+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.85,
+      "peak_volume_m5": 341757.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -165698,6 +165690,25 @@
       "exit_price": 0.0001844,
       "exit_pct": -17.9,
       "exit_time": "2026-09-08T21:58:40.292456+00:00"
+    },
+    {
+      "symbol": "RBLT",
+      "chain": "robinhood",
+      "address": "0xd1A27fc85334D2e3920333500D76479796E065C2",
+      "source": "new",
+      "entry_price": 0.002316,
+      "peak_price": 0.002985,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T21:41:11.808593+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 15.8,
+      "peak_volume_m5": 10099.25,
+      "milestones_hit": [],
+      "exit_price": 0.002682,
+      "exit_pct": 15.8,
+      "exit_time": "2026-09-08T22:02:27.650251+00:00"
     }
   ],
   "alerted": {
@@ -174087,6 +174098,7 @@
     "0xb1aE1bF55389a3E011fD456CA0eA7E8625307195": "2026-09-08T21:32:02.577184+00:00",
     "0xD4770510d138DDdb3bBc04c7a46603395Ff23ebf": "2026-09-08T21:54:55.040303+00:00",
     "0xd880F439677c4dB24FdF6f2d50281594fE8e8C3E": "2026-09-08T21:58:39.458189+00:00",
-    "0xdfA8a8bc65CB8b1a6d6E64c184FB3346171446B2": "2026-09-08T21:58:40.292456+00:00"
+    "0xdfA8a8bc65CB8b1a6d6E64c184FB3346171446B2": "2026-09-08T21:58:40.292456+00:00",
+    "0xd1A27fc85334D2e3920333500D76479796E065C2": "2026-09-08T22:02:27.650251+00:00"
   }
 }
