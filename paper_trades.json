@@ -21,38 +21,6 @@
       ]
     },
     {
-      "symbol": "FAT",
-      "chain": "solana",
-      "address": "HCqfDFPMMwMzohuW7xXMnQuRTUgK5vmbAaRt7U7Ppump",
-      "source": "new",
-      "entry_price": 0.000407,
-      "peak_price": 0.0004253,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T09:41:06.177776+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.5,
-      "peak_volume_m5": 36399.48,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HAIRY",
-      "chain": "robinhood",
-      "address": "0xF2554b04671CF1930E30788E91A526b8ef3e63BA",
-      "source": "new",
-      "entry_price": 0.0004813,
-      "peak_price": 0.0005117,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T09:41:09.352833+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 6.32,
-      "peak_volume_m5": 85109.34,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Navier",
       "chain": "robinhood",
       "address": "0x988d898cdf4C3243b426743f1c0D231B0E52bAA7",
@@ -64,7 +32,7 @@
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.32,
+      "current_pct": 7.12,
       "peak_volume_m5": 58182.97,
       "milestones_hit": []
     }
@@ -163248,6 +163216,44 @@
       "exit_price": 0.001173,
       "exit_pct": 9.93,
       "exit_time": "2026-09-08T09:42:32.903786+00:00"
+    },
+    {
+      "symbol": "FAT",
+      "chain": "solana",
+      "address": "HCqfDFPMMwMzohuW7xXMnQuRTUgK5vmbAaRt7U7Ppump",
+      "source": "new",
+      "entry_price": 0.000407,
+      "peak_price": 0.0004253,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T09:41:06.177776+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.71,
+      "peak_volume_m5": 56526.04,
+      "milestones_hit": [],
+      "exit_price": 0.0003227,
+      "exit_pct": -20.71,
+      "exit_time": "2026-09-08T09:44:25.233256+00:00"
+    },
+    {
+      "symbol": "HAIRY",
+      "chain": "robinhood",
+      "address": "0xF2554b04671CF1930E30788E91A526b8ef3e63BA",
+      "source": "new",
+      "entry_price": 0.0004813,
+      "peak_price": 0.0005117,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T09:41:09.352833+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.08,
+      "peak_volume_m5": 96698.99,
+      "milestones_hit": [],
+      "exit_price": 0.0004087,
+      "exit_pct": -15.08,
+      "exit_time": "2026-09-08T09:44:25.925671+00:00"
     }
   ],
   "alerted": {
@@ -171513,6 +171519,8 @@
     "0x96d2B15b35f43E0113a362B6d522a27a6A9d2138": "2026-09-08T09:22:17.701126+00:00",
     "0x39594Af09ec6BD85C0494C62Eea6C59c15cFaC97": "2026-09-08T09:26:45.466497+00:00",
     "5BQJjgKmjCqGv7BWfvwzbRNMRga8v37mLWBVJyPipump": "2026-09-08T09:37:49.780819+00:00",
-    "0x4E5cbADB8a245723715D8E396261afE3dC999619": "2026-09-08T09:42:32.903786+00:00"
+    "0x4E5cbADB8a245723715D8E396261afE3dC999619": "2026-09-08T09:42:32.903786+00:00",
+    "HCqfDFPMMwMzohuW7xXMnQuRTUgK5vmbAaRt7U7Ppump": "2026-09-08T09:44:25.233256+00:00",
+    "0xF2554b04671CF1930E30788E91A526b8ef3e63BA": "2026-09-08T09:44:25.925671+00:00"
   }
 }
