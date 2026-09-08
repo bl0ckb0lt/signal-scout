@@ -26,30 +26,19 @@
       "address": "0xc70D422C1FBFEFc0534dd9CC81737888Bda20009",
       "source": "new",
       "entry_price": 6.116e-05,
-      "peak_price": 0.000174,
+      "peak_price": 0.0002054,
       "trailing_active": true,
       "entry_time": "2026-09-08T02:41:10.907888+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 184.5,
-      "peak_volume_m5": 27346.51,
+      "current_pct": 235.84,
+      "peak_volume_m5": 27689.29,
       "milestones_hit": [
+        200,
         50,
         100
       ]
-    },
-    {
-      "symbol": "StockCat",
-      "chain": "solana",
-      "address": "SgceNvzKD9Gh7w5mhWvPaYxZq5Qn8Cdq26oPhqfpump",
-      "source": "new",
-      "entry_price": 0.000136,
-      "peak_price": 0.000136,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T02:51:04.242586+00:00",
-      "score": 81,
-      "status": "open"
     }
   ],
   "closed": [
@@ -162330,6 +162319,25 @@
       "exit_price": 0.000108,
       "exit_pct": -17.37,
       "exit_time": "2026-09-08T02:42:47.666009+00:00"
+    },
+    {
+      "symbol": "StockCat",
+      "chain": "solana",
+      "address": "SgceNvzKD9Gh7w5mhWvPaYxZq5Qn8Cdq26oPhqfpump",
+      "source": "new",
+      "entry_price": 0.000136,
+      "peak_price": 0.000136,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T02:51:04.242586+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.46,
+      "peak_volume_m5": 64973.85,
+      "milestones_hit": [],
+      "exit_price": 0.0001041,
+      "exit_pct": -23.46,
+      "exit_time": "2026-09-08T03:00:05.217182+00:00"
     }
   ],
   "alerted": {
@@ -170549,6 +170557,7 @@
     "0xf8b696a911a882048083d323d8cc0e46bfa24a0f": "2026-09-08T02:12:42.596747+00:00",
     "0x4927370E1053Eb0ED11cFeb9f6972e2460A7F560": "2026-09-08T02:23:32.237604+00:00",
     "0xa3b75e9ea43af1a3f68cd8c02c3f38a8cf345b4c": "2026-09-08T02:37:47.826423+00:00",
-    "0x9FbB68Eb3AB2422d94Db30F0742DA7bBe711064d": "2026-09-08T02:42:47.666009+00:00"
+    "0x9FbB68Eb3AB2422d94Db30F0742DA7bBe711064d": "2026-09-08T02:42:47.666009+00:00",
+    "SgceNvzKD9Gh7w5mhWvPaYxZq5Qn8Cdq26oPhqfpump": "2026-09-08T03:00:05.217182+00:00"
   }
 }
