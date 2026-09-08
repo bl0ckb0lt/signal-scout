@@ -21,46 +21,20 @@
       ]
     },
     {
-      "symbol": "MOO",
-      "chain": "robinhood",
-      "address": "0x5d6095354533fA7e2BdA6564fC0077dDB943ee4F",
-      "source": "new",
-      "entry_price": 0.0001131,
-      "peak_price": 0.0002001,
-      "trailing_active": true,
-      "entry_time": "2026-09-08T08:11:03.188585+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 76.92,
-      "peak_volume_m5": 70062.07,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "IBM",
-      "chain": "solana",
-      "address": "EwAb3fVVgyTjmDB7HWZfhd1MWoqv5rGap9bM85dcpump",
-      "source": "new",
-      "entry_price": 0.0003355,
-      "peak_price": 0.0003355,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T08:21:04.275318+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "AGENTSORA",
       "chain": "robinhood",
       "address": "0x84131db02C288F3e5A1c581FAeC1A38Fd83268ba",
       "source": "boost",
       "entry_price": 0.0002726,
-      "peak_price": 0.0002726,
+      "peak_price": 0.0002852,
       "trailing_active": false,
       "entry_time": "2026-09-08T08:21:07.230835+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.62,
+      "peak_volume_m5": 2810.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -162961,6 +162935,46 @@
       "exit_price": 0.0002767,
       "exit_pct": 4.97,
       "exit_time": "2026-09-08T08:03:25.470461+00:00"
+    },
+    {
+      "symbol": "MOO",
+      "chain": "robinhood",
+      "address": "0x5d6095354533fA7e2BdA6564fC0077dDB943ee4F",
+      "source": "new",
+      "entry_price": 0.0001131,
+      "peak_price": 0.0002001,
+      "trailing_active": true,
+      "entry_time": "2026-09-08T08:11:03.188585+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 41.56,
+      "peak_volume_m5": 80871.69,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001601,
+      "exit_pct": 41.56,
+      "exit_time": "2026-09-08T08:22:46.996071+00:00"
+    },
+    {
+      "symbol": "IBM",
+      "chain": "solana",
+      "address": "EwAb3fVVgyTjmDB7HWZfhd1MWoqv5rGap9bM85dcpump",
+      "source": "new",
+      "entry_price": 0.0003355,
+      "peak_price": 0.0003355,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T08:21:04.275318+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.62,
+      "peak_volume_m5": 113104.38,
+      "milestones_hit": [],
+      "exit_price": 0.0002831,
+      "exit_pct": -15.62,
+      "exit_time": "2026-09-08T08:22:47.820051+00:00"
     }
   ],
   "alerted": {
@@ -171212,6 +171226,8 @@
     "Gvxt6KadPzvqhGX6A7qCX7KmWNf54hjuiddMwSQGpump": "2026-09-08T07:03:11.805579+00:00",
     "0xcfa101A64dA3c0b7f2Be5b74D6E9b5dF07317777": "2026-09-08T07:14:34.219355+00:00",
     "0xe65C406c20AC4Bd8d55EB12773feb76c8A49dC75": "2026-09-08T07:21:57.975081+00:00",
-    "0xE890C08EC0813Fb90823c2f6c0626d6b7fEaDe83": "2026-09-08T08:03:25.470461+00:00"
+    "0xE890C08EC0813Fb90823c2f6c0626d6b7fEaDe83": "2026-09-08T08:03:25.470461+00:00",
+    "0x5d6095354533fA7e2BdA6564fC0077dDB943ee4F": "2026-09-08T08:22:46.996071+00:00",
+    "EwAb3fVVgyTjmDB7HWZfhd1MWoqv5rGap9bM85dcpump": "2026-09-08T08:22:47.820051+00:00"
   }
 }
