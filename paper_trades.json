@@ -24,27 +24,15 @@
       "address": "52roamznQtHQMjt33DJDKQJoB4z5uPLGJe7m6iSHpump",
       "source": "new",
       "entry_price": 0.0007832,
-      "peak_price": 0.0007891,
+      "peak_price": 0.0007903,
       "trailing_active": false,
       "entry_time": "2026-09-08T15:21:19.677119+00:00",
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.24,
+      "current_pct": 0.91,
       "peak_volume_m5": 978.24,
       "milestones_hit": []
-    },
-    {
-      "symbol": "DOIT",
-      "chain": "solana",
-      "address": "B79xMpJLki2fBkSjqHNehfBBzKwXE5kHm6FrHcVB8D1M",
-      "source": "new",
-      "entry_price": 9.099e-05,
-      "peak_price": 9.099e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T15:31:17.461101+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "UPS",
@@ -52,23 +40,15 @@
       "address": "0x48bCBbc6CA67166Bc7f87D172118057aD6CDC3DA",
       "source": "new",
       "entry_price": 0.0001462,
-      "peak_price": 0.0001462,
-      "trailing_active": false,
+      "peak_price": 0.0002051,
+      "trailing_active": true,
       "entry_time": "2026-09-08T15:31:18.991871+00:00",
       "score": 63,
-      "status": "open"
-    },
-    {
-      "symbol": "ZBNK",
-      "chain": "robinhood",
-      "address": "0x5ca8357ee2831c29dbd05061dbe1bac777b6a206",
-      "source": "new",
-      "entry_price": 0.0001073,
-      "peak_price": 0.0001073,
-      "trailing_active": false,
-      "entry_time": "2026-09-08T15:31:20.501023+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 40.29,
+      "peak_volume_m5": 202222.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -164139,6 +164119,44 @@
       "exit_price": 0.0001888,
       "exit_pct": 9.2,
       "exit_time": "2026-09-08T15:24:20.025541+00:00"
+    },
+    {
+      "symbol": "DOIT",
+      "chain": "solana",
+      "address": "B79xMpJLki2fBkSjqHNehfBBzKwXE5kHm6FrHcVB8D1M",
+      "source": "new",
+      "entry_price": 9.099e-05,
+      "peak_price": 9.099e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T15:31:17.461101+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.25,
+      "peak_volume_m5": 11225.08,
+      "milestones_hit": [],
+      "exit_price": 8.075e-05,
+      "exit_pct": -11.25,
+      "exit_time": "2026-09-08T15:33:04.585710+00:00"
+    },
+    {
+      "symbol": "ZBNK",
+      "chain": "robinhood",
+      "address": "0x5ca8357ee2831c29dbd05061dbe1bac777b6a206",
+      "source": "new",
+      "entry_price": 0.0001073,
+      "peak_price": 0.0001073,
+      "trailing_active": false,
+      "entry_time": "2026-09-08T15:31:20.501023+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.19,
+      "peak_volume_m5": 10164.55,
+      "milestones_hit": [],
+      "exit_price": 8.349e-05,
+      "exit_pct": -22.19,
+      "exit_time": "2026-09-08T15:33:06.266257+00:00"
     }
   ],
   "alerted": {
@@ -172450,6 +172468,8 @@
     "5cNaeFkSqLGVE3BJufKVAzJtxkH2zHhKu3Ao7PCipump": "2026-09-08T14:52:54.810513+00:00",
     "0x7bf5Ce5b6aCC780C84249eb5a4CcFC7749fdCA0d": "2026-09-08T15:12:43.194213+00:00",
     "0xB78D6b32Fb2a8CF4c3235dFA51769CA30c6A7777": "2026-09-08T15:22:46.033473+00:00",
-    "0xb97D9e5Ad6244d27588Fe0A624A8C78E512934eE": "2026-09-08T15:24:20.025541+00:00"
+    "0xb97D9e5Ad6244d27588Fe0A624A8C78E512934eE": "2026-09-08T15:24:20.025541+00:00",
+    "B79xMpJLki2fBkSjqHNehfBBzKwXE5kHm6FrHcVB8D1M": "2026-09-08T15:33:04.585710+00:00",
+    "0x5ca8357ee2831c29dbd05061dbe1bac777b6a206": "2026-09-08T15:33:06.266257+00:00"
   }
 }
