@@ -46,21 +46,9 @@
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -1.84,
+      "current_pct": -0.85,
       "peak_volume_m5": 1693.55,
       "milestones_hit": []
-    },
-    {
-      "symbol": "FIX6900",
-      "chain": "solana",
-      "address": "FfjinTzkc573HbBY7Qrh4XjzX9hynceaMA18uH7Bpump",
-      "source": "new",
-      "entry_price": 0.0001878,
-      "peak_price": 0.0001878,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T20:51:08.294132+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "VIG",
@@ -68,11 +56,15 @@
       "address": "0x500eB19aD5ca36c7d17479F435F2b8eFF2503a44",
       "source": "new",
       "entry_price": 9.068e-05,
-      "peak_price": 9.068e-05,
+      "peak_price": 9.096e-05,
       "trailing_active": false,
       "entry_time": "2026-09-09T20:51:09.677472+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.31,
+      "peak_volume_m5": 4169.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -169024,6 +169016,25 @@
       "exit_price": 0.0001954,
       "exit_pct": -17.45,
       "exit_time": "2026-09-09T20:44:53.809997+00:00"
+    },
+    {
+      "symbol": "FIX6900",
+      "chain": "solana",
+      "address": "FfjinTzkc573HbBY7Qrh4XjzX9hynceaMA18uH7Bpump",
+      "source": "new",
+      "entry_price": 0.0001878,
+      "peak_price": 0.0001878,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T20:51:08.294132+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.7,
+      "peak_volume_m5": 58088.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001508,
+      "exit_pct": -19.7,
+      "exit_time": "2026-09-09T20:52:15.891350+00:00"
     }
   ],
   "alerted": {
@@ -177583,6 +177594,7 @@
     "0x6899Fd58De486Bef7932C5aDB73243C1174FeA59": "2026-09-09T20:14:14.264526+00:00",
     "41UrTGwAokUi5y9qXvHtG82fYsHgCnQE7oFtLhYRwYMP": "2026-09-09T20:24:32.971969+00:00",
     "0x900402c3637a6f5ffeD4C318add6F3639000206F": "2026-09-09T20:41:58.562402+00:00",
-    "0xd111d37Ba471Fbe1c038976C8c51560BB0ee2335": "2026-09-09T20:44:53.809997+00:00"
+    "0xd111d37Ba471Fbe1c038976C8c51560BB0ee2335": "2026-09-09T20:44:53.809997+00:00",
+    "FfjinTzkc573HbBY7Qrh4XjzX9hynceaMA18uH7Bpump": "2026-09-09T20:52:15.891350+00:00"
   }
 }
