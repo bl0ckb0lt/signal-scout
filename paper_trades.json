@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Asset",
-      "chain": "robinhood",
-      "address": "0x77b55Ea7c9a2985fDE87BF369259C75ECfFf9bDF",
-      "source": "new",
-      "entry_price": 0.0001141,
-      "peak_price": 0.0001141,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T16:51:06.929610+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "fatgirls",
       "chain": "solana",
       "address": "PCJ18ia3reVfk3jJgxHdjAJYaCQHzsNKp4WLpEPSTNK",
       "source": "new",
       "entry_price": 8.837e-05,
-      "peak_price": 8.837e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001168,
+      "trailing_active": true,
       "entry_time": "2026-09-09T16:51:10.528744+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.17,
+      "peak_volume_m5": 8473.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -168352,6 +168344,25 @@
       "exit_price": 0.0001591,
       "exit_pct": 0.0,
       "exit_time": "2026-09-09T16:47:05.467025+00:00"
+    },
+    {
+      "symbol": "Asset",
+      "chain": "robinhood",
+      "address": "0x77b55Ea7c9a2985fDE87BF369259C75ECfFf9bDF",
+      "source": "new",
+      "entry_price": 0.0001141,
+      "peak_price": 0.0001141,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T16:51:06.929610+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.2,
+      "peak_volume_m5": 59908.07,
+      "milestones_hit": [],
+      "exit_price": 8.192e-05,
+      "exit_pct": -28.2,
+      "exit_time": "2026-09-09T16:55:18.820136+00:00"
     }
   ],
   "alerted": {
@@ -176878,6 +176889,7 @@
     "0xCA5D2fe2C0BB8d8fCca70a8428a72b9961f9DD10": "2026-09-09T16:33:43.712441+00:00",
     "0xF25B6d5102109D89AF83458c70bD715644BB8AC9": "2026-09-09T16:38:39.810021+00:00",
     "0x2bBf81DB3d5dC2a88E3C7b218fEB07D0deabd7bd": "2026-09-09T16:42:10.846237+00:00",
-    "FZ1EgMN9cpZ6HAhnRJjarGoev3JppeHHXndJD9MjGyEJ": "2026-09-09T16:47:05.467025+00:00"
+    "FZ1EgMN9cpZ6HAhnRJjarGoev3JppeHHXndJD9MjGyEJ": "2026-09-09T16:47:05.467025+00:00",
+    "0x77b55Ea7c9a2985fDE87BF369259C75ECfFf9bDF": "2026-09-09T16:55:18.820136+00:00"
   }
 }
