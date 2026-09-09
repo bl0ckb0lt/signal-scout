@@ -24,29 +24,18 @@
       "address": "6JqNGzUoz3j4sbKvtm34pS8R7XnMjCbgG2MNvbRcqUeW",
       "source": "new",
       "entry_price": 9.599e-05,
-      "peak_price": 0.0001689,
+      "peak_price": 0.0002121,
       "trailing_active": true,
       "entry_time": "2026-09-09T08:01:09.823435+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 75.96,
-      "peak_volume_m5": 9451.65,
+      "current_pct": 120.96,
+      "peak_volume_m5": 22180.34,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "ZOGCASH",
-      "chain": "solana",
-      "address": "77nz8oYVzK9rr1fo3KSRHMDDeqNjvxfdL7e5WLngSTNK",
-      "source": "new",
-      "entry_price": 0.0001352,
-      "peak_price": 0.0001352,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T08:11:20.230783+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -167209,6 +167198,25 @@
       "exit_price": 0.0002728,
       "exit_pct": -4.75,
       "exit_time": "2026-09-09T07:34:56.141190+00:00"
+    },
+    {
+      "symbol": "ZOGCASH",
+      "chain": "solana",
+      "address": "77nz8oYVzK9rr1fo3KSRHMDDeqNjvxfdL7e5WLngSTNK",
+      "source": "new",
+      "entry_price": 0.0001352,
+      "peak_price": 0.0001352,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T08:11:20.230783+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.8,
+      "peak_volume_m5": 19389.94,
+      "milestones_hit": [],
+      "exit_price": 0.0001206,
+      "exit_pct": -10.8,
+      "exit_time": "2026-09-09T08:13:25.918143+00:00"
     }
   ],
   "alerted": {
@@ -175676,6 +175684,7 @@
     "G3gJPDMtkA68cA5tyGBvMfd4v1amyYpmBsNM1tzNpump": "2026-09-09T07:14:07.911348+00:00",
     "0x3eca6E4e09Cfa8d59DeEafe4538A564ACef78ba9": "2026-09-09T07:32:08.458730+00:00",
     "0x0525C3D1545C8aF1e04DB97638f7a77A13419708": "2026-09-09T07:33:03.664415+00:00",
-    "0xf0ba185c1e4721D02e5108B8234a7F4b46AAe76d": "2026-09-09T07:34:56.141190+00:00"
+    "0xf0ba185c1e4721D02e5108B8234a7F4b46AAe76d": "2026-09-09T07:34:56.141190+00:00",
+    "77nz8oYVzK9rr1fo3KSRHMDDeqNjvxfdL7e5WLngSTNK": "2026-09-09T08:13:25.918143+00:00"
   }
 }
