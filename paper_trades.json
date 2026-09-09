@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ND4",
-      "chain": "robinhood",
-      "address": "0x2bBf81DB3d5dC2a88E3C7b218fEB07D0deabd7bd",
-      "source": "new",
-      "entry_price": 0.0001315,
-      "peak_price": 0.0001315,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T16:41:05.459534+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "BINGUS",
       "chain": "solana",
       "address": "FZ1EgMN9cpZ6HAhnRJjarGoev3JppeHHXndJD9MjGyEJ",
       "source": "new",
       "entry_price": 0.0001591,
-      "peak_price": 0.0001591,
-      "trailing_active": false,
+      "peak_price": 0.0001853,
+      "trailing_active": true,
       "entry_time": "2026-09-09T16:41:07.207337+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.47,
+      "peak_volume_m5": 23511.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -168314,6 +168306,25 @@
       "exit_price": 6.86e-05,
       "exit_pct": -26.07,
       "exit_time": "2026-09-09T16:38:39.810021+00:00"
+    },
+    {
+      "symbol": "ND4",
+      "chain": "robinhood",
+      "address": "0x2bBf81DB3d5dC2a88E3C7b218fEB07D0deabd7bd",
+      "source": "new",
+      "entry_price": 0.0001315,
+      "peak_price": 0.0001315,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T16:41:05.459534+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.4,
+      "peak_volume_m5": 40639.21,
+      "milestones_hit": [],
+      "exit_price": 0.0001152,
+      "exit_pct": -12.4,
+      "exit_time": "2026-09-09T16:42:10.846237+00:00"
     }
   ],
   "alerted": {
@@ -176838,6 +176849,7 @@
     "0xF6C8d04d7ACA7B207fF9631F7c2FAE7b31DBa6C0": "2026-09-09T16:15:36.961535+00:00",
     "0x36F01746A86639D0C3b6A850d328be1b634A4444": "2026-09-09T16:32:44.434364+00:00",
     "0xCA5D2fe2C0BB8d8fCca70a8428a72b9961f9DD10": "2026-09-09T16:33:43.712441+00:00",
-    "0xF25B6d5102109D89AF83458c70bD715644BB8AC9": "2026-09-09T16:38:39.810021+00:00"
+    "0xF25B6d5102109D89AF83458c70bD715644BB8AC9": "2026-09-09T16:38:39.810021+00:00",
+    "0x2bBf81DB3d5dC2a88E3C7b218fEB07D0deabd7bd": "2026-09-09T16:42:10.846237+00:00"
   }
 }
