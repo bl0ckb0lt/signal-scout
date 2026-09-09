@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GARY",
-      "chain": "robinhood",
-      "address": "0x7506C6Fb57895e323914c1fa84b5AAD4777c238E",
-      "source": "new",
-      "entry_price": 5.685e-05,
-      "peak_price": 5.685e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T03:21:07.921235+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "NamekCoin",
       "chain": "solana",
       "address": "5oncwp2yzdNPox3nF1q7Uwd39b9F17oPZPtdE6LYpump",
       "source": "new",
       "entry_price": 0.0002802,
-      "peak_price": 0.0002802,
-      "trailing_active": false,
+      "peak_price": 0.0003539,
+      "trailing_active": true,
       "entry_time": "2026-09-09T03:21:11.623907+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.3,
+      "peak_volume_m5": 57504.76,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -166539,6 +166531,25 @@
       "exit_price": 8.579e-05,
       "exit_pct": 50.8,
       "exit_time": "2026-09-09T03:02:43.681833+00:00"
+    },
+    {
+      "symbol": "GARY",
+      "chain": "robinhood",
+      "address": "0x7506C6Fb57895e323914c1fa84b5AAD4777c238E",
+      "source": "new",
+      "entry_price": 5.685e-05,
+      "peak_price": 5.685e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T03:21:07.921235+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.18,
+      "peak_volume_m5": 27506.65,
+      "milestones_hit": [],
+      "exit_price": 4.879e-05,
+      "exit_pct": -14.18,
+      "exit_time": "2026-09-09T03:25:20.070997+00:00"
     }
   ],
   "alerted": {
@@ -174972,6 +174983,7 @@
     "0x2f1e5a4763afFD9b406F7Fc328B53615E8968545": "2026-09-09T02:34:55.360220+00:00",
     "0x61752da5a4c354ec73646fa2135930a2e59ef94c": "2026-09-09T02:40:24.061572+00:00",
     "0x6cE0E9169153422479Add50DFb686Df8B782E2c1": "2026-09-09T02:53:22.696281+00:00",
-    "0x65A99f2bC22A3862fcA870C848901dA26C1B1E18": "2026-09-09T03:02:43.681833+00:00"
+    "0x65A99f2bC22A3862fcA870C848901dA26C1B1E18": "2026-09-09T03:02:43.681833+00:00",
+    "0x7506C6Fb57895e323914c1fa84b5AAD4777c238E": "2026-09-09T03:25:20.070997+00:00"
   }
 }
