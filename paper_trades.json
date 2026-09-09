@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DESKTOP",
-      "chain": "solana",
-      "address": "G2PvDNdwgX438L6wrRANVDHdUwNhyYShThQarc7iQ5w1",
-      "source": "new",
-      "entry_price": 9.752e-05,
-      "peak_price": 0.0001679,
-      "trailing_active": true,
-      "entry_time": "2026-09-09T14:11:09.419584+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 72.17,
-      "peak_volume_m5": 51869.88,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "HAPPY",
       "chain": "robinhood",
       "address": "0xceB4cf1182065BE8A991FBc0c07E916B777E8097",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-09T14:21:06.073976+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -167977,6 +167963,27 @@
       "exit_price": 4.478e-05,
       "exit_pct": -11.61,
       "exit_time": "2026-09-09T14:08:16.341636+00:00"
+    },
+    {
+      "symbol": "DESKTOP",
+      "chain": "solana",
+      "address": "G2PvDNdwgX438L6wrRANVDHdUwNhyYShThQarc7iQ5w1",
+      "source": "new",
+      "entry_price": 9.752e-05,
+      "peak_price": 0.0001679,
+      "trailing_active": true,
+      "entry_time": "2026-09-09T14:11:09.419584+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 58.94,
+      "peak_volume_m5": 51869.88,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000155,
+      "exit_pct": 58.94,
+      "exit_time": "2026-09-09T14:30:41.242150+00:00"
     }
   ],
   "alerted": {
@@ -176484,6 +176491,7 @@
     "0x008Df4b3E857D06c4603Aeb11F267ccD32ce2005": "2026-09-09T13:17:15.957345+00:00",
     "FfFEszstujrteEmNK1SzS7CXyWiuiKUKjrRLov7eLtQ3": "2026-09-09T13:18:12.603445+00:00",
     "b91f2MjW4t7vemWpdiCGrUCy2ZeALSuyhvbDSTBpump": "2026-09-09T13:22:55.476097+00:00",
-    "0xb126CaF7BAA2222e2aE049295ad1BBe72d1AcF02": "2026-09-09T14:08:16.341636+00:00"
+    "0xb126CaF7BAA2222e2aE049295ad1BBe72d1AcF02": "2026-09-09T14:08:16.341636+00:00",
+    "G2PvDNdwgX438L6wrRANVDHdUwNhyYShThQarc7iQ5w1": "2026-09-09T14:30:41.242150+00:00"
   }
 }
