@@ -3,44 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Laptop",
-      "chain": "robinhood",
-      "address": "0x0b265Da4Dc6d6C1d924058CF9900DB8d0d0c9135",
-      "source": "new",
-      "entry_price": 0.0002369,
-      "peak_price": 0.00025,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T09:21:06.832983+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.6,
-      "peak_volume_m5": 46187.79,
-      "milestones_hit": []
-    },
-    {
       "symbol": "discat",
       "chain": "solana",
       "address": "BygwL3nfUy2gwUkLyWCeVT6rWVKSbDRaSek2symtpump",
       "source": "new",
       "entry_price": 0.0002011,
-      "peak_price": 0.0002011,
-      "trailing_active": false,
+      "peak_price": 0.0002999,
+      "trailing_active": true,
       "entry_time": "2026-09-09T09:41:05.746801+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "WEFT",
-      "chain": "robinhood",
-      "address": "0x530348eeE936889AFC9cc7552Fb726Ca2B9D3a5d",
-      "source": "new",
-      "entry_price": 0.0001237,
-      "peak_price": 0.0001237,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T09:41:07.193978+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 49.13,
+      "peak_volume_m5": 120054.52,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -167381,6 +167357,44 @@
       "exit_price": 0.0003003,
       "exit_pct": 264.49,
       "exit_time": "2026-09-09T09:30:30.159165+00:00"
+    },
+    {
+      "symbol": "Laptop",
+      "chain": "robinhood",
+      "address": "0x0b265Da4Dc6d6C1d924058CF9900DB8d0d0c9135",
+      "source": "new",
+      "entry_price": 0.0002369,
+      "peak_price": 0.00025,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T09:21:06.832983+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.49,
+      "peak_volume_m5": 46187.79,
+      "milestones_hit": [],
+      "exit_price": 0.0002002,
+      "exit_pct": -15.49,
+      "exit_time": "2026-09-09T09:46:06.442211+00:00"
+    },
+    {
+      "symbol": "WEFT",
+      "chain": "robinhood",
+      "address": "0x530348eeE936889AFC9cc7552Fb726Ca2B9D3a5d",
+      "source": "new",
+      "entry_price": 0.0001237,
+      "peak_price": 0.0001237,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T09:41:07.193978+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.3,
+      "peak_volume_m5": 15811.35,
+      "milestones_hit": [],
+      "exit_price": 0.0001122,
+      "exit_pct": -9.3,
+      "exit_time": "2026-09-09T09:46:07.838358+00:00"
     }
   ],
   "alerted": {
@@ -175857,6 +175871,8 @@
     "5NP3pTMgbvioJaki2Sdxm7DiaA2tt3BFkqTJyYNF5EwQ": "2026-09-09T09:02:45.630129+00:00",
     "G9mxLHvkmkPiwgHTP3Ki8LQ4erRbAwu4ETwWD9QUpump": "2026-09-09T09:03:41.128650+00:00",
     "0x3CAF1453D6F112832b8Bf465407962d930cE8054": "2026-09-09T09:23:13.443111+00:00",
-    "0x5b81efE5E0ba2b31c0Ed843B908a2c45Fe6E14c5": "2026-09-09T09:30:30.159165+00:00"
+    "0x5b81efE5E0ba2b31c0Ed843B908a2c45Fe6E14c5": "2026-09-09T09:30:30.159165+00:00",
+    "0x0b265Da4Dc6d6C1d924058CF9900DB8d0d0c9135": "2026-09-09T09:46:06.442211+00:00",
+    "0x530348eeE936889AFC9cc7552Fb726Ca2B9D3a5d": "2026-09-09T09:46:07.838358+00:00"
   }
 }
