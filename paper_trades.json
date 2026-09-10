@@ -24,33 +24,15 @@
       "address": "5Srsp89BUAuGTf1sFMntp6aW9GnUocrXfHJRYnFxpump",
       "source": "new",
       "entry_price": 0.0001897,
-      "peak_price": 0.0002166,
-      "trailing_active": false,
+      "peak_price": 0.0002354,
+      "trailing_active": true,
       "entry_time": "2026-09-10T14:51:05.766349+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.18,
+      "current_pct": 24.09,
       "peak_volume_m5": 24257.3,
       "milestones_hit": []
-    },
-    {
-      "symbol": "COUPON",
-      "chain": "solana",
-      "address": "FqMQB6ikQEZsZczgJZY8xSa5j3QxrNCjhRpypGpKe43P",
-      "source": "new",
-      "entry_price": 6.355e-05,
-      "peak_price": 0.0001253,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T14:51:07.384297+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 97.17,
-      "peak_volume_m5": 49889.88,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "GAY",
@@ -58,23 +40,15 @@
       "address": "0x098FD14666fcbfeDEa692dF80f8589c671672381",
       "source": "boost",
       "entry_price": 0.0001012,
-      "peak_price": 0.0001012,
+      "peak_price": 0.0001088,
       "trailing_active": false,
       "entry_time": "2026-09-10T15:01:14.163051+00:00",
       "score": 89,
-      "status": "open"
-    },
-    {
-      "symbol": "MARIO",
-      "chain": "robinhood",
-      "address": "0x80054Db7972a67237C1c5E88820ef4047d37E49F",
-      "source": "new",
-      "entry_price": 7.486e-05,
-      "peak_price": 7.486e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T15:01:17.555752+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.51,
+      "peak_volume_m5": 72726.19,
+      "milestones_hit": []
     },
     {
       "symbol": "STARLINK",
@@ -86,7 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-10T15:01:19.356675+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.94,
+      "peak_volume_m5": 6570.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -171117,6 +171095,46 @@
       "exit_price": 6.743e-05,
       "exit_pct": 8.85,
       "exit_time": "2026-09-10T14:28:22.532457+00:00"
+    },
+    {
+      "symbol": "COUPON",
+      "chain": "solana",
+      "address": "FqMQB6ikQEZsZczgJZY8xSa5j3QxrNCjhRpypGpKe43P",
+      "source": "new",
+      "entry_price": 6.355e-05,
+      "peak_price": 0.0001253,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T14:51:07.384297+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 53.0,
+      "peak_volume_m5": 49889.88,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 9.723e-05,
+      "exit_pct": 53.0,
+      "exit_time": "2026-09-10T15:02:47.738021+00:00"
+    },
+    {
+      "symbol": "MARIO",
+      "chain": "robinhood",
+      "address": "0x80054Db7972a67237C1c5E88820ef4047d37E49F",
+      "source": "new",
+      "entry_price": 7.486e-05,
+      "peak_price": 7.486e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T15:01:17.555752+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.03,
+      "peak_volume_m5": 32687.23,
+      "milestones_hit": [],
+      "exit_price": 6.735e-05,
+      "exit_pct": -10.03,
+      "exit_time": "2026-09-10T15:02:48.742586+00:00"
     }
   ],
   "alerted": {
@@ -179783,6 +179801,8 @@
     "8okDoCDfqqLjP6E7tfxne1eunXzh591fJsWAV5Pjpump": "2026-09-10T14:22:40.520785+00:00",
     "6kNNgyrdvjkRC8eRGQqx5sLfZG2jTmg3NCFmkX2hYP4j": "2026-09-10T14:23:39.831109+00:00",
     "0x7933B34d388B78D50f17b04f74f481dd01e31DA6": "2026-09-10T14:27:37.721824+00:00",
-    "0xC6132fDC41433B46cdF0374a7FB9a105752bB148": "2026-09-10T14:28:22.532457+00:00"
+    "0xC6132fDC41433B46cdF0374a7FB9a105752bB148": "2026-09-10T14:28:22.532457+00:00",
+    "FqMQB6ikQEZsZczgJZY8xSa5j3QxrNCjhRpypGpKe43P": "2026-09-10T15:02:47.738021+00:00",
+    "0x80054Db7972a67237C1c5E88820ef4047d37E49F": "2026-09-10T15:02:48.742586+00:00"
   }
 }
