@@ -35,50 +35,18 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SOLCHAN",
-      "chain": "solana",
-      "address": "5eUV19iGj3a5J92T2FGocWtFgJpUTnEwwcomWzdUpump",
-      "source": "new",
-      "entry_price": 0.0001537,
-      "peak_price": 0.0001577,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T12:01:11.317586+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.64,
-      "peak_volume_m5": 31702.77,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MANATEE",
-      "chain": "robinhood",
-      "address": "0xC9765B566d9EAE0e3d508448c5c0cA74b291192f",
-      "source": "new",
-      "entry_price": 7.621e-05,
-      "peak_price": 7.873e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T12:11:16.829314+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.45,
-      "peak_volume_m5": 34271.37,
-      "milestones_hit": []
-    },
-    {
       "symbol": "TNTR",
       "chain": "robinhood",
       "address": "0x6BCf73961B9CA48514ccF40efb52B60b8A7ACB38",
       "source": "new",
       "entry_price": 8.125e-07,
-      "peak_price": 1.025e-06,
+      "peak_price": 1.156e-06,
       "trailing_active": true,
       "entry_time": "2026-09-10T12:11:20.090008+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 26.15,
+      "current_pct": 42.28,
       "peak_volume_m5": 39391.01,
       "milestones_hit": []
     }
@@ -170669,6 +170637,44 @@
       "exit_price": 0.002284,
       "exit_pct": 3.58,
       "exit_time": "2026-09-10T12:14:48.161869+00:00"
+    },
+    {
+      "symbol": "SOLCHAN",
+      "chain": "solana",
+      "address": "5eUV19iGj3a5J92T2FGocWtFgJpUTnEwwcomWzdUpump",
+      "source": "new",
+      "entry_price": 0.0001537,
+      "peak_price": 0.0001577,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T12:01:11.317586+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.56,
+      "peak_volume_m5": 31702.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001344,
+      "exit_pct": -12.56,
+      "exit_time": "2026-09-10T12:16:30.126968+00:00"
+    },
+    {
+      "symbol": "MANATEE",
+      "chain": "robinhood",
+      "address": "0xC9765B566d9EAE0e3d508448c5c0cA74b291192f",
+      "source": "new",
+      "entry_price": 7.621e-05,
+      "peak_price": 7.873e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T12:11:16.829314+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.94,
+      "peak_volume_m5": 50255.6,
+      "milestones_hit": [],
+      "exit_price": 6.101e-05,
+      "exit_pct": -19.94,
+      "exit_time": "2026-09-10T12:16:30.788105+00:00"
     }
   ],
   "alerted": {
@@ -179312,6 +179318,8 @@
     "0x3889d404800a7f9D752A736356a7CF298F7Ac2fb": "2026-09-10T11:44:56.121802+00:00",
     "0x63b4E7864Ed70537C66058993eCD124819877777": "2026-09-10T12:12:50.132451+00:00",
     "GYHPVwni3ucwizy9BM4TzTMw3PtSgxm5RRYvL8Ecpump": "2026-09-10T12:13:47.846831+00:00",
-    "0xd6A649b0b393963eE51B6c33141e90b1e9e8Aaa3": "2026-09-10T12:14:48.161869+00:00"
+    "0xd6A649b0b393963eE51B6c33141e90b1e9e8Aaa3": "2026-09-10T12:14:48.161869+00:00",
+    "5eUV19iGj3a5J92T2FGocWtFgJpUTnEwwcomWzdUpump": "2026-09-10T12:16:30.126968+00:00",
+    "0xC9765B566d9EAE0e3d508448c5c0cA74b291192f": "2026-09-10T12:16:30.788105+00:00"
   }
 }
