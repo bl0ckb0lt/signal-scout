@@ -24,13 +24,13 @@
       "address": "3wRMLKQN1NXfEJWUnCq5BqdDNQhj6kADWJBfRAufpump",
       "source": "new",
       "entry_price": 0.0001876,
-      "peak_price": 0.0002054,
-      "trailing_active": false,
+      "peak_price": 0.0002211,
+      "trailing_active": true,
       "entry_time": "2026-09-10T15:31:08.167407+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -2.19,
+      "current_pct": 17.86,
       "peak_volume_m5": 47505.17,
       "milestones_hit": []
     },
@@ -46,21 +46,9 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.56,
+      "current_pct": 24.57,
       "peak_volume_m5": 6419.17,
       "milestones_hit": []
-    },
-    {
-      "symbol": "GAYCOIN",
-      "chain": "solana",
-      "address": "CNhrRe6Td3727YjN5MfxcXEAPTJ4odzLu3VUdyBz3AQr",
-      "source": "new",
-      "entry_price": 0.000393,
-      "peak_price": 0.000393,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T15:41:17.889766+00:00",
-      "score": 67,
-      "status": "open"
     }
   ],
   "closed": [
@@ -171328,6 +171316,25 @@
       "exit_price": 0.000635,
       "exit_pct": -9.7,
       "exit_time": "2026-09-10T15:34:01.279089+00:00"
+    },
+    {
+      "symbol": "GAYCOIN",
+      "chain": "solana",
+      "address": "CNhrRe6Td3727YjN5MfxcXEAPTJ4odzLu3VUdyBz3AQr",
+      "source": "new",
+      "entry_price": 0.000393,
+      "peak_price": 0.000393,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T15:41:17.889766+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.92,
+      "peak_volume_m5": 52326.91,
+      "milestones_hit": [],
+      "exit_price": 0.0003108,
+      "exit_pct": -20.92,
+      "exit_time": "2026-09-10T15:42:48.695002+00:00"
     }
   ],
   "alerted": {
@@ -180006,6 +180013,7 @@
     "0xb83fC6010C8Dcf628abE787a161c619FcC543117": "2026-09-10T15:24:22.665873+00:00",
     "0x762Caa2F703715AF9A79F7d6F01c7ab2aD83BaCD": "2026-09-10T15:28:09.651505+00:00",
     "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump": "2026-09-10T15:32:07.712074+00:00",
-    "0x9760089f780062156c401B961D0dd1Ec8c123041": "2026-09-10T15:34:01.279089+00:00"
+    "0x9760089f780062156c401B961D0dd1Ec8c123041": "2026-09-10T15:34:01.279089+00:00",
+    "CNhrRe6Td3727YjN5MfxcXEAPTJ4odzLu3VUdyBz3AQr": "2026-09-10T15:42:48.695002+00:00"
   }
 }
