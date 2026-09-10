@@ -3,51 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CLARITY",
-      "chain": "robinhood",
-      "address": "0x182C1956862cc2141D1123BDFB361f1A514BA921",
-      "source": "new",
-      "entry_price": 9.518e-05,
-      "peak_price": 9.518e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-09T19:51:04.956038+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.0,
-      "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
       "symbol": "INLEX",
       "chain": "robinhood",
       "address": "0xCF32b9c1104C14e05a5B17a78618cbD70Bf42091",
       "source": "new",
       "entry_price": 0.0003606,
-      "peak_price": 0.0003606,
+      "peak_price": 0.0003615,
       "trailing_active": false,
       "entry_time": "2026-09-10T19:31:04.869938+00:00",
       "score": 80,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.72,
-      "peak_volume_m5": 100.26,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "RocketFrog",
-      "chain": "robinhood",
-      "address": "0x3385469427FB90c296394998c250eD3fBe8e18E1",
-      "source": "new",
-      "entry_price": 0.0008414,
-      "peak_price": 0.0009688,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T19:31:06.395407+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 15.14,
-      "peak_volume_m5": 319071.13,
+      "current_pct": 0.25,
+      "peak_volume_m5": 186.84,
       "milestones_hit": []
     }
   ],
@@ -172193,6 +172161,44 @@
       "exit_price": 0.001071,
       "exit_pct": 1.9,
       "exit_time": "2026-09-10T19:36:11.775014+00:00"
+    },
+    {
+      "symbol": "CLARITY",
+      "chain": "robinhood",
+      "address": "0x182C1956862cc2141D1123BDFB361f1A514BA921",
+      "source": "new",
+      "entry_price": 9.518e-05,
+      "peak_price": 9.518e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-09T19:51:04.956038+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.85,
+      "peak_volume_m5": 0,
+      "milestones_hit": [],
+      "exit_price": 6.962e-05,
+      "exit_pct": -26.85,
+      "exit_time": "2026-09-10T19:40:54.486469+00:00"
+    },
+    {
+      "symbol": "RocketFrog",
+      "chain": "robinhood",
+      "address": "0x3385469427FB90c296394998c250eD3fBe8e18E1",
+      "source": "new",
+      "entry_price": 0.0008414,
+      "peak_price": 0.0009688,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T19:31:06.395407+00:00",
+      "score": 75,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -25.96,
+      "peak_volume_m5": 319071.13,
+      "milestones_hit": [],
+      "exit_price": 0.000623,
+      "exit_pct": -25.96,
+      "exit_time": "2026-09-10T19:40:55.507605+00:00"
     }
   ],
   "alerted": {
@@ -180915,6 +180921,8 @@
     "0xF4ccBBf46CDE349269942f79fF7588C0A151009C": "2026-09-10T19:18:58.231662+00:00",
     "0x853E1A36876Cc4538BE636B78E7b2BD0aABC0dEd": "2026-09-10T19:22:52.027958+00:00",
     "3p9aWrPiuxrwqWFT8gXjXh235mPfzBFbwqTkSAQfNjDF": "2026-09-10T19:35:16.276683+00:00",
-    "0xdB8F72cc23C29707e47319AC82E1Bab17Ed149f7": "2026-09-10T19:36:11.775014+00:00"
+    "0xdB8F72cc23C29707e47319AC82E1Bab17Ed149f7": "2026-09-10T19:36:11.775014+00:00",
+    "0x182C1956862cc2141D1123BDFB361f1A514BA921": "2026-09-10T19:40:54.486469+00:00",
+    "0x3385469427FB90c296394998c250eD3fBe8e18E1": "2026-09-10T19:40:55.507605+00:00"
   }
 }
