@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Orus",
-      "chain": "robinhood",
-      "address": "0xb08710C85B97A93f86bfbC350b0463F762f4078F",
-      "source": "new",
-      "entry_price": 0.0001891,
-      "peak_price": 0.0001891,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T16:21:13.637786+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "MARIO",
       "chain": "robinhood",
       "address": "0xb89C01eE8ed9e81817437D3371fF31eb338e6819",
       "source": "new",
       "entry_price": 0.0001092,
-      "peak_price": 0.0001092,
+      "peak_price": 0.0001247,
       "trailing_active": false,
       "entry_time": "2026-09-10T16:21:15.312164+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.19,
+      "peak_volume_m5": 81440.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -171584,6 +171576,25 @@
       "exit_price": 0.000128,
       "exit_pct": -23.76,
       "exit_time": "2026-09-10T16:15:59.967364+00:00"
+    },
+    {
+      "symbol": "Orus",
+      "chain": "robinhood",
+      "address": "0xb08710C85B97A93f86bfbC350b0463F762f4078F",
+      "source": "new",
+      "entry_price": 0.0001891,
+      "peak_price": 0.0001891,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T16:21:13.637786+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -100.0,
+      "peak_volume_m5": 21663.45,
+      "milestones_hit": [],
+      "exit_price": 1.936e-10,
+      "exit_pct": -100.0,
+      "exit_time": "2026-09-10T16:22:38.310060+00:00"
     }
   ],
   "alerted": {
@@ -180276,6 +180287,7 @@
     "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr": "2026-09-10T16:14:55.671286+00:00",
     "CdsWw6KmBLkmDsh6YRBaWiEEc3y1dtm4wnZ9Fuybpump": "2026-09-10T16:14:56.356784+00:00",
     "8wvqTVoNmaYCT1CKNfZThABayprLYgXBvJTtpCqppump": "2026-09-10T16:15:59.119969+00:00",
-    "GqwEctFskdnAjrG3WKE6AgUqswxYNADm7MwrHigfpump": "2026-09-10T16:15:59.967364+00:00"
+    "GqwEctFskdnAjrG3WKE6AgUqswxYNADm7MwrHigfpump": "2026-09-10T16:15:59.967364+00:00",
+    "0xb08710C85B97A93f86bfbC350b0463F762f4078F": "2026-09-10T16:22:38.310060+00:00"
   }
 }
