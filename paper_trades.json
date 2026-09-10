@@ -44,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-10T05:21:00.745210+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "BRIAN",
-      "chain": "robinhood",
-      "address": "0x3E2889b53eDF9e302d94CbC0b2456A09313a1E18",
-      "source": "new",
-      "entry_price": 0.0002091,
-      "peak_price": 0.0002091,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T05:21:02.521564+00:00",
-      "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.62,
+      "peak_volume_m5": 119661.1,
+      "milestones_hit": []
     },
     {
       "symbol": "WOOD",
@@ -64,11 +56,15 @@
       "address": "0xB1adC416D649F80A9841Ada30f5F63Da5faF382D",
       "source": "new",
       "entry_price": 0.3381,
-      "peak_price": 0.3381,
+      "peak_price": 0.3663,
       "trailing_active": false,
       "entry_time": "2026-09-10T05:21:03.847165+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.34,
+      "peak_volume_m5": 3721.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -169973,6 +169969,25 @@
       "exit_price": 0.0001347,
       "exit_pct": -20.76,
       "exit_time": "2026-09-10T05:07:57.742209+00:00"
+    },
+    {
+      "symbol": "BRIAN",
+      "chain": "robinhood",
+      "address": "0x3E2889b53eDF9e302d94CbC0b2456A09313a1E18",
+      "source": "new",
+      "entry_price": 0.0002091,
+      "peak_price": 0.0002091,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T05:21:02.521564+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.73,
+      "peak_volume_m5": 55219.02,
+      "milestones_hit": [],
+      "exit_price": 0.0001762,
+      "exit_pct": -15.73,
+      "exit_time": "2026-09-10T05:24:29.332709+00:00"
     }
   ],
   "alerted": {
@@ -178581,6 +178596,7 @@
     "7wCM5K4ziHmrbjGe5QFhBqBME2fH82dn4Wfx8vhKSTNK": "2026-09-10T04:54:29.024505+00:00",
     "A8AdxR4WqCMvE9ZdzSGKtczGpUhYJ7EjcQXNF2YY5smj": "2026-09-10T04:55:19.615179+00:00",
     "6eo3eNxMuSNyBgQNcm3dHi8wsxX17FYMYgGUyieLpump": "2026-09-10T05:05:53.864574+00:00",
-    "0xB5DA05E20cfd5B18a3f7dD8cc34E30E36690d6cD": "2026-09-10T05:07:57.742209+00:00"
+    "0xB5DA05E20cfd5B18a3f7dD8cc34E30E36690d6cD": "2026-09-10T05:07:57.742209+00:00",
+    "0x3E2889b53eDF9e302d94CbC0b2456A09313a1E18": "2026-09-10T05:24:29.332709+00:00"
   }
 }
