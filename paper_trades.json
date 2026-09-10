@@ -24,13 +24,13 @@
       "address": "8wvqTVoNmaYCT1CKNfZThABayprLYgXBvJTtpCqppump",
       "source": "new",
       "entry_price": 0.0002223,
-      "peak_price": 0.0002579,
+      "peak_price": 0.0002662,
       "trailing_active": true,
       "entry_time": "2026-09-10T16:01:07.717446+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 16.01,
+      "current_pct": 19.75,
       "peak_volume_m5": 51863.94,
       "milestones_hit": []
     },
@@ -44,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-10T16:11:11.979708+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "GAY",
-      "chain": "robinhood",
-      "address": "0xa9565B0fEFfe3FC420cF211b5C0601d00021161B",
-      "source": "new",
-      "entry_price": 4.66e-05,
-      "peak_price": 4.66e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T16:11:13.359994+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -11.58,
+      "peak_volume_m5": 23070.05,
+      "milestones_hit": []
     },
     {
       "symbol": "GROKCAT",
@@ -64,11 +56,15 @@
       "address": "CdsWw6KmBLkmDsh6YRBaWiEEc3y1dtm4wnZ9Fuybpump",
       "source": "new",
       "entry_price": 0.0001252,
-      "peak_price": 0.0001252,
+      "peak_price": 0.000129,
       "trailing_active": false,
       "entry_time": "2026-09-10T16:11:15.032961+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.04,
+      "peak_volume_m5": 783.34,
+      "milestones_hit": []
     },
     {
       "symbol": "FATTY",
@@ -76,11 +72,15 @@
       "address": "GqwEctFskdnAjrG3WKE6AgUqswxYNADm7MwrHigfpump",
       "source": "new",
       "entry_price": 0.0001679,
-      "peak_price": 0.0001679,
+      "peak_price": 0.0001733,
       "trailing_active": false,
       "entry_time": "2026-09-10T16:11:16.695212+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.22,
+      "peak_volume_m5": 107687.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -171525,6 +171525,29 @@
       "exit_price": 0.0003505,
       "exit_pct": 109.88,
       "exit_time": "2026-09-10T16:10:05.037078+00:00"
+    },
+    {
+      "symbol": "GAY",
+      "chain": "robinhood",
+      "address": "0xa9565B0fEFfe3FC420cF211b5C0601d00021161B",
+      "source": "new",
+      "entry_price": 4.66e-05,
+      "peak_price": 0.02423,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T16:11:13.359994+00:00",
+      "score": 73,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 51895.71,
+      "peak_volume_m5": 88.26,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.02423,
+      "exit_pct": 51895.71,
+      "exit_time": "2026-09-10T16:13:57.988611+00:00"
     }
   ],
   "alerted": {
@@ -180212,6 +180235,7 @@
     "CGetn2niKFD7iYo7riAhzvPrMPDLCbaw5kfESCBzpump": "2026-09-10T15:58:24.199914+00:00",
     "GLqjw8mWdd28fgx91wGX9576CiBaqe7FP1DX632JLjTV": "2026-09-10T16:05:50.688747+00:00",
     "0xF533D09576023dBe499f466399cf08a36807410e": "2026-09-10T16:07:25.882858+00:00",
-    "0xC2b04cCF2533c637A2E2884E5e8AfFe0E40b0bD0": "2026-09-10T16:10:05.037078+00:00"
+    "0xC2b04cCF2533c637A2E2884E5e8AfFe0E40b0bD0": "2026-09-10T16:10:05.037078+00:00",
+    "0xa9565B0fEFfe3FC420cF211b5C0601d00021161B": "2026-09-10T16:13:57.988611+00:00"
   }
 }
