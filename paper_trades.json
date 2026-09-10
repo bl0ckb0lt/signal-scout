@@ -35,28 +35,24 @@
       "milestones_hit": []
     },
     {
-      "symbol": "BUTTPLUG",
-      "chain": "solana",
-      "address": "7wCM5K4ziHmrbjGe5QFhBqBME2fH82dn4Wfx8vhKSTNK",
-      "source": "new",
-      "entry_price": 0.0003734,
-      "peak_price": 0.0003734,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T04:51:00.724650+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "Brian",
       "chain": "solana",
       "address": "A8AdxR4WqCMvE9ZdzSGKtczGpUhYJ7EjcQXNF2YY5smj",
       "source": "new",
       "entry_price": 0.00043,
-      "peak_price": 0.00043,
-      "trailing_active": false,
+      "peak_price": 0.001294,
+      "trailing_active": true,
       "entry_time": "2026-09-10T04:51:02.317610+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 200.93,
+      "peak_volume_m5": 957880.11,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -169881,6 +169877,25 @@
       "exit_price": 0.0002493,
       "exit_pct": 16.01,
       "exit_time": "2026-09-10T04:43:17.369034+00:00"
+    },
+    {
+      "symbol": "BUTTPLUG",
+      "chain": "solana",
+      "address": "7wCM5K4ziHmrbjGe5QFhBqBME2fH82dn4Wfx8vhKSTNK",
+      "source": "new",
+      "entry_price": 0.0003734,
+      "peak_price": 0.0003734,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T04:51:00.724650+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.73,
+      "peak_volume_m5": 24146.59,
+      "milestones_hit": [],
+      "exit_price": 0.000296,
+      "exit_pct": -20.73,
+      "exit_time": "2026-09-10T04:54:29.024505+00:00"
     }
   ],
   "alerted": {
@@ -178485,6 +178500,7 @@
     "0xcD16B803cED5fC667bd49b562B7D2406230Bc26B": "2026-09-10T04:10:53.259506+00:00",
     "0xbd78b72c6e4ba8a4a19c5ae7194c733871fe32c2": "2026-09-10T04:32:31.059977+00:00",
     "5jZ7mRN1WBVT33SFAPEoAhUMFSpQaqDu21tJL1qJpump": "2026-09-10T04:42:18.845060+00:00",
-    "GTUVAyrC5obw8X9gMygt4PeHop4UYCDzMVAYdnhQpump": "2026-09-10T04:43:17.369034+00:00"
+    "GTUVAyrC5obw8X9gMygt4PeHop4UYCDzMVAYdnhQpump": "2026-09-10T04:43:17.369034+00:00",
+    "7wCM5K4ziHmrbjGe5QFhBqBME2fH82dn4Wfx8vhKSTNK": "2026-09-10T04:54:29.024505+00:00"
   }
 }
