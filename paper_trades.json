@@ -19,41 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "PUSSY",
-      "chain": "solana",
-      "address": "5Srsp89BUAuGTf1sFMntp6aW9GnUocrXfHJRYnFxpump",
-      "source": "new",
-      "entry_price": 0.0001897,
-      "peak_price": 0.0005983,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T14:51:05.766349+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 215.39,
-      "peak_volume_m5": 40728.81,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "GAY",
       "chain": "robinhood",
       "address": "0x098FD14666fcbfeDEa692dF80f8589c671672381",
       "source": "boost",
       "entry_price": 0.0001012,
-      "peak_price": 0.000162,
+      "peak_price": 0.0002158,
       "trailing_active": true,
       "entry_time": "2026-09-10T15:01:14.163051+00:00",
       "score": 89,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 60.08,
-      "peak_volume_m5": 199997.54,
+      "current_pct": 113.24,
+      "peak_volume_m5": 206656.43,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
     },
     {
@@ -62,11 +43,15 @@
       "address": "0xcB202c9785b6f76e6e881a48d1571afE3CA27777",
       "source": "new",
       "entry_price": 8.569e-05,
-      "peak_price": 8.569e-05,
+      "peak_price": 9.405e-05,
       "trailing_active": false,
       "entry_time": "2026-09-10T15:11:26.080520+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.76,
+      "peak_volume_m5": 151179.56,
+      "milestones_hit": []
     },
     {
       "symbol": "PENPE",
@@ -74,23 +59,15 @@
       "address": "0xb83fC6010C8Dcf628abE787a161c619FcC543117",
       "source": "new",
       "entry_price": 0.0001796,
-      "peak_price": 0.0001796,
+      "peak_price": 0.0001924,
       "trailing_active": false,
       "entry_time": "2026-09-10T15:11:31.152979+00:00",
       "score": 71,
-      "status": "open"
-    },
-    {
-      "symbol": "MEAT",
-      "chain": "solana",
-      "address": "AFdZnjtwrtSAc3NobebKtRRp1X4KAy2Zd7AiTJJWWj6X",
-      "source": "new",
-      "entry_price": 0.0002239,
-      "peak_price": 0.0002239,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T15:11:33.614613+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.13,
+      "peak_volume_m5": 38095.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -171180,6 +171157,48 @@
       "exit_price": 2.673e-05,
       "exit_pct": -38.35,
       "exit_time": "2026-09-10T15:05:38.095992+00:00"
+    },
+    {
+      "symbol": "PUSSY",
+      "chain": "solana",
+      "address": "5Srsp89BUAuGTf1sFMntp6aW9GnUocrXfHJRYnFxpump",
+      "source": "new",
+      "entry_price": 0.0001897,
+      "peak_price": 0.0005983,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T14:51:05.766349+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 184.55,
+      "peak_volume_m5": 40728.81,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005398,
+      "exit_pct": 184.55,
+      "exit_time": "2026-09-10T15:12:53.770939+00:00"
+    },
+    {
+      "symbol": "MEAT",
+      "chain": "solana",
+      "address": "AFdZnjtwrtSAc3NobebKtRRp1X4KAy2Zd7AiTJJWWj6X",
+      "source": "new",
+      "entry_price": 0.0002239,
+      "peak_price": 0.0002239,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T15:11:33.614613+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.35,
+      "peak_volume_m5": 33125.05,
+      "milestones_hit": [],
+      "exit_price": 0.0001537,
+      "exit_pct": -31.35,
+      "exit_time": "2026-09-10T15:12:56.211518+00:00"
     }
   ],
   "alerted": {
@@ -179849,6 +179868,8 @@
     "0xC6132fDC41433B46cdF0374a7FB9a105752bB148": "2026-09-10T14:28:22.532457+00:00",
     "FqMQB6ikQEZsZczgJZY8xSa5j3QxrNCjhRpypGpKe43P": "2026-09-10T15:02:47.738021+00:00",
     "0x80054Db7972a67237C1c5E88820ef4047d37E49F": "2026-09-10T15:02:48.742586+00:00",
-    "0xC2479777740494D26Ee99f672fE4B01f41e07777": "2026-09-10T15:05:38.095992+00:00"
+    "0xC2479777740494D26Ee99f672fE4B01f41e07777": "2026-09-10T15:05:38.095992+00:00",
+    "5Srsp89BUAuGTf1sFMntp6aW9GnUocrXfHJRYnFxpump": "2026-09-10T15:12:53.770939+00:00",
+    "AFdZnjtwrtSAc3NobebKtRRp1X4KAy2Zd7AiTJJWWj6X": "2026-09-10T15:12:56.211518+00:00"
   }
 }
