@@ -40,11 +40,15 @@
       "address": "0x99F3a1B68fFDB4b6aDEca977EFA7D3f875aC7B2c",
       "source": "new",
       "entry_price": 0.000207,
-      "peak_price": 0.000207,
+      "peak_price": 0.0002173,
       "trailing_active": false,
       "entry_time": "2026-09-10T13:30:55.629070+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.98,
+      "peak_volume_m5": 25313.4,
+      "milestones_hit": []
     },
     {
       "symbol": "ANY",
@@ -52,11 +56,17 @@
       "address": "0x2d5109885969029424d9120e7509efa4122ab963",
       "source": "new",
       "entry_price": 0.000106,
-      "peak_price": 0.000106,
-      "trailing_active": false,
+      "peak_price": 0.000175,
+      "trailing_active": true,
       "entry_time": "2026-09-10T13:31:00.008210+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 65.09,
+      "peak_volume_m5": 71656.59,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "ZenoCoin",
@@ -64,23 +74,15 @@
       "address": "0x6dEff3F021E5CBdb508ef37EA4D34317C7472ad1",
       "source": "new",
       "entry_price": 0.0001172,
-      "peak_price": 0.0001172,
+      "peak_price": 0.0001284,
       "trailing_active": false,
       "entry_time": "2026-09-10T13:31:01.465669+00:00",
       "score": 63,
-      "status": "open"
-    },
-    {
-      "symbol": "ZenoCoin",
-      "chain": "robinhood",
-      "address": "0x783E2118A210510df0797a11279850D2b346D4f7",
-      "source": "new",
-      "entry_price": 0.0002205,
-      "peak_price": 0.0002205,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T13:31:03.000465+00:00",
-      "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.56,
+      "peak_volume_m5": 25177.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -170859,6 +170861,25 @@
       "exit_price": 0.0002702,
       "exit_pct": -6.38,
       "exit_time": "2026-09-10T13:28:28.590746+00:00"
+    },
+    {
+      "symbol": "ZenoCoin",
+      "chain": "robinhood",
+      "address": "0x783E2118A210510df0797a11279850D2b346D4f7",
+      "source": "new",
+      "entry_price": 0.0002205,
+      "peak_price": 0.0002205,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T13:31:03.000465+00:00",
+      "score": 59,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.48,
+      "peak_volume_m5": 32278.64,
+      "milestones_hit": [],
+      "exit_price": 0.0002018,
+      "exit_pct": -8.48,
+      "exit_time": "2026-09-10T13:35:00.586399+00:00"
     }
   ],
   "alerted": {
@@ -179512,6 +179533,7 @@
     "A3SWzAthLj6oXbLF4RbPakYH3rxRrEcPkAURGBwvujxo": "2026-09-10T12:54:38.424233+00:00",
     "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D": "2026-09-10T13:22:01.297558+00:00",
     "0x2e2F80c96E547683e034611C8ff4e6C09CE3533a": "2026-09-10T13:23:53.309958+00:00",
-    "4scGDg9z7xd57xnPQrfr9u1kuHJQ4i5KxwoYHr3Upump": "2026-09-10T13:28:28.590746+00:00"
+    "4scGDg9z7xd57xnPQrfr9u1kuHJQ4i5KxwoYHr3Upump": "2026-09-10T13:28:28.590746+00:00",
+    "0x783E2118A210510df0797a11279850D2b346D4f7": "2026-09-10T13:35:00.586399+00:00"
   }
 }
