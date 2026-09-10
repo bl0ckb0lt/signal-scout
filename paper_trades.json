@@ -33,40 +33,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "DUO",
-      "chain": "robinhood",
-      "address": "0x234b7366aA3bADe715b1DA6f5b30f88A926A04dc",
-      "source": "new",
-      "entry_price": 1.089e-06,
-      "peak_price": 1.682e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T00:01:08.560823+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 54.45,
-      "peak_volume_m5": 35750.58,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "TTM",
-      "chain": "robinhood",
-      "address": "0x171b1a79C2329e83BA4E09BbcD8aFD774Ff3c216",
-      "source": "new",
-      "entry_price": 0.000913,
-      "peak_price": 0.001094,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T00:11:10.117345+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 13.58,
-      "peak_volume_m5": 81376.23,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -169445,6 +169411,46 @@
       "exit_price": 0.000151,
       "exit_pct": -20.06,
       "exit_time": "2026-09-10T00:15:11.604152+00:00"
+    },
+    {
+      "symbol": "DUO",
+      "chain": "robinhood",
+      "address": "0x234b7366aA3bADe715b1DA6f5b30f88A926A04dc",
+      "source": "new",
+      "entry_price": 1.089e-06,
+      "peak_price": 1.682e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T00:01:08.560823+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 42.15,
+      "peak_volume_m5": 35750.58,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 1.548e-06,
+      "exit_pct": 42.15,
+      "exit_time": "2026-09-10T00:16:11.985042+00:00"
+    },
+    {
+      "symbol": "TTM",
+      "chain": "robinhood",
+      "address": "0x171b1a79C2329e83BA4E09BbcD8aFD774Ff3c216",
+      "source": "new",
+      "entry_price": 0.000913,
+      "peak_price": 0.001094,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T00:11:10.117345+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -1.27,
+      "peak_volume_m5": 84601.64,
+      "milestones_hit": [],
+      "exit_price": 0.0009014,
+      "exit_pct": -1.27,
+      "exit_time": "2026-09-10T00:16:12.928224+00:00"
     }
   ],
   "alerted": {
@@ -178026,6 +178032,8 @@
     "0x4457eC7B2F2c89eFA7D7166Fa946077f857Ef222": "2026-09-09T23:12:39.823084+00:00",
     "0x8C56d9Ba509Fb73a7b1B71B3E45F67D3AA8E7b0C": "2026-09-09T23:21:48.911117+00:00",
     "0x101c907cd0aF4896d0791Cd414C18E6134D18be5": "2026-09-10T00:13:15.444502+00:00",
-    "FUFSKYVuJiPJtnw73facn9bax27Cz3cEr7RvtFoBpump": "2026-09-10T00:15:11.604152+00:00"
+    "FUFSKYVuJiPJtnw73facn9bax27Cz3cEr7RvtFoBpump": "2026-09-10T00:15:11.604152+00:00",
+    "0x234b7366aA3bADe715b1DA6f5b30f88A926A04dc": "2026-09-10T00:16:11.985042+00:00",
+    "0x171b1a79C2329e83BA4E09BbcD8aFD774Ff3c216": "2026-09-10T00:16:12.928224+00:00"
   }
 }
