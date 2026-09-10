@@ -19,48 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "STONKFLY",
-      "chain": "robinhood",
-      "address": "0x85Ef2Ee4cA09D19b03A7C5647c9776Bf4F6785A4",
-      "source": "new",
-      "entry_price": 0.0001494,
-      "peak_price": 0.0005179,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T18:51:01.279468+00:00",
-      "score": 71,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 246.65,
-      "peak_volume_m5": 219580.99,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "DEEP",
       "chain": "robinhood",
       "address": "0xdB8F72cc23C29707e47319AC82E1Bab17Ed149f7",
       "source": "new",
       "entry_price": 0.001051,
-      "peak_price": 0.001051,
+      "peak_price": 0.001107,
       "trailing_active": false,
       "entry_time": "2026-09-10T19:11:07.037041+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "PIZZABOT",
-      "chain": "robinhood",
-      "address": "0xF169f89255BDC5bC75C2ff2Ca1a2D8A9CB8e057F",
-      "source": "new",
-      "entry_price": 0.0001075,
-      "peak_price": 0.0001075,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T19:11:08.574401+00:00",
-      "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.33,
+      "peak_volume_m5": 88753.65,
+      "milestones_hit": []
     },
     {
       "symbol": "Yo-yo",
@@ -68,11 +40,15 @@
       "address": "0xF4ccBBf46CDE349269942f79fF7588C0A151009C",
       "source": "boost",
       "entry_price": 0.0001079,
-      "peak_price": 0.0001079,
+      "peak_price": 0.0001083,
       "trailing_active": false,
       "entry_time": "2026-09-10T19:11:10.091729+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.37,
+      "peak_volume_m5": 8014.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -172099,6 +172075,48 @@
       "exit_price": 0.0001279,
       "exit_pct": -10.93,
       "exit_time": "2026-09-10T19:02:12.642396+00:00"
+    },
+    {
+      "symbol": "STONKFLY",
+      "chain": "robinhood",
+      "address": "0x85Ef2Ee4cA09D19b03A7C5647c9776Bf4F6785A4",
+      "source": "new",
+      "entry_price": 0.0001494,
+      "peak_price": 0.0005179,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T18:51:01.279468+00:00",
+      "score": 71,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 199.67,
+      "peak_volume_m5": 272988.92,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0004477,
+      "exit_pct": 199.67,
+      "exit_time": "2026-09-10T19:12:24.312833+00:00"
+    },
+    {
+      "symbol": "PIZZABOT",
+      "chain": "robinhood",
+      "address": "0xF169f89255BDC5bC75C2ff2Ca1a2D8A9CB8e057F",
+      "source": "new",
+      "entry_price": 0.0001075,
+      "peak_price": 0.0001075,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T19:11:08.574401+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -49.82,
+      "peak_volume_m5": 59612.85,
+      "milestones_hit": [],
+      "exit_price": 5.394e-05,
+      "exit_pct": -49.82,
+      "exit_time": "2026-09-10T19:12:25.566299+00:00"
     }
   ],
   "alerted": {
@@ -180815,6 +180833,8 @@
     "0xB20000000000000000000041f5B59ce176DF5a7b": "2026-09-10T18:48:38.380478+00:00",
     "LaTa7NHG7ZbRWMHVvrV4FvYU58ebsfq3gskFH4idUKt": "2026-09-10T18:55:28.991530+00:00",
     "0x4Eb990547BCe4a982432CA88Cf5fae7EED1A2d35": "2026-09-10T19:02:11.920746+00:00",
-    "0x5D2CA17278A41d3563F2c7445081d6903EE0731E": "2026-09-10T19:02:12.642396+00:00"
+    "0x5D2CA17278A41d3563F2c7445081d6903EE0731E": "2026-09-10T19:02:12.642396+00:00",
+    "0x85Ef2Ee4cA09D19b03A7C5647c9776Bf4F6785A4": "2026-09-10T19:12:24.312833+00:00",
+    "0xF169f89255BDC5bC75C2ff2Ca1a2D8A9CB8e057F": "2026-09-10T19:12:25.566299+00:00"
   }
 }
