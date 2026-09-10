@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GAYRIGHTS",
-      "chain": "solana",
-      "address": "9FhvSyF6YY2joAa2kM7pqrm8PknA47FqnqiYxZZc2zNk",
-      "source": "new",
-      "entry_price": 6.928e-05,
-      "peak_price": 6.928e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T17:31:06.272885+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "LLMAI",
       "chain": "robinhood",
       "address": "0x99954484338caa6B41BA8B174e897291eB1b4fa1",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-10T17:31:07.631231+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.5,
+      "peak_volume_m5": 91761.31,
+      "milestones_hit": []
     },
     {
       "symbol": "FEEZ",
@@ -52,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-10T17:31:09.011810+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.72,
+      "peak_volume_m5": 9181.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -171737,6 +171733,25 @@
       "exit_price": 0.001384,
       "exit_pct": 256.43,
       "exit_time": "2026-09-10T17:22:54.073115+00:00"
+    },
+    {
+      "symbol": "GAYRIGHTS",
+      "chain": "solana",
+      "address": "9FhvSyF6YY2joAa2kM7pqrm8PknA47FqnqiYxZZc2zNk",
+      "source": "new",
+      "entry_price": 6.928e-05,
+      "peak_price": 6.928e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T17:31:06.272885+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.52,
+      "peak_volume_m5": 1513.3,
+      "milestones_hit": [],
+      "exit_price": 6.13e-05,
+      "exit_pct": -11.52,
+      "exit_time": "2026-09-10T17:32:55.455885+00:00"
     }
   ],
   "alerted": {
@@ -180435,6 +180450,7 @@
     "0xb89C01eE8ed9e81817437D3371fF31eb338e6819": "2026-09-10T16:48:39.595855+00:00",
     "0x2C52C606Dc2750593290b15683f7AF08e6984288": "2026-09-10T17:02:57.869635+00:00",
     "0x8a6aef9d80f98b0e9589de54eb3ca95cc34ec0f4": "2026-09-10T17:02:58.563606+00:00",
-    "0x6492F6d0ADaF95df220022639f5E122826062F77": "2026-09-10T17:22:54.073115+00:00"
+    "0x6492F6d0ADaF95df220022639f5E122826062F77": "2026-09-10T17:22:54.073115+00:00",
+    "9FhvSyF6YY2joAa2kM7pqrm8PknA47FqnqiYxZZc2zNk": "2026-09-10T17:32:55.455885+00:00"
   }
 }
