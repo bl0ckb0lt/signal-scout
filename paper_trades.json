@@ -24,45 +24,18 @@
       "address": "0xb89C01eE8ed9e81817437D3371fF31eb338e6819",
       "source": "new",
       "entry_price": 0.0001092,
-      "peak_price": 0.0001915,
+      "peak_price": 0.0002369,
       "trailing_active": true,
       "entry_time": "2026-09-10T16:21:15.312164+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 75.37,
-      "peak_volume_m5": 132347.43,
+      "current_pct": 116.94,
+      "peak_volume_m5": 167955.35,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "ZFORGE",
-      "chain": "robinhood",
-      "address": "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D",
-      "source": "boost",
-      "entry_price": 0.0001509,
-      "peak_price": 0.0001509,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T16:31:07.635357+00:00",
-      "score": 84,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.19,
-      "peak_volume_m5": 1569.5,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "EDEN",
-      "chain": "robinhood",
-      "address": "0x9420b6063242ce1a2d283bd7ce1d8b9f4ba7c9b6",
-      "source": "new",
-      "entry_price": 0.000132,
-      "peak_price": 0.000132,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T16:41:07.552562+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -171625,6 +171598,44 @@
       "exit_price": 1.936e-10,
       "exit_pct": -100.0,
       "exit_time": "2026-09-10T16:22:38.310060+00:00"
+    },
+    {
+      "symbol": "ZFORGE",
+      "chain": "robinhood",
+      "address": "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D",
+      "source": "boost",
+      "entry_price": 0.0001509,
+      "peak_price": 0.0001509,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T16:31:07.635357+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.23,
+      "peak_volume_m5": 2937.85,
+      "milestones_hit": [],
+      "exit_price": 0.0001249,
+      "exit_pct": -17.23,
+      "exit_time": "2026-09-10T16:41:59.571216+00:00"
+    },
+    {
+      "symbol": "EDEN",
+      "chain": "robinhood",
+      "address": "0x9420b6063242ce1a2d283bd7ce1d8b9f4ba7c9b6",
+      "source": "new",
+      "entry_price": 0.000132,
+      "peak_price": 0.000132,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T16:41:07.552562+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -62.81,
+      "peak_volume_m5": 104985.98,
+      "milestones_hit": [],
+      "exit_price": 4.909e-05,
+      "exit_pct": -62.81,
+      "exit_time": "2026-09-10T16:42:00.249483+00:00"
     }
   ],
   "alerted": {
@@ -180276,7 +180287,7 @@
     "0x2bA45c589A198c16FF80ca1bbbCAAAc82A4A39D5": "2026-09-10T12:32:11.680679+00:00",
     "38FAP2Sst1sEy41VTeobVtDdk1rpPxaAs5ivS8tMpump": "2026-09-10T12:53:34.611174+00:00",
     "A3SWzAthLj6oXbLF4RbPakYH3rxRrEcPkAURGBwvujxo": "2026-09-10T12:54:38.424233+00:00",
-    "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D": "2026-09-10T13:22:01.297558+00:00",
+    "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D": "2026-09-10T16:41:59.571216+00:00",
     "0x2e2F80c96E547683e034611C8ff4e6C09CE3533a": "2026-09-10T13:23:53.309958+00:00",
     "4scGDg9z7xd57xnPQrfr9u1kuHJQ4i5KxwoYHr3Upump": "2026-09-10T13:28:28.590746+00:00",
     "0x783E2118A210510df0797a11279850D2b346D4f7": "2026-09-10T13:35:00.586399+00:00",
@@ -180318,6 +180329,7 @@
     "CdsWw6KmBLkmDsh6YRBaWiEEc3y1dtm4wnZ9Fuybpump": "2026-09-10T16:14:56.356784+00:00",
     "8wvqTVoNmaYCT1CKNfZThABayprLYgXBvJTtpCqppump": "2026-09-10T16:15:59.119969+00:00",
     "GqwEctFskdnAjrG3WKE6AgUqswxYNADm7MwrHigfpump": "2026-09-10T16:15:59.967364+00:00",
-    "0xb08710C85B97A93f86bfbC350b0463F762f4078F": "2026-09-10T16:22:38.310060+00:00"
+    "0xb08710C85B97A93f86bfbC350b0463F762f4078F": "2026-09-10T16:22:38.310060+00:00",
+    "0x9420b6063242ce1a2d283bd7ce1d8b9f4ba7c9b6": "2026-09-10T16:42:00.249483+00:00"
   }
 }
