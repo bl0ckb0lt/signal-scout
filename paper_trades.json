@@ -40,13 +40,13 @@
       "address": "0x234b7366aA3bADe715b1DA6f5b30f88A926A04dc",
       "source": "new",
       "entry_price": 1.089e-06,
-      "peak_price": 1.293e-06,
+      "peak_price": 1.519e-06,
       "trailing_active": true,
       "entry_time": "2026-09-10T00:01:08.560823+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 18.73,
+      "current_pct": 39.49,
       "peak_volume_m5": 35750.58,
       "milestones_hit": []
     },
@@ -56,11 +56,15 @@
       "address": "FUFSKYVuJiPJtnw73facn9bax27Cz3cEr7RvtFoBpump",
       "source": "new",
       "entry_price": 0.0001889,
-      "peak_price": 0.0001889,
+      "peak_price": 0.0001919,
       "trailing_active": false,
       "entry_time": "2026-09-10T00:11:08.771701+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.59,
+      "peak_volume_m5": 54258.52,
+      "milestones_hit": []
     },
     {
       "symbol": "TTM",
@@ -68,23 +72,15 @@
       "address": "0x171b1a79C2329e83BA4E09BbcD8aFD774Ff3c216",
       "source": "new",
       "entry_price": 0.000913,
-      "peak_price": 0.000913,
-      "trailing_active": false,
+      "peak_price": 0.001094,
+      "trailing_active": true,
       "entry_time": "2026-09-10T00:11:10.117345+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "AGI",
-      "chain": "robinhood",
-      "address": "0x101c907cd0aF4896d0791Cd414C18E6134D18be5",
-      "source": "new",
-      "entry_price": 0.0001377,
-      "peak_price": 0.0001377,
-      "trailing_active": false,
-      "entry_time": "2026-09-10T00:11:11.444174+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.82,
+      "peak_volume_m5": 81376.23,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -169425,6 +169421,25 @@
       "exit_price": 4.956e-05,
       "exit_pct": -25.47,
       "exit_time": "2026-09-09T23:21:48.911117+00:00"
+    },
+    {
+      "symbol": "AGI",
+      "chain": "robinhood",
+      "address": "0x101c907cd0aF4896d0791Cd414C18E6134D18be5",
+      "source": "new",
+      "entry_price": 0.0001377,
+      "peak_price": 0.0001377,
+      "trailing_active": false,
+      "entry_time": "2026-09-10T00:11:11.444174+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.98,
+      "peak_volume_m5": 45909.95,
+      "milestones_hit": [],
+      "exit_price": 0.0001212,
+      "exit_pct": -11.98,
+      "exit_time": "2026-09-10T00:13:15.444502+00:00"
     }
   ],
   "alerted": {
@@ -178004,6 +178019,7 @@
     "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z": "2026-09-09T22:51:58.121342+00:00",
     "2Lt9MAeEdVyVCviZnEsDj9H3qn8KGjExaGud6yHT5ekj": "2026-09-09T23:02:22.029691+00:00",
     "0x4457eC7B2F2c89eFA7D7166Fa946077f857Ef222": "2026-09-09T23:12:39.823084+00:00",
-    "0x8C56d9Ba509Fb73a7b1B71B3E45F67D3AA8E7b0C": "2026-09-09T23:21:48.911117+00:00"
+    "0x8C56d9Ba509Fb73a7b1B71B3E45F67D3AA8E7b0C": "2026-09-09T23:21:48.911117+00:00",
+    "0x101c907cd0aF4896d0791Cd414C18E6134D18be5": "2026-09-10T00:13:15.444502+00:00"
   }
 }
