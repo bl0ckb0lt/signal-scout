@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WEN",
-      "chain": "solana",
-      "address": "DWAi7YhCF59EfLUm9nZwdwJfAyExzqvZCvyax9KakHry",
-      "source": "new",
-      "entry_price": 0.0001123,
-      "peak_price": 0.0001123,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T15:11:03.245335+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "CASHFLY",
       "chain": "robinhood",
       "address": "0x3e3d77D855aEdD7a46C1Ba5a3e676B224421514E",
       "source": "new",
       "entry_price": 0.0001817,
-      "peak_price": 0.0001817,
+      "peak_price": 0.0002043,
       "trailing_active": false,
       "entry_time": "2026-09-11T15:11:04.728230+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.44,
+      "peak_volume_m5": 90059.31,
+      "milestones_hit": []
     },
     {
       "symbol": "USESTONK",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-11T15:11:06.614617+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.12,
+      "peak_volume_m5": 11492.64,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -174663,6 +174659,25 @@
       "exit_price": 0.0004126,
       "exit_pct": 4.22,
       "exit_time": "2026-09-11T15:05:52.217503+00:00"
+    },
+    {
+      "symbol": "WEN",
+      "chain": "solana",
+      "address": "DWAi7YhCF59EfLUm9nZwdwJfAyExzqvZCvyax9KakHry",
+      "source": "new",
+      "entry_price": 0.0001123,
+      "peak_price": 0.0001123,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T15:11:03.245335+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -39.29,
+      "peak_volume_m5": 14337.1,
+      "milestones_hit": [],
+      "exit_price": 6.818e-05,
+      "exit_pct": -39.29,
+      "exit_time": "2026-09-11T15:13:20.046819+00:00"
     }
   ],
   "alerted": {
@@ -183513,6 +183528,7 @@
     "0x84bAFF039DfB04BC18801a9a6cc1558f7d84c630": "2026-09-11T15:02:12.560789+00:00",
     "0x1091Fbf8a20AfacE2759Ae92457aC712f8402049": "2026-09-11T15:02:13.900971+00:00",
     "0x3d4d516Cc1aEd7E0f4BeCfd3c8499128c2799999": "2026-09-11T15:04:02.566836+00:00",
-    "E1kghBCLZGxbu154knjvtXxC7vCxMEBFHpAwwgjMpump": "2026-09-11T15:05:52.217503+00:00"
+    "E1kghBCLZGxbu154knjvtXxC7vCxMEBFHpAwwgjMpump": "2026-09-11T15:05:52.217503+00:00",
+    "DWAi7YhCF59EfLUm9nZwdwJfAyExzqvZCvyax9KakHry": "2026-09-11T15:13:20.046819+00:00"
   }
 }
