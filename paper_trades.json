@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GENERAL",
-      "chain": "robinhood",
-      "address": "0xE9e410E49f33d23C726e2756c018528Feff32CF4",
-      "source": "new",
-      "entry_price": 0.0004142,
-      "peak_price": 0.0004192,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T02:01:00.915479+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.14,
-      "peak_volume_m5": 2990.48,
-      "milestones_hit": []
-    },
-    {
       "symbol": "GROYPER",
       "chain": "solana",
       "address": "7QAn5wqkBcGuvfLLC16iLvX8fPyqXrzkMqnzHLS9NNna",
       "source": "new",
       "entry_price": 0.0001064,
-      "peak_price": 0.0001064,
+      "peak_price": 0.0001161,
       "trailing_active": false,
       "entry_time": "2026-09-11T02:21:08.413491+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.19,
+      "current_pct": 9.12,
       "peak_volume_m5": 1378.86,
       "milestones_hit": []
     }
@@ -173036,6 +173020,25 @@
       "exit_price": 0.000157,
       "exit_pct": -11.5,
       "exit_time": "2026-09-11T02:22:36.089015+00:00"
+    },
+    {
+      "symbol": "GENERAL",
+      "chain": "robinhood",
+      "address": "0xE9e410E49f33d23C726e2756c018528Feff32CF4",
+      "source": "new",
+      "entry_price": 0.0004142,
+      "peak_price": 0.000438,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T02:01:00.915479+00:00",
+      "score": 67,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 5.75,
+      "peak_volume_m5": 2990.48,
+      "milestones_hit": [],
+      "exit_price": 0.000438,
+      "exit_pct": 5.75,
+      "exit_time": "2026-09-11T02:26:09.750859+00:00"
     }
   ],
   "alerted": {
@@ -181802,6 +181805,7 @@
     "AkY8P6NFWiztz3347b9jXrexkdjpVgLXJfZRSQoEZhua": "2026-09-11T01:34:49.900183+00:00",
     "0xaEa02FA4a85437C5DF4e988CEBf2E93Ae9A7B90A": "2026-09-11T02:02:37.833029+00:00",
     "HTsE1sb3FKvvdMi6tDsnXTbNP5qAg2L3P6fS3JVT8jDm": "2026-09-11T02:12:38.578627+00:00",
-    "0x9e4D2399bdaE0b00E887417985834c926385C221": "2026-09-11T02:22:36.089015+00:00"
+    "0x9e4D2399bdaE0b00E887417985834c926385C221": "2026-09-11T02:22:36.089015+00:00",
+    "0xE9e410E49f33d23C726e2756c018528Feff32CF4": "2026-09-11T02:26:09.750859+00:00"
   }
 }
