@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Gamestonk",
-      "chain": "robinhood",
-      "address": "0x9e4D2399bdaE0b00E887417985834c926385C221",
-      "source": "new",
-      "entry_price": 0.0001774,
-      "peak_price": 0.0001774,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T02:21:02.386099+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "GROYPER",
       "chain": "solana",
       "address": "7QAn5wqkBcGuvfLLC16iLvX8fPyqXrzkMqnzHLS9NNna",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-11T02:21:08.413491+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.19,
+      "peak_volume_m5": 1378.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -173025,6 +173017,25 @@
       "exit_price": 9.056e-05,
       "exit_pct": -22.4,
       "exit_time": "2026-09-11T02:12:38.578627+00:00"
+    },
+    {
+      "symbol": "Gamestonk",
+      "chain": "robinhood",
+      "address": "0x9e4D2399bdaE0b00E887417985834c926385C221",
+      "source": "new",
+      "entry_price": 0.0001774,
+      "peak_price": 0.0001774,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T02:21:02.386099+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.5,
+      "peak_volume_m5": 54630.36,
+      "milestones_hit": [],
+      "exit_price": 0.000157,
+      "exit_pct": -11.5,
+      "exit_time": "2026-09-11T02:22:36.089015+00:00"
     }
   ],
   "alerted": {
@@ -181790,6 +181801,7 @@
     "0xADc57d21bb5E1dBFc8121bE893A5c748F02b54E4": "2026-09-11T01:16:31.586283+00:00",
     "AkY8P6NFWiztz3347b9jXrexkdjpVgLXJfZRSQoEZhua": "2026-09-11T01:34:49.900183+00:00",
     "0xaEa02FA4a85437C5DF4e988CEBf2E93Ae9A7B90A": "2026-09-11T02:02:37.833029+00:00",
-    "HTsE1sb3FKvvdMi6tDsnXTbNP5qAg2L3P6fS3JVT8jDm": "2026-09-11T02:12:38.578627+00:00"
+    "HTsE1sb3FKvvdMi6tDsnXTbNP5qAg2L3P6fS3JVT8jDm": "2026-09-11T02:12:38.578627+00:00",
+    "0x9e4D2399bdaE0b00E887417985834c926385C221": "2026-09-11T02:22:36.089015+00:00"
   }
 }
