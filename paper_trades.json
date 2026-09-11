@@ -8,13 +8,13 @@
       "address": "0x3cbdDE7a904907DC130fDA2b1335DCD04F437da5",
       "source": "new",
       "entry_price": 0.0001108,
-      "peak_price": 0.0001134,
+      "peak_price": 0.0001143,
       "trailing_active": false,
       "entry_time": "2026-09-11T23:21:06.817510+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 2.35,
+      "current_pct": 3.16,
       "peak_volume_m5": 2176.97,
       "milestones_hit": []
     },
@@ -24,23 +24,15 @@
       "address": "0x215d2913ba256d9f53a925e1168dE57Dc1Ee65f9",
       "source": "new",
       "entry_price": 0.0003199,
-      "peak_price": 0.0003199,
+      "peak_price": 0.0003428,
       "trailing_active": false,
       "entry_time": "2026-09-11T23:41:02.768243+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "POLYFLY",
-      "chain": "robinhood",
-      "address": "0xB8471f9D21b462e76747c2aad5CD12072130C0af",
-      "source": "new",
-      "entry_price": 0.00022,
-      "peak_price": 0.00022,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T23:41:05.506524+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.16,
+      "peak_volume_m5": 59057.46,
+      "milestones_hit": []
     },
     {
       "symbol": "Rialto",
@@ -48,11 +40,15 @@
       "address": "0x57219271743e5b2E3062332ed231De1BC1337D9c",
       "source": "new",
       "entry_price": 7.847e-05,
-      "peak_price": 7.847e-05,
+      "peak_price": 8.12e-05,
       "trailing_active": false,
       "entry_time": "2026-09-11T23:41:06.856952+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.48,
+      "peak_volume_m5": 19039.44,
+      "milestones_hit": []
     },
     {
       "symbol": "\u3164",
@@ -60,11 +56,15 @@
       "address": "Gt9brNVXP7gdGtUqZLcJAhbZTjLEcKrA53F18fRSEeAp",
       "source": "new",
       "entry_price": 0.000142,
-      "peak_price": 0.000142,
+      "peak_price": 0.0001597,
       "trailing_active": false,
       "entry_time": "2026-09-11T23:41:08.620335+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.46,
+      "peak_volume_m5": 80737.2,
+      "milestones_hit": []
     },
     {
       "symbol": "FROGE",
@@ -72,11 +72,15 @@
       "address": "0x990FB9D2986458788e3cB71AB4b3AD49213E1E18",
       "source": "new",
       "entry_price": 0.001442,
-      "peak_price": 0.001442,
+      "peak_price": 0.0016,
       "trailing_active": false,
       "entry_time": "2026-09-11T23:41:09.989928+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.96,
+      "peak_volume_m5": 124571.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -176226,6 +176230,25 @@
       "exit_price": 1.721e-06,
       "exit_pct": 101.95,
       "exit_time": "2026-09-11T23:30:54.527767+00:00"
+    },
+    {
+      "symbol": "POLYFLY",
+      "chain": "robinhood",
+      "address": "0xB8471f9D21b462e76747c2aad5CD12072130C0af",
+      "source": "new",
+      "entry_price": 0.00022,
+      "peak_price": 0.00022,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T23:41:05.506524+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.91,
+      "peak_volume_m5": 68345.55,
+      "milestones_hit": [],
+      "exit_price": 0.000196,
+      "exit_pct": -10.91,
+      "exit_time": "2026-09-11T23:44:15.540096+00:00"
     }
   ],
   "alerted": {
@@ -185153,6 +185176,7 @@
     "0x0318206d6949f91Dde089fa5f2819383fa44c226": "2026-09-11T23:12:51.599629+00:00",
     "E48e1En3hWSBE8LgNDkDaKFvxDgjHHk83AwSxqicpump": "2026-09-11T23:16:33.732446+00:00",
     "0x027b74Ecc4815E72620D1476041E9fA778C45FDD": "2026-09-11T23:26:49.518162+00:00",
-    "0x07F56d5411976d6c47f897AAf21d12054824c27f": "2026-09-11T23:30:54.527767+00:00"
+    "0x07F56d5411976d6c47f897AAf21d12054824c27f": "2026-09-11T23:30:54.527767+00:00",
+    "0xB8471f9D21b462e76747c2aad5CD12072130C0af": "2026-09-11T23:44:15.540096+00:00"
   }
 }
