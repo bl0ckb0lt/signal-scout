@@ -14,37 +14,9 @@
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.33,
+      "current_pct": 9.37,
       "peak_volume_m5": 58175.69,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HELIUSCAT",
-      "chain": "solana",
-      "address": "DDwHYggYCVc8XGj56UEv4bvFBhcSPhm29MPHB5Nipump",
-      "source": "new",
-      "entry_price": 0.0002572,
-      "peak_price": 0.0003125,
-      "trailing_active": true,
-      "entry_time": "2026-09-11T14:51:14.026471+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.5,
-      "peak_volume_m5": 55044.69,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "EXAMCN",
-      "chain": "robinhood",
-      "address": "0x84bAFF039DfB04BC18801a9a6cc1558f7d84c630",
-      "source": "new",
-      "entry_price": 0.0005075,
-      "peak_price": 0.0005075,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T15:01:15.051700+00:00",
-      "score": 75,
-      "status": "open"
     },
     {
       "symbol": "EVE",
@@ -52,23 +24,15 @@
       "address": "0x3d4d516Cc1aEd7E0f4BeCfd3c8499128c2799999",
       "source": "new",
       "entry_price": 0.0002323,
-      "peak_price": 0.0002323,
-      "trailing_active": false,
+      "peak_price": 0.0002707,
+      "trailing_active": true,
       "entry_time": "2026-09-11T15:01:16.400320+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "Cody",
-      "chain": "robinhood",
-      "address": "0x1091Fbf8a20AfacE2759Ae92457aC712f8402049",
-      "source": "new",
-      "entry_price": 0.0001887,
-      "peak_price": 0.0001887,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T15:01:17.738820+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.53,
+      "peak_volume_m5": 27796.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -174600,6 +174564,63 @@
       "exit_price": 0.0005653,
       "exit_pct": -23.84,
       "exit_time": "2026-09-11T14:52:59.148669+00:00"
+    },
+    {
+      "symbol": "HELIUSCAT",
+      "chain": "solana",
+      "address": "DDwHYggYCVc8XGj56UEv4bvFBhcSPhm29MPHB5Nipump",
+      "source": "new",
+      "entry_price": 0.0002572,
+      "peak_price": 0.0003125,
+      "trailing_active": true,
+      "entry_time": "2026-09-11T14:51:14.026471+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 7.54,
+      "peak_volume_m5": 57326.53,
+      "milestones_hit": [],
+      "exit_price": 0.0002766,
+      "exit_pct": 7.54,
+      "exit_time": "2026-09-11T15:02:11.848599+00:00"
+    },
+    {
+      "symbol": "EXAMCN",
+      "chain": "robinhood",
+      "address": "0x84bAFF039DfB04BC18801a9a6cc1558f7d84c630",
+      "source": "new",
+      "entry_price": 0.0005075,
+      "peak_price": 0.0005075,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T15:01:15.051700+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.45,
+      "peak_volume_m5": 54623.79,
+      "milestones_hit": [],
+      "exit_price": 0.0004646,
+      "exit_pct": -8.45,
+      "exit_time": "2026-09-11T15:02:12.560789+00:00"
+    },
+    {
+      "symbol": "Cody",
+      "chain": "robinhood",
+      "address": "0x1091Fbf8a20AfacE2759Ae92457aC712f8402049",
+      "source": "new",
+      "entry_price": 0.0001887,
+      "peak_price": 0.0001887,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T15:01:17.738820+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.0,
+      "peak_volume_m5": 76909.8,
+      "milestones_hit": [],
+      "exit_price": 0.0001604,
+      "exit_pct": -15.0,
+      "exit_time": "2026-09-11T15:02:13.900971+00:00"
     }
   ],
   "alerted": {
@@ -183445,6 +183466,9 @@
     "0x39252E514880c1640f7466818A98412Cc596B16C": "2026-09-11T14:37:29.184580+00:00",
     "8zP8DhqoTGNGXHXdQfHPPWrAijWt7FkgyporQ4FHpump": "2026-09-11T14:42:06.940693+00:00",
     "0x1e07d6BEC4C7fB257A8aE6E81f4AEC20E65aE28f": "2026-09-11T14:42:08.816174+00:00",
-    "0xc0B3a7340F2daAa12615f31606133Bedcef28217": "2026-09-11T14:52:59.148669+00:00"
+    "0xc0B3a7340F2daAa12615f31606133Bedcef28217": "2026-09-11T14:52:59.148669+00:00",
+    "DDwHYggYCVc8XGj56UEv4bvFBhcSPhm29MPHB5Nipump": "2026-09-11T15:02:11.848599+00:00",
+    "0x84bAFF039DfB04BC18801a9a6cc1558f7d84c630": "2026-09-11T15:02:12.560789+00:00",
+    "0x1091Fbf8a20AfacE2759Ae92457aC712f8402049": "2026-09-11T15:02:13.900971+00:00"
   }
 }
