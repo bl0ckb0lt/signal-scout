@@ -8,27 +8,15 @@
       "address": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
       "source": "new",
       "entry_price": 0.000939,
-      "peak_price": 0.001015,
-      "trailing_active": false,
+      "peak_price": 0.001252,
+      "trailing_active": true,
       "entry_time": "2026-09-11T19:01:15.390788+00:00",
       "score": 80,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -11.43,
-      "peak_volume_m5": 58071.48,
+      "current_pct": 33.33,
+      "peak_volume_m5": 170069.09,
       "milestones_hit": []
-    },
-    {
-      "symbol": "CHICKENS",
-      "chain": "robinhood",
-      "address": "0x81f1A9C2839B8273a6b0CB5755497EeCD4DC4067",
-      "source": "new",
-      "entry_price": 0.0001525,
-      "peak_price": 0.0001525,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T19:11:12.593150+00:00",
-      "score": 71,
-      "status": "open"
     },
     {
       "symbol": "ISTONKS",
@@ -36,11 +24,17 @@
       "address": "0xCB2BAff7177C8966A8b059b3Df3e9323dc2Ee267",
       "source": "new",
       "entry_price": 0.000101,
-      "peak_price": 0.000101,
-      "trailing_active": false,
+      "peak_price": 0.0001654,
+      "trailing_active": true,
       "entry_time": "2026-09-11T19:11:14.143442+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 63.76,
+      "peak_volume_m5": 10001.33,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "ESCOBAR",
@@ -48,11 +42,15 @@
       "address": "0x67a6d4005cb54eDB1E37bb3D5d271b77af5d1e18",
       "source": "new",
       "entry_price": 4.369e-05,
-      "peak_price": 4.369e-05,
+      "peak_price": 4.436e-05,
       "trailing_active": false,
       "entry_time": "2026-09-11T19:11:15.500812+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.53,
+      "peak_volume_m5": 1150.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -175499,6 +175497,25 @@
       "exit_price": 0.0001548,
       "exit_pct": 22.95,
       "exit_time": "2026-09-11T19:05:29.291638+00:00"
+    },
+    {
+      "symbol": "CHICKENS",
+      "chain": "robinhood",
+      "address": "0x81f1A9C2839B8273a6b0CB5755497EeCD4DC4067",
+      "source": "new",
+      "entry_price": 0.0001525,
+      "peak_price": 0.0001525,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T19:11:12.593150+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.08,
+      "peak_volume_m5": 6713.59,
+      "milestones_hit": [],
+      "exit_price": 0.0001051,
+      "exit_pct": -31.08,
+      "exit_time": "2026-09-11T19:15:55.548687+00:00"
     }
   ],
   "alerted": {
@@ -184391,6 +184408,7 @@
     "0xF4f07E0383962d9C7BDf099d12d0Ad814039512e": "2026-09-11T18:53:28.450347+00:00",
     "0x3612d2aE3B9be2b5c180322ca08aF8C7E0F91f16": "2026-09-11T19:03:42.099145+00:00",
     "0x9ac7aac13230115b5987b7e611b9380347df51f2": "2026-09-11T19:03:42.785333+00:00",
-    "0x9175FD372CF9A91b8EC15Ce8265bafA46B521e18": "2026-09-11T19:05:29.291638+00:00"
+    "0x9175FD372CF9A91b8EC15Ce8265bafA46B521e18": "2026-09-11T19:05:29.291638+00:00",
+    "0x81f1A9C2839B8273a6b0CB5755497EeCD4DC4067": "2026-09-11T19:15:55.548687+00:00"
   }
 }
