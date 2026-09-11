@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CPU",
-      "chain": "robinhood",
-      "address": "0x4cC1Dfbc4266829B4F076249856623B84D0b7C5B",
-      "source": "new",
-      "entry_price": 0.0001108,
-      "peak_price": 0.0002351,
-      "trailing_active": true,
-      "entry_time": "2026-09-10T23:51:04.045292+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 112.18,
-      "peak_volume_m5": 73165.29,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "DRAFT",
       "chain": "robinhood",
       "address": "0xfe51aaf6AF1Ec2eB9286e0BdC3c9dc39240cB8F5",
       "source": "new",
       "entry_price": 0.0007982,
-      "peak_price": 0.0007982,
+      "peak_price": 0.0009033,
       "trailing_active": false,
       "entry_time": "2026-09-11T00:11:10.893458+00:00",
       "score": 85,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.17,
+      "peak_volume_m5": 32805.13,
+      "milestones_hit": []
     },
     {
       "symbol": "Nvidia",
@@ -39,11 +24,15 @@
       "address": "0xD18b9B5A1043Db8ff230533F7E0d207B816B4BB4",
       "source": "new",
       "entry_price": 0.0004583,
-      "peak_price": 0.0004583,
-      "trailing_active": false,
+      "peak_price": 0.0005512,
+      "trailing_active": true,
       "entry_time": "2026-09-11T00:11:12.232246+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.27,
+      "peak_volume_m5": 43331.57,
+      "milestones_hit": []
     },
     {
       "symbol": "AIBUD",
@@ -51,11 +40,15 @@
       "address": "0x9D6d095138F5dc48F773fbFcc0852Ba862a1238D",
       "source": "new",
       "entry_price": 6.432e-05,
-      "peak_price": 6.432e-05,
-      "trailing_active": false,
+      "peak_price": 7.528e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-11T00:11:13.574977+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.04,
+      "peak_volume_m5": 29632.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -172745,6 +172738,28 @@
       "exit_price": 0.0003864,
       "exit_pct": -26.33,
       "exit_time": "2026-09-11T00:09:48.535941+00:00"
+    },
+    {
+      "symbol": "CPU",
+      "chain": "robinhood",
+      "address": "0x4cC1Dfbc4266829B4F076249856623B84D0b7C5B",
+      "source": "new",
+      "entry_price": 0.0001108,
+      "peak_price": 0.0002351,
+      "trailing_active": true,
+      "entry_time": "2026-09-10T23:51:04.045292+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 19.49,
+      "peak_volume_m5": 73165.29,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0001324,
+      "exit_pct": 19.49,
+      "exit_time": "2026-09-11T00:13:44.722390+00:00"
     }
   ],
   "alerted": {
@@ -181495,6 +181510,7 @@
     "0x6b04669ea2a683142a481d54c072e3f0029af1df": "2026-09-10T23:02:45.992296+00:00",
     "BifUDWQFpbTrSxYXBnqCpAVYgcyQGzHzJk2MDmeM2Gyv": "2026-09-10T23:26:25.106510+00:00",
     "0xDA153bd2bb1AE4909FC3b529f030107c1B62EEE1": "2026-09-10T23:28:56.295224+00:00",
-    "DtUntDyWcRpzTVt8JiW8fXvUt3WDGGw6kdiD7fjNMFzJ": "2026-09-11T00:09:48.535941+00:00"
+    "DtUntDyWcRpzTVt8JiW8fXvUt3WDGGw6kdiD7fjNMFzJ": "2026-09-11T00:09:48.535941+00:00",
+    "0x4cC1Dfbc4266829B4F076249856623B84D0b7C5B": "2026-09-11T00:13:44.722390+00:00"
   }
 }
