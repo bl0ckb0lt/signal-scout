@@ -3,36 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STRAT",
-      "chain": "robinhood",
-      "address": "0x0983b6f9AF9cc5b8f30A3C0a240e940104c5221b",
-      "source": "new",
-      "entry_price": 0.0002615,
-      "peak_price": 0.0008273,
-      "trailing_active": true,
-      "entry_time": "2026-09-11T20:11:15.286000+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 216.37,
-      "peak_volume_m5": 65623.14,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Duplicate",
       "chain": "solana",
       "address": "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump",
       "source": "new",
       "entry_price": 0.0003247,
-      "peak_price": 0.0003247,
+      "peak_price": 0.000361,
       "trailing_active": false,
       "entry_time": "2026-09-11T20:31:09.969941+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.18,
+      "peak_volume_m5": 46178.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -175715,6 +175699,29 @@
       "exit_price": 0.0001123,
       "exit_pct": -13.28,
       "exit_time": "2026-09-11T20:09:05.851409+00:00"
+    },
+    {
+      "symbol": "STRAT",
+      "chain": "robinhood",
+      "address": "0x0983b6f9AF9cc5b8f30A3C0a240e940104c5221b",
+      "source": "new",
+      "entry_price": 0.0002615,
+      "peak_price": 0.0008273,
+      "trailing_active": true,
+      "entry_time": "2026-09-11T20:11:15.286000+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 150.25,
+      "peak_volume_m5": 65623.14,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0006544,
+      "exit_pct": 150.25,
+      "exit_time": "2026-09-11T20:36:46.464964+00:00"
     }
   ],
   "alerted": {
@@ -184619,6 +184626,7 @@
     "0xba527c23903EFf094A987197cCD643f2da76e4Ff": "2026-09-11T19:56:13.783159+00:00",
     "84PqNXQ9xeBG73BsF3kxS91g1oBimLogxRGxNQmLpump": "2026-09-11T20:06:07.657688+00:00",
     "4tkupXEGfbYPCVN37CagviJd3tgWnudT9avKZvouT3Dm": "2026-09-11T20:07:55.781036+00:00",
-    "0x55224c35511d0fB94432641c01bfCA8155CAa4eC": "2026-09-11T20:09:05.851409+00:00"
+    "0x55224c35511d0fB94432641c01bfCA8155CAa4eC": "2026-09-11T20:09:05.851409+00:00",
+    "0x0983b6f9AF9cc5b8f30A3C0a240e940104c5221b": "2026-09-11T20:36:46.464964+00:00"
   }
 }
