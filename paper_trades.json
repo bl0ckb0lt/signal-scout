@@ -8,33 +8,17 @@
       "address": "0xfe51aaf6AF1Ec2eB9286e0BdC3c9dc39240cB8F5",
       "source": "new",
       "entry_price": 0.0007982,
-      "peak_price": 0.001389,
+      "peak_price": 0.001412,
       "trailing_active": true,
       "entry_time": "2026-09-11T00:11:10.893458+00:00",
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 73.89,
-      "peak_volume_m5": 78604.59,
+      "current_pct": 76.9,
+      "peak_volume_m5": 104725.15,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "casino",
-      "chain": "solana",
-      "address": "9swyN5J7fUQRYEJv46wHfZN5KHPSfQWctq31ZXHe5zqr",
-      "source": "new",
-      "entry_price": 0.0002696,
-      "peak_price": 0.0002728,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T00:40:59.540421+00:00",
-      "score": 61,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.11,
-      "peak_volume_m5": 33969.02,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -172822,6 +172806,25 @@
       "exit_price": 0.000549,
       "exit_pct": 14.64,
       "exit_time": "2026-09-11T00:42:58.387115+00:00"
+    },
+    {
+      "symbol": "casino",
+      "chain": "solana",
+      "address": "9swyN5J7fUQRYEJv46wHfZN5KHPSfQWctq31ZXHe5zqr",
+      "source": "new",
+      "entry_price": 0.0002696,
+      "peak_price": 0.0002728,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T00:40:59.540421+00:00",
+      "score": 61,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.61,
+      "peak_volume_m5": 33969.02,
+      "milestones_hit": [],
+      "exit_price": 0.000241,
+      "exit_pct": -10.61,
+      "exit_time": "2026-09-11T00:43:52.883316+00:00"
     }
   ],
   "alerted": {
@@ -181577,6 +181580,7 @@
     "0xD18b9B5A1043Db8ff230533F7E0d207B816B4BB4": "2026-09-11T00:14:48.063797+00:00",
     "0x9D6d095138F5dc48F773fbFcc0852Ba862a1238D": "2026-09-11T00:17:07.925755+00:00",
     "0x5c8e7902ea8025221d9976cb284b3bed020bd41d": "2026-09-11T00:42:02.908927+00:00",
-    "0x00C7A526D693708E74cfdE11293A1e09d6ba47b7": "2026-09-11T00:42:58.387115+00:00"
+    "0x00C7A526D693708E74cfdE11293A1e09d6ba47b7": "2026-09-11T00:42:58.387115+00:00",
+    "9swyN5J7fUQRYEJv46wHfZN5KHPSfQWctq31ZXHe5zqr": "2026-09-11T00:43:52.883316+00:00"
   }
 }
