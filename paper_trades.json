@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WORM",
-      "chain": "robinhood",
-      "address": "0x11DbC488823F846a8904764f22e760e559b1af11",
-      "source": "new",
-      "entry_price": 0.0001369,
-      "peak_price": 0.0001369,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T04:31:03.207416+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "AI",
       "chain": "bsc",
       "address": "0x57F7302f2Facda7eFc98d19D729f31D61d39D12e",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-11T04:31:06.523104+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.26,
+      "peak_volume_m5": 18626.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -173300,6 +173292,25 @@
       "exit_price": 8.729e-05,
       "exit_pct": -20.5,
       "exit_time": "2026-09-11T04:24:54.901847+00:00"
+    },
+    {
+      "symbol": "WORM",
+      "chain": "robinhood",
+      "address": "0x11DbC488823F846a8904764f22e760e559b1af11",
+      "source": "new",
+      "entry_price": 0.0001369,
+      "peak_price": 0.0001369,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T04:31:03.207416+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.45,
+      "peak_volume_m5": 28683.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001226,
+      "exit_pct": -10.45,
+      "exit_time": "2026-09-11T04:32:45.596967+00:00"
     }
   ],
   "alerted": {
@@ -182080,6 +182091,7 @@
     "HEhns9R3D8W4Ls12fjECUEnfPntABqvhTQqc7YYxpump": "2026-09-11T04:05:41.003132+00:00",
     "0x2703295342c5914e0292adfdb612618ce24105d1": "2026-09-11T04:12:55.927813+00:00",
     "0x881a290D9F75d8346CB890663691D80A50F0BEE8": "2026-09-11T04:12:56.840133+00:00",
-    "0x8fEa9Eda9Fd7bf5241C58266844e67f0b6fc0d57": "2026-09-11T04:24:54.901847+00:00"
+    "0x8fEa9Eda9Fd7bf5241C58266844e67f0b6fc0d57": "2026-09-11T04:24:54.901847+00:00",
+    "0x11DbC488823F846a8904764f22e760e559b1af11": "2026-09-11T04:32:45.596967+00:00"
   }
 }
