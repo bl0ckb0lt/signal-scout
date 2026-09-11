@@ -8,39 +8,15 @@
       "address": "0xcFB30b23d93bCC055c243DB715D3E2d1c2fAcF09",
       "source": "new",
       "entry_price": 3.649e-05,
-      "peak_price": 4.43e-05,
+      "peak_price": 4.913e-05,
       "trailing_active": true,
       "entry_time": "2026-09-11T05:51:03.570602+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.4,
+      "current_pct": 34.64,
       "peak_volume_m5": 25067.94,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AMZN",
-      "chain": "robinhood",
-      "address": "0x6d685EBCc32D8182B0b3A01c28Af66bEfeaE6aFD",
-      "source": "new",
-      "entry_price": 0.0001252,
-      "peak_price": 0.0001252,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T06:01:01.827573+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
-      "symbol": "RICH",
-      "chain": "solana",
-      "address": "4JGAe6q4DjJLFrerLufsZ22njUzJXopeWTGEbR5Gpump",
-      "source": "new",
-      "entry_price": 0.0001099,
-      "peak_price": 0.0001099,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T06:01:05.655008+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "FLYBRAIN",
@@ -48,11 +24,15 @@
       "address": "0xB20000000000000000000011D9915F9596c620c1",
       "source": "new",
       "entry_price": 8.29e-05,
-      "peak_price": 8.29e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001031,
+      "trailing_active": true,
       "entry_time": "2026-09-11T06:01:07.672338+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.37,
+      "peak_volume_m5": 24222.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -173461,6 +173441,44 @@
       "exit_price": 0.0001131,
       "exit_pct": -19.73,
       "exit_time": "2026-09-11T05:52:32.409658+00:00"
+    },
+    {
+      "symbol": "AMZN",
+      "chain": "robinhood",
+      "address": "0x6d685EBCc32D8182B0b3A01c28Af66bEfeaE6aFD",
+      "source": "new",
+      "entry_price": 0.0001252,
+      "peak_price": 0.0001252,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T06:01:01.827573+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.91,
+      "peak_volume_m5": 111393.66,
+      "milestones_hit": [],
+      "exit_price": 9.527e-05,
+      "exit_pct": -23.91,
+      "exit_time": "2026-09-11T06:02:44.023363+00:00"
+    },
+    {
+      "symbol": "RICH",
+      "chain": "solana",
+      "address": "4JGAe6q4DjJLFrerLufsZ22njUzJXopeWTGEbR5Gpump",
+      "source": "new",
+      "entry_price": 0.0001099,
+      "peak_price": 0.0001099,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T06:01:05.655008+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.96,
+      "peak_volume_m5": 105351.91,
+      "milestones_hit": [],
+      "exit_price": 7.478e-05,
+      "exit_pct": -31.96,
+      "exit_time": "2026-09-11T06:02:44.685269+00:00"
     }
   ],
   "alerted": {
@@ -182248,6 +182266,8 @@
     "48iQL3fBXS7u2WJwVDfJZPH3jcAs9MJchUCT6mGdwH2v": "2026-09-11T04:43:56.849141+00:00",
     "2bRoY87nsBq84TTKJKFD5gYxVLPhrTPKK9MaheSLCCLg": "2026-09-11T05:32:19.905199+00:00",
     "0xD0409C8304a3E5045693Be77445D77731A0444E5": "2026-09-11T05:52:31.752358+00:00",
-    "0x54979d43f84df4acc4b97349e94ffde7c1499e05": "2026-09-11T05:52:32.409658+00:00"
+    "0x54979d43f84df4acc4b97349e94ffde7c1499e05": "2026-09-11T05:52:32.409658+00:00",
+    "0x6d685EBCc32D8182B0b3A01c28Af66bEfeaE6aFD": "2026-09-11T06:02:44.023363+00:00",
+    "4JGAe6q4DjJLFrerLufsZ22njUzJXopeWTGEbR5Gpump": "2026-09-11T06:02:44.685269+00:00"
   }
 }
