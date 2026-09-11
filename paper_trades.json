@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STONKRAT",
-      "chain": "base",
-      "address": "0xb200000000000000000000f24e4DB3DD88fF2601",
-      "source": "new",
-      "entry_price": 3.107e-05,
-      "peak_price": 4.891e-05,
-      "trailing_active": true,
-      "entry_time": "2026-09-11T21:21:14.408215+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 57.42,
-      "peak_volume_m5": 14668.18,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "ALLINU",
       "chain": "solana",
       "address": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
@@ -30,31 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-11T21:31:07.935841+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "H01",
-      "chain": "robinhood",
-      "address": "0x78D97Ddc6445306471Ca47fd723f920a4E300CdD",
-      "source": "new",
-      "entry_price": 0.0001201,
-      "peak_price": 0.0001201,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T21:31:09.609950+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "ALLINU",
-      "chain": "robinhood",
-      "address": "0x61507223B3f394e849A921898C8631EeC65bb8cD",
-      "source": "new",
-      "entry_price": 6.905e-05,
-      "peak_price": 6.905e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T21:31:12.601880+00:00",
-      "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.75,
+      "peak_volume_m5": 286709.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -175874,6 +175836,65 @@
       "exit_price": 0.000385,
       "exit_pct": 18.57,
       "exit_time": "2026-09-11T21:06:50.070897+00:00"
+    },
+    {
+      "symbol": "STONKRAT",
+      "chain": "base",
+      "address": "0xb200000000000000000000f24e4DB3DD88fF2601",
+      "source": "new",
+      "entry_price": 3.107e-05,
+      "peak_price": 4.891e-05,
+      "trailing_active": true,
+      "entry_time": "2026-09-11T21:21:14.408215+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 40.17,
+      "peak_volume_m5": 19546.03,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 4.355e-05,
+      "exit_pct": 40.17,
+      "exit_time": "2026-09-11T21:32:20.298992+00:00"
+    },
+    {
+      "symbol": "H01",
+      "chain": "robinhood",
+      "address": "0x78D97Ddc6445306471Ca47fd723f920a4E300CdD",
+      "source": "new",
+      "entry_price": 0.0001201,
+      "peak_price": 0.0001201,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T21:31:09.609950+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -48.43,
+      "peak_volume_m5": 68279.36,
+      "milestones_hit": [],
+      "exit_price": 6.194e-05,
+      "exit_pct": -48.43,
+      "exit_time": "2026-09-11T21:32:21.344496+00:00"
+    },
+    {
+      "symbol": "ALLINU",
+      "chain": "robinhood",
+      "address": "0x61507223B3f394e849A921898C8631EeC65bb8cD",
+      "source": "new",
+      "entry_price": 6.905e-05,
+      "peak_price": 6.905e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T21:31:12.601880+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.73,
+      "peak_volume_m5": 29312.68,
+      "milestones_hit": [],
+      "exit_price": 6.233e-05,
+      "exit_pct": -9.73,
+      "exit_time": "2026-09-11T21:32:22.060064+00:00"
     }
   ],
   "alerted": {
@@ -184784,6 +184805,9 @@
     "0x51e5e5062B1D0ecBcfD11db54c9089e496879908": "2026-09-11T20:50:11.247030+00:00",
     "0xdd9b3998e5d4085da5efebbe97d3d905f0c9979d": "2026-09-11T20:56:49.821389+00:00",
     "Fsey6rXphKexfVfcLWKkNZte9pKfehcG6oajGVS89nkW": "2026-09-11T20:59:23.331875+00:00",
-    "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump": "2026-09-11T21:06:50.070897+00:00"
+    "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump": "2026-09-11T21:06:50.070897+00:00",
+    "0xb200000000000000000000f24e4DB3DD88fF2601": "2026-09-11T21:32:20.298992+00:00",
+    "0x78D97Ddc6445306471Ca47fd723f920a4E300CdD": "2026-09-11T21:32:21.344496+00:00",
+    "0x61507223B3f394e849A921898C8631EeC65bb8cD": "2026-09-11T21:32:22.060064+00:00"
   }
 }
