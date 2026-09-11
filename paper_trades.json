@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GAP",
-      "chain": "robinhood",
-      "address": "0x65C9882AFfdE2A74b2d4904Eac0ce9efb29B8d48",
-      "source": "new",
-      "entry_price": 0.000199,
-      "peak_price": 0.0004883,
-      "trailing_active": true,
-      "entry_time": "2026-09-11T00:51:05.428163+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 145.38,
-      "peak_volume_m5": 32120.16,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "+",
       "chain": "robinhood",
       "address": "0x52F21E7141C80e5ED10f16a63B95854f02B48268",
       "source": "new",
       "entry_price": 0.001288,
-      "peak_price": 0.001288,
-      "trailing_active": false,
+      "peak_price": 0.001564,
+      "trailing_active": true,
       "entry_time": "2026-09-11T01:11:05.328354+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.43,
+      "peak_volume_m5": 60416.76,
+      "milestones_hit": []
     },
     {
       "symbol": "+",
@@ -39,23 +24,15 @@
       "address": "0xADc57d21bb5E1dBFc8121bE893A5c748F02b54E4",
       "source": "new",
       "entry_price": 0.0001745,
-      "peak_price": 0.0001745,
+      "peak_price": 0.000188,
       "trailing_active": false,
       "entry_time": "2026-09-11T01:11:06.830303+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "Gamestonk",
-      "chain": "solana",
-      "address": "4kNUmT8DyT4TfCuALy9R62RfeQymtqdSDhqKNVpNBJ3c",
-      "source": "new",
-      "entry_price": 0.0002392,
-      "peak_price": 0.0002392,
-      "trailing_active": false,
-      "entry_time": "2026-09-11T01:11:10.336461+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.74,
+      "peak_volume_m5": 13055.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -172904,6 +172881,47 @@
       "exit_price": 8.599e-05,
       "exit_pct": 37.76,
       "exit_time": "2026-09-11T01:03:08.423738+00:00"
+    },
+    {
+      "symbol": "GAP",
+      "chain": "robinhood",
+      "address": "0x65C9882AFfdE2A74b2d4904Eac0ce9efb29B8d48",
+      "source": "new",
+      "entry_price": 0.000199,
+      "peak_price": 0.0004883,
+      "trailing_active": true,
+      "entry_time": "2026-09-11T00:51:05.428163+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 118.14,
+      "peak_volume_m5": 32120.16,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004341,
+      "exit_pct": 118.14,
+      "exit_time": "2026-09-11T01:13:57.664743+00:00"
+    },
+    {
+      "symbol": "Gamestonk",
+      "chain": "solana",
+      "address": "4kNUmT8DyT4TfCuALy9R62RfeQymtqdSDhqKNVpNBJ3c",
+      "source": "new",
+      "entry_price": 0.0002392,
+      "peak_price": 0.0002392,
+      "trailing_active": false,
+      "entry_time": "2026-09-11T01:11:10.336461+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.25,
+      "peak_volume_m5": 75039.0,
+      "milestones_hit": [],
+      "exit_price": 0.0001812,
+      "exit_pct": -24.25,
+      "exit_time": "2026-09-11T01:13:59.652367+00:00"
     }
   ],
   "alerted": {
@@ -181662,6 +181680,8 @@
     "0x00C7A526D693708E74cfdE11293A1e09d6ba47b7": "2026-09-11T00:42:58.387115+00:00",
     "9swyN5J7fUQRYEJv46wHfZN5KHPSfQWctq31ZXHe5zqr": "2026-09-11T00:43:52.883316+00:00",
     "0xfe51aaf6AF1Ec2eB9286e0BdC3c9dc39240cB8F5": "2026-09-11T00:53:52.558845+00:00",
-    "0x6ef14B7cD728847e3F29EB660337842e4A50E6cC": "2026-09-11T01:03:08.423738+00:00"
+    "0x6ef14B7cD728847e3F29EB660337842e4A50E6cC": "2026-09-11T01:03:08.423738+00:00",
+    "0x65C9882AFfdE2A74b2d4904Eac0ce9efb29B8d48": "2026-09-11T01:13:57.664743+00:00",
+    "4kNUmT8DyT4TfCuALy9R62RfeQymtqdSDhqKNVpNBJ3c": "2026-09-11T01:13:59.652367+00:00"
   }
 }
