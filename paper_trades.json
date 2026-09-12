@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "LLM",
-      "chain": "robinhood",
-      "address": "0x6f1A924b217e7Bb254605662C4223b604b7E07ff",
-      "source": "new",
-      "entry_price": 0.0001839,
-      "peak_price": 0.0001839,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T21:21:12.646085+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "brewbot",
       "chain": "bsc",
       "address": "0x7A8cCfcA4207B39b2aF51C052D3A14B3BDB2fE69",
       "source": "new",
       "entry_price": 0.0001666,
-      "peak_price": 0.0001666,
+      "peak_price": 0.0001876,
       "trailing_active": false,
       "entry_time": "2026-09-12T21:21:14.631148+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.61,
+      "peak_volume_m5": 16453.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -179372,6 +179364,25 @@
       "exit_price": 0.0008252,
       "exit_pct": -12.01,
       "exit_time": "2026-09-12T21:13:39.632265+00:00"
+    },
+    {
+      "symbol": "LLM",
+      "chain": "robinhood",
+      "address": "0x6f1A924b217e7Bb254605662C4223b604b7E07ff",
+      "source": "new",
+      "entry_price": 0.0001839,
+      "peak_price": 0.0001839,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T21:21:12.646085+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.38,
+      "peak_volume_m5": 100836.47,
+      "milestones_hit": [],
+      "exit_price": 0.0001078,
+      "exit_pct": -41.38,
+      "exit_time": "2026-09-12T21:24:55.518463+00:00"
     }
   ],
   "alerted": {
@@ -188464,6 +188475,7 @@
     "4aPz3rGjf8Ejky5jaCfRb7HF6VEmfku8b4uAiLyMpump": "2026-09-12T20:41:57.368235+00:00",
     "8w689zFsegRorSrRkYzhcHrWrxhy8CFyYfCdSezHpump": "2026-09-12T20:42:50.864144+00:00",
     "0x613476e47A0B8F503D2e94ECAFaaFB025bC8d645": "2026-09-12T21:12:41.982590+00:00",
-    "CNTcaYTBBrSjYQXrWSL3T126eCjYnmvAhSwYBXBScLLM": "2026-09-12T21:13:39.632265+00:00"
+    "CNTcaYTBBrSjYQXrWSL3T126eCjYnmvAhSwYBXBScLLM": "2026-09-12T21:13:39.632265+00:00",
+    "0x6f1A924b217e7Bb254605662C4223b604b7E07ff": "2026-09-12T21:24:55.518463+00:00"
   }
 }
