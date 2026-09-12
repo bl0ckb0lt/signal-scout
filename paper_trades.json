@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FLYCAT",
-      "chain": "solana",
-      "address": "4y4rbYoG3RXDGeJ2w5McbDEuZhT9cQrXEGoP4svppump",
-      "source": "new",
-      "entry_price": 0.0002274,
-      "peak_price": 0.0002274,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T01:11:16.502332+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CHADGPT",
       "chain": "robinhood",
       "address": "0x3FdcF109Eff3f1FDf6089CED31147Bf44e911e18",
       "source": "new",
       "entry_price": 6.824e-05,
-      "peak_price": 6.824e-05,
+      "peak_price": 7.846e-05,
       "trailing_active": false,
       "entry_time": "2026-09-12T01:11:22.521759+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.98,
+      "peak_volume_m5": 4542.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -176547,6 +176539,25 @@
       "exit_price": 0.001344,
       "exit_pct": -16.57,
       "exit_time": "2026-09-12T01:02:29.796284+00:00"
+    },
+    {
+      "symbol": "FLYCAT",
+      "chain": "solana",
+      "address": "4y4rbYoG3RXDGeJ2w5McbDEuZhT9cQrXEGoP4svppump",
+      "source": "new",
+      "entry_price": 0.0002274,
+      "peak_price": 0.0002274,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T01:11:16.502332+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.42,
+      "peak_volume_m5": 69616.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001946,
+      "exit_pct": -14.42,
+      "exit_time": "2026-09-12T01:13:08.964295+00:00"
     }
   ],
   "alerted": {
@@ -185493,6 +185504,7 @@
     "0x351Ab2C51e223B28D219fE28cc3956410CC11e18": "2026-09-12T00:37:55.129335+00:00",
     "0x217aB4A03a01BEdf4824647224004Fa24A4cB548": "2026-09-12T00:53:25.482968+00:00",
     "WX2v776Zu2yQT4LjgShsDcRJRePQPzhZG2X7kidBmag": "2026-09-12T00:53:26.280061+00:00",
-    "0xE06f748b55563a94778b792f257E1fB9a5191e18": "2026-09-12T01:02:29.796284+00:00"
+    "0xE06f748b55563a94778b792f257E1fB9a5191e18": "2026-09-12T01:02:29.796284+00:00",
+    "4y4rbYoG3RXDGeJ2w5McbDEuZhT9cQrXEGoP4svppump": "2026-09-12T01:13:08.964295+00:00"
   }
 }
