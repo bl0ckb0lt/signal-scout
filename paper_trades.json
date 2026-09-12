@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NEKO",
-      "chain": "solana",
-      "address": "7VXWhZtDuUt85xqKWjkcbfBkX6LcRPod4SazmCkSpump",
-      "source": "new",
-      "entry_price": 0.0004363,
-      "peak_price": 0.0004363,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T13:01:01.775478+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "MAU",
       "chain": "robinhood",
       "address": "0xd1243acf2e54EA9fAB2B597508f33431Bd125A56",
       "source": "new",
       "entry_price": 0.0001115,
-      "peak_price": 0.0001115,
-      "trailing_active": false,
+      "peak_price": 0.0001577,
+      "trailing_active": true,
       "entry_time": "2026-09-12T13:01:05.907589+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 41.43,
+      "peak_volume_m5": 25193.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177961,6 +177953,25 @@
       "exit_price": 9.678e-05,
       "exit_pct": -28.1,
       "exit_time": "2026-09-12T12:51:56.126388+00:00"
+    },
+    {
+      "symbol": "NEKO",
+      "chain": "solana",
+      "address": "7VXWhZtDuUt85xqKWjkcbfBkX6LcRPod4SazmCkSpump",
+      "source": "new",
+      "entry_price": 0.0004363,
+      "peak_price": 0.0004363,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T13:01:01.775478+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.25,
+      "peak_volume_m5": 22679.34,
+      "milestones_hit": [],
+      "exit_price": 0.0003043,
+      "exit_pct": -30.25,
+      "exit_time": "2026-09-12T13:04:13.125825+00:00"
     }
   ],
   "alerted": {
@@ -186980,6 +186991,7 @@
     "0x6fdab0c3cadc7901232506ae8132920889516823": "2026-09-12T12:42:56.153506+00:00",
     "FM8MTTCKGXpYbELh68LqswXTWAw1Vf8gSrJy4Diqpump": "2026-09-12T12:44:54.904492+00:00",
     "0xcc14788D22732C73c3e8A5825217A383DF26eD97": "2026-09-12T12:46:42.065290+00:00",
-    "E48xVLiza8JmnE4Kszoz5tF2Ce15pAAjRbGCkeYApump": "2026-09-12T12:51:56.126388+00:00"
+    "E48xVLiza8JmnE4Kszoz5tF2Ce15pAAjRbGCkeYApump": "2026-09-12T12:51:56.126388+00:00",
+    "7VXWhZtDuUt85xqKWjkcbfBkX6LcRPod4SazmCkSpump": "2026-09-12T13:04:13.125825+00:00"
   }
 }
