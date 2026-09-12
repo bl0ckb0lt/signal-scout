@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Tokenization",
-      "chain": "robinhood",
-      "address": "0xB118F57adf58Dad25d5f10BB02389dbd3E0F1197",
-      "source": "new",
-      "entry_price": 0.0001532,
-      "peak_price": 0.000331,
-      "trailing_active": true,
-      "entry_time": "2026-09-12T06:00:54.776827+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 116.06,
-      "peak_volume_m5": 50363.5,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "revolve ",
       "chain": "solana",
       "address": "J8X5ygWHY5uHFch7m3MisSC7eDAWpAkgi1pyqfT5pump",
       "source": "new",
       "entry_price": 0.0001233,
-      "peak_price": 0.0001233,
-      "trailing_active": false,
+      "peak_price": 0.0001454,
+      "trailing_active": true,
       "entry_time": "2026-09-12T06:11:02.150491+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.92,
+      "peak_volume_m5": 51514.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177116,6 +177101,28 @@
       "exit_price": 9.225e-05,
       "exit_pct": -34.71,
       "exit_time": "2026-09-12T06:01:43.426653+00:00"
+    },
+    {
+      "symbol": "Tokenization",
+      "chain": "robinhood",
+      "address": "0xB118F57adf58Dad25d5f10BB02389dbd3E0F1197",
+      "source": "new",
+      "entry_price": 0.0001532,
+      "peak_price": 0.000331,
+      "trailing_active": true,
+      "entry_time": "2026-09-12T06:00:54.776827+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 62.79,
+      "peak_volume_m5": 50363.5,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0002494,
+      "exit_pct": 62.79,
+      "exit_time": "2026-09-12T06:12:37.678675+00:00"
     }
   ],
   "alerted": {
@@ -186091,6 +186098,7 @@
     "0x5D375C4c3809E8BAda0b8D818B359231384016dF": "2026-09-12T05:07:54.086134+00:00",
     "4mn5tN7MYXjpkj47pMjtqTqCHCMLEDiJeehHFDbKpump": "2026-09-12T05:42:34.520603+00:00",
     "0x1937caE1e60F3A555e4E5Dff2Cf0aD632bfF835A": "2026-09-12T05:43:31.180840+00:00",
-    "0xB8Cf4ad387cfd607C66a207CFFFC46498aACd9d6": "2026-09-12T06:01:43.426653+00:00"
+    "0xB8Cf4ad387cfd607C66a207CFFFC46498aACd9d6": "2026-09-12T06:01:43.426653+00:00",
+    "0xB118F57adf58Dad25d5f10BB02389dbd3E0F1197": "2026-09-12T06:12:37.678675+00:00"
   }
 }
