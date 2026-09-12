@@ -8,30 +8,18 @@
       "address": "0x10B409f69989BC34E36a5105874f6d64E3eb0BfF",
       "source": "new",
       "entry_price": 0.0006501,
-      "peak_price": 0.001305,
+      "peak_price": 0.001376,
       "trailing_active": true,
       "entry_time": "2026-09-12T10:30:48.605724+00:00",
       "score": 87,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 100.74,
-      "peak_volume_m5": 207487.98,
+      "current_pct": 111.66,
+      "peak_volume_m5": 247376.5,
       "milestones_hit": [
         50,
         100
       ]
-    },
-    {
-      "symbol": "SOL4EX",
-      "chain": "solana",
-      "address": "6v4XyHhHj6uNsach9W4u59DntpdB7Q216E9fx37upump",
-      "source": "new",
-      "entry_price": 0.000118,
-      "peak_price": 0.000118,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T10:41:10.022215+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "STRAW",
@@ -43,7 +31,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-12T10:41:11.730631+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.91,
+      "peak_volume_m5": 11688.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177497,6 +177489,25 @@
       "exit_price": 0.0001275,
       "exit_pct": -13.56,
       "exit_time": "2026-09-12T10:16:49.057790+00:00"
+    },
+    {
+      "symbol": "SOL4EX",
+      "chain": "solana",
+      "address": "6v4XyHhHj6uNsach9W4u59DntpdB7Q216E9fx37upump",
+      "source": "new",
+      "entry_price": 0.000118,
+      "peak_price": 0.000118,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T10:41:10.022215+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -64.23,
+      "peak_volume_m5": 81725.94,
+      "milestones_hit": [],
+      "exit_price": 4.221e-05,
+      "exit_pct": -64.23,
+      "exit_time": "2026-09-12T10:43:51.612061+00:00"
     }
   ],
   "alerted": {
@@ -186491,6 +186502,7 @@
     "0x14778a17d61ccc17a22265b6d7d434c7a5559700": "2026-09-12T10:02:37.782523+00:00",
     "0x6b09c294eCC9fbE3285f0421EB76eBB6222adE64": "2026-09-12T10:03:29.465055+00:00",
     "0xe4cc189186d504ff007c4bd8a6cd5c0ecbcab0ec": "2026-09-12T10:07:57.810697+00:00",
-    "0x71C486bEfb4e234DfD5D92bf614B939C5943B520": "2026-09-12T10:16:49.057790+00:00"
+    "0x71C486bEfb4e234DfD5D92bf614B939C5943B520": "2026-09-12T10:16:49.057790+00:00",
+    "6v4XyHhHj6uNsach9W4u59DntpdB7Q216E9fx37upump": "2026-09-12T10:43:51.612061+00:00"
   }
 }
