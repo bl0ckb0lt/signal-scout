@@ -3,44 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BTC",
-      "chain": "bsc",
-      "address": "0xB566E59580B79419D8cB6e5327F368071254d682",
-      "source": "new",
-      "entry_price": 5.167e-05,
-      "peak_price": 5.167e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T11:21:07.939681+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.13,
-      "peak_volume_m5": 1870.38,
-      "milestones_hit": []
-    },
-    {
       "symbol": "KIMCHI",
       "chain": "solana",
       "address": "5FaDzNmwTqxDNXGZxBEi6VCtYoAChSzgoVep1Kaepump",
       "source": "new",
       "entry_price": 0.0001676,
-      "peak_price": 0.0001676,
-      "trailing_active": false,
+      "peak_price": 0.0002137,
+      "trailing_active": true,
       "entry_time": "2026-09-12T11:31:05.943584+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "Maple",
-      "chain": "robinhood",
-      "address": "0x2e7Df692E44d1098B2c21A46Cdac318CE94E3081",
-      "source": "new",
-      "entry_price": 0.0005159,
-      "peak_price": 0.0005159,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T11:31:10.987506+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 27.51,
+      "peak_volume_m5": 118939.85,
+      "milestones_hit": []
     },
     {
       "symbol": "NeMo",
@@ -48,11 +24,15 @@
       "address": "0x6F41210165ffF19695B4B8A22Fb059313282cA3B",
       "source": "new",
       "entry_price": 5.757e-05,
-      "peak_price": 5.757e-05,
+      "peak_price": 6.453e-05,
       "trailing_active": false,
       "entry_time": "2026-09-12T11:31:12.510797+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.09,
+      "peak_volume_m5": 46175.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177645,6 +177625,44 @@
       "exit_price": 0.0001233,
       "exit_pct": -19.36,
       "exit_time": "2026-09-12T11:22:26.334395+00:00"
+    },
+    {
+      "symbol": "BTC",
+      "chain": "bsc",
+      "address": "0xB566E59580B79419D8cB6e5327F368071254d682",
+      "source": "new",
+      "entry_price": 5.167e-05,
+      "peak_price": 5.167e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T11:21:07.939681+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.92,
+      "peak_volume_m5": 1909.59,
+      "milestones_hit": [],
+      "exit_price": 4.551e-05,
+      "exit_pct": -11.92,
+      "exit_time": "2026-09-12T11:32:54.256997+00:00"
+    },
+    {
+      "symbol": "Maple",
+      "chain": "robinhood",
+      "address": "0x2e7Df692E44d1098B2c21A46Cdac318CE94E3081",
+      "source": "new",
+      "entry_price": 0.0005159,
+      "peak_price": 0.0005159,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T11:31:10.987506+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.22,
+      "peak_volume_m5": 70011.18,
+      "milestones_hit": [],
+      "exit_price": 0.0004735,
+      "exit_pct": -8.22,
+      "exit_time": "2026-09-12T11:32:55.627094+00:00"
     }
   ],
   "alerted": {
@@ -186646,6 +186664,8 @@
     "2kuEPy7zQNcCXmmq8zjTUNMm1WRs5XzBC5VXgVo6pump": "2026-09-12T11:04:49.288154+00:00",
     "0x8e6ce32d7310ff52631823e31b6832c66d9cd5ea": "2026-09-12T11:05:52.645489+00:00",
     "0xCe2b408AE64b042AE8BE022b4762962460356acc": "2026-09-12T11:22:25.599029+00:00",
-    "0x50AB1F9FECfea42a8c85e565A22755715FdeD990": "2026-09-12T11:22:26.334395+00:00"
+    "0x50AB1F9FECfea42a8c85e565A22755715FdeD990": "2026-09-12T11:22:26.334395+00:00",
+    "0xB566E59580B79419D8cB6e5327F368071254d682": "2026-09-12T11:32:54.256997+00:00",
+    "0x2e7Df692E44d1098B2c21A46Cdac318CE94E3081": "2026-09-12T11:32:55.627094+00:00"
   }
 }
