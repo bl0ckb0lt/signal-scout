@@ -8,33 +8,17 @@
       "address": "0x04d6AAa3147B9f5b5dB255d3151561c07019BDC6",
       "source": "new",
       "entry_price": 0.001297,
-      "peak_price": 0.0024,
+      "peak_price": 0.002545,
       "trailing_active": true,
       "entry_time": "2026-09-12T01:41:05.015151+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 85.04,
+      "current_pct": 96.22,
       "peak_volume_m5": 95864.99,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "SPAWN",
-      "chain": "robinhood",
-      "address": "0x41080c9d7908ce567efe239042c49d8159a2a3bb",
-      "source": "new",
-      "entry_price": 0.0001533,
-      "peak_price": 0.0001702,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T01:51:05.341030+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.02,
-      "peak_volume_m5": 140903.75,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -176614,6 +176598,25 @@
       "exit_price": 5.108e-05,
       "exit_pct": -11.43,
       "exit_time": "2026-09-12T01:52:23.805595+00:00"
+    },
+    {
+      "symbol": "SPAWN",
+      "chain": "robinhood",
+      "address": "0x41080c9d7908ce567efe239042c49d8159a2a3bb",
+      "source": "new",
+      "entry_price": 0.0001533,
+      "peak_price": 0.0001702,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T01:51:05.341030+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.65,
+      "peak_volume_m5": 141914.94,
+      "milestones_hit": [],
+      "exit_price": 0.0001339,
+      "exit_pct": -12.65,
+      "exit_time": "2026-09-12T01:53:20.016310+00:00"
     }
   ],
   "alerted": {
@@ -185563,6 +185566,7 @@
     "0xE06f748b55563a94778b792f257E1fB9a5191e18": "2026-09-12T01:02:29.796284+00:00",
     "4y4rbYoG3RXDGeJ2w5McbDEuZhT9cQrXEGoP4svppump": "2026-09-12T01:13:08.964295+00:00",
     "0x3FdcF109Eff3f1FDf6089CED31147Bf44e911e18": "2026-09-12T01:20:24.126110+00:00",
-    "0x00b9824a97778469F6d7f9D94b0E60a8Cb00CFCE": "2026-09-12T01:52:23.805595+00:00"
+    "0x00b9824a97778469F6d7f9D94b0E60a8Cb00CFCE": "2026-09-12T01:52:23.805595+00:00",
+    "0x41080c9d7908ce567efe239042c49d8159a2a3bb": "2026-09-12T01:53:20.016310+00:00"
   }
 }
