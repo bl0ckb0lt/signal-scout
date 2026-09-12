@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ORECAT",
-      "chain": "solana",
-      "address": "Dexq6sNqoR7t8mYErbdtKeyQG3ad8kF9eYHoPuAipump",
-      "source": "new",
-      "entry_price": 0.0001784,
-      "peak_price": 0.0001784,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T00:20:55.457762+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CATGPT",
       "chain": "robinhood",
       "address": "0x843d6e8bD26A7617f44C76b6E48985A78a4C2b78",
       "source": "new",
       "entry_price": 0.0004119,
-      "peak_price": 0.0004119,
+      "peak_price": 0.0004441,
       "trailing_active": false,
       "entry_time": "2026-09-12T00:20:58.634517+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.82,
+      "peak_volume_m5": 31540.18,
+      "milestones_hit": []
     },
     {
       "symbol": "flybots",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-12T00:21:01.553257+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.57,
+      "peak_volume_m5": 35024.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -176329,6 +176325,25 @@
       "exit_price": 0.0007051,
       "exit_pct": 257.74,
       "exit_time": "2026-09-12T00:13:21.690661+00:00"
+    },
+    {
+      "symbol": "ORECAT",
+      "chain": "solana",
+      "address": "Dexq6sNqoR7t8mYErbdtKeyQG3ad8kF9eYHoPuAipump",
+      "source": "new",
+      "entry_price": 0.0001784,
+      "peak_price": 0.0001784,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T00:20:55.457762+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.96,
+      "peak_volume_m5": 70262.51,
+      "milestones_hit": [],
+      "exit_price": 0.0001428,
+      "exit_pct": -19.96,
+      "exit_time": "2026-09-12T00:21:41.848772+00:00"
     }
   ],
   "alerted": {
@@ -185263,6 +185278,7 @@
     "0x57219271743e5b2E3062332ed231De1BC1337D9c": "2026-09-11T23:53:27.952437+00:00",
     "0x215d2913ba256d9f53a925e1168dE57Dc1Ee65f9": "2026-09-11T23:56:04.430369+00:00",
     "0x3cbdDE7a904907DC130fDA2b1335DCD04F437da5": "2026-09-11T23:57:02.678312+00:00",
-    "0x70aff095D16569B04b9bf7ce7138995b6f814dD2": "2026-09-12T00:13:21.690661+00:00"
+    "0x70aff095D16569B04b9bf7ce7138995b6f814dD2": "2026-09-12T00:13:21.690661+00:00",
+    "Dexq6sNqoR7t8mYErbdtKeyQG3ad8kF9eYHoPuAipump": "2026-09-12T00:21:41.848772+00:00"
   }
 }
