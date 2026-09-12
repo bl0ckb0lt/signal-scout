@@ -3,58 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Underdog",
-      "chain": "robinhood",
-      "address": "0xa0445804b2356A2ab537F7E7A1F86d6c8859097e",
-      "source": "new",
-      "entry_price": 0.0001085,
-      "peak_price": 0.0001906,
-      "trailing_active": true,
-      "entry_time": "2026-09-12T22:31:10.234230+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 75.67,
-      "peak_volume_m5": 74475.75,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "RSTR",
-      "chain": "robinhood",
-      "address": "0x382E8791f0A209d4da04DB98d07Ca3B76Dcc5706",
-      "source": "new",
-      "entry_price": 0.0003007,
-      "peak_price": 0.0003007,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T22:41:07.236280+00:00",
-      "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "JOE",
-      "chain": "robinhood",
-      "address": "0x168C59274F6A6674C7B5b3ea0dc606c1D12c4F29",
-      "source": "new",
-      "entry_price": 0.0001749,
-      "peak_price": 0.0001749,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T22:41:08.612169+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "BASEBULL",
       "chain": "base",
       "address": "0x4f4750B74d98fdddcc241f17D530cf7D511405bb",
       "source": "new",
       "entry_price": 0.0001583,
-      "peak_price": 0.0001583,
-      "trailing_active": false,
+      "peak_price": 0.000303,
+      "trailing_active": true,
       "entry_time": "2026-09-12T22:41:10.167079+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 91.41,
+      "peak_volume_m5": 110150.09,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -179594,6 +179558,65 @@
       "exit_price": 0.0001775,
       "exit_pct": -13.54,
       "exit_time": "2026-09-12T22:32:46.072490+00:00"
+    },
+    {
+      "symbol": "Underdog",
+      "chain": "robinhood",
+      "address": "0xa0445804b2356A2ab537F7E7A1F86d6c8859097e",
+      "source": "new",
+      "entry_price": 0.0001085,
+      "peak_price": 0.0001906,
+      "trailing_active": true,
+      "entry_time": "2026-09-12T22:31:10.234230+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 45.07,
+      "peak_volume_m5": 74475.75,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001574,
+      "exit_pct": 45.07,
+      "exit_time": "2026-09-12T22:42:28.916742+00:00"
+    },
+    {
+      "symbol": "RSTR",
+      "chain": "robinhood",
+      "address": "0x382E8791f0A209d4da04DB98d07Ca3B76Dcc5706",
+      "source": "new",
+      "entry_price": 0.0003007,
+      "peak_price": 0.0003007,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T22:41:07.236280+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.19,
+      "peak_volume_m5": 842729.99,
+      "milestones_hit": [],
+      "exit_price": 0.000249,
+      "exit_pct": -17.19,
+      "exit_time": "2026-09-12T22:42:29.612533+00:00"
+    },
+    {
+      "symbol": "JOE",
+      "chain": "robinhood",
+      "address": "0x168C59274F6A6674C7B5b3ea0dc606c1D12c4F29",
+      "source": "new",
+      "entry_price": 0.0001749,
+      "peak_price": 0.0001749,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T22:41:08.612169+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.49,
+      "peak_volume_m5": 59874.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001478,
+      "exit_pct": -15.49,
+      "exit_time": "2026-09-12T22:42:30.309925+00:00"
     }
   ],
   "alerted": {
@@ -188696,6 +188719,9 @@
     "0x35Fb99a1134CEd9600374e95199DCc9beaD0a531": "2026-09-12T21:51:51.277848+00:00",
     "0x5ca0DF0334607f21C1750455d5205eCEbb3BfD73": "2026-09-12T21:51:52.280253+00:00",
     "0x3081b48e6f9DED8A1e5bb3eDf09d3E7A8A7De3d0": "2026-09-12T21:53:49.856391+00:00",
-    "3vHLA5NoXSsvLCKaMdHCwbop5c64fzG2UbhYxMT3pump": "2026-09-12T22:32:46.072490+00:00"
+    "3vHLA5NoXSsvLCKaMdHCwbop5c64fzG2UbhYxMT3pump": "2026-09-12T22:32:46.072490+00:00",
+    "0xa0445804b2356A2ab537F7E7A1F86d6c8859097e": "2026-09-12T22:42:28.916742+00:00",
+    "0x382E8791f0A209d4da04DB98d07Ca3B76Dcc5706": "2026-09-12T22:42:29.612533+00:00",
+    "0x168C59274F6A6674C7B5b3ea0dc606c1D12c4F29": "2026-09-12T22:42:30.309925+00:00"
   }
 }
