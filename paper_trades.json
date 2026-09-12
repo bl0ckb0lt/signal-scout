@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STONKJITO",
-      "chain": "solana",
-      "address": "ESzj81P4mDSgGoPy9UEy9YNMxgCoFaaA7mwcyN8kpump",
-      "source": "new",
-      "entry_price": 0.000181,
-      "peak_price": 0.000181,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T02:41:11.564410+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "ALLDOG",
       "chain": "solana",
       "address": "AZu5n7foTz4rRfii2DLCbDM76ZmCQeaeEC9icfPPpump",
       "source": "new",
       "entry_price": 0.0002124,
-      "peak_price": 0.0002124,
-      "trailing_active": false,
+      "peak_price": 0.0002621,
+      "trailing_active": true,
       "entry_time": "2026-09-12T02:41:15.463522+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "WeWorm",
-      "chain": "bsc",
-      "address": "0x2bAF09d6942360a0B85E24474dc2e204b0017777",
-      "source": "new",
-      "entry_price": 0.0002476,
-      "peak_price": 0.0002476,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T02:41:17.608322+00:00",
-      "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.4,
+      "peak_volume_m5": 131634.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -176794,6 +176774,44 @@
       "exit_price": 0.0001855,
       "exit_pct": -11.24,
       "exit_time": "2026-09-12T02:35:34.450987+00:00"
+    },
+    {
+      "symbol": "STONKJITO",
+      "chain": "solana",
+      "address": "ESzj81P4mDSgGoPy9UEy9YNMxgCoFaaA7mwcyN8kpump",
+      "source": "new",
+      "entry_price": 0.000181,
+      "peak_price": 0.000181,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T02:41:11.564410+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.75,
+      "peak_volume_m5": 90252.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001543,
+      "exit_pct": -14.75,
+      "exit_time": "2026-09-12T02:43:54.876899+00:00"
+    },
+    {
+      "symbol": "WeWorm",
+      "chain": "bsc",
+      "address": "0x2bAF09d6942360a0B85E24474dc2e204b0017777",
+      "source": "new",
+      "entry_price": 0.0002476,
+      "peak_price": 0.0002476,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T02:41:17.608322+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.65,
+      "peak_volume_m5": 50009.93,
+      "milestones_hit": [],
+      "exit_price": 0.0002138,
+      "exit_pct": -13.65,
+      "exit_time": "2026-09-12T02:43:56.199808+00:00"
     }
   ],
   "alerted": {
@@ -185752,6 +185770,8 @@
     "0xa0997aF99B8d41D3f7892D38CBd573E678611E18": "2026-09-12T02:16:19.521308+00:00",
     "0xD666AE17605FF6FF87c526F9d0DA66abb0197777": "2026-09-12T02:23:35.587616+00:00",
     "DDP1mgvoFgMNCT7aLj33HNoNx9rh5jfZtSeCiMZ6pump": "2026-09-12T02:24:29.897849+00:00",
-    "0x7a2b9fca40ffd30b4985dd1d7dc2b6aaabb0ba25": "2026-09-12T02:35:34.450987+00:00"
+    "0x7a2b9fca40ffd30b4985dd1d7dc2b6aaabb0ba25": "2026-09-12T02:35:34.450987+00:00",
+    "ESzj81P4mDSgGoPy9UEy9YNMxgCoFaaA7mwcyN8kpump": "2026-09-12T02:43:54.876899+00:00",
+    "0x2bAF09d6942360a0B85E24474dc2e204b0017777": "2026-09-12T02:43:56.199808+00:00"
   }
 }
