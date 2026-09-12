@@ -8,15 +8,17 @@
       "address": "84uuSMjPYDEAcsr8FXoBvCK2HwZS94c6BA8kk4jNpump",
       "source": "new",
       "entry_price": 0.0001831,
-      "peak_price": 0.0002735,
+      "peak_price": 0.0002922,
       "trailing_active": true,
       "entry_time": "2026-09-12T17:10:58.814139+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 49.37,
-      "peak_volume_m5": 37193.74,
-      "milestones_hit": []
+      "current_pct": 59.58,
+      "peak_volume_m5": 40284.24,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "FILL",
@@ -24,15 +26,17 @@
       "address": "0x087569fB36FB084382D19D6669c7aa9DB347efa5",
       "source": "new",
       "entry_price": 0.0002205,
-      "peak_price": 0.0003127,
+      "peak_price": 0.0004111,
       "trailing_active": true,
       "entry_time": "2026-09-12T17:21:06.391708+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 41.81,
+      "current_pct": 86.44,
       "peak_volume_m5": 311676.98,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "DAYC",
@@ -40,30 +44,14 @@
       "address": "0x2542042dEB8578452C26B092F916cF7DA81bdBa3",
       "source": "new",
       "entry_price": 4.553e-07,
-      "peak_price": 5.063e-07,
+      "peak_price": 5.124e-07,
       "trailing_active": false,
       "entry_time": "2026-09-12T17:21:08.271807+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.2,
+      "current_pct": 12.54,
       "peak_volume_m5": 1214.83,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "GEMI",
-      "chain": "solana",
-      "address": "5dgYsznRVkYTnab747xLeegcBhFi8xRLgNdhayYXpump",
-      "source": "new",
-      "entry_price": 0.000208,
-      "peak_price": 0.000208,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T17:31:08.176726+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -10.96,
-      "peak_volume_m5": 94430.16,
       "milestones_hit": []
     }
   ],
@@ -178752,6 +178740,25 @@
       "exit_price": 0.0001575,
       "exit_pct": -14.45,
       "exit_time": "2026-09-12T17:32:56.926464+00:00"
+    },
+    {
+      "symbol": "GEMI",
+      "chain": "solana",
+      "address": "5dgYsznRVkYTnab747xLeegcBhFi8xRLgNdhayYXpump",
+      "source": "new",
+      "entry_price": 0.000208,
+      "peak_price": 0.000208,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T17:31:08.176726+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.78,
+      "peak_volume_m5": 94430.16,
+      "milestones_hit": [],
+      "exit_price": 0.0001731,
+      "exit_pct": -16.78,
+      "exit_time": "2026-09-12T17:36:47.766252+00:00"
     }
   ],
   "alerted": {
@@ -187810,6 +187817,7 @@
     "0x974129982f165aC97A34266fe2f226B36c4a056C": "2026-09-12T17:07:57.518806+00:00",
     "0x203Ae6D3607a895548108D0ce9829BfE21C577A2": "2026-09-12T17:32:53.008345+00:00",
     "0xA152788c652EB28BaE3C60b83EC2C0A6EfD355f0": "2026-09-12T17:32:55.484289+00:00",
-    "0x84572adB7F5302a9AE186FD295868DFb6F938793": "2026-09-12T17:32:56.926464+00:00"
+    "0x84572adB7F5302a9AE186FD295868DFb6F938793": "2026-09-12T17:32:56.926464+00:00",
+    "5dgYsznRVkYTnab747xLeegcBhFi8xRLgNdhayYXpump": "2026-09-12T17:36:47.766252+00:00"
   }
 }
