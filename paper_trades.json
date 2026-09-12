@@ -14,7 +14,7 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 41.55,
+      "current_pct": 39.03,
       "peak_volume_m5": 46175.4,
       "milestones_hit": []
     },
@@ -30,45 +30,9 @@
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.28,
+      "current_pct": -2.98,
       "peak_volume_m5": 24311.72,
       "milestones_hit": []
-    },
-    {
-      "symbol": "NeMo",
-      "chain": "robinhood",
-      "address": "0x2B71d1c62c1238E772231F66C99D0d8D293A79b3",
-      "source": "new",
-      "entry_price": 0.0003705,
-      "peak_price": 0.0003705,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T11:51:05.956182+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "PERPSPAD",
-      "chain": "robinhood",
-      "address": "0xa34CB9fC73B8634a50688A724cd0E78afbf41204",
-      "source": "new",
-      "entry_price": 0.0002034,
-      "peak_price": 0.0002034,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T11:51:07.484991+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "RONO",
-      "chain": "robinhood",
-      "address": "0x7B137E449fD4b48355961f192F29287FAB1C5ED6",
-      "source": "new",
-      "entry_price": 0.0002444,
-      "peak_price": 0.0002444,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T11:51:10.540134+00:00",
-      "score": 68,
-      "status": "open"
     },
     {
       "symbol": "ANT-1",
@@ -76,11 +40,15 @@
       "address": "6wRM3pvVa3JLW4UtzVn5uvXiUtPCXrDpLPYkEffapump",
       "source": "new",
       "entry_price": 0.0001181,
-      "peak_price": 0.0001181,
+      "peak_price": 0.0001199,
       "trailing_active": false,
       "entry_time": "2026-09-12T11:51:12.547991+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.52,
+      "peak_volume_m5": 20439.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177730,6 +177698,63 @@
       "exit_price": 0.0001718,
       "exit_pct": 2.51,
       "exit_time": "2026-09-12T11:33:50.024260+00:00"
+    },
+    {
+      "symbol": "NeMo",
+      "chain": "robinhood",
+      "address": "0x2B71d1c62c1238E772231F66C99D0d8D293A79b3",
+      "source": "new",
+      "entry_price": 0.0003705,
+      "peak_price": 0.0003705,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T11:51:05.956182+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.69,
+      "peak_volume_m5": 16271.06,
+      "milestones_hit": [],
+      "exit_price": 0.0002642,
+      "exit_pct": -28.69,
+      "exit_time": "2026-09-12T11:53:01.988442+00:00"
+    },
+    {
+      "symbol": "PERPSPAD",
+      "chain": "robinhood",
+      "address": "0xa34CB9fC73B8634a50688A724cd0E78afbf41204",
+      "source": "new",
+      "entry_price": 0.0002034,
+      "peak_price": 0.0002034,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T11:51:07.484991+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -35.84,
+      "peak_volume_m5": 14496.24,
+      "milestones_hit": [],
+      "exit_price": 0.0001305,
+      "exit_pct": -35.84,
+      "exit_time": "2026-09-12T11:53:02.926440+00:00"
+    },
+    {
+      "symbol": "RONO",
+      "chain": "robinhood",
+      "address": "0x7B137E449fD4b48355961f192F29287FAB1C5ED6",
+      "source": "new",
+      "entry_price": 0.0002444,
+      "peak_price": 0.0002444,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T11:51:10.540134+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.37,
+      "peak_volume_m5": 187359.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001995,
+      "exit_pct": -18.37,
+      "exit_time": "2026-09-12T11:53:03.745219+00:00"
     }
   ],
   "alerted": {
@@ -186734,6 +186759,9 @@
     "0x50AB1F9FECfea42a8c85e565A22755715FdeD990": "2026-09-12T11:22:26.334395+00:00",
     "0xB566E59580B79419D8cB6e5327F368071254d682": "2026-09-12T11:32:54.256997+00:00",
     "0x2e7Df692E44d1098B2c21A46Cdac318CE94E3081": "2026-09-12T11:32:55.627094+00:00",
-    "5FaDzNmwTqxDNXGZxBEi6VCtYoAChSzgoVep1Kaepump": "2026-09-12T11:33:50.024260+00:00"
+    "5FaDzNmwTqxDNXGZxBEi6VCtYoAChSzgoVep1Kaepump": "2026-09-12T11:33:50.024260+00:00",
+    "0x2B71d1c62c1238E772231F66C99D0d8D293A79b3": "2026-09-12T11:53:01.988442+00:00",
+    "0xa34CB9fC73B8634a50688A724cd0E78afbf41204": "2026-09-12T11:53:02.926440+00:00",
+    "0x7B137E449fD4b48355961f192F29287FAB1C5ED6": "2026-09-12T11:53:03.745219+00:00"
   }
 }
