@@ -8,23 +8,15 @@
       "address": "0x406e3804afF8cCA9b8862856AAecA1b09CcBc586",
       "source": "new",
       "entry_price": 6.412e-05,
-      "peak_price": 6.412e-05,
+      "peak_price": 6.705e-05,
       "trailing_active": false,
       "entry_time": "2026-09-12T19:11:03.646691+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "FTR",
-      "chain": "robinhood",
-      "address": "0xA605875D620753f4Fb06024B788b2B6552a81e18",
-      "source": "new",
-      "entry_price": 0.0005316,
-      "peak_price": 0.0005316,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T19:11:05.192955+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.57,
+      "peak_volume_m5": 4870.43,
+      "milestones_hit": []
     },
     {
       "symbol": "STUNK",
@@ -32,11 +24,15 @@
       "address": "0x70916b926A523B35bB32e702bb4d0073D5733459",
       "source": "new",
       "entry_price": 9.575e-05,
-      "peak_price": 9.575e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001236,
+      "trailing_active": true,
       "entry_time": "2026-09-12T19:11:06.721813+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.09,
+      "peak_volume_m5": 41356.22,
+      "milestones_hit": []
     },
     {
       "symbol": "ROVER",
@@ -44,11 +40,15 @@
       "address": "0x1b9CE21d2b4a737CB91CC2a1BaA806640Cc81e18",
       "source": "new",
       "entry_price": 4.222e-05,
-      "peak_price": 4.222e-05,
+      "peak_price": 4.28e-05,
       "trailing_active": false,
       "entry_time": "2026-09-12T19:11:08.243967+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.37,
+      "peak_volume_m5": 5709.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -179045,6 +179045,25 @@
       "exit_price": 0.0001413,
       "exit_pct": -13.84,
       "exit_time": "2026-09-12T19:06:48.822528+00:00"
+    },
+    {
+      "symbol": "FTR",
+      "chain": "robinhood",
+      "address": "0xA605875D620753f4Fb06024B788b2B6552a81e18",
+      "source": "new",
+      "entry_price": 0.0005316,
+      "peak_price": 0.0005316,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T19:11:05.192955+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.04,
+      "peak_volume_m5": 80759.94,
+      "milestones_hit": [],
+      "exit_price": 0.0004676,
+      "exit_pct": -12.04,
+      "exit_time": "2026-09-12T19:14:20.777439+00:00"
     }
   ],
   "alerted": {
@@ -188119,6 +188138,7 @@
     "66aBzVKucLmWvY2JEU5CjAYcUSz7YcpoBDfXXWV9pump": "2026-09-12T18:36:40.750428+00:00",
     "0xd553996e73a50501a940EA771B328998a7ac2478": "2026-09-12T18:42:45.780221+00:00",
     "5dAgHFjAwZ8Fg5neqLu8UfEjJmU4bxbvRRgW56m7pump": "2026-09-12T18:42:46.564341+00:00",
-    "67v7qwNf2KkjiPPQ3D2t2rJiv6g7Gsx8N3rfAes3pump": "2026-09-12T19:06:48.822528+00:00"
+    "67v7qwNf2KkjiPPQ3D2t2rJiv6g7Gsx8N3rfAes3pump": "2026-09-12T19:06:48.822528+00:00",
+    "0xA605875D620753f4Fb06024B788b2B6552a81e18": "2026-09-12T19:14:20.777439+00:00"
   }
 }
