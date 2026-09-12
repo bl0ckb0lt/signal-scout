@@ -1,42 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "DARIOO",
-      "chain": "robinhood",
-      "address": "0x22d047da13997E384Abc2F390Bc9495D7Ac54b7d",
-      "source": "new",
-      "entry_price": 0.0001439,
-      "peak_price": 0.0002626,
-      "trailing_active": true,
-      "entry_time": "2026-09-12T16:11:06.536050+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 82.49,
-      "peak_volume_m5": 44567.66,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "LIFE",
-      "chain": "robinhood",
-      "address": "0xac0aEBF8a26E46DeD45e348A8A69B61B282F1e18",
-      "source": "new",
-      "entry_price": 0.0001119,
-      "peak_price": 0.0001143,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T16:11:08.053317+00:00",
-      "score": 58,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.14,
-      "peak_volume_m5": 4706.72,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -178467,6 +178432,46 @@
       "exit_price": 6.05e-05,
       "exit_pct": -75.71,
       "exit_time": "2026-09-12T16:14:47.414113+00:00"
+    },
+    {
+      "symbol": "DARIOO",
+      "chain": "robinhood",
+      "address": "0x22d047da13997E384Abc2F390Bc9495D7Ac54b7d",
+      "source": "new",
+      "entry_price": 0.0001439,
+      "peak_price": 0.0002626,
+      "trailing_active": true,
+      "entry_time": "2026-09-12T16:11:06.536050+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 34.26,
+      "peak_volume_m5": 47298.63,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001932,
+      "exit_pct": 34.26,
+      "exit_time": "2026-09-12T16:15:55.787485+00:00"
+    },
+    {
+      "symbol": "LIFE",
+      "chain": "robinhood",
+      "address": "0xac0aEBF8a26E46DeD45e348A8A69B61B282F1e18",
+      "source": "new",
+      "entry_price": 0.0001119,
+      "peak_price": 0.0001143,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T16:11:08.053317+00:00",
+      "score": 58,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.64,
+      "peak_volume_m5": 6685.31,
+      "milestones_hit": [],
+      "exit_price": 8.768e-05,
+      "exit_pct": -21.64,
+      "exit_time": "2026-09-12T16:15:56.526721+00:00"
     }
   ],
   "alerted": {
@@ -187512,6 +187517,8 @@
     "25RJCenFdryR7qfLj1QXrYu8QgcuZxnWTfMM4cQypump": "2026-09-12T15:54:33.932259+00:00",
     "0xA04fec6fFDD70615E9f509C5ad8f8a430Fe97995": "2026-09-12T16:08:33.503115+00:00",
     "0x70DBb50E2e7e894D8D2cC29B16fF082Fa730F398": "2026-09-12T16:11:59.071531+00:00",
-    "0xf5626688491b8D36B386DC30Dd9370b23c72bd49": "2026-09-12T16:14:47.414113+00:00"
+    "0xf5626688491b8D36B386DC30Dd9370b23c72bd49": "2026-09-12T16:14:47.414113+00:00",
+    "0x22d047da13997E384Abc2F390Bc9495D7Ac54b7d": "2026-09-12T16:15:55.787485+00:00",
+    "0xac0aEBF8a26E46DeD45e348A8A69B61B282F1e18": "2026-09-12T16:15:56.526721+00:00"
   }
 }
