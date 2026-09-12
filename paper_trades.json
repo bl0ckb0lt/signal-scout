@@ -1,26 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "BRODIE",
-      "chain": "robinhood",
-      "address": "0x70aff095D16569B04b9bf7ce7138995b6f814dD2",
-      "source": "new",
-      "entry_price": 0.0001971,
-      "peak_price": 0.000311,
-      "trailing_active": true,
-      "entry_time": "2026-09-12T00:01:05.499403+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 57.79,
-      "peak_volume_m5": 15421.83,
-      "milestones_hit": [
-        50
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -176288,6 +176269,29 @@
       "exit_price": 0.000126,
       "exit_pct": 13.72,
       "exit_time": "2026-09-11T23:57:02.678312+00:00"
+    },
+    {
+      "symbol": "BRODIE",
+      "chain": "robinhood",
+      "address": "0x70aff095D16569B04b9bf7ce7138995b6f814dD2",
+      "source": "new",
+      "entry_price": 0.0001971,
+      "peak_price": 0.0007051,
+      "trailing_active": true,
+      "entry_time": "2026-09-12T00:01:05.499403+00:00",
+      "score": 73,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 257.74,
+      "peak_volume_m5": 22128.3,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0007051,
+      "exit_pct": 257.74,
+      "exit_time": "2026-09-12T00:13:21.690661+00:00"
     }
   ],
   "alerted": {
@@ -185221,6 +185225,7 @@
     "Gt9brNVXP7gdGtUqZLcJAhbZTjLEcKrA53F18fRSEeAp": "2026-09-11T23:52:30.880768+00:00",
     "0x57219271743e5b2E3062332ed231De1BC1337D9c": "2026-09-11T23:53:27.952437+00:00",
     "0x215d2913ba256d9f53a925e1168dE57Dc1Ee65f9": "2026-09-11T23:56:04.430369+00:00",
-    "0x3cbdDE7a904907DC130fDA2b1335DCD04F437da5": "2026-09-11T23:57:02.678312+00:00"
+    "0x3cbdDE7a904907DC130fDA2b1335DCD04F437da5": "2026-09-11T23:57:02.678312+00:00",
+    "0x70aff095D16569B04b9bf7ce7138995b6f814dD2": "2026-09-12T00:13:21.690661+00:00"
   }
 }
