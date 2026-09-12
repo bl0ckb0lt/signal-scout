@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Maple",
-      "chain": "robinhood",
-      "address": "0x6b09c294eCC9fbE3285f0421EB76eBB6222adE64",
-      "source": "new",
-      "entry_price": 0.0008627,
-      "peak_price": 0.0008627,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T10:01:02.639440+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -11.6,
-      "peak_volume_m5": 158685.7,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Picks",
       "chain": "robinhood",
       "address": "0xe4cc189186d504ff007c4bd8a6cd5c0ecbcab0ec",
       "source": "new",
       "entry_price": 0.0001541,
-      "peak_price": 0.0001667,
-      "trailing_active": false,
+      "peak_price": 0.0001992,
+      "trailing_active": true,
       "entry_time": "2026-09-12T10:01:03.974176+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.18,
+      "current_pct": 29.27,
       "peak_volume_m5": 97785.59,
       "milestones_hit": []
     }
@@ -177429,6 +177413,25 @@
       "exit_price": 9.263e-05,
       "exit_pct": -20.35,
       "exit_time": "2026-09-12T10:02:37.782523+00:00"
+    },
+    {
+      "symbol": "Maple",
+      "chain": "robinhood",
+      "address": "0x6b09c294eCC9fbE3285f0421EB76eBB6222adE64",
+      "source": "new",
+      "entry_price": 0.0008627,
+      "peak_price": 0.0008627,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T10:01:02.639440+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.18,
+      "peak_volume_m5": 158685.7,
+      "milestones_hit": [],
+      "exit_price": 0.0006282,
+      "exit_pct": -27.18,
+      "exit_time": "2026-09-12T10:03:29.465055+00:00"
     }
   ],
   "alerted": {
@@ -186420,6 +186423,7 @@
     "0xbBCedA0C3754F4f87698bd272EB12D5156A86c35": "2026-09-12T09:03:06.177120+00:00",
     "GNSYDUo3LcspjAuRb8TuXXbeHwZduJGwaH1pAsfXvJSe": "2026-09-12T09:12:01.664491+00:00",
     "0xA4CefA07d34432369E869E99842f47bBa032cE77": "2026-09-12T09:53:45.190215+00:00",
-    "0x14778a17d61ccc17a22265b6d7d434c7a5559700": "2026-09-12T10:02:37.782523+00:00"
+    "0x14778a17d61ccc17a22265b6d7d434c7a5559700": "2026-09-12T10:02:37.782523+00:00",
+    "0x6b09c294eCC9fbE3285f0421EB76eBB6222adE64": "2026-09-12T10:03:29.465055+00:00"
   }
 }
