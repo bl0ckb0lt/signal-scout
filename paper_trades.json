@@ -24,35 +24,15 @@
       "address": "FM8MTTCKGXpYbELh68LqswXTWAw1Vf8gSrJy4Diqpump",
       "source": "new",
       "entry_price": 0.0002321,
-      "peak_price": 0.0002321,
-      "trailing_active": false,
+      "peak_price": 0.0002693,
+      "trailing_active": true,
       "entry_time": "2026-09-12T12:41:07.279108+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "PNCE",
-      "chain": "robinhood",
-      "address": "0x7c725e4E0528dBC4C3521c693DE07456E045F3e6",
-      "source": "new",
-      "entry_price": 1.001e-06,
-      "peak_price": 1.001e-06,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T12:41:10.225017+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "PSTOCK",
-      "chain": "robinhood",
-      "address": "0x6fdab0c3cadc7901232506ae8132920889516823",
-      "source": "new",
-      "entry_price": 0.0001285,
-      "peak_price": 0.0001285,
-      "trailing_active": false,
-      "entry_time": "2026-09-12T12:41:11.696391+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.03,
+      "peak_volume_m5": 148227.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -177894,6 +177874,44 @@
       "exit_price": 0.0002465,
       "exit_pct": -35.74,
       "exit_time": "2026-09-12T12:32:54.995506+00:00"
+    },
+    {
+      "symbol": "PNCE",
+      "chain": "robinhood",
+      "address": "0x7c725e4E0528dBC4C3521c693DE07456E045F3e6",
+      "source": "new",
+      "entry_price": 1.001e-06,
+      "peak_price": 1.001e-06,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T12:41:10.225017+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.71,
+      "peak_volume_m5": 49335.49,
+      "milestones_hit": [],
+      "exit_price": 9.138e-07,
+      "exit_pct": -8.71,
+      "exit_time": "2026-09-12T12:42:55.374964+00:00"
+    },
+    {
+      "symbol": "PSTOCK",
+      "chain": "robinhood",
+      "address": "0x6fdab0c3cadc7901232506ae8132920889516823",
+      "source": "new",
+      "entry_price": 0.0001285,
+      "peak_price": 0.0001285,
+      "trailing_active": false,
+      "entry_time": "2026-09-12T12:41:11.696391+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.74,
+      "peak_volume_m5": 47547.29,
+      "milestones_hit": [],
+      "exit_price": 9.543e-05,
+      "exit_pct": -25.74,
+      "exit_time": "2026-09-12T12:42:56.153506+00:00"
     }
   ],
   "alerted": {
@@ -186908,6 +186926,8 @@
     "0x46B6995b02B1e3Afa39033243999e00d739615F1": "2026-09-12T12:06:43.681539+00:00",
     "0xc6a8840c4946b8a476415048a2cbbe1bc81bf5bb": "2026-09-12T12:23:59.651769+00:00",
     "0x7e4fe1ec486a33119b3357aa33328e5ad02ed427": "2026-09-12T12:28:35.907530+00:00",
-    "0x65d85b0463BF9F3d37686d70f648b9B41e177bAd": "2026-09-12T12:32:54.995506+00:00"
+    "0x65d85b0463BF9F3d37686d70f648b9B41e177bAd": "2026-09-12T12:32:54.995506+00:00",
+    "0x7c725e4E0528dBC4C3521c693DE07456E045F3e6": "2026-09-12T12:42:55.374964+00:00",
+    "0x6fdab0c3cadc7901232506ae8132920889516823": "2026-09-12T12:42:56.153506+00:00"
   }
 }
