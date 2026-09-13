@@ -8,47 +8,15 @@
       "address": "H22aquDouZNFyfykwnXmY5Y9z5sMQtLFy5tUKR99pump",
       "source": "new",
       "entry_price": 0.000291,
-      "peak_price": 0.000291,
+      "peak_price": 0.0003176,
       "trailing_active": false,
       "entry_time": "2026-09-13T16:31:12.447740+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "BLUE",
-      "chain": "solana",
-      "address": "9TfWxszAhU2pGRmtmkTVcmFtfMhB8adA9x3nfW6vAETf",
-      "source": "new",
-      "entry_price": 4.341e-05,
-      "peak_price": 4.341e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T16:31:18.198169+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "CUMCOIN",
-      "chain": "robinhood",
-      "address": "0x568BaE81d990C687A7068BB579788515E60549BB",
-      "source": "new",
-      "entry_price": 0.0002174,
-      "peak_price": 0.0002174,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T16:31:19.597988+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "CROSSRATE",
-      "chain": "robinhood",
-      "address": "0x4Ed2692F5e108724A919De5FCbf267f231D5e333",
-      "source": "boost",
-      "entry_price": 0.0001934,
-      "peak_price": 0.0001934,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T16:31:20.948312+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.14,
+      "peak_volume_m5": 160254.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -181687,6 +181655,63 @@
       "exit_price": 0.0001775,
       "exit_pct": -8.55,
       "exit_time": "2026-09-13T16:25:48.228932+00:00"
+    },
+    {
+      "symbol": "BLUE",
+      "chain": "solana",
+      "address": "9TfWxszAhU2pGRmtmkTVcmFtfMhB8adA9x3nfW6vAETf",
+      "source": "new",
+      "entry_price": 4.341e-05,
+      "peak_price": 4.341e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T16:31:18.198169+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.84,
+      "peak_volume_m5": 5203.16,
+      "milestones_hit": [],
+      "exit_price": 3.74e-05,
+      "exit_pct": -13.84,
+      "exit_time": "2026-09-13T16:32:28.515832+00:00"
+    },
+    {
+      "symbol": "CUMCOIN",
+      "chain": "robinhood",
+      "address": "0x568BaE81d990C687A7068BB579788515E60549BB",
+      "source": "new",
+      "entry_price": 0.0002174,
+      "peak_price": 0.0002174,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T16:31:19.597988+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.58,
+      "peak_volume_m5": 12767.66,
+      "milestones_hit": [],
+      "exit_price": 0.0001944,
+      "exit_pct": -10.58,
+      "exit_time": "2026-09-13T16:32:29.363109+00:00"
+    },
+    {
+      "symbol": "CROSSRATE",
+      "chain": "robinhood",
+      "address": "0x4Ed2692F5e108724A919De5FCbf267f231D5e333",
+      "source": "boost",
+      "entry_price": 0.0001934,
+      "peak_price": 0.0001934,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T16:31:20.948312+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.03,
+      "peak_volume_m5": 9350.98,
+      "milestones_hit": [],
+      "exit_price": 0.0001682,
+      "exit_pct": -13.03,
+      "exit_time": "2026-09-13T16:32:30.190353+00:00"
     }
   ],
   "alerted": {
@@ -190867,7 +190892,7 @@
     "0x21d21e5d95C34405b36a308Ba58fbB0AcB6eFb50": "2026-09-13T13:13:22.451614+00:00",
     "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump": "2026-09-13T13:33:53.065607+00:00",
     "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5": "2026-09-13T14:00:26.175986+00:00",
-    "0x4Ed2692F5e108724A919De5FCbf267f231D5e333": "2026-09-13T14:16:53.337222+00:00",
+    "0x4Ed2692F5e108724A919De5FCbf267f231D5e333": "2026-09-13T16:32:30.190353+00:00",
     "0x6268808aa25b47f0aFFEee0E6139ab1CC9460d1D": "2026-09-13T14:24:34.764794+00:00",
     "8p7uhDVpe5Pw4fg2tfHXskHmCicfr7gTrnbRtzAopump": "2026-09-13T14:37:06.223612+00:00",
     "0x4F19Ab8BdC3aEf659cd1Ec836DC68770C38017ca": "2026-09-13T14:38:03.343108+00:00",
@@ -190893,6 +190918,8 @@
     "0x601C29752e68Bfff7113751c7d6b6655494D07ae": "2026-09-13T16:12:27.600878+00:00",
     "9GPG5ifxoBXQroVTHmGanxmFGxYDTFPZqKunGueKpump": "2026-09-13T16:14:31.370159+00:00",
     "0x1D625B7A83E9B6E145217d81e61e2627a05f7777": "2026-09-13T16:19:50.197704+00:00",
-    "0x3b3FDC4A18773BbdbB5a3bD559e93089b55F4b64": "2026-09-13T16:25:48.228932+00:00"
+    "0x3b3FDC4A18773BbdbB5a3bD559e93089b55F4b64": "2026-09-13T16:25:48.228932+00:00",
+    "9TfWxszAhU2pGRmtmkTVcmFtfMhB8adA9x3nfW6vAETf": "2026-09-13T16:32:28.515832+00:00",
+    "0x568BaE81d990C687A7068BB579788515E60549BB": "2026-09-13T16:32:29.363109+00:00"
   }
 }
