@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Grok",
-      "chain": "robinhood",
-      "address": "0xD9E82b01fbD8EB7A59D456fEf3B56D39d90caa47",
-      "source": "new",
-      "entry_price": 0.0001906,
-      "peak_price": 0.000338,
-      "trailing_active": true,
-      "entry_time": "2026-09-13T04:41:08.559058+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 77.33,
-      "peak_volume_m5": 68825.63,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "CC",
       "chain": "robinhood",
       "address": "0xF0c2054db03CFdA94894dDa67c10a386450dc54c",
       "source": "new",
       "entry_price": 0.0002739,
-      "peak_price": 0.0002739,
+      "peak_price": 0.0002986,
       "trailing_active": false,
       "entry_time": "2026-09-13T04:51:07.689264+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.02,
+      "peak_volume_m5": 73564.76,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -180258,6 +180244,27 @@
       "exit_price": 3.616e-05,
       "exit_pct": -15.43,
       "exit_time": "2026-09-13T04:36:56.826057+00:00"
+    },
+    {
+      "symbol": "Grok",
+      "chain": "robinhood",
+      "address": "0xD9E82b01fbD8EB7A59D456fEf3B56D39d90caa47",
+      "source": "new",
+      "entry_price": 0.0001906,
+      "peak_price": 0.000338,
+      "trailing_active": true,
+      "entry_time": "2026-09-13T04:41:08.559058+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 55.25,
+      "peak_volume_m5": 68825.63,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002959,
+      "exit_pct": 55.25,
+      "exit_time": "2026-09-13T04:51:59.385242+00:00"
     }
   ],
   "alerted": {
@@ -189395,6 +189402,7 @@
     "7tFbGa9wt4Q4yxNAdaDcTKahv4WPrJtXh6ty7gjWyKx3": "2026-09-13T03:42:48.472647+00:00",
     "0x35a79120e07bae083045d44b8349c5d47f37ac13": "2026-09-13T03:45:27.270136+00:00",
     "88t4EdAjiuUDzHujJnK5nywitQzYQWEJq2ouUgRGpump": "2026-09-13T04:00:12.414807+00:00",
-    "0x457f57c9f85A984FFd890c4490EF0f33a26258fA": "2026-09-13T04:36:56.826057+00:00"
+    "0x457f57c9f85A984FFd890c4490EF0f33a26258fA": "2026-09-13T04:36:56.826057+00:00",
+    "0xD9E82b01fbD8EB7A59D456fEf3B56D39d90caa47": "2026-09-13T04:51:59.385242+00:00"
   }
 }
