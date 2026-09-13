@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "YOINK",
-      "chain": "robinhood",
-      "address": "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5",
-      "source": "new",
-      "entry_price": 0.0001093,
-      "peak_price": 0.0001093,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T13:51:00.287416+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -181078,6 +181065,29 @@
       "exit_price": 0.000222,
       "exit_pct": 6.22,
       "exit_time": "2026-09-13T13:33:53.065607+00:00"
+    },
+    {
+      "symbol": "YOINK",
+      "chain": "robinhood",
+      "address": "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5",
+      "source": "new",
+      "entry_price": 0.0001093,
+      "peak_price": 0.0004671,
+      "trailing_active": true,
+      "entry_time": "2026-09-13T13:51:00.287416+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 327.36,
+      "peak_volume_m5": 243348.45,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0004671,
+      "exit_pct": 327.36,
+      "exit_time": "2026-09-13T14:00:26.175986+00:00"
     }
   ],
   "alerted": {
@@ -190256,6 +190266,7 @@
     "FnnpTLvQ1LwEEnqkfWgxaBSUw4dHvKway2Ts5mhjmTKp": "2026-09-13T13:06:15.105574+00:00",
     "0x46CFDC62cf23fd2eda894856B6c76B2D76CFC598": "2026-09-13T13:12:37.014082+00:00",
     "0x21d21e5d95C34405b36a308Ba58fbB0AcB6eFb50": "2026-09-13T13:13:22.451614+00:00",
-    "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump": "2026-09-13T13:33:53.065607+00:00"
+    "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump": "2026-09-13T13:33:53.065607+00:00",
+    "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5": "2026-09-13T14:00:26.175986+00:00"
   }
 }
