@@ -8,31 +8,18 @@
       "address": "0x6a2E3567643D733573B8AC8f87dd800156D6Dd2D",
       "source": "new",
       "entry_price": 0.0006827,
-      "peak_price": 0.0009103,
+      "peak_price": 0.001978,
       "trailing_active": true,
       "entry_time": "2026-09-13T22:01:07.661679+00:00",
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 33.34,
+      "current_pct": 189.73,
       "peak_volume_m5": 149394.0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "PVE",
-      "chain": "robinhood",
-      "address": "0xf3fb0722f678c6f431C873D0355cA12222B006C4",
-      "source": "new",
-      "entry_price": 0.0005915,
-      "peak_price": 0.0006762,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T22:01:11.713952+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 14.32,
-      "peak_volume_m5": 240496.69,
-      "milestones_hit": []
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -182557,6 +182544,25 @@
       "exit_price": 0.0001047,
       "exit_pct": -49.27,
       "exit_time": "2026-09-13T22:02:44.481543+00:00"
+    },
+    {
+      "symbol": "PVE",
+      "chain": "robinhood",
+      "address": "0xf3fb0722f678c6f431C873D0355cA12222B006C4",
+      "source": "new",
+      "entry_price": 0.0005915,
+      "peak_price": 0.0006762,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T22:01:11.713952+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.36,
+      "peak_volume_m5": 240496.69,
+      "milestones_hit": [],
+      "exit_price": 0.0004888,
+      "exit_pct": -17.36,
+      "exit_time": "2026-09-13T22:10:29.331488+00:00"
     }
   ],
   "alerted": {
@@ -191805,6 +191811,7 @@
     "0x3E6ca9c9555669540F4db613d1be9a4bB8Ddc607": "2026-09-13T21:42:29.663990+00:00",
     "0x6aa20548a0A0d7D5FC6276B3f072aE40ec4790c5": "2026-09-13T21:42:30.360915+00:00",
     "0x01Fe9116a3e8F2B68Fd4529944676773a6237d1f": "2026-09-13T21:46:02.825305+00:00",
-    "0x99BAa96f63c79fEba1fA6463eb67E7621C86bb09": "2026-09-13T22:02:44.481543+00:00"
+    "0x99BAa96f63c79fEba1fA6463eb67E7621C86bb09": "2026-09-13T22:02:44.481543+00:00",
+    "0xf3fb0722f678c6f431C873D0355cA12222B006C4": "2026-09-13T22:10:29.331488+00:00"
   }
 }
