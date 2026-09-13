@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\u5b8b\u6c5f",
-      "chain": "robinhood",
-      "address": "0x7ffCBA5424dF045e7a4334D80b011FE975A35E2D",
-      "source": "new",
-      "entry_price": 0.0003965,
-      "peak_price": 0.0003965,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T07:30:58.185771+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "BLAST",
       "chain": "robinhood",
       "address": "0x7AE225Bb62be5CC54B180645437aDAf257f5629A",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-13T07:30:59.536469+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 0,
+      "milestones_hit": []
     },
     {
       "symbol": "\u5976\u86d9",
@@ -32,23 +24,17 @@
       "address": "0xBC18D0B1d039107fC74ea97C333dA6323b87723D",
       "source": "new",
       "entry_price": 0.0001422,
-      "peak_price": 0.0001422,
-      "trailing_active": false,
+      "peak_price": 0.0002387,
+      "trailing_active": true,
       "entry_time": "2026-09-13T07:31:00.892607+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "UCAT",
-      "chain": "solana",
-      "address": "65rFgEsjPWPmyLRFU2CQRRtnCcjnYwr2KNrqtKsdKfAu",
-      "source": "new",
-      "entry_price": 0.000225,
-      "peak_price": 0.000225,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T07:31:02.509443+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 67.86,
+      "peak_volume_m5": 28218.06,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -180541,6 +180527,44 @@
       "exit_price": 0.001191,
       "exit_pct": 275.71,
       "exit_time": "2026-09-13T06:55:49.670864+00:00"
+    },
+    {
+      "symbol": "\u5b8b\u6c5f",
+      "chain": "robinhood",
+      "address": "0x7ffCBA5424dF045e7a4334D80b011FE975A35E2D",
+      "source": "new",
+      "entry_price": 0.0003965,
+      "peak_price": 0.0003965,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T07:30:58.185771+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.09,
+      "peak_volume_m5": 169649.18,
+      "milestones_hit": [],
+      "exit_price": 0.0002891,
+      "exit_pct": -27.09,
+      "exit_time": "2026-09-13T07:33:23.807909+00:00"
+    },
+    {
+      "symbol": "UCAT",
+      "chain": "solana",
+      "address": "65rFgEsjPWPmyLRFU2CQRRtnCcjnYwr2KNrqtKsdKfAu",
+      "source": "new",
+      "entry_price": 0.000225,
+      "peak_price": 0.000225,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T07:31:02.509443+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.09,
+      "peak_volume_m5": 34458.97,
+      "milestones_hit": [],
+      "exit_price": 0.0002023,
+      "exit_pct": -10.09,
+      "exit_time": "2026-09-13T07:33:26.378866+00:00"
     }
   ],
   "alerted": {
@@ -189691,6 +189715,8 @@
     "0x6292521dDa4240B585b9BFE5ee587f4f5D33E256": "2026-09-13T06:35:54.369834+00:00",
     "0x1cb40f12B9a2D9429D613C21AcE5AE8B662f7B0e": "2026-09-13T06:36:49.196406+00:00",
     "0x91AFF6094A8e2B9DE22ba6523A78B9b246E592e3": "2026-09-13T06:52:44.677984+00:00",
-    "0x724a163f0081fA1771590Dda9b55eDDe2c5B823a": "2026-09-13T06:55:49.670864+00:00"
+    "0x724a163f0081fA1771590Dda9b55eDDe2c5B823a": "2026-09-13T06:55:49.670864+00:00",
+    "0x7ffCBA5424dF045e7a4334D80b011FE975A35E2D": "2026-09-13T07:33:23.807909+00:00",
+    "65rFgEsjPWPmyLRFU2CQRRtnCcjnYwr2KNrqtKsdKfAu": "2026-09-13T07:33:26.378866+00:00"
   }
 }
