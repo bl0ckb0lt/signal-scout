@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RPILOT",
-      "chain": "robinhood",
-      "address": "0xe8157e602Ebc48F759aa00d4180Ab8f5543c730B",
-      "source": "new",
-      "entry_price": 1.047e-06,
-      "peak_price": 2.81e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-13T02:01:06.063734+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 168.39,
-      "peak_volume_m5": 158659.84,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "PUMPCHAN",
       "chain": "solana",
       "address": "BDS2EAqpJE5m24wcRMLeVMyy1V3zjLHQznFu8EFopump",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-13T02:11:09.907186+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.85,
+      "peak_volume_m5": 4752.48,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -180004,6 +179989,28 @@
       "exit_price": 0.0002245,
       "exit_pct": 21.48,
       "exit_time": "2026-09-13T01:53:51.823795+00:00"
+    },
+    {
+      "symbol": "RPILOT",
+      "chain": "robinhood",
+      "address": "0xe8157e602Ebc48F759aa00d4180Ab8f5543c730B",
+      "source": "new",
+      "entry_price": 1.047e-06,
+      "peak_price": 2.81e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-13T02:01:06.063734+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 139.26,
+      "peak_volume_m5": 178857.02,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 2.505e-06,
+      "exit_pct": 139.26,
+      "exit_time": "2026-09-13T02:12:20.436142+00:00"
     }
   ],
   "alerted": {
@@ -189128,6 +189135,7 @@
     "DDoDYLQnxo8ppZBiZM5X981aUFmdM2Vi8RP3dSm4pump": "2026-09-13T01:22:32.006066+00:00",
     "0x4D28dE5C5F4C6702B4d3022DcE0E1cD2ccDcd5B0": "2026-09-13T01:32:44.610235+00:00",
     "0x94b847f0435efd670e83e8fb661fdc2329957289": "2026-09-13T01:42:52.963903+00:00",
-    "GaBdgBaDCcBsPuWrc8HJ9eX1vLBvAMmrGtjGR3eNpump": "2026-09-13T01:53:51.823795+00:00"
+    "GaBdgBaDCcBsPuWrc8HJ9eX1vLBvAMmrGtjGR3eNpump": "2026-09-13T01:53:51.823795+00:00",
+    "0xe8157e602Ebc48F759aa00d4180Ab8f5543c730B": "2026-09-13T02:12:20.436142+00:00"
   }
 }
