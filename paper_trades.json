@@ -8,23 +8,18 @@
       "address": "0x6268808aa25b47f0aFFEee0E6139ab1CC9460d1D",
       "source": "new",
       "entry_price": 0.000449,
-      "peak_price": 0.000449,
-      "trailing_active": false,
+      "peak_price": 0.0009792,
+      "trailing_active": true,
       "entry_time": "2026-09-13T14:11:04.660316+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "CROSSRATE",
-      "chain": "robinhood",
-      "address": "0x4Ed2692F5e108724A919De5FCbf267f231D5e333",
-      "source": "new",
-      "entry_price": 0.0001497,
-      "peak_price": 0.0001497,
-      "trailing_active": false,
-      "entry_time": "2026-09-13T14:11:06.229569+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 118.08,
+      "peak_volume_m5": 84999.57,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -181113,6 +181108,25 @@
       "exit_price": 0.0004671,
       "exit_pct": 327.36,
       "exit_time": "2026-09-13T14:00:26.175986+00:00"
+    },
+    {
+      "symbol": "CROSSRATE",
+      "chain": "robinhood",
+      "address": "0x4Ed2692F5e108724A919De5FCbf267f231D5e333",
+      "source": "new",
+      "entry_price": 0.0001497,
+      "peak_price": 0.0001497,
+      "trailing_active": false,
+      "entry_time": "2026-09-13T14:11:06.229569+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.7,
+      "peak_volume_m5": 10977.45,
+      "milestones_hit": [],
+      "exit_price": 0.0001217,
+      "exit_pct": -18.7,
+      "exit_time": "2026-09-13T14:16:53.337222+00:00"
     }
   ],
   "alerted": {
@@ -190292,6 +190306,7 @@
     "0x46CFDC62cf23fd2eda894856B6c76B2D76CFC598": "2026-09-13T13:12:37.014082+00:00",
     "0x21d21e5d95C34405b36a308Ba58fbB0AcB6eFb50": "2026-09-13T13:13:22.451614+00:00",
     "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump": "2026-09-13T13:33:53.065607+00:00",
-    "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5": "2026-09-13T14:00:26.175986+00:00"
+    "0xF82baa01dA3f80C547F5826d47BcBb521A6848A5": "2026-09-13T14:00:26.175986+00:00",
+    "0x4Ed2692F5e108724A919De5FCbf267f231D5e333": "2026-09-13T14:16:53.337222+00:00"
   }
 }
