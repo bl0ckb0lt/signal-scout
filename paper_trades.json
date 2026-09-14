@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STANKS",
-      "chain": "solana",
-      "address": "7TRk8xVyE2gg6nf9osbct8g6uVsHdc1mYzzhwdPzo6da",
-      "source": "new",
-      "entry_price": 0.0002697,
-      "peak_price": 0.0002697,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T22:10:57.120248+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "BRAIN",
       "chain": "solana",
       "address": "9LuwgFQemAoV9rgVBBtwbRSxBmamcRRbysEK8yL2pump",
       "source": "new",
       "entry_price": 0.0006277,
-      "peak_price": 0.0006277,
-      "trailing_active": false,
+      "peak_price": 0.0007716,
+      "trailing_active": true,
       "entry_time": "2026-09-14T22:11:00.943726+00:00",
       "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.92,
+      "peak_volume_m5": 333471.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -185994,6 +185986,25 @@
       "exit_price": 0.0001756,
       "exit_pct": 31.34,
       "exit_time": "2026-09-14T22:04:49.716934+00:00"
+    },
+    {
+      "symbol": "STANKS",
+      "chain": "solana",
+      "address": "7TRk8xVyE2gg6nf9osbct8g6uVsHdc1mYzzhwdPzo6da",
+      "source": "new",
+      "entry_price": 0.0002697,
+      "peak_price": 0.0002697,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T22:10:57.120248+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.46,
+      "peak_volume_m5": 53708.31,
+      "milestones_hit": [],
+      "exit_price": 0.000228,
+      "exit_pct": -15.46,
+      "exit_time": "2026-09-14T22:12:46.241413+00:00"
     }
   ],
   "alerted": {
@@ -195416,6 +195427,7 @@
     "Fb8Wsxhb3y3mnkmcjoacMoueXrd1L4GpgzFnYjUUpump": "2026-09-14T21:52:42.491345+00:00",
     "0x38B29657b6d8eF9015489A0914F1279D5429bC1A": "2026-09-14T21:52:43.910204+00:00",
     "J1mVkQky6q4YzVUucCQXYWH9sZCZdG74UxccQPXupump": "2026-09-14T22:02:53.143603+00:00",
-    "GJDppY9yGeSbudgrP4BWxBBfsX5CPYJcte7aXvPcpump": "2026-09-14T22:04:49.716934+00:00"
+    "GJDppY9yGeSbudgrP4BWxBBfsX5CPYJcte7aXvPcpump": "2026-09-14T22:04:49.716934+00:00",
+    "7TRk8xVyE2gg6nf9osbct8g6uVsHdc1mYzzhwdPzo6da": "2026-09-14T22:12:46.241413+00:00"
   }
 }
