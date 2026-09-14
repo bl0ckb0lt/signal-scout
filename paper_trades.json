@@ -3,53 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WHEEL TYSON",
-      "chain": "solana",
-      "address": "6XV1bfWhSZfmeZgfRzJHSZ51df31BNVzNE8Xxr2Kpump",
-      "source": "new",
-      "entry_price": 0.0001697,
-      "peak_price": 0.0002945,
-      "trailing_active": true,
-      "entry_time": "2026-09-14T16:31:08.692140+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 73.54,
-      "peak_volume_m5": 110355.58,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "NEOPETS",
-      "chain": "robinhood",
-      "address": "0x3BD6B7bbf346735C9005Bb41888CBCBB878C4B92",
-      "source": "new",
-      "entry_price": 0.0003755,
-      "peak_price": 0.001058,
-      "trailing_active": true,
-      "entry_time": "2026-09-14T16:41:18.471036+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 181.76,
-      "peak_volume_m5": 97528.73,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "TIDE",
       "chain": "robinhood",
       "address": "0xB3353e2670bF8F15F1FDe18b8725952270a1d232",
       "source": "new",
       "entry_price": 0.0001932,
-      "peak_price": 0.0001932,
+      "peak_price": 0.0001944,
       "trailing_active": false,
       "entry_time": "2026-09-14T16:51:14.792397+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.62,
+      "peak_volume_m5": 6628.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -185077,6 +185044,50 @@
       "exit_price": 9.449e-05,
       "exit_pct": -23.12,
       "exit_time": "2026-09-14T16:44:48.968759+00:00"
+    },
+    {
+      "symbol": "WHEEL TYSON",
+      "chain": "solana",
+      "address": "6XV1bfWhSZfmeZgfRzJHSZ51df31BNVzNE8Xxr2Kpump",
+      "source": "new",
+      "entry_price": 0.0001697,
+      "peak_price": 0.0002945,
+      "trailing_active": true,
+      "entry_time": "2026-09-14T16:31:08.692140+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 39.3,
+      "peak_volume_m5": 110355.58,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002364,
+      "exit_pct": 39.3,
+      "exit_time": "2026-09-14T16:54:54.963727+00:00"
+    },
+    {
+      "symbol": "NEOPETS",
+      "chain": "robinhood",
+      "address": "0x3BD6B7bbf346735C9005Bb41888CBCBB878C4B92",
+      "source": "new",
+      "entry_price": 0.0003755,
+      "peak_price": 0.001374,
+      "trailing_active": true,
+      "entry_time": "2026-09-14T16:41:18.471036+00:00",
+      "score": 77,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 265.91,
+      "peak_volume_m5": 97528.73,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.001374,
+      "exit_pct": 265.91,
+      "exit_time": "2026-09-14T16:54:56.128803+00:00"
     }
   ],
   "alerted": {
@@ -194451,6 +194462,8 @@
     "5FjdF5v4Hs6y3EX8tNvrF9Rno1SKf3okugVrSrtnpump": "2026-09-14T16:26:50.030463+00:00",
     "0xCaB3E54E4a9441672A33B170A0f33b66A6B40ECC": "2026-09-14T16:34:00.782379+00:00",
     "0xb07E07cA19F96e769a032A3ae64982aDE4E87777": "2026-09-14T16:42:53.776032+00:00",
-    "0x01E416626624370FB53bC7d58c0BCF6847b750b5": "2026-09-14T16:44:48.968759+00:00"
+    "0x01E416626624370FB53bC7d58c0BCF6847b750b5": "2026-09-14T16:44:48.968759+00:00",
+    "6XV1bfWhSZfmeZgfRzJHSZ51df31BNVzNE8Xxr2Kpump": "2026-09-14T16:54:54.963727+00:00",
+    "0x3BD6B7bbf346735C9005Bb41888CBCBB878C4B92": "2026-09-14T16:54:56.128803+00:00"
   }
 }
