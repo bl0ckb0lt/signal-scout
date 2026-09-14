@@ -8,23 +8,15 @@
       "address": "0x7889c570e746489A235a68eF3CB885326944A213",
       "source": "new",
       "entry_price": 0.001077,
-      "peak_price": 0.001077,
+      "peak_price": 0.001111,
       "trailing_active": false,
       "entry_time": "2026-09-14T08:51:03.540488+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "TEEN",
-      "chain": "solana",
-      "address": "3qnQ5Vw3HUtWX7zTWA26iAqESsPCf36TWtPDywjL1U1C",
-      "source": "new",
-      "entry_price": 0.0001017,
-      "peak_price": 0.0001017,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T08:51:05.462680+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.16,
+      "peak_volume_m5": 91851.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -183867,6 +183859,25 @@
       "exit_price": 0.0001645,
       "exit_pct": -16.96,
       "exit_time": "2026-09-14T08:44:09.251804+00:00"
+    },
+    {
+      "symbol": "TEEN",
+      "chain": "solana",
+      "address": "3qnQ5Vw3HUtWX7zTWA26iAqESsPCf36TWtPDywjL1U1C",
+      "source": "new",
+      "entry_price": 0.0001017,
+      "peak_price": 0.0001017,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T08:51:05.462680+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.97,
+      "peak_volume_m5": 2872.49,
+      "milestones_hit": [],
+      "exit_price": 8.444e-05,
+      "exit_pct": -16.97,
+      "exit_time": "2026-09-14T08:52:10.476436+00:00"
     }
   ],
   "alerted": {
@@ -193180,6 +193191,7 @@
     "0x15ADe8464b70a96fFa33a9307ba3D1B9d33D2618": "2026-09-14T08:15:52.445244+00:00",
     "0x231c4fd7DAdF97274930598EC74EAde2ad484FA3": "2026-09-14T08:16:54.912640+00:00",
     "0x838b380a09b8ae3a2c08267366e16cace2472da8": "2026-09-14T08:17:49.975393+00:00",
-    "0x9dB8bA1BaDb78d0B99773D6A79f86dCdF3bc02bC": "2026-09-14T08:44:09.251804+00:00"
+    "0x9dB8bA1BaDb78d0B99773D6A79f86dCdF3bc02bC": "2026-09-14T08:44:09.251804+00:00",
+    "3qnQ5Vw3HUtWX7zTWA26iAqESsPCf36TWtPDywjL1U1C": "2026-09-14T08:52:10.476436+00:00"
   }
 }
