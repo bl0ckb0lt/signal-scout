@@ -3,28 +3,24 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GGEZ",
-      "chain": "robinhood",
-      "address": "0x9Bf8ebd5eB6705618f9d61E1E057b8F51dE307B0",
-      "source": "new",
-      "entry_price": 0.0002705,
-      "peak_price": 0.0002705,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T11:30:58.208319+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "RSTR",
       "chain": "robinhood",
       "address": "0xD20588F7A8635FEc1c86A582A584Ea3837f7F9B1",
       "source": "new",
       "entry_price": 0.0003027,
-      "peak_price": 0.0003027,
-      "trailing_active": false,
+      "peak_price": 0.0009095,
+      "trailing_active": true,
       "entry_time": "2026-09-14T11:31:01.407171+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 200.46,
+      "peak_volume_m5": 66793.42,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -184178,6 +184174,25 @@
       "exit_price": 0.001046,
       "exit_pct": -8.89,
       "exit_time": "2026-09-14T11:25:51.832443+00:00"
+    },
+    {
+      "symbol": "GGEZ",
+      "chain": "robinhood",
+      "address": "0x9Bf8ebd5eB6705618f9d61E1E057b8F51dE307B0",
+      "source": "new",
+      "entry_price": 0.0002705,
+      "peak_price": 0.0002705,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T11:30:58.208319+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.31,
+      "peak_volume_m5": 32962.44,
+      "milestones_hit": [],
+      "exit_price": 0.0002345,
+      "exit_pct": -13.31,
+      "exit_time": "2026-09-14T11:41:06.266157+00:00"
     }
   ],
   "alerted": {
@@ -193507,6 +193522,7 @@
     "0x3a48fdfbD2c099820A951AFfE7b44C7C627BdcC7": "2026-09-14T10:39:08.454039+00:00",
     "0x2042EB667C4Ab924cEd758DAfB0bEcf1a4AB5d71": "2026-09-14T11:13:31.616219+00:00",
     "GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5": "2026-09-14T11:14:26.533715+00:00",
-    "0xC388304B9cFC22Ff8ebFa4528f59B4F5C9952515": "2026-09-14T11:25:51.832443+00:00"
+    "0xC388304B9cFC22Ff8ebFa4528f59B4F5C9952515": "2026-09-14T11:25:51.832443+00:00",
+    "0x9Bf8ebd5eB6705618f9d61E1E057b8F51dE307B0": "2026-09-14T11:41:06.266157+00:00"
   }
 }
