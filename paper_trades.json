@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CATE",
-      "chain": "ethereum",
-      "address": "0xC6f107d867B288301De76FF3A770fD16b3B7938b",
-      "source": "new",
-      "entry_price": 8.118e-05,
-      "peak_price": 8.862e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T07:11:03.425263+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.16,
-      "peak_volume_m5": 8504.08,
-      "milestones_hit": []
-    },
-    {
       "symbol": "uncle",
       "chain": "solana",
       "address": "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump",
       "source": "new",
       "entry_price": 0.0001064,
-      "peak_price": 0.0001064,
-      "trailing_active": false,
+      "peak_price": 0.0001368,
+      "trailing_active": true,
       "entry_time": "2026-09-14T07:21:03.815943+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.57,
+      "peak_volume_m5": 10884.9,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -183633,6 +183621,25 @@
       "exit_price": 0.0004767,
       "exit_pct": -11.41,
       "exit_time": "2026-09-14T06:35:57.722278+00:00"
+    },
+    {
+      "symbol": "CATE",
+      "chain": "ethereum",
+      "address": "0xC6f107d867B288301De76FF3A770fD16b3B7938b",
+      "source": "new",
+      "entry_price": 8.118e-05,
+      "peak_price": 8.862e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T07:11:03.425263+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.03,
+      "peak_volume_m5": 9599.29,
+      "milestones_hit": [],
+      "exit_price": 6.898e-05,
+      "exit_pct": -15.03,
+      "exit_time": "2026-09-14T07:23:31.234763+00:00"
     }
   ],
   "alerted": {
@@ -192935,6 +192942,7 @@
     "0xCA63F97c9c287622ac54F220Bbe230d90c24f459": "2026-09-14T06:14:53.723472+00:00",
     "6zcxCyT1KPsnuXQWYdCyLs1ARrhzKpnwDPasKNGkqqQC": "2026-09-14T06:22:17.032347+00:00",
     "0x4b641DBdee1a92187ab9505670e4bD70D01448AB": "2026-09-14T06:23:59.440724+00:00",
-    "0x2BF8cE7d31F5856ACa4Bd8d4e3a99E336a0c1e18": "2026-09-14T06:35:57.722278+00:00"
+    "0x2BF8cE7d31F5856ACa4Bd8d4e3a99E336a0c1e18": "2026-09-14T06:35:57.722278+00:00",
+    "0xC6f107d867B288301De76FF3A770fD16b3B7938b": "2026-09-14T07:23:31.234763+00:00"
   }
 }
