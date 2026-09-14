@@ -8,23 +8,15 @@
       "address": "0x02e91400E9e26e97ff0F8D72d544427E7c1311FC",
       "source": "boost",
       "entry_price": 0.0008037,
-      "peak_price": 0.0008037,
+      "peak_price": 0.0008834,
       "trailing_active": false,
       "entry_time": "2026-09-14T08:01:04.076905+00:00",
       "score": 88,
-      "status": "open"
-    },
-    {
-      "symbol": "PENGU",
-      "chain": "robinhood",
-      "address": "0xa61B304EBEE5e9527A22e93Be6352EA67025328b",
-      "source": "new",
-      "entry_price": 0.001981,
-      "peak_price": 0.001981,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T08:01:05.559067+00:00",
-      "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.92,
+      "peak_volume_m5": 4400.64,
+      "milestones_hit": []
     },
     {
       "symbol": "POKECOIN",
@@ -32,11 +24,15 @@
       "address": "0x9B6b94141396c470f73406C9FA2E018D1E63703d",
       "source": "new",
       "entry_price": 9.006e-05,
-      "peak_price": 9.006e-05,
+      "peak_price": 9.675e-05,
       "trailing_active": false,
       "entry_time": "2026-09-14T08:01:06.962166+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.43,
+      "peak_volume_m5": 33026.52,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -183702,6 +183698,25 @@
       "exit_price": 0.0001198,
       "exit_pct": 0.84,
       "exit_time": "2026-09-14T07:39:00.305323+00:00"
+    },
+    {
+      "symbol": "PENGU",
+      "chain": "robinhood",
+      "address": "0xa61B304EBEE5e9527A22e93Be6352EA67025328b",
+      "source": "new",
+      "entry_price": 0.001981,
+      "peak_price": 0.001981,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T08:01:05.559067+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.98,
+      "peak_volume_m5": 119492.24,
+      "milestones_hit": [],
+      "exit_price": 0.001387,
+      "exit_pct": -29.98,
+      "exit_time": "2026-09-14T08:05:20.406254+00:00"
     }
   ],
   "alerted": {
@@ -193007,6 +193022,7 @@
     "0x2BF8cE7d31F5856ACa4Bd8d4e3a99E336a0c1e18": "2026-09-14T06:35:57.722278+00:00",
     "0xC6f107d867B288301De76FF3A770fD16b3B7938b": "2026-09-14T07:23:31.234763+00:00",
     "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump": "2026-09-14T07:38:02.253830+00:00",
-    "0x8B9DBDa94dB890C514684022132487dcA5ac4cF1": "2026-09-14T07:39:00.305323+00:00"
+    "0x8B9DBDa94dB890C514684022132487dcA5ac4cF1": "2026-09-14T07:39:00.305323+00:00",
+    "0xa61B304EBEE5e9527A22e93Be6352EA67025328b": "2026-09-14T08:05:20.406254+00:00"
   }
 }
