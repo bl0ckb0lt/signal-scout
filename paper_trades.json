@@ -3,53 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Butterflys",
-      "chain": "robinhood",
-      "address": "0x02e91400E9e26e97ff0F8D72d544427E7c1311FC",
-      "source": "boost",
-      "entry_price": 0.0001431,
-      "peak_price": 0.0002615,
-      "trailing_active": true,
-      "entry_time": "2026-09-14T04:31:06.581269+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 82.74,
-      "peak_volume_m5": 5241.69,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "HUMANITY",
-      "chain": "robinhood",
-      "address": "0x79f1c002cC7B287bC7dDd0f5b2dac300195E8e73",
-      "source": "boost",
-      "entry_price": 0.0001657,
-      "peak_price": 0.0001657,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T04:51:03.432094+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.72,
-      "peak_volume_m5": 123512.7,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Humanity",
       "chain": "solana",
       "address": "CeSFzoAqSMXMgodeLzrTMe3V5MdV5Nhinehedxohpump",
       "source": "new",
       "entry_price": 0.0001104,
-      "peak_price": 0.000126,
-      "trailing_active": false,
+      "peak_price": 0.0001347,
+      "trailing_active": true,
       "entry_time": "2026-09-14T04:51:05.027178+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 14.13,
-      "peak_volume_m5": 52009.67,
+      "current_pct": 22.01,
+      "peak_volume_m5": 60640.49,
       "milestones_hit": []
     }
   ],
@@ -183342,6 +183308,46 @@
       "exit_price": 3.033e-05,
       "exit_pct": -14.8,
       "exit_time": "2026-09-14T04:52:55.647148+00:00"
+    },
+    {
+      "symbol": "Butterflys",
+      "chain": "robinhood",
+      "address": "0x02e91400E9e26e97ff0F8D72d544427E7c1311FC",
+      "source": "boost",
+      "entry_price": 0.0001431,
+      "peak_price": 0.0002615,
+      "trailing_active": true,
+      "entry_time": "2026-09-14T04:31:06.581269+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 73.52,
+      "peak_volume_m5": 6713.3,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002483,
+      "exit_pct": 73.52,
+      "exit_time": "2026-09-14T04:54:31.178026+00:00"
+    },
+    {
+      "symbol": "HUMANITY",
+      "chain": "robinhood",
+      "address": "0x79f1c002cC7B287bC7dDd0f5b2dac300195E8e73",
+      "source": "boost",
+      "entry_price": 0.0001657,
+      "peak_price": 0.0001657,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T04:51:03.432094+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.01,
+      "peak_volume_m5": 143030.37,
+      "milestones_hit": [],
+      "exit_price": 0.0001226,
+      "exit_pct": -26.01,
+      "exit_time": "2026-09-14T04:54:31.868924+00:00"
     }
   ],
   "alerted": {
@@ -192628,6 +192634,8 @@
     "0xb0b30f346f0DDefc98d0094911513A7B7e142FA1": "2026-09-14T04:34:31.678442+00:00",
     "GogsSnkXwke5FEUxyV6FmR4eczFK1KJDVsaJNaNspump": "2026-09-14T04:37:08.603949+00:00",
     "0x8ABb7277B417507bd39561455E3bB7e39476FFfF": "2026-09-14T04:42:50.672427+00:00",
-    "0x3fb6Ab8e2B99570F9e5fAF783e465E315dF0d68B": "2026-09-14T04:52:55.647148+00:00"
+    "0x3fb6Ab8e2B99570F9e5fAF783e465E315dF0d68B": "2026-09-14T04:52:55.647148+00:00",
+    "0x02e91400E9e26e97ff0F8D72d544427E7c1311FC": "2026-09-14T04:54:31.178026+00:00",
+    "0x79f1c002cC7B287bC7dDd0f5b2dac300195E8e73": "2026-09-14T04:54:31.868924+00:00"
   }
 }
