@@ -8,23 +8,15 @@
       "address": "6XV1bfWhSZfmeZgfRzJHSZ51df31BNVzNE8Xxr2Kpump",
       "source": "new",
       "entry_price": 0.0001697,
-      "peak_price": 0.0001697,
-      "trailing_active": false,
+      "peak_price": 0.0002187,
+      "trailing_active": true,
       "entry_time": "2026-09-14T16:31:08.692140+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "ALLOY",
-      "chain": "ethereum",
-      "address": "0xCaB3E54E4a9441672A33B170A0f33b66A6B40ECC",
-      "source": "new",
-      "entry_price": 0.0007551,
-      "peak_price": 0.0007551,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T16:31:10.343475+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.87,
+      "peak_volume_m5": 110355.58,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -184995,6 +184987,25 @@
       "exit_price": 0.000142,
       "exit_pct": -13.1,
       "exit_time": "2026-09-14T16:26:50.030463+00:00"
+    },
+    {
+      "symbol": "ALLOY",
+      "chain": "ethereum",
+      "address": "0xCaB3E54E4a9441672A33B170A0f33b66A6B40ECC",
+      "source": "new",
+      "entry_price": 0.0007551,
+      "peak_price": 0.0007551,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T16:31:10.343475+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.7,
+      "peak_volume_m5": 3990.51,
+      "milestones_hit": [],
+      "exit_price": 0.0005686,
+      "exit_pct": -24.7,
+      "exit_time": "2026-09-14T16:34:00.782379+00:00"
     }
   ],
   "alerted": {
@@ -194366,6 +194377,7 @@
     "0x0c9E377625153dD383a2821246133843E50f3805": "2026-09-14T16:09:30.607885+00:00",
     "949GyLDTUZkbEGmoYz72HN5LodDB6UTmgpJ3N73CQ9Fg": "2026-09-14T16:12:58.154989+00:00",
     "FuyyEVXoQuPw9UoKprSnFgvoFv8JK8uETNdt9Nz5pump": "2026-09-14T16:24:09.782116+00:00",
-    "5FjdF5v4Hs6y3EX8tNvrF9Rno1SKf3okugVrSrtnpump": "2026-09-14T16:26:50.030463+00:00"
+    "5FjdF5v4Hs6y3EX8tNvrF9Rno1SKf3okugVrSrtnpump": "2026-09-14T16:26:50.030463+00:00",
+    "0xCaB3E54E4a9441672A33B170A0f33b66A6B40ECC": "2026-09-14T16:34:00.782379+00:00"
   }
 }
