@@ -8,11 +8,15 @@
       "address": "FuyyEVXoQuPw9UoKprSnFgvoFv8JK8uETNdt9Nz5pump",
       "source": "new",
       "entry_price": 0.0001347,
-      "peak_price": 0.0001347,
+      "peak_price": 0.0001416,
       "trailing_active": false,
       "entry_time": "2026-09-14T16:11:00.357356+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.12,
+      "peak_volume_m5": 22987.18,
+      "milestones_hit": []
     },
     {
       "symbol": "Zoe",
@@ -20,23 +24,15 @@
       "address": "5FjdF5v4Hs6y3EX8tNvrF9Rno1SKf3okugVrSrtnpump",
       "source": "new",
       "entry_price": 0.0001634,
-      "peak_price": 0.0001634,
+      "peak_price": 0.0001783,
       "trailing_active": false,
       "entry_time": "2026-09-14T16:11:02.174633+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "OK",
-      "chain": "solana",
-      "address": "949GyLDTUZkbEGmoYz72HN5LodDB6UTmgpJ3N73CQ9Fg",
-      "source": "new",
-      "entry_price": 0.0001312,
-      "peak_price": 0.0001312,
-      "trailing_active": false,
-      "entry_time": "2026-09-14T16:11:04.344264+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.12,
+      "peak_volume_m5": 20968.14,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -184950,6 +184946,25 @@
       "exit_price": 0.0002015,
       "exit_pct": 0.6,
       "exit_time": "2026-09-14T16:09:30.607885+00:00"
+    },
+    {
+      "symbol": "OK",
+      "chain": "solana",
+      "address": "949GyLDTUZkbEGmoYz72HN5LodDB6UTmgpJ3N73CQ9Fg",
+      "source": "new",
+      "entry_price": 0.0001312,
+      "peak_price": 0.0001312,
+      "trailing_active": false,
+      "entry_time": "2026-09-14T16:11:04.344264+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.2,
+      "peak_volume_m5": 31614.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001165,
+      "exit_pct": -11.2,
+      "exit_time": "2026-09-14T16:12:58.154989+00:00"
     }
   ],
   "alerted": {
@@ -194318,6 +194333,7 @@
     "0x83F4e2501A29a6F92ec18FbF235C8838Bd107777": "2026-09-14T15:32:35.364443+00:00",
     "0x4DeCfCCb79dcf790087f6aC9b1e07B8D673BcAB3": "2026-09-14T15:38:43.989821+00:00",
     "0x44a94201392ecB0365BA513F1A25B9595Fae633E": "2026-09-14T16:05:48.742942+00:00",
-    "0x0c9E377625153dD383a2821246133843E50f3805": "2026-09-14T16:09:30.607885+00:00"
+    "0x0c9E377625153dD383a2821246133843E50f3805": "2026-09-14T16:09:30.607885+00:00",
+    "949GyLDTUZkbEGmoYz72HN5LodDB6UTmgpJ3N73CQ9Fg": "2026-09-14T16:12:58.154989+00:00"
   }
 }
