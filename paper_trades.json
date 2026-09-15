@@ -3,58 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "INU",
-      "chain": "robinhood",
-      "address": "0x675EF32824c5343cf5077370a63E9e78cAA4D490",
-      "source": "new",
-      "entry_price": 0.001212,
-      "peak_price": 0.002275,
-      "trailing_active": true,
-      "entry_time": "2026-09-15T09:31:12.203064+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 87.71,
-      "peak_volume_m5": 112439.28,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "FLIES",
-      "chain": "bsc",
-      "address": "0xac327A8899BE971b6Cc36eB7CA0Cd7D5636db416",
-      "source": "new",
-      "entry_price": 0.0001499,
-      "peak_price": 0.0001499,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T09:50:54.364318+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "bruh",
-      "chain": "robinhood",
-      "address": "0x40094fA469a530c10d455f08D1f637822A043e29",
-      "source": "new",
-      "entry_price": 0.0001257,
-      "peak_price": 0.0001257,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T09:50:55.917138+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "OLTSEASON",
       "chain": "solana",
       "address": "gohvRSSZd7ALjLJCw6LzMwQaWYG2Y3o63k3tbyspump",
       "source": "new",
       "entry_price": 0.000247,
-      "peak_price": 0.000247,
+      "peak_price": 0.0002667,
       "trailing_active": false,
       "entry_time": "2026-09-15T09:50:57.882825+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.98,
+      "peak_volume_m5": 3180.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -187276,6 +187238,65 @@
       "exit_price": 0.0002115,
       "exit_pct": -9.11,
       "exit_time": "2026-09-15T09:07:53.926607+00:00"
+    },
+    {
+      "symbol": "INU",
+      "chain": "robinhood",
+      "address": "0x675EF32824c5343cf5077370a63E9e78cAA4D490",
+      "source": "new",
+      "entry_price": 0.001212,
+      "peak_price": 0.002275,
+      "trailing_active": true,
+      "entry_time": "2026-09-15T09:31:12.203064+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 57.59,
+      "peak_volume_m5": 112439.28,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.00191,
+      "exit_pct": 57.59,
+      "exit_time": "2026-09-15T09:51:51.307058+00:00"
+    },
+    {
+      "symbol": "FLIES",
+      "chain": "bsc",
+      "address": "0xac327A8899BE971b6Cc36eB7CA0Cd7D5636db416",
+      "source": "new",
+      "entry_price": 0.0001499,
+      "peak_price": 0.0001499,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T09:50:54.364318+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.61,
+      "peak_volume_m5": 19772.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001265,
+      "exit_pct": -15.61,
+      "exit_time": "2026-09-15T09:51:52.000465+00:00"
+    },
+    {
+      "symbol": "bruh",
+      "chain": "robinhood",
+      "address": "0x40094fA469a530c10d455f08D1f637822A043e29",
+      "source": "new",
+      "entry_price": 0.0001257,
+      "peak_price": 0.0001257,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T09:50:55.917138+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.29,
+      "peak_volume_m5": 114614.14,
+      "milestones_hit": [],
+      "exit_price": 0.000109,
+      "exit_pct": -13.29,
+      "exit_time": "2026-09-15T09:51:52.661798+00:00"
     }
   ],
   "alerted": {
@@ -196762,6 +196783,9 @@
     "0x9205F0a8e24D50Bbde63449EabBDf5674f4ae06C": "2026-09-15T08:43:36.545587+00:00",
     "0xdaE3D9910b0a8B832f0C1F4b59110fF1BDE534cD": "2026-09-15T08:57:50.728258+00:00",
     "0xDEd4A6CC3eD23fd44723715FE04b43d173f4FF03": "2026-09-15T08:59:52.464886+00:00",
-    "0x355A4f6414969d2ac85e33ba3CA6e0236434434f": "2026-09-15T09:07:53.926607+00:00"
+    "0x355A4f6414969d2ac85e33ba3CA6e0236434434f": "2026-09-15T09:07:53.926607+00:00",
+    "0x675EF32824c5343cf5077370a63E9e78cAA4D490": "2026-09-15T09:51:51.307058+00:00",
+    "0xac327A8899BE971b6Cc36eB7CA0Cd7D5636db416": "2026-09-15T09:51:52.000465+00:00",
+    "0x40094fA469a530c10d455f08D1f637822A043e29": "2026-09-15T09:51:52.661798+00:00"
   }
 }
