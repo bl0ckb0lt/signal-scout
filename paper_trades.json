@@ -8,30 +8,14 @@
       "address": "0x7458c44caB1B93eaC98d7Dd8baAE4357F939e6B1",
       "source": "new",
       "entry_price": 0.0001909,
-      "peak_price": 0.0002119,
-      "trailing_active": false,
+      "peak_price": 0.0002259,
+      "trailing_active": true,
       "entry_time": "2026-09-15T06:01:01.658759+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.0,
+      "current_pct": 18.33,
       "peak_volume_m5": 28134.59,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "STRAWDOG",
-      "chain": "solana",
-      "address": "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump",
-      "source": "boost",
-      "entry_price": 0.0002318,
-      "peak_price": 0.0002318,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T06:41:08.758778+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.45,
-      "peak_volume_m5": 19417.55,
       "milestones_hit": []
     }
   ],
@@ -187035,6 +187019,25 @@
       "exit_price": 5.266e-05,
       "exit_pct": -13.88,
       "exit_time": "2026-09-15T06:42:30.308603+00:00"
+    },
+    {
+      "symbol": "STRAWDOG",
+      "chain": "solana",
+      "address": "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump",
+      "source": "boost",
+      "entry_price": 0.0002318,
+      "peak_price": 0.0002318,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T06:41:08.758778+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.56,
+      "peak_volume_m5": 28100.69,
+      "milestones_hit": [],
+      "exit_price": 0.0002166,
+      "exit_pct": -6.56,
+      "exit_time": "2026-09-15T06:51:01.781825+00:00"
     }
   ],
   "alerted": {
@@ -196510,6 +196513,7 @@
     "0x73805a46c4c3551574214c8C51813Af2182C7777": "2026-09-15T06:32:57.984373+00:00",
     "0x2b90BB9683383B6A1440e116309Ba0187ef67777": "2026-09-15T06:34:56.208864+00:00",
     "0xa0a1E18e24ffd5AB5c6464E8F8E41079DfaF9284": "2026-09-15T06:42:29.487217+00:00",
-    "0x5C48a6CfB5189670f818568660a1Ca0c14C21e18": "2026-09-15T06:42:30.308603+00:00"
+    "0x5C48a6CfB5189670f818568660a1Ca0c14C21e18": "2026-09-15T06:42:30.308603+00:00",
+    "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump": "2026-09-15T06:51:01.781825+00:00"
   }
 }
