@@ -8,46 +8,14 @@
       "address": "0xc58872059Ab3408799B228feA19398FDaB0d4762",
       "source": "boost",
       "entry_price": 0.0001064,
-      "peak_price": 0.0001064,
+      "peak_price": 0.0001185,
       "trailing_active": false,
       "entry_time": "2026-09-15T04:51:02.819951+00:00",
       "score": 89,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.75,
+      "current_pct": 11.37,
       "peak_volume_m5": 97104.09,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "FANTA",
-      "chain": "robinhood",
-      "address": "0x2F58d4302253c863D38bba014F55Ac8B6d99Da86",
-      "source": "new",
-      "entry_price": 0.0001979,
-      "peak_price": 0.0001979,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T04:51:04.168203+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.98,
-      "peak_volume_m5": 6328.77,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "USDC",
-      "chain": "robinhood",
-      "address": "0x93bF8ba7f294b5d5de86c9e408EbE0A2f711c630",
-      "source": "new",
-      "entry_price": 0.0001457,
-      "peak_price": 0.0001457,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T04:51:05.546697+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.24,
-      "peak_volume_m5": 42310.3,
       "milestones_hit": []
     }
   ],
@@ -186772,6 +186740,44 @@
       "exit_price": 0.000166,
       "exit_pct": 74.48,
       "exit_time": "2026-09-15T04:52:18.247545+00:00"
+    },
+    {
+      "symbol": "FANTA",
+      "chain": "robinhood",
+      "address": "0x2F58d4302253c863D38bba014F55Ac8B6d99Da86",
+      "source": "new",
+      "entry_price": 0.0001979,
+      "peak_price": 0.0001979,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T04:51:04.168203+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -79.74,
+      "peak_volume_m5": 65896.73,
+      "milestones_hit": [],
+      "exit_price": 4.009e-05,
+      "exit_pct": -79.74,
+      "exit_time": "2026-09-15T04:57:46.223238+00:00"
+    },
+    {
+      "symbol": "USDC",
+      "chain": "robinhood",
+      "address": "0x93bF8ba7f294b5d5de86c9e408EbE0A2f711c630",
+      "source": "new",
+      "entry_price": 0.0001457,
+      "peak_price": 0.0001457,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T04:51:05.546697+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.57,
+      "peak_volume_m5": 42310.3,
+      "milestones_hit": [],
+      "exit_price": 0.0001099,
+      "exit_pct": -24.57,
+      "exit_time": "2026-09-15T04:57:47.072080+00:00"
     }
   ],
   "alerted": {
@@ -196233,6 +196239,8 @@
     "0x7D2c34F8BE61AE93Cce3D408007f73fb3A4E7CFB": "2026-09-15T03:12:44.184839+00:00",
     "0x9E2941176c9d2C0C0E3544B887737dF3E1f1eD6f": "2026-09-15T03:20:52.717050+00:00",
     "A9AHYeqb7nQk7LZUraw7rBCzYRjy2DRvE6NqWfFHKRdH": "2026-09-15T04:21:50.393832+00:00",
-    "0x053e33139B4913D32D595eb9418464817a32fa9c": "2026-09-15T04:52:18.247545+00:00"
+    "0x053e33139B4913D32D595eb9418464817a32fa9c": "2026-09-15T04:52:18.247545+00:00",
+    "0x2F58d4302253c863D38bba014F55Ac8B6d99Da86": "2026-09-15T04:57:46.223238+00:00",
+    "0x93bF8ba7f294b5d5de86c9e408EbE0A2f711c630": "2026-09-15T04:57:47.072080+00:00"
   }
 }
