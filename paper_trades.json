@@ -8,23 +8,15 @@
       "address": "0xD8185f579827Da482474B9eaA65579062474a78E",
       "source": "new",
       "entry_price": 0.0009839,
-      "peak_price": 0.0009839,
+      "peak_price": 0.00101,
       "trailing_active": false,
       "entry_time": "2026-09-15T00:01:05.604184+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "LLMOS",
-      "chain": "robinhood",
-      "address": "0xC9064e8dd6A8505b714c65CEE695E677fDA048bf",
-      "source": "new",
-      "entry_price": 0.0001209,
-      "peak_price": 0.0001209,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T00:01:06.922477+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.65,
+      "peak_volume_m5": 93399.56,
+      "milestones_hit": []
     },
     {
       "symbol": "MICROPINU",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-15T00:01:09.890811+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.31,
+      "peak_volume_m5": 1378.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -186277,6 +186273,25 @@
       "exit_price": 5.68,
       "exit_pct": -26.8,
       "exit_time": "2026-09-14T23:53:14.362074+00:00"
+    },
+    {
+      "symbol": "LLMOS",
+      "chain": "robinhood",
+      "address": "0xC9064e8dd6A8505b714c65CEE695E677fDA048bf",
+      "source": "new",
+      "entry_price": 0.0001209,
+      "peak_price": 0.0001209,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T00:01:06.922477+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.17,
+      "peak_volume_m5": 53705.61,
+      "milestones_hit": [],
+      "exit_price": 9.53e-05,
+      "exit_pct": -21.17,
+      "exit_time": "2026-09-15T00:02:35.331365+00:00"
     }
   ],
   "alerted": {
@@ -195713,6 +195728,7 @@
     "CkobbSiZC6oPt5LjtzX3t14AMUhPXjo6T8gnDDmupump": "2026-09-14T23:25:37.264570+00:00",
     "0xB2000000000000000000005A0c125DA6CF531D01": "2026-09-14T23:38:55.348299+00:00",
     "0x83888AE0Aafb66956868ebb13Ab10fCc0Dd94857": "2026-09-14T23:40:57.229768+00:00",
-    "0x4DDE75D857c729B7668e466667EB34A5CAF5a104": "2026-09-14T23:53:14.362074+00:00"
+    "0x4DDE75D857c729B7668e466667EB34A5CAF5a104": "2026-09-14T23:53:14.362074+00:00",
+    "0xC9064e8dd6A8505b714c65CEE695E677fDA048bf": "2026-09-15T00:02:35.331365+00:00"
   }
 }
