@@ -8,13 +8,13 @@
       "address": "0x7458c44caB1B93eaC98d7Dd8baAE4357F939e6B1",
       "source": "new",
       "entry_price": 0.0001909,
-      "peak_price": 0.0002098,
+      "peak_price": 0.0002119,
       "trailing_active": false,
       "entry_time": "2026-09-15T06:01:01.658759+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 9.9,
+      "current_pct": 11.0,
       "peak_volume_m5": 28134.59,
       "milestones_hit": []
     },
@@ -28,31 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-15T06:41:08.758778+00:00",
       "score": 75,
-      "status": "open"
-    },
-    {
-      "symbol": "HashFly",
-      "chain": "robinhood",
-      "address": "0xa0a1E18e24ffd5AB5c6464E8F8E41079DfaF9284",
-      "source": "new",
-      "entry_price": 0.0001907,
-      "peak_price": 0.0001907,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T06:41:12.212867+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "MEOWTA",
-      "chain": "robinhood",
-      "address": "0x5C48a6CfB5189670f818568660a1Ca0c14C21e18",
-      "source": "new",
-      "entry_price": 6.115e-05,
-      "peak_price": 6.115e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T06:41:15.191963+00:00",
-      "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.45,
+      "peak_volume_m5": 19417.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -187017,6 +186997,44 @@
       "exit_price": 0.0006449,
       "exit_pct": 160.46,
       "exit_time": "2026-09-15T06:34:56.208864+00:00"
+    },
+    {
+      "symbol": "HashFly",
+      "chain": "robinhood",
+      "address": "0xa0a1E18e24ffd5AB5c6464E8F8E41079DfaF9284",
+      "source": "new",
+      "entry_price": 0.0001907,
+      "peak_price": 0.0001907,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T06:41:12.212867+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.99,
+      "peak_volume_m5": 47529.0,
+      "milestones_hit": [],
+      "exit_price": 0.0001602,
+      "exit_pct": -15.99,
+      "exit_time": "2026-09-15T06:42:29.487217+00:00"
+    },
+    {
+      "symbol": "MEOWTA",
+      "chain": "robinhood",
+      "address": "0x5C48a6CfB5189670f818568660a1Ca0c14C21e18",
+      "source": "new",
+      "entry_price": 6.115e-05,
+      "peak_price": 6.115e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T06:41:15.191963+00:00",
+      "score": 62,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.88,
+      "peak_volume_m5": 14056.61,
+      "milestones_hit": [],
+      "exit_price": 5.266e-05,
+      "exit_pct": -13.88,
+      "exit_time": "2026-09-15T06:42:30.308603+00:00"
     }
   ],
   "alerted": {
@@ -196490,6 +196508,8 @@
     "0xA8f2B749449B89E4C5bbFf1cB3BB36803FdBceB1": "2026-09-15T06:32:54.645206+00:00",
     "0xd47D87DdB7Ee8A9f180bEf09cD11370f382FfD5D": "2026-09-15T06:32:57.194375+00:00",
     "0x73805a46c4c3551574214c8C51813Af2182C7777": "2026-09-15T06:32:57.984373+00:00",
-    "0x2b90BB9683383B6A1440e116309Ba0187ef67777": "2026-09-15T06:34:56.208864+00:00"
+    "0x2b90BB9683383B6A1440e116309Ba0187ef67777": "2026-09-15T06:34:56.208864+00:00",
+    "0xa0a1E18e24ffd5AB5c6464E8F8E41079DfaF9284": "2026-09-15T06:42:29.487217+00:00",
+    "0x5C48a6CfB5189670f818568660a1Ca0c14C21e18": "2026-09-15T06:42:30.308603+00:00"
   }
 }
