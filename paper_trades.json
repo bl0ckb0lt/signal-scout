@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AXMT",
-      "chain": "robinhood",
-      "address": "0xcf5d59BF1A37CF11c456E10C9C01006c5AA206f8",
-      "source": "new",
-      "entry_price": 6.879e-07,
-      "peak_price": 1.893e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-15T14:01:13.825552+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 175.19,
-      "peak_volume_m5": 167683.48,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "JACKCAT",
       "chain": "robinhood",
       "address": "0xc611475EfF0cFdDeE78E13941CF66211a666fb6c",
       "source": "new",
       "entry_price": 0.0007864,
-      "peak_price": 0.0007864,
-      "trailing_active": false,
+      "peak_price": 0.000971,
+      "trailing_active": true,
       "entry_time": "2026-09-15T14:10:52.679052+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.47,
+      "peak_volume_m5": 288154.98,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -187702,6 +187687,29 @@
       "exit_price": 0.0001262,
       "exit_pct": -13.32,
       "exit_time": "2026-09-15T14:05:15.180569+00:00"
+    },
+    {
+      "symbol": "AXMT",
+      "chain": "robinhood",
+      "address": "0xcf5d59BF1A37CF11c456E10C9C01006c5AA206f8",
+      "source": "new",
+      "entry_price": 6.879e-07,
+      "peak_price": 2.796e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-15T14:01:13.825552+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 306.45,
+      "peak_volume_m5": 190116.75,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 2.796e-06,
+      "exit_pct": 306.45,
+      "exit_time": "2026-09-15T14:15:04.334766+00:00"
     }
   ],
   "alerted": {
@@ -197211,6 +197219,7 @@
     "0xbbEFD9942F826fBA669996d09C7627EdE9a2A35E": "2026-09-15T12:55:30.163703+00:00",
     "0x87aBbBa1462CE31dD8C3e1294a61dD4344062c40": "2026-09-15T13:10:13.332756+00:00",
     "0x164959DdfA83b451d52861251667A4F5c9BcDeAB": "2026-09-15T13:29:33.255276+00:00",
-    "HzUqJLF7B8SUHGKNA2AePoMauuyYxax6RSv27J1zpump": "2026-09-15T14:05:15.180569+00:00"
+    "HzUqJLF7B8SUHGKNA2AePoMauuyYxax6RSv27J1zpump": "2026-09-15T14:05:15.180569+00:00",
+    "0xcf5d59BF1A37CF11c456E10C9C01006c5AA206f8": "2026-09-15T14:15:04.334766+00:00"
   }
 }
