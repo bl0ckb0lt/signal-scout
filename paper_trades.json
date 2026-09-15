@@ -3,53 +3,19 @@
   "paused": false,
   "open": [
     {
-      "symbol": "tremp",
-      "chain": "robinhood",
-      "address": "0x774d55f5033A3d8B59191f7c639d6577E2B39A99",
-      "source": "new",
-      "entry_price": 0.0001974,
-      "peak_price": 0.0003079,
-      "trailing_active": true,
-      "entry_time": "2026-09-15T16:31:10.904068+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 55.52,
-      "peak_volume_m5": 37370.18,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "TRAIN",
       "chain": "robinhood",
       "address": "0x5D8F890d0a44029f9542A9cF66b9C01210CAae9d",
       "source": "new",
       "entry_price": 0.0001771,
-      "peak_price": 0.0001771,
+      "peak_price": 0.0001949,
       "trailing_active": false,
       "entry_time": "2026-09-15T16:40:55.923920+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.56,
-      "peak_volume_m5": 25910.62,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Tiptoe",
-      "chain": "robinhood",
-      "address": "0xc55ff19bc2d7beaeba26406ed5a7b8c2869db857",
-      "source": "new",
-      "entry_price": 0.0001756,
-      "peak_price": 0.0001756,
-      "trailing_active": false,
-      "entry_time": "2026-09-15T16:41:00.317705+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.63,
-      "peak_volume_m5": 157397.96,
+      "current_pct": 10.05,
+      "peak_volume_m5": 27998.78,
       "milestones_hit": []
     }
   ],
@@ -188155,6 +188121,46 @@
       "exit_price": 7.367e-05,
       "exit_pct": -9.12,
       "exit_time": "2026-09-15T16:42:09.999992+00:00"
+    },
+    {
+      "symbol": "tremp",
+      "chain": "robinhood",
+      "address": "0x774d55f5033A3d8B59191f7c639d6577E2B39A99",
+      "source": "new",
+      "entry_price": 0.0001974,
+      "peak_price": 0.0003079,
+      "trailing_active": true,
+      "entry_time": "2026-09-15T16:31:10.904068+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 47.52,
+      "peak_volume_m5": 37370.18,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002912,
+      "exit_pct": 47.52,
+      "exit_time": "2026-09-15T16:44:07.355694+00:00"
+    },
+    {
+      "symbol": "Tiptoe",
+      "chain": "robinhood",
+      "address": "0xc55ff19bc2d7beaeba26406ed5a7b8c2869db857",
+      "source": "new",
+      "entry_price": 0.0001756,
+      "peak_price": 0.0001756,
+      "trailing_active": false,
+      "entry_time": "2026-09-15T16:41:00.317705+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.77,
+      "peak_volume_m5": 157397.96,
+      "milestones_hit": [],
+      "exit_price": 0.0001479,
+      "exit_pct": -15.77,
+      "exit_time": "2026-09-15T16:44:08.534180+00:00"
     }
   ],
   "alerted": {
@@ -197686,6 +197692,8 @@
     "536Y2Cf53iJ64N8JsQHnVPkCTPoXLhAHx5dCRX7XW7fM": "2026-09-15T16:21:02.547703+00:00",
     "9PKP7LzAFNr5f5jfnCk6Drj8i75CTuCLXe9S7tJRpump": "2026-09-15T16:32:53.234084+00:00",
     "64FpQ4ARsG84hfuAFYe5hDdsevgpx3UbnAkVk19Apump": "2026-09-15T16:33:54.592901+00:00",
-    "0xcDD583D63860b4464Df395ebcE49EA9269C381Cb": "2026-09-15T16:42:09.999992+00:00"
+    "0xcDD583D63860b4464Df395ebcE49EA9269C381Cb": "2026-09-15T16:42:09.999992+00:00",
+    "0x774d55f5033A3d8B59191f7c639d6577E2B39A99": "2026-09-15T16:44:07.355694+00:00",
+    "0xc55ff19bc2d7beaeba26406ed5a7b8c2869db857": "2026-09-15T16:44:08.534180+00:00"
   }
 }
