@@ -19,28 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Burpee",
-      "chain": "robinhood",
-      "address": "0x139438AA93Af5b760249938E08a5d4564513F3a4",
-      "source": "new",
-      "entry_price": 0.0001545,
-      "peak_price": 0.0001545,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T10:41:06.838664+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "musebook",
       "chain": "robinhood",
       "address": "0x505886a2a77DEe23b4Cef13903c846b8Ed6e2017",
       "source": "new",
       "entry_price": 0.0001856,
-      "peak_price": 0.0001856,
-      "trailing_active": false,
+      "peak_price": 0.000295,
+      "trailing_active": true,
       "entry_time": "2026-09-16T10:41:08.325174+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 58.94,
+      "peak_volume_m5": 62824.52,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -190017,6 +190011,25 @@
       "exit_price": 0.0001396,
       "exit_pct": -11.42,
       "exit_time": "2026-09-16T10:17:35.869355+00:00"
+    },
+    {
+      "symbol": "Burpee",
+      "chain": "robinhood",
+      "address": "0x139438AA93Af5b760249938E08a5d4564513F3a4",
+      "source": "new",
+      "entry_price": 0.0001545,
+      "peak_price": 0.0001545,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T10:41:06.838664+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.32,
+      "peak_volume_m5": 30043.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001401,
+      "exit_pct": -9.32,
+      "exit_time": "2026-09-16T10:43:21.097740+00:00"
     }
   ],
   "alerted": {
@@ -199645,6 +199658,7 @@
     "0x26e9FCF0cD573012084627c4e1e1947c5D028939": "2026-09-16T09:57:01.423665+00:00",
     "0x1b8A598A3cBc9EA2F256ff139DB839f9A70C97b9": "2026-09-16T10:13:43.529889+00:00",
     "0x9575Ab1A3b172fD115f747640a90618E17D2a742": "2026-09-16T10:17:34.909857+00:00",
-    "0x53EC98793ac24fbd30b07b405eC0De44F660Fa1a": "2026-09-16T10:17:35.869355+00:00"
+    "0x53EC98793ac24fbd30b07b405eC0De44F660Fa1a": "2026-09-16T10:17:35.869355+00:00",
+    "0x139438AA93Af5b760249938E08a5d4564513F3a4": "2026-09-16T10:43:21.097740+00:00"
   }
 }
