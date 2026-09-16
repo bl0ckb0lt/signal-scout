@@ -19,32 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "BOZO",
-      "chain": "arc",
-      "address": "0x25b2F893EC15808dBDc542938A4A091ece7AEC44",
-      "source": "new",
-      "entry_price": 0.0006085,
-      "peak_price": 0.0006143,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T05:20:59.662773+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.95,
-      "peak_volume_m5": 18130.42,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HOME",
       "chain": "robinhood",
       "address": "0x7E58C4d63e1ad3a4827e5Ca9A84484B0C1eb2Ac1",
       "source": "new",
       "entry_price": 0.0001317,
-      "peak_price": 0.0001317,
+      "peak_price": 0.0001492,
       "trailing_active": false,
       "entry_time": "2026-09-16T05:26:35.992488+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.29,
+      "peak_volume_m5": 12515.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -189514,6 +189502,25 @@
       "exit_price": 0.0002071,
       "exit_pct": -13.71,
       "exit_time": "2026-09-16T05:15:55.813445+00:00"
+    },
+    {
+      "symbol": "BOZO",
+      "chain": "arc",
+      "address": "0x25b2F893EC15808dBDc542938A4A091ece7AEC44",
+      "source": "new",
+      "entry_price": 0.0006085,
+      "peak_price": 0.0006143,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T05:20:59.662773+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.94,
+      "peak_volume_m5": 18130.42,
+      "milestones_hit": [],
+      "exit_price": 0.0005115,
+      "exit_pct": -15.94,
+      "exit_time": "2026-09-16T05:27:56.910360+00:00"
     }
   ],
   "alerted": {
@@ -199116,6 +199123,7 @@
     "0x9813F80dC929e1f2a86D727F2DFCF955FB4b7777": "2026-09-16T03:37:55.857819+00:00",
     "0x8d496E365bEcE09ce707615b165afFde508cafBB": "2026-09-16T03:41:46.555137+00:00",
     "0xdF0a719D4323AD084e29b523c23D0a88188c7777": "2026-09-16T04:50:49.035726+00:00",
-    "0xA39C8e2ceB2a0f9D6e9D059f5E470eDfDA691c15": "2026-09-16T05:15:55.813445+00:00"
+    "0xA39C8e2ceB2a0f9D6e9D059f5E470eDfDA691c15": "2026-09-16T05:15:55.813445+00:00",
+    "0x25b2F893EC15808dBDc542938A4A091ece7AEC44": "2026-09-16T05:27:56.910360+00:00"
   }
 }
