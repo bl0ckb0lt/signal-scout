@@ -19,24 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "FOMOPAD",
-      "chain": "robinhood",
-      "address": "0xE9eDDDC9F2edEDb3f58F1611f171054c976Bc35E",
-      "source": "new",
-      "entry_price": 0.0001779,
-      "peak_price": 0.0003408,
-      "trailing_active": true,
-      "entry_time": "2026-09-16T16:01:05.860105+00:00",
-      "score": 69,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 91.57,
-      "peak_volume_m5": 14229.82,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "DYNABLOCKS",
       "chain": "robinhood",
       "address": "0xde2758686DA9dE6036c54B99e1015F8307F99F8e",
@@ -48,27 +30,9 @@
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.75,
+      "current_pct": 0.5,
       "peak_volume_m5": 43220.12,
       "milestones_hit": []
-    },
-    {
-      "symbol": "GIN-CHAN",
-      "chain": "robinhood",
-      "address": "0x0109FCa9A3460f6cbB64BDd15a760a65a8b64C33",
-      "source": "new",
-      "entry_price": 3.923e-05,
-      "peak_price": 7.001e-05,
-      "trailing_active": true,
-      "entry_time": "2026-09-16T16:11:19.532961+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 78.46,
-      "peak_volume_m5": 35492.48,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "PARA",
@@ -80,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-16T16:21:10.511799+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.64,
+      "peak_volume_m5": 13737.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -190615,6 +190583,48 @@
       "exit_price": 0.0001229,
       "exit_pct": -20.4,
       "exit_time": "2026-09-16T16:02:41.520341+00:00"
+    },
+    {
+      "symbol": "FOMOPAD",
+      "chain": "robinhood",
+      "address": "0xE9eDDDC9F2edEDb3f58F1611f171054c976Bc35E",
+      "source": "new",
+      "entry_price": 0.0001779,
+      "peak_price": 0.0003408,
+      "trailing_active": true,
+      "entry_time": "2026-09-16T16:01:05.860105+00:00",
+      "score": 69,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 80.33,
+      "peak_volume_m5": 14229.82,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0003208,
+      "exit_pct": 80.33,
+      "exit_time": "2026-09-16T16:22:20.905190+00:00"
+    },
+    {
+      "symbol": "GIN-CHAN",
+      "chain": "robinhood",
+      "address": "0x0109FCa9A3460f6cbB64BDd15a760a65a8b64C33",
+      "source": "new",
+      "entry_price": 3.923e-05,
+      "peak_price": 7.001e-05,
+      "trailing_active": true,
+      "entry_time": "2026-09-16T16:11:19.532961+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 32.81,
+      "peak_volume_m5": 49099.99,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 5.21e-05,
+      "exit_pct": 32.81,
+      "exit_time": "2026-09-16T16:22:22.046641+00:00"
     }
   ],
   "alerted": {
@@ -200272,6 +200282,8 @@
     "0x2FFAB1d13717C9CD72C497FEbD08aa5b7B8648f0": "2026-09-16T15:21:55.071022+00:00",
     "0xB7C934FF18730c24e6113BB4bC5A68feEf16fD29": "2026-09-16T15:23:55.053996+00:00",
     "0xe8DFdC5AeE16D946E6D86eE48E6101C82eF04Fa1": "2026-09-16T15:54:29.724333+00:00",
-    "0xeBd2667E2BbebB7D70eE26D091e0603a139936d2": "2026-09-16T16:02:41.520341+00:00"
+    "0xeBd2667E2BbebB7D70eE26D091e0603a139936d2": "2026-09-16T16:02:41.520341+00:00",
+    "0xE9eDDDC9F2edEDb3f58F1611f171054c976Bc35E": "2026-09-16T16:22:20.905190+00:00",
+    "0x0109FCa9A3460f6cbB64BDd15a760a65a8b64C33": "2026-09-16T16:22:22.046641+00:00"
   }
 }
