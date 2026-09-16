@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "THEARC",
-      "chain": "arc",
-      "address": "0x2A501B9270bE80EC6391D47144dB111e858DF9AB",
-      "source": "new",
-      "entry_price": 0.0002572,
-      "peak_price": 0.0002572,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T21:21:01.679064+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "ENSO",
       "chain": "arc",
       "address": "0x1BF324ddC1F03f3088E217B856660b464da53B9b",
       "source": "new",
       "entry_price": 0.0002105,
-      "peak_price": 0.0002105,
+      "peak_price": 0.0002225,
       "trailing_active": false,
       "entry_time": "2026-09-16T21:21:03.292932+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.7,
+      "peak_volume_m5": 10649.06,
+      "milestones_hit": []
     },
     {
       "symbol": "ATH",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-16T21:21:04.663554+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.03,
+      "peak_volume_m5": 1100.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -191190,6 +191186,25 @@
       "exit_price": 0.0002007,
       "exit_pct": 13.52,
       "exit_time": "2026-09-16T20:26:09.898928+00:00"
+    },
+    {
+      "symbol": "THEARC",
+      "chain": "arc",
+      "address": "0x2A501B9270bE80EC6391D47144dB111e858DF9AB",
+      "source": "new",
+      "entry_price": 0.0002572,
+      "peak_price": 0.0002572,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T21:21:01.679064+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.01,
+      "peak_volume_m5": 25161.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001903,
+      "exit_pct": -26.01,
+      "exit_time": "2026-09-16T21:22:56.106579+00:00"
     }
   ],
   "alerted": {
@@ -200878,6 +200893,7 @@
     "0x1d82c9a5d519b0118957ada428b372fdb376512f": "2026-09-16T19:54:01.342725+00:00",
     "0x8b838fd5196Bbdf4dF482d56ac69f8b2E72F3a6F": "2026-09-16T19:54:58.458148+00:00",
     "0x4b919197c5570dBB14527049D42636DFCf659901": "2026-09-16T20:03:06.269864+00:00",
-    "0x5bc108eaC390fc0520b12dB61e04B9EE2045c615": "2026-09-16T20:09:50.129563+00:00"
+    "0x5bc108eaC390fc0520b12dB61e04B9EE2045c615": "2026-09-16T20:09:50.129563+00:00",
+    "0x2A501B9270bE80EC6391D47144dB111e858DF9AB": "2026-09-16T21:22:56.106579+00:00"
   }
 }
