@@ -19,44 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "\u6d3e\u4eba\u751f",
-      "chain": "bsc",
-      "address": "0xEaa7665193eFA6a3cD0D10867e0E9aE60e6d7777",
-      "source": "new",
-      "entry_price": 0.004086,
-      "peak_price": 0.004382,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T14:11:06.875433+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -14.86,
-      "peak_volume_m5": 15658.22,
-      "milestones_hit": []
-    },
-    {
       "symbol": "FOMOPAD",
       "chain": "robinhood",
       "address": "0x33e95e548646e674778195A00c995d6213ea977b",
       "source": "new",
       "entry_price": 0.0004063,
-      "peak_price": 0.0004063,
-      "trailing_active": false,
+      "peak_price": 0.0005723,
+      "trailing_active": true,
       "entry_time": "2026-09-16T15:01:04.677890+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "TERA",
-      "chain": "robinhood",
-      "address": "0x3c12E57fa7817a86CE7C254dB9Ea5Fe639e233F8",
-      "source": "boost",
-      "entry_price": 0.0001185,
-      "peak_price": 0.0001185,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T15:01:07.475044+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 40.86,
+      "peak_volume_m5": 385492.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -190455,6 +190431,44 @@
       "exit_price": 7.32e-05,
       "exit_pct": 5.28,
       "exit_time": "2026-09-16T14:58:56.494822+00:00"
+    },
+    {
+      "symbol": "\u6d3e\u4eba\u751f",
+      "chain": "bsc",
+      "address": "0xEaa7665193eFA6a3cD0D10867e0E9aE60e6d7777",
+      "source": "new",
+      "entry_price": 0.004086,
+      "peak_price": 0.004382,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T14:11:06.875433+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.57,
+      "peak_volume_m5": 15658.22,
+      "milestones_hit": [],
+      "exit_price": 0.00345,
+      "exit_pct": -15.57,
+      "exit_time": "2026-09-16T15:03:34.880410+00:00"
+    },
+    {
+      "symbol": "TERA",
+      "chain": "robinhood",
+      "address": "0x3c12E57fa7817a86CE7C254dB9Ea5Fe639e233F8",
+      "source": "boost",
+      "entry_price": 0.0001185,
+      "peak_price": 0.0001185,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T15:01:07.475044+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.31,
+      "peak_volume_m5": 6144.26,
+      "milestones_hit": [],
+      "exit_price": 0.0001051,
+      "exit_pct": -11.31,
+      "exit_time": "2026-09-16T15:03:36.403242+00:00"
     }
   ],
   "alerted": {
@@ -200105,6 +200119,8 @@
     "0x2dda5a1EF6E1bAbb1861ffa175965f2533d3CB67": "2026-09-16T14:03:00.821095+00:00",
     "0xFd0fc83F0aAD755b68c33F192e9A07ce5235511a": "2026-09-16T14:09:56.068023+00:00",
     "0x13Ce023b67dD1AEb7a12c519237cD1a121944D30": "2026-09-16T14:30:56.822085+00:00",
-    "0x3D908e941BFB8fC8f48936EDf51daab8aeb835DD": "2026-09-16T14:58:56.494822+00:00"
+    "0x3D908e941BFB8fC8f48936EDf51daab8aeb835DD": "2026-09-16T14:58:56.494822+00:00",
+    "0xEaa7665193eFA6a3cD0D10867e0E9aE60e6d7777": "2026-09-16T15:03:34.880410+00:00",
+    "0x3c12E57fa7817a86CE7C254dB9Ea5Fe639e233F8": "2026-09-16T15:03:36.403242+00:00"
   }
 }
