@@ -24,14 +24,14 @@
       "address": "0x2a7A8c69A7462A2737a3B41188Bc7a36d5555F2f",
       "source": "new",
       "entry_price": 0.003213,
-      "peak_price": 0.003337,
+      "peak_price": 0.003502,
       "trailing_active": false,
       "entry_time": "2026-09-16T18:01:11.532628+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.86,
-      "peak_volume_m5": 765.32,
+      "current_pct": 8.99,
+      "peak_volume_m5": 1171.73,
       "milestones_hit": []
     },
     {
@@ -40,11 +40,15 @@
       "address": "0x41358Defd0dedc90528b3F1835715E907B686e6a",
       "source": "new",
       "entry_price": 0.001824,
-      "peak_price": 0.001824,
+      "peak_price": 0.002014,
       "trailing_active": false,
       "entry_time": "2026-09-16T18:11:04.421256+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.42,
+      "peak_volume_m5": 289452.72,
+      "milestones_hit": []
     },
     {
       "symbol": "Mouse",
@@ -52,23 +56,15 @@
       "address": "0x97584be763B4EaD59902a0cdC18f5cF63008B728",
       "source": "new",
       "entry_price": 9.936e-05,
-      "peak_price": 9.936e-05,
+      "peak_price": 0.0001088,
       "trailing_active": false,
       "entry_time": "2026-09-16T18:11:05.899298+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "Arcanine",
-      "chain": "arc",
-      "address": "0xA89694be8e6DFc95aF111F66Aeab7a1bd42372f6",
-      "source": "new",
-      "entry_price": 8.352e-05,
-      "peak_price": 8.352e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-16T18:11:10.136036+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.5,
+      "peak_volume_m5": 11603.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -190875,6 +190871,25 @@
       "exit_price": 0.0002661,
       "exit_pct": 33.65,
       "exit_time": "2026-09-16T18:05:16.053545+00:00"
+    },
+    {
+      "symbol": "Arcanine",
+      "chain": "arc",
+      "address": "0xA89694be8e6DFc95aF111F66Aeab7a1bd42372f6",
+      "source": "new",
+      "entry_price": 8.352e-05,
+      "peak_price": 8.352e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-16T18:11:10.136036+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.49,
+      "peak_volume_m5": 27032.73,
+      "milestones_hit": [],
+      "exit_price": 7.476e-05,
+      "exit_pct": -10.49,
+      "exit_time": "2026-09-16T18:12:56.725752+00:00"
     }
   ],
   "alerted": {
@@ -200546,6 +200561,7 @@
     "0x055cEe57084aaDAf2a1A086dB3ecFE8Dc605Faea": "2026-09-16T17:45:09.599133+00:00",
     "0xE10195999A422314155b1e158281DBd4F27adc46": "2026-09-16T17:52:45.409655+00:00",
     "0x486cD876EFC94F62647179343f19F94D66cEC84a": "2026-09-16T18:04:27.003945+00:00",
-    "0x703B270bFe69A773db5e1BBa7BC01477b713152A": "2026-09-16T18:05:16.053545+00:00"
+    "0x703B270bFe69A773db5e1BBa7BC01477b713152A": "2026-09-16T18:05:16.053545+00:00",
+    "0xA89694be8e6DFc95aF111F66Aeab7a1bd42372f6": "2026-09-16T18:12:56.725752+00:00"
   }
 }
