@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AZIA",
-      "chain": "arc",
-      "address": "0x4b919197c5570dBB14527049D42636DFCf659901",
-      "source": "new",
-      "entry_price": 0.0003889,
-      "peak_price": 0.0005706,
-      "trailing_active": true,
-      "entry_time": "2026-09-16T19:51:10.515921+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 46.72,
-      "peak_volume_m5": 12037.74,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HPAY",
       "chain": "robinhood",
       "address": "0x5bc108eaC390fc0520b12dB61e04B9EE2045c615",
       "source": "new",
       "entry_price": 7.239e-07,
-      "peak_price": 7.239e-07,
-      "trailing_active": false,
+      "peak_price": 9.833e-07,
+      "trailing_active": true,
       "entry_time": "2026-09-16T20:01:12.110124+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.83,
+      "peak_volume_m5": 36190.14,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -191125,6 +191113,25 @@
       "exit_price": 0.0001947,
       "exit_pct": -9.06,
       "exit_time": "2026-09-16T19:54:58.458148+00:00"
+    },
+    {
+      "symbol": "AZIA",
+      "chain": "arc",
+      "address": "0x4b919197c5570dBB14527049D42636DFCf659901",
+      "source": "new",
+      "entry_price": 0.0003889,
+      "peak_price": 0.0005706,
+      "trailing_active": true,
+      "entry_time": "2026-09-16T19:51:10.515921+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 8.02,
+      "peak_volume_m5": 21732.29,
+      "milestones_hit": [],
+      "exit_price": 0.0004201,
+      "exit_pct": 8.02,
+      "exit_time": "2026-09-16T20:03:06.269864+00:00"
     }
   ],
   "alerted": {
@@ -200811,6 +200818,7 @@
     "0x76912652a3ba152f506157f2d1072804ccf7dcd7": "2026-09-16T19:43:54.644721+00:00",
     "0x7E5C7Cab4D3688BB6FAFB059e4EdB9Bad21D23fD": "2026-09-16T19:44:49.307840+00:00",
     "0x1d82c9a5d519b0118957ada428b372fdb376512f": "2026-09-16T19:54:01.342725+00:00",
-    "0x8b838fd5196Bbdf4dF482d56ac69f8b2E72F3a6F": "2026-09-16T19:54:58.458148+00:00"
+    "0x8b838fd5196Bbdf4dF482d56ac69f8b2E72F3a6F": "2026-09-16T19:54:58.458148+00:00",
+    "0x4b919197c5570dBB14527049D42636DFCf659901": "2026-09-16T20:03:06.269864+00:00"
   }
 }
