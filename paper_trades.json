@@ -8,23 +8,15 @@
       "address": "0xFDAB9ea1D137Fa040dE4BBA0BCdC830aFA5d5CE4",
       "source": "new",
       "entry_price": 0.0002043,
-      "peak_price": 0.0002043,
-      "trailing_active": false,
+      "peak_price": 0.0002632,
+      "trailing_active": true,
       "entry_time": "2026-09-17T02:01:03.114378+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "BNB \u3164\u3164",
-      "chain": "bsc",
-      "address": "0x19d9f856265841312aeC20213B2a1848b3577777",
-      "source": "new",
-      "entry_price": 9.851e-05,
-      "peak_price": 9.851e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T02:01:04.739023+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.83,
+      "peak_volume_m5": 33914.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -191622,6 +191614,25 @@
       "exit_price": 0.0001334,
       "exit_pct": -18.86,
       "exit_time": "2026-09-17T01:57:22.124728+00:00"
+    },
+    {
+      "symbol": "BNB \u3164\u3164",
+      "chain": "bsc",
+      "address": "0x19d9f856265841312aeC20213B2a1848b3577777",
+      "source": "new",
+      "entry_price": 9.851e-05,
+      "peak_price": 9.851e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T02:01:04.739023+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.95,
+      "peak_volume_m5": 25814.08,
+      "milestones_hit": [],
+      "exit_price": 8.969e-05,
+      "exit_pct": -8.95,
+      "exit_time": "2026-09-17T02:01:55.710715+00:00"
     }
   ],
   "alerted": {
@@ -201333,6 +201344,7 @@
     "0xF3Ee8c4544f98967Cb815386691d257195D7c3Fe": "2026-09-17T00:49:22.032697+00:00",
     "0x6dd29c615a49c00b8cc0c6970a65bbc15c2704a2": "2026-09-17T01:02:03.135135+00:00",
     "0xC23317490b24d6E53c0137eD5D0d2aE565674bCB": "2026-09-17T01:12:01.390442+00:00",
-    "0xCBfb497D2333357C5De9037C0349BC78F43ca110": "2026-09-17T01:57:22.124728+00:00"
+    "0xCBfb497D2333357C5De9037C0349BC78F43ca110": "2026-09-17T01:57:22.124728+00:00",
+    "0x19d9f856265841312aeC20213B2a1848b3577777": "2026-09-17T02:01:55.710715+00:00"
   }
 }
