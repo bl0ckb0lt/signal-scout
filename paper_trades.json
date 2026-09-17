@@ -8,23 +8,15 @@
       "address": "0xD43A3E9ccb5d2aDdd099dD312749C010e5dd7b15",
       "source": "new",
       "entry_price": 6.559e-05,
-      "peak_price": 6.559e-05,
-      "trailing_active": false,
+      "peak_price": 7.762e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-17T17:11:14.168759+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "INFERENCE",
-      "chain": "base",
-      "address": "0x4ac63f4d49b14f66cf43af01af96985C12D37c10",
-      "source": "new",
-      "entry_price": 8.106e-05,
-      "peak_price": 8.106e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T17:11:16.076727+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.34,
+      "peak_volume_m5": 28551.58,
+      "milestones_hit": []
     },
     {
       "symbol": "THESIS",
@@ -32,11 +24,15 @@
       "address": "0x26cfba5fd302b6028ad0431df0aaf211315f7f40",
       "source": "new",
       "entry_price": 0.0001128,
-      "peak_price": 0.0001128,
+      "peak_price": 0.0001233,
       "trailing_active": false,
       "entry_time": "2026-09-17T17:11:17.544135+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.31,
+      "peak_volume_m5": 70773.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -192858,6 +192854,25 @@
       "exit_price": 0.001133,
       "exit_pct": 21.85,
       "exit_time": "2026-09-17T17:02:52.635873+00:00"
+    },
+    {
+      "symbol": "INFERENCE",
+      "chain": "base",
+      "address": "0x4ac63f4d49b14f66cf43af01af96985C12D37c10",
+      "source": "new",
+      "entry_price": 8.106e-05,
+      "peak_price": 8.106e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T17:11:16.076727+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.64,
+      "peak_volume_m5": 11472.86,
+      "milestones_hit": [],
+      "exit_price": 6.433e-05,
+      "exit_pct": -20.64,
+      "exit_time": "2026-09-17T17:12:39.179648+00:00"
     }
   ],
   "alerted": {
@@ -202631,6 +202646,7 @@
     "0x59498BD5335677BC6F16f95324baF47E3188E3fC": "2026-09-17T16:23:47.243863+00:00",
     "0x2f608AAdA2167EF2A142CeE9192D655e4A7C88b5": "2026-09-17T16:34:56.455396+00:00",
     "0xcFE55DC432292074166227F6aef152259f679AB1": "2026-09-17T16:44:09.643164+00:00",
-    "0xfaCcEC59Ffd59A36bA477bA898B12fCdBd70638E": "2026-09-17T17:02:52.635873+00:00"
+    "0xfaCcEC59Ffd59A36bA477bA898B12fCdBd70638E": "2026-09-17T17:02:52.635873+00:00",
+    "0x4ac63f4d49b14f66cf43af01af96985C12D37c10": "2026-09-17T17:12:39.179648+00:00"
   }
 }
