@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ARCANINE",
-      "chain": "arc",
-      "address": "0xff1fae0989CA62cE6f2aB6A4eAfE3228Fa6FE345",
-      "source": "boost",
-      "entry_price": 9.424e-05,
-      "peak_price": 9.424e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T18:30:56.761061+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "ACT",
       "chain": "robinhood",
       "address": "0x5163a30998247ABFa295926DCef7d194F68Dc11B",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-17T18:30:58.158034+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.05,
+      "peak_volume_m5": 5396.55,
+      "milestones_hit": []
     },
     {
       "symbol": "GSTOCK",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-17T18:31:01.282290+00:00",
       "score": 61,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.38,
+      "peak_volume_m5": 75078.71,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -193128,6 +193124,25 @@
       "exit_price": 5.69e-05,
       "exit_pct": -46.97,
       "exit_time": "2026-09-17T18:23:43.559233+00:00"
+    },
+    {
+      "symbol": "ARCANINE",
+      "chain": "arc",
+      "address": "0xff1fae0989CA62cE6f2aB6A4eAfE3228Fa6FE345",
+      "source": "boost",
+      "entry_price": 9.424e-05,
+      "peak_price": 9.424e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T18:30:56.761061+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.9,
+      "peak_volume_m5": 23435.14,
+      "milestones_hit": [],
+      "exit_price": 7.737e-05,
+      "exit_pct": -17.9,
+      "exit_time": "2026-09-17T18:33:54.500837+00:00"
     }
   ],
   "alerted": {
@@ -202915,6 +202930,7 @@
     "0x0026111925bee5e698555E5c77020c676E09f852": "2026-09-17T17:55:11.170031+00:00",
     "0x1ebcd9462501C9348588371b6b65dA5988615B12": "2026-09-17T18:22:59.469074+00:00",
     "0xC56E4F74e6d5537C57d35367a72B755ee388F900": "2026-09-17T18:23:00.593541+00:00",
-    "0xcc374875f762ed9d2057ab7aec7c4d0c2f83bcd5": "2026-09-17T18:23:43.559233+00:00"
+    "0xcc374875f762ed9d2057ab7aec7c4d0c2f83bcd5": "2026-09-17T18:23:43.559233+00:00",
+    "0xff1fae0989CA62cE6f2aB6A4eAfE3228Fa6FE345": "2026-09-17T18:33:54.500837+00:00"
   }
 }
