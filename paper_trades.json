@@ -3,48 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SHR",
-      "chain": "robinhood",
-      "address": "0xe0F9EfE76A0D0fb4E63c25A7283F220Fc90E2364",
-      "source": "new",
-      "entry_price": 0.0001572,
-      "peak_price": 0.0001895,
-      "trailing_active": true,
-      "entry_time": "2026-09-17T17:49:25.967747+00:00",
-      "score": 69,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 20.55,
-      "peak_volume_m5": 91451.06,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "CHIP",
-      "chain": "robinhood",
-      "address": "0x7e59dB43eAe158DcfB0eb01c800B06BB63493A02",
-      "source": "new",
-      "entry_price": 0.0001077,
-      "peak_price": 0.0001077,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T17:49:27.366305+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.51,
-      "peak_volume_m5": 48204.26,
-      "milestones_hit": []
-    },
-    {
       "symbol": "STRM",
       "chain": "robinhood",
       "address": "0x0026111925bee5e698555E5c77020c676E09f852",
       "source": "new",
       "entry_price": 0.0002894,
-      "peak_price": 0.0002894,
+      "peak_price": 0.0002939,
       "trailing_active": false,
       "entry_time": "2026-09-17T17:51:13.618162+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.55,
+      "peak_volume_m5": 304960.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -193022,6 +192994,44 @@
       "exit_price": 6.603e-05,
       "exit_pct": -20.34,
       "exit_time": "2026-09-17T17:43:21.389595+00:00"
+    },
+    {
+      "symbol": "SHR",
+      "chain": "robinhood",
+      "address": "0xe0F9EfE76A0D0fb4E63c25A7283F220Fc90E2364",
+      "source": "new",
+      "entry_price": 0.0001572,
+      "peak_price": 0.0001895,
+      "trailing_active": true,
+      "entry_time": "2026-09-17T17:49:25.967747+00:00",
+      "score": 69,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -5.22,
+      "peak_volume_m5": 91451.06,
+      "milestones_hit": [],
+      "exit_price": 0.000149,
+      "exit_pct": -5.22,
+      "exit_time": "2026-09-17T17:52:37.026635+00:00"
+    },
+    {
+      "symbol": "CHIP",
+      "chain": "robinhood",
+      "address": "0x7e59dB43eAe158DcfB0eb01c800B06BB63493A02",
+      "source": "new",
+      "entry_price": 0.0001077,
+      "peak_price": 0.0001077,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T17:49:27.366305+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.32,
+      "peak_volume_m5": 48204.26,
+      "milestones_hit": [],
+      "exit_price": 7.397e-05,
+      "exit_pct": -31.32,
+      "exit_time": "2026-09-17T17:52:37.909045+00:00"
     }
   ],
   "alerted": {
@@ -202803,6 +202813,8 @@
     "0x07235Fd8C8746348447535E813CA496321E27425": "2026-09-17T17:32:27.195613+00:00",
     "0x70da209778a8446E8D5fD60A43Ac215e9dCc7756": "2026-09-17T17:42:22.322786+00:00",
     "0xacf5e7e8dbaff93cc0d41913036cf6903c2100d8": "2026-09-17T17:43:20.658266+00:00",
-    "0x8e3B8109913ff94370Cd591554e3253834851e18": "2026-09-17T17:43:21.389595+00:00"
+    "0x8e3B8109913ff94370Cd591554e3253834851e18": "2026-09-17T17:43:21.389595+00:00",
+    "0xe0F9EfE76A0D0fb4E63c25A7283F220Fc90E2364": "2026-09-17T17:52:37.026635+00:00",
+    "0x7e59dB43eAe158DcfB0eb01c800B06BB63493A02": "2026-09-17T17:52:37.909045+00:00"
   }
 }
