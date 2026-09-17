@@ -1,20 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "AGRIPPA",
-      "chain": "robinhood",
-      "address": "0xE99442bA8a3686281c41D1024ac4d0af18E5Fca9",
-      "source": "new",
-      "entry_price": 4.414e-05,
-      "peak_price": 4.414e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T07:31:03.559292+00:00",
-      "score": 63,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -191957,6 +191944,29 @@
       "exit_price": 0.0001305,
       "exit_pct": -12.83,
       "exit_time": "2026-09-17T07:04:24.712437+00:00"
+    },
+    {
+      "symbol": "AGRIPPA",
+      "chain": "robinhood",
+      "address": "0xE99442bA8a3686281c41D1024ac4d0af18E5Fca9",
+      "source": "new",
+      "entry_price": 4.414e-05,
+      "peak_price": 0.02432,
+      "trailing_active": true,
+      "entry_time": "2026-09-17T07:31:03.559292+00:00",
+      "score": 63,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 54997.42,
+      "peak_volume_m5": 0,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.02432,
+      "exit_pct": 54997.42,
+      "exit_time": "2026-09-17T07:31:56.153674+00:00"
     }
   ],
   "alerted": {
@@ -201686,6 +201696,7 @@
     "0x648A5382bdcf286e7Ff5122d01A983db314e620a": "2026-09-17T06:12:48.019565+00:00",
     "0xaAF794A0C221153D71804372F446B79BD02f5eB5": "2026-09-17T06:23:59.541347+00:00",
     "0xC43f61cD9E694990436564Fc3648E48F89AbacF0": "2026-09-17T06:54:53.610159+00:00",
-    "0xd0985fBc4Fda092591F8c71dBB754FFB5F447249": "2026-09-17T07:04:24.712437+00:00"
+    "0xd0985fBc4Fda092591F8c71dBB754FFB5F447249": "2026-09-17T07:04:24.712437+00:00",
+    "0xE99442bA8a3686281c41D1024ac4d0af18E5Fca9": "2026-09-17T07:31:56.153674+00:00"
   }
 }
