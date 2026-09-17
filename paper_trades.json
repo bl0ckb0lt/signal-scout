@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BONK",
-      "chain": "robinhood",
-      "address": "0xa54C5878fEAEfD6105e5c7854E54aBD30742A904",
-      "source": "new",
-      "entry_price": 0.001401,
-      "peak_price": 0.001401,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T22:41:09.151342+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
       "symbol": "USDC",
       "chain": "robinhood",
       "address": "0xdE5617cC68Acc56D070CEa502a8d1c11097B9604",
       "source": "new",
       "entry_price": 0.0002997,
-      "peak_price": 0.0002997,
+      "peak_price": 0.000327,
       "trailing_active": false,
       "entry_time": "2026-09-17T22:41:12.146524+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.11,
+      "peak_volume_m5": 20377.98,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -193598,6 +193590,25 @@
       "exit_price": 6.742e-05,
       "exit_pct": -13.24,
       "exit_time": "2026-09-17T22:38:50.986691+00:00"
+    },
+    {
+      "symbol": "BONK",
+      "chain": "robinhood",
+      "address": "0xa54C5878fEAEfD6105e5c7854E54aBD30742A904",
+      "source": "new",
+      "entry_price": 0.001401,
+      "peak_price": 0.001401,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T22:41:09.151342+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.85,
+      "peak_volume_m5": 74923.14,
+      "milestones_hit": [],
+      "exit_price": 0.001179,
+      "exit_pct": -15.85,
+      "exit_time": "2026-09-17T22:45:59.122540+00:00"
     }
   ],
   "alerted": {
@@ -203410,6 +203421,7 @@
     "0x3d9a6618f3a9A8FE9302A01114E16fFA7F9d14A2": "2026-09-17T21:28:05.790025+00:00",
     "0x5005c70fE821cA341C6aAa6cA1E18B8D50d46500": "2026-09-17T21:43:35.355905+00:00",
     "0x6987e526572428c2F6877C0EeD3298d0180896E7": "2026-09-17T22:31:42.900097+00:00",
-    "0xC1fC7210Cb7E38d255fE4F2fddc9043c9aB6dCE4": "2026-09-17T22:38:50.986691+00:00"
+    "0xC1fC7210Cb7E38d255fE4F2fddc9043c9aB6dCE4": "2026-09-17T22:38:50.986691+00:00",
+    "0xa54C5878fEAEfD6105e5c7854E54aBD30742A904": "2026-09-17T22:45:59.122540+00:00"
   }
 }
