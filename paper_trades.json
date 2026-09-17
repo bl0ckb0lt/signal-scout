@@ -8,31 +8,17 @@
       "address": "0xD43A3E9ccb5d2aDdd099dD312749C010e5dd7b15",
       "source": "new",
       "entry_price": 6.559e-05,
-      "peak_price": 8.92e-05,
+      "peak_price": 0.0001189,
       "trailing_active": true,
       "entry_time": "2026-09-17T17:11:14.168759+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 36.0,
+      "current_pct": 81.28,
       "peak_volume_m5": 28551.58,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "APM",
-      "chain": "bsc",
-      "address": "0xe9A37d0D878Db2E1bc4830F558bDe880c0597777",
-      "source": "new",
-      "entry_price": 4.979e-05,
-      "peak_price": 4.979e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T17:21:18.144058+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.1,
-      "peak_volume_m5": 113551.44,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -192894,6 +192880,25 @@
       "exit_price": 0.0001602,
       "exit_pct": 42.02,
       "exit_time": "2026-09-17T17:22:31.817940+00:00"
+    },
+    {
+      "symbol": "APM",
+      "chain": "bsc",
+      "address": "0xe9A37d0D878Db2E1bc4830F558bDe880c0597777",
+      "source": "new",
+      "entry_price": 4.979e-05,
+      "peak_price": 4.979e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T17:21:18.144058+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.77,
+      "peak_volume_m5": 113551.44,
+      "milestones_hit": [],
+      "exit_price": 3.945e-05,
+      "exit_pct": -20.77,
+      "exit_time": "2026-09-17T17:24:29.012388+00:00"
     }
   ],
   "alerted": {
@@ -202669,6 +202674,7 @@
     "0xcFE55DC432292074166227F6aef152259f679AB1": "2026-09-17T16:44:09.643164+00:00",
     "0xfaCcEC59Ffd59A36bA477bA898B12fCdBd70638E": "2026-09-17T17:02:52.635873+00:00",
     "0x4ac63f4d49b14f66cf43af01af96985C12D37c10": "2026-09-17T17:12:39.179648+00:00",
-    "0x26cfba5fd302b6028ad0431df0aaf211315f7f40": "2026-09-17T17:22:31.817940+00:00"
+    "0x26cfba5fd302b6028ad0431df0aaf211315f7f40": "2026-09-17T17:22:31.817940+00:00",
+    "0xe9A37d0D878Db2E1bc4830F558bDe880c0597777": "2026-09-17T17:24:29.012388+00:00"
   }
 }
