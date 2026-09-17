@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MFEED",
-      "chain": "robinhood",
-      "address": "0x9676d577e78ea3148Ac1B323ba35D7fb87845ead",
-      "source": "new",
-      "entry_price": 0.0002003,
-      "peak_price": 0.0002003,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T14:11:05.455022+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "INUVATION",
       "chain": "robinhood",
       "address": "0xC3116676cEA6f0eb1B7978F1683893F423211E29",
       "source": "new",
       "entry_price": 6.811e-05,
-      "peak_price": 6.811e-05,
-      "trailing_active": false,
+      "peak_price": 8.175e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-17T14:11:07.295255+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.03,
+      "peak_volume_m5": 29792.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -192556,6 +192548,25 @@
       "exit_price": 0.000185,
       "exit_pct": -17.3,
       "exit_time": "2026-09-17T14:08:53.159972+00:00"
+    },
+    {
+      "symbol": "MFEED",
+      "chain": "robinhood",
+      "address": "0x9676d577e78ea3148Ac1B323ba35D7fb87845ead",
+      "source": "new",
+      "entry_price": 0.0002003,
+      "peak_price": 0.0002003,
+      "trailing_active": false,
+      "entry_time": "2026-09-17T14:11:05.455022+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -35.45,
+      "peak_volume_m5": 170614.82,
+      "milestones_hit": [],
+      "exit_price": 0.0001293,
+      "exit_pct": -35.45,
+      "exit_time": "2026-09-17T14:12:38.474994+00:00"
     }
   ],
   "alerted": {
@@ -202314,6 +202325,7 @@
     "0xb2000000000000000000006d9b5370dbBc048485": "2026-09-17T13:33:35.521843+00:00",
     "0x23A83e638a84fD74676bA0ac8bBCcEB7Aeb549A2": "2026-09-17T13:35:24.932431+00:00",
     "0x7b8000D1CB9FB68ef3DD20021cfA8a0E74908Ffb": "2026-09-17T13:46:54.157582+00:00",
-    "0xc3852A204DbC885A452B7F70737392dBE1C662Ea": "2026-09-17T14:08:53.159972+00:00"
+    "0xc3852A204DbC885A452B7F70737392dBE1C662Ea": "2026-09-17T14:08:53.159972+00:00",
+    "0x9676d577e78ea3148Ac1B323ba35D7fb87845ead": "2026-09-17T14:12:38.474994+00:00"
   }
 }
