@@ -17,18 +17,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "GROKBOOK",
-      "chain": "robinhood",
-      "address": "0xEC497635e56CB3d1cc316c0CA6085a2f1124e4B6",
-      "source": "new",
-      "entry_price": 0.0001411,
-      "peak_price": 0.0001411,
-      "trailing_active": false,
-      "entry_time": "2026-09-17T12:11:10.260289+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -192342,6 +192330,29 @@
       "exit_price": 0.000403,
       "exit_pct": 58.54,
       "exit_time": "2026-09-17T11:43:13.890020+00:00"
+    },
+    {
+      "symbol": "GROKBOOK",
+      "chain": "robinhood",
+      "address": "0xEC497635e56CB3d1cc316c0CA6085a2f1124e4B6",
+      "source": "new",
+      "entry_price": 0.0001411,
+      "peak_price": 0.0005415,
+      "trailing_active": true,
+      "entry_time": "2026-09-17T12:11:10.260289+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 283.77,
+      "peak_volume_m5": 266696.34,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005415,
+      "exit_pct": 283.77,
+      "exit_time": "2026-09-17T12:20:16.611067+00:00"
     }
   ],
   "alerted": {
@@ -202090,6 +202101,7 @@
     "0x03c0a9A438d015Ac02EBC65DdEf90ecF69A4E30e": "2026-09-17T10:52:36.270059+00:00",
     "0x8faaE5592b9acC27a79Fca745c6B872adF514a5d": "2026-09-17T10:55:07.551458+00:00",
     "0xE6642A052424a50D160Ab1BE907cEcfb5485474a": "2026-09-17T11:12:47.403515+00:00",
-    "0x09aE018BA05291a8c69F70E03C0Ba685753b0F3a": "2026-09-17T11:43:13.890020+00:00"
+    "0x09aE018BA05291a8c69F70E03C0Ba685753b0F3a": "2026-09-17T11:43:13.890020+00:00",
+    "0xEC497635e56CB3d1cc316c0CA6085a2f1124e4B6": "2026-09-17T12:20:16.611067+00:00"
   }
 }
