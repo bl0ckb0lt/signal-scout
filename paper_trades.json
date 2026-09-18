@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ARCANIUM",
-      "chain": "arc",
-      "address": "0x00000000C752274cc0Cd9C22Fc0AAC8ffadfDA61",
-      "source": "new",
-      "entry_price": 0.0002868,
-      "peak_price": 0.0004612,
-      "trailing_active": true,
-      "entry_time": "2026-09-18T01:01:06.117153+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 60.81,
-      "peak_volume_m5": 6338.51,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "COLOSSEUM",
       "chain": "robinhood",
       "address": "0xCA1D45aFB096648A65EeAaC8bada9DaF6B99cB9d",
       "source": "new",
       "entry_price": 5.659e-05,
-      "peak_price": 5.659e-05,
-      "trailing_active": false,
+      "peak_price": 8.079e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-18T01:11:04.497857+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 42.76,
+      "peak_volume_m5": 37632.95,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -193804,6 +193790,27 @@
       "exit_price": 0.0001364,
       "exit_pct": -13.78,
       "exit_time": "2026-09-18T01:03:47.153974+00:00"
+    },
+    {
+      "symbol": "ARCANIUM",
+      "chain": "arc",
+      "address": "0x00000000C752274cc0Cd9C22Fc0AAC8ffadfDA61",
+      "source": "new",
+      "entry_price": 0.0002868,
+      "peak_price": 0.0004612,
+      "trailing_active": true,
+      "entry_time": "2026-09-18T01:01:06.117153+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 43.31,
+      "peak_volume_m5": 6902.15,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000411,
+      "exit_pct": 43.31,
+      "exit_time": "2026-09-18T01:13:50.562184+00:00"
     }
   ],
   "alerted": {
@@ -203626,6 +203633,7 @@
     "0x1F9498016389243b97aB306F4c46c44f42dF2Df6": "2026-09-17T23:44:11.210607+00:00",
     "0x120d14576cf1f4C6942B0eA9E45D5D10Aedd7a48": "2026-09-18T00:25:57.854608+00:00",
     "0x5d102d1E69E77591D486aa4f663B3645151BBdf6": "2026-09-18T00:50:06.167658+00:00",
-    "0x2c9f6e2Cfd7CCa3Ce5874f7DeEA84bA99b581e18": "2026-09-18T01:03:47.153974+00:00"
+    "0x2c9f6e2Cfd7CCa3Ce5874f7DeEA84bA99b581e18": "2026-09-18T01:03:47.153974+00:00",
+    "0x00000000C752274cc0Cd9C22Fc0AAC8ffadfDA61": "2026-09-18T01:13:50.562184+00:00"
   }
 }
