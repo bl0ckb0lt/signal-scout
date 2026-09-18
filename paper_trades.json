@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Agrippa",
-      "chain": "robinhood",
-      "address": "0x94a1F5817F29806b67c7fbf882FB49F45192d827",
-      "source": "new",
-      "entry_price": 6.806e-05,
-      "peak_price": 0.000125,
-      "trailing_active": true,
-      "entry_time": "2026-09-18T19:01:02.356190+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 83.66,
-      "peak_volume_m5": 30537.12,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "DOUBT",
       "chain": "robinhood",
       "address": "0x9d67011c5aB2Ce3B965A50900A340bB94da32d0C",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T19:10:56.463778+00:00",
       "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.53,
+      "peak_volume_m5": 5860.06,
+      "milestones_hit": []
     },
     {
       "symbol": "AVERY",
@@ -42,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T19:10:57.797819+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.64,
+      "peak_volume_m5": 18536.37,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -195012,6 +195002,27 @@
       "exit_price": 0.0002326,
       "exit_pct": -6.02,
       "exit_time": "2026-09-18T19:03:51.054193+00:00"
+    },
+    {
+      "symbol": "Agrippa",
+      "chain": "robinhood",
+      "address": "0x94a1F5817F29806b67c7fbf882FB49F45192d827",
+      "source": "new",
+      "entry_price": 6.806e-05,
+      "peak_price": 0.000125,
+      "trailing_active": true,
+      "entry_time": "2026-09-18T19:01:02.356190+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 55.89,
+      "peak_volume_m5": 30537.12,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001061,
+      "exit_pct": 55.89,
+      "exit_time": "2026-09-18T19:11:50.312802+00:00"
     }
   ],
   "alerted": {
@@ -204896,6 +204907,7 @@
     "0x28a5AD34199670777926eBF807E805F33A783D68": "2026-09-18T18:50:26.313212+00:00",
     "88QnRc3UGq26hYJFeDnc8RcHJW5AhBjgKeKa3RPepump": "2026-09-18T19:01:58.905282+00:00",
     "0x4B4Ae0f418BE26dcE6E7A6315A5AF039B259017D": "2026-09-18T19:02:56.736154+00:00",
-    "0xa92768863a55d8A0591709f7f5E594A249d36Ea3": "2026-09-18T19:03:51.054193+00:00"
+    "0xa92768863a55d8A0591709f7f5E594A249d36Ea3": "2026-09-18T19:03:51.054193+00:00",
+    "0x94a1F5817F29806b67c7fbf882FB49F45192d827": "2026-09-18T19:11:50.312802+00:00"
   }
 }
