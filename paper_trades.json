@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CABUROG",
-      "chain": "robinhood",
-      "address": "0x2c9f6e2Cfd7CCa3Ce5874f7DeEA84bA99b581e18",
-      "source": "new",
-      "entry_price": 0.0001582,
-      "peak_price": 0.0001732,
-      "trailing_active": false,
-      "entry_time": "2026-09-18T00:51:04.770409+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.48,
-      "peak_volume_m5": 2648.64,
-      "milestones_hit": []
-    },
-    {
       "symbol": "ARCANIUM",
       "chain": "arc",
       "address": "0x00000000C752274cc0Cd9C22Fc0AAC8ffadfDA61",
       "source": "new",
       "entry_price": 0.0002868,
-      "peak_price": 0.0002868,
+      "peak_price": 0.0003293,
       "trailing_active": false,
       "entry_time": "2026-09-18T01:01:06.117153+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.82,
+      "peak_volume_m5": 5304.78,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -193783,6 +193771,25 @@
       "exit_price": 0.002385,
       "exit_pct": -14.91,
       "exit_time": "2026-09-18T00:50:06.167658+00:00"
+    },
+    {
+      "symbol": "CABUROG",
+      "chain": "robinhood",
+      "address": "0x2c9f6e2Cfd7CCa3Ce5874f7DeEA84bA99b581e18",
+      "source": "new",
+      "entry_price": 0.0001582,
+      "peak_price": 0.0001732,
+      "trailing_active": false,
+      "entry_time": "2026-09-18T00:51:04.770409+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.78,
+      "peak_volume_m5": 8038.58,
+      "milestones_hit": [],
+      "exit_price": 0.0001364,
+      "exit_pct": -13.78,
+      "exit_time": "2026-09-18T01:03:47.153974+00:00"
     }
   ],
   "alerted": {
@@ -203604,6 +203611,7 @@
     "0x245C9380052ac24B670978d43764Ff8ad0d3B9E7": "2026-09-17T23:43:16.742452+00:00",
     "0x1F9498016389243b97aB306F4c46c44f42dF2Df6": "2026-09-17T23:44:11.210607+00:00",
     "0x120d14576cf1f4C6942B0eA9E45D5D10Aedd7a48": "2026-09-18T00:25:57.854608+00:00",
-    "0x5d102d1E69E77591D486aa4f663B3645151BBdf6": "2026-09-18T00:50:06.167658+00:00"
+    "0x5d102d1E69E77591D486aa4f663B3645151BBdf6": "2026-09-18T00:50:06.167658+00:00",
+    "0x2c9f6e2Cfd7CCa3Ce5874f7DeEA84bA99b581e18": "2026-09-18T01:03:47.153974+00:00"
   }
 }
