@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T20:21:12.235825+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.61,
+      "peak_volume_m5": 30990.02,
+      "milestones_hit": []
     },
     {
       "symbol": "EMRL",
@@ -20,23 +24,15 @@
       "address": "0x942575EC23f09E10f4E716c469131699C1278feE",
       "source": "new",
       "entry_price": 0.0001977,
-      "peak_price": 0.0001977,
-      "trailing_active": false,
+      "peak_price": 0.0002373,
+      "trailing_active": true,
       "entry_time": "2026-09-18T20:21:13.589930+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "LOLPAD",
-      "chain": "arc",
-      "address": "0x5a080fd64918D80C85C85A0E6938C62562604c70",
-      "source": "new",
-      "entry_price": 0.0001395,
-      "peak_price": 0.0001395,
-      "trailing_active": false,
-      "entry_time": "2026-09-18T20:21:14.928567+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.03,
+      "peak_volume_m5": 10660.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -195141,6 +195137,25 @@
       "exit_price": 5.789e-06,
       "exit_pct": -95.66,
       "exit_time": "2026-09-18T20:09:48.913111+00:00"
+    },
+    {
+      "symbol": "LOLPAD",
+      "chain": "arc",
+      "address": "0x5a080fd64918D80C85C85A0E6938C62562604c70",
+      "source": "new",
+      "entry_price": 0.0001395,
+      "peak_price": 0.0001395,
+      "trailing_active": false,
+      "entry_time": "2026-09-18T20:21:14.928567+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.78,
+      "peak_volume_m5": 16398.16,
+      "milestones_hit": [],
+      "exit_price": 0.0001147,
+      "exit_pct": -17.78,
+      "exit_time": "2026-09-18T20:22:34.665642+00:00"
     }
   ],
   "alerted": {
@@ -205032,6 +205047,7 @@
     "0x9d67011c5aB2Ce3B965A50900A340bB94da32d0C": "2026-09-18T19:26:48.542000+00:00",
     "0xB79EC3cdFFEFe0ec6C806D715e4082d6BE4dbF55": "2026-09-18T19:34:17.593695+00:00",
     "0x0fF05A56Ad858950d4C025Db0C2e3bB7d25e526b": "2026-09-18T19:52:35.117243+00:00",
-    "0xc6bec849fd6Ec35d765Ba9E4CaC2b716a5849F46": "2026-09-18T20:09:48.913111+00:00"
+    "0xc6bec849fd6Ec35d765Ba9E4CaC2b716a5849F46": "2026-09-18T20:09:48.913111+00:00",
+    "0x5a080fd64918D80C85C85A0E6938C62562604c70": "2026-09-18T20:22:34.665642+00:00"
   }
 }
