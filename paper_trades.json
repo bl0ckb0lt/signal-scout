@@ -8,43 +8,17 @@
       "address": "0x590658B292B4eaC74103276b307Ef7eefCcD0188",
       "source": "new",
       "entry_price": 8.358e-07,
-      "peak_price": 1.084e-06,
+      "peak_price": 1.608e-06,
       "trailing_active": true,
       "entry_time": "2026-09-18T20:21:12.235825+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.7,
-      "peak_volume_m5": 61424.22,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "EMRL",
-      "chain": "robinhood",
-      "address": "0x942575EC23f09E10f4E716c469131699C1278feE",
-      "source": "new",
-      "entry_price": 0.0001977,
-      "peak_price": 0.0002373,
-      "trailing_active": true,
-      "entry_time": "2026-09-18T20:21:13.589930+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.76,
-      "peak_volume_m5": 10660.19,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "RATTERY",
-      "chain": "robinhood",
-      "address": "0xC322305e79337300b59fF48389f8C9A1D9E0de76",
-      "source": "new",
-      "entry_price": 0.000156,
-      "peak_price": 0.000156,
-      "trailing_active": false,
-      "entry_time": "2026-09-18T20:31:04.358479+00:00",
-      "score": 76,
-      "status": "open"
+      "current_pct": 92.39,
+      "peak_volume_m5": 109159.46,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "CASHED",
@@ -56,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T20:31:05.874109+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.42,
+      "peak_volume_m5": 12594.41,
+      "milestones_hit": []
     },
     {
       "symbol": "FAITH",
@@ -68,7 +46,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T20:31:07.356857+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.18,
+      "peak_volume_m5": 6700.71,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -195192,6 +195174,44 @@
       "exit_price": 0.0001147,
       "exit_pct": -17.78,
       "exit_time": "2026-09-18T20:22:34.665642+00:00"
+    },
+    {
+      "symbol": "EMRL",
+      "chain": "robinhood",
+      "address": "0x942575EC23f09E10f4E716c469131699C1278feE",
+      "source": "new",
+      "entry_price": 0.0001977,
+      "peak_price": 0.0002373,
+      "trailing_active": true,
+      "entry_time": "2026-09-18T20:21:13.589930+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -13.35,
+      "peak_volume_m5": 10660.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001713,
+      "exit_pct": -13.35,
+      "exit_time": "2026-09-18T20:32:12.235809+00:00"
+    },
+    {
+      "symbol": "RATTERY",
+      "chain": "robinhood",
+      "address": "0xC322305e79337300b59fF48389f8C9A1D9E0de76",
+      "source": "new",
+      "entry_price": 0.000156,
+      "peak_price": 0.000156,
+      "trailing_active": false,
+      "entry_time": "2026-09-18T20:31:04.358479+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.4,
+      "peak_volume_m5": 23061.12,
+      "milestones_hit": [],
+      "exit_price": 0.0001429,
+      "exit_pct": -8.4,
+      "exit_time": "2026-09-18T20:32:13.022657+00:00"
     }
   ],
   "alerted": {
@@ -205084,6 +205104,8 @@
     "0xB79EC3cdFFEFe0ec6C806D715e4082d6BE4dbF55": "2026-09-18T19:34:17.593695+00:00",
     "0x0fF05A56Ad858950d4C025Db0C2e3bB7d25e526b": "2026-09-18T19:52:35.117243+00:00",
     "0xc6bec849fd6Ec35d765Ba9E4CaC2b716a5849F46": "2026-09-18T20:09:48.913111+00:00",
-    "0x5a080fd64918D80C85C85A0E6938C62562604c70": "2026-09-18T20:22:34.665642+00:00"
+    "0x5a080fd64918D80C85C85A0E6938C62562604c70": "2026-09-18T20:22:34.665642+00:00",
+    "0x942575EC23f09E10f4E716c469131699C1278feE": "2026-09-18T20:32:12.235809+00:00",
+    "0xC322305e79337300b59fF48389f8C9A1D9E0de76": "2026-09-18T20:32:13.022657+00:00"
   }
 }
