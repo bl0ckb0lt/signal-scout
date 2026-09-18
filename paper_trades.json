@@ -8,33 +8,17 @@
       "address": "0xfdE368DeBe9E80f80785064A65719cEC1f809DeC",
       "source": "new",
       "entry_price": 0.002449,
-      "peak_price": 0.003779,
+      "peak_price": 0.003824,
       "trailing_active": true,
       "entry_time": "2026-09-18T13:41:04.546186+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 54.19,
+      "current_pct": 56.15,
       "peak_volume_m5": 6337.69,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "bBALL",
-      "chain": "bsc",
-      "address": "0x0077eaeB71e012FCFe56B7Fe2ccBA3e0216D7777",
-      "source": "new",
-      "entry_price": 5.737e-05,
-      "peak_price": 7.668e-05,
-      "trailing_active": true,
-      "entry_time": "2026-09-18T14:11:17.418500+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 33.66,
-      "peak_volume_m5": 61079.48,
-      "milestones_hit": []
     },
     {
       "symbol": "WONK",
@@ -62,7 +46,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-18T14:23:30.107352+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.5,
+      "peak_volume_m5": 62010.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -194494,6 +194482,25 @@
       "exit_price": 0.002193,
       "exit_pct": 8.3,
       "exit_time": "2026-09-18T14:03:56.890432+00:00"
+    },
+    {
+      "symbol": "bBALL",
+      "chain": "bsc",
+      "address": "0x0077eaeB71e012FCFe56B7Fe2ccBA3e0216D7777",
+      "source": "new",
+      "entry_price": 5.737e-05,
+      "peak_price": 7.668e-05,
+      "trailing_active": true,
+      "entry_time": "2026-09-18T14:11:17.418500+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 16.79,
+      "peak_volume_m5": 61079.48,
+      "milestones_hit": [],
+      "exit_price": 6.7e-05,
+      "exit_pct": 16.79,
+      "exit_time": "2026-09-18T14:24:54.901257+00:00"
     }
   ],
   "alerted": {
@@ -204350,6 +204357,7 @@
     "0xed7e361F70ce5670F92eed4ce0dC520660677777": "2026-09-18T12:43:51.804988+00:00",
     "0xc31aE677E52D8C4D3dEF6B00afFc9C3c19577777": "2026-09-18T12:43:52.498246+00:00",
     "0xEA2125d9D3FcFEaF32eB110D18bFf04DC9d85ecC": "2026-09-18T13:13:15.793488+00:00",
-    "0xaFB2E8581cc8E7c125163D1EFE0061d8632EE458": "2026-09-18T14:03:56.890432+00:00"
+    "0xaFB2E8581cc8E7c125163D1EFE0061d8632EE458": "2026-09-18T14:03:56.890432+00:00",
+    "0x0077eaeB71e012FCFe56B7Fe2ccBA3e0216D7777": "2026-09-18T14:24:54.901257+00:00"
   }
 }
