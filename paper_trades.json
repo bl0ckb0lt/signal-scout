@@ -8,23 +8,17 @@
       "address": "0x787B9388C0a715B9e2688088DE97b2A004D452eD",
       "source": "new",
       "entry_price": 0.000212,
-      "peak_price": 0.000212,
-      "trailing_active": false,
+      "peak_price": 0.0003597,
+      "trailing_active": true,
       "entry_time": "2026-09-19T05:41:03.825024+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "LEAP",
-      "chain": "arc",
-      "address": "0xEB5D51cD8dC26Ef0ecd5f04D5F1230bE7bD1d095",
-      "source": "new",
-      "entry_price": 0.0001263,
-      "peak_price": 0.0001263,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T05:41:05.197644+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 69.67,
+      "peak_volume_m5": 68029.61,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -196125,6 +196119,25 @@
       "exit_price": 0.0002951,
       "exit_pct": 52.9,
       "exit_time": "2026-09-19T05:25:12.137955+00:00"
+    },
+    {
+      "symbol": "LEAP",
+      "chain": "arc",
+      "address": "0xEB5D51cD8dC26Ef0ecd5f04D5F1230bE7bD1d095",
+      "source": "new",
+      "entry_price": 0.0001263,
+      "peak_price": 0.0001263,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T05:41:05.197644+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.95,
+      "peak_volume_m5": 21810.63,
+      "milestones_hit": [],
+      "exit_price": 0.0001011,
+      "exit_pct": -19.95,
+      "exit_time": "2026-09-19T05:49:56.070322+00:00"
     }
   ],
   "alerted": {
@@ -206067,6 +206080,7 @@
     "0xb7a28897bBD6FE6C4A949aA99c39044Dd4A23130": "2026-09-19T05:02:34.608195+00:00",
     "0x1928C289929314a85d9B888052d824aD74C62dA0": "2026-09-19T05:02:35.340845+00:00",
     "DFQHUegJWE29Xu3BUxPezqi77uyHURRyxJpdtyvLpump": "2026-09-19T05:08:48.901431+00:00",
-    "8UG1dua9ESZpD8RFzQTCmdJubvhcHUD2i9jgaNoqpump": "2026-09-19T05:25:12.137955+00:00"
+    "8UG1dua9ESZpD8RFzQTCmdJubvhcHUD2i9jgaNoqpump": "2026-09-19T05:25:12.137955+00:00",
+    "0xEB5D51cD8dC26Ef0ecd5f04D5F1230bE7bD1d095": "2026-09-19T05:49:56.070322+00:00"
   }
 }
