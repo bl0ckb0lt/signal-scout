@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WORLDIE",
-      "chain": "robinhood",
-      "address": "0x68F5621275Eb6BAeEa398faB34f46a42fe59d990",
-      "source": "new",
-      "entry_price": 0.0005074,
-      "peak_price": 0.0008383,
-      "trailing_active": true,
-      "entry_time": "2026-09-19T00:21:04.803369+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 65.21,
-      "peak_volume_m5": 138122.4,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "SALUTE",
       "chain": "solana",
       "address": "E85AudkwMSFgyFtJdS1nkmoQVgMrgmFDeRf8PXoepump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-19T00:31:06.652114+00:00",
       "score": 87,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -11.29,
+      "peak_volume_m5": 40349.43,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -195737,6 +195723,27 @@
       "exit_price": 0.0001328,
       "exit_pct": -14.98,
       "exit_time": "2026-09-19T00:12:41.143292+00:00"
+    },
+    {
+      "symbol": "WORLDIE",
+      "chain": "robinhood",
+      "address": "0x68F5621275Eb6BAeEa398faB34f46a42fe59d990",
+      "source": "new",
+      "entry_price": 0.0005074,
+      "peak_price": 0.0008383,
+      "trailing_active": true,
+      "entry_time": "2026-09-19T00:21:04.803369+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 24.6,
+      "peak_volume_m5": 153958.54,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0006322,
+      "exit_pct": 24.6,
+      "exit_time": "2026-09-19T00:32:23.660367+00:00"
     }
   ],
   "alerted": {
@@ -205659,6 +205666,7 @@
     "0xD96085Ac54cF0E6402FD6939f0A5fD72aB655D3a": "2026-09-18T23:10:06.178629+00:00",
     "0x948449a04689BC0199FeE040e34f7a26DDFff0a5": "2026-09-18T23:21:03.022125+00:00",
     "0x893427D3Fe2baFa2138E5264029c77a3b733D343": "2026-09-19T00:12:40.368595+00:00",
-    "9WZriUAVGezWRY5VJYqN7co2CfSyQm5hQgucTkN8pump": "2026-09-19T00:12:41.143292+00:00"
+    "9WZriUAVGezWRY5VJYqN7co2CfSyQm5hQgucTkN8pump": "2026-09-19T00:12:41.143292+00:00",
+    "0x68F5621275Eb6BAeEa398faB34f46a42fe59d990": "2026-09-19T00:32:23.660367+00:00"
   }
 }
