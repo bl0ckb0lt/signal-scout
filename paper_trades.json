@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SI",
-      "chain": "robinhood",
-      "address": "0xada319ac0e1f755BB1D5d1ffA6797aCa98e6e4fC",
-      "source": "boost",
-      "entry_price": 8.548e-05,
-      "peak_price": 0.0001194,
-      "trailing_active": true,
-      "entry_time": "2026-09-19T19:41:09.174770+00:00",
-      "score": 89,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 30.32,
-      "peak_volume_m5": 43357.82,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CWF",
       "chain": "robinhood",
       "address": "0x4934B74780cf7B9F8999be3C4E973F7AD9d7C182",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-19T19:51:04.395222+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.64,
+      "peak_volume_m5": 90211.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -197602,6 +197590,25 @@
       "exit_price": 0.0001449,
       "exit_pct": -20.03,
       "exit_time": "2026-09-19T19:45:27.103914+00:00"
+    },
+    {
+      "symbol": "SI",
+      "chain": "robinhood",
+      "address": "0xada319ac0e1f755BB1D5d1ffA6797aCa98e6e4fC",
+      "source": "boost",
+      "entry_price": 8.548e-05,
+      "peak_price": 0.0001194,
+      "trailing_active": true,
+      "entry_time": "2026-09-19T19:41:09.174770+00:00",
+      "score": 89,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 1.91,
+      "peak_volume_m5": 45106.89,
+      "milestones_hit": [],
+      "exit_price": 8.711e-05,
+      "exit_pct": 1.91,
+      "exit_time": "2026-09-19T19:52:42.856268+00:00"
     }
   ],
   "alerted": {
@@ -207589,7 +207596,7 @@
     "0x22506FFA1B921A0B9D4B04188b4715f3434d34C7": "2026-09-19T15:43:25.101096+00:00",
     "0x12e6244C9CF83fb9f37f76262B64FFd34fc0Cc3e": "2026-09-19T15:53:29.641436+00:00",
     "0xEF82DDc566653699B89C3aFe123559a75aAA2976": "2026-09-19T16:02:25.527511+00:00",
-    "0xada319ac0e1f755BB1D5d1ffA6797aCa98e6e4fC": "2026-09-19T16:11:56.914125+00:00",
+    "0xada319ac0e1f755BB1D5d1ffA6797aCa98e6e4fC": "2026-09-19T19:52:42.856268+00:00",
     "0xCEaa9679Aa4800C015e49D2751b726E8d4816636": "2026-09-19T16:12:53.261554+00:00",
     "0x3dD8Ef5722a1F9cE703916F897333BCCAF4Bd6D9": "2026-09-19T16:22:37.722428+00:00",
     "0x166271e10a5De1a90220bD2EDD91176fb2B3f040": "2026-09-19T16:23:34.759785+00:00",
