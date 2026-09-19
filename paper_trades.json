@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "URANUS",
-      "chain": "arc",
-      "address": "0x9c50DCe3d88Bf74f828bFfFcA96efeB57A54e9e5",
-      "source": "new",
-      "entry_price": 9.727e-05,
-      "peak_price": 9.727e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T20:21:07.450528+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CATBRAIN",
       "chain": "robinhood",
       "address": "0xbaE64d28832E3df1e1B1Fed51c92A4E64e4c67bE",
       "source": "new",
       "entry_price": 0.0001097,
-      "peak_price": 0.0001097,
+      "peak_price": 0.0001196,
       "trailing_active": false,
       "entry_time": "2026-09-19T20:21:12.074389+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.02,
+      "peak_volume_m5": 30115.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -197680,6 +197672,25 @@
       "exit_price": 0.0003467,
       "exit_pct": 166.49,
       "exit_time": "2026-09-19T20:18:13.148642+00:00"
+    },
+    {
+      "symbol": "URANUS",
+      "chain": "arc",
+      "address": "0x9c50DCe3d88Bf74f828bFfFcA96efeB57A54e9e5",
+      "source": "new",
+      "entry_price": 9.727e-05,
+      "peak_price": 9.727e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T20:21:07.450528+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.02,
+      "peak_volume_m5": 19104.76,
+      "milestones_hit": [],
+      "exit_price": 8.363e-05,
+      "exit_pct": -14.02,
+      "exit_time": "2026-09-19T20:22:15.462646+00:00"
     }
   ],
   "alerted": {
@@ -207700,6 +207711,7 @@
     "JAprY5wmpGsmef5tKu8VkGGvMFuKQvfSYVuGrJV6pump": "2026-09-19T19:45:27.103914+00:00",
     "0x4934B74780cf7B9F8999be3C4E973F7AD9d7C182": "2026-09-19T20:12:51.007347+00:00",
     "0xeDBf91223639800BCd5756815CAf908Df3b890bE": "2026-09-19T20:13:55.295082+00:00",
-    "0x4d066AB4D924b7b3D01c6EcbFC142efe33AEb7FA": "2026-09-19T20:18:13.148642+00:00"
+    "0x4d066AB4D924b7b3D01c6EcbFC142efe33AEb7FA": "2026-09-19T20:18:13.148642+00:00",
+    "0x9c50DCe3d88Bf74f828bFfFcA96efeB57A54e9e5": "2026-09-19T20:22:15.462646+00:00"
   }
 }
