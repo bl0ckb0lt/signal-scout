@@ -8,47 +8,17 @@
       "address": "tipp4C4Jnpft26HC9VXNjUPidojZqxXf8nzKvrKf5BS",
       "source": "new",
       "entry_price": 0.0004864,
-      "peak_price": 0.0007117,
+      "peak_price": 0.0007599,
       "trailing_active": true,
       "entry_time": "2026-09-19T17:11:07.870269+00:00",
       "score": 80,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 46.32,
-      "peak_volume_m5": 483839.29,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "EI",
-      "chain": "robinhood",
-      "address": "0x49d4c84E35627F6AC9A9bC2684aEA3ABB41948CF",
-      "source": "new",
-      "entry_price": 0.0002479,
-      "peak_price": 0.0002657,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T17:11:11.935531+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.18,
-      "peak_volume_m5": 16453.58,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MFOX",
-      "chain": "solana",
-      "address": "BMZFVnXxz34xp5nNGVQYPP32hQMvuajj6UL3Sh7BynsX",
-      "source": "new",
-      "entry_price": 0.0001046,
-      "peak_price": 0.0001127,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T17:11:13.611493+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.74,
-      "peak_volume_m5": 12007.81,
-      "milestones_hit": []
+      "current_pct": 56.23,
+      "peak_volume_m5": 513648.32,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -197198,6 +197168,44 @@
       "exit_price": 7.261e-05,
       "exit_pct": -29.02,
       "exit_time": "2026-09-19T17:12:48.411331+00:00"
+    },
+    {
+      "symbol": "EI",
+      "chain": "robinhood",
+      "address": "0x49d4c84E35627F6AC9A9bC2684aEA3ABB41948CF",
+      "source": "new",
+      "entry_price": 0.0002479,
+      "peak_price": 0.0002657,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T17:11:11.935531+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.05,
+      "peak_volume_m5": 22213.6,
+      "milestones_hit": [],
+      "exit_price": 0.0001858,
+      "exit_pct": -25.05,
+      "exit_time": "2026-09-19T17:14:02.426728+00:00"
+    },
+    {
+      "symbol": "MFOX",
+      "chain": "solana",
+      "address": "BMZFVnXxz34xp5nNGVQYPP32hQMvuajj6UL3Sh7BynsX",
+      "source": "new",
+      "entry_price": 0.0001046,
+      "peak_price": 0.0001127,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T17:11:13.611493+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -97.51,
+      "peak_volume_m5": 23982.92,
+      "milestones_hit": [],
+      "exit_price": 2.607e-06,
+      "exit_pct": -97.51,
+      "exit_time": "2026-09-19T17:14:03.318326+00:00"
     }
   ],
   "alerted": {
@@ -207193,6 +207201,8 @@
     "0x4be5d976e667468edE76d0Bb739849d2Ad252D07": "2026-09-19T16:35:58.766946+00:00",
     "0xD41D62Af4403036DB6C520D4AC2D58313A61F86F": "2026-09-19T17:02:39.807920+00:00",
     "0xb0D311cCE4743b678722eF9FfaaCa6ab345e3bf0": "2026-09-19T17:02:40.634550+00:00",
-    "0x954F81c9BDce955619E8533BC5fDd9d0503Cf8b4": "2026-09-19T17:12:48.411331+00:00"
+    "0x954F81c9BDce955619E8533BC5fDd9d0503Cf8b4": "2026-09-19T17:12:48.411331+00:00",
+    "0x49d4c84E35627F6AC9A9bC2684aEA3ABB41948CF": "2026-09-19T17:14:02.426728+00:00",
+    "BMZFVnXxz34xp5nNGVQYPP32hQMvuajj6UL3Sh7BynsX": "2026-09-19T17:14:03.318326+00:00"
   }
 }
