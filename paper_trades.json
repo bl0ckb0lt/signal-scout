@@ -8,29 +8,18 @@
       "address": "0x405848C80099E3E657dB48057f8042EaD494548B",
       "source": "new",
       "entry_price": 0.0001331,
-      "peak_price": 0.0002366,
+      "peak_price": 0.0003133,
       "trailing_active": true,
       "entry_time": "2026-09-19T10:30:59.844891+00:00",
       "score": 74,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 77.76,
-      "peak_volume_m5": 12508.91,
+      "current_pct": 135.39,
+      "peak_volume_m5": 12564.5,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "wildebeest",
-      "chain": "ethereum",
-      "address": "0x57737DED3870E43FEd7D80d31e0ced3d5Fb0cccC",
-      "source": "new",
-      "entry_price": 0.002485,
-      "peak_price": 0.002485,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T10:41:09.622782+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -196518,6 +196507,25 @@
       "exit_price": 0.000102,
       "exit_pct": -9.73,
       "exit_time": "2026-09-19T10:12:25.345309+00:00"
+    },
+    {
+      "symbol": "wildebeest",
+      "chain": "ethereum",
+      "address": "0x57737DED3870E43FEd7D80d31e0ced3d5Fb0cccC",
+      "source": "new",
+      "entry_price": 0.002485,
+      "peak_price": 0.002485,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T10:41:09.622782+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.0,
+      "peak_volume_m5": 119985.23,
+      "milestones_hit": [],
+      "exit_price": 0.002336,
+      "exit_pct": -6.0,
+      "exit_time": "2026-09-19T10:46:48.017445+00:00"
     }
   ],
   "alerted": {
@@ -206480,6 +206488,7 @@
     "0x3b558f2094d9476513a08a19daebfbaecc87203a": "2026-09-19T08:55:04.031833+00:00",
     "9UfySjMsSz4tyQR9X2SCgPaWagQL5eYPpw9y9Nr2STNK": "2026-09-19T09:23:18.648775+00:00",
     "0xFCCb514a08C1B7453D7107114fEE0621be3Ff45D": "2026-09-19T09:40:48.885203+00:00",
-    "0x3139D2c2d479D9Ce7982EFae32f1d696A4481E18": "2026-09-19T10:12:25.345309+00:00"
+    "0x3139D2c2d479D9Ce7982EFae32f1d696A4481E18": "2026-09-19T10:12:25.345309+00:00",
+    "0x57737DED3870E43FEd7D80d31e0ced3d5Fb0cccC": "2026-09-19T10:46:48.017445+00:00"
   }
 }
