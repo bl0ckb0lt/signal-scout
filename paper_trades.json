@@ -12,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-19T18:51:03.104574+00:00",
       "score": 81,
-      "status": "open"
-    },
-    {
-      "symbol": "WIN",
-      "chain": "robinhood",
-      "address": "0x3DE79327DaAee3D4c1F6F59bDb5aD5f81b2AFa62",
-      "source": "new",
-      "entry_price": 0.0002301,
-      "peak_price": 0.0002301,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T18:51:04.618546+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.33,
+      "peak_volume_m5": 7709.25,
+      "milestones_hit": []
     },
     {
       "symbol": "MCAT",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-19T18:51:06.333835+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.56,
+      "peak_volume_m5": 1782.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -197420,6 +197416,25 @@
       "exit_price": 0.0001213,
       "exit_pct": -10.01,
       "exit_time": "2026-09-19T18:42:36.136575+00:00"
+    },
+    {
+      "symbol": "WIN",
+      "chain": "robinhood",
+      "address": "0x3DE79327DaAee3D4c1F6F59bDb5aD5f81b2AFa62",
+      "source": "new",
+      "entry_price": 0.0002301,
+      "peak_price": 0.0002301,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T18:51:04.618546+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -36.46,
+      "peak_volume_m5": 99195.3,
+      "milestones_hit": [],
+      "exit_price": 0.0001462,
+      "exit_pct": -36.46,
+      "exit_time": "2026-09-19T18:51:53.775766+00:00"
     }
   ],
   "alerted": {
@@ -207427,6 +207442,7 @@
     "FfswHHLXcvF6hvFZZzpz5WSYkgB9MfAC8j8dpAyNpump": "2026-09-19T18:04:26.253718+00:00",
     "0x91edc2a345B88F4BbCe87529fE73EFAA1A949364": "2026-09-19T18:23:11.299392+00:00",
     "FhRfUoGTgQYJ1EJGcNtqr1Qxt4AA3K1Honikzjxkakr7": "2026-09-19T18:27:27.944429+00:00",
-    "BmnGRH8N1ZXoXQGsE8dgSege1b4PaAhD6bAnoWcSdpHk": "2026-09-19T18:42:36.136575+00:00"
+    "BmnGRH8N1ZXoXQGsE8dgSege1b4PaAhD6bAnoWcSdpHk": "2026-09-19T18:42:36.136575+00:00",
+    "0x3DE79327DaAee3D4c1F6F59bDb5aD5f81b2AFa62": "2026-09-19T18:51:53.775766+00:00"
   }
 }
