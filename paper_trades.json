@@ -3,37 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PRIORS",
-      "chain": "robinhood",
-      "address": "0xeDBf91223639800BCd5756815CAf908Df3b890bE",
-      "source": "new",
-      "entry_price": 0.0002313,
-      "peak_price": 0.0002383,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T20:11:10.348586+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.03,
-      "peak_volume_m5": 13603.89,
-      "milestones_hit": []
-    },
-    {
       "symbol": "JEV",
       "chain": "robinhood",
       "address": "0x4d066AB4D924b7b3D01c6EcbFC142efe33AEb7FA",
       "source": "new",
       "entry_price": 0.0001301,
-      "peak_price": 0.0002252,
+      "peak_price": 0.0003887,
       "trailing_active": true,
       "entry_time": "2026-09-19T20:11:11.834687+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 73.1,
-      "peak_volume_m5": 172796.9,
+      "current_pct": 198.77,
+      "peak_volume_m5": 264139.28,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
     }
   ],
@@ -197649,6 +197634,25 @@
       "exit_price": 0.001864,
       "exit_pct": 148.2,
       "exit_time": "2026-09-19T20:12:51.007347+00:00"
+    },
+    {
+      "symbol": "PRIORS",
+      "chain": "robinhood",
+      "address": "0xeDBf91223639800BCd5756815CAf908Df3b890bE",
+      "source": "new",
+      "entry_price": 0.0002313,
+      "peak_price": 0.0002383,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T20:11:10.348586+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.04,
+      "peak_volume_m5": 13603.89,
+      "milestones_hit": [],
+      "exit_price": 0.0002104,
+      "exit_pct": -9.04,
+      "exit_time": "2026-09-19T20:13:55.295082+00:00"
     }
   ],
   "alerted": {
@@ -207667,6 +207671,7 @@
     "0x8916FAc8cC85E52A781459aA1e73a12038C92f87": "2026-09-19T19:42:45.830030+00:00",
     "5j7SzcK7419k7jsqE8VN1bjxpeRm7iXWW4umBraeXzoM": "2026-09-19T19:42:46.592732+00:00",
     "JAprY5wmpGsmef5tKu8VkGGvMFuKQvfSYVuGrJV6pump": "2026-09-19T19:45:27.103914+00:00",
-    "0x4934B74780cf7B9F8999be3C4E973F7AD9d7C182": "2026-09-19T20:12:51.007347+00:00"
+    "0x4934B74780cf7B9F8999be3C4E973F7AD9d7C182": "2026-09-19T20:12:51.007347+00:00",
+    "0xeDBf91223639800BCd5756815CAf908Df3b890bE": "2026-09-19T20:13:55.295082+00:00"
   }
 }
