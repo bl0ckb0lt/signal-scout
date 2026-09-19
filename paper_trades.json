@@ -8,27 +8,15 @@
       "address": "0xada319ac0e1f755BB1D5d1ffA6797aCa98e6e4fC",
       "source": "boost",
       "entry_price": 8.548e-05,
-      "peak_price": 9.636e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001194,
+      "trailing_active": true,
       "entry_time": "2026-09-19T19:41:09.174770+00:00",
       "score": 89,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.73,
-      "peak_volume_m5": 36405.4,
+      "current_pct": 39.68,
+      "peak_volume_m5": 43357.82,
       "milestones_hit": []
-    },
-    {
-      "symbol": "TIKCAT",
-      "chain": "solana",
-      "address": "JAprY5wmpGsmef5tKu8VkGGvMFuKQvfSYVuGrJV6pump",
-      "source": "new",
-      "entry_price": 0.0001812,
-      "peak_price": 0.0001812,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T19:44:00.159597+00:00",
-      "score": 83,
-      "status": "open"
     }
   ],
   "closed": [
@@ -197583,6 +197571,25 @@
       "exit_price": 0.0002316,
       "exit_pct": -9.07,
       "exit_time": "2026-09-19T19:42:46.592732+00:00"
+    },
+    {
+      "symbol": "TIKCAT",
+      "chain": "solana",
+      "address": "JAprY5wmpGsmef5tKu8VkGGvMFuKQvfSYVuGrJV6pump",
+      "source": "new",
+      "entry_price": 0.0001812,
+      "peak_price": 0.0001812,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T19:44:00.159597+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.03,
+      "peak_volume_m5": 74929.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001449,
+      "exit_pct": -20.03,
+      "exit_time": "2026-09-19T19:45:27.103914+00:00"
     }
   ],
   "alerted": {
@@ -207599,6 +207606,7 @@
     "0xe8322Ff59820D73dE4015b804669E0B0823b3087": "2026-09-19T19:21:36.347538+00:00",
     "9fHVSgbqN7T5YSnnutfNyT3oWVkGSG6TAz2M6mNVpump": "2026-09-19T19:25:51.289339+00:00",
     "0x8916FAc8cC85E52A781459aA1e73a12038C92f87": "2026-09-19T19:42:45.830030+00:00",
-    "5j7SzcK7419k7jsqE8VN1bjxpeRm7iXWW4umBraeXzoM": "2026-09-19T19:42:46.592732+00:00"
+    "5j7SzcK7419k7jsqE8VN1bjxpeRm7iXWW4umBraeXzoM": "2026-09-19T19:42:46.592732+00:00",
+    "JAprY5wmpGsmef5tKu8VkGGvMFuKQvfSYVuGrJV6pump": "2026-09-19T19:45:27.103914+00:00"
   }
 }
