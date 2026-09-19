@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Stryker",
-      "chain": "solana",
-      "address": "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump",
-      "source": "new",
-      "entry_price": 0.0003096,
-      "peak_price": 0.0003096,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T12:40:57.895568+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.94,
-      "peak_volume_m5": 58607.33,
-      "milestones_hit": []
-    },
-    {
       "symbol": "FOMOWAR",
       "chain": "robinhood",
       "address": "0x3620232e6EF914E41621263C12282E2Bca2fCC30",
       "source": "new",
       "entry_price": 0.0001011,
-      "peak_price": 0.0001011,
-      "trailing_active": false,
+      "peak_price": 0.0001403,
+      "trailing_active": true,
       "entry_time": "2026-09-19T12:50:59.701022+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.77,
+      "peak_volume_m5": 39156.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -196614,6 +196602,25 @@
       "exit_price": 0.001592,
       "exit_pct": -18.82,
       "exit_time": "2026-09-19T12:41:53.737511+00:00"
+    },
+    {
+      "symbol": "Stryker",
+      "chain": "solana",
+      "address": "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump",
+      "source": "new",
+      "entry_price": 0.0003096,
+      "peak_price": 0.0003096,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T12:40:57.895568+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.18,
+      "peak_volume_m5": 58607.33,
+      "milestones_hit": [],
+      "exit_price": 0.0002719,
+      "exit_pct": -12.18,
+      "exit_time": "2026-09-19T12:52:56.341924+00:00"
     }
   ],
   "alerted": {
@@ -206581,6 +206588,7 @@
     "0x405848C80099E3E657dB48057f8042EaD494548B": "2026-09-19T10:50:52.846631+00:00",
     "4JHXtNwMogExmcxXB1Ykb1A9s6yyAWKYG7xRurnT14Ws": "2026-09-19T11:41:55.882353+00:00",
     "98XfXyhDpit1UbVnZ8WK3wQzcn4TsdxG6Ymx1UVUMgDR": "2026-09-19T12:04:07.169111+00:00",
-    "0xf088cD91FC446cB7d49F94e755f8e4CD23834a34": "2026-09-19T12:41:53.737511+00:00"
+    "0xf088cD91FC446cB7d49F94e755f8e4CD23834a34": "2026-09-19T12:41:53.737511+00:00",
+    "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump": "2026-09-19T12:52:56.341924+00:00"
   }
 }
