@@ -3,58 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CATBRAIN",
-      "chain": "robinhood",
-      "address": "0xbaE64d28832E3df1e1B1Fed51c92A4E64e4c67bE",
-      "source": "new",
-      "entry_price": 0.0001097,
-      "peak_price": 0.0001932,
-      "trailing_active": true,
-      "entry_time": "2026-09-19T20:21:12.074389+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 76.12,
-      "peak_volume_m5": 50421.35,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "TIGRINO",
-      "chain": "solana",
-      "address": "8R4ygXHZ2ztVR3vaYnJqa6zwEJHmkK3AavDd5aAgpump",
-      "source": "new",
-      "entry_price": 0.0002264,
-      "peak_price": 0.0002264,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T20:31:05.201124+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "JEANPHIL",
       "chain": "solana",
       "address": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
       "source": "new",
       "entry_price": 0.0007486,
-      "peak_price": 0.0007486,
+      "peak_price": 0.0008304,
       "trailing_active": false,
       "entry_time": "2026-09-19T20:31:06.918065+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "PEEPEE",
-      "chain": "solana",
-      "address": "C8KYEyUKnxHsjUadTLTcyocFFBgFcwGRiGZBcG8PpN3K",
-      "source": "new",
-      "entry_price": 0.0004926,
-      "peak_price": 0.0004926,
-      "trailing_active": false,
-      "entry_time": "2026-09-19T20:31:08.692865+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.93,
+      "peak_volume_m5": 95348.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -197729,6 +197691,65 @@
       "exit_price": 8.363e-05,
       "exit_pct": -14.02,
       "exit_time": "2026-09-19T20:22:15.462646+00:00"
+    },
+    {
+      "symbol": "CATBRAIN",
+      "chain": "robinhood",
+      "address": "0xbaE64d28832E3df1e1B1Fed51c92A4E64e4c67bE",
+      "source": "new",
+      "entry_price": 0.0001097,
+      "peak_price": 0.0001932,
+      "trailing_active": true,
+      "entry_time": "2026-09-19T20:21:12.074389+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 57.98,
+      "peak_volume_m5": 53005.14,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001733,
+      "exit_pct": 57.98,
+      "exit_time": "2026-09-19T20:32:42.410587+00:00"
+    },
+    {
+      "symbol": "TIGRINO",
+      "chain": "solana",
+      "address": "8R4ygXHZ2ztVR3vaYnJqa6zwEJHmkK3AavDd5aAgpump",
+      "source": "new",
+      "entry_price": 0.0002264,
+      "peak_price": 0.0002264,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T20:31:05.201124+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.08,
+      "peak_volume_m5": 111015.83,
+      "milestones_hit": [],
+      "exit_price": 0.0001651,
+      "exit_pct": -27.08,
+      "exit_time": "2026-09-19T20:32:43.097552+00:00"
+    },
+    {
+      "symbol": "PEEPEE",
+      "chain": "solana",
+      "address": "C8KYEyUKnxHsjUadTLTcyocFFBgFcwGRiGZBcG8PpN3K",
+      "source": "new",
+      "entry_price": 0.0004926,
+      "peak_price": 0.0004926,
+      "trailing_active": false,
+      "entry_time": "2026-09-19T20:31:08.692865+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.48,
+      "peak_volume_m5": 155400.72,
+      "milestones_hit": [],
+      "exit_price": 0.0004459,
+      "exit_pct": -9.48,
+      "exit_time": "2026-09-19T20:32:44.164136+00:00"
     }
   ],
   "alerted": {
@@ -207750,6 +207771,9 @@
     "0x4934B74780cf7B9F8999be3C4E973F7AD9d7C182": "2026-09-19T20:12:51.007347+00:00",
     "0xeDBf91223639800BCd5756815CAf908Df3b890bE": "2026-09-19T20:13:55.295082+00:00",
     "0x4d066AB4D924b7b3D01c6EcbFC142efe33AEb7FA": "2026-09-19T20:18:13.148642+00:00",
-    "0x9c50DCe3d88Bf74f828bFfFcA96efeB57A54e9e5": "2026-09-19T20:22:15.462646+00:00"
+    "0x9c50DCe3d88Bf74f828bFfFcA96efeB57A54e9e5": "2026-09-19T20:22:15.462646+00:00",
+    "0xbaE64d28832E3df1e1B1Fed51c92A4E64e4c67bE": "2026-09-19T20:32:42.410587+00:00",
+    "8R4ygXHZ2ztVR3vaYnJqa6zwEJHmkK3AavDd5aAgpump": "2026-09-19T20:32:43.097552+00:00",
+    "C8KYEyUKnxHsjUadTLTcyocFFBgFcwGRiGZBcG8PpN3K": "2026-09-19T20:32:44.164136+00:00"
   }
 }
