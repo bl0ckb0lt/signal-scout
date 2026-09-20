@@ -8,32 +8,14 @@
       "address": "4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump",
       "source": "new",
       "entry_price": 0.0002433,
-      "peak_price": 0.0004796,
+      "peak_price": 0.0005814,
       "trailing_active": true,
       "entry_time": "2026-09-19T23:41:06.123597+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 97.12,
-      "peak_volume_m5": 99745.1,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "SORRY",
-      "chain": "robinhood",
-      "address": "0x738907654efa51175328ccf94f4b1ed0c80a26c4",
-      "source": "new",
-      "entry_price": 0.001375,
-      "peak_price": 0.003552,
-      "trailing_active": true,
-      "entry_time": "2026-09-19T23:51:15.691865+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 158.33,
-      "peak_volume_m5": 210207.51,
+      "current_pct": 138.96,
+      "peak_volume_m5": 110544.98,
       "milestones_hit": [
         50,
         100
@@ -49,19 +31,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-20T00:01:01.290182+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "PumpPay",
-      "chain": "solana",
-      "address": "FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump",
-      "source": "new",
-      "entry_price": 0.0001057,
-      "peak_price": 0.0001057,
-      "trailing_active": false,
-      "entry_time": "2026-09-20T00:01:06.716448+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.36,
+      "peak_volume_m5": 92775.29,
+      "milestones_hit": []
     },
     {
       "symbol": "SUPER",
@@ -69,11 +43,15 @@
       "address": "0x7210afea4a4df412e9275a7153d091ce7612a55d",
       "source": "new",
       "entry_price": 0.0001104,
-      "peak_price": 0.0001104,
+      "peak_price": 0.0001158,
       "trailing_active": false,
       "entry_time": "2026-09-20T00:01:08.197979+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.89,
+      "peak_volume_m5": 36008.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -198307,6 +198285,47 @@
       "exit_price": 8.982e-05,
       "exit_pct": -37.97,
       "exit_time": "2026-09-19T23:32:44.451984+00:00"
+    },
+    {
+      "symbol": "SORRY",
+      "chain": "robinhood",
+      "address": "0x738907654efa51175328ccf94f4b1ed0c80a26c4",
+      "source": "new",
+      "entry_price": 0.001375,
+      "peak_price": 0.003552,
+      "trailing_active": true,
+      "entry_time": "2026-09-19T23:51:15.691865+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 103.93,
+      "peak_volume_m5": 228491.19,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.002804,
+      "exit_pct": 103.93,
+      "exit_time": "2026-09-20T00:02:04.873771+00:00"
+    },
+    {
+      "symbol": "PumpPay",
+      "chain": "solana",
+      "address": "FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump",
+      "source": "new",
+      "entry_price": 0.0001057,
+      "peak_price": 0.0001057,
+      "trailing_active": false,
+      "entry_time": "2026-09-20T00:01:06.716448+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.21,
+      "peak_volume_m5": 124117.86,
+      "milestones_hit": [],
+      "exit_price": 7.482e-05,
+      "exit_pct": -29.21,
+      "exit_time": "2026-09-20T00:02:06.112696+00:00"
     }
   ],
   "alerted": {
@@ -208357,6 +208376,8 @@
     "0xf6BaEcF57f8E37cb7a34185819D116ae2E91368c": "2026-09-19T23:25:14.665959+00:00",
     "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump": "2026-09-19T23:27:45.022731+00:00",
     "0xAca91881DEf5CA3C915dC25449Ae38DEF7f730B3": "2026-09-19T23:32:43.777724+00:00",
-    "8h4CNjYqV2jtewVvBw7v8DVmC8j6tE8uD5RYHrRVpump": "2026-09-19T23:32:44.451984+00:00"
+    "8h4CNjYqV2jtewVvBw7v8DVmC8j6tE8uD5RYHrRVpump": "2026-09-19T23:32:44.451984+00:00",
+    "0x738907654efa51175328ccf94f4b1ed0c80a26c4": "2026-09-20T00:02:04.873771+00:00",
+    "FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump": "2026-09-20T00:02:06.112696+00:00"
   }
 }
