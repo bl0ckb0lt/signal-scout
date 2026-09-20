@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VibeCat",
-      "chain": "solana",
-      "address": "6uE1KQsW1v6DgXFkKByPERRNxBGPCuz1DChX8Vyopump",
-      "source": "new",
-      "entry_price": 0.0002025,
-      "peak_price": 0.0002025,
-      "trailing_active": false,
-      "entry_time": "2026-09-20T14:21:03.737875+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "TYPING",
       "chain": "robinhood",
       "address": "0xfB1050682e982036C4e802f49355cC23fAD53e6C",
       "source": "new",
       "entry_price": 8.073e-07,
-      "peak_price": 8.073e-07,
-      "trailing_active": false,
+      "peak_price": 9.594e-07,
+      "trailing_active": true,
       "entry_time": "2026-09-20T14:21:05.157410+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.84,
+      "peak_volume_m5": 30358.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -199429,6 +199421,25 @@
       "exit_price": 4.249e-05,
       "exit_pct": -11.26,
       "exit_time": "2026-09-20T14:14:53.650148+00:00"
+    },
+    {
+      "symbol": "VibeCat",
+      "chain": "solana",
+      "address": "6uE1KQsW1v6DgXFkKByPERRNxBGPCuz1DChX8Vyopump",
+      "source": "new",
+      "entry_price": 0.0002025,
+      "peak_price": 0.0002025,
+      "trailing_active": false,
+      "entry_time": "2026-09-20T14:21:03.737875+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.8,
+      "peak_volume_m5": 67378.37,
+      "milestones_hit": [],
+      "exit_price": 0.0001705,
+      "exit_pct": -15.8,
+      "exit_time": "2026-09-20T14:22:30.995610+00:00"
     }
   ],
   "alerted": {
@@ -209539,6 +209550,7 @@
     "0xB716119C8d3b5fAebe39f824Aa52Ebfaf8FCec65": "2026-09-20T13:57:16.450879+00:00",
     "CVG9CZzGzGsdxaKcNdXQWpJsBYq2FpZgq4NbAQN7pump": "2026-09-20T14:09:03.839026+00:00",
     "0x354600C1489917CF2BB063Cd673b5ccC83a15D03": "2026-09-20T14:13:15.071213+00:00",
-    "0x3F9a427D4676F9519e6E1a6fC2bb3A0d11193eeF": "2026-09-20T14:14:53.650148+00:00"
+    "0x3F9a427D4676F9519e6E1a6fC2bb3A0d11193eeF": "2026-09-20T14:14:53.650148+00:00",
+    "6uE1KQsW1v6DgXFkKByPERRNxBGPCuz1DChX8Vyopump": "2026-09-20T14:22:30.995610+00:00"
   }
 }
