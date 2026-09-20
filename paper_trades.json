@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BUTTPLUG",
-      "chain": "robinhood",
-      "address": "0xBbb8B193ef916f883C9e6Cd8eDe6409eBC88581F",
-      "source": "new",
-      "entry_price": 4.619e-05,
-      "peak_price": 0.0001323,
-      "trailing_active": true,
-      "entry_time": "2026-09-20T09:41:06.274197+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 186.43,
-      "peak_volume_m5": 65134.73,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "PEPEDOOM",
       "chain": "arc",
       "address": "0x7C4A9Ef0d867DB271EC183cd04b7662158e78640",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-20T09:51:10.891734+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 5816.53,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -199110,6 +199095,28 @@
       "exit_price": 0.0001038,
       "exit_pct": 27.55,
       "exit_time": "2026-09-20T09:44:26.271630+00:00"
+    },
+    {
+      "symbol": "BUTTPLUG",
+      "chain": "robinhood",
+      "address": "0xBbb8B193ef916f883C9e6Cd8eDe6409eBC88581F",
+      "source": "new",
+      "entry_price": 4.619e-05,
+      "peak_price": 0.0001323,
+      "trailing_active": true,
+      "entry_time": "2026-09-20T09:41:06.274197+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 132.73,
+      "peak_volume_m5": 71453.48,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0001075,
+      "exit_pct": 132.73,
+      "exit_time": "2026-09-20T09:52:13.968233+00:00"
     }
   ],
   "alerted": {
@@ -209203,6 +209210,7 @@
     "0x1DF4a2f4851Fd3E0cfB7B7E01Af0Ef2e72B3C9Ba": "2026-09-20T09:34:22.760651+00:00",
     "0xEDd36794DecA4a06D1F9037c32a7edB06C7e78a7": "2026-09-20T09:42:42.438379+00:00",
     "0xEe78e86d3C4604e68a75B49b71a8A594aF7c5e9D": "2026-09-20T09:43:39.995687+00:00",
-    "0xdde8dc1f3b552E401e2817CD64faA2bd2bAcC570": "2026-09-20T09:44:26.271630+00:00"
+    "0xdde8dc1f3b552E401e2817CD64faA2bd2bAcC570": "2026-09-20T09:44:26.271630+00:00",
+    "0xBbb8B193ef916f883C9e6Cd8eDe6409eBC88581F": "2026-09-20T09:52:13.968233+00:00"
   }
 }
