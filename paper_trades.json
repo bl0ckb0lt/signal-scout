@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SPURDO",
-      "chain": "solana",
-      "address": "2oguDsc3BG5N7WdjaJtkeamij9VycCuyCnB455ZaJbXP",
-      "source": "new",
-      "entry_price": 9.693e-05,
-      "peak_price": 9.693e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-20T16:01:07.316492+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "STONKED",
       "chain": "solana",
       "address": "8fChf5inzm4KmE1kWtcGUPkhu7MZe2xYaTyTtjiU2sj",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-20T16:01:08.957964+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.29,
+      "peak_volume_m5": 39544.58,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -199692,6 +199684,25 @@
       "exit_price": 0.0003939,
       "exit_pct": 92.99,
       "exit_time": "2026-09-20T15:56:46.465380+00:00"
+    },
+    {
+      "symbol": "SPURDO",
+      "chain": "solana",
+      "address": "2oguDsc3BG5N7WdjaJtkeamij9VycCuyCnB455ZaJbXP",
+      "source": "new",
+      "entry_price": 9.693e-05,
+      "peak_price": 9.693e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-20T16:01:07.316492+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.37,
+      "peak_volume_m5": 12365.37,
+      "milestones_hit": [],
+      "exit_price": 7.234e-05,
+      "exit_pct": -25.37,
+      "exit_time": "2026-09-20T16:04:46.110182+00:00"
     }
   ],
   "alerted": {
@@ -209814,6 +209825,7 @@
     "0x301904cECAaEc7Df7a96Dc00c97Ea7612FeFf0e3": "2026-09-20T15:47:47.365530+00:00",
     "F8rFVpXYtsEchbAfKChpTKAjBbtVyCnpX2yy5i7Bpump": "2026-09-20T15:52:29.272298+00:00",
     "4QCKwhetNJ2Sd5xKhtmUYw5aC2rT9gKW2W72ix2Wpump": "2026-09-20T15:55:05.171887+00:00",
-    "BPcRPRaJ6yTnUCxY8uUtBqnzwzoJYKBbQVZTWvSLpump": "2026-09-20T15:56:46.465380+00:00"
+    "BPcRPRaJ6yTnUCxY8uUtBqnzwzoJYKBbQVZTWvSLpump": "2026-09-20T15:56:46.465380+00:00",
+    "2oguDsc3BG5N7WdjaJtkeamij9VycCuyCnB455ZaJbXP": "2026-09-20T16:04:46.110182+00:00"
   }
 }
