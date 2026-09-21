@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Laya",
-      "chain": "robinhood",
-      "address": "0x7695EeA0B33195317dB10438E3b7dF97BfD240F9",
-      "source": "new",
-      "entry_price": 9.981e-05,
-      "peak_price": 9.981e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-21T19:21:08.995261+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "AI",
       "chain": "robinhood",
       "address": "0x42a663fBF6C9877801CF4e66A6Ae0650689c991F",
       "source": "new",
       "entry_price": 0.0004884,
-      "peak_price": 0.0004884,
+      "peak_price": 0.0005541,
       "trailing_active": false,
       "entry_time": "2026-09-21T19:21:10.386270+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.45,
+      "peak_volume_m5": 37463.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -201668,6 +201660,25 @@
       "exit_price": 0.0001021,
       "exit_pct": -54.62,
       "exit_time": "2026-09-21T18:26:44.021740+00:00"
+    },
+    {
+      "symbol": "Laya",
+      "chain": "robinhood",
+      "address": "0x7695EeA0B33195317dB10438E3b7dF97BfD240F9",
+      "source": "new",
+      "entry_price": 9.981e-05,
+      "peak_price": 9.981e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-21T19:21:08.995261+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.76,
+      "peak_volume_m5": 9762.1,
+      "milestones_hit": [],
+      "exit_price": 8.508e-05,
+      "exit_pct": -14.76,
+      "exit_time": "2026-09-21T19:24:36.482186+00:00"
     }
   ],
   "alerted": {
@@ -211891,6 +211902,7 @@
     "0xa53718A3B7B5Aa88265Efd7c0738e73FBaF8a775": "2026-09-21T17:56:39.604064+00:00",
     "0xe47A6c4f082f6a2b49D20eaCA35F8d4583651f4d": "2026-09-21T18:04:57.717517+00:00",
     "0xee2C5c0f2dd1e3Eb80487F0Eb393746349017777": "2026-09-21T18:23:57.176850+00:00",
-    "0x334Edf3fDe46F2ad70C10f3724b779d39d466C6E": "2026-09-21T18:26:44.021740+00:00"
+    "0x334Edf3fDe46F2ad70C10f3724b779d39d466C6E": "2026-09-21T18:26:44.021740+00:00",
+    "0x7695EeA0B33195317dB10438E3b7dF97BfD240F9": "2026-09-21T19:24:36.482186+00:00"
   }
 }
