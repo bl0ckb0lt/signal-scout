@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "POCKA",
-      "chain": "robinhood",
-      "address": "0x4d810d6d1b34eeCD3f5529E8597234768e44bbDa",
-      "source": "new",
-      "entry_price": 2.197e-06,
-      "peak_price": 6.198e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-21T05:01:02.059306+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 182.11,
-      "peak_volume_m5": 368247.51,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Stamp",
       "chain": "robinhood",
       "address": "0x893694eFb3709466b538d083D2D1b92b5807E5c2",
       "source": "new",
       "entry_price": 4.701e-05,
-      "peak_price": 4.701e-05,
+      "peak_price": 5.033e-05,
       "trailing_active": false,
       "entry_time": "2026-09-21T05:21:07.916224+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.06,
+      "peak_volume_m5": 17973.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -200513,6 +200498,28 @@
       "exit_price": 0.000309,
       "exit_pct": -17.0,
       "exit_time": "2026-09-21T04:52:30.341676+00:00"
+    },
+    {
+      "symbol": "POCKA",
+      "chain": "robinhood",
+      "address": "0x4d810d6d1b34eeCD3f5529E8597234768e44bbDa",
+      "source": "new",
+      "entry_price": 2.197e-06,
+      "peak_price": 6.198e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-21T05:01:02.059306+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 166.36,
+      "peak_volume_m5": 368247.51,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 5.852e-06,
+      "exit_pct": 166.36,
+      "exit_time": "2026-09-21T05:22:09.607995+00:00"
     }
   ],
   "alerted": {
@@ -210677,6 +210684,7 @@
     "0x2bf4d200a7e185A1E19555cA09fFca87fC552304": "2026-09-21T03:17:04.535459+00:00",
     "0xe5395Dc21Ea46B5E16209c4Deaba97E40f781f1C": "2026-09-21T03:19:01.995814+00:00",
     "0x674fFB50DBa9eE1505FF319FC7817731cE79137C": "2026-09-21T04:26:15.366997+00:00",
-    "0x9aDf7eE0f57cCEeC8A38A2418C591FaCA83Ae5e6": "2026-09-21T04:52:30.341676+00:00"
+    "0x9aDf7eE0f57cCEeC8A38A2418C591FaCA83Ae5e6": "2026-09-21T04:52:30.341676+00:00",
+    "0x4d810d6d1b34eeCD3f5529E8597234768e44bbDa": "2026-09-21T05:22:09.607995+00:00"
   }
 }
