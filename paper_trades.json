@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SQUINT",
-      "chain": "bsc",
-      "address": "0xbBD2585Ffc9dAfCF0D88c346C2653f41d1aD9Ca0",
-      "source": "new",
-      "entry_price": 0.0001123,
-      "peak_price": 0.0001123,
-      "trailing_active": false,
-      "entry_time": "2026-09-21T15:41:06.440043+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "WAVECOREE",
       "chain": "robinhood",
       "address": "0xb3157FD839DD6302d33E409feF6ffa0C02478700",
       "source": "new",
       "entry_price": 6.515e-07,
-      "peak_price": 6.515e-07,
-      "trailing_active": false,
+      "peak_price": 7.5e-07,
+      "trailing_active": true,
       "entry_time": "2026-09-21T15:41:07.817605+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.12,
+      "peak_volume_m5": 31977.6,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -201257,6 +201249,25 @@
       "exit_price": 9.439e-05,
       "exit_pct": -5.8,
       "exit_time": "2026-09-21T15:39:22.253478+00:00"
+    },
+    {
+      "symbol": "SQUINT",
+      "chain": "bsc",
+      "address": "0xbBD2585Ffc9dAfCF0D88c346C2653f41d1aD9Ca0",
+      "source": "new",
+      "entry_price": 0.0001123,
+      "peak_price": 0.0001123,
+      "trailing_active": false,
+      "entry_time": "2026-09-21T15:41:06.440043+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -100.0,
+      "peak_volume_m5": 145864.84,
+      "milestones_hit": [],
+      "exit_price": 1.783e-24,
+      "exit_pct": -100.0,
+      "exit_time": "2026-09-21T15:42:11.633169+00:00"
     }
   ],
   "alerted": {
@@ -211459,6 +211470,7 @@
     "0xa1E6b23bFf315cDf8e410735f9814051bAE5fe71": "2026-09-21T15:07:18.137389+00:00",
     "0x09dAbd5D2f4196fBC39FAd8D86060a4B539c9d80": "2026-09-21T15:23:53.523632+00:00",
     "0xF0f7b16ab8A70cd1446d939d8271Ef9b5F2e71C5": "2026-09-21T15:26:48.532748+00:00",
-    "0x454368e3c47295E0542174E243A480419C0DE3C4": "2026-09-21T15:39:22.253478+00:00"
+    "0x454368e3c47295E0542174E243A480419C0DE3C4": "2026-09-21T15:39:22.253478+00:00",
+    "0xbBD2585Ffc9dAfCF0D88c346C2653f41d1aD9Ca0": "2026-09-21T15:42:11.633169+00:00"
   }
 }
