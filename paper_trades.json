@@ -8,23 +8,15 @@
       "address": "0x842B9Cf519C9919D4B09037487F0742dEFd50Cd3",
       "source": "new",
       "entry_price": 6.309e-05,
-      "peak_price": 6.309e-05,
+      "peak_price": 6.942e-05,
       "trailing_active": false,
       "entry_time": "2026-09-21T09:31:03.735535+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "JLab",
-      "chain": "robinhood",
-      "address": "0xBE363A46e0ADB0111a512b57c6006a70A2a0d6F6",
-      "source": "new",
-      "entry_price": 0.0001049,
-      "peak_price": 0.0001049,
-      "trailing_active": false,
-      "entry_time": "2026-09-21T09:31:05.131762+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.03,
+      "peak_volume_m5": 11335.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -200729,6 +200721,29 @@
       "exit_price": 0.0001152,
       "exit_pct": -17.48,
       "exit_time": "2026-09-21T08:34:41.126365+00:00"
+    },
+    {
+      "symbol": "JLab",
+      "chain": "robinhood",
+      "address": "0xBE363A46e0ADB0111a512b57c6006a70A2a0d6F6",
+      "source": "new",
+      "entry_price": 0.0001049,
+      "peak_price": 0.0005502,
+      "trailing_active": true,
+      "entry_time": "2026-09-21T09:31:05.131762+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 424.5,
+      "peak_volume_m5": 213728.04,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005502,
+      "exit_pct": 424.5,
+      "exit_time": "2026-09-21T09:35:21.895842+00:00"
     }
   ],
   "alerted": {
@@ -210904,6 +210919,7 @@
     "0x6477C2Ac78062628e7BF8FD618244b702C847061": "2026-09-21T08:01:53.341378+00:00",
     "0xFcA2E51C9980bc8682F9D7f1F6F49fD1219bcf81": "2026-09-21T08:07:28.291393+00:00",
     "0x108876C3df3d893350e9B780563B3697aa3E7777": "2026-09-21T08:32:52.534414+00:00",
-    "0x7fad338d25287816c03e204505cbb8fca17a6e75": "2026-09-21T08:34:41.126365+00:00"
+    "0x7fad338d25287816c03e204505cbb8fca17a6e75": "2026-09-21T08:34:41.126365+00:00",
+    "0xBE363A46e0ADB0111a512b57c6006a70A2a0d6F6": "2026-09-21T09:35:21.895842+00:00"
   }
 }
