@@ -8,13 +8,13 @@
       "address": "0xb200000000000000000000B0C26f36fba0B03106",
       "source": "new",
       "entry_price": 9.448e-05,
-      "peak_price": 0.0001152,
+      "peak_price": 0.0001237,
       "trailing_active": true,
       "entry_time": "2026-09-22T13:31:14.622898+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.93,
+      "current_pct": 30.93,
       "peak_volume_m5": 8820.8,
       "milestones_hit": []
     },
@@ -24,11 +24,15 @@
       "address": "0x55683371036401F8CaE676c260EFCDe9bE36a7f4",
       "source": "new",
       "entry_price": 0.002557,
-      "peak_price": 0.002557,
-      "trailing_active": false,
+      "peak_price": 0.003393,
+      "trailing_active": true,
       "entry_time": "2026-09-22T14:31:15.022026+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 32.69,
+      "peak_volume_m5": 70588.12,
+      "milestones_hit": []
     },
     {
       "symbol": "SNAIL",
@@ -36,23 +40,15 @@
       "address": "0xAF7EA9fFdc00d232A3f6d4F042eBffDa50b01110",
       "source": "new",
       "entry_price": 0.000139,
-      "peak_price": 0.000139,
-      "trailing_active": false,
+      "peak_price": 0.0001955,
+      "trailing_active": true,
       "entry_time": "2026-09-22T14:31:16.366727+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "QED",
-      "chain": "bsc",
-      "address": "0xcf9aB713A2472b79f10a23f2f41B3311A0257777",
-      "source": "new",
-      "entry_price": 0.0001158,
-      "peak_price": 0.0001158,
-      "trailing_active": false,
-      "entry_time": "2026-09-22T14:31:18.122879+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 40.65,
+      "peak_volume_m5": 180137.57,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -203016,6 +203012,25 @@
       "exit_price": 0.002891,
       "exit_pct": -8.02,
       "exit_time": "2026-09-22T14:02:55.463976+00:00"
+    },
+    {
+      "symbol": "QED",
+      "chain": "bsc",
+      "address": "0xcf9aB713A2472b79f10a23f2f41B3311A0257777",
+      "source": "new",
+      "entry_price": 0.0001158,
+      "peak_price": 0.0001158,
+      "trailing_active": false,
+      "entry_time": "2026-09-22T14:31:18.122879+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -40.85,
+      "peak_volume_m5": 74565.52,
+      "milestones_hit": [],
+      "exit_price": 6.849e-05,
+      "exit_pct": -40.85,
+      "exit_time": "2026-09-22T14:34:37.258119+00:00"
     }
   ],
   "alerted": {
@@ -213302,6 +213317,7 @@
     "0xC8D8d13Eea8a47bC265f4f26c8B5b72425b611C2": "2026-09-22T13:22:54.838828+00:00",
     "0x1cde8ED6aa84468BfbEd56dEacC264C7C1bB7777": "2026-09-22T13:23:49.985492+00:00",
     "0x5B9678d0248a923cf9386a1654Eb160A3856563b": "2026-09-22T13:24:49.357932+00:00",
-    "0x95E7b9B1BDB96748CdfDC2Efe1234f849B6136Ed": "2026-09-22T14:02:55.463976+00:00"
+    "0x95E7b9B1BDB96748CdfDC2Efe1234f849B6136Ed": "2026-09-22T14:02:55.463976+00:00",
+    "0xcf9aB713A2472b79f10a23f2f41B3311A0257777": "2026-09-22T14:34:37.258119+00:00"
   }
 }
