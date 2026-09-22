@@ -8,27 +8,15 @@
       "address": "0xb200000000000000000000B0C26f36fba0B03106",
       "source": "new",
       "entry_price": 9.448e-05,
-      "peak_price": 0.0001037,
+      "peak_price": 0.0001065,
       "trailing_active": false,
       "entry_time": "2026-09-22T13:31:14.622898+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.81,
+      "current_pct": 12.72,
       "peak_volume_m5": 6780.79,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BTC",
-      "chain": "robinhood",
-      "address": "0x95E7b9B1BDB96748CdfDC2Efe1234f849B6136Ed",
-      "source": "new",
-      "entry_price": 0.003143,
-      "peak_price": 0.003143,
-      "trailing_active": false,
-      "entry_time": "2026-09-22T14:01:12.071972+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -202973,6 +202961,25 @@
       "exit_price": 0.0002292,
       "exit_pct": 25.18,
       "exit_time": "2026-09-22T13:24:49.357932+00:00"
+    },
+    {
+      "symbol": "BTC",
+      "chain": "robinhood",
+      "address": "0x95E7b9B1BDB96748CdfDC2Efe1234f849B6136Ed",
+      "source": "new",
+      "entry_price": 0.003143,
+      "peak_price": 0.003143,
+      "trailing_active": false,
+      "entry_time": "2026-09-22T14:01:12.071972+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.02,
+      "peak_volume_m5": 88301.96,
+      "milestones_hit": [],
+      "exit_price": 0.002891,
+      "exit_pct": -8.02,
+      "exit_time": "2026-09-22T14:02:55.463976+00:00"
     }
   ],
   "alerted": {
@@ -213258,6 +213265,7 @@
     "0xcF038Da01F2456781707F6f7ea7BfEB5C643c80b": "2026-09-22T12:52:23.193969+00:00",
     "0xC8D8d13Eea8a47bC265f4f26c8B5b72425b611C2": "2026-09-22T13:22:54.838828+00:00",
     "0x1cde8ED6aa84468BfbEd56dEacC264C7C1bB7777": "2026-09-22T13:23:49.985492+00:00",
-    "0x5B9678d0248a923cf9386a1654Eb160A3856563b": "2026-09-22T13:24:49.357932+00:00"
+    "0x5B9678d0248a923cf9386a1654Eb160A3856563b": "2026-09-22T13:24:49.357932+00:00",
+    "0x95E7b9B1BDB96748CdfDC2Efe1234f849B6136Ed": "2026-09-22T14:02:55.463976+00:00"
   }
 }
