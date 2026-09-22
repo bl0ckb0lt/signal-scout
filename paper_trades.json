@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SRI",
-      "chain": "solana",
-      "address": "GCUvCs5nGtdmDrEaCuJPMH2Mf7Dv11YotTd4HNdaFF1t",
-      "source": "new",
-      "entry_price": 0.0001137,
-      "peak_price": 0.0001137,
-      "trailing_active": false,
-      "entry_time": "2026-09-22T23:41:44.867116+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "EMPLOYIM",
       "chain": "solana",
       "address": "6i9FXZMb4u84Wisa81RKiDtJP5ToQ1jkxr3Evqzr1yhv",
       "source": "new",
       "entry_price": 0.0001748,
-      "peak_price": 0.0001748,
-      "trailing_active": false,
+      "peak_price": 0.0002083,
+      "trailing_active": true,
       "entry_time": "2026-09-22T23:41:46.476041+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.16,
+      "peak_volume_m5": 5132.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -203920,6 +203912,25 @@
       "exit_price": 0.0001221,
       "exit_pct": -28.22,
       "exit_time": "2026-09-22T23:32:04.532783+00:00"
+    },
+    {
+      "symbol": "SRI",
+      "chain": "solana",
+      "address": "GCUvCs5nGtdmDrEaCuJPMH2Mf7Dv11YotTd4HNdaFF1t",
+      "source": "new",
+      "entry_price": 0.0001137,
+      "peak_price": 0.0001137,
+      "trailing_active": false,
+      "entry_time": "2026-09-22T23:41:44.867116+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.07,
+      "peak_volume_m5": 81157.25,
+      "milestones_hit": [],
+      "exit_price": 6.7e-05,
+      "exit_pct": -41.07,
+      "exit_time": "2026-09-22T23:42:53.827256+00:00"
     }
   ],
   "alerted": {
@@ -214252,6 +214263,7 @@
     "0x0655223d8f280Bb01fb8B30E98435bb347F6E490": "2026-09-22T22:52:04.713244+00:00",
     "0x7b1bC24c88DA4919900318e4DdDCE8D06F7B02b5": "2026-09-22T23:07:01.082172+00:00",
     "0x169a0739C6DbE1C25eE4319F9A8Ce41b14FCf2e8": "2026-09-22T23:32:03.874715+00:00",
-    "0x3d2882D6d9B006cf805345910B7f9F37F4bB7777": "2026-09-22T23:32:04.532783+00:00"
+    "0x3d2882D6d9B006cf805345910B7f9F37F4bB7777": "2026-09-22T23:32:04.532783+00:00",
+    "GCUvCs5nGtdmDrEaCuJPMH2Mf7Dv11YotTd4HNdaFF1t": "2026-09-22T23:42:53.827256+00:00"
   }
 }
