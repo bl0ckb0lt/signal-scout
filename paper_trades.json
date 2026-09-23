@@ -40,23 +40,15 @@
       "address": "2jcvq8QcJ8TzEYJKYMCjR61kXVSzib4mEkz89tQxpump",
       "source": "new",
       "entry_price": 0.0001144,
-      "peak_price": 0.0001144,
-      "trailing_active": false,
+      "peak_price": 0.0001394,
+      "trailing_active": true,
       "entry_time": "2026-09-23T09:31:12.193728+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "CAPYTL",
-      "chain": "robinhood",
-      "address": "0xE5D808900343c08c8c464aeE9196f07D6AFf92CA",
-      "source": "new",
-      "entry_price": 9.338e-07,
-      "peak_price": 9.338e-07,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T09:31:13.665588+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.85,
+      "peak_volume_m5": 14308.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -205016,6 +205008,29 @@
       "exit_price": 0.0006088,
       "exit_pct": -9.23,
       "exit_time": "2026-09-23T08:52:36.304598+00:00"
+    },
+    {
+      "symbol": "CAPYTL",
+      "chain": "robinhood",
+      "address": "0xE5D808900343c08c8c464aeE9196f07D6AFf92CA",
+      "source": "new",
+      "entry_price": 9.338e-07,
+      "peak_price": 3.332e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-23T09:31:13.665588+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 256.82,
+      "peak_volume_m5": 197072.71,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 3.332e-06,
+      "exit_pct": 256.82,
+      "exit_time": "2026-09-23T09:41:15.229897+00:00"
     }
   ],
   "alerted": {
@@ -215401,6 +215416,7 @@
     "0x8AF36f328dDA56ee8764e4a808197761Dd1cdc5d": "2026-09-23T08:30:54.881195+00:00",
     "2ySjQh2LL8msX5ppfE1ZFenQVWK5QAmmznukQWbNpump": "2026-09-23T08:44:23.337882+00:00",
     "0xD136b862eBbb1BD362a637eD67B7b0Efe1052e7F": "2026-09-23T08:47:00.096471+00:00",
-    "GkBZGFgNy9Q6jHjBuYeTqsvugfEMhniACF9ieV8H3TtC": "2026-09-23T08:52:36.304598+00:00"
+    "GkBZGFgNy9Q6jHjBuYeTqsvugfEMhniACF9ieV8H3TtC": "2026-09-23T08:52:36.304598+00:00",
+    "0xE5D808900343c08c8c464aeE9196f07D6AFf92CA": "2026-09-23T09:41:15.229897+00:00"
   }
 }
