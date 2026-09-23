@@ -30,21 +30,9 @@
       "score": 93,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 23.36,
+      "current_pct": 17.22,
       "peak_volume_m5": 75296.65,
       "milestones_hit": []
-    },
-    {
-      "symbol": "SI",
-      "chain": "solana",
-      "address": "9cNFxUmBVciKfd2fqAGvT8JLXH2YvWtvNQa6tN7Ypump",
-      "source": "new",
-      "entry_price": 0.0001584,
-      "peak_price": 0.0001584,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T18:01:21.784997+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "SSI",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-23T18:01:23.164368+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.89,
+      "peak_volume_m5": 35211.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -206217,6 +206209,25 @@
       "exit_price": 0.000402,
       "exit_pct": -24.69,
       "exit_time": "2026-09-23T17:58:56.527487+00:00"
+    },
+    {
+      "symbol": "SI",
+      "chain": "solana",
+      "address": "9cNFxUmBVciKfd2fqAGvT8JLXH2YvWtvNQa6tN7Ypump",
+      "source": "new",
+      "entry_price": 0.0001584,
+      "peak_price": 0.0001584,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T18:01:21.784997+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.28,
+      "peak_volume_m5": 21082.54,
+      "milestones_hit": [],
+      "exit_price": 0.0001342,
+      "exit_pct": -15.28,
+      "exit_time": "2026-09-23T18:02:55.411952+00:00"
     }
   ],
   "alerted": {
@@ -216663,6 +216674,7 @@
     "MadVLQYW7VUzfMdMDHuS3UVgJSNUQGwvobYgYZxpqp6": "2026-09-23T17:42:54.303099+00:00",
     "0x544e12cc50428DdADfC1D40E5808f7D2D27d1e18": "2026-09-23T17:43:57.572277+00:00",
     "0xe34f03f4F36E842C8817Ac635162A2cc67E03C8a": "2026-09-23T17:52:14.485788+00:00",
-    "HhXe2PbtXQHzZ5Ch46MBXf7rEbMgnYsCGaEhktyKGZNT": "2026-09-23T17:58:56.527487+00:00"
+    "HhXe2PbtXQHzZ5Ch46MBXf7rEbMgnYsCGaEhktyKGZNT": "2026-09-23T17:58:56.527487+00:00",
+    "9cNFxUmBVciKfd2fqAGvT8JLXH2YvWtvNQa6tN7Ypump": "2026-09-23T18:02:55.411952+00:00"
   }
 }
