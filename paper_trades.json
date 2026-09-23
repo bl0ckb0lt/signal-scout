@@ -46,7 +46,7 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.86,
+      "current_pct": 1.55,
       "peak_volume_m5": 14200.92,
       "milestones_hit": []
     },
@@ -56,23 +56,15 @@
       "address": "0xb2000000000000000000001951F23fE6F338AeA8",
       "source": "new",
       "entry_price": 9.579e-05,
-      "peak_price": 9.579e-05,
+      "peak_price": 0.0001011,
       "trailing_active": false,
       "entry_time": "2026-09-23T13:11:20.273743+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "HATCH",
-      "chain": "robinhood",
-      "address": "0xf6c53734FB24CA414Bf1549530f0C8E447eE24e0",
-      "source": "boost",
-      "entry_price": 0.000155,
-      "peak_price": 0.000155,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T13:11:21.602993+00:00",
-      "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.54,
+      "peak_volume_m5": 6842.47,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -205325,6 +205317,25 @@
       "exit_price": 8.164e-05,
       "exit_pct": -37.73,
       "exit_time": "2026-09-23T13:04:56.609266+00:00"
+    },
+    {
+      "symbol": "HATCH",
+      "chain": "robinhood",
+      "address": "0xf6c53734FB24CA414Bf1549530f0C8E447eE24e0",
+      "source": "boost",
+      "entry_price": 0.000155,
+      "peak_price": 0.000155,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T13:11:21.602993+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.0,
+      "peak_volume_m5": 14644.65,
+      "milestones_hit": [],
+      "exit_price": 0.0001457,
+      "exit_pct": -6.0,
+      "exit_time": "2026-09-23T13:20:11.968703+00:00"
     }
   ],
   "alerted": {
@@ -215725,6 +215736,7 @@
     "QrevJp2pxTYFe39SiZfGJ3koUffLtuSNdxLf2ymV8Y5": "2026-09-23T12:02:58.519096+00:00",
     "nearpad-99d601.nearpadfamily.near": "2026-09-23T12:57:03.426250+00:00",
     "0xca58DbDb0876F581b812c44C97aF7f340A5EcD65": "2026-09-23T13:03:57.414463+00:00",
-    "CFgYFu6zJRAbSTpcaL8fXb56KRtxF9cQVZnBq1vQpump": "2026-09-23T13:04:56.609266+00:00"
+    "CFgYFu6zJRAbSTpcaL8fXb56KRtxF9cQVZnBq1vQpump": "2026-09-23T13:04:56.609266+00:00",
+    "0xf6c53734FB24CA414Bf1549530f0C8E447eE24e0": "2026-09-23T13:20:11.968703+00:00"
   }
 }
