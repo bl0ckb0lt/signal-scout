@@ -19,30 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SRI",
-      "chain": "robinhood",
-      "address": "0xeC1F4E3D8B56cA94dc4b6C19eB354bEE60ce98d5",
-      "source": "new",
-      "entry_price": 0.0002665,
-      "peak_price": 0.0002665,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T00:21:04.147229+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "MAX",
-      "chain": "hyperevm",
-      "address": "0xC85aB8421c32d5f7620fe11358AD5BB5F29C1be3",
-      "source": "new",
-      "entry_price": 7.02e-05,
-      "peak_price": 7.02e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T00:21:05.533892+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "Archi",
       "chain": "solana",
       "address": "6Wr7KF4F1NZ3cMxCQzaSr3kEha2uLnCYKbEC3MD5pump",
@@ -52,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-23T00:21:07.329928+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "LAYERS",
-      "chain": "solana",
-      "address": "25WqFGy3G86FvhrHEW9C16CchKT7ehLKq3pUXAdYpump",
-      "source": "new",
-      "entry_price": 0.0001447,
-      "peak_price": 0.0001447,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T00:21:09.136616+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.42,
+      "peak_volume_m5": 16702.38,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -204023,6 +203991,63 @@
       "exit_price": 4.127e-05,
       "exit_pct": -78.87,
       "exit_time": "2026-09-23T00:09:20.416591+00:00"
+    },
+    {
+      "symbol": "SRI",
+      "chain": "robinhood",
+      "address": "0xeC1F4E3D8B56cA94dc4b6C19eB354bEE60ce98d5",
+      "source": "new",
+      "entry_price": 0.0002665,
+      "peak_price": 0.0002665,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T00:21:04.147229+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.07,
+      "peak_volume_m5": 100196.42,
+      "milestones_hit": [],
+      "exit_price": 0.000245,
+      "exit_pct": -8.07,
+      "exit_time": "2026-09-23T00:22:44.424360+00:00"
+    },
+    {
+      "symbol": "MAX",
+      "chain": "hyperevm",
+      "address": "0xC85aB8421c32d5f7620fe11358AD5BB5F29C1be3",
+      "source": "new",
+      "entry_price": 7.02e-05,
+      "peak_price": 7.02e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T00:21:05.533892+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.56,
+      "peak_volume_m5": 15119.11,
+      "milestones_hit": [],
+      "exit_price": 5.928e-05,
+      "exit_pct": -15.56,
+      "exit_time": "2026-09-23T00:22:45.181443+00:00"
+    },
+    {
+      "symbol": "LAYERS",
+      "chain": "solana",
+      "address": "25WqFGy3G86FvhrHEW9C16CchKT7ehLKq3pUXAdYpump",
+      "source": "new",
+      "entry_price": 0.0001447,
+      "peak_price": 0.0001447,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T00:21:09.136616+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -62.17,
+      "peak_volume_m5": 191233.75,
+      "milestones_hit": [],
+      "exit_price": 5.474e-05,
+      "exit_pct": -62.17,
+      "exit_time": "2026-09-23T00:22:46.368170+00:00"
     }
   ],
   "alerted": {
@@ -214359,6 +214384,9 @@
     "GCUvCs5nGtdmDrEaCuJPMH2Mf7Dv11YotTd4HNdaFF1t": "2026-09-22T23:42:53.827256+00:00",
     "6i9FXZMb4u84Wisa81RKiDtJP5ToQ1jkxr3Evqzr1yhv": "2026-09-22T23:46:51.445423+00:00",
     "0x1A1aB9cBD4E6e8Fe679dBc4F3bb211BD31d31E41": "2026-09-23T00:05:51.395740+00:00",
-    "0xf9d89cE0b2eA9A9386926c08BD99BEbe337CB263": "2026-09-23T00:09:20.416591+00:00"
+    "0xf9d89cE0b2eA9A9386926c08BD99BEbe337CB263": "2026-09-23T00:09:20.416591+00:00",
+    "0xeC1F4E3D8B56cA94dc4b6C19eB354bEE60ce98d5": "2026-09-23T00:22:44.424360+00:00",
+    "0xC85aB8421c32d5f7620fe11358AD5BB5F29C1be3": "2026-09-23T00:22:45.181443+00:00",
+    "25WqFGy3G86FvhrHEW9C16CchKT7ehLKq3pUXAdYpump": "2026-09-23T00:22:46.368170+00:00"
   }
 }
