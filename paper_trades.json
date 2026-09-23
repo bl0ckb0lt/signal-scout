@@ -19,34 +19,18 @@
       "milestones_hit": []
     },
     {
-      "symbol": "RHD",
-      "chain": "robinhood",
-      "address": "0xEfB83db0aC3E837B8FC55F0f5117b59C5B7c3Ac2",
-      "source": "new",
-      "entry_price": 0.0009191,
-      "peak_price": 0.0009191,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T22:01:15.994728+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.15,
-      "peak_volume_m5": 120807.57,
-      "milestones_hit": []
-    },
-    {
       "symbol": "$GULL",
       "chain": "solana",
       "address": "XQvVFz2jrrqFvhdG4NRd2o9xCQci9Xn9nGYVumBpump",
       "source": "new",
       "entry_price": 0.001119,
-      "peak_price": 0.001187,
+      "peak_price": 0.001279,
       "trailing_active": false,
       "entry_time": "2026-09-23T22:01:19.160756+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.08,
+      "current_pct": 14.3,
       "peak_volume_m5": 6852.0,
       "milestones_hit": []
     },
@@ -56,31 +40,17 @@
       "address": "rGejF4pz1XW6DftreGqtMqhi1R2uYiSJe9sewTTQTnu",
       "source": "new",
       "entry_price": 0.0001009,
-      "peak_price": 0.0001453,
+      "peak_price": 0.0001593,
       "trailing_active": true,
       "entry_time": "2026-09-23T22:01:21.288147+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 44.0,
-      "peak_volume_m5": 101021.62,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SCATE",
-      "chain": "solana",
-      "address": "euwCqqdorT6VCYgQjVg9jeT3dpXvjuv86EGQtBVpump",
-      "source": "new",
-      "entry_price": 0.0001058,
-      "peak_price": 0.0001156,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T22:01:22.995786+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 9.26,
-      "peak_volume_m5": 9609.0,
-      "milestones_hit": []
+      "current_pct": 57.88,
+      "peak_volume_m5": 123526.28,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -206819,6 +206789,44 @@
       "exit_price": 7.366e-05,
       "exit_pct": -25.14,
       "exit_time": "2026-09-23T22:02:27.408530+00:00"
+    },
+    {
+      "symbol": "RHD",
+      "chain": "robinhood",
+      "address": "0xEfB83db0aC3E837B8FC55F0f5117b59C5B7c3Ac2",
+      "source": "new",
+      "entry_price": 0.0009191,
+      "peak_price": 0.0009191,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T22:01:15.994728+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.08,
+      "peak_volume_m5": 120807.57,
+      "milestones_hit": [],
+      "exit_price": 0.0008356,
+      "exit_pct": -9.08,
+      "exit_time": "2026-09-23T22:03:32.639847+00:00"
+    },
+    {
+      "symbol": "SCATE",
+      "chain": "solana",
+      "address": "euwCqqdorT6VCYgQjVg9jeT3dpXvjuv86EGQtBVpump",
+      "source": "new",
+      "entry_price": 0.0001058,
+      "peak_price": 0.0001156,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T22:01:22.995786+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -97.59,
+      "peak_volume_m5": 20243.56,
+      "milestones_hit": [],
+      "exit_price": 2.552e-06,
+      "exit_pct": -97.59,
+      "exit_time": "2026-09-23T22:03:34.577792+00:00"
     }
   ],
   "alerted": {
@@ -217295,6 +217303,8 @@
     "H2jAV8NJR9eRLQLysiLqfrC1aHW9cYV3n7A49vj9pump": "2026-09-23T21:48:56.020824+00:00",
     "0xb200000000000000000000aD822dC9282eBE66Ed": "2026-09-23T21:52:16.603653+00:00",
     "0x047d4F93045292Bdc2cc7CED1EcF71dD12377777": "2026-09-23T21:58:10.997972+00:00",
-    "0x397397667BE18fC535d2CD628552c9ff8391c118": "2026-09-23T22:02:27.408530+00:00"
+    "0x397397667BE18fC535d2CD628552c9ff8391c118": "2026-09-23T22:02:27.408530+00:00",
+    "0xEfB83db0aC3E837B8FC55F0f5117b59C5B7c3Ac2": "2026-09-23T22:03:32.639847+00:00",
+    "euwCqqdorT6VCYgQjVg9jeT3dpXvjuv86EGQtBVpump": "2026-09-23T22:03:34.577792+00:00"
   }
 }
