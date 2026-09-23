@@ -35,28 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "musejak",
-      "chain": "solana",
-      "address": "2ySjQh2LL8msX5ppfE1ZFenQVWK5QAmmznukQWbNpump",
-      "source": "new",
-      "entry_price": 0.000279,
-      "peak_price": 0.000279,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T08:41:18.668035+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "SHIB",
       "chain": "robinhood",
       "address": "0xD136b862eBbb1BD362a637eD67B7b0Efe1052e7F",
       "source": "new",
       "entry_price": 0.002296,
-      "peak_price": 0.002296,
-      "trailing_active": false,
+      "peak_price": 0.002981,
+      "trailing_active": true,
       "entry_time": "2026-09-23T08:41:20.228009+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.83,
+      "peak_volume_m5": 207902.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -204959,6 +204951,25 @@
       "exit_price": 8.588e-05,
       "exit_pct": -60.22,
       "exit_time": "2026-09-23T08:30:54.881195+00:00"
+    },
+    {
+      "symbol": "musejak",
+      "chain": "solana",
+      "address": "2ySjQh2LL8msX5ppfE1ZFenQVWK5QAmmznukQWbNpump",
+      "source": "new",
+      "entry_price": 0.000279,
+      "peak_price": 0.000279,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T08:41:18.668035+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.19,
+      "peak_volume_m5": 125786.91,
+      "milestones_hit": [],
+      "exit_price": 0.0002394,
+      "exit_pct": -14.19,
+      "exit_time": "2026-09-23T08:44:23.337882+00:00"
     }
   ],
   "alerted": {
@@ -215341,6 +215352,7 @@
     "0xECa7C682fbb32EC4F1B3bBb28791Fe184D3552A8": "2026-09-23T07:46:31.709722+00:00",
     "0x309030687a2a446aB83655520C6cE8F95D65C56B": "2026-09-23T08:02:17.286113+00:00",
     "0x9d2a08c3FC38f51c3A9dfF56fa552F884e78659E": "2026-09-23T08:05:15.442346+00:00",
-    "0x8AF36f328dDA56ee8764e4a808197761Dd1cdc5d": "2026-09-23T08:30:54.881195+00:00"
+    "0x8AF36f328dDA56ee8764e4a808197761Dd1cdc5d": "2026-09-23T08:30:54.881195+00:00",
+    "2ySjQh2LL8msX5ppfE1ZFenQVWK5QAmmznukQWbNpump": "2026-09-23T08:44:23.337882+00:00"
   }
 }
