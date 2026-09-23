@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NOSH",
-      "chain": "robinhood",
-      "address": "0xaBe99CF268CDc8bD70a71a5283FDACbcB36714fD",
-      "source": "boost",
-      "entry_price": 0.002144,
-      "peak_price": 0.002144,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T01:41:12.462655+00:00",
-      "score": 103,
-      "status": "open"
-    },
-    {
       "symbol": "Agrippa",
       "chain": "robinhood",
       "address": "0x10F5bA270B0B5dA5A4d21369F2C74a300BB16A8B",
       "source": "boost",
       "entry_price": 0.004461,
-      "peak_price": 0.004461,
+      "peak_price": 0.004952,
       "trailing_active": false,
       "entry_time": "2026-09-23T01:41:13.862336+00:00",
       "score": 98,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.01,
+      "peak_volume_m5": 116107.64,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -204157,6 +204149,25 @@
       "exit_price": 0.0001065,
       "exit_pct": -11.18,
       "exit_time": "2026-09-23T01:12:41.433172+00:00"
+    },
+    {
+      "symbol": "NOSH",
+      "chain": "robinhood",
+      "address": "0xaBe99CF268CDc8bD70a71a5283FDACbcB36714fD",
+      "source": "boost",
+      "entry_price": 0.002144,
+      "peak_price": 0.002144,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T01:41:12.462655+00:00",
+      "score": 103,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.9,
+      "peak_volume_m5": 92154.67,
+      "milestones_hit": [],
+      "exit_price": 0.001803,
+      "exit_pct": -15.9,
+      "exit_time": "2026-09-23T01:42:55.985899+00:00"
     }
   ],
   "alerted": {
@@ -214501,6 +214512,7 @@
     "75QaXyfTumKwWsinRAzogBg4ohLDZZVzGHE7pSZ8pump": "2026-09-23T00:42:51.492810+00:00",
     "3i43bRLKSomUXyin1jgGsd3y9MgBW1cdX3nh43YD3W4R": "2026-09-23T00:43:51.036128+00:00",
     "0x589BE08A24f853bAf0E54e0EB56192E0DACfc60f": "2026-09-23T00:52:30.639715+00:00",
-    "4wYd4vPhzaUQs5vqUrEJ7CPtKg1qzXHhauERuh4MiNMB": "2026-09-23T01:12:41.433172+00:00"
+    "4wYd4vPhzaUQs5vqUrEJ7CPtKg1qzXHhauERuh4MiNMB": "2026-09-23T01:12:41.433172+00:00",
+    "0xaBe99CF268CDc8bD70a71a5283FDACbcB36714fD": "2026-09-23T01:42:55.985899+00:00"
   }
 }
