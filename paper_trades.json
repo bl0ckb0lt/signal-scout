@@ -24,27 +24,15 @@
       "address": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
       "source": "new",
       "entry_price": 0.0002784,
-      "peak_price": 0.0003037,
+      "peak_price": 0.0003141,
       "trailing_active": false,
       "entry_time": "2026-09-23T19:11:23.143548+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 9.09,
-      "peak_volume_m5": 34946.01,
+      "current_pct": 12.82,
+      "peak_volume_m5": 36756.24,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HYPERCAT",
-      "chain": "solana",
-      "address": "6bt4RkPnDYDD3C8CdsGKMP4PZWzVed7yBq4jkXcipump",
-      "source": "new",
-      "entry_price": 0.0002196,
-      "peak_price": 0.0002196,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T19:21:21.659525+00:00",
-      "score": 78,
-      "status": "open"
     },
     {
       "symbol": "MESSINATOR",
@@ -52,23 +40,15 @@
       "address": "0x95d51e28d34fAB185b4E05c3996006DCC5968014",
       "source": "new",
       "entry_price": 0.0001082,
-      "peak_price": 0.0001082,
+      "peak_price": 0.0001111,
       "trailing_active": false,
       "entry_time": "2026-09-23T19:21:23.052075+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "OLEAF",
-      "chain": "robinhood",
-      "address": "0xEB0cB580D8cD0f2848293C0d5DdaA0083f6924CD",
-      "source": "new",
-      "entry_price": 1.31e-06,
-      "peak_price": 1.31e-06,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T19:21:24.427675+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.68,
+      "peak_volume_m5": 45453.45,
+      "milestones_hit": []
     },
     {
       "symbol": "ARTCOIN",
@@ -76,11 +56,15 @@
       "address": "0x1Ecd537251a258bfAC083bb36C1371A1238252b4",
       "source": "new",
       "entry_price": 3.423e-05,
-      "peak_price": 3.423e-05,
-      "trailing_active": false,
+      "peak_price": 3.997e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-23T19:21:25.782963+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.77,
+      "peak_volume_m5": 23180.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -206414,6 +206398,44 @@
       "exit_price": 1.525e-05,
       "exit_pct": -84.99,
       "exit_time": "2026-09-23T19:02:40.196381+00:00"
+    },
+    {
+      "symbol": "HYPERCAT",
+      "chain": "solana",
+      "address": "6bt4RkPnDYDD3C8CdsGKMP4PZWzVed7yBq4jkXcipump",
+      "source": "new",
+      "entry_price": 0.0002196,
+      "peak_price": 0.0002196,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T19:21:21.659525+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.31,
+      "peak_volume_m5": 143304.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001772,
+      "exit_pct": -19.31,
+      "exit_time": "2026-09-23T19:22:22.439753+00:00"
+    },
+    {
+      "symbol": "OLEAF",
+      "chain": "robinhood",
+      "address": "0xEB0cB580D8cD0f2848293C0d5DdaA0083f6924CD",
+      "source": "new",
+      "entry_price": 1.31e-06,
+      "peak_price": 1.31e-06,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T19:21:24.427675+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.26,
+      "peak_volume_m5": 85288.12,
+      "milestones_hit": [],
+      "exit_price": 8.612e-07,
+      "exit_pct": -34.26,
+      "exit_time": "2026-09-23T19:22:23.708443+00:00"
     }
   ],
   "alerted": {
@@ -216869,6 +216891,8 @@
     "2YoxhBGzQCbGWZRyceoEN3VF33mvHq1eP8DoBf31pump": "2026-09-23T18:36:48.917887+00:00",
     "G8vXA8zj9kd99ZLjSqyFLKzB3MLxUp5GNR7nMMMuzpad": "2026-09-23T18:42:53.037450+00:00",
     "7vGyP5iCqm6Z9JwMW4wQPVNe1NSpNrM7qej6E8B9pump": "2026-09-23T19:02:39.415001+00:00",
-    "75u6gWEX2T2NasVk9xnUaMHvxJ2VcLeYy6NunqXmpump": "2026-09-23T19:02:40.196381+00:00"
+    "75u6gWEX2T2NasVk9xnUaMHvxJ2VcLeYy6NunqXmpump": "2026-09-23T19:02:40.196381+00:00",
+    "6bt4RkPnDYDD3C8CdsGKMP4PZWzVed7yBq4jkXcipump": "2026-09-23T19:22:22.439753+00:00",
+    "0xEB0cB580D8cD0f2848293C0d5DdaA0083f6924CD": "2026-09-23T19:22:23.708443+00:00"
   }
 }
