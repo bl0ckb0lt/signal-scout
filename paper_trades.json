@@ -19,44 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "CMC",
-      "chain": "robinhood",
-      "address": "0xC17fEB55F43fc01035E5Db0BAda0Ca679a409F97",
-      "source": "new",
-      "entry_price": 0.0001009,
-      "peak_price": 0.0001284,
-      "trailing_active": true,
-      "entry_time": "2026-09-23T16:51:23.861557+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 27.25,
-      "peak_volume_m5": 32603.62,
-      "milestones_hit": []
-    },
-    {
       "symbol": "EPEP",
       "chain": "solana",
       "address": "2ekqDh2VNP5mfMUh7fngof1APUBmkAsJJATmDZBapump",
       "source": "new",
       "entry_price": 0.0002493,
-      "peak_price": 0.0002493,
-      "trailing_active": false,
+      "peak_price": 0.0002897,
+      "trailing_active": true,
       "entry_time": "2026-09-23T17:01:13.029654+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "THERANOS",
-      "chain": "solana",
-      "address": "F4z3aJrGvg3YVzhTymRkyszpbf3RZk2dfubv2pZrWsdr",
-      "source": "new",
-      "entry_price": 0.000178,
-      "peak_price": 0.000178,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T17:01:16.028427+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.21,
+      "peak_volume_m5": 304155.74,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -206005,6 +205981,44 @@
       "exit_price": 0.0002773,
       "exit_pct": -14.6,
       "exit_time": "2026-09-23T16:53:48.740236+00:00"
+    },
+    {
+      "symbol": "CMC",
+      "chain": "robinhood",
+      "address": "0xC17fEB55F43fc01035E5Db0BAda0Ca679a409F97",
+      "source": "new",
+      "entry_price": 0.0001009,
+      "peak_price": 0.0001284,
+      "trailing_active": true,
+      "entry_time": "2026-09-23T16:51:23.861557+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 11.4,
+      "peak_volume_m5": 32603.62,
+      "milestones_hit": [],
+      "exit_price": 0.0001124,
+      "exit_pct": 11.4,
+      "exit_time": "2026-09-23T17:03:26.295450+00:00"
+    },
+    {
+      "symbol": "THERANOS",
+      "chain": "solana",
+      "address": "F4z3aJrGvg3YVzhTymRkyszpbf3RZk2dfubv2pZrWsdr",
+      "source": "new",
+      "entry_price": 0.000178,
+      "peak_price": 0.000178,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T17:01:16.028427+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.34,
+      "peak_volume_m5": 24424.98,
+      "milestones_hit": [],
+      "exit_price": 0.0001507,
+      "exit_pct": -15.34,
+      "exit_time": "2026-09-23T17:03:27.914249+00:00"
     }
   ],
   "alerted": {
@@ -216440,6 +216454,8 @@
     "0x6c916C95b011A349109fe405497CA2c29dde26C6": "2026-09-23T16:52:48.172800+00:00",
     "0x63e6f1739A5a76d43e0b6b4d7d82c26001F786cA": "2026-09-23T16:53:47.003970+00:00",
     "ALuAQm3PqLK2G2oGewwdPC1yYadRuiQ6C5jg5GZopump": "2026-09-23T16:53:47.871406+00:00",
-    "774EtztiMf6Je8HQPhcioNCbv4sXVsp33FJVKGygpump": "2026-09-23T16:53:48.740236+00:00"
+    "774EtztiMf6Je8HQPhcioNCbv4sXVsp33FJVKGygpump": "2026-09-23T16:53:48.740236+00:00",
+    "0xC17fEB55F43fc01035E5Db0BAda0Ca679a409F97": "2026-09-23T17:03:26.295450+00:00",
+    "F4z3aJrGvg3YVzhTymRkyszpbf3RZk2dfubv2pZrWsdr": "2026-09-23T17:03:27.914249+00:00"
   }
 }
