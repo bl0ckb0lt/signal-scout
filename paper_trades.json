@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "DURIAN",
-      "chain": "solana",
-      "address": "5zT1G7tWhew7GuLFKuiVwvvDv2z14kHG1dA7nt4Rpump",
-      "source": "new",
-      "entry_price": 0.0002732,
-      "peak_price": 0.0002732,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T05:11:32.609724+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "FUDBITS",
       "chain": "robinhood",
       "address": "0xA51dffD01b4384B0904ad3981c93662Ea0a83d62",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-23T05:11:34.140494+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.16,
+      "peak_volume_m5": 57503.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -204616,6 +204608,25 @@
       "exit_price": 0.000223,
       "exit_pct": 11.78,
       "exit_time": "2026-09-23T05:05:39.421171+00:00"
+    },
+    {
+      "symbol": "DURIAN",
+      "chain": "solana",
+      "address": "5zT1G7tWhew7GuLFKuiVwvvDv2z14kHG1dA7nt4Rpump",
+      "source": "new",
+      "entry_price": 0.0002732,
+      "peak_price": 0.0002732,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T05:11:32.609724+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.4,
+      "peak_volume_m5": 71157.95,
+      "milestones_hit": [],
+      "exit_price": 0.0002366,
+      "exit_pct": -13.4,
+      "exit_time": "2026-09-23T05:12:37.183593+00:00"
     }
   ],
   "alerted": {
@@ -214982,6 +214993,7 @@
     "0xFa0f9210f19cBD20DAC9173bFb1A66afdB050F8C": "2026-09-23T04:42:46.641757+00:00",
     "0x65d7e1D00867d1a659c2F190CC40637df3ED1E18": "2026-09-23T05:03:50.461703+00:00",
     "F1kzi8tQaQdXhaJSyAX23gXGTRJqee4bfT8YEP3upump": "2026-09-23T05:04:39.194751+00:00",
-    "33WNZtzEKKRAcAg9uxPxiPjdnd16TrtqtbdL4Uqzpump": "2026-09-23T05:05:39.421171+00:00"
+    "33WNZtzEKKRAcAg9uxPxiPjdnd16TrtqtbdL4Uqzpump": "2026-09-23T05:05:39.421171+00:00",
+    "5zT1G7tWhew7GuLFKuiVwvvDv2z14kHG1dA7nt4Rpump": "2026-09-23T05:12:37.183593+00:00"
   }
 }
