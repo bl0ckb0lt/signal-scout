@@ -8,23 +8,15 @@
       "address": "0x92f1ad1E0bf7168c11850739Ed9AFCb343212fce",
       "source": "new",
       "entry_price": 0.001539,
-      "peak_price": 0.001539,
+      "peak_price": 0.001571,
       "trailing_active": false,
       "entry_time": "2026-09-24T22:31:09.788600+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "fomo",
-      "chain": "solana",
-      "address": "hGq6x3FwjMcNYX9WitsSRph2nnaoA6KuN7HPk9FMpad",
-      "source": "new",
-      "entry_price": 0.0001433,
-      "peak_price": 0.0001433,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T22:31:12.255073+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.08,
+      "peak_volume_m5": 82557.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209802,6 +209794,25 @@
       "exit_price": 9.481e-05,
       "exit_pct": -14.66,
       "exit_time": "2026-09-24T22:22:42.836797+00:00"
+    },
+    {
+      "symbol": "fomo",
+      "chain": "solana",
+      "address": "hGq6x3FwjMcNYX9WitsSRph2nnaoA6KuN7HPk9FMpad",
+      "source": "new",
+      "entry_price": 0.0001433,
+      "peak_price": 0.0001433,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T22:31:12.255073+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -49.24,
+      "peak_volume_m5": 42536.3,
+      "milestones_hit": [],
+      "exit_price": 7.274e-05,
+      "exit_pct": -49.24,
+      "exit_time": "2026-09-24T22:32:44.918210+00:00"
     }
   ],
   "alerted": {
@@ -220431,6 +220442,7 @@
     "0xeeB9137c2B672569ab7a85b167C3e35F49A4b1cc": "2026-09-24T22:04:43.354458+00:00",
     "0x337dD067F38497186b93Fcbc5B6F9983d49F6350": "2026-09-24T22:07:15.741026+00:00",
     "0xe4CFa327Aed238127a4f1f0359d10E7D28c7B2aE": "2026-09-24T22:12:54.072436+00:00",
-    "0xA8387BA297d99CC916839CfC42B6823d6BE4F222": "2026-09-24T22:22:42.836797+00:00"
+    "0xA8387BA297d99CC916839CfC42B6823d6BE4F222": "2026-09-24T22:22:42.836797+00:00",
+    "hGq6x3FwjMcNYX9WitsSRph2nnaoA6KuN7HPk9FMpad": "2026-09-24T22:32:44.918210+00:00"
   }
 }
