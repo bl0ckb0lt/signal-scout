@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "JOLLY",
-      "chain": "robinhood",
-      "address": "0x0f3e825CdaFBACDC552899A1185E5998f2c2eC9C",
-      "source": "new",
-      "entry_price": 0.001029,
-      "peak_price": 0.001029,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T20:31:23.443565+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "Musechain",
       "chain": "robinhood",
       "address": "0x7504868d5E997Ec1Ff67ACd7C2353eCa10905C6a",
       "source": "new",
       "entry_price": 0.0001072,
-      "peak_price": 0.0001072,
-      "trailing_active": false,
+      "peak_price": 0.0001305,
+      "trailing_active": true,
       "entry_time": "2026-09-24T20:31:26.564828+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.74,
+      "peak_volume_m5": 13116.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209513,6 +209505,25 @@
       "exit_price": 0.0002343,
       "exit_pct": -27.73,
       "exit_time": "2026-09-24T20:24:03.435676+00:00"
+    },
+    {
+      "symbol": "JOLLY",
+      "chain": "robinhood",
+      "address": "0x0f3e825CdaFBACDC552899A1185E5998f2c2eC9C",
+      "source": "new",
+      "entry_price": 0.001029,
+      "peak_price": 0.001029,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T20:31:23.443565+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.49,
+      "peak_volume_m5": 97388.37,
+      "milestones_hit": [],
+      "exit_price": 0.0008696,
+      "exit_pct": -15.49,
+      "exit_time": "2026-09-24T20:33:55.842240+00:00"
     }
   ],
   "alerted": {
@@ -220127,6 +220138,7 @@
     "36sXP4TobquwgkfNDNa4r5gDxoLZdJmy3cJNUgUXpump": "2026-09-24T20:02:51.019770+00:00",
     "0x7e84eEe12F356b568E6B847fAa05E19cFE4A5f4E": "2026-09-24T20:14:55.031256+00:00",
     "74QqbxgSWRTM6TvxpggsosuEwN21tmjZRSegyfFANAf9": "2026-09-24T20:22:16.135469+00:00",
-    "8LHgAXXPbMVqd3wmAQbTu4NxuRRe3qowgUSLiKmFpump": "2026-09-24T20:24:03.435676+00:00"
+    "8LHgAXXPbMVqd3wmAQbTu4NxuRRe3qowgUSLiKmFpump": "2026-09-24T20:24:03.435676+00:00",
+    "0x0f3e825CdaFBACDC552899A1185E5998f2c2eC9C": "2026-09-24T20:33:55.842240+00:00"
   }
 }
