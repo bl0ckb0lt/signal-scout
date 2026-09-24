@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CYCLE",
-      "chain": "robinhood",
-      "address": "0xB203e758D9c4bbcac34c1cE924595274e0D3678f",
-      "source": "new",
-      "entry_price": 0.00127,
-      "peak_price": 0.003193,
-      "trailing_active": true,
-      "entry_time": "2026-09-24T14:21:15.920830+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 151.42,
-      "peak_volume_m5": 234988.98,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "WageFlow",
       "chain": "robinhood",
       "address": "0xEA7D4D58CbD829b675Eb0ef4E1a9b2b54C90e20e",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-24T14:31:23.073101+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.08,
+      "peak_volume_m5": 17936.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -208731,6 +208716,28 @@
       "exit_price": 0.0001269,
       "exit_pct": -25.92,
       "exit_time": "2026-09-24T14:22:38.949603+00:00"
+    },
+    {
+      "symbol": "CYCLE",
+      "chain": "robinhood",
+      "address": "0xB203e758D9c4bbcac34c1cE924595274e0D3678f",
+      "source": "new",
+      "entry_price": 0.00127,
+      "peak_price": 0.003193,
+      "trailing_active": true,
+      "entry_time": "2026-09-24T14:21:15.920830+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 132.91,
+      "peak_volume_m5": 234988.98,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.002958,
+      "exit_pct": 132.91,
+      "exit_time": "2026-09-24T14:35:15.862887+00:00"
     }
   ],
   "alerted": {
@@ -219304,6 +219311,7 @@
     "8K5tbzsAJx1JYj9yvZdtJbFqbf1A3uKGejpw59wNpump": "2026-09-24T14:10:14.495079+00:00",
     "0xA15A6b1b9C256AA42CeE7A0947A2404a72ED7777": "2026-09-24T14:14:58.299743+00:00",
     "0x3592E38a960A49aA49973917501122c2E7057e4c": "2026-09-24T14:16:50.070731+00:00",
-    "HNxwU4tZ7urNGnjbjUc7f1jXUfqwhNC3VaAUJhpPpump": "2026-09-24T14:22:38.949603+00:00"
+    "HNxwU4tZ7urNGnjbjUc7f1jXUfqwhNC3VaAUJhpPpump": "2026-09-24T14:22:38.949603+00:00",
+    "0xB203e758D9c4bbcac34c1cE924595274e0D3678f": "2026-09-24T14:35:15.862887+00:00"
   }
 }
