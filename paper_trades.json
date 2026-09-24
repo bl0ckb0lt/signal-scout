@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SAGASU",
-      "chain": "solana",
-      "address": "6dPweBFhc13AjGQ5MBYJUs9EYDJ3zXfGPi61zDAVEwDb",
-      "source": "new",
-      "entry_price": 0.000117,
-      "peak_price": 0.0001881,
-      "trailing_active": true,
-      "entry_time": "2026-09-24T19:41:24.945160+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 60.77,
-      "peak_volume_m5": 5300.85,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "RPM",
       "chain": "robinhood",
       "address": "0xEB7Df6b18c5c9A5fa071B9bc24291EfE6a41BE5d",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-24T19:51:41.484372+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.81,
+      "peak_volume_m5": 161775.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209403,6 +209389,27 @@
       "exit_price": 0.0001349,
       "exit_pct": -20.55,
       "exit_time": "2026-09-24T19:43:31.761031+00:00"
+    },
+    {
+      "symbol": "SAGASU",
+      "chain": "solana",
+      "address": "6dPweBFhc13AjGQ5MBYJUs9EYDJ3zXfGPi61zDAVEwDb",
+      "source": "new",
+      "entry_price": 0.000117,
+      "peak_price": 0.0001881,
+      "trailing_active": true,
+      "entry_time": "2026-09-24T19:41:24.945160+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 51.97,
+      "peak_volume_m5": 6998.42,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001778,
+      "exit_pct": 51.97,
+      "exit_time": "2026-09-24T19:56:31.012294+00:00"
     }
   ],
   "alerted": {
@@ -220011,6 +220018,7 @@
     "0x749216618Ac66eA41Ee4CaBF5229D83D74f04586": "2026-09-24T19:02:38.015798+00:00",
     "0x79ED00A7757096fFaEDeB5E3bD8912b8bdC5C0b2": "2026-09-24T19:02:38.819490+00:00",
     "D8aHDLTQtDqMLAghU6KKVGtgFEDvJU1NAkn6vbKVpump": "2026-09-24T19:43:30.509495+00:00",
-    "0x4C2F59ea682a90c16584A69Db234967E1385F4cd": "2026-09-24T19:43:31.761031+00:00"
+    "0x4C2F59ea682a90c16584A69Db234967E1385F4cd": "2026-09-24T19:43:31.761031+00:00",
+    "6dPweBFhc13AjGQ5MBYJUs9EYDJ3zXfGPi61zDAVEwDb": "2026-09-24T19:56:31.012294+00:00"
   }
 }
