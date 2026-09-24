@@ -3,34 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "RPM",
-      "chain": "robinhood",
-      "address": "0xEB7Df6b18c5c9A5fa071B9bc24291EfE6a41BE5d",
-      "source": "new",
-      "entry_price": 0.001732,
-      "peak_price": 0.001732,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T19:51:41.484372+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -8.2,
-      "peak_volume_m5": 161775.77,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "MOREKNOW",
-      "chain": "solana",
-      "address": "36sXP4TobquwgkfNDNa4r5gDxoLZdJmy3cJNUgUXpump",
-      "source": "boost",
-      "entry_price": 0.0001546,
-      "peak_price": 0.0001546,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T20:01:18.848751+00:00",
-      "score": 84,
-      "status": "open"
-    },
-    {
       "symbol": "LOUIS",
       "chain": "robinhood",
       "address": "0x7e84eEe12F356b568E6B847fAa05E19cFE4A5f4E",
@@ -40,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-24T20:01:20.244260+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.16,
+      "peak_volume_m5": 16370.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209434,6 +209410,44 @@
       "exit_price": 0.0001778,
       "exit_pct": 51.97,
       "exit_time": "2026-09-24T19:56:31.012294+00:00"
+    },
+    {
+      "symbol": "RPM",
+      "chain": "robinhood",
+      "address": "0xEB7Df6b18c5c9A5fa071B9bc24291EfE6a41BE5d",
+      "source": "new",
+      "entry_price": 0.001732,
+      "peak_price": 0.001732,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T19:51:41.484372+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.14,
+      "peak_volume_m5": 161775.77,
+      "milestones_hit": [],
+      "exit_price": 0.001262,
+      "exit_pct": -27.14,
+      "exit_time": "2026-09-24T20:02:50.290111+00:00"
+    },
+    {
+      "symbol": "MOREKNOW",
+      "chain": "solana",
+      "address": "36sXP4TobquwgkfNDNa4r5gDxoLZdJmy3cJNUgUXpump",
+      "source": "boost",
+      "entry_price": 0.0001546,
+      "peak_price": 0.0001546,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T20:01:18.848751+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -52.15,
+      "peak_volume_m5": 170446.32,
+      "milestones_hit": [],
+      "exit_price": 7.397e-05,
+      "exit_pct": -52.15,
+      "exit_time": "2026-09-24T20:02:51.019770+00:00"
     }
   ],
   "alerted": {
@@ -220043,6 +220057,8 @@
     "0x79ED00A7757096fFaEDeB5E3bD8912b8bdC5C0b2": "2026-09-24T19:02:38.819490+00:00",
     "D8aHDLTQtDqMLAghU6KKVGtgFEDvJU1NAkn6vbKVpump": "2026-09-24T19:43:30.509495+00:00",
     "0x4C2F59ea682a90c16584A69Db234967E1385F4cd": "2026-09-24T19:43:31.761031+00:00",
-    "6dPweBFhc13AjGQ5MBYJUs9EYDJ3zXfGPi61zDAVEwDb": "2026-09-24T19:56:31.012294+00:00"
+    "6dPweBFhc13AjGQ5MBYJUs9EYDJ3zXfGPi61zDAVEwDb": "2026-09-24T19:56:31.012294+00:00",
+    "0xEB7Df6b18c5c9A5fa071B9bc24291EfE6a41BE5d": "2026-09-24T20:02:50.290111+00:00",
+    "36sXP4TobquwgkfNDNa4r5gDxoLZdJmy3cJNUgUXpump": "2026-09-24T20:02:51.019770+00:00"
   }
 }
