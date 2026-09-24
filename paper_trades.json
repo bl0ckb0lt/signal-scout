@@ -1,40 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "CMC",
-      "chain": "solana",
-      "address": "7GgaxTAWUnirNZLMCAPkN2W67wzTa86VA3FLyULUpump",
-      "source": "new",
-      "entry_price": 0.0002346,
-      "peak_price": 0.0002346,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T20:41:23.261460+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -8.06,
-      "peak_volume_m5": 93559.83,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "STONKBLEND",
-      "chain": "solana",
-      "address": "2Ngvnnkwrwq5u4RYV5WYKJ2wiQoEkKaVCc4LuuhYSTNK",
-      "source": "new",
-      "entry_price": 0.0003443,
-      "peak_price": 0.0004372,
-      "trailing_active": true,
-      "entry_time": "2026-09-24T20:41:30.488783+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 26.98,
-      "peak_volume_m5": 92186.28,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -209578,6 +209545,44 @@
       "exit_price": 0.0002,
       "exit_pct": -38.21,
       "exit_time": "2026-09-24T20:42:41.428354+00:00"
+    },
+    {
+      "symbol": "CMC",
+      "chain": "solana",
+      "address": "7GgaxTAWUnirNZLMCAPkN2W67wzTa86VA3FLyULUpump",
+      "source": "new",
+      "entry_price": 0.0002346,
+      "peak_price": 0.0002346,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T20:41:23.261460+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.32,
+      "peak_volume_m5": 93559.83,
+      "milestones_hit": [],
+      "exit_price": 0.0001447,
+      "exit_pct": -38.32,
+      "exit_time": "2026-09-24T20:43:38.736183+00:00"
+    },
+    {
+      "symbol": "STONKBLEND",
+      "chain": "solana",
+      "address": "2Ngvnnkwrwq5u4RYV5WYKJ2wiQoEkKaVCc4LuuhYSTNK",
+      "source": "new",
+      "entry_price": 0.0003443,
+      "peak_price": 0.0004372,
+      "trailing_active": true,
+      "entry_time": "2026-09-24T20:41:30.488783+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -1.51,
+      "peak_volume_m5": 104598.08,
+      "milestones_hit": [],
+      "exit_price": 0.0003391,
+      "exit_pct": -1.51,
+      "exit_time": "2026-09-24T20:43:39.574534+00:00"
     }
   ],
   "alerted": {
@@ -220195,6 +220200,8 @@
     "8LHgAXXPbMVqd3wmAQbTu4NxuRRe3qowgUSLiKmFpump": "2026-09-24T20:24:03.435676+00:00",
     "0x0f3e825CdaFBACDC552899A1185E5998f2c2eC9C": "2026-09-24T20:33:55.842240+00:00",
     "0x7504868d5E997Ec1Ff67ACd7C2353eCa10905C6a": "2026-09-24T20:35:57.236364+00:00",
-    "64xwhN5Rshirb1rB6KAC5Qw26zhYhPEXGPxLkpNmpump": "2026-09-24T20:42:41.428354+00:00"
+    "64xwhN5Rshirb1rB6KAC5Qw26zhYhPEXGPxLkpNmpump": "2026-09-24T20:42:41.428354+00:00",
+    "7GgaxTAWUnirNZLMCAPkN2W67wzTa86VA3FLyULUpump": "2026-09-24T20:43:38.736183+00:00",
+    "2Ngvnnkwrwq5u4RYV5WYKJ2wiQoEkKaVCc4LuuhYSTNK": "2026-09-24T20:43:39.574534+00:00"
   }
 }
