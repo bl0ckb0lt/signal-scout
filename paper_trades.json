@@ -3,32 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "\u5e01\u5b89\u6545\u4e8b",
-      "chain": "bsc",
-      "address": "0xc1B8f5fc7f9794ccAa225FF91cBcF6575B68882e",
-      "source": "new",
-      "entry_price": 0.004992,
-      "peak_price": 0.006346,
-      "trailing_active": true,
-      "entry_time": "2026-09-24T20:51:32.383613+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 27.12,
-      "peak_volume_m5": 7456.79,
-      "milestones_hit": []
-    },
-    {
       "symbol": "VMINT",
       "chain": "robinhood",
       "address": "0xCaFaE189affC10891Cb5D70b737719A0afDb1f57",
       "source": "new",
       "entry_price": 1.203e-06,
-      "peak_price": 1.203e-06,
-      "trailing_active": false,
+      "peak_price": 2.205e-06,
+      "trailing_active": true,
       "entry_time": "2026-09-24T21:01:26.714920+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 83.29,
+      "peak_volume_m5": 170449.16,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -209612,6 +209602,25 @@
       "exit_price": 0.0003391,
       "exit_pct": -1.51,
       "exit_time": "2026-09-24T20:43:39.574534+00:00"
+    },
+    {
+      "symbol": "\u5e01\u5b89\u6545\u4e8b",
+      "chain": "bsc",
+      "address": "0xc1B8f5fc7f9794ccAa225FF91cBcF6575B68882e",
+      "source": "new",
+      "entry_price": 0.004992,
+      "peak_price": 0.006346,
+      "trailing_active": true,
+      "entry_time": "2026-09-24T20:51:32.383613+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -2.76,
+      "peak_volume_m5": 28733.42,
+      "milestones_hit": [],
+      "exit_price": 0.004854,
+      "exit_pct": -2.76,
+      "exit_time": "2026-09-24T21:04:34.598414+00:00"
     }
   ],
   "alerted": {
@@ -220231,6 +220240,7 @@
     "0x7504868d5E997Ec1Ff67ACd7C2353eCa10905C6a": "2026-09-24T20:35:57.236364+00:00",
     "64xwhN5Rshirb1rB6KAC5Qw26zhYhPEXGPxLkpNmpump": "2026-09-24T20:42:41.428354+00:00",
     "7GgaxTAWUnirNZLMCAPkN2W67wzTa86VA3FLyULUpump": "2026-09-24T20:43:38.736183+00:00",
-    "2Ngvnnkwrwq5u4RYV5WYKJ2wiQoEkKaVCc4LuuhYSTNK": "2026-09-24T20:43:39.574534+00:00"
+    "2Ngvnnkwrwq5u4RYV5WYKJ2wiQoEkKaVCc4LuuhYSTNK": "2026-09-24T20:43:39.574534+00:00",
+    "0xc1B8f5fc7f9794ccAa225FF91cBcF6575B68882e": "2026-09-24T21:04:34.598414+00:00"
   }
 }
