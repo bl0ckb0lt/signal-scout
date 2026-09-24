@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANTIDOTE",
-      "chain": "robinhood",
-      "address": "0xE2B2ba97b22d7DDeD8D243918B4CDA13AE553A08",
-      "source": "new",
-      "entry_price": 0.0008323,
-      "peak_price": 0.0018,
-      "trailing_active": true,
-      "entry_time": "2026-09-24T07:31:04.542978+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 116.27,
-      "peak_volume_m5": 11892.62,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "YAMATA",
       "chain": "robinhood",
       "address": "0x6a578b2f224e118c4d7f605e19ed02f0f9635f2d",
@@ -33,7 +14,7 @@
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.32,
+      "current_pct": 18.87,
       "peak_volume_m5": 16124.68,
       "milestones_hit": []
     }
@@ -207974,6 +207955,28 @@
       "exit_price": 7.264e-05,
       "exit_pct": -54.97,
       "exit_time": "2026-09-24T07:46:45.632211+00:00"
+    },
+    {
+      "symbol": "ANTIDOTE",
+      "chain": "robinhood",
+      "address": "0xE2B2ba97b22d7DDeD8D243918B4CDA13AE553A08",
+      "source": "new",
+      "entry_price": 0.0008323,
+      "peak_price": 0.0018,
+      "trailing_active": true,
+      "entry_time": "2026-09-24T07:31:04.542978+00:00",
+      "score": 77,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 116.27,
+      "peak_volume_m5": 11892.62,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0018,
+      "exit_pct": 116.27,
+      "exit_time": "2026-09-24T07:48:33.847983+00:00"
     }
   ],
   "alerted": {
@@ -218510,6 +218513,7 @@
     "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56": "2026-09-24T07:13:16.942925+00:00",
     "0x91eEeE083E245DDc4230e21A008f17d728482D05": "2026-09-24T07:21:05.078887+00:00",
     "0xb2000000000000000000000C6d3FFcDE8770E63C": "2026-09-24T07:21:51.682369+00:00",
-    "0x0e936775C725d7B685ac898A0d760b2b44B60Dd2": "2026-09-24T07:46:45.632211+00:00"
+    "0x0e936775C725d7B685ac898A0d760b2b44B60Dd2": "2026-09-24T07:46:45.632211+00:00",
+    "0xE2B2ba97b22d7DDeD8D243918B4CDA13AE553A08": "2026-09-24T07:48:33.847983+00:00"
   }
 }
