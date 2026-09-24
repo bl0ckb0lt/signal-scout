@@ -19,30 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "CHROME",
-      "chain": "solana",
-      "address": "J6QTngAJdsRnVy9h3t9BqUxT7Q4EcRv3JjCwb6Cmpump",
-      "source": "new",
-      "entry_price": 0.0001688,
-      "peak_price": 0.0001688,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T00:31:10.096218+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "Computer",
-      "chain": "solana",
-      "address": "B2J1abkD18a5VrP2yc8XbJQ5BGDXwsRu9vWAjM1piEv8",
-      "source": "new",
-      "entry_price": 0.0001558,
-      "peak_price": 0.0001558,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T00:31:13.206356+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "CHARMS",
       "chain": "robinhood",
       "address": "0x35379ddabe20cF2a6a5B4EAB88CF29502136E724",
@@ -52,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-24T00:31:14.556597+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.66,
+      "peak_volume_m5": 37987.26,
+      "milestones_hit": []
     },
     {
       "symbol": "GAYMF",
@@ -60,11 +40,15 @@
       "address": "0x1af1E447f0C621626e6B0132A2E3147c87A82901",
       "source": "new",
       "entry_price": 6.076e-05,
-      "peak_price": 6.076e-05,
-      "trailing_active": false,
+      "peak_price": 7.803e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-24T00:31:15.950037+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.42,
+      "peak_volume_m5": 15680.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -207307,6 +207291,44 @@
       "exit_price": 2.366e-06,
       "exit_pct": 48.81,
       "exit_time": "2026-09-24T00:26:58.096995+00:00"
+    },
+    {
+      "symbol": "CHROME",
+      "chain": "solana",
+      "address": "J6QTngAJdsRnVy9h3t9BqUxT7Q4EcRv3JjCwb6Cmpump",
+      "source": "new",
+      "entry_price": 0.0001688,
+      "peak_price": 0.0001688,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T00:31:10.096218+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.82,
+      "peak_volume_m5": 63256.57,
+      "milestones_hit": [],
+      "exit_price": 0.0001421,
+      "exit_pct": -15.82,
+      "exit_time": "2026-09-24T00:32:35.850378+00:00"
+    },
+    {
+      "symbol": "Computer",
+      "chain": "solana",
+      "address": "B2J1abkD18a5VrP2yc8XbJQ5BGDXwsRu9vWAjM1piEv8",
+      "source": "new",
+      "entry_price": 0.0001558,
+      "peak_price": 0.0001558,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T00:31:13.206356+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.38,
+      "peak_volume_m5": 87212.63,
+      "milestones_hit": [],
+      "exit_price": 0.0001038,
+      "exit_pct": -33.38,
+      "exit_time": "2026-09-24T00:32:36.591703+00:00"
     }
   ],
   "alerted": {
@@ -217809,6 +217831,8 @@
     "3tzkdxJ1qVCaPAuWmd8FjRFKUbwMYpLUAq5gg4Vopump": "2026-09-24T00:02:40.533875+00:00",
     "74sHNXtVDHZVw4ADktjGFHPzNycV8iHvfHLPp6QZPdT4": "2026-09-24T00:07:01.385671+00:00",
     "0xc7683AEfaB6042baE9C21D6bF1305e9BA2Ec266B": "2026-09-24T00:26:02.142280+00:00",
-    "0x8B009E522a49512619e965008518a2fd13649a34": "2026-09-24T00:26:58.096995+00:00"
+    "0x8B009E522a49512619e965008518a2fd13649a34": "2026-09-24T00:26:58.096995+00:00",
+    "J6QTngAJdsRnVy9h3t9BqUxT7Q4EcRv3JjCwb6Cmpump": "2026-09-24T00:32:35.850378+00:00",
+    "B2J1abkD18a5VrP2yc8XbJQ5BGDXwsRu9vWAjM1piEv8": "2026-09-24T00:32:36.591703+00:00"
   }
 }
