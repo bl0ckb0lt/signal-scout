@@ -24,23 +24,17 @@
       "address": "0xa7664527DDd3CC3fea668fb2fe8c888C7F83c4fF",
       "source": "new",
       "entry_price": 1.243e-06,
-      "peak_price": 1.243e-06,
-      "trailing_active": false,
+      "peak_price": 2.068e-06,
+      "trailing_active": true,
       "entry_time": "2026-09-24T05:11:24.366063+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "FUNKOS",
-      "chain": "solana",
-      "address": "BDKC1AV3saXrN8jKnWB2TTQmDD6z8CFdY55ku7eAfunk",
-      "source": "new",
-      "entry_price": 0.0001104,
-      "peak_price": 0.0001104,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T05:11:26.198212+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 66.37,
+      "peak_volume_m5": 185772.85,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -207766,6 +207760,25 @@
       "exit_price": 0.004062,
       "exit_pct": -69.57,
       "exit_time": "2026-09-24T05:04:13.223153+00:00"
+    },
+    {
+      "symbol": "FUNKOS",
+      "chain": "solana",
+      "address": "BDKC1AV3saXrN8jKnWB2TTQmDD6z8CFdY55ku7eAfunk",
+      "source": "new",
+      "entry_price": 0.0001104,
+      "peak_price": 0.0001104,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T05:11:26.198212+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.96,
+      "peak_volume_m5": 51828.29,
+      "milestones_hit": [],
+      "exit_price": 8.616e-05,
+      "exit_pct": -21.96,
+      "exit_time": "2026-09-24T05:15:58.967224+00:00"
     }
   ],
   "alerted": {
@@ -218291,6 +218304,7 @@
     "7CEBEYQVe3RvapwgS4QttVehqN9C2Hh859ZGbRWduRDm": "2026-09-24T03:22:37.534894+00:00",
     "0x1C4BEC3a3f9cF392B54b5Fbf161B2566dE66c315": "2026-09-24T03:42:34.649421+00:00",
     "82ezhRLKdKwkSC9jkM3js1yf93VbmvLXNMPkBmompump": "2026-09-24T04:18:23.679121+00:00",
-    "0x0bB3bEFba323578DAd33EfB6356c69b557787777": "2026-09-24T04:57:26.995538+00:00"
+    "0x0bB3bEFba323578DAd33EfB6356c69b557787777": "2026-09-24T04:57:26.995538+00:00",
+    "BDKC1AV3saXrN8jKnWB2TTQmDD6z8CFdY55ku7eAfunk": "2026-09-24T05:15:58.967224+00:00"
   }
 }
