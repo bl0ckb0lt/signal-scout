@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "OnlyCats",
-      "chain": "solana",
-      "address": "12m8Pwr1UHmmyM2Qh9bJBNurR9mmcZa1adCkAvdLpump",
-      "source": "new",
-      "entry_price": 0.0001836,
-      "peak_price": 0.0001836,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T18:31:09.619310+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "PLOP",
       "chain": "solana",
       "address": "F8BTnFMCaajnrRYfmVGqJrvm4PYcFb1AiTwLxCpSpump",
       "source": "new",
       "entry_price": 0.0001423,
-      "peak_price": 0.0001423,
-      "trailing_active": false,
+      "peak_price": 0.0001864,
+      "trailing_active": true,
       "entry_time": "2026-09-24T18:31:11.250940+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 30.99,
+      "peak_volume_m5": 287665.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209242,6 +209234,25 @@
       "exit_price": 0.0001119,
       "exit_pct": -21.53,
       "exit_time": "2026-09-24T18:26:45.086917+00:00"
+    },
+    {
+      "symbol": "OnlyCats",
+      "chain": "solana",
+      "address": "12m8Pwr1UHmmyM2Qh9bJBNurR9mmcZa1adCkAvdLpump",
+      "source": "new",
+      "entry_price": 0.0001836,
+      "peak_price": 0.0001836,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T18:31:09.619310+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.25,
+      "peak_volume_m5": 65838.36,
+      "milestones_hit": [],
+      "exit_price": 0.0001556,
+      "exit_pct": -15.25,
+      "exit_time": "2026-09-24T18:37:43.642419+00:00"
     }
   ],
   "alerted": {
@@ -219842,6 +219853,7 @@
     "0xe7818171BD24772abd43561b34a23Bae81B72027": "2026-09-24T18:02:16.740550+00:00",
     "0xAA5751Ff3Fb61e613993B2EB4EAb1fce017081fc": "2026-09-24T18:10:27.091281+00:00",
     "0xc4ce811e0a08C13058d4A049754e49dcFae8Fe3e": "2026-09-24T18:22:28.666947+00:00",
-    "6TfTBpkgRX5kzb1qbtijV1nZVTfzfbmbXE1hPsFrpump": "2026-09-24T18:26:45.086917+00:00"
+    "6TfTBpkgRX5kzb1qbtijV1nZVTfzfbmbXE1hPsFrpump": "2026-09-24T18:26:45.086917+00:00",
+    "12m8Pwr1UHmmyM2Qh9bJBNurR9mmcZa1adCkAvdLpump": "2026-09-24T18:37:43.642419+00:00"
   }
 }
