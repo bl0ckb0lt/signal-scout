@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MUSEGOD",
-      "chain": "robinhood",
-      "address": "0x364D0606E55B546Ea76d038d38265116DfA36626",
-      "source": "new",
-      "entry_price": 0.001547,
-      "peak_price": 0.001547,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T18:51:32.108376+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "ZOP",
       "chain": "solana",
       "address": "5WpdKV43mFmVQgy6KhgqmU1N4xtLE4rAFtnsTf8rApwd",
       "source": "new",
       "entry_price": 0.0001141,
-      "peak_price": 0.0001141,
-      "trailing_active": false,
+      "peak_price": 0.000134,
+      "trailing_active": true,
       "entry_time": "2026-09-24T18:51:33.927860+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.44,
+      "peak_volume_m5": 85693.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -209283,6 +209275,25 @@
       "exit_price": 0.0002547,
       "exit_pct": 78.99,
       "exit_time": "2026-09-24T18:43:00.617096+00:00"
+    },
+    {
+      "symbol": "MUSEGOD",
+      "chain": "robinhood",
+      "address": "0x364D0606E55B546Ea76d038d38265116DfA36626",
+      "source": "new",
+      "entry_price": 0.001547,
+      "peak_price": 0.001547,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T18:51:32.108376+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.96,
+      "peak_volume_m5": 92234.6,
+      "milestones_hit": [],
+      "exit_price": 0.001331,
+      "exit_pct": -13.96,
+      "exit_time": "2026-09-24T18:53:26.168434+00:00"
     }
   ],
   "alerted": {
@@ -219885,6 +219896,7 @@
     "0xc4ce811e0a08C13058d4A049754e49dcFae8Fe3e": "2026-09-24T18:22:28.666947+00:00",
     "6TfTBpkgRX5kzb1qbtijV1nZVTfzfbmbXE1hPsFrpump": "2026-09-24T18:26:45.086917+00:00",
     "12m8Pwr1UHmmyM2Qh9bJBNurR9mmcZa1adCkAvdLpump": "2026-09-24T18:37:43.642419+00:00",
-    "F8BTnFMCaajnrRYfmVGqJrvm4PYcFb1AiTwLxCpSpump": "2026-09-24T18:43:00.617096+00:00"
+    "F8BTnFMCaajnrRYfmVGqJrvm4PYcFb1AiTwLxCpSpump": "2026-09-24T18:43:00.617096+00:00",
+    "0x364D0606E55B546Ea76d038d38265116DfA36626": "2026-09-24T18:53:26.168434+00:00"
   }
 }
