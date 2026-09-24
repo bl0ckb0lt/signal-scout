@@ -14,21 +14,9 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 2.41,
+      "current_pct": -1.17,
       "peak_volume_m5": 18833.69,
       "milestones_hit": []
-    },
-    {
-      "symbol": "https",
-      "chain": "arc",
-      "address": "0xcA178326937DCF04157F2E6370674655c57D7A75",
-      "source": "new",
-      "entry_price": 9.298e-05,
-      "peak_price": 9.298e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T12:41:27.692157+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "Alpenglow",
@@ -36,11 +24,17 @@
       "address": "8Qp8ivGukxP2BHGRKNQMeVg5PgoLb7awBZhGbnTTfrw2",
       "source": "new",
       "entry_price": 0.000111,
-      "peak_price": 0.000111,
-      "trailing_active": false,
+      "peak_price": 0.0001817,
+      "trailing_active": true,
       "entry_time": "2026-09-24T12:41:29.577508+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 63.69,
+      "peak_volume_m5": 54840.2,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -208449,6 +208443,25 @@
       "exit_price": 0.000239,
       "exit_pct": -7.44,
       "exit_time": "2026-09-24T12:37:38.469737+00:00"
+    },
+    {
+      "symbol": "https",
+      "chain": "arc",
+      "address": "0xcA178326937DCF04157F2E6370674655c57D7A75",
+      "source": "new",
+      "entry_price": 9.298e-05,
+      "peak_price": 9.298e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T12:41:27.692157+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.35,
+      "peak_volume_m5": 14921.65,
+      "milestones_hit": [],
+      "exit_price": 7.499e-05,
+      "exit_pct": -19.35,
+      "exit_time": "2026-09-24T12:44:22.484022+00:00"
     }
   ],
   "alerted": {
@@ -219008,6 +219021,7 @@
     "HMD6LV9hj6SdSKF4oTd7dYTVUhVL8MzYvPZYgb7BQSrW": "2026-09-24T11:42:45.317873+00:00",
     "0x82c860E9fF0227E086CB6107dA4D3632031D9831": "2026-09-24T12:01:00.964087+00:00",
     "EFW3VwqYPzoc58reVMy2GxEjv78xQ765pQy1JMdBVoB9": "2026-09-24T12:24:49.648774+00:00",
-    "0x0EA8Dc5db42413677843D481649D5A45Cb503B97": "2026-09-24T12:37:38.469737+00:00"
+    "0x0EA8Dc5db42413677843D481649D5A45Cb503B97": "2026-09-24T12:37:38.469737+00:00",
+    "0xcA178326937DCF04157F2E6370674655c57D7A75": "2026-09-24T12:44:22.484022+00:00"
   }
 }
