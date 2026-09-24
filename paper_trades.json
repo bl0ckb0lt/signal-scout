@@ -24,29 +24,17 @@
       "address": "0x1af1E447f0C621626e6B0132A2E3147c87A82901",
       "source": "new",
       "entry_price": 6.076e-05,
-      "peak_price": 0.0001023,
+      "peak_price": 0.0001178,
       "trailing_active": true,
       "entry_time": "2026-09-24T00:31:15.950037+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 68.37,
+      "current_pct": 93.88,
       "peak_volume_m5": 16396.4,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "parafactual",
-      "chain": "solana",
-      "address": "CvUX4G2tzq7J3ECmNvWZLayZYV6KpgQp6SJ5K8Uvsu5g",
-      "source": "new",
-      "entry_price": 0.0003064,
-      "peak_price": 0.0003064,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T00:41:22.671684+00:00",
-      "score": 80,
-      "status": "open"
     }
   ],
   "closed": [
@@ -207346,6 +207334,25 @@
       "exit_price": 0.0001319,
       "exit_pct": -12.36,
       "exit_time": "2026-09-24T00:33:33.137699+00:00"
+    },
+    {
+      "symbol": "parafactual",
+      "chain": "solana",
+      "address": "CvUX4G2tzq7J3ECmNvWZLayZYV6KpgQp6SJ5K8Uvsu5g",
+      "source": "new",
+      "entry_price": 0.0003064,
+      "peak_price": 0.0003064,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T00:41:22.671684+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.14,
+      "peak_volume_m5": 145146.45,
+      "milestones_hit": [],
+      "exit_price": 0.0002263,
+      "exit_pct": -26.14,
+      "exit_time": "2026-09-24T00:43:17.830126+00:00"
     }
   ],
   "alerted": {
@@ -217851,6 +217858,7 @@
     "0x8B009E522a49512619e965008518a2fd13649a34": "2026-09-24T00:26:58.096995+00:00",
     "J6QTngAJdsRnVy9h3t9BqUxT7Q4EcRv3JjCwb6Cmpump": "2026-09-24T00:32:35.850378+00:00",
     "B2J1abkD18a5VrP2yc8XbJQ5BGDXwsRu9vWAjM1piEv8": "2026-09-24T00:32:36.591703+00:00",
-    "0x35379ddabe20cF2a6a5B4EAB88CF29502136E724": "2026-09-24T00:33:33.137699+00:00"
+    "0x35379ddabe20cF2a6a5B4EAB88CF29502136E724": "2026-09-24T00:33:33.137699+00:00",
+    "CvUX4G2tzq7J3ECmNvWZLayZYV6KpgQp6SJ5K8Uvsu5g": "2026-09-24T00:43:17.830126+00:00"
   }
 }
