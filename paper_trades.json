@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Muse",
-      "chain": "robinhood",
-      "address": "0x91eEeE083E245DDc4230e21A008f17d728482D05",
-      "source": "new",
-      "entry_price": 9.543e-05,
-      "peak_price": 9.543e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-23T07:31:14.836495+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.0,
-      "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Muse Charm",
       "chain": "base",
       "address": "0xb2000000000000000000000C6d3FFcDE8770E63C",
       "source": "new",
       "entry_price": 0.0001205,
-      "peak_price": 0.0001205,
-      "trailing_active": false,
+      "peak_price": 0.000168,
+      "trailing_active": true,
       "entry_time": "2026-09-24T07:11:22.338916+00:00",
       "score": 75,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.9,
+      "current_pct": 39.42,
       "peak_volume_m5": 23259.18,
       "milestones_hit": []
     }
@@ -207914,6 +207898,25 @@
       "exit_price": 0.0002237,
       "exit_pct": -9.76,
       "exit_time": "2026-09-24T07:13:16.942925+00:00"
+    },
+    {
+      "symbol": "Muse",
+      "chain": "robinhood",
+      "address": "0x91eEeE083E245DDc4230e21A008f17d728482D05",
+      "source": "new",
+      "entry_price": 9.543e-05,
+      "peak_price": 9.543e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-23T07:31:14.836495+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -40.31,
+      "peak_volume_m5": 0,
+      "milestones_hit": [],
+      "exit_price": 5.696e-05,
+      "exit_pct": -40.31,
+      "exit_time": "2026-09-24T07:21:05.078887+00:00"
     }
   ],
   "alerted": {
@@ -218447,6 +218450,7 @@
     "FKhivsstimUPv5JADynbb8PiNYHVgst5dS8CWqdhpump": "2026-09-24T06:32:09.493722+00:00",
     "0x1cb9995E15Ce7158f2fCaab17fd872C75603ddC6": "2026-09-24T06:39:33.104361+00:00",
     "0x49a1CaB8b3e5CD3870FB8497Ac234491b0faC3Cc": "2026-09-24T06:54:48.809970+00:00",
-    "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56": "2026-09-24T07:13:16.942925+00:00"
+    "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56": "2026-09-24T07:13:16.942925+00:00",
+    "0x91eEeE083E245DDc4230e21A008f17d728482D05": "2026-09-24T07:21:05.078887+00:00"
   }
 }
