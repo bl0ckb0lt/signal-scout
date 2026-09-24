@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "OTC",
-      "chain": "robinhood",
-      "address": "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56",
-      "source": "new",
-      "entry_price": 0.0002479,
-      "peak_price": 0.0002479,
-      "trailing_active": false,
-      "entry_time": "2026-09-24T07:11:19.008923+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "Muse Charm",
       "chain": "base",
       "address": "0xb2000000000000000000000C6d3FFcDE8770E63C",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-24T07:11:22.338916+00:00",
       "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.9,
+      "peak_volume_m5": 23259.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -207903,6 +207895,25 @@
       "exit_price": 0.0002261,
       "exit_pct": 14.66,
       "exit_time": "2026-09-24T06:54:48.809970+00:00"
+    },
+    {
+      "symbol": "OTC",
+      "chain": "robinhood",
+      "address": "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56",
+      "source": "new",
+      "entry_price": 0.0002479,
+      "peak_price": 0.0002479,
+      "trailing_active": false,
+      "entry_time": "2026-09-24T07:11:19.008923+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.76,
+      "peak_volume_m5": 45544.29,
+      "milestones_hit": [],
+      "exit_price": 0.0002237,
+      "exit_pct": -9.76,
+      "exit_time": "2026-09-24T07:13:16.942925+00:00"
     }
   ],
   "alerted": {
@@ -218435,6 +218446,7 @@
     "7PHFykj3zD4Cy1gerCdU9L44m12jUV6Dc57aCaeApump": "2026-09-24T06:32:08.793547+00:00",
     "FKhivsstimUPv5JADynbb8PiNYHVgst5dS8CWqdhpump": "2026-09-24T06:32:09.493722+00:00",
     "0x1cb9995E15Ce7158f2fCaab17fd872C75603ddC6": "2026-09-24T06:39:33.104361+00:00",
-    "0x49a1CaB8b3e5CD3870FB8497Ac234491b0faC3Cc": "2026-09-24T06:54:48.809970+00:00"
+    "0x49a1CaB8b3e5CD3870FB8497Ac234491b0faC3Cc": "2026-09-24T06:54:48.809970+00:00",
+    "0xEBe2d8AccF5fcD00A56dCeA284C898d6B6163a56": "2026-09-24T07:13:16.942925+00:00"
   }
 }
