@@ -8,30 +8,14 @@
       "address": "0xe8729Dc9dCA85167e06b7E9c66a58b22457c5F30",
       "source": "new",
       "entry_price": 0.0002707,
-      "peak_price": 0.0003269,
+      "peak_price": 0.0003652,
       "trailing_active": true,
       "entry_time": "2026-09-25T16:31:13.373271+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.89,
+      "current_pct": 34.91,
       "peak_volume_m5": 18614.2,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SATURNCOIN",
-      "chain": "robinhood",
-      "address": "0xC0068875FCC7a9B3bB455d32b9Da1C37C681E1aB",
-      "source": "new",
-      "entry_price": 0.0001148,
-      "peak_price": 0.0001689,
-      "trailing_active": true,
-      "entry_time": "2026-09-25T16:41:24.312818+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 47.13,
-      "peak_volume_m5": 27979.42,
       "milestones_hit": []
     },
     {
@@ -48,22 +32,6 @@
       "api_failures": 0,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "DOCK",
-      "chain": "bsc",
-      "address": "0xd61e509004Ed608b89fD66193E88ae580e8b04Dc",
-      "source": "new",
-      "entry_price": 0.0002709,
-      "peak_price": 0.0002709,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T16:41:27.709546+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.44,
-      "peak_volume_m5": 48238.28,
       "milestones_hit": []
     }
   ],
@@ -211582,6 +211550,44 @@
       "exit_price": 0.0001627,
       "exit_pct": -22.67,
       "exit_time": "2026-09-25T16:45:53.851843+00:00"
+    },
+    {
+      "symbol": "SATURNCOIN",
+      "chain": "robinhood",
+      "address": "0xC0068875FCC7a9B3bB455d32b9Da1C37C681E1aB",
+      "source": "new",
+      "entry_price": 0.0001148,
+      "peak_price": 0.0001689,
+      "trailing_active": true,
+      "entry_time": "2026-09-25T16:41:24.312818+00:00",
+      "score": 77,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 39.02,
+      "peak_volume_m5": 27979.42,
+      "milestones_hit": [],
+      "exit_price": 0.0001596,
+      "exit_pct": 39.02,
+      "exit_time": "2026-09-25T16:46:55.100551+00:00"
+    },
+    {
+      "symbol": "DOCK",
+      "chain": "bsc",
+      "address": "0xd61e509004Ed608b89fD66193E88ae580e8b04Dc",
+      "source": "new",
+      "entry_price": 0.0002709,
+      "peak_price": 0.0002709,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T16:41:27.709546+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -7.42,
+      "peak_volume_m5": 48238.28,
+      "milestones_hit": [],
+      "exit_price": 0.0002508,
+      "exit_pct": -7.42,
+      "exit_time": "2026-09-25T16:46:56.377605+00:00"
     }
   ],
   "alerted": {
@@ -222295,6 +222301,8 @@
     "0xCEc96C69E5263899819676D0690366B1025A7777": "2026-09-25T16:24:30.597730+00:00",
     "2yyQGySj9G17M8G8maRTmahcnf6MxkdJYe5SdyRapump": "2026-09-25T16:32:19.220628+00:00",
     "GPpvznazgLo6XcjRpgfDjGZyesfKDXxzGDkSRcrDpump": "2026-09-25T16:32:20.147924+00:00",
-    "8SerkEicthsnmh5hVubrH5GxSCwJD2FYK5MgnA96pump": "2026-09-25T16:45:53.851843+00:00"
+    "8SerkEicthsnmh5hVubrH5GxSCwJD2FYK5MgnA96pump": "2026-09-25T16:45:53.851843+00:00",
+    "0xC0068875FCC7a9B3bB455d32b9Da1C37C681E1aB": "2026-09-25T16:46:55.100551+00:00",
+    "0xd61e509004Ed608b89fD66193E88ae580e8b04Dc": "2026-09-25T16:46:56.377605+00:00"
   }
 }
