@@ -14,7 +14,7 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.18,
+      "current_pct": 4.76,
       "peak_volume_m5": 497.14,
       "milestones_hit": []
     },
@@ -28,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-25T16:51:27.211557+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "SATURNCOIN",
-      "chain": "robinhood",
-      "address": "0x09B3A79CD6ceb1264eC6279d860737736099c84c",
-      "source": "new",
-      "entry_price": 0.0002321,
-      "peak_price": 0.0002321,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T16:51:28.792131+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 5086.43,
+      "milestones_hit": []
     },
     {
       "symbol": "SPIKE",
@@ -48,11 +40,15 @@
       "address": "0x4c82f217456009e020c56D8B108D7661Fc586425",
       "source": "new",
       "entry_price": 4.643e-07,
-      "peak_price": 4.643e-07,
-      "trailing_active": false,
+      "peak_price": 5.694e-07,
+      "trailing_active": true,
       "entry_time": "2026-09-25T16:51:36.010184+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.64,
+      "peak_volume_m5": 17538.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -211627,6 +211623,25 @@
       "exit_price": 0.0003339,
       "exit_pct": 23.35,
       "exit_time": "2026-09-25T16:47:53.816558+00:00"
+    },
+    {
+      "symbol": "SATURNCOIN",
+      "chain": "robinhood",
+      "address": "0x09B3A79CD6ceb1264eC6279d860737736099c84c",
+      "source": "new",
+      "entry_price": 0.0002321,
+      "peak_price": 0.0002321,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T16:51:28.792131+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.26,
+      "peak_volume_m5": 10272.05,
+      "milestones_hit": [],
+      "exit_price": 0.0002199,
+      "exit_pct": -5.26,
+      "exit_time": "2026-09-25T16:58:02.036465+00:00"
     }
   ],
   "alerted": {
@@ -222343,6 +222358,7 @@
     "8SerkEicthsnmh5hVubrH5GxSCwJD2FYK5MgnA96pump": "2026-09-25T16:45:53.851843+00:00",
     "0xC0068875FCC7a9B3bB455d32b9Da1C37C681E1aB": "2026-09-25T16:46:55.100551+00:00",
     "0xd61e509004Ed608b89fD66193E88ae580e8b04Dc": "2026-09-25T16:46:56.377605+00:00",
-    "0xe8729Dc9dCA85167e06b7E9c66a58b22457c5F30": "2026-09-25T16:47:53.816558+00:00"
+    "0xe8729Dc9dCA85167e06b7E9c66a58b22457c5F30": "2026-09-25T16:47:53.816558+00:00",
+    "0x09B3A79CD6ceb1264eC6279d860737736099c84c": "2026-09-25T16:58:02.036465+00:00"
   }
 }
