@@ -14,24 +14,8 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 28.13,
+      "current_pct": 18.28,
       "peak_volume_m5": 38554.0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "TUGGIN",
-      "chain": "solana",
-      "address": "5qfodizArUwfzWxnHqvaK45eVdzv1mj8L6QPY8gUpump",
-      "source": "new",
-      "entry_price": 0.0001445,
-      "peak_price": 0.0001568,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T00:51:15.838418+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 8.51,
-      "peak_volume_m5": 22941.63,
       "milestones_hit": []
     },
     {
@@ -40,11 +24,18 @@
       "address": "nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump",
       "source": "new",
       "entry_price": 0.000201,
-      "peak_price": 0.000201,
-      "trailing_active": false,
+      "peak_price": 0.00055,
+      "trailing_active": true,
       "entry_time": "2026-09-25T01:01:25.164093+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 173.63,
+      "peak_volume_m5": 307306.42,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -210128,6 +210119,25 @@
       "exit_price": 0.00012,
       "exit_pct": -14.1,
       "exit_time": "2026-09-25T00:52:35.147009+00:00"
+    },
+    {
+      "symbol": "TUGGIN",
+      "chain": "solana",
+      "address": "5qfodizArUwfzWxnHqvaK45eVdzv1mj8L6QPY8gUpump",
+      "source": "new",
+      "entry_price": 0.0001445,
+      "peak_price": 0.0001568,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T00:51:15.838418+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -98.36,
+      "peak_volume_m5": 41019.09,
+      "milestones_hit": [],
+      "exit_price": 2.373e-06,
+      "exit_pct": -98.36,
+      "exit_time": "2026-09-25T01:08:57.329151+00:00"
     }
   ],
   "alerted": {
@@ -220772,6 +220782,7 @@
     "3znS89gifim2Hhhu8wjb2PfSgaCDdma187D5NMkDpump": "2026-09-25T00:12:18.563954+00:00",
     "0x6A23d69cD3272007Be82a35b16F37524d1869e51": "2026-09-25T00:23:38.042804+00:00",
     "0x5661406BfC2c507F3AA92Fd2846914749e73bA97": "2026-09-25T00:27:52.809954+00:00",
-    "0x383562778894760d53a247C97686284931BB28cc": "2026-09-25T00:52:35.147009+00:00"
+    "0x383562778894760d53a247C97686284931BB28cc": "2026-09-25T00:52:35.147009+00:00",
+    "5qfodizArUwfzWxnHqvaK45eVdzv1mj8L6QPY8gUpump": "2026-09-25T01:08:57.329151+00:00"
   }
 }
