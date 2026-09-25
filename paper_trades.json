@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "OG",
-      "chain": "solana",
-      "address": "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump",
-      "source": "boost",
-      "entry_price": 0.0003743,
-      "peak_price": 0.0003743,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T01:31:05.916975+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "TTP",
       "chain": "solana",
       "address": "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump",
       "source": "new",
       "entry_price": 0.0001133,
-      "peak_price": 0.0001133,
+      "peak_price": 0.0001284,
       "trailing_active": false,
       "entry_time": "2026-09-25T01:31:08.894703+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.33,
+      "peak_volume_m5": 9010.1,
+      "milestones_hit": []
     },
     {
       "symbol": "COD",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-25T01:31:11.975228+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.02,
+      "peak_volume_m5": 77079.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -210219,6 +210215,25 @@
       "exit_price": 0.0003446,
       "exit_pct": 6.52,
       "exit_time": "2026-09-25T01:29:54.177620+00:00"
+    },
+    {
+      "symbol": "OG",
+      "chain": "solana",
+      "address": "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump",
+      "source": "boost",
+      "entry_price": 0.0003743,
+      "peak_price": 0.0003743,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T01:31:05.916975+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.4,
+      "peak_volume_m5": 24888.56,
+      "milestones_hit": [],
+      "exit_price": 0.0002942,
+      "exit_pct": -21.4,
+      "exit_time": "2026-09-25T01:34:18.702234+00:00"
     }
   ],
   "alerted": {
@@ -220868,6 +220883,7 @@
     "0x8A60cb7e478f45C39a678446E632d2e9965BA900": "2026-09-25T01:10:58.347940+00:00",
     "nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump": "2026-09-25T01:13:31.169628+00:00",
     "0xeAd015725C6Cc0A38cDAEa04cB7933210198b830": "2026-09-25T01:24:25.996689+00:00",
-    "0x8E15239D16936D25d7972B18cdB9D0C266f52f7a": "2026-09-25T01:29:54.177620+00:00"
+    "0x8E15239D16936D25d7972B18cdB9D0C266f52f7a": "2026-09-25T01:29:54.177620+00:00",
+    "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump": "2026-09-25T01:34:18.702234+00:00"
   }
 }
