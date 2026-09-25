@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TTP",
-      "chain": "solana",
-      "address": "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump",
-      "source": "new",
-      "entry_price": 0.0001133,
-      "peak_price": 0.000147,
-      "trailing_active": true,
-      "entry_time": "2026-09-25T01:31:08.894703+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 29.74,
-      "peak_volume_m5": 10916.2,
-      "milestones_hit": []
-    },
-    {
       "symbol": "COD",
       "chain": "bsc",
       "address": "0x8151Dc49f9bEE6A816B3B6dAc766Ca91606a4675",
@@ -30,33 +14,9 @@
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.63,
+      "current_pct": 17.66,
       "peak_volume_m5": 77079.1,
       "milestones_hit": []
-    },
-    {
-      "symbol": "GOCAT",
-      "chain": "solana",
-      "address": "2wjkRnzHonJH4iRzivwZ2Uost9dQyXx6MmZrPNijpump",
-      "source": "new",
-      "entry_price": 0.000189,
-      "peak_price": 0.000189,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T01:41:32.981213+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "GG",
-      "chain": "solana",
-      "address": "H6MjER3jX3EbfBEMxsMKq1Z6jnFRwwKAbDL4JD72pump",
-      "source": "new",
-      "entry_price": 0.0001032,
-      "peak_price": 0.0001032,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T01:41:36.194809+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -210258,6 +210218,63 @@
       "exit_price": 0.0002942,
       "exit_pct": -21.4,
       "exit_time": "2026-09-25T01:34:18.702234+00:00"
+    },
+    {
+      "symbol": "TTP",
+      "chain": "solana",
+      "address": "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump",
+      "source": "new",
+      "entry_price": 0.0001133,
+      "peak_price": 0.000147,
+      "trailing_active": true,
+      "entry_time": "2026-09-25T01:31:08.894703+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 14.74,
+      "peak_volume_m5": 10916.2,
+      "milestones_hit": [],
+      "exit_price": 0.00013,
+      "exit_pct": 14.74,
+      "exit_time": "2026-09-25T01:43:13.867103+00:00"
+    },
+    {
+      "symbol": "GOCAT",
+      "chain": "solana",
+      "address": "2wjkRnzHonJH4iRzivwZ2Uost9dQyXx6MmZrPNijpump",
+      "source": "new",
+      "entry_price": 0.000189,
+      "peak_price": 0.000189,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T01:41:32.981213+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.42,
+      "peak_volume_m5": 84823.94,
+      "milestones_hit": [],
+      "exit_price": 0.0001504,
+      "exit_pct": -20.42,
+      "exit_time": "2026-09-25T01:43:15.021302+00:00"
+    },
+    {
+      "symbol": "GG",
+      "chain": "solana",
+      "address": "H6MjER3jX3EbfBEMxsMKq1Z6jnFRwwKAbDL4JD72pump",
+      "source": "new",
+      "entry_price": 0.0001032,
+      "peak_price": 0.0001032,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T01:41:36.194809+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.84,
+      "peak_volume_m5": 59687.39,
+      "milestones_hit": [],
+      "exit_price": 7.55e-05,
+      "exit_pct": -26.84,
+      "exit_time": "2026-09-25T01:43:15.768317+00:00"
     }
   ],
   "alerted": {
@@ -220908,6 +220925,9 @@
     "nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump": "2026-09-25T01:13:31.169628+00:00",
     "0xeAd015725C6Cc0A38cDAEa04cB7933210198b830": "2026-09-25T01:24:25.996689+00:00",
     "0x8E15239D16936D25d7972B18cdB9D0C266f52f7a": "2026-09-25T01:29:54.177620+00:00",
-    "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump": "2026-09-25T01:34:18.702234+00:00"
+    "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump": "2026-09-25T01:34:18.702234+00:00",
+    "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump": "2026-09-25T01:43:13.867103+00:00",
+    "2wjkRnzHonJH4iRzivwZ2Uost9dQyXx6MmZrPNijpump": "2026-09-25T01:43:15.021302+00:00",
+    "H6MjER3jX3EbfBEMxsMKq1Z6jnFRwwKAbDL4JD72pump": "2026-09-25T01:43:15.768317+00:00"
   }
 }
