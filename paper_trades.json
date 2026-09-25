@@ -3,28 +3,24 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Poocoin",
-      "chain": "solana",
-      "address": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
-      "source": "boost",
-      "entry_price": 0.0001145,
-      "peak_price": 0.0001145,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T14:51:22.476079+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "MB4U",
       "chain": "robinhood",
       "address": "0xd0e60A1d14b5B41A85b8611D87Ef666Ce2879d51",
       "source": "new",
       "entry_price": 8.359e-07,
-      "peak_price": 8.359e-07,
-      "trailing_active": false,
+      "peak_price": 2.585e-06,
+      "trailing_active": true,
       "entry_time": "2026-09-25T14:51:25.605668+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 209.25,
+      "peak_volume_m5": 167823.85,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -211291,6 +211287,25 @@
       "exit_price": 0.0002079,
       "exit_pct": 3.48,
       "exit_time": "2026-09-25T14:44:51.740803+00:00"
+    },
+    {
+      "symbol": "Poocoin",
+      "chain": "solana",
+      "address": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
+      "source": "boost",
+      "entry_price": 0.0001145,
+      "peak_price": 0.0001145,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T14:51:22.476079+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.31,
+      "peak_volume_m5": 2679.44,
+      "milestones_hit": [],
+      "exit_price": 9.926e-05,
+      "exit_pct": -13.31,
+      "exit_time": "2026-09-25T14:57:58.898993+00:00"
     }
   ],
   "alerted": {
@@ -221992,6 +222007,7 @@
     "DYM6DRb9W7dQa58Jn717dDSVKP5KwDSevdptfwwcpump": "2026-09-25T14:26:07.160278+00:00",
     "5NhN6zzDkzwXFGPFqtpTopV4ttBeZ6CWy1oRL9Rkpump": "2026-09-25T14:32:41.859827+00:00",
     "k1jnShqQ15xBupKaQGKz6CHkcWc8zCi3g9ReBeWpump": "2026-09-25T14:32:42.701636+00:00",
-    "0xdbA17c088b001d0970CF57ceC0765be48C16137d": "2026-09-25T14:44:51.740803+00:00"
+    "0xdbA17c088b001d0970CF57ceC0765be48C16137d": "2026-09-25T14:44:51.740803+00:00",
+    "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd": "2026-09-25T14:57:58.898993+00:00"
   }
 }
