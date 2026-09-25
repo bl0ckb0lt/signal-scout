@@ -19,24 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "AMERICA",
-      "chain": "solana",
-      "address": "pwfAeX3kpWpkuumA6iodJxtVcGAen6BkRPToR2VqLp9",
-      "source": "new",
-      "entry_price": 0.0007488,
-      "peak_price": 0.001181,
-      "trailing_active": true,
-      "entry_time": "2026-09-25T20:01:18.417507+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 57.72,
-      "peak_volume_m5": 55085.27,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "UNPEG",
       "chain": "solana",
       "address": "FDfxBRSc3MraBGcGmkHgfkvwHTUDMEA2hRV2cRNbpeg",
@@ -46,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-25T20:11:32.540092+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.34,
+      "peak_volume_m5": 11161.57,
+      "milestones_hit": []
     },
     {
       "symbol": "Apu",
@@ -54,23 +40,15 @@
       "address": "79xB7iLghccAWuoab7qXkaDpQggmu6D2zrpKtfXipump",
       "source": "new",
       "entry_price": 0.000295,
-      "peak_price": 0.000295,
-      "trailing_active": false,
+      "peak_price": 0.0003814,
+      "trailing_active": true,
       "entry_time": "2026-09-25T20:11:34.165946+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "GME",
-      "chain": "bsc",
-      "address": "0x38D58D65e280A3451634a09B2515015153bC7777",
-      "source": "new",
-      "entry_price": 0.0002757,
-      "peak_price": 0.0002757,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T20:11:35.693600+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.29,
+      "peak_volume_m5": 89616.6,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -212168,6 +212146,46 @@
       "exit_price": 0.0001793,
       "exit_pct": 16.28,
       "exit_time": "2026-09-25T19:47:28.977855+00:00"
+    },
+    {
+      "symbol": "AMERICA",
+      "chain": "solana",
+      "address": "pwfAeX3kpWpkuumA6iodJxtVcGAen6BkRPToR2VqLp9",
+      "source": "new",
+      "entry_price": 0.0007488,
+      "peak_price": 0.001181,
+      "trailing_active": true,
+      "entry_time": "2026-09-25T20:01:18.417507+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 43.3,
+      "peak_volume_m5": 67870.61,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.001073,
+      "exit_pct": 43.3,
+      "exit_time": "2026-09-25T20:12:56.894579+00:00"
+    },
+    {
+      "symbol": "GME",
+      "chain": "bsc",
+      "address": "0x38D58D65e280A3451634a09B2515015153bC7777",
+      "source": "new",
+      "entry_price": 0.0002757,
+      "peak_price": 0.0002757,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T20:11:35.693600+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.04,
+      "peak_volume_m5": 18759.6,
+      "milestones_hit": [],
+      "exit_price": 0.0002177,
+      "exit_pct": -21.04,
+      "exit_time": "2026-09-25T20:12:59.004213+00:00"
     }
   ],
   "alerted": {
@@ -222910,6 +222928,8 @@
     "0xf405Ee6594c596a14E3703EE4f690F0c2df649Dd": "2026-09-25T19:25:57.605368+00:00",
     "Fh9wRZe64RfyriT9ooqhniV88dFFo4khwGFAqKmoXEDL": "2026-09-25T19:44:58.778677+00:00",
     "GivoPBF7FobXfini3pgPgFiEQ9DVL7mFTYdRbQgxpump": "2026-09-25T19:46:46.414672+00:00",
-    "0x8010619Ea2b22B5D4964b29Cf48b2EE8bd9160CF": "2026-09-25T19:47:28.977855+00:00"
+    "0x8010619Ea2b22B5D4964b29Cf48b2EE8bd9160CF": "2026-09-25T19:47:28.977855+00:00",
+    "pwfAeX3kpWpkuumA6iodJxtVcGAen6BkRPToR2VqLp9": "2026-09-25T20:12:56.894579+00:00",
+    "0x38D58D65e280A3451634a09B2515015153bC7777": "2026-09-25T20:12:59.004213+00:00"
   }
 }
