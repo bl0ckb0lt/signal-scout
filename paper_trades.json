@@ -19,34 +19,18 @@
       "milestones_hit": []
     },
     {
-      "symbol": "DEBASE",
-      "chain": "base",
-      "address": "0xdebA5eB570d0b7FF07c3d8c0d3692F95cF38262E",
-      "source": "new",
-      "entry_price": 1.651e-06,
-      "peak_price": 1.722e-06,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T16:51:27.211557+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.51,
-      "peak_volume_m5": 5086.43,
-      "milestones_hit": []
-    },
-    {
       "symbol": "WOAR",
       "chain": "solana",
       "address": "YfiiXt4bBUTdFSYLfsdoM7q2GtJWbe4SbkuNnsRpump",
       "source": "new",
       "entry_price": 0.0001376,
-      "peak_price": 0.0001927,
+      "peak_price": 0.0002041,
       "trailing_active": true,
       "entry_time": "2026-09-25T17:00:59.665351+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 40.04,
+      "current_pct": 48.33,
       "peak_volume_m5": 9918.51,
       "milestones_hit": []
     }
@@ -211701,6 +211685,25 @@
       "exit_price": 0.0003562,
       "exit_pct": -22.73,
       "exit_time": "2026-09-25T17:13:09.415570+00:00"
+    },
+    {
+      "symbol": "DEBASE",
+      "chain": "base",
+      "address": "0xdebA5eB570d0b7FF07c3d8c0d3692F95cF38262E",
+      "source": "new",
+      "entry_price": 1.651e-06,
+      "peak_price": 1.742e-06,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T16:51:27.211557+00:00",
+      "score": 77,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 5.51,
+      "peak_volume_m5": 5086.43,
+      "milestones_hit": [],
+      "exit_price": 1.742e-06,
+      "exit_pct": 5.51,
+      "exit_time": "2026-09-25T17:14:58.266853+00:00"
     }
   ],
   "alerted": {
@@ -222421,6 +222424,7 @@
     "0x09B3A79CD6ceb1264eC6279d860737736099c84c": "2026-09-25T16:58:02.036465+00:00",
     "0x4c82f217456009e020c56D8B108D7661Fc586425": "2026-09-25T17:02:04.341011+00:00",
     "0xA4922A8166885edC5e55eA4BF2f2a7240823Cb36": "2026-09-25T17:03:03.431584+00:00",
-    "93Q1FohrzWzsvJXJujLW7PrZLZtpCPmviKyWKEX3pump": "2026-09-25T17:13:09.415570+00:00"
+    "93Q1FohrzWzsvJXJujLW7PrZLZtpCPmviKyWKEX3pump": "2026-09-25T17:13:09.415570+00:00",
+    "0xdebA5eB570d0b7FF07c3d8c0d3692F95cF38262E": "2026-09-25T17:14:58.266853+00:00"
   }
 }
