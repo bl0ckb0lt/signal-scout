@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FELS",
-      "chain": "robinhood",
-      "address": "0xeAd015725C6Cc0A38cDAEa04cB7933210198b830",
-      "source": "new",
-      "entry_price": 0.001714,
-      "peak_price": 0.001714,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T01:21:15.515140+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "Wumpus",
       "chain": "robinhood",
       "address": "0x8E15239D16936D25d7972B18cdB9D0C266f52f7a",
       "source": "new",
       "entry_price": 0.0003235,
-      "peak_price": 0.0003235,
-      "trailing_active": false,
+      "peak_price": 0.0004266,
+      "trailing_active": true,
       "entry_time": "2026-09-25T01:21:16.975516+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.87,
+      "peak_volume_m5": 142065.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -210169,6 +210161,25 @@
       "exit_price": 0.001015,
       "exit_pct": 404.98,
       "exit_time": "2026-09-25T01:13:31.169628+00:00"
+    },
+    {
+      "symbol": "FELS",
+      "chain": "robinhood",
+      "address": "0xeAd015725C6Cc0A38cDAEa04cB7933210198b830",
+      "source": "new",
+      "entry_price": 0.001714,
+      "peak_price": 0.001714,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T01:21:15.515140+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.79,
+      "peak_volume_m5": 126267.79,
+      "milestones_hit": [],
+      "exit_price": 0.001272,
+      "exit_pct": -25.79,
+      "exit_time": "2026-09-25T01:24:25.996689+00:00"
     }
   ],
   "alerted": {
@@ -220816,6 +220827,7 @@
     "0x383562778894760d53a247C97686284931BB28cc": "2026-09-25T00:52:35.147009+00:00",
     "5qfodizArUwfzWxnHqvaK45eVdzv1mj8L6QPY8gUpump": "2026-09-25T01:08:57.329151+00:00",
     "0x8A60cb7e478f45C39a678446E632d2e9965BA900": "2026-09-25T01:10:58.347940+00:00",
-    "nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump": "2026-09-25T01:13:31.169628+00:00"
+    "nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump": "2026-09-25T01:13:31.169628+00:00",
+    "0xeAd015725C6Cc0A38cDAEa04cB7933210198b830": "2026-09-25T01:24:25.996689+00:00"
   }
 }
