@@ -19,28 +19,23 @@
       "milestones_hit": []
     },
     {
-      "symbol": "JEANTRUMP",
-      "chain": "solana",
-      "address": "4z74i8Jo5zTWkFyyrx5zuusLasgKu6JtREVKgKVSpump",
-      "source": "boost",
-      "entry_price": 0.0001518,
-      "peak_price": 0.0001518,
-      "trailing_active": false,
-      "entry_time": "2026-09-25T22:11:29.563620+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "GIFT",
       "chain": "solana",
       "address": "BArKYT7FAEmgvmrGSczAPeyiY5RAbdZgzj2GX7HyR5vw",
       "source": "new",
       "entry_price": 0.0001188,
-      "peak_price": 0.0001188,
-      "trailing_active": false,
+      "peak_price": 0.0003537,
+      "trailing_active": true,
       "entry_time": "2026-09-25T22:11:31.194078+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 197.73,
+      "peak_volume_m5": 73951.78,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -212494,6 +212489,25 @@
       "exit_price": 0.0007625,
       "exit_pct": 68.47,
       "exit_time": "2026-09-25T22:03:49.990515+00:00"
+    },
+    {
+      "symbol": "JEANTRUMP",
+      "chain": "solana",
+      "address": "4z74i8Jo5zTWkFyyrx5zuusLasgKu6JtREVKgKVSpump",
+      "source": "boost",
+      "entry_price": 0.0001518,
+      "peak_price": 0.0001518,
+      "trailing_active": false,
+      "entry_time": "2026-09-25T22:11:29.563620+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.16,
+      "peak_volume_m5": 32584.24,
+      "milestones_hit": [],
+      "exit_price": 0.0001379,
+      "exit_pct": -9.16,
+      "exit_time": "2026-09-25T22:16:02.184181+00:00"
     }
   ],
   "alerted": {
@@ -223254,6 +223268,7 @@
     "FaWBF7djnFysJVHptwUAHLN7ZqM1BUis3QMnbsM1pump": "2026-09-25T21:22:25.535119+00:00",
     "FRTWE2Px9v15fH7P941Ey3Ey16Y9uFHMC3njRVFRpump": "2026-09-25T21:25:13.267702+00:00",
     "0xd53e5a742fa13D2BE38DeeA2dE88c0c72de7E9E5": "2026-09-25T21:42:34.375603+00:00",
-    "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "2026-09-25T22:03:49.990515+00:00"
+    "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "2026-09-25T22:03:49.990515+00:00",
+    "4z74i8Jo5zTWkFyyrx5zuusLasgKu6JtREVKgKVSpump": "2026-09-25T22:16:02.184181+00:00"
   }
 }
