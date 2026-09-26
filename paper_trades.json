@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Cream",
-      "chain": "solana",
-      "address": "CMuvWQ6qQbSt7NUQdPGcVKCoDgETieuqS68qu6BaeVgR",
-      "source": "new",
-      "entry_price": 0.0001432,
-      "peak_price": 0.0001432,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T01:11:19.623275+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "O",
       "chain": "robinhood",
       "address": "0x9D6967E7f5ed93ba3fbBcB03eC2E13b617591E18",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-26T01:11:22.305473+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.75,
+      "peak_volume_m5": 22232.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -212883,6 +212875,25 @@
       "exit_price": 5.876e-05,
       "exit_pct": -58.27,
       "exit_time": "2026-09-26T01:00:38.227195+00:00"
+    },
+    {
+      "symbol": "Cream",
+      "chain": "solana",
+      "address": "CMuvWQ6qQbSt7NUQdPGcVKCoDgETieuqS68qu6BaeVgR",
+      "source": "new",
+      "entry_price": 0.0001432,
+      "peak_price": 0.0001432,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T01:11:19.623275+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -39.85,
+      "peak_volume_m5": 155875.78,
+      "milestones_hit": [],
+      "exit_price": 8.613e-05,
+      "exit_pct": -39.85,
+      "exit_time": "2026-09-26T01:12:28.252997+00:00"
     }
   ],
   "alerted": {
@@ -223664,6 +223675,7 @@
     "0x2BD96E4f3C5AEb4D025E7CF98467aB7a9f30F500": "2026-09-26T00:32:34.534893+00:00",
     "B9C7Ehd2Ute3fuDQSzbv6QzECHUsEp1yqQ795sTdpump": "2026-09-26T00:42:31.284110+00:00",
     "0x70967C315d512396575daD69B2480d44C87D2B90": "2026-09-26T00:45:14.233340+00:00",
-    "0xf54d6B75f0092927E18a43557a011d14ef775266": "2026-09-26T01:00:38.227195+00:00"
+    "0xf54d6B75f0092927E18a43557a011d14ef775266": "2026-09-26T01:00:38.227195+00:00",
+    "CMuvWQ6qQbSt7NUQdPGcVKCoDgETieuqS68qu6BaeVgR": "2026-09-26T01:12:28.252997+00:00"
   }
 }
