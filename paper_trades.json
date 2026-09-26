@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AEVA",
-      "chain": "robinhood",
-      "address": "0x26eE3536441951b00C9Bd3AF51efd2C3b90d89A6",
-      "source": "new",
-      "entry_price": 0.001341,
-      "peak_price": 0.001341,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T01:21:12.363253+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "TRUMP",
       "chain": "solana",
       "address": "9rzRfWAFzjkV7HMm36M1ZSh7JUf4S8pw6UeZdPdLpump",
       "source": "new",
       "entry_price": 0.0001843,
-      "peak_price": 0.0001843,
+      "peak_price": 0.0001895,
       "trailing_active": false,
       "entry_time": "2026-09-26T01:21:13.947387+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.82,
+      "peak_volume_m5": 103436.15,
+      "milestones_hit": []
     },
     {
       "symbol": "roon",
@@ -32,11 +24,15 @@
       "address": "DmB3oUjBpsXscdqcx4eYPaMaJRhRJ1oovwvjgzj7BoNA",
       "source": "new",
       "entry_price": 0.0001651,
-      "peak_price": 0.0001651,
-      "trailing_active": false,
+      "peak_price": 0.0002414,
+      "trailing_active": true,
       "entry_time": "2026-09-26T01:21:17.196235+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 46.21,
+      "peak_volume_m5": 93116.62,
+      "milestones_hit": []
     },
     {
       "symbol": "O",
@@ -44,11 +40,15 @@
       "address": "0xcd5eE8E47D8D48595B708c7CB6412eD5303A7D4A",
       "source": "new",
       "entry_price": 0.0002342,
-      "peak_price": 0.0002342,
+      "peak_price": 0.0002428,
       "trailing_active": false,
       "entry_time": "2026-09-26T01:21:18.534123+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.67,
+      "peak_volume_m5": 72573.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -212945,6 +212945,25 @@
       "exit_price": 0.0005973,
       "exit_pct": -9.87,
       "exit_time": "2026-09-26T01:13:25.959547+00:00"
+    },
+    {
+      "symbol": "AEVA",
+      "chain": "robinhood",
+      "address": "0x26eE3536441951b00C9Bd3AF51efd2C3b90d89A6",
+      "source": "new",
+      "entry_price": 0.001341,
+      "peak_price": 0.001341,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T01:21:12.363253+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.97,
+      "peak_volume_m5": 42200.36,
+      "milestones_hit": [],
+      "exit_price": 0.0011,
+      "exit_pct": -17.97,
+      "exit_time": "2026-09-26T01:23:53.571786+00:00"
     }
   ],
   "alerted": {
@@ -223728,6 +223747,7 @@
     "0x70967C315d512396575daD69B2480d44C87D2B90": "2026-09-26T00:45:14.233340+00:00",
     "0xf54d6B75f0092927E18a43557a011d14ef775266": "2026-09-26T01:00:38.227195+00:00",
     "CMuvWQ6qQbSt7NUQdPGcVKCoDgETieuqS68qu6BaeVgR": "2026-09-26T01:12:28.252997+00:00",
-    "0x9D6967E7f5ed93ba3fbBcB03eC2E13b617591E18": "2026-09-26T01:13:25.959547+00:00"
+    "0x9D6967E7f5ed93ba3fbBcB03eC2E13b617591E18": "2026-09-26T01:13:25.959547+00:00",
+    "0x26eE3536441951b00C9Bd3AF51efd2C3b90d89A6": "2026-09-26T01:23:53.571786+00:00"
   }
 }
