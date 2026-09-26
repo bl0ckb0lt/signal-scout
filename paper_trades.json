@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "boobies",
-      "chain": "solana",
-      "address": "7S1pH2coVoBgzr23gnMpU2nirjCJbrnJGR3g6zmZhzZc",
-      "source": "new",
-      "entry_price": 0.0001783,
-      "peak_price": 0.0001783,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T07:51:18.886013+00:00",
-      "score": 69,
-      "status": "open"
-    },
-    {
       "symbol": "SEND",
       "chain": "bsc",
       "address": "0x56499F0287E1547694C665B07FD8DafE743e7777",
       "source": "new",
       "entry_price": 0.0002412,
-      "peak_price": 0.0002412,
-      "trailing_active": false,
+      "peak_price": 0.0003133,
+      "trailing_active": true,
       "entry_time": "2026-09-26T07:51:21.186534+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.89,
+      "peak_volume_m5": 164012.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -213622,6 +213614,25 @@
       "exit_price": 8.636e-05,
       "exit_pct": -17.83,
       "exit_time": "2026-09-26T07:42:25.551867+00:00"
+    },
+    {
+      "symbol": "boobies",
+      "chain": "solana",
+      "address": "7S1pH2coVoBgzr23gnMpU2nirjCJbrnJGR3g6zmZhzZc",
+      "source": "new",
+      "entry_price": 0.0001783,
+      "peak_price": 0.0001783,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T07:51:18.886013+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.13,
+      "peak_volume_m5": 5606.25,
+      "milestones_hit": [],
+      "exit_price": 0.0001638,
+      "exit_pct": -8.13,
+      "exit_time": "2026-09-26T07:52:20.620855+00:00"
     }
   ],
   "alerted": {
@@ -224440,6 +224451,7 @@
     "693L8NbWor3m3TGdSML15GftutdewRvEKLRUhJFFpump": "2026-09-26T06:03:27.253202+00:00",
     "0x54dFCA823a37Df628B573E7CAEdb2c02E24C13a3": "2026-09-26T07:02:44.065975+00:00",
     "0xf21f93091e7d4021ed100121DB18C730573614Ef": "2026-09-26T07:23:42.989953+00:00",
-    "3G8t77KrT6quRUyAoaYUcNWHDnJZ1iB9MWUkf8MGpump": "2026-09-26T07:42:25.551867+00:00"
+    "3G8t77KrT6quRUyAoaYUcNWHDnJZ1iB9MWUkf8MGpump": "2026-09-26T07:42:25.551867+00:00",
+    "7S1pH2coVoBgzr23gnMpU2nirjCJbrnJGR3g6zmZhzZc": "2026-09-26T07:52:20.620855+00:00"
   }
 }
