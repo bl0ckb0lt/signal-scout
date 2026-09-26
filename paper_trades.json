@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "XGAS.DEV",
-      "chain": "robinhood",
-      "address": "0x006D2D9e65f847e8B5f5053C9eb3a7824ec7dFa3",
-      "source": "boost",
-      "entry_price": 0.0001367,
-      "peak_price": 0.0001367,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T05:31:13.233261+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "DDOS",
       "chain": "robinhood",
       "address": "0x51Ff21000B5163e0aA8e03D0AF7eaE8073F65601",
       "source": "new",
       "entry_price": 0.0002564,
-      "peak_price": 0.0002564,
-      "trailing_active": false,
+      "peak_price": 0.0003256,
+      "trailing_active": true,
       "entry_time": "2026-09-26T05:31:14.550338+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 26.99,
+      "peak_volume_m5": 64936.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -213508,6 +213500,25 @@
       "exit_price": 9.346e-05,
       "exit_pct": -27.33,
       "exit_time": "2026-09-26T05:12:46.323810+00:00"
+    },
+    {
+      "symbol": "XGAS.DEV",
+      "chain": "robinhood",
+      "address": "0x006D2D9e65f847e8B5f5053C9eb3a7824ec7dFa3",
+      "source": "boost",
+      "entry_price": 0.0001367,
+      "peak_price": 0.0001367,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T05:31:13.233261+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.6,
+      "peak_volume_m5": 22883.14,
+      "milestones_hit": [],
+      "exit_price": 0.0001099,
+      "exit_pct": -19.6,
+      "exit_time": "2026-09-26T05:32:45.589666+00:00"
     }
   ],
   "alerted": {
@@ -224320,6 +224331,7 @@
     "DMZtsWeDaPRGU4ziXxcEMuPbXh1BmDm5iR9LirT8ZoHG": "2026-09-26T04:33:15.689343+00:00",
     "HSnCtWsw5YmfAkJo9S3eetWtGHPMrc2pAxvCu24AnQEa": "2026-09-26T04:52:29.472765+00:00",
     "Fj886GvHFyxQhunb4pw7WLRPRASNh25LT8Zpv8qqr3Ab": "2026-09-26T05:05:42.535498+00:00",
-    "2Zij3mVUnyN7dxAbxmZLUSH765WcVF24qEvvsDrjhzU7": "2026-09-26T05:12:46.323810+00:00"
+    "2Zij3mVUnyN7dxAbxmZLUSH765WcVF24qEvvsDrjhzU7": "2026-09-26T05:12:46.323810+00:00",
+    "0x006D2D9e65f847e8B5f5053C9eb3a7824ec7dFa3": "2026-09-26T05:32:45.589666+00:00"
   }
 }
