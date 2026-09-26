@@ -8,23 +8,15 @@
       "address": "DRKGYsGALqr5p2aTcGLK9zqiPB5wk7JV78bJv4mPpump",
       "source": "new",
       "entry_price": 0.0004246,
-      "peak_price": 0.0004246,
-      "trailing_active": false,
+      "peak_price": 0.0005576,
+      "trailing_active": true,
       "entry_time": "2026-09-26T19:51:11.680175+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "o",
-      "chain": "solana",
-      "address": "2bX5CKZ7SHvacmMQFq7nBjQMmpPFbCZkpA7367du9Wa2",
-      "source": "new",
-      "entry_price": 0.0002439,
-      "peak_price": 0.0002439,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T19:51:13.544136+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.32,
+      "peak_volume_m5": 230643.04,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -214875,6 +214867,25 @@
       "exit_price": 0.0002742,
       "exit_pct": -32.15,
       "exit_time": "2026-09-26T19:37:55.385536+00:00"
+    },
+    {
+      "symbol": "o",
+      "chain": "solana",
+      "address": "2bX5CKZ7SHvacmMQFq7nBjQMmpPFbCZkpA7367du9Wa2",
+      "source": "new",
+      "entry_price": 0.0002439,
+      "peak_price": 0.0002439,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T19:51:13.544136+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.52,
+      "peak_volume_m5": 35076.55,
+      "milestones_hit": [],
+      "exit_price": 0.0002158,
+      "exit_pct": -11.52,
+      "exit_time": "2026-09-26T19:53:16.093605+00:00"
     }
   ],
   "alerted": {
@@ -225758,6 +225769,7 @@
     "0x912eFB6Ff668c886f769d26dba266B496c302271": "2026-09-26T19:22:38.995929+00:00",
     "0xa4f1d0E1693a218C2a9C97965F7de59aA8C03DDf": "2026-09-26T19:22:39.862506+00:00",
     "ZrQdfsbm4XVBXMBr8V9Qxvy4Jkt36b5K9iEZmR9pump": "2026-09-26T19:36:44.170136+00:00",
-    "FEamXZx6VAawJeM82Dan8gVKjEyk8Nd1xmic5Cxypump": "2026-09-26T19:37:55.385536+00:00"
+    "FEamXZx6VAawJeM82Dan8gVKjEyk8Nd1xmic5Cxypump": "2026-09-26T19:37:55.385536+00:00",
+    "2bX5CKZ7SHvacmMQFq7nBjQMmpPFbCZkpA7367du9Wa2": "2026-09-26T19:53:16.093605+00:00"
   }
 }
