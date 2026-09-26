@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Franklin",
-      "chain": "solana",
-      "address": "5kcJz9yt7y2xdYccwnkU2mDS3x8zBNQiYtPk6DPWBiZr",
-      "source": "new",
-      "entry_price": 0.0001616,
-      "peak_price": 0.0001616,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T13:51:17.351527+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "tinycat",
       "chain": "solana",
       "address": "6hzyHMwR1S2wAbPfDjTcQtM5fTq4XZBWFTRSdTsvZ2DH",
       "source": "new",
       "entry_price": 0.000125,
-      "peak_price": 0.000125,
+      "peak_price": 0.0001277,
       "trailing_active": false,
       "entry_time": "2026-09-26T13:51:19.125928+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.16,
+      "peak_volume_m5": 11794.69,
+      "milestones_hit": []
     },
     {
       "symbol": "INGOT",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-26T13:51:20.513390+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.98,
+      "peak_volume_m5": 9352.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -214160,6 +214156,25 @@
       "exit_price": 0.000114,
       "exit_pct": -17.39,
       "exit_time": "2026-09-26T13:03:37.590177+00:00"
+    },
+    {
+      "symbol": "Franklin",
+      "chain": "solana",
+      "address": "5kcJz9yt7y2xdYccwnkU2mDS3x8zBNQiYtPk6DPWBiZr",
+      "source": "new",
+      "entry_price": 0.0001616,
+      "peak_price": 0.0001616,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T13:51:17.351527+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.72,
+      "peak_volume_m5": 52827.6,
+      "milestones_hit": [],
+      "exit_price": 0.0001362,
+      "exit_pct": -15.72,
+      "exit_time": "2026-09-26T13:52:37.110148+00:00"
     }
   ],
   "alerted": {
@@ -225005,6 +225020,7 @@
     "0x336f20985983eE9a23F9C1523cCE3187f8a97777": "2026-09-26T12:52:24.779384+00:00",
     "0xB6eF1B60750a7F7e3f6b075989D48e9C733dD1da": "2026-09-26T12:53:17.515757+00:00",
     "0xE1Bc4812dAbD9B99fe093bB814085F8f550c7777": "2026-09-26T12:59:54.153660+00:00",
-    "tZNEqT2wBbWVJyCTkHvMMduGQt9KeQMXrNfP4adiD1G": "2026-09-26T13:03:37.590177+00:00"
+    "tZNEqT2wBbWVJyCTkHvMMduGQt9KeQMXrNfP4adiD1G": "2026-09-26T13:03:37.590177+00:00",
+    "5kcJz9yt7y2xdYccwnkU2mDS3x8zBNQiYtPk6DPWBiZr": "2026-09-26T13:52:37.110148+00:00"
   }
 }
