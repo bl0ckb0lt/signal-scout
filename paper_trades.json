@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "bPay",
-      "chain": "bsc",
-      "address": "0xB13003BF44de426Dd2a3Aae3df9C3400dE0A7777",
-      "source": "new",
-      "entry_price": 0.0001718,
-      "peak_price": 0.0001718,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T14:21:22.614979+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "DOGE2",
-      "chain": "robinhood",
-      "address": "0xa86B0c8d8C9856c51b887491C5b901B49F45aE05",
-      "source": "new",
-      "entry_price": 0.0001589,
-      "peak_price": 0.0001589,
-      "trailing_active": false,
-      "entry_time": "2026-09-26T14:21:25.763895+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "HYDX",
       "chain": "robinhood",
       "address": "0x794247371efCD237C0fFCCaD9EDE75418d361248",
       "source": "new",
       "entry_price": 9.176e-05,
-      "peak_price": 9.176e-05,
+      "peak_price": 9.843e-05,
       "trailing_active": false,
       "entry_time": "2026-09-26T14:21:27.128163+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.27,
+      "peak_volume_m5": 10963.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -214236,6 +214216,44 @@
       "exit_price": 0.0001152,
       "exit_pct": -12.06,
       "exit_time": "2026-09-26T14:02:28.139664+00:00"
+    },
+    {
+      "symbol": "bPay",
+      "chain": "bsc",
+      "address": "0xB13003BF44de426Dd2a3Aae3df9C3400dE0A7777",
+      "source": "new",
+      "entry_price": 0.0001718,
+      "peak_price": 0.0001718,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T14:21:22.614979+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.62,
+      "peak_volume_m5": 27924.95,
+      "milestones_hit": [],
+      "exit_price": 0.0001484,
+      "exit_pct": -13.62,
+      "exit_time": "2026-09-26T14:22:54.902009+00:00"
+    },
+    {
+      "symbol": "DOGE2",
+      "chain": "robinhood",
+      "address": "0xa86B0c8d8C9856c51b887491C5b901B49F45aE05",
+      "source": "new",
+      "entry_price": 0.0001589,
+      "peak_price": 0.0001589,
+      "trailing_active": false,
+      "entry_time": "2026-09-26T14:21:25.763895+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.99,
+      "peak_volume_m5": 48311.14,
+      "milestones_hit": [],
+      "exit_price": 0.0001319,
+      "exit_pct": -16.99,
+      "exit_time": "2026-09-26T14:22:55.779727+00:00"
     }
   ],
   "alerted": {
@@ -225085,6 +225103,8 @@
     "5kcJz9yt7y2xdYccwnkU2mDS3x8zBNQiYtPk6DPWBiZr": "2026-09-26T13:52:37.110148+00:00",
     "0x2BfB3507226080a3a5d740870e7E212fF519DF6D": "2026-09-26T13:53:40.696265+00:00",
     "6hzyHMwR1S2wAbPfDjTcQtM5fTq4XZBWFTRSdTsvZ2DH": "2026-09-26T13:56:57.546293+00:00",
-    "92hjfSi5HrUgUpPWvgKtVrz2MQn2zJrAPQSRzdjmpump": "2026-09-26T14:02:28.139664+00:00"
+    "92hjfSi5HrUgUpPWvgKtVrz2MQn2zJrAPQSRzdjmpump": "2026-09-26T14:02:28.139664+00:00",
+    "0xB13003BF44de426Dd2a3Aae3df9C3400dE0A7777": "2026-09-26T14:22:54.902009+00:00",
+    "0xa86B0c8d8C9856c51b887491C5b901B49F45aE05": "2026-09-26T14:22:55.779727+00:00"
   }
 }
