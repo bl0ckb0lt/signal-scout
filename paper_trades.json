@@ -1,52 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "INSTA",
-      "chain": "solana",
-      "address": "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump",
-      "source": "boost",
-      "entry_price": 0.0004767,
-      "peak_price": 0.0006878,
-      "trailing_active": true,
-      "entry_time": "2026-09-27T23:31:06.739362+00:00",
-      "score": 93,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 44.28,
-      "peak_volume_m5": 81191.95,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "bukangi",
-      "chain": "robinhood",
-      "address": "0xb4f2740B36749eC5A271AB1533CBF49aa8362B6d",
-      "source": "new",
-      "entry_price": 9.57e-05,
-      "peak_price": 0.0001163,
-      "trailing_active": true,
-      "entry_time": "2026-09-27T23:31:09.508581+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.53,
-      "peak_volume_m5": 14689.04,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "X VAULT",
-      "chain": "solana",
-      "address": "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump",
-      "source": "boost",
-      "entry_price": 0.0009115,
-      "peak_price": 0.0009115,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T23:40:59.634952+00:00",
-      "score": 94,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -217754,6 +217709,63 @@
       "exit_price": 0.0008622,
       "exit_pct": -15.22,
       "exit_time": "2026-09-27T23:39:25.920430+00:00"
+    },
+    {
+      "symbol": "INSTA",
+      "chain": "solana",
+      "address": "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump",
+      "source": "boost",
+      "entry_price": 0.0004767,
+      "peak_price": 0.0006878,
+      "trailing_active": true,
+      "entry_time": "2026-09-27T23:31:06.739362+00:00",
+      "score": 93,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 24.19,
+      "peak_volume_m5": 102030.17,
+      "milestones_hit": [],
+      "exit_price": 0.000592,
+      "exit_pct": 24.19,
+      "exit_time": "2026-09-27T23:43:36.868804+00:00"
+    },
+    {
+      "symbol": "bukangi",
+      "chain": "robinhood",
+      "address": "0xb4f2740B36749eC5A271AB1533CBF49aa8362B6d",
+      "source": "new",
+      "entry_price": 9.57e-05,
+      "peak_price": 0.0001163,
+      "trailing_active": true,
+      "entry_time": "2026-09-27T23:31:09.508581+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 6.9,
+      "peak_volume_m5": 14689.04,
+      "milestones_hit": [],
+      "exit_price": 0.0001023,
+      "exit_pct": 6.9,
+      "exit_time": "2026-09-27T23:43:37.677458+00:00"
+    },
+    {
+      "symbol": "X VAULT",
+      "chain": "solana",
+      "address": "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump",
+      "source": "boost",
+      "entry_price": 0.0009115,
+      "peak_price": 0.0009115,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T23:40:59.634952+00:00",
+      "score": 94,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.11,
+      "peak_volume_m5": 151946.54,
+      "milestones_hit": [],
+      "exit_price": 0.0006006,
+      "exit_pct": -34.11,
+      "exit_time": "2026-09-27T23:43:38.508916+00:00"
     }
   ],
   "alerted": {
@@ -228784,6 +228796,9 @@
     "BvnqdYwuFrvi9ds63EtwQLYME89ikJkULnJPAd83pump": "2026-09-27T22:41:38.305890+00:00",
     "4Z9eH1BCuq2Y6FFRXkZft9LoxwMqQWo7bJsEbcd7pump": "2026-09-27T23:01:57.758790+00:00",
     "6vCHQ5ANYorBQbkNmbA3x9vgsFqrR1bjKfVp6HHtpump": "2026-09-27T23:14:09.914313+00:00",
-    "0x306A359C4dEBF370664CDcc9B6562fe2FE8c18Df": "2026-09-27T23:39:25.920430+00:00"
+    "0x306A359C4dEBF370664CDcc9B6562fe2FE8c18Df": "2026-09-27T23:39:25.920430+00:00",
+    "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump": "2026-09-27T23:43:36.868804+00:00",
+    "0xb4f2740B36749eC5A271AB1533CBF49aa8362B6d": "2026-09-27T23:43:37.677458+00:00",
+    "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump": "2026-09-27T23:43:38.508916+00:00"
   }
 }
