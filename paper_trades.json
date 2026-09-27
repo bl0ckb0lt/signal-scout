@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "w/acc",
-      "chain": "solana",
-      "address": "2ByieVQQshMbzWJCapoKjtkNhddDXELjJYfwfVQMpump",
-      "source": "new",
-      "entry_price": 0.0002289,
-      "peak_price": 0.0002289,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T03:31:16.361718+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "GENO",
       "chain": "solana",
       "address": "6XBj4xjqJeF7R4aqfrSdyyx6TUHgKEjUkCttmoECpump",
       "source": "new",
       "entry_price": 0.0002752,
-      "peak_price": 0.0002752,
+      "peak_price": 0.0003135,
       "trailing_active": false,
       "entry_time": "2026-09-27T03:31:17.993579+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.92,
+      "peak_volume_m5": 84331.33,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -215823,6 +215815,25 @@
       "exit_price": 0.000189,
       "exit_pct": 75.49,
       "exit_time": "2026-09-27T03:16:56.749904+00:00"
+    },
+    {
+      "symbol": "w/acc",
+      "chain": "solana",
+      "address": "2ByieVQQshMbzWJCapoKjtkNhddDXELjJYfwfVQMpump",
+      "source": "new",
+      "entry_price": 0.0002289,
+      "peak_price": 0.0002289,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T03:31:16.361718+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.15,
+      "peak_volume_m5": 486116.9,
+      "milestones_hit": [],
+      "exit_price": 0.0001988,
+      "exit_pct": -13.15,
+      "exit_time": "2026-09-27T03:32:14.612544+00:00"
     }
   ],
   "alerted": {
@@ -226755,6 +226766,7 @@
     "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump": "2026-09-27T03:06:37.523856+00:00",
     "AJaHwyub647xPacnAL8ysByhcf6Xc3HEywChsCBzpump": "2026-09-27T03:07:30.680633+00:00",
     "7VwUXYsVJ9i2Dwmq2XLTGqcFyBcnYdS8GsTezGcPf94a": "2026-09-27T03:15:53.024016+00:00",
-    "H7kfBWQqs5asqvzynqRaS6h9jLFc9g1tDQYPnbDSpump": "2026-09-27T03:16:56.749904+00:00"
+    "H7kfBWQqs5asqvzynqRaS6h9jLFc9g1tDQYPnbDSpump": "2026-09-27T03:16:56.749904+00:00",
+    "2ByieVQQshMbzWJCapoKjtkNhddDXELjJYfwfVQMpump": "2026-09-27T03:32:14.612544+00:00"
   }
 }
