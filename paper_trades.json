@@ -8,29 +8,18 @@
       "address": "Cgi54CNpHaYn4smqLH5tW8X5QxssMvi592My3tRoiHfX",
       "source": "new",
       "entry_price": 0.0001783,
-      "peak_price": 0.0003321,
+      "peak_price": 0.0004713,
       "trailing_active": true,
       "entry_time": "2026-09-27T19:30:55.335035+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 86.26,
+      "current_pct": 164.33,
       "peak_volume_m5": 84097.25,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "PAWLAY",
-      "chain": "solana",
-      "address": "JDoaov2gD2tCuAEaom1d4jrsBBdK7UZzjeL4Fswwpump",
-      "source": "new",
-      "entry_price": 0.0005805,
-      "peak_price": 0.0005805,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T19:51:08.996331+00:00",
-      "score": 85,
-      "status": "open"
     }
   ],
   "closed": [
@@ -217275,6 +217264,25 @@
       "exit_price": 0.0001077,
       "exit_pct": -20.4,
       "exit_time": "2026-09-27T19:29:52.765501+00:00"
+    },
+    {
+      "symbol": "PAWLAY",
+      "chain": "solana",
+      "address": "JDoaov2gD2tCuAEaom1d4jrsBBdK7UZzjeL4Fswwpump",
+      "source": "new",
+      "entry_price": 0.0005805,
+      "peak_price": 0.0005805,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T19:51:08.996331+00:00",
+      "score": 85,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.33,
+      "peak_volume_m5": 9711.04,
+      "milestones_hit": [],
+      "exit_price": 0.0004683,
+      "exit_pct": -19.33,
+      "exit_time": "2026-09-27T19:52:52.791903+00:00"
     }
   ],
   "alerted": {
@@ -228281,6 +228289,7 @@
     "0x3f5C9AE8f41A1D4a0ffd0fde4cB007C0d2034E22": "2026-09-27T19:10:20.206567+00:00",
     "0xF79b40038dF0b23a6373d37E45f09D60aF663A47": "2026-09-27T19:10:21.078807+00:00",
     "EWAkd2Rsbei7PvMFktxvNSeJtLSUpD5FrAbwSSQVpump": "2026-09-27T19:22:33.430036+00:00",
-    "0xa554B1A8F352639FA1726A9f6f99D371576B13ED": "2026-09-27T19:29:52.765501+00:00"
+    "0xa554B1A8F352639FA1726A9f6f99D371576B13ED": "2026-09-27T19:29:52.765501+00:00",
+    "JDoaov2gD2tCuAEaom1d4jrsBBdK7UZzjeL4Fswwpump": "2026-09-27T19:52:52.791903+00:00"
   }
 }
