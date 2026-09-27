@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ERRAND",
-      "chain": "robinhood",
-      "address": "0x1083634F9Ff16E21240DA237820a255C50098102",
-      "source": "new",
-      "entry_price": 0.0005342,
-      "peak_price": 0.0005342,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T23:51:06.426266+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "QCAT",
       "chain": "ethereum",
       "address": "0xF276C33394BCC329156450f575873357a2C3EF06",
       "source": "new",
       "entry_price": 4.522e-05,
-      "peak_price": 4.522e-05,
+      "peak_price": 4.62e-05,
       "trailing_active": false,
       "entry_time": "2026-09-27T23:51:13.815833+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.17,
+      "peak_volume_m5": 12453.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -217791,6 +217783,25 @@
       "exit_price": 0.0006006,
       "exit_pct": -34.11,
       "exit_time": "2026-09-27T23:43:38.508916+00:00"
+    },
+    {
+      "symbol": "ERRAND",
+      "chain": "robinhood",
+      "address": "0x1083634F9Ff16E21240DA237820a255C50098102",
+      "source": "new",
+      "entry_price": 0.0005342,
+      "peak_price": 0.0005342,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T23:51:06.426266+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.06,
+      "peak_volume_m5": 37787.34,
+      "milestones_hit": [],
+      "exit_price": 0.000411,
+      "exit_pct": -23.06,
+      "exit_time": "2026-09-27T23:53:55.442733+00:00"
     }
   ],
   "alerted": {
@@ -228824,6 +228835,7 @@
     "0x306A359C4dEBF370664CDcc9B6562fe2FE8c18Df": "2026-09-27T23:39:25.920430+00:00",
     "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump": "2026-09-27T23:43:36.868804+00:00",
     "0xb4f2740B36749eC5A271AB1533CBF49aa8362B6d": "2026-09-27T23:43:37.677458+00:00",
-    "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump": "2026-09-27T23:43:38.508916+00:00"
+    "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump": "2026-09-27T23:43:38.508916+00:00",
+    "0x1083634F9Ff16E21240DA237820a255C50098102": "2026-09-27T23:53:55.442733+00:00"
   }
 }
