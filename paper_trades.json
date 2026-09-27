@@ -1,61 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "LEARN",
-      "chain": "robinhood",
-      "address": "0x2c05c1083ee39fa6de12984e0bd4d0311511b777",
-      "source": "new",
-      "entry_price": 0.0001444,
-      "peak_price": 0.0001919,
-      "trailing_active": true,
-      "entry_time": "2026-09-27T18:51:01.871939+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 31.58,
-      "peak_volume_m5": 95369.07,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "PEVL",
-      "chain": "robinhood",
-      "address": "0x3f5C9AE8f41A1D4a0ffd0fde4cB007C0d2034E22",
-      "source": "new",
-      "entry_price": 1.776e-06,
-      "peak_price": 3.631e-06,
-      "trailing_active": true,
-      "entry_time": "2026-09-27T18:51:03.357360+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 104.45,
-      "peak_volume_m5": 361655.09,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "EMERALD",
-      "chain": "ethereum",
-      "address": "0xF79b40038dF0b23a6373d37E45f09D60aF663A47",
-      "source": "new",
-      "entry_price": 6.324e-05,
-      "peak_price": 0.0001094,
-      "trailing_active": true,
-      "entry_time": "2026-09-27T19:01:09.125898+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 72.99,
-      "peak_volume_m5": 22691.67,
-      "milestones_hit": [
-        50
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -217193,6 +217139,73 @@
       "exit_price": 9.916e-05,
       "exit_pct": -27.09,
       "exit_time": "2026-09-27T19:02:57.632347+00:00"
+    },
+    {
+      "symbol": "LEARN",
+      "chain": "robinhood",
+      "address": "0x2c05c1083ee39fa6de12984e0bd4d0311511b777",
+      "source": "new",
+      "entry_price": 0.0001444,
+      "peak_price": 0.0005708,
+      "trailing_active": true,
+      "entry_time": "2026-09-27T18:51:01.871939+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 295.29,
+      "peak_volume_m5": 410308.82,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0005708,
+      "exit_pct": 295.29,
+      "exit_time": "2026-09-27T19:10:18.736659+00:00"
+    },
+    {
+      "symbol": "PEVL",
+      "chain": "robinhood",
+      "address": "0x3f5C9AE8f41A1D4a0ffd0fde4cB007C0d2034E22",
+      "source": "new",
+      "entry_price": 1.776e-06,
+      "peak_price": 6.242e-06,
+      "trailing_active": true,
+      "entry_time": "2026-09-27T18:51:03.357360+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 251.46,
+      "peak_volume_m5": 361655.09,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 6.242e-06,
+      "exit_pct": 251.46,
+      "exit_time": "2026-09-27T19:10:20.206567+00:00"
+    },
+    {
+      "symbol": "EMERALD",
+      "chain": "ethereum",
+      "address": "0xF79b40038dF0b23a6373d37E45f09D60aF663A47",
+      "source": "new",
+      "entry_price": 6.324e-05,
+      "peak_price": 0.0001094,
+      "trailing_active": true,
+      "entry_time": "2026-09-27T19:01:09.125898+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 63.03,
+      "peak_volume_m5": 27428.4,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001031,
+      "exit_pct": 63.03,
+      "exit_time": "2026-09-27T19:10:21.078807+00:00"
     }
   ],
   "alerted": {
@@ -228194,6 +228207,9 @@
     "0x28339433485350FDBd9ae549f14A5460726C98C9": "2026-09-27T18:03:33.200474+00:00",
     "0x4D935B00C336767d0931d31E38242Cbf703C7777": "2026-09-27T18:28:19.464186+00:00",
     "6nSM2HxvaetyDrUYjjAUKwgWGi8CGjmboLee7wcHeKN4": "2026-09-27T18:47:34.258680+00:00",
-    "Cmrq8EkYn8qhjtq6iYfqrfzet3q4aC5F38tLQGUvearn": "2026-09-27T19:02:57.632347+00:00"
+    "Cmrq8EkYn8qhjtq6iYfqrfzet3q4aC5F38tLQGUvearn": "2026-09-27T19:02:57.632347+00:00",
+    "0x2c05c1083ee39fa6de12984e0bd4d0311511b777": "2026-09-27T19:10:18.736659+00:00",
+    "0x3f5C9AE8f41A1D4a0ffd0fde4cB007C0d2034E22": "2026-09-27T19:10:20.206567+00:00",
+    "0xF79b40038dF0b23a6373d37E45f09D60aF663A47": "2026-09-27T19:10:21.078807+00:00"
   }
 }
