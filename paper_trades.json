@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Tilly",
-      "chain": "robinhood",
-      "address": "0xF6B2e92704082AB0a175A9b97da69C0695C7B0d9",
-      "source": "new",
-      "entry_price": 0.0001425,
-      "peak_price": 0.0001425,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T22:01:11.527314+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "CHOOSERICH",
       "chain": "solana",
       "address": "3FfCcJoAJhbXyd4LaiLw4QvLqxnMKhTKfZkUgPRsRRT2",
       "source": "new",
       "entry_price": 9.971e-05,
-      "peak_price": 9.971e-05,
+      "peak_price": 0.0001001,
       "trailing_active": false,
       "entry_time": "2026-09-27T22:01:13.124155+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.39,
+      "peak_volume_m5": 44726.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -217563,6 +217555,25 @@
       "exit_price": 0.0001234,
       "exit_pct": -13.59,
       "exit_time": "2026-09-27T21:33:13.897405+00:00"
+    },
+    {
+      "symbol": "Tilly",
+      "chain": "robinhood",
+      "address": "0xF6B2e92704082AB0a175A9b97da69C0695C7B0d9",
+      "source": "new",
+      "entry_price": 0.0001425,
+      "peak_price": 0.0001425,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T22:01:11.527314+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.46,
+      "peak_volume_m5": 67786.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001276,
+      "exit_pct": -10.46,
+      "exit_time": "2026-09-27T22:02:38.959971+00:00"
     }
   ],
   "alerted": {
@@ -228584,6 +228595,7 @@
     "0xfD64E7dB85E8C5C38895393B80d3feC8023A50B6": "2026-09-27T21:32:16.351223+00:00",
     "E49aPnmALrDQYz16EBuXTdj9cs33e82hX8G7wHypump": "2026-09-27T21:32:17.498435+00:00",
     "0x128f8Bea785bdea9DC779CfFA4740cD2e82DBc3B": "2026-09-27T21:33:13.142896+00:00",
-    "0x68353dEa233cF2ED0F4AB795430962cc50E5d325": "2026-09-27T21:33:13.897405+00:00"
+    "0x68353dEa233cF2ED0F4AB795430962cc50E5d325": "2026-09-27T21:33:13.897405+00:00",
+    "0xF6B2e92704082AB0a175A9b97da69C0695C7B0d9": "2026-09-27T22:02:38.959971+00:00"
   }
 }
