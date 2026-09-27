@@ -8,14 +8,14 @@
       "address": "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump",
       "source": "boost",
       "entry_price": 0.0002386,
-      "peak_price": 0.0002803,
+      "peak_price": 0.0003183,
       "trailing_active": true,
       "entry_time": "2026-09-27T02:51:23.134961+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.48,
-      "peak_volume_m5": 21628.96,
+      "current_pct": 33.4,
+      "peak_volume_m5": 65755.17,
       "milestones_hit": []
     },
     {
@@ -24,13 +24,13 @@
       "address": "BJDfhK6xJhj9Ln7PXCFZL6ZofEXfuDAo9cAmKCFvpump",
       "source": "new",
       "entry_price": 0.0002126,
-      "peak_price": 0.0004511,
+      "peak_price": 0.0005259,
       "trailing_active": true,
       "entry_time": "2026-09-27T02:51:25.549380+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 112.18,
+      "current_pct": 147.37,
       "peak_volume_m5": 148889.75,
       "milestones_hit": [
         50,
@@ -43,23 +43,15 @@
       "address": "AJaHwyub647xPacnAL8ysByhcf6Xc3HEywChsCBzpump",
       "source": "new",
       "entry_price": 0.0006587,
-      "peak_price": 0.0006587,
+      "peak_price": 0.0006673,
       "trailing_active": false,
       "entry_time": "2026-09-27T03:01:17.183808+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "CAKE",
-      "chain": "robinhood",
-      "address": "0xf0c34a09178Da8d29255fc47C62225354c2d2046",
-      "source": "new",
-      "entry_price": 0.000261,
-      "peak_price": 0.000261,
-      "trailing_active": false,
-      "entry_time": "2026-09-27T03:01:19.053134+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.31,
+      "peak_volume_m5": 580502.15,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -215739,6 +215731,25 @@
       "exit_price": 0.0001954,
       "exit_pct": -17.62,
       "exit_time": "2026-09-27T02:33:52.636893+00:00"
+    },
+    {
+      "symbol": "CAKE",
+      "chain": "robinhood",
+      "address": "0xf0c34a09178Da8d29255fc47C62225354c2d2046",
+      "source": "new",
+      "entry_price": 0.000261,
+      "peak_price": 0.000261,
+      "trailing_active": false,
+      "entry_time": "2026-09-27T03:01:19.053134+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -47.82,
+      "peak_volume_m5": 83387.18,
+      "milestones_hit": [],
+      "exit_price": 0.0001362,
+      "exit_pct": -47.82,
+      "exit_time": "2026-09-27T03:03:00.316314+00:00"
     }
   ],
   "alerted": {
@@ -226665,6 +226676,7 @@
     "9zriPbmELWGzEqEJH29qQY4TZ4xVMQLVLXV3RtSDpump": "2026-09-27T01:58:54.285927+00:00",
     "0xF119aE24ECC34e90bea3cA171DD86E5309859C17": "2026-09-27T02:22:44.711866+00:00",
     "0x55436eea2067B95E763D6aAA186b709822374Df8": "2026-09-27T02:22:45.505487+00:00",
-    "illia.nearlytrade.near": "2026-09-27T02:33:52.636893+00:00"
+    "illia.nearlytrade.near": "2026-09-27T02:33:52.636893+00:00",
+    "0xf0c34a09178Da8d29255fc47C62225354c2d2046": "2026-09-27T03:03:00.316314+00:00"
   }
 }
