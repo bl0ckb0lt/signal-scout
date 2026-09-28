@@ -8,13 +8,13 @@
       "address": "8LmvqLQhC53pqTyChaGLUCYJgMrcAGiKN8FGEm8Gpump",
       "source": "new",
       "entry_price": 0.000131,
-      "peak_price": 0.0002991,
+      "peak_price": 0.000302,
       "trailing_active": true,
       "entry_time": "2026-09-28T20:38:49.471303+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 128.32,
+      "current_pct": 130.53,
       "peak_volume_m5": 4950.86,
       "milestones_hit": [
         50,
@@ -22,28 +22,20 @@
       ]
     },
     {
-      "symbol": "BPOOL",
-      "chain": "robinhood",
-      "address": "0x092E305E04A6172038ddC092042CB5C0b385E6bB",
-      "source": "new",
-      "entry_price": 0.0029,
-      "peak_price": 0.0029,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T21:21:23.574300+00:00",
-      "score": 90,
-      "status": "open"
-    },
-    {
       "symbol": "SPLAT",
       "chain": "robinhood",
       "address": "0x105DB2cD7978bB7edE94915A6277A001a7719aCf",
       "source": "new",
       "entry_price": 0.0001191,
-      "peak_price": 0.0001191,
-      "trailing_active": false,
+      "peak_price": 0.0001615,
+      "trailing_active": true,
       "entry_time": "2026-09-28T21:21:26.831692+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.6,
+      "peak_volume_m5": 20783.83,
+      "milestones_hit": []
     },
     {
       "symbol": "KOOL",
@@ -51,11 +43,15 @@
       "address": "0x8b9E0d0fba6ac05c402E1b4FCde10345Bc8DdF2e",
       "source": "new",
       "entry_price": 0.0005046,
-      "peak_price": 0.0005046,
-      "trailing_active": false,
+      "peak_price": 0.0007141,
+      "trailing_active": true,
       "entry_time": "2026-09-28T21:21:28.260374+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 41.52,
+      "peak_volume_m5": 38275.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -220108,6 +220104,25 @@
       "exit_price": 0.0001457,
       "exit_pct": -19.46,
       "exit_time": "2026-09-28T21:12:58.497471+00:00"
+    },
+    {
+      "symbol": "BPOOL",
+      "chain": "robinhood",
+      "address": "0x092E305E04A6172038ddC092042CB5C0b385E6bB",
+      "source": "new",
+      "entry_price": 0.0029,
+      "peak_price": 0.0029,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T21:21:23.574300+00:00",
+      "score": 90,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.69,
+      "peak_volume_m5": 61625.68,
+      "milestones_hit": [],
+      "exit_price": 0.002445,
+      "exit_pct": -15.69,
+      "exit_time": "2026-09-28T21:22:46.938579+00:00"
     }
   ],
   "alerted": {
@@ -231260,6 +231275,7 @@
     "2UgrDrtTdRrdivxPNysqDvKpuPpxo7uCBBk8Cdjypump": "2026-09-28T20:40:34.413752+00:00",
     "DKxXdaMC1so182urvrrnhs6V6fGTrttPS8br6JuEpump": "2026-09-28T20:52:35.540937+00:00",
     "0xbeac4c5850c8967859fB72fA5FD1b3B083E3D935": "2026-09-28T21:02:27.899762+00:00",
-    "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump": "2026-09-28T21:12:58.497471+00:00"
+    "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump": "2026-09-28T21:12:58.497471+00:00",
+    "0x092E305E04A6172038ddC092042CB5C0b385E6bB": "2026-09-28T21:22:46.938579+00:00"
   }
 }
