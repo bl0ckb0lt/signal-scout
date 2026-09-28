@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FROCAT",
-      "chain": "solana",
-      "address": "FCoXFnRQsHtb2rPReJUrtkPD8qBm8UVbXNdHx49spump",
-      "source": "new",
-      "entry_price": 0.0002065,
-      "peak_price": 0.0002065,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T20:01:07.284966+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "p/xmr",
       "chain": "solana",
       "address": "GBTkSzep7xDoBGWK154TvaJWWzsb8rw5GWChNcoLcYM8",
       "source": "new",
       "entry_price": 0.0001705,
-      "peak_price": 0.0001705,
+      "peak_price": 0.0001749,
       "trailing_active": false,
       "entry_time": "2026-09-28T20:01:10.000013+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "QUANT",
-      "chain": "bsc",
-      "address": "0x3074Bb17fc920369f16fe0FCa16237612e48BbbB",
-      "source": "new",
-      "entry_price": 2.195e-05,
-      "peak_price": 2.195e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T20:01:12.057500+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.58,
+      "peak_volume_m5": 47933.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -219838,6 +219818,44 @@
       "exit_price": 9.519e-05,
       "exit_pct": -47.15,
       "exit_time": "2026-09-28T19:39:31.106947+00:00"
+    },
+    {
+      "symbol": "FROCAT",
+      "chain": "solana",
+      "address": "FCoXFnRQsHtb2rPReJUrtkPD8qBm8UVbXNdHx49spump",
+      "source": "new",
+      "entry_price": 0.0002065,
+      "peak_price": 0.0002065,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T20:01:07.284966+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -35.98,
+      "peak_volume_m5": 32941.44,
+      "milestones_hit": [],
+      "exit_price": 0.0001322,
+      "exit_pct": -35.98,
+      "exit_time": "2026-09-28T20:03:28.558382+00:00"
+    },
+    {
+      "symbol": "QUANT",
+      "chain": "bsc",
+      "address": "0x3074Bb17fc920369f16fe0FCa16237612e48BbbB",
+      "source": "new",
+      "entry_price": 2.195e-05,
+      "peak_price": 2.195e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T20:01:12.057500+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -38.54,
+      "peak_volume_m5": 7569.9,
+      "milestones_hit": [],
+      "exit_price": 1.349e-05,
+      "exit_pct": -38.54,
+      "exit_time": "2026-09-28T20:03:29.611126+00:00"
     }
   ],
   "alerted": {
@@ -230977,6 +230995,8 @@
     "8VxaJHWP9NGYVDeYexGXXbmpmoiVXNvspjqtkbZUpump": "2026-09-28T19:23:11.718526+00:00",
     "0xee46BD2FEb81eFC9C1153FAae7A3d5c388eaF9a1": "2026-09-28T19:24:16.334784+00:00",
     "8LPQXVXwXrpCeSbBiVR7fjKEVb1iSptKvFLRKVKdpump": "2026-09-28T19:28:39.125037+00:00",
-    "Dk1NXoFkQdPtSpg2L7JsCNzZvxcyF8KHjNUEKkxDpump": "2026-09-28T19:39:31.106947+00:00"
+    "Dk1NXoFkQdPtSpg2L7JsCNzZvxcyF8KHjNUEKkxDpump": "2026-09-28T19:39:31.106947+00:00",
+    "FCoXFnRQsHtb2rPReJUrtkPD8qBm8UVbXNdHx49spump": "2026-09-28T20:03:28.558382+00:00",
+    "0x3074Bb17fc920369f16fe0FCa16237612e48BbbB": "2026-09-28T20:03:29.611126+00:00"
   }
 }
