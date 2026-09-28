@@ -12,31 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-28T15:41:15.600740+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "SICAT",
-      "chain": "solana",
-      "address": "9pMXEbTjQ5HHiYifGbNBwkMkrQxGyhuSmB8ndKNXpump",
-      "source": "new",
-      "entry_price": 0.0002373,
-      "peak_price": 0.0002373,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T15:41:17.582009+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "SNOWMOON",
-      "chain": "ethereum",
-      "address": "0x6e8f4B2792AcDB78ef9B0A3170b6Daa46641c5b9",
-      "source": "new",
-      "entry_price": 3.448e-05,
-      "peak_price": 3.448e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T15:41:19.398318+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.12,
+      "peak_volume_m5": 18008.97,
+      "milestones_hit": []
     },
     {
       "symbol": "e/dec",
@@ -48,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-28T15:41:21.536275+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.81,
+      "peak_volume_m5": 17067.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -219432,6 +219416,44 @@
       "exit_price": 4.567e-05,
       "exit_pct": -8.05,
       "exit_time": "2026-09-28T15:37:23.183723+00:00"
+    },
+    {
+      "symbol": "SICAT",
+      "chain": "solana",
+      "address": "9pMXEbTjQ5HHiYifGbNBwkMkrQxGyhuSmB8ndKNXpump",
+      "source": "new",
+      "entry_price": 0.0002373,
+      "peak_price": 0.0002373,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T15:41:17.582009+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.24,
+      "peak_volume_m5": 52639.12,
+      "milestones_hit": [],
+      "exit_price": 0.000213,
+      "exit_pct": -10.24,
+      "exit_time": "2026-09-28T15:42:44.388192+00:00"
+    },
+    {
+      "symbol": "SNOWMOON",
+      "chain": "ethereum",
+      "address": "0x6e8f4B2792AcDB78ef9B0A3170b6Daa46641c5b9",
+      "source": "new",
+      "entry_price": 3.448e-05,
+      "peak_price": 3.448e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T15:41:19.398318+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -65.31,
+      "peak_volume_m5": 7139.05,
+      "milestones_hit": [],
+      "exit_price": 1.196e-05,
+      "exit_pct": -65.31,
+      "exit_time": "2026-09-28T15:42:45.092658+00:00"
     }
   ],
   "alerted": {
@@ -230549,6 +230571,8 @@
     "0x6d54f0AEa4777dE067CB9B2b85912D237E847777": "2026-09-28T15:20:05.851957+00:00",
     "4NynHc4PchhnVFjERb5THm9JwY5kzmLtEF7ZwKvcpump": "2026-09-28T15:26:01.059684+00:00",
     "0x739958e366a0509D4c51c1c164C509ffF154ADEe": "2026-09-28T15:26:01.797233+00:00",
-    "0x2Bbd1aB0f2365F6699adef964f835363Da357777": "2026-09-28T15:37:23.183723+00:00"
+    "0x2Bbd1aB0f2365F6699adef964f835363Da357777": "2026-09-28T15:37:23.183723+00:00",
+    "9pMXEbTjQ5HHiYifGbNBwkMkrQxGyhuSmB8ndKNXpump": "2026-09-28T15:42:44.388192+00:00",
+    "0x6e8f4B2792AcDB78ef9B0A3170b6Daa46641c5b9": "2026-09-28T15:42:45.092658+00:00"
   }
 }
