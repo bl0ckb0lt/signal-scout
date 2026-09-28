@@ -1,48 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "claudecat",
-      "chain": "robinhood",
-      "address": "0xAaB9fAD0dAB6c73C0E0aadbf8FaF4345E7499053",
-      "source": "new",
-      "entry_price": 7.893e-05,
-      "peak_price": 7.893e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T23:20:53.874496+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -0.44,
-      "peak_volume_m5": 10653.37,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "STOCK",
-      "chain": "solana",
-      "address": "2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump",
-      "source": "new",
-      "entry_price": 0.0002603,
-      "peak_price": 0.0002603,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T23:31:15.406469+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Woolly",
-      "chain": "robinhood",
-      "address": "0x67177497f966499a76dF2489BE18d4eF4DDa7458",
-      "source": "new",
-      "entry_price": 6.481e-05,
-      "peak_price": 6.481e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T23:31:16.731145+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -220400,6 +220359,63 @@
       "exit_price": 0.0002941,
       "exit_pct": -11.87,
       "exit_time": "2026-09-28T23:12:34.726839+00:00"
+    },
+    {
+      "symbol": "claudecat",
+      "chain": "robinhood",
+      "address": "0xAaB9fAD0dAB6c73C0E0aadbf8FaF4345E7499053",
+      "source": "new",
+      "entry_price": 7.893e-05,
+      "peak_price": 7.893e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T23:20:53.874496+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.3,
+      "peak_volume_m5": 15561.59,
+      "milestones_hit": [],
+      "exit_price": 7.08e-05,
+      "exit_pct": -10.3,
+      "exit_time": "2026-09-28T23:32:37.652866+00:00"
+    },
+    {
+      "symbol": "STOCK",
+      "chain": "solana",
+      "address": "2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump",
+      "source": "new",
+      "entry_price": 0.0002603,
+      "peak_price": 0.0002603,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T23:31:15.406469+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.06,
+      "peak_volume_m5": 227355.75,
+      "milestones_hit": [],
+      "exit_price": 0.0002315,
+      "exit_pct": -11.06,
+      "exit_time": "2026-09-28T23:32:38.360833+00:00"
+    },
+    {
+      "symbol": "Woolly",
+      "chain": "robinhood",
+      "address": "0x67177497f966499a76dF2489BE18d4eF4DDa7458",
+      "source": "new",
+      "entry_price": 6.481e-05,
+      "peak_price": 6.481e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T23:31:16.731145+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.08,
+      "peak_volume_m5": 39584.43,
+      "milestones_hit": [],
+      "exit_price": 5.439e-05,
+      "exit_pct": -16.08,
+      "exit_time": "2026-09-28T23:32:39.093760+00:00"
     }
   ],
   "alerted": {
@@ -231568,6 +231584,9 @@
     "CyeorQCHgyGYLqupizxAwqkpA9zJnZ8PFUmWadF5pump": "2026-09-28T22:37:36.307698+00:00",
     "BvSX16gMqPaRPcBzkmBnNfV7B6VM5BpGPs7oCpdppump": "2026-09-28T22:58:50.487386+00:00",
     "BgwfQ2nezfeeCdSkuhJzVa1o4LontBRnhEuwiiskpump": "2026-09-28T23:03:56.810276+00:00",
-    "0x84dBC63F9d61B91282c6a41ced391474A4Fce940": "2026-09-28T23:12:34.726839+00:00"
+    "0x84dBC63F9d61B91282c6a41ced391474A4Fce940": "2026-09-28T23:12:34.726839+00:00",
+    "0xAaB9fAD0dAB6c73C0E0aadbf8FaF4345E7499053": "2026-09-28T23:32:37.652866+00:00",
+    "2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump": "2026-09-28T23:32:38.360833+00:00",
+    "0x67177497f966499a76dF2489BE18d4eF4DDa7458": "2026-09-28T23:32:39.093760+00:00"
   }
 }
