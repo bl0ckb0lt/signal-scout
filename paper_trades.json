@@ -3,44 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "INUINK",
-      "chain": "solana",
-      "address": "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump",
-      "source": "new",
-      "entry_price": 0.0003909,
-      "peak_price": 0.0004936,
-      "trailing_active": true,
-      "entry_time": "2026-09-28T21:51:05.558796+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 26.27,
-      "peak_volume_m5": 19560.73,
-      "milestones_hit": []
-    },
-    {
       "symbol": "GWEIBY",
       "chain": "ethereum",
       "address": "0xEdCBb7D2338C5FF9c2C7355AA70792927833e9a5",
       "source": "new",
       "entry_price": 7.204e-05,
-      "peak_price": 7.204e-05,
-      "trailing_active": false,
+      "peak_price": 8.974e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-28T22:01:05.947327+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "HKMN",
-      "chain": "robinhood",
-      "address": "0xD53f94918372462E8f28EBa5073cDFf2E6E2CD23",
-      "source": "new",
-      "entry_price": 4.621e-05,
-      "peak_price": 4.621e-05,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T22:01:07.315894+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.57,
+      "peak_volume_m5": 4360.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -220229,6 +220205,44 @@
       "exit_price": 0.0001103,
       "exit_pct": -33.95,
       "exit_time": "2026-09-28T21:52:48.427914+00:00"
+    },
+    {
+      "symbol": "INUINK",
+      "chain": "solana",
+      "address": "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump",
+      "source": "new",
+      "entry_price": 0.0003909,
+      "peak_price": 0.0004936,
+      "trailing_active": true,
+      "entry_time": "2026-09-28T21:51:05.558796+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 10.26,
+      "peak_volume_m5": 19560.73,
+      "milestones_hit": [],
+      "exit_price": 0.000431,
+      "exit_pct": 10.26,
+      "exit_time": "2026-09-28T22:06:23.266636+00:00"
+    },
+    {
+      "symbol": "HKMN",
+      "chain": "robinhood",
+      "address": "0xD53f94918372462E8f28EBa5073cDFf2E6E2CD23",
+      "source": "new",
+      "entry_price": 4.621e-05,
+      "peak_price": 4.621e-05,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T22:01:07.315894+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -7.4,
+      "peak_volume_m5": 1384.92,
+      "milestones_hit": [],
+      "exit_price": 4.279e-05,
+      "exit_pct": -7.4,
+      "exit_time": "2026-09-28T22:06:24.986369+00:00"
     }
   ],
   "alerted": {
@@ -231388,6 +231402,8 @@
     "9DPUFzAMZfbh4ie5RLJ1C7Zhes5eEayPsTU91tSzpump": "2026-09-28T21:33:38.836350+00:00",
     "8LmvqLQhC53pqTyChaGLUCYJgMrcAGiKN8FGEm8Gpump": "2026-09-28T21:34:33.258531+00:00",
     "9nwLzYqpTHnA64UL9a2m74qLYbNagXDeua1iBmorpump": "2026-09-28T21:42:37.555006+00:00",
-    "pvzyoU9GDf3KK8Z9maAzx2GUFu9mwAh7WDokewg5inu": "2026-09-28T21:52:48.427914+00:00"
+    "pvzyoU9GDf3KK8Z9maAzx2GUFu9mwAh7WDokewg5inu": "2026-09-28T21:52:48.427914+00:00",
+    "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump": "2026-09-28T22:06:23.266636+00:00",
+    "0xD53f94918372462E8f28EBa5073cDFf2E6E2CD23": "2026-09-28T22:06:24.986369+00:00"
   }
 }
