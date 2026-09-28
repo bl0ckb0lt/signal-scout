@@ -1,32 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "QUBIT",
-      "chain": "robinhood",
-      "address": "0xeD7Bc12C9c6e6484e17F7204C16a57a4e2792668",
-      "source": "new",
-      "entry_price": 0.001467,
-      "peak_price": 0.001467,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T12:51:04.482169+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "ZARVIS",
-      "chain": "solana",
-      "address": "B5HJCUbAztsKaQW38rUcQp2he9s75kGvT68Eh1mMBNY3",
-      "source": "new",
-      "entry_price": 0.0003861,
-      "peak_price": 0.0003861,
-      "trailing_active": false,
-      "entry_time": "2026-09-28T12:51:06.394865+00:00",
-      "score": 80,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -219102,6 +219077,44 @@
       "exit_price": 0.0001355,
       "exit_pct": -11.32,
       "exit_time": "2026-09-28T12:42:37.576322+00:00"
+    },
+    {
+      "symbol": "QUBIT",
+      "chain": "robinhood",
+      "address": "0xeD7Bc12C9c6e6484e17F7204C16a57a4e2792668",
+      "source": "new",
+      "entry_price": 0.001467,
+      "peak_price": 0.001467,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T12:51:04.482169+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.61,
+      "peak_volume_m5": 98639.08,
+      "milestones_hit": [],
+      "exit_price": 0.001018,
+      "exit_pct": -30.61,
+      "exit_time": "2026-09-28T12:52:40.541208+00:00"
+    },
+    {
+      "symbol": "ZARVIS",
+      "chain": "solana",
+      "address": "B5HJCUbAztsKaQW38rUcQp2he9s75kGvT68Eh1mMBNY3",
+      "source": "new",
+      "entry_price": 0.0003861,
+      "peak_price": 0.0003861,
+      "trailing_active": false,
+      "entry_time": "2026-09-28T12:51:06.394865+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.73,
+      "peak_volume_m5": 123619.4,
+      "milestones_hit": [],
+      "exit_price": 0.0002906,
+      "exit_pct": -24.73,
+      "exit_time": "2026-09-28T12:52:41.255878+00:00"
     }
   ],
   "alerted": {
@@ -230203,6 +230216,8 @@
     "0x9634430EA606532e9Ff7856f078e0E68F80625c7": "2026-09-28T12:04:12.973181+00:00",
     "0x10897a25dEd3B3f7d8cb9736FcCf22c0EF5a414e": "2026-09-28T12:07:08.702512+00:00",
     "0x18162F5cf35647be0910F30B4466bE39295E4878": "2026-09-28T12:23:16.306916+00:00",
-    "7H5ieJCw4wu1PpDRva831GA4WmfGku8fmVtSzxZRpump": "2026-09-28T12:42:37.576322+00:00"
+    "7H5ieJCw4wu1PpDRva831GA4WmfGku8fmVtSzxZRpump": "2026-09-28T12:42:37.576322+00:00",
+    "0xeD7Bc12C9c6e6484e17F7204C16a57a4e2792668": "2026-09-28T12:52:40.541208+00:00",
+    "B5HJCUbAztsKaQW38rUcQp2he9s75kGvT68Eh1mMBNY3": "2026-09-28T12:52:41.255878+00:00"
   }
 }
