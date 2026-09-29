@@ -14,21 +14,9 @@
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.83,
+      "current_pct": 5.45,
       "peak_volume_m5": 180435.19,
       "milestones_hit": []
-    },
-    {
-      "symbol": "INU",
-      "chain": "solana",
-      "address": "BojxwXWYiLTGZn4E4PaNurkzqsH4TfinNk6nskkGUinu",
-      "source": "new",
-      "entry_price": 0.0001547,
-      "peak_price": 0.0001547,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T21:51:07.757321+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "SIF",
@@ -36,11 +24,15 @@
       "address": "0xCb8f0eb21006cfbc71E7922b927AA8f7131e6A03",
       "source": "new",
       "entry_price": 0.0001494,
-      "peak_price": 0.0001494,
+      "peak_price": 0.0001559,
       "trailing_active": false,
       "entry_time": "2026-09-29T21:51:09.594486+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.35,
+      "peak_volume_m5": 27536.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -222646,6 +222638,25 @@
       "exit_price": 0.001211,
       "exit_pct": 0.92,
       "exit_time": "2026-09-29T21:40:13.464261+00:00"
+    },
+    {
+      "symbol": "INU",
+      "chain": "solana",
+      "address": "BojxwXWYiLTGZn4E4PaNurkzqsH4TfinNk6nskkGUinu",
+      "source": "new",
+      "entry_price": 0.0001547,
+      "peak_price": 0.0001547,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T21:51:07.757321+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.19,
+      "peak_volume_m5": 354190.71,
+      "milestones_hit": [],
+      "exit_price": 0.000108,
+      "exit_pct": -30.19,
+      "exit_time": "2026-09-29T21:52:06.700048+00:00"
     }
   ],
   "alerted": {
@@ -233926,6 +233937,7 @@
     "0x9C7877C900458fD78F000DCf96f19eDcac078551": "2026-09-29T21:15:53.838783+00:00",
     "DhVcpV6UdtMKATyQm8E6CvpJmy91HdPibe9s7uzkwYuN": "2026-09-29T21:32:47.491937+00:00",
     "4o1Y8cxUaiaji4rowfm8x2FkyvMreN81ZjNWXQZxVSFC": "2026-09-29T21:36:33.297972+00:00",
-    "0x77B88D2DdAE155CCcec58f2750D53da9355B7E40": "2026-09-29T21:40:13.464261+00:00"
+    "0x77B88D2DdAE155CCcec58f2750D53da9355B7E40": "2026-09-29T21:40:13.464261+00:00",
+    "BojxwXWYiLTGZn4E4PaNurkzqsH4TfinNk6nskkGUinu": "2026-09-29T21:52:06.700048+00:00"
   }
 }
