@@ -14,40 +14,8 @@
       "score": 88,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 23.66,
+      "current_pct": 25.07,
       "peak_volume_m5": 72649.44,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "swordcat",
-      "chain": "robinhood",
-      "address": "0x59B85970630DD8B808Aad4257B0CDf02a8B22f90",
-      "source": "boost",
-      "entry_price": 0.009001,
-      "peak_price": 0.009001,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T00:30:55.850751+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.32,
-      "peak_volume_m5": 716181.14,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "FLAPPY",
-      "chain": "robinhood",
-      "address": "0x0Ce9145e8Ed68F1beA0b7088D96459f107C18B25",
-      "source": "new",
-      "entry_price": 0.002411,
-      "peak_price": 0.002411,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T00:41:11.189040+00:00",
-      "score": 95,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -0.41,
-      "peak_volume_m5": 223520.4,
       "milestones_hit": []
     },
     {
@@ -56,13 +24,13 @@
       "address": "0x460abE1789Ec519e95050B5AeFc82B37eF28135a",
       "source": "new",
       "entry_price": 0.0002054,
-      "peak_price": 0.0002409,
+      "peak_price": 0.0002657,
       "trailing_active": true,
       "entry_time": "2026-09-29T00:41:14.425568+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.28,
+      "current_pct": 29.36,
       "peak_volume_m5": 8395.04,
       "milestones_hit": []
     },
@@ -72,11 +40,15 @@
       "address": "4tvcXSyhPfb1vQQWunMmMzmVNCJGMYrXgtv3bEbSpump",
       "source": "new",
       "entry_price": 0.0001391,
-      "peak_price": 0.0001391,
+      "peak_price": 0.0001537,
       "trailing_active": false,
       "entry_time": "2026-09-29T00:43:49.841572+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.5,
+      "peak_volume_m5": 6415.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -220626,6 +220598,44 @@
       "exit_price": 0.0001219,
       "exit_pct": -6.95,
       "exit_time": "2026-09-29T00:39:57.674717+00:00"
+    },
+    {
+      "symbol": "swordcat",
+      "chain": "robinhood",
+      "address": "0x59B85970630DD8B808Aad4257B0CDf02a8B22f90",
+      "source": "boost",
+      "entry_price": 0.009001,
+      "peak_price": 0.009001,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T00:30:55.850751+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.01,
+      "peak_volume_m5": 716181.14,
+      "milestones_hit": [],
+      "exit_price": 0.0081,
+      "exit_pct": -10.01,
+      "exit_time": "2026-09-29T00:45:25.906121+00:00"
+    },
+    {
+      "symbol": "FLAPPY",
+      "chain": "robinhood",
+      "address": "0x0Ce9145e8Ed68F1beA0b7088D96459f107C18B25",
+      "source": "new",
+      "entry_price": 0.002411,
+      "peak_price": 0.002411,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T00:41:11.189040+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.48,
+      "peak_volume_m5": 239607.01,
+      "milestones_hit": [],
+      "exit_price": 0.00211,
+      "exit_pct": -12.48,
+      "exit_time": "2026-09-29T00:45:26.580552+00:00"
     }
   ],
   "alerted": {
@@ -231804,6 +231814,8 @@
     "0x8e175582a9CaE219fFd84a991FD9B8C94EA562BD": "2026-09-29T00:02:34.366827+00:00",
     "0x27aa8DabfDaCAd9353744bE79B1FF8526FB36c64": "2026-09-29T00:02:35.059707+00:00",
     "0x0D974113699E786f4FC56D760ec7F5270b147A88": "2026-09-29T00:13:58.729050+00:00",
-    "C8uxabhTZdLds3qWYW99MN4v6Y7p8wrEpK3buWX2pump": "2026-09-29T00:39:57.674717+00:00"
+    "C8uxabhTZdLds3qWYW99MN4v6Y7p8wrEpK3buWX2pump": "2026-09-29T00:39:57.674717+00:00",
+    "0x59B85970630DD8B808Aad4257B0CDf02a8B22f90": "2026-09-29T00:45:25.906121+00:00",
+    "0x0Ce9145e8Ed68F1beA0b7088D96459f107C18B25": "2026-09-29T00:45:26.580552+00:00"
   }
 }
