@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PFSOL",
-      "chain": "solana",
-      "address": "5DzdcJUwovmAUXMfrWgbhKmJ3RWmEtXwf7EEtuHRpump",
-      "source": "new",
-      "entry_price": 0.0005621,
-      "peak_price": 0.0005621,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T19:51:10.614157+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "FLOKI",
       "chain": "ethereum",
       "address": "0xDcdFA13173807b29156118a1818f319dC48BA039",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-29T19:51:14.606542+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.27,
+      "peak_volume_m5": 5260.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -222362,6 +222354,25 @@
       "exit_price": 0.0006657,
       "exit_pct": -63.86,
       "exit_time": "2026-09-29T19:33:59.899789+00:00"
+    },
+    {
+      "symbol": "PFSOL",
+      "chain": "solana",
+      "address": "5DzdcJUwovmAUXMfrWgbhKmJ3RWmEtXwf7EEtuHRpump",
+      "source": "new",
+      "entry_price": 0.0005621,
+      "peak_price": 0.0005621,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T19:51:10.614157+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.35,
+      "peak_volume_m5": 245662.53,
+      "milestones_hit": [],
+      "exit_price": 0.0004927,
+      "exit_pct": -12.35,
+      "exit_time": "2026-09-29T19:53:20.297610+00:00"
     }
   ],
   "alerted": {
@@ -233628,6 +233639,7 @@
     "Bg2KS6PYNbyFebC9x7CSHfA9JECUiVaCXhRPz371W6tk": "2026-09-29T19:12:47.751539+00:00",
     "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump": "2026-09-29T19:21:59.545589+00:00",
     "0x1Ce54Db9067c0EE04b6C2c24C9d6B139573a2257": "2026-09-29T19:31:56.035474+00:00",
-    "0xc3db200f0a56cFe4911b29E3580A964C582da0C4": "2026-09-29T19:33:59.899789+00:00"
+    "0xc3db200f0a56cFe4911b29E3580A964C582da0C4": "2026-09-29T19:33:59.899789+00:00",
+    "5DzdcJUwovmAUXMfrWgbhKmJ3RWmEtXwf7EEtuHRpump": "2026-09-29T19:53:20.297610+00:00"
   }
 }
