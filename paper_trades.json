@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PARACAT",
-      "chain": "solana",
-      "address": "4D4g9bMwY2EYb7CU79u2Xsg6hciPoPcGYiWPVicopump",
-      "source": "new",
-      "entry_price": 0.0002048,
-      "peak_price": 0.0002048,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T04:51:05.449621+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CWC",
       "chain": "ethereum",
       "address": "0x678658399199a736B1B74ce7Aa799247A9391F9a",
       "source": "new",
       "entry_price": 0.0001199,
-      "peak_price": 0.0001199,
-      "trailing_active": false,
+      "peak_price": 0.0001608,
+      "trailing_active": true,
       "entry_time": "2026-09-29T04:51:08.497830+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 34.11,
+      "peak_volume_m5": 17127.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -221094,6 +221086,25 @@
       "exit_price": 4.535e-06,
       "exit_pct": 91.84,
       "exit_time": "2026-09-29T04:42:39.534501+00:00"
+    },
+    {
+      "symbol": "PARACAT",
+      "chain": "solana",
+      "address": "4D4g9bMwY2EYb7CU79u2Xsg6hciPoPcGYiWPVicopump",
+      "source": "new",
+      "entry_price": 0.0002048,
+      "peak_price": 0.0002048,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T04:51:05.449621+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.63,
+      "peak_volume_m5": 93143.27,
+      "milestones_hit": [],
+      "exit_price": 0.0001687,
+      "exit_pct": -17.63,
+      "exit_time": "2026-09-29T04:56:54.303629+00:00"
     }
   ],
   "alerted": {
@@ -232297,6 +232308,7 @@
     "0x2AD287050E4b91970d87bADBdcC81AdbAb48c6df": "2026-09-29T03:44:54.668413+00:00",
     "0x06Cae2d0D15901042517dF186680cCEF1F257E1b": "2026-09-29T03:45:55.041127+00:00",
     "3sJLXbRoBgVgeDnCCfmdSZuJQRtuyPRsJmMTCZumWH9Y": "2026-09-29T04:02:39.903939+00:00",
-    "0x6E1800D20B1438c7101087cE0C88314f464EAA4f": "2026-09-29T04:42:39.534501+00:00"
+    "0x6E1800D20B1438c7101087cE0C88314f464EAA4f": "2026-09-29T04:42:39.534501+00:00",
+    "4D4g9bMwY2EYb7CU79u2Xsg6hciPoPcGYiWPVicopump": "2026-09-29T04:56:54.303629+00:00"
   }
 }
