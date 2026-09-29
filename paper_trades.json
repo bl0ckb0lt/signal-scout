@@ -14,21 +14,9 @@
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 1.82,
-      "peak_volume_m5": 10038.8,
+      "current_pct": 0.87,
+      "peak_volume_m5": 10314.02,
       "milestones_hit": []
-    },
-    {
-      "symbol": "LANE",
-      "chain": "robinhood",
-      "address": "0x5D760Aba8845D7611A44D9061cbc5D87d36BF91B",
-      "source": "new",
-      "entry_price": 0.002926,
-      "peak_price": 0.002926,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T02:41:02.436755+00:00",
-      "score": 82,
-      "status": "open"
     },
     {
       "symbol": "INKCHAN",
@@ -36,11 +24,15 @@
       "address": "2n3bPZcfbcUNgaP6Ktw8E1wYoycAhuR1sSHa7uB6pump",
       "source": "new",
       "entry_price": 0.0001618,
-      "peak_price": 0.0001618,
-      "trailing_active": false,
+      "peak_price": 0.0001911,
+      "trailing_active": true,
       "entry_time": "2026-09-29T02:41:04.230431+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.11,
+      "peak_volume_m5": 31952.51,
+      "milestones_hit": []
     },
     {
       "symbol": "SBC",
@@ -48,11 +40,15 @@
       "address": "0x7759DA0E0893e6Aa58b1eC6a70d1b166536de566",
       "source": "new",
       "entry_price": 0.0002683,
-      "peak_price": 0.0002683,
+      "peak_price": 0.0002843,
       "trailing_active": false,
       "entry_time": "2026-09-29T02:41:05.633196+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.96,
+      "peak_volume_m5": 48746.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -220834,6 +220830,25 @@
       "exit_price": 3.614e-05,
       "exit_pct": -30.53,
       "exit_time": "2026-09-29T02:25:51.308839+00:00"
+    },
+    {
+      "symbol": "LANE",
+      "chain": "robinhood",
+      "address": "0x5D760Aba8845D7611A44D9061cbc5D87d36BF91B",
+      "source": "new",
+      "entry_price": 0.002926,
+      "peak_price": 0.002926,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T02:41:02.436755+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.69,
+      "peak_volume_m5": 215521.03,
+      "milestones_hit": [],
+      "exit_price": 0.002379,
+      "exit_pct": -18.69,
+      "exit_time": "2026-09-29T02:41:56.863163+00:00"
     }
   ],
   "alerted": {
@@ -232023,6 +232038,7 @@
     "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr": "2026-09-29T01:34:56.089575+00:00",
     "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump": "2026-09-29T02:00:14.272280+00:00",
     "0x46e30A14464d518869C596805e89b0e531597777": "2026-09-29T02:06:21.736050+00:00",
-    "0x8843538A500A11C23FD3c4a3254CC6BB74171E18": "2026-09-29T02:25:51.308839+00:00"
+    "0x8843538A500A11C23FD3c4a3254CC6BB74171E18": "2026-09-29T02:25:51.308839+00:00",
+    "0x5D760Aba8845D7611A44D9061cbc5D87d36BF91B": "2026-09-29T02:41:56.863163+00:00"
   }
 }
