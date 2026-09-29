@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GROKBOT",
-      "chain": "robinhood",
-      "address": "0x112df6C313ac69903df579C93e7D359fD2E844C1",
-      "source": "new",
-      "entry_price": 0.0002212,
-      "peak_price": 0.0002212,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T08:41:14.496903+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.16,
-      "peak_volume_m5": 92837.84,
-      "milestones_hit": []
-    },
-    {
       "symbol": "Ace",
       "chain": "robinhood",
       "address": "0xAD0FBdBcbd40f7A0C76683c765f6A429c07fF9d6",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-29T08:51:07.464558+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.13,
+      "peak_volume_m5": 32989.64,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -221255,6 +221243,29 @@
       "exit_price": 0.0001956,
       "exit_pct": 4.54,
       "exit_time": "2026-09-29T08:30:49.818549+00:00"
+    },
+    {
+      "symbol": "GROKBOT",
+      "chain": "robinhood",
+      "address": "0x112df6C313ac69903df579C93e7D359fD2E844C1",
+      "source": "new",
+      "entry_price": 0.0002212,
+      "peak_price": 0.0008037,
+      "trailing_active": true,
+      "entry_time": "2026-09-29T08:41:14.496903+00:00",
+      "score": 82,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 263.34,
+      "peak_volume_m5": 145760.71,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0008037,
+      "exit_pct": 263.34,
+      "exit_time": "2026-09-29T08:54:25.707670+00:00"
     }
   ],
   "alerted": {
@@ -232466,6 +232477,7 @@
     "0x74461dC947b97027bf3bFe58171636D6A5e5e696": "2026-09-29T06:24:50.817383+00:00",
     "UtiuqS4JGbnNPnT9T8Pu6QVRYsWDp4vh5pVGBEppump": "2026-09-29T07:03:21.776397+00:00",
     "0xF2fCA2Fb19b006a93e84211a179F8a287B8c5cCf": "2026-09-29T08:25:36.467783+00:00",
-    "3JBcBwcZ5psDu4Qy58YBqbMn2Nk4QKzDiqii4gpAwqei": "2026-09-29T08:30:49.818549+00:00"
+    "3JBcBwcZ5psDu4Qy58YBqbMn2Nk4QKzDiqii4gpAwqei": "2026-09-29T08:30:49.818549+00:00",
+    "0x112df6C313ac69903df579C93e7D359fD2E844C1": "2026-09-29T08:54:25.707670+00:00"
   }
 }
