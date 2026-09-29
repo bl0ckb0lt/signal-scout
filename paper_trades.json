@@ -14,21 +14,9 @@
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -11.81,
+      "current_pct": -10.35,
       "peak_volume_m5": 1828.86,
       "milestones_hit": []
-    },
-    {
-      "symbol": "POND",
-      "chain": "solana",
-      "address": "84D3VopU3g5qo7jUwzQK4P4BnVPQWr2MzeaRCFkHpump",
-      "source": "boost",
-      "entry_price": 0.000464,
-      "peak_price": 0.000464,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T13:10:24.714098+00:00",
-      "score": 84,
-      "status": "open"
     },
     {
       "symbol": "THESIS",
@@ -36,11 +24,15 @@
       "address": "0xA21bb591caadB2004EC825b39EC8E95CaDfD7777",
       "source": "new",
       "entry_price": 0.0001857,
-      "peak_price": 0.0001857,
-      "trailing_active": false,
+      "peak_price": 0.0002375,
+      "trailing_active": true,
       "entry_time": "2026-09-29T13:10:29.809443+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 27.89,
+      "peak_volume_m5": 85679.63,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -221619,6 +221611,25 @@
       "exit_price": 0.0001432,
       "exit_pct": -28.26,
       "exit_time": "2026-09-29T12:42:40.642435+00:00"
+    },
+    {
+      "symbol": "POND",
+      "chain": "solana",
+      "address": "84D3VopU3g5qo7jUwzQK4P4BnVPQWr2MzeaRCFkHpump",
+      "source": "boost",
+      "entry_price": 0.000464,
+      "peak_price": 0.000464,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T13:10:24.714098+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.07,
+      "peak_volume_m5": 47362.03,
+      "milestones_hit": [],
+      "exit_price": 0.0003848,
+      "exit_pct": -17.07,
+      "exit_time": "2026-09-29T13:20:11.825168+00:00"
     }
   ],
   "alerted": {
@@ -232839,7 +232850,7 @@
     "5BzMG8pmZyjPBFkaPSYZK2qRgTsViMqMWV9SmyDQpump": "2026-09-29T10:31:47.584972+00:00",
     "5SxXkvoY2J4aRLHWpV6VP1gUSVmXrbUE7MYvWaucpump": "2026-09-29T10:42:28.047607+00:00",
     "EThAHDXisQrhvv9MPrv5DgZuRHkjUzNcTwnLzVjCpump": "2026-09-29T10:43:24.265857+00:00",
-    "84D3VopU3g5qo7jUwzQK4P4BnVPQWr2MzeaRCFkHpump": "2026-09-29T10:56:42.984202+00:00",
+    "84D3VopU3g5qo7jUwzQK4P4BnVPQWr2MzeaRCFkHpump": "2026-09-29T13:20:11.825168+00:00",
     "5UfW9HxHQqBncdPgt3Vca3t68iSMXg2RxtCbnncKw6cV": "2026-09-29T11:13:21.942282+00:00",
     "0xE35e93654377Ef2e45f33AB1Bae1F82E6637A1dC": "2026-09-29T11:14:12.556163+00:00",
     "0xf79a5d3C2f302bC794ec3cD26BC36792e4F50DD0": "2026-09-29T11:34:02.883349+00:00",
