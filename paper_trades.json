@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DUCAT",
-      "chain": "robinhood",
-      "address": "0xDe9C70B0faEa34707A888D6DAa933b8D5635F05E",
-      "source": "new",
-      "entry_price": 0.00149,
-      "peak_price": 0.00149,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T13:51:05.257209+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "MCD",
       "chain": "robinhood",
       "address": "0x378A50eaC56f45Fb74e4cE7F1962dbCA33515c14",
       "source": "new",
       "entry_price": 0.4214,
-      "peak_price": 0.4214,
+      "peak_price": 0.4305,
       "trailing_active": false,
       "entry_time": "2026-09-29T13:51:06.735711+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.16,
+      "peak_volume_m5": 4903.59,
+      "milestones_hit": []
     },
     {
       "symbol": "Pnuts",
@@ -32,11 +24,15 @@
       "address": "0x691684E5A7dcd3010a2518F8d613195485eBEda1",
       "source": "new",
       "entry_price": 0.0001419,
-      "peak_price": 0.0001419,
+      "peak_price": 0.0001488,
       "trailing_active": false,
       "entry_time": "2026-09-29T13:51:08.177349+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.86,
+      "peak_volume_m5": 49166.05,
+      "milestones_hit": []
     },
     {
       "symbol": "DEADBEEF",
@@ -44,11 +40,15 @@
       "address": "0x40EB57842b260D2bCa26DC553B6c2213393Fc309",
       "source": "new",
       "entry_price": 0.0001803,
-      "peak_price": 0.0001803,
+      "peak_price": 0.0002007,
       "trailing_active": false,
       "entry_time": "2026-09-29T13:51:09.601796+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.31,
+      "peak_volume_m5": 19880.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -221703,6 +221703,25 @@
       "exit_price": 0.0001299,
       "exit_pct": 4.25,
       "exit_time": "2026-09-29T13:41:04.951809+00:00"
+    },
+    {
+      "symbol": "DUCAT",
+      "chain": "robinhood",
+      "address": "0xDe9C70B0faEa34707A888D6DAa933b8D5635F05E",
+      "source": "new",
+      "entry_price": 0.00149,
+      "peak_price": 0.00149,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T13:51:05.257209+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.26,
+      "peak_volume_m5": 157327.22,
+      "milestones_hit": [],
+      "exit_price": 0.001203,
+      "exit_pct": -19.26,
+      "exit_time": "2026-09-29T13:52:54.230731+00:00"
     }
   ],
   "alerted": {
@@ -232935,6 +232954,7 @@
     "HrXtCbUQJB4Z8P2Y9yrzNk2xgp2V9yTKM1qsmKifLXR2": "2026-09-29T12:42:40.642435+00:00",
     "0xA21bb591caadB2004EC825b39EC8E95CaDfD7777": "2026-09-29T13:22:52.378432+00:00",
     "0x116510fA1E99dE5b2717426d064983d54aa4ac04": "2026-09-29T13:36:49.721344+00:00",
-    "thummB4jC8Sp36HbZsvdw2czXQDcQ3VBTMwDdLJEbuC": "2026-09-29T13:41:04.951809+00:00"
+    "thummB4jC8Sp36HbZsvdw2czXQDcQ3VBTMwDdLJEbuC": "2026-09-29T13:41:04.951809+00:00",
+    "0xDe9C70B0faEa34707A888D6DAa933b8D5635F05E": "2026-09-29T13:52:54.230731+00:00"
   }
 }
