@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PARACAT",
-      "chain": "solana",
-      "address": "59F95Wkn5LRpiKmG2FE3g87Lzkz4redvNJNKSi1Npump",
-      "source": "new",
-      "entry_price": 0.0001335,
-      "peak_price": 0.0001335,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T18:10:57.564364+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "dots",
       "chain": "robinhood",
       "address": "0x9fd0e1c0CD8B651bF94f916c01E6aeE29537160c",
       "source": "new",
       "entry_price": 5.49e-05,
-      "peak_price": 5.49e-05,
-      "trailing_active": false,
+      "peak_price": 7.218e-05,
+      "trailing_active": true,
       "entry_time": "2026-09-29T18:10:59.246393+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.48,
+      "peak_volume_m5": 27623.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -222109,6 +222101,25 @@
       "exit_price": 0.0006056,
       "exit_pct": -13.93,
       "exit_time": "2026-09-29T17:55:52.283591+00:00"
+    },
+    {
+      "symbol": "PARACAT",
+      "chain": "solana",
+      "address": "59F95Wkn5LRpiKmG2FE3g87Lzkz4redvNJNKSi1Npump",
+      "source": "new",
+      "entry_price": 0.0001335,
+      "peak_price": 0.0001335,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T18:10:57.564364+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.07,
+      "peak_volume_m5": 51356.2,
+      "milestones_hit": [],
+      "exit_price": 0.0001027,
+      "exit_pct": -23.07,
+      "exit_time": "2026-09-29T18:11:52.200615+00:00"
     }
   ],
   "alerted": {
@@ -233362,6 +233373,7 @@
     "4arisZWtGpHEjKfLZwUDnzop8oMMAN5proKUQFZ7qLPf": "2026-09-29T16:51:54.047591+00:00",
     "0x81dcD7a06CB23d8aE245Dd258bfc0abE91BF164F": "2026-09-29T17:01:52.890487+00:00",
     "0x89B66125986b14Fa74a17B64B114c21617Aae892": "2026-09-29T17:43:57.373794+00:00",
-    "0xe52C003F1A3abe8839447B1674d7BDA62047a8B4": "2026-09-29T17:55:52.283591+00:00"
+    "0xe52C003F1A3abe8839447B1674d7BDA62047a8B4": "2026-09-29T17:55:52.283591+00:00",
+    "59F95Wkn5LRpiKmG2FE3g87Lzkz4redvNJNKSi1Npump": "2026-09-29T18:11:52.200615+00:00"
   }
 }
