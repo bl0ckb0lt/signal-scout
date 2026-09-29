@@ -14,27 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 2.47,
+      "current_pct": 2.3,
       "peak_volume_m5": 7541.34,
       "milestones_hit": []
-    },
-    {
-      "symbol": "ASI",
-      "chain": "robinhood",
-      "address": "0xDf8DcfDd62eBf82F480f1f9A60D0Eb31b0DC0285",
-      "source": "new",
-      "entry_price": 0.0001024,
-      "peak_price": 0.0001932,
-      "trailing_active": true,
-      "entry_time": "2026-09-29T14:21:12.983531+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 88.67,
-      "peak_volume_m5": 60633.6,
-      "milestones_hit": [
-        50
-      ]
     },
     {
       "symbol": "THESIS",
@@ -42,14 +24,14 @@
       "address": "0x4519caCC591AeCC5f8476BEBEe43B11FfeDd7777",
       "source": "boost",
       "entry_price": 0.0004526,
-      "peak_price": 0.0005141,
-      "trailing_active": false,
+      "peak_price": 0.0005286,
+      "trailing_active": true,
       "entry_time": "2026-09-29T14:31:03.808808+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.59,
-      "peak_volume_m5": 10047.18,
+      "current_pct": 16.79,
+      "peak_volume_m5": 11013.3,
       "milestones_hit": []
     },
     {
@@ -58,30 +40,14 @@
       "address": "5xF68yQmQ6p9uQitrf8shxGXqTt5CouXXi19cNHvpump",
       "source": "new",
       "entry_price": 0.0002176,
-      "peak_price": 0.0002723,
+      "peak_price": 0.0002825,
       "trailing_active": true,
       "entry_time": "2026-09-29T14:31:05.705641+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 25.14,
+      "current_pct": 29.83,
       "peak_volume_m5": 12148.78,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "PI",
-      "chain": "robinhood",
-      "address": "0x434C832E6352bF0cFEaDab8E86361a83E6D572E2",
-      "source": "new",
-      "entry_price": 0.0001743,
-      "peak_price": 0.0002117,
-      "trailing_active": true,
-      "entry_time": "2026-09-29T14:31:08.569545+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.46,
-      "peak_volume_m5": 19592.01,
       "milestones_hit": []
     }
   ],
@@ -221832,6 +221798,46 @@
       "exit_price": 0.0003581,
       "exit_pct": -23.02,
       "exit_time": "2026-09-29T14:13:42.724283+00:00"
+    },
+    {
+      "symbol": "ASI",
+      "chain": "robinhood",
+      "address": "0xDf8DcfDd62eBf82F480f1f9A60D0Eb31b0DC0285",
+      "source": "new",
+      "entry_price": 0.0001024,
+      "peak_price": 0.0001932,
+      "trailing_active": true,
+      "entry_time": "2026-09-29T14:21:12.983531+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 52.15,
+      "peak_volume_m5": 96517.49,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001558,
+      "exit_pct": 52.15,
+      "exit_time": "2026-09-29T14:44:53.545488+00:00"
+    },
+    {
+      "symbol": "PI",
+      "chain": "robinhood",
+      "address": "0x434C832E6352bF0cFEaDab8E86361a83E6D572E2",
+      "source": "new",
+      "entry_price": 0.0001743,
+      "peak_price": 0.0002117,
+      "trailing_active": true,
+      "entry_time": "2026-09-29T14:31:08.569545+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 6.66,
+      "peak_volume_m5": 19592.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001859,
+      "exit_pct": 6.66,
+      "exit_time": "2026-09-29T14:44:55.287083+00:00"
     }
   ],
   "alerted": {
@@ -233069,6 +233075,8 @@
     "0x691684E5A7dcd3010a2518F8d613195485eBEda1": "2026-09-29T13:53:57.063723+00:00",
     "0x40EB57842b260D2bCa26DC553B6c2213393Fc309": "2026-09-29T13:53:57.902080+00:00",
     "0xD0cA71118ca21D674f9018A53026a38A0AB54DbF": "2026-09-29T14:02:59.335269+00:00",
-    "0xB64fd97d3cE8c487bD3613FcDa691EB874f37ACe": "2026-09-29T14:13:42.724283+00:00"
+    "0xB64fd97d3cE8c487bD3613FcDa691EB874f37ACe": "2026-09-29T14:13:42.724283+00:00",
+    "0xDf8DcfDd62eBf82F480f1f9A60D0Eb31b0DC0285": "2026-09-29T14:44:53.545488+00:00",
+    "0x434C832E6352bF0cFEaDab8E86361a83E6D572E2": "2026-09-29T14:44:55.287083+00:00"
   }
 }
