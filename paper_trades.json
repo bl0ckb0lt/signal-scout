@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "VC",
-      "chain": "ethereum",
-      "address": "0x116510fA1E99dE5b2717426d064983d54aa4ac04",
-      "source": "boost",
-      "entry_price": 0.0001507,
-      "peak_price": 0.0001585,
-      "trailing_active": false,
-      "entry_time": "2026-09-29T10:11:11.032177+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -10.35,
-      "peak_volume_m5": 1828.86,
-      "milestones_hit": []
-    },
-    {
       "symbol": "THUMB",
       "chain": "solana",
       "address": "thummB4jC8Sp36HbZsvdw2czXQDcQ3VBTMwDdLJEbuC",
       "source": "new",
       "entry_price": 0.0001246,
-      "peak_price": 0.0001246,
-      "trailing_active": false,
+      "peak_price": 0.0001666,
+      "trailing_active": true,
       "entry_time": "2026-09-29T13:31:02.757380+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 33.71,
+      "peak_volume_m5": 221322.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -221645,6 +221633,25 @@
       "exit_price": 0.0001673,
       "exit_pct": -9.91,
       "exit_time": "2026-09-29T13:22:52.378432+00:00"
+    },
+    {
+      "symbol": "VC",
+      "chain": "ethereum",
+      "address": "0x116510fA1E99dE5b2717426d064983d54aa4ac04",
+      "source": "boost",
+      "entry_price": 0.0001507,
+      "peak_price": 0.0001585,
+      "trailing_active": false,
+      "entry_time": "2026-09-29T10:11:11.032177+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.39,
+      "peak_volume_m5": 1828.86,
+      "milestones_hit": [],
+      "exit_price": 0.0001275,
+      "exit_pct": -15.39,
+      "exit_time": "2026-09-29T13:36:49.721344+00:00"
     }
   ],
   "alerted": {
@@ -232875,6 +232882,7 @@
     "0x903545482364315e9fBcf9416A75A00978967777": "2026-09-29T12:26:37.190964+00:00",
     "EtV9vmJXhV4gTgxzgzn7xpbjRX2ne2Vb8T58mwabpump": "2026-09-29T12:27:33.377951+00:00",
     "HrXtCbUQJB4Z8P2Y9yrzNk2xgp2V9yTKM1qsmKifLXR2": "2026-09-29T12:42:40.642435+00:00",
-    "0xA21bb591caadB2004EC825b39EC8E95CaDfD7777": "2026-09-29T13:22:52.378432+00:00"
+    "0xA21bb591caadB2004EC825b39EC8E95CaDfD7777": "2026-09-29T13:22:52.378432+00:00",
+    "0x116510fA1E99dE5b2717426d064983d54aa4ac04": "2026-09-29T13:36:49.721344+00:00"
   }
 }
