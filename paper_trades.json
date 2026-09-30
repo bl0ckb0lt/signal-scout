@@ -3,38 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ARTHUR",
-      "chain": "solana",
-      "address": "6e8LLHkqCTa4mzGuL1PoUxSfeHmDeceJ3DaJSSUNg937",
-      "source": "new",
-      "entry_price": 0.0001787,
-      "peak_price": 0.0006138,
-      "trailing_active": true,
-      "entry_time": "2026-09-29T23:51:22.993460+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 243.48,
-      "peak_volume_m5": 165506.66,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "VLADBOT",
-      "chain": "robinhood",
-      "address": "0x0D8D80Ab88CC80e1Ed025D1f7Cc1f7e08D6Eacfe",
-      "source": "new",
-      "entry_price": 0.0001016,
-      "peak_price": 0.0001016,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T00:01:20.630574+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "VRAX",
       "chain": "robinhood",
       "address": "0x21622Dd83a3F0BA9485C2e7d0A7c2dE3502D3ce8",
@@ -44,19 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-09-30T00:01:25.464248+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "VRAX",
-      "chain": "robinhood",
-      "address": "0xc6080EA62997B33C8e46360850cB4473913b61f0",
-      "source": "new",
-      "entry_price": 0.0001032,
-      "peak_price": 0.0001032,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T00:01:26.842340+00:00",
-      "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.41,
+      "peak_volume_m5": 63695.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -223125,6 +223085,67 @@
       "exit_price": 0.0001522,
       "exit_pct": -20.06,
       "exit_time": "2026-09-29T23:55:39.621214+00:00"
+    },
+    {
+      "symbol": "ARTHUR",
+      "chain": "solana",
+      "address": "6e8LLHkqCTa4mzGuL1PoUxSfeHmDeceJ3DaJSSUNg937",
+      "source": "new",
+      "entry_price": 0.0001787,
+      "peak_price": 0.0008806,
+      "trailing_active": true,
+      "entry_time": "2026-09-29T23:51:22.993460+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 392.78,
+      "peak_volume_m5": 248204.18,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0008806,
+      "exit_pct": 392.78,
+      "exit_time": "2026-09-30T00:02:34.675165+00:00"
+    },
+    {
+      "symbol": "VLADBOT",
+      "chain": "robinhood",
+      "address": "0x0D8D80Ab88CC80e1Ed025D1f7Cc1f7e08D6Eacfe",
+      "source": "new",
+      "entry_price": 0.0001016,
+      "peak_price": 0.0001016,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T00:01:20.630574+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.59,
+      "peak_volume_m5": 12182.37,
+      "milestones_hit": [],
+      "exit_price": 8.474e-05,
+      "exit_pct": -16.59,
+      "exit_time": "2026-09-30T00:02:35.582267+00:00"
+    },
+    {
+      "symbol": "VRAX",
+      "chain": "robinhood",
+      "address": "0xc6080EA62997B33C8e46360850cB4473913b61f0",
+      "source": "new",
+      "entry_price": 0.0001032,
+      "peak_price": 0.0001032,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T00:01:26.842340+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.22,
+      "peak_volume_m5": 47597.74,
+      "milestones_hit": [],
+      "exit_price": 7.614e-05,
+      "exit_pct": -26.22,
+      "exit_time": "2026-09-30T00:02:36.749950+00:00"
     }
   ],
   "alerted": {
@@ -234429,6 +234450,9 @@
     "7rRNjSyx4vAcAY3KcFkrrmZpmhnmpBRYodr1TwcUpump": "2026-09-29T23:22:36.424015+00:00",
     "0x3D7B3EB611069fE4D9320E395A20fF8C96E83206": "2026-09-29T23:23:35.172038+00:00",
     "BiFfzEETEN4wG1vCQLmKk7nBcAcDzVrTEgX3fDiLpump": "2026-09-29T23:52:12.336945+00:00",
-    "0xfBd160496c6A441Bf2035457bf647Ca7c8F24334": "2026-09-29T23:55:39.621214+00:00"
+    "0xfBd160496c6A441Bf2035457bf647Ca7c8F24334": "2026-09-29T23:55:39.621214+00:00",
+    "6e8LLHkqCTa4mzGuL1PoUxSfeHmDeceJ3DaJSSUNg937": "2026-09-30T00:02:34.675165+00:00",
+    "0x0D8D80Ab88CC80e1Ed025D1f7Cc1f7e08D6Eacfe": "2026-09-30T00:02:35.582267+00:00",
+    "0xc6080EA62997B33C8e46360850cB4473913b61f0": "2026-09-30T00:02:36.749950+00:00"
   }
 }
