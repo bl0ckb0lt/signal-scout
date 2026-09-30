@@ -24,30 +24,14 @@
       "address": "0xC4bcDaDF30E264De7b94099bb535669aD618e39e",
       "source": "boost",
       "entry_price": 0.0001489,
-      "peak_price": 0.0001622,
-      "trailing_active": false,
+      "peak_price": 0.0001948,
+      "trailing_active": true,
       "entry_time": "2026-09-30T18:51:05.880397+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.93,
+      "current_pct": 30.83,
       "peak_volume_m5": 67138.0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BANDIT",
-      "chain": "solana",
-      "address": "JCX5nDG99k1CWB9AttJ3U57NmjSgnCoagFaZhqfEf7Ah",
-      "source": "new",
-      "entry_price": 0.001091,
-      "peak_price": 0.001232,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T18:51:07.559742+00:00",
-      "score": 75,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 12.92,
-      "peak_volume_m5": 1030374.42,
       "milestones_hit": []
     }
   ],
@@ -224896,6 +224880,25 @@
       "exit_price": 4.216e-05,
       "exit_pct": -10.9,
       "exit_time": "2026-09-30T18:52:19.805511+00:00"
+    },
+    {
+      "symbol": "BANDIT",
+      "chain": "solana",
+      "address": "JCX5nDG99k1CWB9AttJ3U57NmjSgnCoagFaZhqfEf7Ah",
+      "source": "new",
+      "entry_price": 0.001091,
+      "peak_price": 0.001232,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T18:51:07.559742+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.48,
+      "peak_volume_m5": 1030374.42,
+      "milestones_hit": [],
+      "exit_price": 0.0009657,
+      "exit_pct": -11.48,
+      "exit_time": "2026-09-30T18:53:46.810148+00:00"
     }
   ],
   "alerted": {
@@ -236291,6 +236294,7 @@
     "EsT61WMFMja6vJYPnXJHv4s9SeEic3bUABrbADPGMRUN": "2026-09-30T18:32:02.994348+00:00",
     "0x72a28368b211d3E5cAB66c253A179a09eEd8b101": "2026-09-30T18:42:57.046970+00:00",
     "4wkmgCy5HLjShuK2W5RUbhgGFzbHN9qopEGM3FUGpump": "2026-09-30T18:43:48.474853+00:00",
-    "0xFC390BB974BFc8316753F81fb823A30c3A56342D": "2026-09-30T18:52:19.805511+00:00"
+    "0xFC390BB974BFc8316753F81fb823A30c3A56342D": "2026-09-30T18:52:19.805511+00:00",
+    "JCX5nDG99k1CWB9AttJ3U57NmjSgnCoagFaZhqfEf7Ah": "2026-09-30T18:53:46.810148+00:00"
   }
 }
