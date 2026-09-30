@@ -19,28 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "POTUS",
-      "chain": "solana",
-      "address": "EDETAdjB1N8AARfoWWTwxeUJiNFjGAEhBv1JBePnagoh",
-      "source": "new",
-      "entry_price": 0.0004077,
-      "peak_price": 0.0004077,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T06:01:03.960306+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CRUDE",
       "chain": "robinhood",
       "address": "0xFAD699c8cf895C04365876A89241628Bf0dB4d6e",
       "source": "new",
       "entry_price": 0.000968,
-      "peak_price": 0.000968,
-      "trailing_active": false,
+      "peak_price": 0.001736,
+      "trailing_active": true,
       "entry_time": "2026-09-30T06:01:05.385550+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 79.34,
+      "peak_volume_m5": 191841.33,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -223775,6 +223769,25 @@
       "exit_price": 0.003098,
       "exit_pct": -6.23,
       "exit_time": "2026-09-30T06:00:06.695692+00:00"
+    },
+    {
+      "symbol": "POTUS",
+      "chain": "solana",
+      "address": "EDETAdjB1N8AARfoWWTwxeUJiNFjGAEhBv1JBePnagoh",
+      "source": "new",
+      "entry_price": 0.0004077,
+      "peak_price": 0.0004077,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T06:01:03.960306+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.17,
+      "peak_volume_m5": 8719.62,
+      "milestones_hit": [],
+      "exit_price": 0.0003173,
+      "exit_pct": -22.17,
+      "exit_time": "2026-09-30T06:05:23.804829+00:00"
     }
   ],
   "alerted": {
@@ -235113,6 +235126,7 @@
     "6EedU34v7qsJrzoCGNDv8fRHeYafWhVAyFZjnBBfpump": "2026-09-30T05:42:53.618276+00:00",
     "486U4LyqMsHUvCwNrxXDgZ94BZNuCJ5rPDEkssC2hJi9": "2026-09-30T05:52:00.171088+00:00",
     "0xE80e5864550d0f1B69b8063bD03571BBe722Ff9e": "2026-09-30T05:53:03.293753+00:00",
-    "0xf3Ac5b1BB085540D3935425388a02685c410eD5f": "2026-09-30T06:00:06.695692+00:00"
+    "0xf3Ac5b1BB085540D3935425388a02685c410eD5f": "2026-09-30T06:00:06.695692+00:00",
+    "EDETAdjB1N8AARfoWWTwxeUJiNFjGAEhBv1JBePnagoh": "2026-09-30T06:05:23.804829+00:00"
   }
 }
