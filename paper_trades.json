@@ -30,7 +30,7 @@
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.1,
+      "current_pct": 11.63,
       "peak_volume_m5": 934.72,
       "milestones_hit": []
     },
@@ -40,23 +40,15 @@
       "address": "0xe13CD869267fA481c62Fcb872C82cD40e0f36785",
       "source": "new",
       "entry_price": 8.666e-05,
-      "peak_price": 8.666e-05,
+      "peak_price": 8.792e-05,
       "trailing_active": false,
       "entry_time": "2026-09-30T08:21:00.385207+00:00",
       "score": 85,
-      "status": "open"
-    },
-    {
-      "symbol": "FZ1073",
-      "chain": "robinhood",
-      "address": "0xDE827d94A72C5E6BB40113bA72351b3809E2Adbe",
-      "source": "new",
-      "entry_price": 0.0002236,
-      "peak_price": 0.0002236,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T08:21:01.888549+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.45,
+      "peak_volume_m5": 31728.26,
+      "milestones_hit": []
     },
     {
       "symbol": "Watermelinu",
@@ -64,11 +56,15 @@
       "address": "E7Eb6WreLwessrefQ4ooXcqgwKQredJq3KBHbt8bYpYH",
       "source": "new",
       "entry_price": 0.0001386,
-      "peak_price": 0.0001386,
+      "peak_price": 0.0001403,
       "trailing_active": false,
       "entry_time": "2026-09-30T08:21:03.786423+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.23,
+      "peak_volume_m5": 23438.1,
+      "milestones_hit": []
     },
     {
       "symbol": "Dots",
@@ -76,11 +72,18 @@
       "address": "0x8aC1f74F764308531276171C553373dEb415F272",
       "source": "new",
       "entry_price": 0.0003577,
-      "peak_price": 0.0003577,
-      "trailing_active": false,
+      "peak_price": 0.0007641,
+      "trailing_active": true,
       "entry_time": "2026-09-30T08:21:05.358014+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 113.61,
+      "peak_volume_m5": 194566.62,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -223939,6 +223942,25 @@
       "exit_price": 0.0001659,
       "exit_pct": 5.6,
       "exit_time": "2026-09-30T06:56:17.498027+00:00"
+    },
+    {
+      "symbol": "FZ1073",
+      "chain": "robinhood",
+      "address": "0xDE827d94A72C5E6BB40113bA72351b3809E2Adbe",
+      "source": "new",
+      "entry_price": 0.0002236,
+      "peak_price": 0.0002236,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T08:21:01.888549+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.27,
+      "peak_volume_m5": 44256.12,
+      "milestones_hit": [],
+      "exit_price": 0.0002051,
+      "exit_pct": -8.27,
+      "exit_time": "2026-09-30T08:21:57.858638+00:00"
     }
   ],
   "alerted": {
@@ -235283,6 +235305,7 @@
     "HEJPsfJQftLkVEdAWZfW2w1wAwerpsps8FqDb72spump": "2026-09-30T06:29:00.160620+00:00",
     "7hGwu7u8X6Bb88B1eGYKWbTsUiWtpmBLQ9YQ1nxFpump": "2026-09-30T06:54:18.929602+00:00",
     "3sL58KKh2QdNSfN9VRz8bHGGU5zStdfManVHCTkhpump": "2026-09-30T06:55:15.129990+00:00",
-    "7tBaEPen3FXpt4DEkXrnEbPKeDZRK8f5fHSBWYqqpump": "2026-09-30T06:56:17.498027+00:00"
+    "7tBaEPen3FXpt4DEkXrnEbPKeDZRK8f5fHSBWYqqpump": "2026-09-30T06:56:17.498027+00:00",
+    "0xDE827d94A72C5E6BB40113bA72351b3809E2Adbe": "2026-09-30T08:21:57.858638+00:00"
   }
 }
