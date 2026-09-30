@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": ".si",
-      "chain": "solana",
-      "address": "EmLPFwLkzaPdT548oKXT9CMh9bSB9Ez93fBgmmoapump",
-      "source": "new",
-      "entry_price": 0.0005848,
-      "peak_price": 0.0005848,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T22:11:05.473210+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "STMINT",
       "chain": "robinhood",
       "address": "0x855A05973ee3e8cDcB85f204EC75B216a41578Cf",
       "source": "new",
       "entry_price": 2.128e-06,
-      "peak_price": 2.128e-06,
-      "trailing_active": false,
+      "peak_price": 2.59e-06,
+      "trailing_active": true,
       "entry_time": "2026-09-30T22:11:06.825688+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.71,
+      "peak_volume_m5": 161565.33,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -225388,6 +225380,25 @@
       "exit_price": 0.0002211,
       "exit_pct": -35.01,
       "exit_time": "2026-09-30T22:03:44.054654+00:00"
+    },
+    {
+      "symbol": ".si",
+      "chain": "solana",
+      "address": "EmLPFwLkzaPdT548oKXT9CMh9bSB9Ez93fBgmmoapump",
+      "source": "new",
+      "entry_price": 0.0005848,
+      "peak_price": 0.0005848,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T22:11:05.473210+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.62,
+      "peak_volume_m5": 803493.19,
+      "milestones_hit": [],
+      "exit_price": 0.0003414,
+      "exit_pct": -41.62,
+      "exit_time": "2026-09-30T22:12:58.104181+00:00"
     }
   ],
   "alerted": {
@@ -236809,6 +236820,7 @@
     "J1mQHsCGiFhoMmzMj59rYnXtkdoCW59HBNV2Jzt4r4S9": "2026-09-30T21:32:36.033781+00:00",
     "GQo6fhPdC2iAJH56H6k1hbbALsH4Y7ZxDQu2hZK1pump": "2026-09-30T21:34:31.251229+00:00",
     "GXLPgdSKCxRwiD2xALcCjmfwaVsq4wi3ENx5tB9Bpump": "2026-09-30T21:52:39.507284+00:00",
-    "GVeQ82oyUZzHhULUWtE73wwGdiiypyDVpMspxBFVpump": "2026-09-30T22:03:44.054654+00:00"
+    "GVeQ82oyUZzHhULUWtE73wwGdiiypyDVpMspxBFVpump": "2026-09-30T22:03:44.054654+00:00",
+    "EmLPFwLkzaPdT548oKXT9CMh9bSB9Ez93fBgmmoapump": "2026-09-30T22:12:58.104181+00:00"
   }
 }
