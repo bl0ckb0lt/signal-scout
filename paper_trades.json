@@ -19,51 +19,19 @@
       "milestones_hit": []
     },
     {
-      "symbol": "backpack",
-      "chain": "robinhood",
-      "address": "0x1c1C1531126754114F1B4eb461088b1BDB3Dc7e8",
-      "source": "new",
-      "entry_price": 0.0003647,
-      "peak_price": 0.0003717,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T03:01:12.287851+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.92,
-      "peak_volume_m5": 109352.34,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Orangie",
-      "chain": "solana",
-      "address": "GjxNDXzZ4XYbufcozyPAn8bAtRiwSf16c5zZrjydpump",
-      "source": "new",
-      "entry_price": 0.0001684,
-      "peak_price": 0.0002028,
-      "trailing_active": true,
-      "entry_time": "2026-09-30T03:01:13.870078+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 20.43,
-      "peak_volume_m5": 493740.86,
-      "milestones_hit": []
-    },
-    {
       "symbol": "SI",
       "chain": "bsc",
       "address": "0x6b5494207Fa8fEc1a1311F4225f91B9bF6A97777",
       "source": "new",
       "entry_price": 0.0002023,
-      "peak_price": 0.0002032,
+      "peak_price": 0.0002034,
       "trailing_active": false,
       "entry_time": "2026-09-30T03:01:15.488299+00:00",
       "score": 58,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.44,
-      "peak_volume_m5": 144.02,
+      "current_pct": 0.54,
+      "peak_volume_m5": 150.76,
       "milestones_hit": []
     }
   ],
@@ -223500,6 +223468,44 @@
       "exit_price": 0.000413,
       "exit_pct": 14.31,
       "exit_time": "2026-09-30T03:03:00.418657+00:00"
+    },
+    {
+      "symbol": "backpack",
+      "chain": "robinhood",
+      "address": "0x1c1C1531126754114F1B4eb461088b1BDB3Dc7e8",
+      "source": "new",
+      "entry_price": 0.0003647,
+      "peak_price": 0.0003717,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T03:01:12.287851+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.71,
+      "peak_volume_m5": 109352.34,
+      "milestones_hit": [],
+      "exit_price": 0.0002746,
+      "exit_pct": -24.71,
+      "exit_time": "2026-09-30T03:03:57.748155+00:00"
+    },
+    {
+      "symbol": "Orangie",
+      "chain": "solana",
+      "address": "GjxNDXzZ4XYbufcozyPAn8bAtRiwSf16c5zZrjydpump",
+      "source": "new",
+      "entry_price": 0.0001684,
+      "peak_price": 0.0002028,
+      "trailing_active": true,
+      "entry_time": "2026-09-30T03:01:13.870078+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": -5.17,
+      "peak_volume_m5": 522949.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001597,
+      "exit_pct": -5.17,
+      "exit_time": "2026-09-30T03:03:58.434846+00:00"
     }
   ],
   "alerted": {
@@ -234823,6 +234829,8 @@
     "32jbu7pyiNeKcddMAc46fHhyoGm3Qa425fDwuupjP2Rg": "2026-09-30T02:12:35.219019+00:00",
     "0x257723230C9ccCF6A2Df1E7CF67CFFcFCF01EEb8": "2026-09-30T02:21:55.916376+00:00",
     "AdFYwmgMEYfD3ut11oYjiFCyHSj5G7SK8X2kWqZ6pump": "2026-09-30T02:36:41.604223+00:00",
-    "Agr56DXmmYX7wHcqvSGJweXFrSwGv3d6wbjmVqkxpump": "2026-09-30T03:03:00.418657+00:00"
+    "Agr56DXmmYX7wHcqvSGJweXFrSwGv3d6wbjmVqkxpump": "2026-09-30T03:03:00.418657+00:00",
+    "0x1c1C1531126754114F1B4eb461088b1BDB3Dc7e8": "2026-09-30T03:03:57.748155+00:00",
+    "GjxNDXzZ4XYbufcozyPAn8bAtRiwSf16c5zZrjydpump": "2026-09-30T03:03:58.434846+00:00"
   }
 }
