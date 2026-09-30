@@ -24,23 +24,15 @@
       "address": "9rJsqPD1UqeXo1dgPybwTKm7Luga8bXVQ5A3EiYFhfeA",
       "source": "new",
       "entry_price": 0.0006523,
-      "peak_price": 0.0006523,
-      "trailing_active": false,
+      "peak_price": 0.0007541,
+      "trailing_active": true,
       "entry_time": "2026-09-30T20:11:13.573790+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "TANK",
-      "chain": "robinhood",
-      "address": "0x80AE70cFcB6725ea7F5Ace439EB3E56518131299",
-      "source": "new",
-      "entry_price": 0.0003263,
-      "peak_price": 0.0003263,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T20:11:15.637416+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.61,
+      "peak_volume_m5": 339453.17,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -225078,6 +225070,25 @@
       "exit_price": 9.064e-05,
       "exit_pct": -25.4,
       "exit_time": "2026-09-30T20:02:48.558230+00:00"
+    },
+    {
+      "symbol": "TANK",
+      "chain": "robinhood",
+      "address": "0x80AE70cFcB6725ea7F5Ace439EB3E56518131299",
+      "source": "new",
+      "entry_price": 0.0003263,
+      "peak_price": 0.0003263,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T20:11:15.637416+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.34,
+      "peak_volume_m5": 9175.78,
+      "milestones_hit": [],
+      "exit_price": 0.0002991,
+      "exit_pct": -8.34,
+      "exit_time": "2026-09-30T20:12:45.914721+00:00"
     }
   ],
   "alerted": {
@@ -236483,6 +236494,7 @@
     "68T1FYp5iTudTRue6dUxnxdrm98DmXe5AiCXM5jDpump": "2026-09-30T19:32:48.623008+00:00",
     "0xC4F1255878Ff23166cd044Af8e5F9BdD4b51BBE5": "2026-09-30T19:45:12.856126+00:00",
     "F2uBk88FYE1qn9dGT2TfWMjRXPdB7zjkyRRcMFXFpump": "2026-09-30T20:02:47.876237+00:00",
-    "3MPnePgPguPF2cNjtGdHeNofSkg9Kn7Pn2vt6kr6pump": "2026-09-30T20:02:48.558230+00:00"
+    "3MPnePgPguPF2cNjtGdHeNofSkg9Kn7Pn2vt6kr6pump": "2026-09-30T20:02:48.558230+00:00",
+    "0x80AE70cFcB6725ea7F5Ace439EB3E56518131299": "2026-09-30T20:12:45.914721+00:00"
   }
 }
