@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Chudlon",
-      "chain": "robinhood",
-      "address": "0x25E2f8038688Cc51aA010819B1bb5ceBeE6be2Ea",
-      "source": "new",
-      "entry_price": 0.0003245,
-      "peak_price": 0.0003245,
-      "trailing_active": false,
-      "entry_time": "2026-09-30T03:21:14.129653+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "sendor",
       "chain": "solana",
       "address": "3b5fTE5NyvCtMgKcDkvt4vUW2KDc7mgUSW8a8XYVpump",
       "source": "new",
       "entry_price": 0.0001038,
-      "peak_price": 0.0001038,
-      "trailing_active": false,
+      "peak_price": 0.0001237,
+      "trailing_active": true,
       "entry_time": "2026-09-30T03:21:16.160102+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.17,
+      "peak_volume_m5": 99565.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -223533,6 +223525,25 @@
       "exit_price": 0.000183,
       "exit_pct": -9.54,
       "exit_time": "2026-09-30T03:10:22.657147+00:00"
+    },
+    {
+      "symbol": "Chudlon",
+      "chain": "robinhood",
+      "address": "0x25E2f8038688Cc51aA010819B1bb5ceBeE6be2Ea",
+      "source": "new",
+      "entry_price": 0.0003245,
+      "peak_price": 0.0003245,
+      "trailing_active": false,
+      "entry_time": "2026-09-30T03:21:14.129653+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.81,
+      "peak_volume_m5": 61900.11,
+      "milestones_hit": [],
+      "exit_price": 0.0002959,
+      "exit_pct": -8.81,
+      "exit_time": "2026-09-30T03:22:20.225390+00:00"
     }
   ],
   "alerted": {
@@ -234859,6 +234870,7 @@
     "Agr56DXmmYX7wHcqvSGJweXFrSwGv3d6wbjmVqkxpump": "2026-09-30T03:03:00.418657+00:00",
     "0x1c1C1531126754114F1B4eb461088b1BDB3Dc7e8": "2026-09-30T03:03:57.748155+00:00",
     "GjxNDXzZ4XYbufcozyPAn8bAtRiwSf16c5zZrjydpump": "2026-09-30T03:03:58.434846+00:00",
-    "0x6b5494207Fa8fEc1a1311F4225f91B9bF6A97777": "2026-09-30T03:10:22.657147+00:00"
+    "0x6b5494207Fa8fEc1a1311F4225f91B9bF6A97777": "2026-09-30T03:10:22.657147+00:00",
+    "0x25E2f8038688Cc51aA010819B1bb5ceBeE6be2Ea": "2026-09-30T03:22:20.225390+00:00"
   }
 }
