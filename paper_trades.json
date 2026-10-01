@@ -3,34 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "UPTOBER",
-      "chain": "robinhood",
-      "address": "0x381433a2C16CD92652F409922c910E35a73328F9",
-      "source": "new",
-      "entry_price": 0.001777,
-      "peak_price": 0.001818,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T16:31:09.237892+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.31,
-      "peak_volume_m5": 132303.81,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PPORT",
       "chain": "robinhood",
       "address": "0x52090044B98bacBA07693B464E11Cbdf69313351",
       "source": "new",
       "entry_price": 3.441e-06,
-      "peak_price": 3.673e-06,
-      "trailing_active": false,
+      "peak_price": 3.98e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-01T16:31:12.373377+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.74,
+      "current_pct": 15.66,
       "peak_volume_m5": 162344.6,
       "milestones_hit": []
     }
@@ -227070,6 +227054,25 @@
       "exit_price": 0.0001506,
       "exit_pct": -29.43,
       "exit_time": "2026-10-01T16:32:59.359538+00:00"
+    },
+    {
+      "symbol": "UPTOBER",
+      "chain": "robinhood",
+      "address": "0x381433a2C16CD92652F409922c910E35a73328F9",
+      "source": "new",
+      "entry_price": 0.001777,
+      "peak_price": 0.001818,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T16:31:09.237892+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.72,
+      "peak_volume_m5": 136635.82,
+      "milestones_hit": [],
+      "exit_price": 0.001551,
+      "exit_pct": -12.72,
+      "exit_time": "2026-10-01T16:33:55.967216+00:00"
     }
   ],
   "alerted": {
@@ -238576,6 +238579,7 @@
     "0x168a0935fa187ddd75473a469282b7b8461aa99e": "2026-10-01T15:42:33.542957+00:00",
     "0x7859dfc99F4DB48e1AECD8CB1a42f1Ba0b0a7012": "2026-10-01T15:59:50.912371+00:00",
     "0xe4AAdF624B3a2c44D80Dc220832C9c998d39C18F": "2026-10-01T16:22:44.772162+00:00",
-    "3FcmxeuaDPNX5JsRD1VS769ijvCE1QWRXyqsioMNpump": "2026-10-01T16:32:59.359538+00:00"
+    "3FcmxeuaDPNX5JsRD1VS769ijvCE1QWRXyqsioMNpump": "2026-10-01T16:32:59.359538+00:00",
+    "0x381433a2C16CD92652F409922c910E35a73328F9": "2026-10-01T16:33:55.967216+00:00"
   }
 }
