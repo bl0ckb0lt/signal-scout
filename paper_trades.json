@@ -8,23 +8,15 @@
       "address": "0x60042b65A0c0a90ba75D17879850b6F99d9422eB",
       "source": "boost",
       "entry_price": 0.004468,
-      "peak_price": 0.004468,
+      "peak_price": 0.004621,
       "trailing_active": false,
       "entry_time": "2026-10-01T06:01:08.685387+00:00",
       "score": 88,
-      "status": "open"
-    },
-    {
-      "symbol": "DOTSCI",
-      "chain": "robinhood",
-      "address": "0x9fac24b56b6c2bfa4fffc97063efbb477689fac7",
-      "source": "new",
-      "entry_price": 0.0001196,
-      "peak_price": 0.0001196,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T06:01:13.373668+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.42,
+      "peak_volume_m5": 106558.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -226315,6 +226307,25 @@
       "exit_price": 0.0001204,
       "exit_pct": -22.52,
       "exit_time": "2026-10-01T05:54:56.652289+00:00"
+    },
+    {
+      "symbol": "DOTSCI",
+      "chain": "robinhood",
+      "address": "0x9fac24b56b6c2bfa4fffc97063efbb477689fac7",
+      "source": "new",
+      "entry_price": 0.0001196,
+      "peak_price": 0.0001196,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T06:01:13.373668+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -32.09,
+      "peak_volume_m5": 64307.67,
+      "milestones_hit": [],
+      "exit_price": 8.122e-05,
+      "exit_pct": -32.09,
+      "exit_time": "2026-10-01T06:02:50.176658+00:00"
     }
   ],
   "alerted": {
@@ -237784,6 +237795,7 @@
     "DG295PR2jjyHoAb1gkWbejror5CBVFp7g89827SKpump": "2026-10-01T05:20:10.437244+00:00",
     "Fs4p664NY13ZXARqXPheBYVnopBjX3398Pz3tk5npump": "2026-10-01T05:42:34.132510+00:00",
     "0x60c80DD1Fd33dE89fa59605085f45F1DBf643649": "2026-10-01T05:53:03.835559+00:00",
-    "0xc00899951d84ee5afb1bf22df1d91d5206457d86": "2026-10-01T05:54:56.652289+00:00"
+    "0xc00899951d84ee5afb1bf22df1d91d5206457d86": "2026-10-01T05:54:56.652289+00:00",
+    "0x9fac24b56b6c2bfa4fffc97063efbb477689fac7": "2026-10-01T06:02:50.176658+00:00"
   }
 }
