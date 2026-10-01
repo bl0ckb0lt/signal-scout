@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NUVI",
-      "chain": "robinhood",
-      "address": "0x60c80DD1Fd33dE89fa59605085f45F1DBf643649",
-      "source": "new",
-      "entry_price": 0.00018,
-      "peak_price": 0.00018,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T05:50:57.639191+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "ZIP",
       "chain": "robinhood",
       "address": "0xc00899951d84ee5afb1bf22df1d91d5206457d86",
       "source": "new",
       "entry_price": 0.0001554,
-      "peak_price": 0.0001554,
+      "peak_price": 0.0001571,
       "trailing_active": false,
       "entry_time": "2026-10-01T05:50:59.110002+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.09,
+      "peak_volume_m5": 178870.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -226277,6 +226269,25 @@
       "exit_price": 0.0001928,
       "exit_pct": 74.01,
       "exit_time": "2026-10-01T05:42:34.132510+00:00"
+    },
+    {
+      "symbol": "NUVI",
+      "chain": "robinhood",
+      "address": "0x60c80DD1Fd33dE89fa59605085f45F1DBf643649",
+      "source": "new",
+      "entry_price": 0.00018,
+      "peak_price": 0.00018,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T05:50:57.639191+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.28,
+      "peak_volume_m5": 82905.73,
+      "milestones_hit": [],
+      "exit_price": 0.0001615,
+      "exit_pct": -10.28,
+      "exit_time": "2026-10-01T05:53:03.835559+00:00"
     }
   ],
   "alerted": {
@@ -237744,6 +237755,7 @@
     "EEGtwsf5wLWDG4THEu4TdFKTTRpsEoxArWZsetWZpump": "2026-10-01T04:15:53.565608+00:00",
     "CuP5Ng85HiCdHiKnc9pKe9MVEVkJDHmMsyEvbXHopump": "2026-10-01T05:02:50.291227+00:00",
     "DG295PR2jjyHoAb1gkWbejror5CBVFp7g89827SKpump": "2026-10-01T05:20:10.437244+00:00",
-    "Fs4p664NY13ZXARqXPheBYVnopBjX3398Pz3tk5npump": "2026-10-01T05:42:34.132510+00:00"
+    "Fs4p664NY13ZXARqXPheBYVnopBjX3398Pz3tk5npump": "2026-10-01T05:42:34.132510+00:00",
+    "0x60c80DD1Fd33dE89fa59605085f45F1DBf643649": "2026-10-01T05:53:03.835559+00:00"
   }
 }
