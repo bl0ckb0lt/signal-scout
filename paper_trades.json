@@ -3,46 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BTC",
-      "chain": "solana",
-      "address": "8ypYfW5cjafrfAZij8TZj5SFHAbPNpiRio96LMzypDkn",
-      "source": "new",
-      "entry_price": 0.000108,
-      "peak_price": 0.0001943,
-      "trailing_active": true,
-      "entry_time": "2026-10-01T14:21:19.231399+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 79.91,
-      "peak_volume_m5": 63918.34,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "VGOOS",
       "chain": "robinhood",
       "address": "0xB90D6Eb179Df3A728BeB8BF27A0d9712656C8984",
       "source": "new",
       "entry_price": 8.119e-07,
-      "peak_price": 8.119e-07,
+      "peak_price": 8.504e-07,
       "trailing_active": false,
       "entry_time": "2026-10-01T14:31:01.073510+00:00",
       "score": 67,
-      "status": "open"
-    },
-    {
-      "symbol": "Jane",
-      "chain": "robinhood",
-      "address": "0x4aA041174E6781aB8c5B483A4eD9d18083cDde0C",
-      "source": "new",
-      "entry_price": 0.0002289,
-      "peak_price": 0.0002289,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T14:31:02.475174+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.74,
+      "peak_volume_m5": 32960.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -226857,6 +226831,46 @@
       "exit_price": 0.001348,
       "exit_pct": 103.07,
       "exit_time": "2026-10-01T14:22:58.139912+00:00"
+    },
+    {
+      "symbol": "BTC",
+      "chain": "solana",
+      "address": "8ypYfW5cjafrfAZij8TZj5SFHAbPNpiRio96LMzypDkn",
+      "source": "new",
+      "entry_price": 0.000108,
+      "peak_price": 0.0001943,
+      "trailing_active": true,
+      "entry_time": "2026-10-01T14:21:19.231399+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 67.22,
+      "peak_volume_m5": 63918.34,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001806,
+      "exit_pct": 67.22,
+      "exit_time": "2026-10-01T14:31:44.556456+00:00"
+    },
+    {
+      "symbol": "Jane",
+      "chain": "robinhood",
+      "address": "0x4aA041174E6781aB8c5B483A4eD9d18083cDde0C",
+      "source": "new",
+      "entry_price": 0.0002289,
+      "peak_price": 0.0002289,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T14:31:02.475174+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.01,
+      "peak_volume_m5": 57655.41,
+      "milestones_hit": [],
+      "exit_price": 0.0002037,
+      "exit_pct": -11.01,
+      "exit_time": "2026-10-01T14:31:45.725369+00:00"
     }
   ],
   "alerted": {
@@ -238352,6 +238366,8 @@
     "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm": "2026-10-01T13:31:52.776456+00:00",
     "5Heq1xjFjuNBuAEAEhbUChgM2Q6AaTTNmVEDVqEpump": "2026-10-01T13:54:28.886275+00:00",
     "0x34437D9D5D8537BA43f4711f41DDC34977378314": "2026-10-01T13:58:00.875379+00:00",
-    "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": "2026-10-01T14:22:58.139912+00:00"
+    "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": "2026-10-01T14:22:58.139912+00:00",
+    "8ypYfW5cjafrfAZij8TZj5SFHAbPNpiRio96LMzypDkn": "2026-10-01T14:31:44.556456+00:00",
+    "0x4aA041174E6781aB8c5B483A4eD9d18083cDde0C": "2026-10-01T14:31:45.725369+00:00"
   }
 }
