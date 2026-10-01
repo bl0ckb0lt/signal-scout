@@ -30,24 +30,12 @@
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 129.02,
-      "peak_volume_m5": 36802.17,
+      "current_pct": 117.67,
+      "peak_volume_m5": 39400.37,
       "milestones_hit": [
         50,
         100
       ]
-    },
-    {
-      "symbol": "DEGEN",
-      "chain": "solana",
-      "address": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
-      "source": "boost",
-      "entry_price": 0.001017,
-      "peak_price": 0.001017,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T02:31:04.129395+00:00",
-      "score": 93,
-      "status": "open"
     },
     {
       "symbol": "TRUMPCARD",
@@ -59,19 +47,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-01T02:31:08.262153+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "MICRO",
-      "chain": "robinhood",
-      "address": "0x77E187005D6b5eb6AaC43bf1d0BFAbbcd87A2aFd",
-      "source": "new",
-      "entry_price": 0.000187,
-      "peak_price": 0.000187,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T02:31:09.752088+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -8.67,
+      "peak_volume_m5": 71487.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -225913,6 +225893,44 @@
       "exit_price": 8.963e-05,
       "exit_pct": -9.0,
       "exit_time": "2026-10-01T02:18:39.732648+00:00"
+    },
+    {
+      "symbol": "DEGEN",
+      "chain": "solana",
+      "address": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
+      "source": "boost",
+      "entry_price": 0.001017,
+      "peak_price": 0.001017,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T02:31:04.129395+00:00",
+      "score": 93,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.23,
+      "peak_volume_m5": 198364.33,
+      "milestones_hit": [],
+      "exit_price": 0.0007096,
+      "exit_pct": -30.23,
+      "exit_time": "2026-10-01T02:32:35.749159+00:00"
+    },
+    {
+      "symbol": "MICRO",
+      "chain": "robinhood",
+      "address": "0x77E187005D6b5eb6AaC43bf1d0BFAbbcd87A2aFd",
+      "source": "new",
+      "entry_price": 0.000187,
+      "peak_price": 0.000187,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T02:31:09.752088+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.73,
+      "peak_volume_m5": 31794.36,
+      "milestones_hit": [],
+      "exit_price": 0.0001632,
+      "exit_pct": -12.73,
+      "exit_time": "2026-10-01T02:32:36.903767+00:00"
     }
   ],
   "alerted": {
@@ -237359,6 +237377,8 @@
     "0x60042b65A0c0a90ba75D17879850b6F99d9422eB": "2026-10-01T01:25:27.220006+00:00",
     "0x2676E32387FcC76247bDba5b3f09A6e91129b852": "2026-10-01T01:32:28.437250+00:00",
     "0xafFD479AdCdff471F93482D0c9279A8b893BF16F": "2026-10-01T02:18:38.913173+00:00",
-    "AzDHbuhbJfUaX7tzcHXFjgk8EvSdUmWMEsr588fVpump": "2026-10-01T02:18:39.732648+00:00"
+    "AzDHbuhbJfUaX7tzcHXFjgk8EvSdUmWMEsr588fVpump": "2026-10-01T02:18:39.732648+00:00",
+    "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump": "2026-10-01T02:32:35.749159+00:00",
+    "0x77E187005D6b5eb6AaC43bf1d0BFAbbcd87A2aFd": "2026-10-01T02:32:36.903767+00:00"
   }
 }
