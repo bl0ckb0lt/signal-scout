@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SW",
-      "chain": "solana",
-      "address": "HpTHwN4Bqu9BCqJdGybKtSxSnRtsoLL8yZqZE6Q3pump",
-      "source": "new",
-      "entry_price": 0.0001856,
-      "peak_price": 0.0001856,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T00:21:09.017998+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "Collateral",
       "chain": "solana",
       "address": "8kVuY7Yir9NLaai9V73ZejscWdJ9q7aczidLtr38oL4r",
       "source": "new",
       "entry_price": 0.000405,
-      "peak_price": 0.000405,
-      "trailing_active": false,
+      "peak_price": 0.0006014,
+      "trailing_active": true,
       "entry_time": "2026-10-01T00:21:10.673450+00:00",
       "score": 75,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 48.49,
+      "peak_volume_m5": 542145.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -225663,6 +225655,25 @@
       "exit_price": 0.000192,
       "exit_pct": -33.47,
       "exit_time": "2026-10-01T00:03:24.343238+00:00"
+    },
+    {
+      "symbol": "SW",
+      "chain": "solana",
+      "address": "HpTHwN4Bqu9BCqJdGybKtSxSnRtsoLL8yZqZE6Q3pump",
+      "source": "new",
+      "entry_price": 0.0001856,
+      "peak_price": 0.0001856,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T00:21:09.017998+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.03,
+      "peak_volume_m5": 306566.35,
+      "milestones_hit": [],
+      "exit_price": 0.000141,
+      "exit_pct": -24.03,
+      "exit_time": "2026-10-01T00:25:23.281777+00:00"
     }
   ],
   "alerted": {
@@ -237098,6 +237109,7 @@
     "DvNcJZTiSMD1RBCtZ2J31mh7s42CVCwrzGapv1Lypump": "2026-10-01T00:00:03.988902+00:00",
     "AcgB3riCTGBzQ626TRmEm1f6ikeFvxi4mL36piDXV6ug": "2026-10-01T00:02:22.573588+00:00",
     "0x462AF581b8f5221313DFA57a95604660c992cb47": "2026-10-01T00:02:23.378382+00:00",
-    "AqYdSQ6oFq8HjLoFkvHW6kYcRM1p94Q1FcvGFxDfpump": "2026-10-01T00:03:24.343238+00:00"
+    "AqYdSQ6oFq8HjLoFkvHW6kYcRM1p94Q1FcvGFxDfpump": "2026-10-01T00:03:24.343238+00:00",
+    "HpTHwN4Bqu9BCqJdGybKtSxSnRtsoLL8yZqZE6Q3pump": "2026-10-01T00:25:23.281777+00:00"
   }
 }
