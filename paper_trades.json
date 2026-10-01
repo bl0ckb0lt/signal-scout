@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Jane",
-      "chain": "solana",
-      "address": "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr",
-      "source": "new",
-      "entry_price": 0.0006638,
-      "peak_price": 0.001388,
-      "trailing_active": true,
-      "entry_time": "2026-10-01T14:00:57.755381+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 109.1,
-      "peak_volume_m5": 320004.05,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "BTC",
       "chain": "solana",
       "address": "8ypYfW5cjafrfAZij8TZj5SFHAbPNpiRio96LMzypDkn",
       "source": "new",
       "entry_price": 0.000108,
-      "peak_price": 0.000108,
+      "peak_price": 0.0001236,
       "trailing_active": false,
       "entry_time": "2026-10-01T14:21:19.231399+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.44,
+      "peak_volume_m5": 28127.61,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -226824,6 +226809,28 @@
       "exit_price": 0.0001985,
       "exit_pct": 49.14,
       "exit_time": "2026-10-01T13:58:00.875379+00:00"
+    },
+    {
+      "symbol": "Jane",
+      "chain": "solana",
+      "address": "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr",
+      "source": "new",
+      "entry_price": 0.0006638,
+      "peak_price": 0.001388,
+      "trailing_active": true,
+      "entry_time": "2026-10-01T14:00:57.755381+00:00",
+      "score": 80,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 103.07,
+      "peak_volume_m5": 320004.05,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.001348,
+      "exit_pct": 103.07,
+      "exit_time": "2026-10-01T14:22:58.139912+00:00"
     }
   ],
   "alerted": {
@@ -238318,6 +238325,7 @@
     "Hz7tSNDe7UGHTy2ZZFBpubQv1ubWnekB57zcBT5upump": "2026-10-01T12:46:58.102734+00:00",
     "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm": "2026-10-01T13:31:52.776456+00:00",
     "5Heq1xjFjuNBuAEAEhbUChgM2Q6AaTTNmVEDVqEpump": "2026-10-01T13:54:28.886275+00:00",
-    "0x34437D9D5D8537BA43f4711f41DDC34977378314": "2026-10-01T13:58:00.875379+00:00"
+    "0x34437D9D5D8537BA43f4711f41DDC34977378314": "2026-10-01T13:58:00.875379+00:00",
+    "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": "2026-10-01T14:22:58.139912+00:00"
   }
 }
