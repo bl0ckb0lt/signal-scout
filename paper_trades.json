@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TRUMP",
-      "chain": "solana",
-      "address": "f9t9ZtbmonrKiJP1GECP2HZoFM3sQrpPzs2pAqfpump",
-      "source": "new",
-      "entry_price": 0.000101,
-      "peak_price": 0.0001659,
-      "trailing_active": true,
-      "entry_time": "2026-10-01T21:31:02.765489+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 64.26,
-      "peak_volume_m5": 29830.22,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "DOMAIN",
       "chain": "robinhood",
       "address": "0xc5698Cf0F84a33784D131Eff9030AAB9340B2243",
       "source": "new",
       "entry_price": 0.0001363,
-      "peak_price": 0.0001363,
+      "peak_price": 0.0001535,
       "trailing_active": false,
       "entry_time": "2026-10-01T21:41:11.471050+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.62,
+      "peak_volume_m5": 27651.17,
+      "milestones_hit": []
     },
     {
       "symbol": "ZKAPI",
@@ -38,11 +24,17 @@
       "address": "0x30F4acBa5BF8eCFFDf757bbF212c111A4f398B7B",
       "source": "new",
       "entry_price": 0.0002762,
-      "peak_price": 0.0002762,
-      "trailing_active": false,
+      "peak_price": 0.0005343,
+      "trailing_active": true,
       "entry_time": "2026-10-01T21:41:13.684146+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 93.45,
+      "peak_volume_m5": 33070.45,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "LOT",
@@ -50,11 +42,15 @@
       "address": "Lot1LUgNbsEvUeteU4onXQvHYRXzqJMCvHGWvvnY1nh",
       "source": "new",
       "entry_price": 9.363e-05,
-      "peak_price": 9.363e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001167,
+      "trailing_active": true,
       "entry_time": "2026-10-01T21:41:17.197550+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.64,
+      "peak_volume_m5": 91585.88,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -227799,6 +227795,27 @@
       "exit_price": 0.002371,
       "exit_pct": -20.52,
       "exit_time": "2026-10-01T21:27:54.912410+00:00"
+    },
+    {
+      "symbol": "TRUMP",
+      "chain": "solana",
+      "address": "f9t9ZtbmonrKiJP1GECP2HZoFM3sQrpPzs2pAqfpump",
+      "source": "new",
+      "entry_price": 0.000101,
+      "peak_price": 0.0001659,
+      "trailing_active": true,
+      "entry_time": "2026-10-01T21:31:02.765489+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 55.64,
+      "peak_volume_m5": 58525.76,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001572,
+      "exit_pct": 55.64,
+      "exit_time": "2026-10-01T21:45:08.976653+00:00"
     }
   ],
   "alerted": {
@@ -239341,6 +239358,7 @@
     "2pa1wG5eV8GZeUreS1kau7Hxjupm2miVKW9TieYkEPum": "2026-10-01T20:52:46.485889+00:00",
     "AFdP6pnJwj2mwfeji6rR2bA9pz1AVV96u1R194dLJwKK": "2026-10-01T20:58:07.266224+00:00",
     "6S52SsUWA6gwXMVx36weTFwZdNdMEu3pCthR2EWUpump": "2026-10-01T21:03:21.195599+00:00",
-    "0x259ef425b0f623a885Ce5470dd3f3bCec41Ce224": "2026-10-01T21:27:54.912410+00:00"
+    "0x259ef425b0f623a885Ce5470dd3f3bCec41Ce224": "2026-10-01T21:27:54.912410+00:00",
+    "f9t9ZtbmonrKiJP1GECP2HZoFM3sQrpPzs2pAqfpump": "2026-10-01T21:45:08.976653+00:00"
   }
 }
