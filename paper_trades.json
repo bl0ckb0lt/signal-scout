@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ONLYSUPER",
-      "chain": "solana",
-      "address": "EKt2EQsweb2zN3ie8iz6JrD6frKwpbCU4ja8P3Vgpump",
-      "source": "new",
-      "entry_price": 0.0001839,
-      "peak_price": 0.0001839,
-      "trailing_active": false,
-      "entry_time": "2026-10-01T00:41:05.941917+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "Pongpong",
       "chain": "solana",
       "address": "5sD8hmitvDkDxbAjZF4CrX1NX8eA5Cwn8kK67tp9DevH",
       "source": "new",
       "entry_price": 0.0001833,
-      "peak_price": 0.0001833,
+      "peak_price": 0.0001841,
       "trailing_active": false,
       "entry_time": "2026-10-01T00:41:08.910580+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.44,
+      "peak_volume_m5": 78271.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -225701,6 +225693,25 @@
       "exit_price": 0.0005036,
       "exit_pct": 24.35,
       "exit_time": "2026-10-01T00:28:12.053613+00:00"
+    },
+    {
+      "symbol": "ONLYSUPER",
+      "chain": "solana",
+      "address": "EKt2EQsweb2zN3ie8iz6JrD6frKwpbCU4ja8P3Vgpump",
+      "source": "new",
+      "entry_price": 0.0001839,
+      "peak_price": 0.0001839,
+      "trailing_active": false,
+      "entry_time": "2026-10-01T00:41:05.941917+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.89,
+      "peak_volume_m5": 37579.87,
+      "milestones_hit": [],
+      "exit_price": 0.000151,
+      "exit_pct": -17.89,
+      "exit_time": "2026-10-01T00:43:30.217710+00:00"
     }
   ],
   "alerted": {
@@ -237138,6 +237149,7 @@
     "0x462AF581b8f5221313DFA57a95604660c992cb47": "2026-10-01T00:02:23.378382+00:00",
     "AqYdSQ6oFq8HjLoFkvHW6kYcRM1p94Q1FcvGFxDfpump": "2026-10-01T00:03:24.343238+00:00",
     "HpTHwN4Bqu9BCqJdGybKtSxSnRtsoLL8yZqZE6Q3pump": "2026-10-01T00:25:23.281777+00:00",
-    "8kVuY7Yir9NLaai9V73ZejscWdJ9q7aczidLtr38oL4r": "2026-10-01T00:28:12.053613+00:00"
+    "8kVuY7Yir9NLaai9V73ZejscWdJ9q7aczidLtr38oL4r": "2026-10-01T00:28:12.053613+00:00",
+    "EKt2EQsweb2zN3ie8iz6JrD6frKwpbCU4ja8P3Vgpump": "2026-10-01T00:43:30.217710+00:00"
   }
 }
