@@ -14,21 +14,9 @@
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 20.87,
+      "current_pct": 17.42,
       "peak_volume_m5": 15537.38,
       "milestones_hit": []
-    },
-    {
-      "symbol": "blofomo",
-      "chain": "solana",
-      "address": "9NHLQy5gSKYejNxQ4waZJrxSFTKz9n97nGggyNMCpump",
-      "source": "new",
-      "entry_price": 0.0005743,
-      "peak_price": 0.0005743,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T01:41:00.861836+00:00",
-      "score": 87,
-      "status": "open"
     },
     {
       "symbol": "CPU",
@@ -36,23 +24,18 @@
       "address": "HiXtMgXnMxUneKbgo9qnZ8GAfPetBo8FreHuy5uvpump",
       "source": "new",
       "entry_price": 0.0001597,
-      "peak_price": 0.0001597,
-      "trailing_active": false,
+      "peak_price": 0.000326,
+      "trailing_active": true,
       "entry_time": "2026-10-02T01:41:02.635123+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "VEIL",
-      "chain": "robinhood",
-      "address": "0x951FE06f8059F2A9073Fa5d22c775787FdA3eD5D",
-      "source": "new",
-      "entry_price": 0.001433,
-      "peak_price": 0.001433,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T01:41:04.039774+00:00",
-      "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 104.13,
+      "peak_volume_m5": 173297.05,
+      "milestones_hit": [
+        50,
+        100
+      ]
     },
     {
       "symbol": "MEME500",
@@ -60,11 +43,17 @@
       "address": "J9SjRyY24ZNPgbQUQYQSv43i2QgVrNYek4scbFgSpump",
       "source": "new",
       "entry_price": 0.0001024,
-      "peak_price": 0.0001024,
-      "trailing_active": false,
+      "peak_price": 0.0001729,
+      "trailing_active": true,
       "entry_time": "2026-10-02T01:41:05.828692+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 68.85,
+      "peak_volume_m5": 110636.31,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -228262,6 +228251,44 @@
       "exit_price": 0.0004363,
       "exit_pct": 102.55,
       "exit_time": "2026-10-02T01:23:36.148962+00:00"
+    },
+    {
+      "symbol": "blofomo",
+      "chain": "solana",
+      "address": "9NHLQy5gSKYejNxQ4waZJrxSFTKz9n97nGggyNMCpump",
+      "source": "new",
+      "entry_price": 0.0005743,
+      "peak_price": 0.0005743,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T01:41:00.861836+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -39.72,
+      "peak_volume_m5": 720753.59,
+      "milestones_hit": [],
+      "exit_price": 0.0003462,
+      "exit_pct": -39.72,
+      "exit_time": "2026-10-02T01:42:37.134438+00:00"
+    },
+    {
+      "symbol": "VEIL",
+      "chain": "robinhood",
+      "address": "0x951FE06f8059F2A9073Fa5d22c775787FdA3eD5D",
+      "source": "new",
+      "entry_price": 0.001433,
+      "peak_price": 0.001433,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T01:41:04.039774+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -27.08,
+      "peak_volume_m5": 40994.61,
+      "milestones_hit": [],
+      "exit_price": 0.001045,
+      "exit_pct": -27.08,
+      "exit_time": "2026-10-02T01:42:39.617248+00:00"
     }
   ],
   "alerted": {
@@ -239826,6 +239853,8 @@
     "0x9E9dF3ffED68dc7b4DDcf12233f38d4f235c7725": "2026-10-02T00:39:31.096640+00:00",
     "0x8B9D0FB6D61f79Ba791670148C6eF3F060B5C58C": "2026-10-02T00:42:11.741026+00:00",
     "78xtnjdMfNVEfteF1eUopB4ZyKA1cmTE4dH7aQVHGoon": "2026-10-02T00:51:54.533554+00:00",
-    "AZ9NHodnyb6wPYian1Fd9HF1mfvPNkJEecExVT1Sevjg": "2026-10-02T01:23:36.148962+00:00"
+    "AZ9NHodnyb6wPYian1Fd9HF1mfvPNkJEecExVT1Sevjg": "2026-10-02T01:23:36.148962+00:00",
+    "9NHLQy5gSKYejNxQ4waZJrxSFTKz9n97nGggyNMCpump": "2026-10-02T01:42:37.134438+00:00",
+    "0x951FE06f8059F2A9073Fa5d22c775787FdA3eD5D": "2026-10-02T01:42:39.617248+00:00"
   }
 }
