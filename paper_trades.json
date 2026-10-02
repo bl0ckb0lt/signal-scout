@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BTC",
-      "chain": "solana",
-      "address": "yDp9dCy1UrRTuwv4urMgkSUHNpw76UvyZHXLmPrpump",
-      "source": "new",
-      "entry_price": 0.0002429,
-      "peak_price": 0.0005887,
-      "trailing_active": true,
-      "entry_time": "2026-10-02T18:41:13.162066+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 142.36,
-      "peak_volume_m5": 134348.8,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "RCAP",
       "chain": "robinhood",
       "address": "0x0Cb329075D2E8373e7397560D7746F9Cc84f3D7e",
       "source": "new",
       "entry_price": 3.458e-06,
-      "peak_price": 3.458e-06,
-      "trailing_active": false,
+      "peak_price": 4.092e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-02T18:51:12.930449+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.33,
+      "peak_volume_m5": 280974.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -229930,6 +229915,28 @@
       "exit_price": 0.0004398,
       "exit_pct": 70.66,
       "exit_time": "2026-10-02T18:45:05.395127+00:00"
+    },
+    {
+      "symbol": "BTC",
+      "chain": "solana",
+      "address": "yDp9dCy1UrRTuwv4urMgkSUHNpw76UvyZHXLmPrpump",
+      "source": "new",
+      "entry_price": 0.0002429,
+      "peak_price": 0.0005887,
+      "trailing_active": true,
+      "entry_time": "2026-10-02T18:41:13.162066+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 25.69,
+      "peak_volume_m5": 167323.37,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0003053,
+      "exit_pct": 25.69,
+      "exit_time": "2026-10-02T18:52:24.831520+00:00"
     }
   ],
   "alerted": {
@@ -241579,6 +241586,7 @@
     "6DrVZ746mG3ccccVLpX4ZdCjnVZt5LNzrZJ4GeAhpump": "2026-10-02T18:21:59.209545+00:00",
     "C2bj2HbEsnv7bSqQe2bQ7uGrf7MHXNN4cSmEVRMQpump": "2026-10-02T18:22:54.942705+00:00",
     "9ZhBWrsVTgdWsM31EP9nBEvw3KXEE4qL4Aq2FFZrhLxX": "2026-10-02T18:32:18.667322+00:00",
-    "5R1XNfbLqGDe7vzrNLKMqM7zyWmd2Savrt3QfGyGpump": "2026-10-02T18:45:05.395127+00:00"
+    "5R1XNfbLqGDe7vzrNLKMqM7zyWmd2Savrt3QfGyGpump": "2026-10-02T18:45:05.395127+00:00",
+    "yDp9dCy1UrRTuwv4urMgkSUHNpw76UvyZHXLmPrpump": "2026-10-02T18:52:24.831520+00:00"
   }
 }
