@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Zscribe",
-      "chain": "bsc",
-      "address": "0x5b0A884d5965d9592859A197565c54406CF77777",
-      "source": "boost",
-      "entry_price": 0.0001197,
-      "peak_price": 0.0001823,
-      "trailing_active": true,
-      "entry_time": "2026-10-02T13:31:05.997811+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 52.3,
-      "peak_volume_m5": 68492.61,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "SWEENSTEIN",
       "chain": "robinhood",
       "address": "0x78cacD3C152621657a01d036a27bd47d5D3071a1",
@@ -32,7 +14,7 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 23.31,
+      "current_pct": 23.25,
       "peak_volume_m5": 32944.82,
       "milestones_hit": []
     },
@@ -42,11 +24,15 @@
       "address": "DNSnAA99jrVUCg4GvL6LEVfFHBnGpnWA2k3CkRvZpump",
       "source": "new",
       "entry_price": 0.0001632,
-      "peak_price": 0.0001632,
+      "peak_price": 0.0001668,
       "trailing_active": false,
       "entry_time": "2026-10-02T13:41:05.958450+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.21,
+      "peak_volume_m5": 59404.42,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -229270,6 +229256,27 @@
       "exit_price": 0.0001,
       "exit_pct": 26.2,
       "exit_time": "2026-10-02T13:23:00.899919+00:00"
+    },
+    {
+      "symbol": "Zscribe",
+      "chain": "bsc",
+      "address": "0x5b0A884d5965d9592859A197565c54406CF77777",
+      "source": "boost",
+      "entry_price": 0.0001197,
+      "peak_price": 0.0001823,
+      "trailing_active": true,
+      "entry_time": "2026-10-02T13:31:05.997811+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 23.06,
+      "peak_volume_m5": 68492.61,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001473,
+      "exit_pct": 23.06,
+      "exit_time": "2026-10-02T13:42:51.144918+00:00"
     }
   ],
   "alerted": {
@@ -240885,6 +240892,7 @@
     "XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": "2026-10-02T12:13:00.465003+00:00",
     "0x8C832D2990FB1785c7375EfbC3bD382a869f3211": "2026-10-02T12:41:58.138569+00:00",
     "0xf0BE5A00FFd6831667c260450e8E3f0814cB93fB": "2026-10-02T13:12:34.125916+00:00",
-    "0xB200000000000000000000200E15EF3d42DB5a01": "2026-10-02T13:23:00.899919+00:00"
+    "0xB200000000000000000000200E15EF3d42DB5a01": "2026-10-02T13:23:00.899919+00:00",
+    "0x5b0A884d5965d9592859A197565c54406CF77777": "2026-10-02T13:42:51.144918+00:00"
   }
 }
