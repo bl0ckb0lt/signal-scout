@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FIAT",
-      "chain": "solana",
-      "address": "GcuTsrnz8TAhaM3v515iXBZtri1PbbZmwa92Et9nCW8W",
-      "source": "new",
-      "entry_price": 0.0001875,
-      "peak_price": 0.0002269,
-      "trailing_active": true,
-      "entry_time": "2026-10-02T22:40:54.547765+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.01,
-      "peak_volume_m5": 3030.67,
-      "milestones_hit": []
-    },
-    {
       "symbol": "POOPYBOT",
       "chain": "solana",
       "address": "5tV3Lfx8WNE63ZfCUWnBoFBwe8v6idUhuqg9ipDsDJyy",
       "source": "new",
       "entry_price": 0.0007981,
-      "peak_price": 0.0007981,
+      "peak_price": 0.0008963,
       "trailing_active": false,
       "entry_time": "2026-10-02T22:51:14.628952+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.3,
+      "peak_volume_m5": 98166.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -230516,6 +230504,25 @@
       "exit_price": 0.0001996,
       "exit_pct": -13.82,
       "exit_time": "2026-10-02T22:50:56.401834+00:00"
+    },
+    {
+      "symbol": "FIAT",
+      "chain": "solana",
+      "address": "GcuTsrnz8TAhaM3v515iXBZtri1PbbZmwa92Et9nCW8W",
+      "source": "new",
+      "entry_price": 0.0001875,
+      "peak_price": 0.000247,
+      "trailing_active": true,
+      "entry_time": "2026-10-02T22:40:54.547765+00:00",
+      "score": 63,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 31.73,
+      "peak_volume_m5": 3030.67,
+      "milestones_hit": [],
+      "exit_price": 0.000247,
+      "exit_pct": 31.73,
+      "exit_time": "2026-10-02T22:59:43.436893+00:00"
     }
   ],
   "alerted": {
@@ -242195,6 +242202,7 @@
     "29REVVLFoM2ERuSTt2p86zsn9q7CxTNuzHPw29dnpump": "2026-10-02T22:47:55.869470+00:00",
     "0x523bbB74CB0585b5F76B6Bea43b5a80686A2906a": "2026-10-02T22:48:38.946046+00:00",
     "6k1E2jVp6EaZYeurvJrXe4mdBoTjfgUKoLkh8CaWpump": "2026-10-02T22:49:34.624273+00:00",
-    "0xA9DdBD54F2CbF7dE7cE5CAefeD8Fd64B0007F836": "2026-10-02T22:50:56.401834+00:00"
+    "0xA9DdBD54F2CbF7dE7cE5CAefeD8Fd64B0007F836": "2026-10-02T22:50:56.401834+00:00",
+    "GcuTsrnz8TAhaM3v515iXBZtri1PbbZmwa92Et9nCW8W": "2026-10-02T22:59:43.436893+00:00"
   }
 }
