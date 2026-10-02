@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "C@T",
-      "chain": "solana",
-      "address": "FNsnA7sK9kSpBFqqsgNjACZ9aKo976Da2zzfNvYBpump",
-      "source": "new",
-      "entry_price": 0.0001585,
-      "peak_price": 0.0001585,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T20:21:09.858644+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "bag",
       "chain": "solana",
       "address": "5gJjJYGu25aQevcpsBgBFvLcCRfSPcvczcxvnqHDpump",
       "source": "new",
       "entry_price": 0.0001981,
-      "peak_price": 0.0001981,
+      "peak_price": 0.0002009,
       "trailing_active": false,
       "entry_time": "2026-10-02T20:21:13.511027+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "ORE",
-      "chain": "robinhood",
-      "address": "0x9161cdB8bD4C21375e85c3FE7a5cE74a6ba5Da06",
-      "source": "new",
-      "entry_price": 0.0004483,
-      "peak_price": 0.0004483,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T20:21:14.935008+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.41,
+      "peak_volume_m5": 356520.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -230132,6 +230112,44 @@
       "exit_price": 0.0004951,
       "exit_pct": 15.14,
       "exit_time": "2026-10-02T20:17:48.871735+00:00"
+    },
+    {
+      "symbol": "C@T",
+      "chain": "solana",
+      "address": "FNsnA7sK9kSpBFqqsgNjACZ9aKo976Da2zzfNvYBpump",
+      "source": "new",
+      "entry_price": 0.0001585,
+      "peak_price": 0.0001585,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T20:21:09.858644+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -45.35,
+      "peak_volume_m5": 28730.33,
+      "milestones_hit": [],
+      "exit_price": 8.662e-05,
+      "exit_pct": -45.35,
+      "exit_time": "2026-10-02T20:23:04.078792+00:00"
+    },
+    {
+      "symbol": "ORE",
+      "chain": "robinhood",
+      "address": "0x9161cdB8bD4C21375e85c3FE7a5cE74a6ba5Da06",
+      "source": "new",
+      "entry_price": 0.0004483,
+      "peak_price": 0.0004483,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T20:21:14.935008+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.03,
+      "peak_volume_m5": 14126.39,
+      "milestones_hit": [],
+      "exit_price": 0.0004078,
+      "exit_pct": -9.03,
+      "exit_time": "2026-10-02T20:23:05.228727+00:00"
     }
   ],
   "alerted": {
@@ -241791,6 +241809,8 @@
     "CJZaHX5RQbvKrRyMoUU9D3jyvXj8Yy7QLLmcKvoopump": "2026-10-02T19:47:08.458802+00:00",
     "HUzsazhQoEBooLPQktSoYTVcKKVSZ9AyhZPs3x93pump": "2026-10-02T20:06:03.050345+00:00",
     "0xAeadc7084BC3C482921A8ad7EADc65F70E06106D": "2026-10-02T20:11:00.757514+00:00",
-    "6ygHGHDunESzifPU2ZKt399XY199QxFJnHozwFYfpump": "2026-10-02T20:17:48.871735+00:00"
+    "6ygHGHDunESzifPU2ZKt399XY199QxFJnHozwFYfpump": "2026-10-02T20:17:48.871735+00:00",
+    "FNsnA7sK9kSpBFqqsgNjACZ9aKo976Da2zzfNvYBpump": "2026-10-02T20:23:04.078792+00:00",
+    "0x9161cdB8bD4C21375e85c3FE7a5cE74a6ba5Da06": "2026-10-02T20:23:05.228727+00:00"
   }
 }
