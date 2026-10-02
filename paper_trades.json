@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AI",
-      "chain": "solana",
-      "address": "HvRdz7YWW1ksGU9gAH4TzfHccjAoajXg2Rp4GXhsdMCS",
-      "source": "new",
-      "entry_price": 0.0001916,
-      "peak_price": 0.0001916,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T15:00:58.048436+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "CHOFF",
       "chain": "robinhood",
       "address": "0x7FA6d2B81743f90E544fC794396d90b12D81B2dC",
       "source": "new",
       "entry_price": 3.104e-06,
-      "peak_price": 3.104e-06,
+      "peak_price": 3.175e-06,
       "trailing_active": false,
       "entry_time": "2026-10-02T15:00:59.506211+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.29,
+      "peak_volume_m5": 161440.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -229421,6 +229413,25 @@
       "exit_price": 7.981e-05,
       "exit_pct": -26.71,
       "exit_time": "2026-10-02T14:54:01.541876+00:00"
+    },
+    {
+      "symbol": "AI",
+      "chain": "solana",
+      "address": "HvRdz7YWW1ksGU9gAH4TzfHccjAoajXg2Rp4GXhsdMCS",
+      "source": "new",
+      "entry_price": 0.0001916,
+      "peak_price": 0.0001916,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T15:00:58.048436+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.08,
+      "peak_volume_m5": 94969.33,
+      "milestones_hit": [],
+      "exit_price": 0.0001627,
+      "exit_pct": -15.08,
+      "exit_time": "2026-10-02T15:03:41.814775+00:00"
     }
   ],
   "alerted": {
@@ -241045,6 +241056,7 @@
     "0x960c5667732b4f54B69F653F1EDE44751de67777": "2026-10-02T14:21:57.244993+00:00",
     "0x000000De5c8fb9f731DA20747F41fDFf64C96dCf": "2026-10-02T14:53:00.992711+00:00",
     "HN1KjpxdrWKt3rzwAQ6dthvKcUoUtSk58AZb61Xipump": "2026-10-02T14:53:01.823574+00:00",
-    "0xEb5265b7B78693C276b0d3Bdc71468D961DA7777": "2026-10-02T14:54:01.541876+00:00"
+    "0xEb5265b7B78693C276b0d3Bdc71468D961DA7777": "2026-10-02T14:54:01.541876+00:00",
+    "HvRdz7YWW1ksGU9gAH4TzfHccjAoajXg2Rp4GXhsdMCS": "2026-10-02T15:03:41.814775+00:00"
   }
 }
