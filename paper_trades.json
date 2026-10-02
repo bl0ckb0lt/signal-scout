@@ -3,34 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ZKC",
-      "chain": "ethereum",
-      "address": "0x000000De5c8fb9f731DA20747F41fDFf64C96dCf",
-      "source": "new",
-      "entry_price": 0.0001692,
-      "peak_price": 0.0001692,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T14:41:04.694583+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.96,
-      "peak_volume_m5": 1689.28,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SUPPERINU",
-      "chain": "solana",
-      "address": "HN1KjpxdrWKt3rzwAQ6dthvKcUoUtSk58AZb61Xipump",
-      "source": "new",
-      "entry_price": 0.0002252,
-      "peak_price": 0.0002252,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T14:51:05.243035+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "GM",
       "chain": "bsc",
       "address": "0xEb5265b7B78693C276b0d3Bdc71468D961DA7777",
@@ -40,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-02T14:51:07.071967+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.18,
+      "peak_volume_m5": 50915.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -229380,6 +229356,44 @@
       "exit_price": 6.594e-05,
       "exit_pct": -26.75,
       "exit_time": "2026-10-02T14:21:57.244993+00:00"
+    },
+    {
+      "symbol": "ZKC",
+      "chain": "ethereum",
+      "address": "0x000000De5c8fb9f731DA20747F41fDFf64C96dCf",
+      "source": "new",
+      "entry_price": 0.0001692,
+      "peak_price": 0.0001692,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T14:41:04.694583+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -50.15,
+      "peak_volume_m5": 14475.12,
+      "milestones_hit": [],
+      "exit_price": 8.435e-05,
+      "exit_pct": -50.15,
+      "exit_time": "2026-10-02T14:53:00.992711+00:00"
+    },
+    {
+      "symbol": "SUPPERINU",
+      "chain": "solana",
+      "address": "HN1KjpxdrWKt3rzwAQ6dthvKcUoUtSk58AZb61Xipump",
+      "source": "new",
+      "entry_price": 0.0002252,
+      "peak_price": 0.0002252,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T14:51:05.243035+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.01,
+      "peak_volume_m5": 76320.53,
+      "milestones_hit": [],
+      "exit_price": 0.0001824,
+      "exit_pct": -19.01,
+      "exit_time": "2026-10-02T14:53:01.823574+00:00"
     }
   ],
   "alerted": {
@@ -241001,6 +241015,8 @@
     "0x78cacD3C152621657a01d036a27bd47d5D3071a1": "2026-10-02T13:47:32.185930+00:00",
     "3x2NqY94bxePELsKqF3yn94iRSk8NvPd7MndeV1ypump": "2026-10-02T13:52:53.511531+00:00",
     "0x9c5D5FE9422692f4a1e83f2BCf50AB0eB3387777": "2026-10-02T14:03:33.727805+00:00",
-    "0x960c5667732b4f54B69F653F1EDE44751de67777": "2026-10-02T14:21:57.244993+00:00"
+    "0x960c5667732b4f54B69F653F1EDE44751de67777": "2026-10-02T14:21:57.244993+00:00",
+    "0x000000De5c8fb9f731DA20747F41fDFf64C96dCf": "2026-10-02T14:53:00.992711+00:00",
+    "HN1KjpxdrWKt3rzwAQ6dthvKcUoUtSk58AZb61Xipump": "2026-10-02T14:53:01.823574+00:00"
   }
 }
