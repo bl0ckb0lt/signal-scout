@@ -14,21 +14,9 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.46,
+      "current_pct": 5.55,
       "peak_volume_m5": 6441.97,
       "milestones_hit": []
-    },
-    {
-      "symbol": "LUCY",
-      "chain": "solana",
-      "address": "CnbDp3n7CoqXZ5hci1JDd9gy2bz5BWfnC1WHAR7eQtXa",
-      "source": "new",
-      "entry_price": 0.0001325,
-      "peak_price": 0.0001325,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T03:01:17.354332+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "WCRMB",
@@ -36,11 +24,15 @@
       "address": "0x48a69335d9E9e6f8CDB07C108B88b53FC17277Fc",
       "source": "new",
       "entry_price": 4.097e-06,
-      "peak_price": 4.097e-06,
-      "trailing_active": false,
+      "peak_price": 5.106e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-02T03:01:21.789972+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.63,
+      "peak_volume_m5": 62861.74,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -228452,6 +228444,25 @@
       "exit_price": 0.0005066,
       "exit_pct": 23.08,
       "exit_time": "2026-10-02T02:52:32.179124+00:00"
+    },
+    {
+      "symbol": "LUCY",
+      "chain": "solana",
+      "address": "CnbDp3n7CoqXZ5hci1JDd9gy2bz5BWfnC1WHAR7eQtXa",
+      "source": "new",
+      "entry_price": 0.0001325,
+      "peak_price": 0.0001325,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T03:01:17.354332+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -41.36,
+      "peak_volume_m5": 88310.71,
+      "milestones_hit": [],
+      "exit_price": 7.77e-05,
+      "exit_pct": -41.36,
+      "exit_time": "2026-10-02T03:02:45.712010+00:00"
     }
   ],
   "alerted": {
@@ -240027,6 +240038,7 @@
     "7cYaQc21w9dzKkGP6LgkqtmL5yzoK5UJE1GeamTRHwny": "2026-10-02T02:27:02.900962+00:00",
     "0xf7e98ED773dBD2BB3f2caEC31E08f81b74d787C2": "2026-10-02T02:36:59.348420+00:00",
     "0x74Ccd8416cbc4E4A864176C2707bc1434819Ef0f": "2026-10-02T02:49:55.254574+00:00",
-    "EFtMJryTCBdDcc7MS1wnsW41wD6edXcvLkUvH3v1pump": "2026-10-02T02:52:32.179124+00:00"
+    "EFtMJryTCBdDcc7MS1wnsW41wD6edXcvLkUvH3v1pump": "2026-10-02T02:52:32.179124+00:00",
+    "CnbDp3n7CoqXZ5hci1JDd9gy2bz5BWfnC1WHAR7eQtXa": "2026-10-02T03:02:45.712010+00:00"
   }
 }
