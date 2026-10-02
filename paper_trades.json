@@ -3,38 +3,18 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CCLAW",
-      "chain": "robinhood",
-      "address": "0xf0BE5A00FFd6831667c260450e8E3f0814cB93fB",
-      "source": "new",
-      "entry_price": 8.949e-07,
-      "peak_price": 2.922e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-02T12:51:12.669702+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 226.52,
-      "peak_volume_m5": 121500.94,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "UPTOBER",
       "chain": "base",
       "address": "0xB200000000000000000000200E15EF3d42DB5a01",
       "source": "boost",
       "entry_price": 7.924e-05,
-      "peak_price": 0.0001004,
+      "peak_price": 0.0001024,
       "trailing_active": true,
       "entry_time": "2026-10-02T13:01:10.408839+00:00",
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 26.7,
+      "current_pct": 29.23,
       "peak_volume_m5": 8727.9,
       "milestones_hit": []
     }
@@ -229218,6 +229198,29 @@
       "exit_price": 0.0003728,
       "exit_pct": -28.38,
       "exit_time": "2026-10-02T12:41:58.138569+00:00"
+    },
+    {
+      "symbol": "CCLAW",
+      "chain": "robinhood",
+      "address": "0xf0BE5A00FFd6831667c260450e8E3f0814cB93fB",
+      "source": "new",
+      "entry_price": 8.949e-07,
+      "peak_price": 4.142e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-02T12:51:12.669702+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 362.85,
+      "peak_volume_m5": 121500.94,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 4.142e-06,
+      "exit_pct": 362.85,
+      "exit_time": "2026-10-02T13:12:34.125916+00:00"
     }
   ],
   "alerted": {
@@ -240831,6 +240834,7 @@
     "0x93c9C43bB887958c4cAA35c2Ea9fC626332cC97c": "2026-10-02T11:51:53.179046+00:00",
     "AJPertGGMDmM75fb6jiB8MPfFu61ouLDtW6UBvf3pump": "2026-10-02T12:08:24.471583+00:00",
     "XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": "2026-10-02T12:13:00.465003+00:00",
-    "0x8C832D2990FB1785c7375EfbC3bD382a869f3211": "2026-10-02T12:41:58.138569+00:00"
+    "0x8C832D2990FB1785c7375EfbC3bD382a869f3211": "2026-10-02T12:41:58.138569+00:00",
+    "0xf0BE5A00FFd6831667c260450e8E3f0814cB93fB": "2026-10-02T13:12:34.125916+00:00"
   }
 }
