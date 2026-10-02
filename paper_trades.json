@@ -8,23 +8,15 @@
       "address": "9ZUwZjiMP8Un9qcBYNfKmVmRRj97YWLB1DRWPhhnpump",
       "source": "boost",
       "entry_price": 0.000919,
-      "peak_price": 0.000919,
-      "trailing_active": false,
+      "peak_price": 0.001076,
+      "trailing_active": true,
       "entry_time": "2026-10-02T23:51:10.150104+00:00",
       "score": 96,
-      "status": "open"
-    },
-    {
-      "symbol": "Cincinnati",
-      "chain": "robinhood",
-      "address": "0xAa73C888C1432C575fD98A2B30703d861E4b5496",
-      "source": "new",
-      "entry_price": 0.0002126,
-      "peak_price": 0.0002126,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T23:51:13.049197+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.08,
+      "peak_volume_m5": 43495.93,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -230631,6 +230623,25 @@
       "exit_price": 0.001221,
       "exit_pct": 138.1,
       "exit_time": "2026-10-02T23:25:47.300241+00:00"
+    },
+    {
+      "symbol": "Cincinnati",
+      "chain": "robinhood",
+      "address": "0xAa73C888C1432C575fD98A2B30703d861E4b5496",
+      "source": "new",
+      "entry_price": 0.0002126,
+      "peak_price": 0.0002126,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T23:51:13.049197+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.52,
+      "peak_volume_m5": 31431.45,
+      "milestones_hit": [],
+      "exit_price": 0.0001796,
+      "exit_pct": -15.52,
+      "exit_time": "2026-10-02T23:52:38.476297+00:00"
     }
   ],
   "alerted": {
@@ -242316,6 +242327,7 @@
     "5tV3Lfx8WNE63ZfCUWnBoFBwe8v6idUhuqg9ipDsDJyy": "2026-10-02T23:08:09.268017+00:00",
     "0xb00a786DE07FE8c41DCC983e5d7B6150C66e7777": "2026-10-02T23:12:18.693430+00:00",
     "0x04CC671F5678902A0D8C7c8DdAe64D0D6928BFEe": "2026-10-02T23:22:37.210379+00:00",
-    "0x316fa3AB9A8FD8d7567a823DedecF28d9FEE2894": "2026-10-02T23:25:47.300241+00:00"
+    "0x316fa3AB9A8FD8d7567a823DedecF28d9FEE2894": "2026-10-02T23:25:47.300241+00:00",
+    "0xAa73C888C1432C575fD98A2B30703d861E4b5496": "2026-10-02T23:52:38.476297+00:00"
   }
 }
