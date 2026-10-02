@@ -8,23 +8,15 @@
       "address": "5krNQZMsiM7qT9KhzettHKEamQDUxaPEP8jCpjdQpump",
       "source": "new",
       "entry_price": 0.0002994,
-      "peak_price": 0.0002994,
-      "trailing_active": false,
+      "peak_price": 0.0003935,
+      "trailing_active": true,
       "entry_time": "2026-10-02T16:11:04.257613+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "si.gov",
-      "chain": "robinhood",
-      "address": "0x9AFDEAa7d67e8dE70A37C9d5aD008a24Ed16315A",
-      "source": "new",
-      "entry_price": 0.0001297,
-      "peak_price": 0.0001297,
-      "trailing_active": false,
-      "entry_time": "2026-10-02T16:11:05.664464+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.43,
+      "peak_volume_m5": 97592.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -229556,6 +229548,25 @@
       "exit_price": 0.0001763,
       "exit_pct": -7.94,
       "exit_time": "2026-10-02T16:07:32.626851+00:00"
+    },
+    {
+      "symbol": "si.gov",
+      "chain": "robinhood",
+      "address": "0x9AFDEAa7d67e8dE70A37C9d5aD008a24Ed16315A",
+      "source": "new",
+      "entry_price": 0.0001297,
+      "peak_price": 0.0001297,
+      "trailing_active": false,
+      "entry_time": "2026-10-02T16:11:05.664464+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.33,
+      "peak_volume_m5": 51833.84,
+      "milestones_hit": [],
+      "exit_price": 0.000115,
+      "exit_pct": -11.33,
+      "exit_time": "2026-10-02T16:12:42.197373+00:00"
     }
   ],
   "alerted": {
@@ -241187,6 +241198,7 @@
     "Am6SB1xhuwyv6hENfR2uHj2fvKeo87KN8vVw28RcrmEa": "2026-10-02T15:35:50.149585+00:00",
     "0x51aAa1D6eb8aDFF4Dd73518b825Fc0fE56627160": "2026-10-02T15:42:41.814090+00:00",
     "4jdKhCf5TifzDEZN39gXzcoDMEpTARy99WPSGNGopump": "2026-10-02T15:52:31.961912+00:00",
-    "7keARBfdz79MdMTf3fZrswyvLgAs3Qi8JiRmy3u2pump": "2026-10-02T16:07:32.626851+00:00"
+    "7keARBfdz79MdMTf3fZrswyvLgAs3Qi8JiRmy3u2pump": "2026-10-02T16:07:32.626851+00:00",
+    "0x9AFDEAa7d67e8dE70A37C9d5aD008a24Ed16315A": "2026-10-02T16:12:42.197373+00:00"
   }
 }
