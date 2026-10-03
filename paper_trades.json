@@ -1,57 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "SPARE",
-      "chain": "robinhood",
-      "address": "0x08CC2dad18452344995049F6669B9684F459A2f8",
-      "source": "new",
-      "entry_price": 0.0001527,
-      "peak_price": 0.0002346,
-      "trailing_active": true,
-      "entry_time": "2026-10-03T06:41:05.472609+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.63,
-      "peak_volume_m5": 9966.46,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "FOMOIN",
-      "chain": "robinhood",
-      "address": "0x0C75a478DF6b8bf6f65d5629B605dCfDaf294202",
-      "source": "new",
-      "entry_price": 2.116e-06,
-      "peak_price": 4.76e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-03T06:51:04.559992+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 124.95,
-      "peak_volume_m5": 216049.29,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "FROGE",
-      "chain": "solana",
-      "address": "6R1F4sNySF4NKGdhW3UhESWuYYRu4Cehk5rn3mGP375R",
-      "source": "new",
-      "entry_price": 0.0002653,
-      "peak_price": 0.0002653,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T07:00:54.466472+00:00",
-      "score": 76,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -231446,6 +231396,68 @@
       "exit_price": 0.0002284,
       "exit_pct": 12.68,
       "exit_time": "2026-10-03T06:35:28.703517+00:00"
+    },
+    {
+      "symbol": "SPARE",
+      "chain": "robinhood",
+      "address": "0x08CC2dad18452344995049F6669B9684F459A2f8",
+      "source": "new",
+      "entry_price": 0.0001527,
+      "peak_price": 0.0002346,
+      "trailing_active": true,
+      "entry_time": "2026-10-03T06:41:05.472609+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 44.34,
+      "peak_volume_m5": 9966.46,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002204,
+      "exit_pct": 44.34,
+      "exit_time": "2026-10-03T07:02:06.194198+00:00"
+    },
+    {
+      "symbol": "FOMOIN",
+      "chain": "robinhood",
+      "address": "0x0C75a478DF6b8bf6f65d5629B605dCfDaf294202",
+      "source": "new",
+      "entry_price": 2.116e-06,
+      "peak_price": 4.76e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-03T06:51:04.559992+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 84.17,
+      "peak_volume_m5": 264273.29,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 3.897e-06,
+      "exit_pct": 84.17,
+      "exit_time": "2026-10-03T07:02:06.883752+00:00"
+    },
+    {
+      "symbol": "FROGE",
+      "chain": "solana",
+      "address": "6R1F4sNySF4NKGdhW3UhESWuYYRu4Cehk5rn3mGP375R",
+      "source": "new",
+      "entry_price": 0.0002653,
+      "peak_price": 0.0002653,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T07:00:54.466472+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.22,
+      "peak_volume_m5": 86194.0,
+      "milestones_hit": [],
+      "exit_price": 0.0002143,
+      "exit_pct": -19.22,
+      "exit_time": "2026-10-03T07:02:07.564946+00:00"
     }
   ],
   "alerted": {
@@ -243171,6 +243183,9 @@
     "0x38CdC65B82C66Fc206d09192e6B123FDABF21cfe": "2026-10-03T06:20:07.552716+00:00",
     "6DCPs3QyhcVFhV8J2mPLX2QvvjqR8R5Rxv987FAmpump": "2026-10-03T06:34:27.513457+00:00",
     "FWwnHcbPSrnuhQ5kFQEBu7fWsMemWskvLK9zqX4Fnjh5": "2026-10-03T06:35:27.948810+00:00",
-    "0xb374B63C01e66713124c822A27d3c3a2676d321C": "2026-10-03T06:35:28.703517+00:00"
+    "0xb374B63C01e66713124c822A27d3c3a2676d321C": "2026-10-03T06:35:28.703517+00:00",
+    "0x08CC2dad18452344995049F6669B9684F459A2f8": "2026-10-03T07:02:06.194198+00:00",
+    "0x0C75a478DF6b8bf6f65d5629B605dCfDaf294202": "2026-10-03T07:02:06.883752+00:00",
+    "6R1F4sNySF4NKGdhW3UhESWuYYRu4Cehk5rn3mGP375R": "2026-10-03T07:02:07.564946+00:00"
   }
 }
