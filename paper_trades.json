@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ROYAL",
-      "chain": "robinhood",
-      "address": "0xCfeaf27B3326dA0c83A3a7eabE7b507B493511f7",
-      "source": "new",
-      "entry_price": 0.0008576,
-      "peak_price": 0.0008576,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T19:01:10.628621+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "SPEC",
       "chain": "solana",
       "address": "2AVjqmGbMqg7rSyHVv2deVdggsBgBtu1Bi69BUvE5WRv",
       "source": "new",
       "entry_price": 0.0002864,
-      "peak_price": 0.0002864,
-      "trailing_active": false,
+      "peak_price": 0.0005633,
+      "trailing_active": true,
       "entry_time": "2026-10-03T19:01:12.411057+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 96.68,
+      "peak_volume_m5": 404477.62,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -232502,6 +232496,25 @@
       "exit_price": 0.0001482,
       "exit_pct": -17.85,
       "exit_time": "2026-10-03T18:54:10.187290+00:00"
+    },
+    {
+      "symbol": "ROYAL",
+      "chain": "robinhood",
+      "address": "0xCfeaf27B3326dA0c83A3a7eabE7b507B493511f7",
+      "source": "new",
+      "entry_price": 0.0008576,
+      "peak_price": 0.0008576,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T19:01:10.628621+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -35.94,
+      "peak_volume_m5": 148126.8,
+      "milestones_hit": [],
+      "exit_price": 0.0005494,
+      "exit_pct": -35.94,
+      "exit_time": "2026-10-03T19:03:37.841279+00:00"
     }
   ],
   "alerted": {
@@ -244282,6 +244295,7 @@
     "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump": "2026-10-03T18:24:17.306602+00:00",
     "CPqq6ceui3H6Ye2J41dmZFkD6iJWKARqKquJjsrvTmku": "2026-10-03T18:26:03.957494+00:00",
     "5JRqyzG74y2SZDCTjaMNepUJYHQBCwVPMoix1WXFpump": "2026-10-03T18:42:36.755089+00:00",
-    "FRgxtZsC3J3uePkMME9WkDUbQkQeZXpgdDGqhzRx3V31": "2026-10-03T18:54:10.187290+00:00"
+    "FRgxtZsC3J3uePkMME9WkDUbQkQeZXpgdDGqhzRx3V31": "2026-10-03T18:54:10.187290+00:00",
+    "0xCfeaf27B3326dA0c83A3a7eabE7b507B493511f7": "2026-10-03T19:03:37.841279+00:00"
   }
 }
