@@ -14,23 +14,11 @@
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 50.44,
+      "current_pct": 47.23,
       "peak_volume_m5": 29565.72,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "ASTROINU",
-      "chain": "solana",
-      "address": "GT2gF3e7SDefmHSZnKNLRnk47z1qEowVUzHpGiZ1pump",
-      "source": "new",
-      "entry_price": 0.0007361,
-      "peak_price": 0.0007361,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T21:10:56.777208+00:00",
-      "score": 87,
-      "status": "open"
     },
     {
       "symbol": "Swinu",
@@ -42,7 +30,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-03T21:11:01.686122+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.19,
+      "peak_volume_m5": 43097.45,
+      "milestones_hit": []
     },
     {
       "symbol": "STEVECOIN",
@@ -54,19 +46,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-03T21:11:03.470369+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "SOLMAS",
-      "chain": "solana",
-      "address": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
-      "source": "new",
-      "entry_price": 0.0001228,
-      "peak_price": 0.0001228,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T21:11:05.093154+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.86,
+      "peak_volume_m5": 38943.51,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -232822,6 +232806,44 @@
       "exit_price": 0.001471,
       "exit_pct": 5.37,
       "exit_time": "2026-10-03T20:56:47.673830+00:00"
+    },
+    {
+      "symbol": "ASTROINU",
+      "chain": "solana",
+      "address": "GT2gF3e7SDefmHSZnKNLRnk47z1qEowVUzHpGiZ1pump",
+      "source": "new",
+      "entry_price": 0.0007361,
+      "peak_price": 0.0007361,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T21:10:56.777208+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.38,
+      "peak_volume_m5": 575291.68,
+      "milestones_hit": [],
+      "exit_price": 0.0006082,
+      "exit_pct": -17.38,
+      "exit_time": "2026-10-03T21:12:38.869705+00:00"
+    },
+    {
+      "symbol": "SOLMAS",
+      "chain": "solana",
+      "address": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
+      "source": "new",
+      "entry_price": 0.0001228,
+      "peak_price": 0.0001228,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T21:11:05.093154+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.04,
+      "peak_volume_m5": 13254.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001117,
+      "exit_pct": -9.04,
+      "exit_time": "2026-10-03T21:12:40.466435+00:00"
     }
   ],
   "alerted": {
@@ -244616,6 +244638,8 @@
     "HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump": "2026-10-03T20:53:39.599305+00:00",
     "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump": "2026-10-03T20:54:55.013378+00:00",
     "0x214F50E2f3bDE5B83a13344BF6221Bf0E0159925": "2026-10-03T20:55:51.781088+00:00",
-    "0x3f390703a0ac025cB17d54ce62B87cCb805AB263": "2026-10-03T20:56:47.673830+00:00"
+    "0x3f390703a0ac025cB17d54ce62B87cCb805AB263": "2026-10-03T20:56:47.673830+00:00",
+    "GT2gF3e7SDefmHSZnKNLRnk47z1qEowVUzHpGiZ1pump": "2026-10-03T21:12:38.869705+00:00",
+    "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump": "2026-10-03T21:12:40.466435+00:00"
   }
 }
