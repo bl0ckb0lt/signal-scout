@@ -14,8 +14,8 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 75.58,
-      "peak_volume_m5": 7463.08,
+      "current_pct": 68.0,
+      "peak_volume_m5": 7792.1,
       "milestones_hit": [
         50
       ]
@@ -32,24 +32,12 @@
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 142.18,
+      "current_pct": 130.32,
       "peak_volume_m5": 363638.83,
       "milestones_hit": [
         50,
         100
       ]
-    },
-    {
-      "symbol": "Slopcoin",
-      "chain": "solana",
-      "address": "7pSMFY9EVpaoo8eiSWe1ksqCHxabteaBpZe4G51epump",
-      "source": "new",
-      "entry_price": 0.0001506,
-      "peak_price": 0.0001506,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T17:41:13.383352+00:00",
-      "score": 76,
-      "status": "open"
     }
   ],
   "closed": [
@@ -232292,6 +232280,25 @@
       "exit_price": 5.346e-05,
       "exit_pct": -31.29,
       "exit_time": "2026-10-03T17:23:11.210923+00:00"
+    },
+    {
+      "symbol": "Slopcoin",
+      "chain": "solana",
+      "address": "7pSMFY9EVpaoo8eiSWe1ksqCHxabteaBpZe4G51epump",
+      "source": "new",
+      "entry_price": 0.0001506,
+      "peak_price": 0.0001506,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T17:41:13.383352+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.09,
+      "peak_volume_m5": 131639.8,
+      "milestones_hit": [],
+      "exit_price": 0.0001354,
+      "exit_pct": -10.09,
+      "exit_time": "2026-10-03T17:42:12.034707+00:00"
     }
   ],
   "alerted": {
@@ -244060,6 +244067,7 @@
     "0xDC2FEf57FcA8041777A2bfcEbeAad37251557777": "2026-10-03T17:04:13.040126+00:00",
     "0x40b2d207A5842816a884C93e120e87416B125363": "2026-10-03T17:04:13.795235+00:00",
     "0xB3cC842294f180abF129927070b8B486fe286A2d": "2026-10-03T17:12:22.143008+00:00",
-    "0xB200000000000000000000F45A6A940F9448fF01": "2026-10-03T17:23:11.210923+00:00"
+    "0xB200000000000000000000F45A6A940F9448fF01": "2026-10-03T17:23:11.210923+00:00",
+    "7pSMFY9EVpaoo8eiSWe1ksqCHxabteaBpZe4G51epump": "2026-10-03T17:42:12.034707+00:00"
   }
 }
