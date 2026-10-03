@@ -14,7 +14,7 @@
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 39.82,
+      "current_pct": 35.9,
       "peak_volume_m5": 141380.92,
       "milestones_hit": []
     },
@@ -24,13 +24,13 @@
       "address": "0xF9D7691a78b96B7A1e4BB2D1f15fE63fAbEf885B",
       "source": "new",
       "entry_price": 0.003401,
-      "peak_price": 0.003802,
-      "trailing_active": false,
+      "peak_price": 0.004005,
+      "trailing_active": true,
       "entry_time": "2026-10-03T00:21:04.178546+00:00",
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.79,
+      "current_pct": 17.76,
       "peak_volume_m5": 84427.54,
       "milestones_hit": []
     },
@@ -46,21 +46,9 @@
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.46,
+      "current_pct": 5.61,
       "peak_volume_m5": 3654.49,
       "milestones_hit": []
-    },
-    {
-      "symbol": "casinu",
-      "chain": "solana",
-      "address": "HWMgoYa2XSBsmnNJ5CbzDiEorQpuucTntDjyJsaP1Tyw",
-      "source": "new",
-      "entry_price": 0.0001742,
-      "peak_price": 0.0001742,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T00:31:11.063588+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -230743,6 +230731,25 @@
       "exit_price": 0.0001086,
       "exit_pct": -27.16,
       "exit_time": "2026-10-03T00:22:36.814764+00:00"
+    },
+    {
+      "symbol": "casinu",
+      "chain": "solana",
+      "address": "HWMgoYa2XSBsmnNJ5CbzDiEorQpuucTntDjyJsaP1Tyw",
+      "source": "new",
+      "entry_price": 0.0001742,
+      "peak_price": 0.0001742,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T00:31:11.063588+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.27,
+      "peak_volume_m5": 25988.51,
+      "milestones_hit": [],
+      "exit_price": 0.0001476,
+      "exit_pct": -15.27,
+      "exit_time": "2026-10-03T00:35:54.625589+00:00"
     }
   ],
   "alerted": {
@@ -242431,6 +242438,7 @@
     "0x316fa3AB9A8FD8d7567a823DedecF28d9FEE2894": "2026-10-02T23:25:47.300241+00:00",
     "0xAa73C888C1432C575fD98A2B30703d861E4b5496": "2026-10-02T23:52:38.476297+00:00",
     "0x3aE862CBF9584d4d9DBE65F65A0fe346c08980F2": "2026-10-03T00:12:37.732149+00:00",
-    "0x2054031Be916C1EcdAC3894f37456421FD1C920C": "2026-10-03T00:22:36.814764+00:00"
+    "0x2054031Be916C1EcdAC3894f37456421FD1C920C": "2026-10-03T00:22:36.814764+00:00",
+    "HWMgoYa2XSBsmnNJ5CbzDiEorQpuucTntDjyJsaP1Tyw": "2026-10-03T00:35:54.625589+00:00"
   }
 }
