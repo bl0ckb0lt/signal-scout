@@ -14,7 +14,7 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 88.38,
+      "current_pct": 80.7,
       "peak_volume_m5": 9589.78,
       "milestones_hit": [
         50
@@ -26,23 +26,15 @@
       "address": "kHdpWPAq9K9JMJUo4Hd4eNcG82FzqFaXY3HvkJZpump",
       "source": "new",
       "entry_price": 9.977e-05,
-      "peak_price": 9.977e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001307,
+      "trailing_active": true,
       "entry_time": "2026-10-03T17:51:06.547728+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "Cartridge",
-      "chain": "solana",
-      "address": "ArenDYANqFNkp8ZqAXt69vT5Dz7WD4zDfSpVw6oPpump",
-      "source": "new",
-      "entry_price": 0.0002235,
-      "peak_price": 0.0002235,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T17:51:08.490648+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.0,
+      "peak_volume_m5": 56425.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -232326,6 +232318,25 @@
       "exit_price": 0.0006274,
       "exit_pct": 129.73,
       "exit_time": "2026-10-03T17:42:59.813446+00:00"
+    },
+    {
+      "symbol": "Cartridge",
+      "chain": "solana",
+      "address": "ArenDYANqFNkp8ZqAXt69vT5Dz7WD4zDfSpVw6oPpump",
+      "source": "new",
+      "entry_price": 0.0002235,
+      "peak_price": 0.0002235,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T17:51:08.490648+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.86,
+      "peak_volume_m5": 205479.49,
+      "milestones_hit": [],
+      "exit_price": 0.0001657,
+      "exit_pct": -25.86,
+      "exit_time": "2026-10-03T17:54:54.315799+00:00"
     }
   ],
   "alerted": {
@@ -244096,6 +244107,7 @@
     "0xB3cC842294f180abF129927070b8B486fe286A2d": "2026-10-03T17:12:22.143008+00:00",
     "0xB200000000000000000000F45A6A940F9448fF01": "2026-10-03T17:23:11.210923+00:00",
     "7pSMFY9EVpaoo8eiSWe1ksqCHxabteaBpZe4G51epump": "2026-10-03T17:42:12.034707+00:00",
-    "9dSMwFfPezQ8WPcW1uZV7ns4rcviEj2LssSAg75WBLXd": "2026-10-03T17:42:59.813446+00:00"
+    "9dSMwFfPezQ8WPcW1uZV7ns4rcviEj2LssSAg75WBLXd": "2026-10-03T17:42:59.813446+00:00",
+    "ArenDYANqFNkp8ZqAXt69vT5Dz7WD4zDfSpVw6oPpump": "2026-10-03T17:54:54.315799+00:00"
   }
 }
