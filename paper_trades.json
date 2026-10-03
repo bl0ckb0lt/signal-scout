@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SI",
-      "chain": "bsc",
-      "address": "0x0dB81ABB6019B37e4cAb7C73c1034e9543DCc501",
-      "source": "new",
-      "entry_price": 29.39,
-      "peak_price": 29.39,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T08:30:52.826677+00:00",
-      "score": 93,
-      "status": "open"
-    },
-    {
       "symbol": "VRAXWEEN",
       "chain": "solana",
       "address": "56tGhg321cAn9y8JFNSeTnsUaVqB6zX9HSio3KKipump",
       "source": "new",
       "entry_price": 0.0001541,
-      "peak_price": 0.0001541,
-      "trailing_active": false,
+      "peak_price": 0.0002486,
+      "trailing_active": true,
       "entry_time": "2026-10-03T08:30:54.641490+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 61.32,
+      "peak_volume_m5": 407103.95,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -231540,6 +231534,25 @@
       "exit_price": 0.0001133,
       "exit_pct": -14.04,
       "exit_time": "2026-10-03T08:22:51.419541+00:00"
+    },
+    {
+      "symbol": "SI",
+      "chain": "bsc",
+      "address": "0x0dB81ABB6019B37e4cAb7C73c1034e9543DCc501",
+      "source": "new",
+      "entry_price": 29.39,
+      "peak_price": 29.39,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T08:30:52.826677+00:00",
+      "score": 93,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.96,
+      "peak_volume_m5": 176193.21,
+      "milestones_hit": [],
+      "exit_price": 25.58,
+      "exit_pct": -12.96,
+      "exit_time": "2026-10-03T08:34:56.884232+00:00"
     }
   ],
   "alerted": {
@@ -243271,6 +243284,7 @@
     "6R1F4sNySF4NKGdhW3UhESWuYYRu4Cehk5rn3mGP375R": "2026-10-03T07:02:07.564946+00:00",
     "HZxurfDsZb7DCQuKZbGCt7pZJziGxkXiQHuP1ysKpump": "2026-10-03T07:12:22.885882+00:00",
     "0x82A504616066Feca3183253BC3115A636FcF32e6": "2026-10-03T07:46:29.841205+00:00",
-    "HAcEqEVru6dRbe1grLFTPBxjxGgjn1tVpR7bLgYXdust": "2026-10-03T08:22:51.419541+00:00"
+    "HAcEqEVru6dRbe1grLFTPBxjxGgjn1tVpR7bLgYXdust": "2026-10-03T08:22:51.419541+00:00",
+    "0x0dB81ABB6019B37e4cAb7C73c1034e9543DCc501": "2026-10-03T08:34:56.884232+00:00"
   }
 }
