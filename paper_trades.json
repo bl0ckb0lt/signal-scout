@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CASHDOG",
-      "chain": "robinhood",
-      "address": "0xe0bd8e46a8f2d0dB82312e494F32Ed627C5e2A18",
-      "source": "new",
-      "entry_price": 0.001742,
-      "peak_price": 0.002669,
-      "trailing_active": true,
-      "entry_time": "2026-10-03T23:10:59.155081+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 53.21,
-      "peak_volume_m5": 166037.13,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "NEARDOGE",
       "chain": "near",
       "address": "doge.neardogecoin.near",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-03T23:21:12.634811+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.13,
+      "peak_volume_m5": 5564.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -233058,6 +233044,27 @@
       "exit_price": 0.0006198,
       "exit_pct": -12.56,
       "exit_time": "2026-10-03T23:05:53.444348+00:00"
+    },
+    {
+      "symbol": "CASHDOG",
+      "chain": "robinhood",
+      "address": "0xe0bd8e46a8f2d0dB82312e494F32Ed627C5e2A18",
+      "source": "new",
+      "entry_price": 0.001742,
+      "peak_price": 0.002669,
+      "trailing_active": true,
+      "entry_time": "2026-10-03T23:10:59.155081+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 42.48,
+      "peak_volume_m5": 199409.59,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.002482,
+      "exit_pct": 42.48,
+      "exit_time": "2026-10-03T23:23:02.646660+00:00"
     }
   ],
   "alerted": {
@@ -244866,6 +244873,7 @@
     "0xaAF89335E39B9e02BE3511A241c33945B8Ad9C9F": "2026-10-03T22:33:51.838278+00:00",
     "0x58201F2F5f033AEA9a352d10a4d143E8A102199b": "2026-10-03T22:42:56.213816+00:00",
     "0xf898ba10200Ec574F6da78087FD726B7335F8934": "2026-10-03T23:02:52.996844+00:00",
-    "0xDD56b43E1475984d2111eC4CB8d39F5E1f24fcB3": "2026-10-03T23:05:53.444348+00:00"
+    "0xDD56b43E1475984d2111eC4CB8d39F5E1f24fcB3": "2026-10-03T23:05:53.444348+00:00",
+    "0xe0bd8e46a8f2d0dB82312e494F32Ed627C5e2A18": "2026-10-03T23:23:02.646660+00:00"
   }
 }
