@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Diskette",
-      "chain": "solana",
-      "address": "HFS8j3xuh95iUrCxerkaxNPKAd5XMWSjefrDCScvpump",
-      "source": "new",
-      "entry_price": 0.0005994,
-      "peak_price": 0.0005994,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T20:01:02.274171+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "winner",
       "chain": "solana",
       "address": "BL1ujbX7DM4QHh2fsVcQ5yNeQTgXAiLXRYXz6zLMpump",
       "source": "new",
       "entry_price": 0.0003819,
-      "peak_price": 0.0003819,
-      "trailing_active": false,
+      "peak_price": 0.0004595,
+      "trailing_active": true,
       "entry_time": "2026-10-03T20:01:03.941213+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.32,
+      "peak_volume_m5": 407654.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -232622,6 +232614,25 @@
       "exit_price": 7.143e-05,
       "exit_pct": -50.22,
       "exit_time": "2026-10-03T19:42:07.140617+00:00"
+    },
+    {
+      "symbol": "Diskette",
+      "chain": "solana",
+      "address": "HFS8j3xuh95iUrCxerkaxNPKAd5XMWSjefrDCScvpump",
+      "source": "new",
+      "entry_price": 0.0005994,
+      "peak_price": 0.0005994,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T20:01:02.274171+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.25,
+      "peak_volume_m5": 386268.29,
+      "milestones_hit": [],
+      "exit_price": 0.000478,
+      "exit_pct": -20.25,
+      "exit_time": "2026-10-03T20:07:38.548096+00:00"
     }
   ],
   "alerted": {
@@ -244408,6 +244419,7 @@
     "5yocuEaAakuRQhzyNDjcLLeZuYzqPnxNdHA5Ynfvpump": "2026-10-03T19:13:55.082991+00:00",
     "0x4d6e103be7Fd4dd86426657977689Cf0E417c454": "2026-10-03T19:37:44.118778+00:00",
     "CJ7yfNktWNqKBJRaCQWNzoAhHPs3eshWY8MqU8wXpump": "2026-10-03T19:39:15.718106+00:00",
-    "8wxp27rocjmFGNYQcARrMyL9X2yK9V2ZYUSsS74epump": "2026-10-03T19:42:07.140617+00:00"
+    "8wxp27rocjmFGNYQcARrMyL9X2yK9V2ZYUSsS74epump": "2026-10-03T19:42:07.140617+00:00",
+    "HFS8j3xuh95iUrCxerkaxNPKAd5XMWSjefrDCScvpump": "2026-10-03T20:07:38.548096+00:00"
   }
 }
