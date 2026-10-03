@@ -8,23 +8,15 @@
       "address": "GWGUDFY1dDxQoAMsWfg6zfhvYNF1toKPHMVT3DFBwMJq",
       "source": "new",
       "entry_price": 0.0003497,
-      "peak_price": 0.0003497,
+      "peak_price": 0.0003787,
       "trailing_active": false,
       "entry_time": "2026-10-03T01:51:11.375843+00:00",
       "score": 81,
-      "status": "open"
-    },
-    {
-      "symbol": "FOMIES",
-      "chain": "robinhood",
-      "address": "0xB945B005e39E2266A3f5bC12E34eC6B68e0bD9cf",
-      "source": "new",
-      "entry_price": 0.0003907,
-      "peak_price": 0.0003907,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T01:51:12.797917+00:00",
-      "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.29,
+      "peak_volume_m5": 55360.93,
+      "milestones_hit": []
     },
     {
       "symbol": "SWAP",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-03T01:51:14.660924+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.62,
+      "peak_volume_m5": 90612.0,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -230894,6 +230890,25 @@
       "exit_price": 0.0008321,
       "exit_pct": 39.92,
       "exit_time": "2026-10-03T01:46:55.386200+00:00"
+    },
+    {
+      "symbol": "FOMIES",
+      "chain": "robinhood",
+      "address": "0xB945B005e39E2266A3f5bC12E34eC6B68e0bD9cf",
+      "source": "new",
+      "entry_price": 0.0003907,
+      "peak_price": 0.0003907,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T01:51:12.797917+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.32,
+      "peak_volume_m5": 154852.88,
+      "milestones_hit": [],
+      "exit_price": 0.0003074,
+      "exit_pct": -21.32,
+      "exit_time": "2026-10-03T01:53:17.342599+00:00"
     }
   ],
   "alerted": {
@@ -242591,6 +242606,7 @@
     "0xD79A17a73f1C38a3eAB7c943dE6051F824FC4D8e": "2026-10-03T01:22:58.612430+00:00",
     "2Zp29FcxqTpt3JfQ68Fn94DzWCMiBiCVjXkuAG5W64UJ": "2026-10-03T01:32:36.088596+00:00",
     "0xCC30D0fcef5d48eFF7f1C65238df36332d5eF93f": "2026-10-03T01:44:18.990595+00:00",
-    "0xCB142bcA82c9c852Ef33c5100a6F26577aD40F3C": "2026-10-03T01:46:55.386200+00:00"
+    "0xCB142bcA82c9c852Ef33c5100a6F26577aD40F3C": "2026-10-03T01:46:55.386200+00:00",
+    "0xB945B005e39E2266A3f5bC12E34eC6B68e0bD9cf": "2026-10-03T01:53:17.342599+00:00"
   }
 }
