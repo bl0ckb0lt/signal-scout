@@ -8,11 +8,15 @@
       "address": "0xB878AA2B5aa65AE5F566581622955a109A0D3E08",
       "source": "new",
       "entry_price": 0.0006429,
-      "peak_price": 0.0006429,
-      "trailing_active": false,
+      "peak_price": 0.0008625,
+      "trailing_active": true,
       "entry_time": "2026-10-03T16:50:46.570696+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 34.16,
+      "peak_volume_m5": 141055.55,
+      "milestones_hit": []
     },
     {
       "symbol": "Daquavious",
@@ -20,23 +24,15 @@
       "address": "E7bNJ5eqNxHkQCxzSbYUKPQ8HnH9h65HG71RBPJMMKZC",
       "source": "new",
       "entry_price": 0.0001796,
-      "peak_price": 0.0001796,
+      "peak_price": 0.0001815,
       "trailing_active": false,
       "entry_time": "2026-10-03T16:50:50.165834+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "AI",
-      "chain": "robinhood",
-      "address": "0x7715Ced95A84204d3Ca323B35AE18CF4871F3039",
-      "source": "new",
-      "entry_price": 0.0002243,
-      "peak_price": 0.0002243,
-      "trailing_active": false,
-      "entry_time": "2026-10-03T16:50:51.706745+00:00",
-      "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.06,
+      "peak_volume_m5": 93285.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -232124,6 +232120,25 @@
       "exit_price": 0.0003609,
       "exit_pct": -5.1,
       "exit_time": "2026-10-03T16:40:55.933162+00:00"
+    },
+    {
+      "symbol": "AI",
+      "chain": "robinhood",
+      "address": "0x7715Ced95A84204d3Ca323B35AE18CF4871F3039",
+      "source": "new",
+      "entry_price": 0.0002243,
+      "peak_price": 0.0002243,
+      "trailing_active": false,
+      "entry_time": "2026-10-03T16:50:51.706745+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.38,
+      "peak_volume_m5": 44121.3,
+      "milestones_hit": [],
+      "exit_price": 0.0002055,
+      "exit_pct": -8.38,
+      "exit_time": "2026-10-03T16:51:24.613999+00:00"
     }
   ],
   "alerted": {
@@ -243884,6 +243899,7 @@
     "H7TuvDxEKygh27zGfGcjKG8JGWgrbyKpPtvJEpGosfas": "2026-10-03T16:01:00.134863+00:00",
     "2fua4QnrktN1NzdYtxaZ9uPsAXVp8Sxkx5wdC5vfpump": "2026-10-03T16:22:13.821940+00:00",
     "moon.nearcatcoin.near": "2026-10-03T16:23:07.118468+00:00",
-    "0x614B60a3d6bC8f5a74b93F4E158A646132Bb8Ae6": "2026-10-03T16:40:55.933162+00:00"
+    "0x614B60a3d6bC8f5a74b93F4E158A646132Bb8Ae6": "2026-10-03T16:40:55.933162+00:00",
+    "0x7715Ced95A84204d3Ca323B35AE18CF4871F3039": "2026-10-03T16:51:24.613999+00:00"
   }
 }
