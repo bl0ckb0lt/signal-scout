@@ -8,23 +8,15 @@
       "address": "0x53d025FBaEe3057622D7ea0817B0b81b6645AF66",
       "source": "new",
       "entry_price": 3.678e-06,
-      "peak_price": 3.678e-06,
-      "trailing_active": false,
+      "peak_price": 4.77e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-04T15:00:57.151070+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "LAB",
-      "chain": "bsc",
-      "address": "0x1A0810861af30eD2b85EC2c195F36fb58Fc97777",
-      "source": "new",
-      "entry_price": 0.0001012,
-      "peak_price": 0.0001012,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T15:01:00.509309+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.69,
+      "peak_volume_m5": 231726.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -234338,6 +234330,25 @@
       "exit_price": 0.0006233,
       "exit_pct": -11.02,
       "exit_time": "2026-10-04T14:42:30.241971+00:00"
+    },
+    {
+      "symbol": "LAB",
+      "chain": "bsc",
+      "address": "0x1A0810861af30eD2b85EC2c195F36fb58Fc97777",
+      "source": "new",
+      "entry_price": 0.0001012,
+      "peak_price": 0.0001012,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T15:01:00.509309+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.36,
+      "peak_volume_m5": 22368.2,
+      "milestones_hit": [],
+      "exit_price": 7.452e-05,
+      "exit_pct": -26.36,
+      "exit_time": "2026-10-04T15:02:47.388225+00:00"
     }
   ],
   "alerted": {
@@ -246212,6 +246223,7 @@
     "0xB1Ca60Ff8Cb99364Ba9f264748050Dae9104ebf1": "2026-10-04T14:03:58.297006+00:00",
     "0xAD556F9A3b8Cbde1aCFAB7be01cA792aCba0f6ec": "2026-10-04T14:22:45.616541+00:00",
     "0x67C13EFd2C7BADccCD630ad5fB524CD51A8C70ba": "2026-10-04T14:42:29.455727+00:00",
-    "0xC354c1312E6C5ee0CBC0Bd33C2645348Ed4Ec73C": "2026-10-04T14:42:30.241971+00:00"
+    "0xC354c1312E6C5ee0CBC0Bd33C2645348Ed4Ec73C": "2026-10-04T14:42:30.241971+00:00",
+    "0x1A0810861af30eD2b85EC2c195F36fb58Fc97777": "2026-10-04T15:02:47.388225+00:00"
   }
 }
