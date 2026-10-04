@@ -1,28 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "CHFUND",
-      "chain": "robinhood",
-      "address": "0x0821df61b58195D21C0C969212C89a2CFFDdb1b2",
-      "source": "new",
-      "entry_price": 1.362e-06,
-      "peak_price": 4.674e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-04T06:10:53.171723+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 243.17,
-      "peak_volume_m5": 332400.77,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -233689,6 +233668,29 @@
       "exit_price": 8.636e-05,
       "exit_pct": -12.11,
       "exit_time": "2026-10-04T05:22:24.445446+00:00"
+    },
+    {
+      "symbol": "CHFUND",
+      "chain": "robinhood",
+      "address": "0x0821df61b58195D21C0C969212C89a2CFFDdb1b2",
+      "source": "new",
+      "entry_price": 1.362e-06,
+      "peak_price": 5.244e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-04T06:10:53.171723+00:00",
+      "score": 67,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 285.02,
+      "peak_volume_m5": 332400.77,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 5.244e-06,
+      "exit_pct": 285.02,
+      "exit_time": "2026-10-04T06:32:01.495599+00:00"
     }
   ],
   "alerted": {
@@ -245530,6 +245532,7 @@
     "0x8CF263ADfd88d72597a251908378A782A4E97aAf": "2026-10-04T05:01:48.186502+00:00",
     "ADZKfR5FPW4NnH3p9ZeoT1i2ZjNGiehUuRxTbb7AXwTc": "2026-10-04T05:04:55.539788+00:00",
     "8jpx2fiYMFcYtDtWzPNvYKX4VqFGYSLF6S75dNLopump": "2026-10-04T05:15:10.341629+00:00",
-    "0x496378645C864798A2955028d112B959f9807777": "2026-10-04T05:22:24.445446+00:00"
+    "0x496378645C864798A2955028d112B959f9807777": "2026-10-04T05:22:24.445446+00:00",
+    "0x0821df61b58195D21C0C969212C89a2CFFDdb1b2": "2026-10-04T06:32:01.495599+00:00"
   }
 }
