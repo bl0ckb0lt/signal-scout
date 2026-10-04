@@ -3,35 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CRAWL",
-      "chain": "robinhood",
-      "address": "0x36261aa5847F935dfEd7fEf86af3639FA183eB08",
-      "source": "new",
-      "entry_price": 7.028e-05,
-      "peak_price": 0.0001542,
-      "trailing_active": true,
-      "entry_time": "2026-10-04T02:30:57.638801+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 119.41,
-      "peak_volume_m5": 38536.01,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "VAPOR",
       "chain": "ethereum",
       "address": "0x916D29eF5078101fD090c9957b88Ffc56A838709",
       "source": "new",
       "entry_price": 7.976e-05,
-      "peak_price": 7.976e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001202,
+      "trailing_active": true,
       "entry_time": "2026-10-04T02:40:56.936078+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 50.7,
+      "peak_volume_m5": 8341.35,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -233427,6 +233414,28 @@
       "exit_price": 0.0001592,
       "exit_pct": -20.52,
       "exit_time": "2026-10-04T02:21:43.953198+00:00"
+    },
+    {
+      "symbol": "CRAWL",
+      "chain": "robinhood",
+      "address": "0x36261aa5847F935dfEd7fEf86af3639FA183eB08",
+      "source": "new",
+      "entry_price": 7.028e-05,
+      "peak_price": 0.0001542,
+      "trailing_active": true,
+      "entry_time": "2026-10-04T02:30:57.638801+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 88.39,
+      "peak_volume_m5": 55621.38,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0001324,
+      "exit_pct": 88.39,
+      "exit_time": "2026-10-04T02:46:48.043682+00:00"
     }
   ],
   "alerted": {
@@ -245254,6 +245263,7 @@
     "8crP2tYrWiei7M9ANt6CmpwQP8hJiS81znexiuf21111": "2026-10-04T01:32:29.917152+00:00",
     "0x07bcB8E8226f671300e135b4A61Dc157359b7777": "2026-10-04T01:42:57.005750+00:00",
     "0xa72EE5F17eBd137B044815b7781cC944Bea8011E": "2026-10-04T02:08:55.246644+00:00",
-    "7CHR2LVw4kwbR7p1ZRkdDgfysJmWTQXzXuNMrq8rpump": "2026-10-04T02:21:43.953198+00:00"
+    "7CHR2LVw4kwbR7p1ZRkdDgfysJmWTQXzXuNMrq8rpump": "2026-10-04T02:21:43.953198+00:00",
+    "0x36261aa5847F935dfEd7fEf86af3639FA183eB08": "2026-10-04T02:46:48.043682+00:00"
   }
 }
