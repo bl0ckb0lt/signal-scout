@@ -8,33 +8,16 @@
       "address": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
       "source": "new",
       "entry_price": 0.0004593,
-      "peak_price": 0.0004869,
-      "trailing_active": false,
+      "peak_price": 0.0007069,
+      "trailing_active": true,
       "entry_time": "2026-10-04T22:41:05.474234+00:00",
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.01,
-      "peak_volume_m5": 58317.65,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "CLAUS",
-      "chain": "ethereum",
-      "address": "0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-      "source": "new",
-      "entry_price": 5.563e-05,
-      "peak_price": 0.0001216,
-      "trailing_active": true,
-      "entry_time": "2026-10-04T22:41:14.806158+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 118.59,
-      "peak_volume_m5": 20704.84,
+      "current_pct": 53.91,
+      "peak_volume_m5": 69715.63,
       "milestones_hit": [
-        50,
-        100
+        50
       ]
     }
   ],
@@ -235258,6 +235241,29 @@
       "exit_price": 8.132e-05,
       "exit_pct": -43.21,
       "exit_time": "2026-10-04T22:42:16.246384+00:00"
+    },
+    {
+      "symbol": "CLAUS",
+      "chain": "ethereum",
+      "address": "0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
+      "source": "new",
+      "entry_price": 5.563e-05,
+      "peak_price": 0.0002844,
+      "trailing_active": true,
+      "entry_time": "2026-10-04T22:41:14.806158+00:00",
+      "score": 68,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 411.23,
+      "peak_volume_m5": 67215.53,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0002844,
+      "exit_pct": 411.23,
+      "exit_time": "2026-10-04T22:44:55.187079+00:00"
     }
   ],
   "alerted": {
@@ -247179,6 +247185,7 @@
     "0x02c35E271aFB59F34460376B1c9E0923cD481Bc4": "2026-10-04T22:34:53.886045+00:00",
     "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": "2026-10-04T22:35:50.225490+00:00",
     "0xBB4AAddbf5565ca06C5e52c755e7b7c429712986": "2026-10-04T22:39:01.532901+00:00",
-    "8GrmHmLBtMv63QePvZ8mFxEyjL1iv6QAqmp9YTL4pump": "2026-10-04T22:42:16.246384+00:00"
+    "8GrmHmLBtMv63QePvZ8mFxEyjL1iv6QAqmp9YTL4pump": "2026-10-04T22:42:16.246384+00:00",
+    "0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8": "2026-10-04T22:44:55.187079+00:00"
   }
 }
