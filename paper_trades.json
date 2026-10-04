@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Human",
-      "chain": "solana",
-      "address": "8nPoBHiBM6pybxMws9PA2JRb9BjkppBfqcZGmot4DMBC",
-      "source": "new",
-      "entry_price": 0.0006732,
-      "peak_price": 0.0006732,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T21:01:00.290912+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "GRAPHITEBOOM",
       "chain": "robinhood",
       "address": "0xB26A798934a233F0B83665590A54a6f434ecFF95",
       "source": "new",
       "entry_price": 5.286e-05,
-      "peak_price": 5.286e-05,
-      "trailing_active": false,
+      "peak_price": 6.845e-05,
+      "trailing_active": true,
       "entry_time": "2026-10-04T21:01:03.516988+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.49,
+      "peak_volume_m5": 38629.55,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -234955,6 +234947,25 @@
       "exit_price": 0.0006459,
       "exit_pct": -12.05,
       "exit_time": "2026-10-04T20:55:38.414890+00:00"
+    },
+    {
+      "symbol": "Human",
+      "chain": "solana",
+      "address": "8nPoBHiBM6pybxMws9PA2JRb9BjkppBfqcZGmot4DMBC",
+      "source": "new",
+      "entry_price": 0.0006732,
+      "peak_price": 0.0006732,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T21:01:00.290912+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.37,
+      "peak_volume_m5": 278620.59,
+      "milestones_hit": [],
+      "exit_price": 0.0005899,
+      "exit_pct": -12.37,
+      "exit_time": "2026-10-04T21:04:02.801631+00:00"
     }
   ],
   "alerted": {
@@ -246861,6 +246872,7 @@
     "6PHzFRk2BxbBz4WMVV9Ze4HCe1ckA8GszcodpWEdpump": "2026-10-04T20:01:03.491581+00:00",
     "0xA13eAC65f365A78CB9a5bC9af8AfA25A45bF7777": "2026-10-04T20:42:38.944347+00:00",
     "HW6mnfHambF4Hu3oT3PpmRXgeJS7GxDWgZv2XJzcpump": "2026-10-04T20:52:23.162777+00:00",
-    "G939riCWgdnZyRSZwJm44nPr1SocioKcWH41w8JLpump": "2026-10-04T20:55:38.414890+00:00"
+    "G939riCWgdnZyRSZwJm44nPr1SocioKcWH41w8JLpump": "2026-10-04T20:55:38.414890+00:00",
+    "8nPoBHiBM6pybxMws9PA2JRb9BjkppBfqcZGmot4DMBC": "2026-10-04T21:04:02.801631+00:00"
   }
 }
