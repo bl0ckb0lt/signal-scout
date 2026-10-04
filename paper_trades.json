@@ -1,32 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "ROKO",
-      "chain": "solana",
-      "address": "Geb69EBttATHG9jHZqsZRPJTfoNZRRYNdVciE9KEDD9A",
-      "source": "new",
-      "entry_price": 0.0001094,
-      "peak_price": 0.0001094,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T00:31:02.083046+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "PAWS",
-      "chain": "robinhood",
-      "address": "0x3183d125610725E1b507Fc78aE5A16376609495F",
-      "source": "new",
-      "entry_price": 0.00152,
-      "peak_price": 0.00152,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T00:31:03.415021+00:00",
-      "score": 63,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -233149,6 +233124,44 @@
       "exit_price": 0.000112,
       "exit_pct": -14.89,
       "exit_time": "2026-10-04T00:22:20.374920+00:00"
+    },
+    {
+      "symbol": "ROKO",
+      "chain": "solana",
+      "address": "Geb69EBttATHG9jHZqsZRPJTfoNZRRYNdVciE9KEDD9A",
+      "source": "new",
+      "entry_price": 0.0001094,
+      "peak_price": 0.0001094,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T00:31:02.083046+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.74,
+      "peak_volume_m5": 10971.64,
+      "milestones_hit": [],
+      "exit_price": 9.109e-05,
+      "exit_pct": -16.74,
+      "exit_time": "2026-10-04T00:32:41.171015+00:00"
+    },
+    {
+      "symbol": "PAWS",
+      "chain": "robinhood",
+      "address": "0x3183d125610725E1b507Fc78aE5A16376609495F",
+      "source": "new",
+      "entry_price": 0.00152,
+      "peak_price": 0.00152,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T00:31:03.415021+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.2,
+      "peak_volume_m5": 405456.99,
+      "milestones_hit": [],
+      "exit_price": 0.001365,
+      "exit_pct": -10.2,
+      "exit_time": "2026-10-04T00:32:41.977399+00:00"
     }
   ],
   "alerted": {
@@ -244962,6 +244975,8 @@
     "0xf4f7568A3abEfC7378D701DeD7366BF43Cb751A0": "2026-10-03T23:41:58.492354+00:00",
     "doge.neardogecoin.near": "2026-10-04T00:03:21.317445+00:00",
     "0x1404260A90A5C27F0404830682E5Cea2ef59c9a1": "2026-10-04T00:11:50.446407+00:00",
-    "V9zCeRU67pBUXYwKz6A7aL1pXCJBXRVhC3NAWhLpump": "2026-10-04T00:22:20.374920+00:00"
+    "V9zCeRU67pBUXYwKz6A7aL1pXCJBXRVhC3NAWhLpump": "2026-10-04T00:22:20.374920+00:00",
+    "Geb69EBttATHG9jHZqsZRPJTfoNZRRYNdVciE9KEDD9A": "2026-10-04T00:32:41.171015+00:00",
+    "0x3183d125610725E1b507Fc78aE5A16376609495F": "2026-10-04T00:32:41.977399+00:00"
   }
 }
