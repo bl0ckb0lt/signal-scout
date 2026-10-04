@@ -8,39 +8,17 @@
       "address": "0xB26A798934a233F0B83665590A54a6f434ecFF95",
       "source": "new",
       "entry_price": 5.286e-05,
-      "peak_price": 7.325e-05,
+      "peak_price": 9.145e-05,
       "trailing_active": true,
       "entry_time": "2026-10-04T21:01:03.516988+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 38.57,
-      "peak_volume_m5": 44379.94,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SLOP",
-      "chain": "robinhood",
-      "address": "0x16797b0FC2477a25994d338Bd390c5b378aC5b15",
-      "source": "new",
-      "entry_price": 0.0001383,
-      "peak_price": 0.0001383,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T21:11:01.273751+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "NU7",
-      "chain": "solana",
-      "address": "C2pRFgAhBHFoVyWG3pLW8v7yKFsDr6GR5grLpL9Y6Fxp",
-      "source": "new",
-      "entry_price": 0.0001044,
-      "peak_price": 0.0001044,
-      "trailing_active": false,
-      "entry_time": "2026-10-04T21:11:02.887393+00:00",
-      "score": 68,
-      "status": "open"
+      "current_pct": 73.0,
+      "peak_volume_m5": 57921.69,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -234990,6 +234968,44 @@
       "exit_price": 0.0005899,
       "exit_pct": -12.37,
       "exit_time": "2026-10-04T21:04:02.801631+00:00"
+    },
+    {
+      "symbol": "SLOP",
+      "chain": "robinhood",
+      "address": "0x16797b0FC2477a25994d338Bd390c5b378aC5b15",
+      "source": "new",
+      "entry_price": 0.0001383,
+      "peak_price": 0.0001383,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T21:11:01.273751+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.06,
+      "peak_volume_m5": 30628.51,
+      "milestones_hit": [],
+      "exit_price": 0.000123,
+      "exit_pct": -11.06,
+      "exit_time": "2026-10-04T21:12:26.933353+00:00"
+    },
+    {
+      "symbol": "NU7",
+      "chain": "solana",
+      "address": "C2pRFgAhBHFoVyWG3pLW8v7yKFsDr6GR5grLpL9Y6Fxp",
+      "source": "new",
+      "entry_price": 0.0001044,
+      "peak_price": 0.0001044,
+      "trailing_active": false,
+      "entry_time": "2026-10-04T21:11:02.887393+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.51,
+      "peak_volume_m5": 174907.61,
+      "milestones_hit": [],
+      "exit_price": 9.03e-05,
+      "exit_pct": -13.51,
+      "exit_time": "2026-10-04T21:12:27.593103+00:00"
     }
   ],
   "alerted": {
@@ -246897,6 +246913,8 @@
     "0xA13eAC65f365A78CB9a5bC9af8AfA25A45bF7777": "2026-10-04T20:42:38.944347+00:00",
     "HW6mnfHambF4Hu3oT3PpmRXgeJS7GxDWgZv2XJzcpump": "2026-10-04T20:52:23.162777+00:00",
     "G939riCWgdnZyRSZwJm44nPr1SocioKcWH41w8JLpump": "2026-10-04T20:55:38.414890+00:00",
-    "8nPoBHiBM6pybxMws9PA2JRb9BjkppBfqcZGmot4DMBC": "2026-10-04T21:04:02.801631+00:00"
+    "8nPoBHiBM6pybxMws9PA2JRb9BjkppBfqcZGmot4DMBC": "2026-10-04T21:04:02.801631+00:00",
+    "0x16797b0FC2477a25994d338Bd390c5b378aC5b15": "2026-10-04T21:12:26.933353+00:00",
+    "C2pRFgAhBHFoVyWG3pLW8v7yKFsDr6GR5grLpL9Y6Fxp": "2026-10-04T21:12:27.593103+00:00"
   }
 }
