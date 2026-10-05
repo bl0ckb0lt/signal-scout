@@ -8,27 +8,15 @@
       "address": "0xD415F72B2122E3FdF27Dd25C684e0eB9aCFcBC98",
       "source": "new",
       "entry_price": 3.046e-06,
-      "peak_price": 3.481e-06,
-      "trailing_active": false,
+      "peak_price": 3.764e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-05T23:20:59.898905+00:00",
       "score": 67,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.79,
+      "current_pct": 23.57,
       "peak_volume_m5": 375810.31,
       "milestones_hit": []
-    },
-    {
-      "symbol": "INK",
-      "chain": "solana",
-      "address": "7E17FfBVYfQLAdQiSMK3ESNwkiYGdZPTVvB5b5oypump",
-      "source": "new",
-      "entry_price": 0.0001,
-      "peak_price": 0.0001,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T23:31:20.689672+00:00",
-      "score": 63,
-      "status": "open"
     }
   ],
   "closed": [
@@ -237744,6 +237732,25 @@
       "exit_price": 0.0006618,
       "exit_pct": -12.58,
       "exit_time": "2026-10-05T23:23:41.794466+00:00"
+    },
+    {
+      "symbol": "INK",
+      "chain": "solana",
+      "address": "7E17FfBVYfQLAdQiSMK3ESNwkiYGdZPTVvB5b5oypump",
+      "source": "new",
+      "entry_price": 0.0001,
+      "peak_price": 0.0001,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T23:31:20.689672+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.49,
+      "peak_volume_m5": 3844.85,
+      "milestones_hit": [],
+      "exit_price": 8.651e-05,
+      "exit_pct": -13.49,
+      "exit_time": "2026-10-05T23:32:40.478538+00:00"
     }
   ],
   "alerted": {
@@ -249790,6 +249797,7 @@
     "6tNogHW8XKFVZNYfdXrDjmZx3HsFtZtKpboh1b3D23oj": "2026-10-05T23:12:42.225582+00:00",
     "0x2874608EB6C8499Cbb8DCe5490DEAD74338A6472": "2026-10-05T23:14:04.803161+00:00",
     "FMyuTjciDFwusZm8sHjfL9fNh9Mfn1e4MZcGC81Cpump": "2026-10-05T23:15:00.151623+00:00",
-    "EBBJhTFLEueh1G4u52gF2DJaWEV43zqedNSEfLN4pump": "2026-10-05T23:23:41.794466+00:00"
+    "EBBJhTFLEueh1G4u52gF2DJaWEV43zqedNSEfLN4pump": "2026-10-05T23:23:41.794466+00:00",
+    "7E17FfBVYfQLAdQiSMK3ESNwkiYGdZPTVvB5b5oypump": "2026-10-05T23:32:40.478538+00:00"
   }
 }
