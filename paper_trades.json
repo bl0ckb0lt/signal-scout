@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MJ",
-      "chain": "bsc",
-      "address": "0xBd824D3f83c31aB38132BFC76654897C73157777",
-      "source": "new",
-      "entry_price": 0.0003934,
-      "peak_price": 0.0003934,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T09:51:07.533823+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "HIGGS",
       "chain": "robinhood",
       "address": "0xC9Ba3E053733CD027577aa5D23BB630e52Eb8AB0",
       "source": "new",
       "entry_price": 0.0001141,
-      "peak_price": 0.0001141,
-      "trailing_active": false,
+      "peak_price": 0.0001454,
+      "trailing_active": true,
       "entry_time": "2026-10-05T09:51:08.968266+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 27.43,
+      "peak_volume_m5": 27668.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -236203,6 +236195,25 @@
       "exit_price": 6.085e-05,
       "exit_pct": -11.82,
       "exit_time": "2026-10-05T09:25:28.618962+00:00"
+    },
+    {
+      "symbol": "MJ",
+      "chain": "bsc",
+      "address": "0xBd824D3f83c31aB38132BFC76654897C73157777",
+      "source": "new",
+      "entry_price": 0.0003934,
+      "peak_price": 0.0003934,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T09:51:07.533823+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.49,
+      "peak_volume_m5": 9527.41,
+      "milestones_hit": [],
+      "exit_price": 0.0003482,
+      "exit_pct": -11.49,
+      "exit_time": "2026-10-05T09:56:54.678947+00:00"
     }
   ],
   "alerted": {
@@ -248171,6 +248182,7 @@
     "8qfyGBXhN43m8nWcLeTVZVdCVyH554F5gpEWFBAYpump": "2026-10-05T08:40:40.266823+00:00",
     "0x56799D502BDb404E200Ecb8E0143ba77A7a27777": "2026-10-05T08:47:13.156161+00:00",
     "EJ8qTrW6rAu5W7p6xWYNSADeEcjNHGNBx8cMKQrhpump": "2026-10-05T09:22:11.648513+00:00",
-    "0x602121B1F27Abc541BfaD3cbF6740BF64618725E": "2026-10-05T09:25:28.618962+00:00"
+    "0x602121B1F27Abc541BfaD3cbF6740BF64618725E": "2026-10-05T09:25:28.618962+00:00",
+    "0xBd824D3f83c31aB38132BFC76654897C73157777": "2026-10-05T09:56:54.678947+00:00"
   }
 }
