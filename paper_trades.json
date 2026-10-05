@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ANIMA",
-      "chain": "bsc",
-      "address": "0xc5baf7b5c225ace7fa249e8007776689b3337777",
-      "source": "new",
-      "entry_price": 0.0002249,
-      "peak_price": 0.000657,
-      "trailing_active": true,
-      "entry_time": "2026-10-05T14:11:09.455199+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 192.13,
-      "peak_volume_m5": 411389.79,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "IMDT",
       "chain": "ethereum",
       "address": "0x6670a5F01b95EE8b1df6de3F298C99B73E2551b7",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-05T14:21:08.783500+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.98,
+      "peak_volume_m5": 2246.9,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -236703,6 +236688,28 @@
       "exit_price": 7.149e-05,
       "exit_pct": -31.85,
       "exit_time": "2026-10-05T14:13:01.541350+00:00"
+    },
+    {
+      "symbol": "ANIMA",
+      "chain": "bsc",
+      "address": "0xc5baf7b5c225ace7fa249e8007776689b3337777",
+      "source": "new",
+      "entry_price": 0.0002249,
+      "peak_price": 0.000657,
+      "trailing_active": true,
+      "entry_time": "2026-10-05T14:11:09.455199+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 136.51,
+      "peak_volume_m5": 437162.39,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0005319,
+      "exit_pct": 136.51,
+      "exit_time": "2026-10-05T14:22:21.133062+00:00"
     }
   ],
   "alerted": {
@@ -248696,6 +248703,7 @@
     "JNWePghAnPqWMpDvu2Tp1fyCWyxhqEcR6FC3Xjwpump": "2026-10-05T13:45:56.060253+00:00",
     "0x62FBFdfED325ACfBc66BFaF8a6019Fc42f60150F": "2026-10-05T13:59:17.695966+00:00",
     "AwobFK4dFzSdnjwHjzqXguWaUNzeGX8G6Jz2m9H9caSu": "2026-10-05T14:01:07.997202+00:00",
-    "0x1577A206571b57CFeBFFdB358878A1657B13A224": "2026-10-05T14:13:01.541350+00:00"
+    "0x1577A206571b57CFeBFFdB358878A1657B13A224": "2026-10-05T14:13:01.541350+00:00",
+    "0xc5baf7b5c225ace7fa249e8007776689b3337777": "2026-10-05T14:22:21.133062+00:00"
   }
 }
