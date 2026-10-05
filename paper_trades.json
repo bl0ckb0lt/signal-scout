@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AGENBONER",
-      "chain": "solana",
-      "address": "EBBJhTFLEueh1G4u52gF2DJaWEV43zqedNSEfLN4pump",
-      "source": "new",
-      "entry_price": 0.000757,
-      "peak_price": 0.000757,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T23:20:56.527491+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "MEOWKEY",
       "chain": "robinhood",
       "address": "0xD415F72B2122E3FdF27Dd25C684e0eB9aCFcBC98",
       "source": "new",
       "entry_price": 3.046e-06,
-      "peak_price": 3.046e-06,
+      "peak_price": 3.481e-06,
       "trailing_active": false,
       "entry_time": "2026-10-05T23:20:59.898905+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.28,
+      "peak_volume_m5": 155513.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -237721,6 +237713,25 @@
       "exit_price": 0.0005532,
       "exit_pct": 5.33,
       "exit_time": "2026-10-05T23:15:00.151623+00:00"
+    },
+    {
+      "symbol": "AGENBONER",
+      "chain": "solana",
+      "address": "EBBJhTFLEueh1G4u52gF2DJaWEV43zqedNSEfLN4pump",
+      "source": "new",
+      "entry_price": 0.000757,
+      "peak_price": 0.000757,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T23:20:56.527491+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.58,
+      "peak_volume_m5": 175460.7,
+      "milestones_hit": [],
+      "exit_price": 0.0006618,
+      "exit_pct": -12.58,
+      "exit_time": "2026-10-05T23:23:41.794466+00:00"
     }
   ],
   "alerted": {
@@ -249766,6 +249777,7 @@
     "AZpZ5zXzL4qtW6gjwQm4LyTzWjc9dU8PcCH3aB91pump": "2026-10-05T22:52:58.234175+00:00",
     "6tNogHW8XKFVZNYfdXrDjmZx3HsFtZtKpboh1b3D23oj": "2026-10-05T23:12:42.225582+00:00",
     "0x2874608EB6C8499Cbb8DCe5490DEAD74338A6472": "2026-10-05T23:14:04.803161+00:00",
-    "FMyuTjciDFwusZm8sHjfL9fNh9Mfn1e4MZcGC81Cpump": "2026-10-05T23:15:00.151623+00:00"
+    "FMyuTjciDFwusZm8sHjfL9fNh9Mfn1e4MZcGC81Cpump": "2026-10-05T23:15:00.151623+00:00",
+    "EBBJhTFLEueh1G4u52gF2DJaWEV43zqedNSEfLN4pump": "2026-10-05T23:23:41.794466+00:00"
   }
 }
