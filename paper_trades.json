@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ETH",
-      "chain": "ethereum",
-      "address": "0x1577A206571b57CFeBFFdB358878A1657B13A224",
-      "source": "new",
-      "entry_price": 0.0001049,
-      "peak_price": 0.0001049,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T14:11:07.782734+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "ANIMA",
       "chain": "bsc",
       "address": "0xc5baf7b5c225ace7fa249e8007776689b3337777",
       "source": "new",
       "entry_price": 0.0002249,
-      "peak_price": 0.0002249,
-      "trailing_active": false,
+      "peak_price": 0.0002765,
+      "trailing_active": true,
       "entry_time": "2026-10-05T14:11:09.455199+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.94,
+      "peak_volume_m5": 69923.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -236677,6 +236669,25 @@
       "exit_price": 0.000112,
       "exit_pct": -2.52,
       "exit_time": "2026-10-05T14:01:07.997202+00:00"
+    },
+    {
+      "symbol": "ETH",
+      "chain": "ethereum",
+      "address": "0x1577A206571b57CFeBFFdB358878A1657B13A224",
+      "source": "new",
+      "entry_price": 0.0001049,
+      "peak_price": 0.0001049,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T14:11:07.782734+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.85,
+      "peak_volume_m5": 41647.18,
+      "milestones_hit": [],
+      "exit_price": 7.149e-05,
+      "exit_pct": -31.85,
+      "exit_time": "2026-10-05T14:13:01.541350+00:00"
     }
   ],
   "alerted": {
@@ -248669,6 +248680,7 @@
     "3K1U9rwWVFhSXoVJqJfLoujKpkn85Cve3T8mZuq4pump": "2026-10-05T13:45:02.253046+00:00",
     "JNWePghAnPqWMpDvu2Tp1fyCWyxhqEcR6FC3Xjwpump": "2026-10-05T13:45:56.060253+00:00",
     "0x62FBFdfED325ACfBc66BFaF8a6019Fc42f60150F": "2026-10-05T13:59:17.695966+00:00",
-    "AwobFK4dFzSdnjwHjzqXguWaUNzeGX8G6Jz2m9H9caSu": "2026-10-05T14:01:07.997202+00:00"
+    "AwobFK4dFzSdnjwHjzqXguWaUNzeGX8G6Jz2m9H9caSu": "2026-10-05T14:01:07.997202+00:00",
+    "0x1577A206571b57CFeBFFdB358878A1657B13A224": "2026-10-05T14:13:01.541350+00:00"
   }
 }
