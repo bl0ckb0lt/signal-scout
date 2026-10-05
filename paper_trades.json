@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BRAM",
-      "chain": "solana",
-      "address": "DGY5pQ94LCKYjPLKqbUscvJPH5En5j4htHQcuL35pump",
-      "source": "new",
-      "entry_price": 0.0001403,
-      "peak_price": 0.0001403,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T03:21:07.417109+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "JETPACK",
       "chain": "solana",
       "address": "37vV3bR2ewPZL9CWPn3atGWao3qLD3uUkYAxpLqJpump",
       "source": "new",
       "entry_price": 0.0001173,
-      "peak_price": 0.0001173,
+      "peak_price": 0.0001245,
       "trailing_active": false,
       "entry_time": "2026-10-05T03:21:09.025155+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.14,
+      "peak_volume_m5": 19535.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -235683,6 +235675,25 @@
       "exit_price": 9.738e-06,
       "exit_pct": 137.17,
       "exit_time": "2026-10-05T03:17:35.818978+00:00"
+    },
+    {
+      "symbol": "BRAM",
+      "chain": "solana",
+      "address": "DGY5pQ94LCKYjPLKqbUscvJPH5En5j4htHQcuL35pump",
+      "source": "new",
+      "entry_price": 0.0001403,
+      "peak_price": 0.0001403,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T03:21:07.417109+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -97.93,
+      "peak_volume_m5": 343990.81,
+      "milestones_hit": [],
+      "exit_price": 2.908e-06,
+      "exit_pct": -97.93,
+      "exit_time": "2026-10-05T03:22:00.139235+00:00"
     }
   ],
   "alerted": {
@@ -247626,6 +247637,7 @@
     "DCPHkFepQeetS5pytaDgkcktQ5M8XL4y2v3dojkWpump": "2026-10-05T02:42:38.987768+00:00",
     "0x1d2dad86bE884940c233378DD3373Fc494b17777": "2026-10-05T02:44:24.718799+00:00",
     "6HFJ5sxVoEtczr9siAUeGssmpfhQSS3pEoBcCycUpump": "2026-10-05T03:15:51.628864+00:00",
-    "0xddA5512beF94b374AC9d846E04F52b88F603deE4": "2026-10-05T03:17:35.818978+00:00"
+    "0xddA5512beF94b374AC9d846E04F52b88F603deE4": "2026-10-05T03:17:35.818978+00:00",
+    "DGY5pQ94LCKYjPLKqbUscvJPH5En5j4htHQcuL35pump": "2026-10-05T03:22:00.139235+00:00"
   }
 }
