@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "STP",
-      "chain": "robinhood",
-      "address": "0x62FBFdfED325ACfBc66BFaF8a6019Fc42f60150F",
-      "source": "new",
-      "entry_price": 0.0001385,
-      "peak_price": 0.0001385,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T13:51:06.620832+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
       "symbol": "CORGI",
       "chain": "solana",
       "address": "AwobFK4dFzSdnjwHjzqXguWaUNzeGX8G6Jz2m9H9caSu",
       "source": "new",
       "entry_price": 0.0001149,
-      "peak_price": 0.0001149,
-      "trailing_active": false,
+      "peak_price": 0.0001689,
+      "trailing_active": true,
       "entry_time": "2026-10-05T13:51:08.286151+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 47.0,
+      "peak_volume_m5": 70009.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -236639,6 +236631,25 @@
       "exit_price": 8.121e-05,
       "exit_pct": -22.95,
       "exit_time": "2026-10-05T13:45:56.060253+00:00"
+    },
+    {
+      "symbol": "STP",
+      "chain": "robinhood",
+      "address": "0x62FBFdfED325ACfBc66BFaF8a6019Fc42f60150F",
+      "source": "new",
+      "entry_price": 0.0001385,
+      "peak_price": 0.0001385,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T13:51:06.620832+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.78,
+      "peak_volume_m5": 56925.24,
+      "milestones_hit": [],
+      "exit_price": 0.0001111,
+      "exit_pct": -19.78,
+      "exit_time": "2026-10-05T13:59:17.695966+00:00"
     }
   ],
   "alerted": {
@@ -248629,6 +248640,7 @@
     "0xB1b798c76a9F7BC6f5002DD72C23cF0d64b76666": "2026-10-05T13:43:52.303028+00:00",
     "CyDJMENR6Sbtwj4erhuARNa5cNbeK92GpNAGyXLVpump": "2026-10-05T13:43:55.158084+00:00",
     "3K1U9rwWVFhSXoVJqJfLoujKpkn85Cve3T8mZuq4pump": "2026-10-05T13:45:02.253046+00:00",
-    "JNWePghAnPqWMpDvu2Tp1fyCWyxhqEcR6FC3Xjwpump": "2026-10-05T13:45:56.060253+00:00"
+    "JNWePghAnPqWMpDvu2Tp1fyCWyxhqEcR6FC3Xjwpump": "2026-10-05T13:45:56.060253+00:00",
+    "0x62FBFdfED325ACfBc66BFaF8a6019Fc42f60150F": "2026-10-05T13:59:17.695966+00:00"
   }
 }
