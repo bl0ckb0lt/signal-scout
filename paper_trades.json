@@ -3,36 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CZ",
-      "chain": "bsc",
-      "address": "0xB1b798c76a9F7BC6f5002DD72C23cF0d64b76666",
-      "source": "new",
-      "entry_price": 6.081e-05,
-      "peak_price": 8.248e-05,
-      "trailing_active": true,
-      "entry_time": "2026-10-05T13:31:04.980466+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 35.64,
-      "peak_volume_m5": 12835.08,
-      "milestones_hit": []
-    },
-    {
       "symbol": "NEWS",
       "chain": "solana",
       "address": "3K1U9rwWVFhSXoVJqJfLoujKpkn85Cve3T8mZuq4pump",
       "source": "new",
       "entry_price": 0.0001028,
-      "peak_price": 0.0001527,
+      "peak_price": 0.0002203,
       "trailing_active": true,
       "entry_time": "2026-10-05T13:31:11.109729+00:00",
       "score": 59,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 48.54,
-      "peak_volume_m5": 10775.76,
-      "milestones_hit": []
+      "current_pct": 114.3,
+      "peak_volume_m5": 16357.09,
+      "milestones_hit": [
+        50,
+        100
+      ]
     },
     {
       "symbol": "OFF",
@@ -40,23 +27,15 @@
       "address": "JNWePghAnPqWMpDvu2Tp1fyCWyxhqEcR6FC3Xjwpump",
       "source": "boost",
       "entry_price": 0.0001054,
-      "peak_price": 0.0001054,
-      "trailing_active": false,
+      "peak_price": 0.0001221,
+      "trailing_active": true,
       "entry_time": "2026-10-05T13:41:14.340049+00:00",
       "score": 84,
-      "status": "open"
-    },
-    {
-      "symbol": "jelly",
-      "chain": "solana",
-      "address": "CyDJMENR6Sbtwj4erhuARNa5cNbeK92GpNAGyXLVpump",
-      "source": "new",
-      "entry_price": 0.0004988,
-      "peak_price": 0.0004988,
-      "trailing_active": false,
-      "entry_time": "2026-10-05T13:41:24.960183+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.84,
+      "peak_volume_m5": 9904.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -236588,6 +236567,48 @@
       "exit_price": 8.173e-05,
       "exit_pct": -39.64,
       "exit_time": "2026-10-05T13:28:15.610128+00:00"
+    },
+    {
+      "symbol": "CZ",
+      "chain": "bsc",
+      "address": "0xB1b798c76a9F7BC6f5002DD72C23cF0d64b76666",
+      "source": "new",
+      "entry_price": 6.081e-05,
+      "peak_price": 0.0002355,
+      "trailing_active": true,
+      "entry_time": "2026-10-05T13:31:04.980466+00:00",
+      "score": 76,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 287.27,
+      "peak_volume_m5": 93551.91,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0002355,
+      "exit_pct": 287.27,
+      "exit_time": "2026-10-05T13:43:52.303028+00:00"
+    },
+    {
+      "symbol": "jelly",
+      "chain": "solana",
+      "address": "CyDJMENR6Sbtwj4erhuARNa5cNbeK92GpNAGyXLVpump",
+      "source": "new",
+      "entry_price": 0.0004988,
+      "peak_price": 0.0004988,
+      "trailing_active": false,
+      "entry_time": "2026-10-05T13:41:24.960183+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.24,
+      "peak_volume_m5": 31143.4,
+      "milestones_hit": [],
+      "exit_price": 0.0004477,
+      "exit_pct": -10.24,
+      "exit_time": "2026-10-05T13:43:55.158084+00:00"
     }
   ],
   "alerted": {
@@ -248574,6 +248595,8 @@
     "0xd1AAF85e66a9FF756F3b7E2179Ecc1c7747B6293": "2026-10-05T13:12:16.088021+00:00",
     "6YuVyHbjdwxiH1CLCSusP9yjXmsVvQfcTbSSPcFuXDew": "2026-10-05T13:14:46.137111+00:00",
     "0x01f7748D1A3543ad3f9e71B2fbDc10c00688E7F5": "2026-10-05T13:22:46.069835+00:00",
-    "DzD3mrf5dQ9TunsDbfNAJMtkr98YYNzFxnzZ1Kwkpump": "2026-10-05T13:28:15.610128+00:00"
+    "DzD3mrf5dQ9TunsDbfNAJMtkr98YYNzFxnzZ1Kwkpump": "2026-10-05T13:28:15.610128+00:00",
+    "0xB1b798c76a9F7BC6f5002DD72C23cF0d64b76666": "2026-10-05T13:43:52.303028+00:00",
+    "CyDJMENR6Sbtwj4erhuARNa5cNbeK92GpNAGyXLVpump": "2026-10-05T13:43:55.158084+00:00"
   }
 }
