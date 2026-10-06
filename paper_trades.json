@@ -8,23 +8,15 @@
       "address": "B3DE8d6CpEF2YBMpxY3Lshj6n8hkz9aSVU451c5Jpump",
       "source": "new",
       "entry_price": 0.0001021,
-      "peak_price": 0.0001021,
-      "trailing_active": false,
+      "peak_price": 0.0001189,
+      "trailing_active": true,
       "entry_time": "2026-10-06T13:31:07.662685+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "RALLY",
-      "chain": "solana",
-      "address": "ATFfPFdu7E9PnwKfBJrffpBGqRcbhhSQibS9hmqEpump",
-      "source": "new",
-      "entry_price": 0.0001361,
-      "peak_price": 0.0001361,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T13:31:09.347867+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.45,
+      "peak_volume_m5": 42454.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -238702,6 +238694,25 @@
       "exit_price": 0.001557,
       "exit_pct": -18.4,
       "exit_time": "2026-10-06T12:32:55.071950+00:00"
+    },
+    {
+      "symbol": "RALLY",
+      "chain": "solana",
+      "address": "ATFfPFdu7E9PnwKfBJrffpBGqRcbhhSQibS9hmqEpump",
+      "source": "new",
+      "entry_price": 0.0001361,
+      "peak_price": 0.0001361,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T13:31:09.347867+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -57.24,
+      "peak_volume_m5": 115646.75,
+      "milestones_hit": [],
+      "exit_price": 5.819e-05,
+      "exit_pct": -57.24,
+      "exit_time": "2026-10-06T13:32:28.523177+00:00"
     }
   ],
   "alerted": {
@@ -250797,6 +250808,7 @@
     "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump": "2026-10-06T11:55:57.268146+00:00",
     "9HoxS7MDj4TxbQNW56KNdkUKXeYtQWNdeJMetErKpump": "2026-10-06T12:12:44.019451+00:00",
     "3riwxZT1GC3RikZoHBTDKXLw3G5GUginEckrmDzppump": "2026-10-06T12:13:41.166692+00:00",
-    "0xe4f7A1B03a71330a267379B5008B392A400426FF": "2026-10-06T12:32:55.071950+00:00"
+    "0xe4f7A1B03a71330a267379B5008B392A400426FF": "2026-10-06T12:32:55.071950+00:00",
+    "ATFfPFdu7E9PnwKfBJrffpBGqRcbhhSQibS9hmqEpump": "2026-10-06T13:32:28.523177+00:00"
   }
 }
