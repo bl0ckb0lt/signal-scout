@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ASCENT",
-      "chain": "solana",
-      "address": "7RF5LBpcaUfMNz9AMvViZ1Dk3esaecLV67KJWhsypump",
-      "source": "new",
-      "entry_price": 0.0002808,
-      "peak_price": 0.0002863,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T19:01:00.285208+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.96,
-      "peak_volume_m5": 26266.49,
-      "milestones_hit": []
-    },
-    {
       "symbol": "MAYA",
       "chain": "solana",
       "address": "G3qBoUnuB27HDBYZUxmSE53W3CN7E6DLNs97vSCipump",
@@ -30,8 +14,8 @@
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.6,
-      "peak_volume_m5": 20106.74,
+      "current_pct": 0.27,
+      "peak_volume_m5": 23914.25,
       "milestones_hit": []
     },
     {
@@ -40,31 +24,17 @@
       "address": "39ahtL8ynzE4amH26J29C93PA5172V3ft9UuUcqQS8fz",
       "source": "new",
       "entry_price": 0.0001204,
-      "peak_price": 0.0001615,
+      "peak_price": 0.0001901,
       "trailing_active": true,
       "entry_time": "2026-10-06T19:01:08.914585+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 34.14,
-      "peak_volume_m5": 27599.97,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "GEM",
-      "chain": "ethereum",
-      "address": "0x85D53bd18632642548E72f63b55674e4AA7EFDD8",
-      "source": "new",
-      "entry_price": 6.247e-05,
-      "peak_price": 8.878e-05,
-      "trailing_active": true,
-      "entry_time": "2026-10-06T19:01:10.832868+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 42.12,
-      "peak_volume_m5": 13736.23,
-      "milestones_hit": []
+      "current_pct": 57.89,
+      "peak_volume_m5": 38407.49,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -239539,6 +239509,44 @@
       "exit_price": 9.967e-05,
       "exit_pct": -34.3,
       "exit_time": "2026-10-06T19:02:54.871956+00:00"
+    },
+    {
+      "symbol": "ASCENT",
+      "chain": "solana",
+      "address": "7RF5LBpcaUfMNz9AMvViZ1Dk3esaecLV67KJWhsypump",
+      "source": "new",
+      "entry_price": 0.0002808,
+      "peak_price": 0.0002863,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T19:01:00.285208+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.54,
+      "peak_volume_m5": 26266.49,
+      "milestones_hit": [],
+      "exit_price": 0.0002512,
+      "exit_pct": -10.54,
+      "exit_time": "2026-10-06T19:03:54.591478+00:00"
+    },
+    {
+      "symbol": "GEM",
+      "chain": "ethereum",
+      "address": "0x85D53bd18632642548E72f63b55674e4AA7EFDD8",
+      "source": "new",
+      "entry_price": 6.247e-05,
+      "peak_price": 8.878e-05,
+      "trailing_active": true,
+      "entry_time": "2026-10-06T19:01:10.832868+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 16.73,
+      "peak_volume_m5": 14441.17,
+      "milestones_hit": [],
+      "exit_price": 7.292e-05,
+      "exit_pct": 16.73,
+      "exit_time": "2026-10-06T19:03:56.500076+00:00"
     }
   ],
   "alerted": {
@@ -251675,6 +251683,8 @@
     "BZ8pkWUs4TjboT2xHRCwg3o6PK8xkvmNewvqMyyfpump": "2026-10-06T18:52:28.963489+00:00",
     "0x7d265a52aF142FEc10aC3fD256d2c93a2dE485cc": "2026-10-06T18:52:29.772568+00:00",
     "EcoVsK4idXACxYY4Sndof3LHzbqLt8cwxArPCbCptitP": "2026-10-06T19:02:54.207299+00:00",
-    "0x774b967c3406a909C5C24038a91a731bD7d57777": "2026-10-06T19:02:54.871956+00:00"
+    "0x774b967c3406a909C5C24038a91a731bD7d57777": "2026-10-06T19:02:54.871956+00:00",
+    "7RF5LBpcaUfMNz9AMvViZ1Dk3esaecLV67KJWhsypump": "2026-10-06T19:03:54.591478+00:00",
+    "0x85D53bd18632642548E72f63b55674e4AA7EFDD8": "2026-10-06T19:03:56.500076+00:00"
   }
 }
