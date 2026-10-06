@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CBCAP",
-      "chain": "robinhood",
-      "address": "0x5DfD34055502092A88a158E9A0784E0F9432db98",
-      "source": "new",
-      "entry_price": 1.887e-05,
-      "peak_price": 2.083e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T00:01:03.757383+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 10.39,
-      "peak_volume_m5": 53418.71,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BULLCZ",
       "chain": "bsc",
       "address": "0x71e0e058631A055fC879121F558beEcae80c1710",
       "source": "new",
       "entry_price": 0.0005067,
-      "peak_price": 0.0005067,
-      "trailing_active": false,
+      "peak_price": 0.0006258,
+      "trailing_active": true,
       "entry_time": "2026-10-06T00:11:07.677519+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.51,
+      "peak_volume_m5": 45426.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -237825,6 +237813,25 @@
       "exit_price": 3.8e-05,
       "exit_pct": -66.43,
       "exit_time": "2026-10-05T23:55:32.395788+00:00"
+    },
+    {
+      "symbol": "CBCAP",
+      "chain": "robinhood",
+      "address": "0x5DfD34055502092A88a158E9A0784E0F9432db98",
+      "source": "new",
+      "entry_price": 1.887e-05,
+      "peak_price": 2.083e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T00:01:03.757383+00:00",
+      "score": 82,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 6.94,
+      "peak_volume_m5": 53418.71,
+      "milestones_hit": [],
+      "exit_price": 2.018e-05,
+      "exit_pct": 6.94,
+      "exit_time": "2026-10-06T00:17:51.878332+00:00"
     }
   ],
   "alerted": {
@@ -249875,6 +249882,7 @@
     "7E17FfBVYfQLAdQiSMK3ESNwkiYGdZPTVvB5b5oypump": "2026-10-05T23:32:40.478538+00:00",
     "0xD415F72B2122E3FdF27Dd25C684e0eB9aCFcBC98": "2026-10-05T23:52:23.755594+00:00",
     "3JaBGAQ9hndQwdUyGkD1i1DCtiCTEBoPVY7tuWdMariK": "2026-10-05T23:53:03.339088+00:00",
-    "0x897d151787ca84994ac8df68500f17e587794796": "2026-10-05T23:55:32.395788+00:00"
+    "0x897d151787ca84994ac8df68500f17e587794796": "2026-10-05T23:55:32.395788+00:00",
+    "0x5DfD34055502092A88a158E9A0784E0F9432db98": "2026-10-06T00:17:51.878332+00:00"
   }
 }
