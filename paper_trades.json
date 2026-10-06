@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "phubber",
-      "chain": "solana",
-      "address": "CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump",
-      "source": "new",
-      "entry_price": 0.0006327,
-      "peak_price": 0.001283,
-      "trailing_active": true,
-      "entry_time": "2026-10-06T00:31:00.675898+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 102.78,
-      "peak_volume_m5": 649195.73,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "HOODCHAN",
       "chain": "robinhood",
       "address": "0xc38C332012a9116dcadE0c7F43B5D3C71799A9F8",
@@ -33,33 +14,9 @@
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.63,
+      "current_pct": -0.77,
       "peak_volume_m5": 279387.55,
       "milestones_hit": []
-    },
-    {
-      "symbol": "NEURALS",
-      "chain": "solana",
-      "address": "55ApVwM9ARY2YD34UmiqikM7bFSmVatwJ4BYMGNzpump",
-      "source": "new",
-      "entry_price": 0.0002655,
-      "peak_price": 0.0002655,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T00:40:59.965010+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "ZKBNB",
-      "chain": "bsc",
-      "address": "0xe3E96140f464196440959439CA42F01F986a7777",
-      "source": "new",
-      "entry_price": 0.0002171,
-      "peak_price": 0.0002171,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T00:41:03.346660+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -237894,6 +237851,66 @@
       "exit_price": 0.0006164,
       "exit_pct": 21.65,
       "exit_time": "2026-10-06T00:31:38.711807+00:00"
+    },
+    {
+      "symbol": "phubber",
+      "chain": "solana",
+      "address": "CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump",
+      "source": "new",
+      "entry_price": 0.0006327,
+      "peak_price": 0.001283,
+      "trailing_active": true,
+      "entry_time": "2026-10-06T00:31:00.675898+00:00",
+      "score": 80,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 85.08,
+      "peak_volume_m5": 692398.94,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.001171,
+      "exit_pct": 85.08,
+      "exit_time": "2026-10-06T00:42:07.764665+00:00"
+    },
+    {
+      "symbol": "NEURALS",
+      "chain": "solana",
+      "address": "55ApVwM9ARY2YD34UmiqikM7bFSmVatwJ4BYMGNzpump",
+      "source": "new",
+      "entry_price": 0.0002655,
+      "peak_price": 0.0002655,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T00:40:59.965010+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.4,
+      "peak_volume_m5": 81781.18,
+      "milestones_hit": [],
+      "exit_price": 0.000214,
+      "exit_pct": -19.4,
+      "exit_time": "2026-10-06T00:42:08.862537+00:00"
+    },
+    {
+      "symbol": "ZKBNB",
+      "chain": "bsc",
+      "address": "0xe3E96140f464196440959439CA42F01F986a7777",
+      "source": "new",
+      "entry_price": 0.0002171,
+      "peak_price": 0.0002171,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T00:41:03.346660+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.82,
+      "peak_volume_m5": 137293.31,
+      "milestones_hit": [],
+      "exit_price": 0.0001936,
+      "exit_pct": -10.82,
+      "exit_time": "2026-10-06T00:42:09.542140+00:00"
     }
   ],
   "alerted": {
@@ -249946,6 +249963,9 @@
     "3JaBGAQ9hndQwdUyGkD1i1DCtiCTEBoPVY7tuWdMariK": "2026-10-05T23:53:03.339088+00:00",
     "0x897d151787ca84994ac8df68500f17e587794796": "2026-10-05T23:55:32.395788+00:00",
     "0x5DfD34055502092A88a158E9A0784E0F9432db98": "2026-10-06T00:17:51.878332+00:00",
-    "0x71e0e058631A055fC879121F558beEcae80c1710": "2026-10-06T00:31:38.711807+00:00"
+    "0x71e0e058631A055fC879121F558beEcae80c1710": "2026-10-06T00:31:38.711807+00:00",
+    "CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump": "2026-10-06T00:42:07.764665+00:00",
+    "55ApVwM9ARY2YD34UmiqikM7bFSmVatwJ4BYMGNzpump": "2026-10-06T00:42:08.862537+00:00",
+    "0xe3E96140f464196440959439CA42F01F986a7777": "2026-10-06T00:42:09.542140+00:00"
   }
 }
