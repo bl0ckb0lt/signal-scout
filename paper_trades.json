@@ -14,28 +14,9 @@
       "score": 96,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 29.88,
+      "current_pct": 27.75,
       "peak_volume_m5": 82011.58,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AXD",
-      "chain": "robinhood",
-      "address": "0x5c3507d622F06dd6383944D2FC576fC9Ddfb585D",
-      "source": "new",
-      "entry_price": 0.0006628,
-      "peak_price": 0.00155,
-      "trailing_active": true,
-      "entry_time": "2026-10-06T03:11:01.264104+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 133.86,
-      "peak_volume_m5": 168918.89,
-      "milestones_hit": [
-        50,
-        100
-      ]
     },
     {
       "symbol": "CLSTR",
@@ -43,15 +24,17 @@
       "address": "0xc23a1AfC62ED008461051442bc27763d8FBA2D5B",
       "source": "new",
       "entry_price": 5.182e-05,
-      "peak_price": 6.923e-05,
+      "peak_price": 7.945e-05,
       "trailing_active": true,
       "entry_time": "2026-10-06T03:11:09.688290+00:00",
       "score": 69,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 33.6,
-      "peak_volume_m5": 847.69,
-      "milestones_hit": []
+      "current_pct": 53.32,
+      "peak_volume_m5": 1432.92,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -238119,6 +238102,28 @@
       "exit_price": 0.0001926,
       "exit_pct": 7.78,
       "exit_time": "2026-10-06T03:08:26.182587+00:00"
+    },
+    {
+      "symbol": "AXD",
+      "chain": "robinhood",
+      "address": "0x5c3507d622F06dd6383944D2FC576fC9Ddfb585D",
+      "source": "new",
+      "entry_price": 0.0006628,
+      "peak_price": 0.00155,
+      "trailing_active": true,
+      "entry_time": "2026-10-06T03:11:01.264104+00:00",
+      "score": 87,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 120.58,
+      "peak_volume_m5": 168918.89,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.001462,
+      "exit_pct": 120.58,
+      "exit_time": "2026-10-06T03:23:51.486941+00:00"
     }
   ],
   "alerted": {
@@ -250183,6 +250188,7 @@
     "0xF3764688D2A2B55e5f4374710fd044044bb6274c": "2026-10-06T03:04:51.610528+00:00",
     "0x8028602097231194d1E455C274eEcC8FE1e29110": "2026-10-06T03:04:53.728652+00:00",
     "FzPujTgKNJVim7YYa5HYHngGtf19QwV6ACJ1zDLWpump": "2026-10-06T03:05:49.582865+00:00",
-    "0x73C071f1Daa690219F69Bc9d4296052a151e786C": "2026-10-06T03:08:26.182587+00:00"
+    "0x73C071f1Daa690219F69Bc9d4296052a151e786C": "2026-10-06T03:08:26.182587+00:00",
+    "0x5c3507d622F06dd6383944D2FC576fC9Ddfb585D": "2026-10-06T03:23:51.486941+00:00"
   }
 }
