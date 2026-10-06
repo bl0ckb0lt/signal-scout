@@ -8,23 +8,15 @@
       "address": "0x3DF677Cd3B1F1671Bf262c090603BcD5a08B9040",
       "source": "new",
       "entry_price": 0.0002939,
-      "peak_price": 0.0002939,
-      "trailing_active": false,
+      "peak_price": 0.000354,
+      "trailing_active": true,
       "entry_time": "2026-10-06T15:11:10.749768+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "POCKET",
-      "chain": "bsc",
-      "address": "0x6A480074F0CbF8c2D99E2d6a8aD4cCe4CAf17777",
-      "source": "new",
-      "entry_price": 0.0001706,
-      "peak_price": 0.0001706,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T15:11:12.405741+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.45,
+      "peak_volume_m5": 34929.44,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -238879,6 +238871,25 @@
       "exit_price": 0.0007818,
       "exit_pct": -12.48,
       "exit_time": "2026-10-06T15:03:31.026847+00:00"
+    },
+    {
+      "symbol": "POCKET",
+      "chain": "bsc",
+      "address": "0x6A480074F0CbF8c2D99E2d6a8aD4cCe4CAf17777",
+      "source": "new",
+      "entry_price": 0.0001706,
+      "peak_price": 0.0001706,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T15:11:12.405741+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.3,
+      "peak_volume_m5": 50394.14,
+      "milestones_hit": [],
+      "exit_price": 0.0001445,
+      "exit_pct": -15.3,
+      "exit_time": "2026-10-06T15:12:46.216074+00:00"
     }
   ],
   "alerted": {
@@ -250983,6 +250994,7 @@
     "0x86C8b6b507f2535acD2b547eA52C813cF48B7777": "2026-10-06T14:42:53.648645+00:00",
     "21fX473LMyHnCYb4kvAUG4z4bGYpqTbp9vyakDPgs9Hm": "2026-10-06T14:52:48.536841+00:00",
     "FeAWY9L9hr82TvTuEyi328V9FP7GxVuGLx7xNg6kzWVa": "2026-10-06T14:58:15.030413+00:00",
-    "0x9B42401D1d396b3167D3896B7B38ab43e66396B7": "2026-10-06T15:03:31.026847+00:00"
+    "0x9B42401D1d396b3167D3896B7B38ab43e66396B7": "2026-10-06T15:03:31.026847+00:00",
+    "0x6A480074F0CbF8c2D99E2d6a8aD4cCe4CAf17777": "2026-10-06T15:12:46.216074+00:00"
   }
 }
