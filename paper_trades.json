@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AGENCY",
-      "chain": "solana",
-      "address": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
-      "source": "boost",
-      "entry_price": 0.0001314,
-      "peak_price": 0.0001314,
-      "trailing_active": false,
-      "entry_time": "2026-10-06T03:50:50.549460+00:00",
-      "score": 84,
-      "status": "open"
-    },
-    {
       "symbol": "BAND",
       "chain": "solana",
       "address": "5ngVCYuaNwDDcQd5nhbPi7PrqrUFZRQs1DN3i9Lspump",
       "source": "new",
       "entry_price": 0.0001916,
-      "peak_price": 0.0001916,
-      "trailing_active": false,
+      "peak_price": 0.0002412,
+      "trailing_active": true,
       "entry_time": "2026-10-06T03:50:53.903365+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 25.89,
+      "peak_volume_m5": 8311.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -238154,6 +238146,25 @@
       "exit_price": 0.01686,
       "exit_pct": 19.66,
       "exit_time": "2026-10-06T03:43:54.070788+00:00"
+    },
+    {
+      "symbol": "AGENCY",
+      "chain": "solana",
+      "address": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
+      "source": "boost",
+      "entry_price": 0.0001314,
+      "peak_price": 0.0001314,
+      "trailing_active": false,
+      "entry_time": "2026-10-06T03:50:50.549460+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.37,
+      "peak_volume_m5": 41852.62,
+      "milestones_hit": [],
+      "exit_price": 0.0001112,
+      "exit_pct": -15.37,
+      "exit_time": "2026-10-06T03:53:39.200081+00:00"
     }
   ],
   "alerted": {
@@ -250221,6 +250232,7 @@
     "0x73C071f1Daa690219F69Bc9d4296052a151e786C": "2026-10-06T03:08:26.182587+00:00",
     "0x5c3507d622F06dd6383944D2FC576fC9Ddfb585D": "2026-10-06T03:23:51.486941+00:00",
     "0xc23a1AfC62ED008461051442bc27763d8FBA2D5B": "2026-10-06T03:24:39.302150+00:00",
-    "0x224a794031d54e49B46919Ade2C55FF255dFDd97": "2026-10-06T03:43:54.070788+00:00"
+    "0x224a794031d54e49B46919Ade2C55FF255dFDd97": "2026-10-06T03:43:54.070788+00:00",
+    "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump": "2026-10-06T03:53:39.200081+00:00"
   }
 }
