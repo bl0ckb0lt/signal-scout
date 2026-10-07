@@ -8,23 +8,15 @@
       "address": "0xA9188c9f5A5a1f8191b8679cea5f1D020f483F22",
       "source": "new",
       "entry_price": 1.118e-06,
-      "peak_price": 1.118e-06,
+      "peak_price": 1.26e-06,
       "trailing_active": false,
       "entry_time": "2026-10-07T12:21:12.123143+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "AUTONCH",
-      "chain": "solana",
-      "address": "G5Xe1XnUnASPTJBacmG5Vn6x1zjtEf1xJepyc1Kkpump",
-      "source": "new",
-      "entry_price": 0.0001172,
-      "peak_price": 0.0001172,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T12:21:14.234349+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.7,
+      "peak_volume_m5": 128549.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -240853,6 +240845,25 @@
       "exit_price": 0.0003213,
       "exit_pct": -29.4,
       "exit_time": "2026-10-07T11:42:20.435499+00:00"
+    },
+    {
+      "symbol": "AUTONCH",
+      "chain": "solana",
+      "address": "G5Xe1XnUnASPTJBacmG5Vn6x1zjtEf1xJepyc1Kkpump",
+      "source": "new",
+      "entry_price": 0.0001172,
+      "peak_price": 0.0001172,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T12:21:14.234349+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.96,
+      "peak_volume_m5": 266150.42,
+      "milestones_hit": [],
+      "exit_price": 7.623e-05,
+      "exit_pct": -34.96,
+      "exit_time": "2026-10-07T12:22:35.773042+00:00"
     }
   ],
   "alerted": {
@@ -253058,6 +253069,7 @@
     "0x76fDEEB659D8A5aEB8b2B7295732fCe1c65Bbd71": "2026-10-07T10:24:10.509002+00:00",
     "9yfiomKJ2fdHiZQ3MK9AJniu8eR2eSjCzfMEo1zXpump": "2026-10-07T10:27:52.415030+00:00",
     "0xeb60217C14e6Aa6BE434429240622193fCDde208": "2026-10-07T11:12:53.481702+00:00",
-    "AXpyuszGu835wkqxUU1gCH8AwDYB9q5yfpqEYNaipump": "2026-10-07T11:42:20.435499+00:00"
+    "AXpyuszGu835wkqxUU1gCH8AwDYB9q5yfpqEYNaipump": "2026-10-07T11:42:20.435499+00:00",
+    "G5Xe1XnUnASPTJBacmG5Vn6x1zjtEf1xJepyc1Kkpump": "2026-10-07T12:22:35.773042+00:00"
   }
 }
