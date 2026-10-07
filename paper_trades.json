@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EYE",
-      "chain": "robinhood",
-      "address": "0x68b6df731a06ead79AE713cc929034fd8CC23881",
-      "source": "new",
-      "entry_price": 0.0001913,
-      "peak_price": 0.0001913,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T17:11:18.096773+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "SynthID",
       "chain": "robinhood",
       "address": "0x64F28031AcD36003a35cd8d1c4E58387313a1F25",
       "source": "new",
       "entry_price": 0.0001841,
-      "peak_price": 0.0001841,
+      "peak_price": 0.0001995,
       "trailing_active": false,
       "entry_time": "2026-10-07T17:11:19.709586+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.37,
+      "peak_volume_m5": 34507.94,
+      "milestones_hit": []
     },
     {
       "symbol": "DOGGO",
@@ -36,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-07T17:11:23.194287+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.63,
+      "peak_volume_m5": 17569.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -241440,6 +241436,25 @@
       "exit_price": 0.0004056,
       "exit_pct": 164.58,
       "exit_time": "2026-10-07T17:09:20.178411+00:00"
+    },
+    {
+      "symbol": "EYE",
+      "chain": "robinhood",
+      "address": "0x68b6df731a06ead79AE713cc929034fd8CC23881",
+      "source": "new",
+      "entry_price": 0.0001913,
+      "peak_price": 0.0001913,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T17:11:18.096773+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.56,
+      "peak_volume_m5": 24498.36,
+      "milestones_hit": [],
+      "exit_price": 0.0001711,
+      "exit_pct": -10.56,
+      "exit_time": "2026-10-07T17:14:04.585785+00:00"
     }
   ],
   "alerted": {
@@ -253674,6 +253689,7 @@
     "7QHikeGT5GHKKwH7r3a1oqdixNxrT65aFHCyrs3V41K2": "2026-10-07T17:02:44.817354+00:00",
     "0x15939Ba7c64eABe0a6cC870D454f352d6e59B49c": "2026-10-07T17:04:42.669426+00:00",
     "0x809f93D8472D46f74C3449930252e4b98418a959": "2026-10-07T17:05:42.954740+00:00",
-    "FeHhc37aWPkpXVHQpFhy4hxhLgqL4CZRbQUFTzMbpump": "2026-10-07T17:09:20.178411+00:00"
+    "FeHhc37aWPkpXVHQpFhy4hxhLgqL4CZRbQUFTzMbpump": "2026-10-07T17:09:20.178411+00:00",
+    "0x68b6df731a06ead79AE713cc929034fd8CC23881": "2026-10-07T17:14:04.585785+00:00"
   }
 }
