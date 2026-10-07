@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "jukebox",
-      "chain": "solana",
-      "address": "GSwxe4yLGWMHU7phbJw8EPJm7WRMXXL7mr7emwz1jkbx",
-      "source": "new",
-      "entry_price": 0.0001685,
-      "peak_price": 0.0001685,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T01:00:52.317332+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "DEXPAD",
       "chain": "solana",
       "address": "8gJvjpL68h8TzxaMf2UWNThkSCgD6WS4EATMDszLpump",
       "source": "new",
       "entry_price": 0.0001065,
-      "peak_price": 0.0001065,
-      "trailing_active": false,
+      "peak_price": 0.0001634,
+      "trailing_active": true,
       "entry_time": "2026-10-07T01:00:54.206101+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 53.43,
+      "peak_volume_m5": 112993.94,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -240176,6 +240170,25 @@
       "exit_price": 0.0002843,
       "exit_pct": -14.24,
       "exit_time": "2026-10-07T00:47:35.827222+00:00"
+    },
+    {
+      "symbol": "jukebox",
+      "chain": "solana",
+      "address": "GSwxe4yLGWMHU7phbJw8EPJm7WRMXXL7mr7emwz1jkbx",
+      "source": "new",
+      "entry_price": 0.0001685,
+      "peak_price": 0.0001685,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T01:00:52.317332+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.72,
+      "peak_volume_m5": 200238.64,
+      "milestones_hit": [],
+      "exit_price": 0.0001319,
+      "exit_pct": -21.72,
+      "exit_time": "2026-10-07T01:01:58.699851+00:00"
     }
   ],
   "alerted": {
@@ -252346,6 +252359,7 @@
     "4cF8xUrQNnHe4FN9QAsutwnHLhzzetuHDbpr2hn1Viek": "2026-10-06T23:34:21.483969+00:00",
     "0x8C35610D868E67c6189ab45bf39819583293214c": "2026-10-06T23:36:55.087685+00:00",
     "0x77963dbF1143e409CCeAfeF1FD05107B5f72926c": "2026-10-06T23:50:56.106365+00:00",
-    "546KkLu9bXk3E32CaGmRixxfvdMRjpPqH8HD8kJYpump": "2026-10-06T23:58:52.123891+00:00"
+    "546KkLu9bXk3E32CaGmRixxfvdMRjpPqH8HD8kJYpump": "2026-10-06T23:58:52.123891+00:00",
+    "GSwxe4yLGWMHU7phbJw8EPJm7WRMXXL7mr7emwz1jkbx": "2026-10-07T01:01:58.699851+00:00"
   }
 }
