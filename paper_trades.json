@@ -3,36 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "UPWZZZ",
-      "chain": "robinhood",
-      "address": "0x5219fC07C1564322F75c3e285b9f5E181458Ef08",
-      "source": "new",
-      "entry_price": 6.351e-05,
-      "peak_price": 0.0001958,
-      "trailing_active": true,
-      "entry_time": "2026-10-07T14:51:13.874206+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 208.3,
-      "peak_volume_m5": 54012.48,
-      "milestones_hit": [
-        200,
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "tacocat",
       "chain": "robinhood",
       "address": "0x9F69106D02Ac7693c2E947f8ad05DDc655766b0c",
       "source": "new",
       "entry_price": 0.0001626,
-      "peak_price": 0.0001626,
+      "peak_price": 0.0001727,
       "trailing_active": false,
       "entry_time": "2026-10-07T15:21:10.256324+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.21,
+      "peak_volume_m5": 43113.48,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -241137,6 +241121,29 @@
       "exit_price": 0.0002688,
       "exit_pct": -18.82,
       "exit_time": "2026-10-07T14:38:55.913023+00:00"
+    },
+    {
+      "symbol": "UPWZZZ",
+      "chain": "robinhood",
+      "address": "0x5219fC07C1564322F75c3e285b9f5E181458Ef08",
+      "source": "new",
+      "entry_price": 6.351e-05,
+      "peak_price": 0.0002832,
+      "trailing_active": true,
+      "entry_time": "2026-10-07T14:51:13.874206+00:00",
+      "score": 63,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 345.91,
+      "peak_volume_m5": 63447.79,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0002832,
+      "exit_pct": 345.91,
+      "exit_time": "2026-10-07T15:22:47.407242+00:00"
     }
   ],
   "alerted": {
@@ -253356,6 +253363,7 @@
     "0xD2dB239997c22Bb6188C625bBBd4a9128e6DdF6b": "2026-10-07T14:03:14.899181+00:00",
     "0x448B4CD6555109c92D745E91A6f23Cee717aBB94": "2026-10-07T14:33:01.644571+00:00",
     "DcqjTXZeE2nY6s2jXuQaeR1FEW4ZDziddhijxGPnmPsE": "2026-10-07T14:35:04.330894+00:00",
-    "0xf36A8e18890e4b61dd85b5Ce37Fe271EE2Da7777": "2026-10-07T14:38:55.913023+00:00"
+    "0xf36A8e18890e4b61dd85b5Ce37Fe271EE2Da7777": "2026-10-07T14:38:55.913023+00:00",
+    "0x5219fC07C1564322F75c3e285b9f5E181458Ef08": "2026-10-07T15:22:47.407242+00:00"
   }
 }
