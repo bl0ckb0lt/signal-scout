@@ -8,31 +8,18 @@
       "address": "0x69432c4963eea41676fD76356C7024c512be7C0F",
       "source": "new",
       "entry_price": 1.084e-06,
-      "peak_price": 1.568e-06,
+      "peak_price": 2.544e-06,
       "trailing_active": true,
       "entry_time": "2026-10-07T04:40:49.428317+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 44.65,
+      "current_pct": 134.69,
       "peak_volume_m5": 119646.52,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Ningen",
-      "chain": "solana",
-      "address": "BumLvTYUfMbFvNVQ3uJ1pAgbNLjLbGVnNtWT9zLvpump",
-      "source": "new",
-      "entry_price": 0.0001213,
-      "peak_price": 0.0001213,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T04:50:54.018982+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -7.75,
-      "peak_volume_m5": 58543.65,
-      "milestones_hit": []
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -240512,6 +240499,25 @@
       "exit_price": 0.0001181,
       "exit_pct": -9.15,
       "exit_time": "2026-10-07T04:53:18.617526+00:00"
+    },
+    {
+      "symbol": "Ningen",
+      "chain": "solana",
+      "address": "BumLvTYUfMbFvNVQ3uJ1pAgbNLjLbGVnNtWT9zLvpump",
+      "source": "new",
+      "entry_price": 0.0001213,
+      "peak_price": 0.0001213,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T04:50:54.018982+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.03,
+      "peak_volume_m5": 58543.65,
+      "milestones_hit": [],
+      "exit_price": 0.0001152,
+      "exit_pct": -5.03,
+      "exit_time": "2026-10-07T04:57:52.114522+00:00"
     }
   ],
   "alerted": {
@@ -252699,6 +252705,7 @@
     "87UNUJn5Mu947FLu14nPHjw7gFPHpNsYS6bdzJKeRJ1p": "2026-10-07T04:02:07.532247+00:00",
     "0xD9a4D422f26F2Ea037c5BF2a924622a8Ca249e86": "2026-10-07T04:08:02.179901+00:00",
     "FmybF8WBgdCuk1ZYrLQsNdFkauiU23Z8wD8QXoXupump": "2026-10-07T04:13:15.500633+00:00",
-    "HzReQA8ee2VjfkLGBvBV7EXYFJVUmAaWCFZFRcCUpump": "2026-10-07T04:53:18.617526+00:00"
+    "HzReQA8ee2VjfkLGBvBV7EXYFJVUmAaWCFZFRcCUpump": "2026-10-07T04:53:18.617526+00:00",
+    "BumLvTYUfMbFvNVQ3uJ1pAgbNLjLbGVnNtWT9zLvpump": "2026-10-07T04:57:52.114522+00:00"
   }
 }
