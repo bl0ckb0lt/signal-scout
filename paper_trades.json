@@ -14,21 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -3.96,
+      "current_pct": -2.02,
       "peak_volume_m5": 16506.73,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BLASTAR",
-      "chain": "solana",
-      "address": "DTZJdzvBkmfVXv1JhL6wUC68k2ktnCXHYG6dz4ACS984",
-      "source": "new",
-      "entry_price": 0.0001486,
-      "peak_price": 0.0001486,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T14:00:53.756628+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "ART",
@@ -36,11 +24,15 @@
       "address": "0xD2dB239997c22Bb6188C625bBBd4a9128e6DdF6b",
       "source": "new",
       "entry_price": 8.613e-05,
-      "peak_price": 8.613e-05,
+      "peak_price": 8.835e-05,
       "trailing_active": false,
       "entry_time": "2026-10-07T14:00:55.285832+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.58,
+      "peak_volume_m5": 28412.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -241050,6 +241042,25 @@
       "exit_price": 0.0001335,
       "exit_pct": -9.61,
       "exit_time": "2026-10-07T14:00:42.603365+00:00"
+    },
+    {
+      "symbol": "BLASTAR",
+      "chain": "solana",
+      "address": "DTZJdzvBkmfVXv1JhL6wUC68k2ktnCXHYG6dz4ACS984",
+      "source": "new",
+      "entry_price": 0.0001486,
+      "peak_price": 0.0001486,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T14:00:53.756628+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.03,
+      "peak_volume_m5": 23200.77,
+      "milestones_hit": [],
+      "exit_price": 0.0001337,
+      "exit_pct": -10.03,
+      "exit_time": "2026-10-07T14:02:07.544846+00:00"
     }
   ],
   "alerted": {
@@ -253264,6 +253275,7 @@
     "0x57CBecf4B8461Dc76597d5b99244F292B4223fFC": "2026-10-07T13:36:43.156416+00:00",
     "2XauZLfyEtqCwFjeegbaJpnXexA86vmefpx8R4W5pump": "2026-10-07T13:43:23.562239+00:00",
     "0x100765a16f42636Bd84EE1e86Bc5107b84bCdBA3": "2026-10-07T13:46:04.090396+00:00",
-    "6ancaiRWW4dfbQ99ehjzhguD3sDjsavRFCaDzmtjpump": "2026-10-07T14:00:42.603365+00:00"
+    "6ancaiRWW4dfbQ99ehjzhguD3sDjsavRFCaDzmtjpump": "2026-10-07T14:00:42.603365+00:00",
+    "DTZJdzvBkmfVXv1JhL6wUC68k2ktnCXHYG6dz4ACS984": "2026-10-07T14:02:07.544846+00:00"
   }
 }
