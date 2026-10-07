@@ -8,23 +8,15 @@
       "address": "Gsw81ASAoSL5DY5qVmXNr2UhFvrgducWcq6EEzBgpump",
       "source": "new",
       "entry_price": 0.0001039,
-      "peak_price": 0.0001039,
-      "trailing_active": false,
+      "peak_price": 0.0001496,
+      "trailing_active": true,
       "entry_time": "2026-10-07T19:31:12.926980+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "CALL",
-      "chain": "solana",
-      "address": "2vKJveWhmfeeMvZLCahbxxQZGsBWJPUJfRryVkLpFLEX",
-      "source": "new",
-      "entry_price": 0.0002828,
-      "peak_price": 0.0002828,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T19:31:14.696783+00:00",
-      "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 43.98,
+      "peak_volume_m5": 212857.14,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -241741,6 +241733,25 @@
       "exit_price": 0.0002618,
       "exit_pct": 14.77,
       "exit_time": "2026-10-07T19:14:23.460076+00:00"
+    },
+    {
+      "symbol": "CALL",
+      "chain": "solana",
+      "address": "2vKJveWhmfeeMvZLCahbxxQZGsBWJPUJfRryVkLpFLEX",
+      "source": "new",
+      "entry_price": 0.0002828,
+      "peak_price": 0.0002828,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T19:31:14.696783+00:00",
+      "score": 59,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.01,
+      "peak_volume_m5": 10060.18,
+      "milestones_hit": [],
+      "exit_price": 0.0002545,
+      "exit_pct": -10.01,
+      "exit_time": "2026-10-07T19:32:48.189072+00:00"
     }
   ],
   "alerted": {
@@ -253991,6 +254002,7 @@
     "GjVpdj6W4jLpSMCXu642eYHRyMy4My4MxP7ZeBECpump": "2026-10-07T18:52:50.809209+00:00",
     "651d7ymtZ9aspt6RU3mEx27xitQQKYJLYcfhsbFdpump": "2026-10-07T19:02:57.572708+00:00",
     "0xdBb016cE58B9003DF75CD2238daf13622DaD2015": "2026-10-07T19:12:25.648884+00:00",
-    "2856wfnQ27LH23yKeFHJ4XQpQ2bsw4sen8RqyW5Wpump": "2026-10-07T19:14:23.460076+00:00"
+    "2856wfnQ27LH23yKeFHJ4XQpQ2bsw4sen8RqyW5Wpump": "2026-10-07T19:14:23.460076+00:00",
+    "2vKJveWhmfeeMvZLCahbxxQZGsBWJPUJfRryVkLpFLEX": "2026-10-07T19:32:48.189072+00:00"
   }
 }
