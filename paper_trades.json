@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EVERYTHING",
-      "chain": "solana",
-      "address": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
-      "source": "new",
-      "entry_price": 0.007959,
-      "peak_price": 0.007959,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T08:41:08.459890+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.96,
-      "peak_volume_m5": 11293.63,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BCI",
       "chain": "robinhood",
       "address": "0x3c7b315837D8732Bf6378932AD218CDC4096E6d0",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-07T08:51:14.053877+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.35,
+      "peak_volume_m5": 55903.44,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -240683,6 +240671,25 @@
       "exit_price": 0.0001503,
       "exit_pct": -9.57,
       "exit_time": "2026-10-07T08:34:25.604198+00:00"
+    },
+    {
+      "symbol": "EVERYTHING",
+      "chain": "solana",
+      "address": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
+      "source": "new",
+      "entry_price": 0.007959,
+      "peak_price": 0.007959,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T08:41:08.459890+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.07,
+      "peak_volume_m5": 13807.7,
+      "milestones_hit": [],
+      "exit_price": 0.007078,
+      "exit_pct": -11.07,
+      "exit_time": "2026-10-07T08:54:33.064453+00:00"
     }
   ],
   "alerted": {
@@ -252879,6 +252886,7 @@
     "DE4drVHGqjXrQyJtKJxeWxA6PyzbKJ23onYwFje3pump": "2026-10-07T07:01:56.165265+00:00",
     "85WdpEBNDSN9oNkPomBGspnBZsaKb7WF1NQ51pdouxML": "2026-10-07T07:42:40.888909+00:00",
     "0x5e18D72754B0Bfb1ae3e83a98b7e4250A57cF153": "2026-10-07T08:01:34.156958+00:00",
-    "FaKnSu727DbTLsr3nWvKNdHJJJAmrgu8xJA1nU7CyX9B": "2026-10-07T08:34:25.604198+00:00"
+    "FaKnSu727DbTLsr3nWvKNdHJJJAmrgu8xJA1nU7CyX9B": "2026-10-07T08:34:25.604198+00:00",
+    "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump": "2026-10-07T08:54:33.064453+00:00"
   }
 }
