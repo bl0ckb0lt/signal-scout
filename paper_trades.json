@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NOBO",
-      "chain": "solana",
-      "address": "945e9ccApiEBP3ZCZXjiw1iPiJJptr9DnFMkSdeCpump",
-      "source": "new",
-      "entry_price": 9.076e-05,
-      "peak_price": 9.076e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T22:21:09.277348+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "PUPKEY",
       "chain": "robinhood",
       "address": "0x05aAca11A0fBA2a35DddF1E33f77c3667dDfb7eD",
       "source": "new",
       "entry_price": 2.816e-06,
-      "peak_price": 2.816e-06,
+      "peak_price": 2.994e-06,
       "trailing_active": false,
       "entry_time": "2026-10-07T22:21:10.714065+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.32,
+      "peak_volume_m5": 187719.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -241968,6 +241960,25 @@
       "exit_price": 0.0001336,
       "exit_pct": -35.24,
       "exit_time": "2026-10-07T22:17:49.480154+00:00"
+    },
+    {
+      "symbol": "NOBO",
+      "chain": "solana",
+      "address": "945e9ccApiEBP3ZCZXjiw1iPiJJptr9DnFMkSdeCpump",
+      "source": "new",
+      "entry_price": 9.076e-05,
+      "peak_price": 9.076e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-07T22:21:09.277348+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.39,
+      "peak_volume_m5": 137916.72,
+      "milestones_hit": [],
+      "exit_price": 7.77e-05,
+      "exit_pct": -14.39,
+      "exit_time": "2026-10-07T22:22:25.429810+00:00"
     }
   ],
   "alerted": {
@@ -254229,6 +254240,7 @@
     "0x607804286f9E2719Bc5E12Ad47fDE5273e1AccA1": "2026-10-07T21:16:49.018499+00:00",
     "D6EuxSLN2ooDQLQGGTMC1H2oqjjVR7NGZWcq9Krhpump": "2026-10-07T21:22:27.181965+00:00",
     "0xC50212763F2dcf9E827c57f67Ea37fB0e877eF52": "2026-10-07T21:52:33.778289+00:00",
-    "F8TgYKeiKqmipbk2X6XchYKQeHHeEkL2EHZaMZ5EiDRE": "2026-10-07T22:17:49.480154+00:00"
+    "F8TgYKeiKqmipbk2X6XchYKQeHHeEkL2EHZaMZ5EiDRE": "2026-10-07T22:17:49.480154+00:00",
+    "945e9ccApiEBP3ZCZXjiw1iPiJJptr9DnFMkSdeCpump": "2026-10-07T22:22:25.429810+00:00"
   }
 }
