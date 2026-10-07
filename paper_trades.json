@@ -14,21 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.56,
+      "current_pct": 2.63,
       "peak_volume_m5": 14550.15,
       "milestones_hit": []
-    },
-    {
-      "symbol": "PABU",
-      "chain": "robinhood",
-      "address": "0xccb39e78d7adb3c74DF5018b772b6345E78A6e1B",
-      "source": "new",
-      "entry_price": 1.111e-06,
-      "peak_price": 1.111e-06,
-      "trailing_active": false,
-      "entry_time": "2026-10-07T13:11:09.907366+00:00",
-      "score": 77,
-      "status": "open"
     }
   ],
   "closed": [
@@ -240939,6 +240927,29 @@
       "exit_price": 2.494e-05,
       "exit_pct": -73.19,
       "exit_time": "2026-10-07T13:02:41.578743+00:00"
+    },
+    {
+      "symbol": "PABU",
+      "chain": "robinhood",
+      "address": "0xccb39e78d7adb3c74DF5018b772b6345E78A6e1B",
+      "source": "new",
+      "entry_price": 1.111e-06,
+      "peak_price": 4.168e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-07T13:11:09.907366+00:00",
+      "score": 77,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 275.16,
+      "peak_volume_m5": 160348.6,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 4.168e-06,
+      "exit_pct": 275.16,
+      "exit_time": "2026-10-07T13:18:42.113805+00:00"
     }
   ],
   "alerted": {
@@ -253148,6 +253159,7 @@
     "G5Xe1XnUnASPTJBacmG5Vn6x1zjtEf1xJepyc1Kkpump": "2026-10-07T12:22:35.773042+00:00",
     "0xA9188c9f5A5a1f8191b8679cea5f1D020f483F22": "2026-10-07T12:30:46.629081+00:00",
     "9Hxn3sgPfg649bUFoV68fogYekS98grDGDsoLt9KMyfL": "2026-10-07T12:54:56.043808+00:00",
-    "0x45B6C877E8E886aBcD90BDdE0A7476c2Ae7656cD": "2026-10-07T13:02:41.578743+00:00"
+    "0x45B6C877E8E886aBcD90BDdE0A7476c2Ae7656cD": "2026-10-07T13:02:41.578743+00:00",
+    "0xccb39e78d7adb3c74DF5018b772b6345E78A6e1B": "2026-10-07T13:18:42.113805+00:00"
   }
 }
