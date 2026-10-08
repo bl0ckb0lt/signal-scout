@@ -24,23 +24,15 @@
       "address": "0xfE7aA5D845fC2130efEad8328d504d327793a038",
       "source": "boost",
       "entry_price": 0.004691,
-      "peak_price": 0.004691,
-      "trailing_active": false,
+      "peak_price": 0.005743,
+      "trailing_active": true,
       "entry_time": "2026-10-08T18:00:53.867746+00:00",
       "score": 94,
-      "status": "open"
-    },
-    {
-      "symbol": "GTI 6",
-      "chain": "robinhood",
-      "address": "0x0D5aAfCc78F711b297F6D99B8684D4bA0d975D05",
-      "source": "new",
-      "entry_price": 0.0001792,
-      "peak_price": 0.0001792,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T18:00:55.421227+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.43,
+      "peak_volume_m5": 147329.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -243589,6 +243581,25 @@
       "exit_price": 6.903e-05,
       "exit_pct": -25.28,
       "exit_time": "2026-10-08T17:52:04.565393+00:00"
+    },
+    {
+      "symbol": "GTI 6",
+      "chain": "robinhood",
+      "address": "0x0D5aAfCc78F711b297F6D99B8684D4bA0d975D05",
+      "source": "new",
+      "entry_price": 0.0001792,
+      "peak_price": 0.0001792,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T18:00:55.421227+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.18,
+      "peak_volume_m5": 34525.9,
+      "milestones_hit": [],
+      "exit_price": 0.000152,
+      "exit_pct": -15.18,
+      "exit_time": "2026-10-08T18:02:06.414570+00:00"
     }
   ],
   "alerted": {
@@ -255933,6 +255944,7 @@
     "4QdbyFbAWvRQSz8qrxB5pZiS9BXUqmPKYCSkTu2Fpump": "2026-10-08T17:22:25.007225+00:00",
     "0xB07D6a85aDd212A360C227894607Cc7778aafC65": "2026-10-08T17:46:51.726289+00:00",
     "0x9f8d3CeCCb3ca886Cd43635D47611a248ea461d1": "2026-10-08T17:46:52.550307+00:00",
-    "Hw1iG2mQBUWrXkuS2pyBhTjr5x6yBXJ9Z2Ezg15gRjgL": "2026-10-08T17:52:04.565393+00:00"
+    "Hw1iG2mQBUWrXkuS2pyBhTjr5x6yBXJ9Z2Ezg15gRjgL": "2026-10-08T17:52:04.565393+00:00",
+    "0x0D5aAfCc78F711b297F6D99B8684D4bA0d975D05": "2026-10-08T18:02:06.414570+00:00"
   }
 }
