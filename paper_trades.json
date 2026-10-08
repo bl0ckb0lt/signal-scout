@@ -24,23 +24,15 @@
       "address": "5xTqC8MhGcgnWTM8cdxgJLfV2KAbSqMMT4KeA4hrpump",
       "source": "boost",
       "entry_price": 0.0001723,
-      "peak_price": 0.0001723,
+      "peak_price": 0.0001734,
       "trailing_active": false,
       "entry_time": "2026-10-08T02:01:05.762125+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "ONE",
-      "chain": "solana",
-      "address": "7kEtLEZKffZ31AwzzZdNb8raWmTbCxzrcJTTNMczpump",
-      "source": "new",
-      "entry_price": 0.0001288,
-      "peak_price": 0.0001288,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T02:01:08.733152+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.64,
+      "peak_volume_m5": 89646.87,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -242319,6 +242311,25 @@
       "exit_price": 0.0002191,
       "exit_pct": -15.18,
       "exit_time": "2026-10-08T01:47:10.641157+00:00"
+    },
+    {
+      "symbol": "ONE",
+      "chain": "solana",
+      "address": "7kEtLEZKffZ31AwzzZdNb8raWmTbCxzrcJTTNMczpump",
+      "source": "new",
+      "entry_price": 0.0001288,
+      "peak_price": 0.0001288,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T02:01:08.733152+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.7,
+      "peak_volume_m5": 56931.95,
+      "milestones_hit": [],
+      "exit_price": 0.0001163,
+      "exit_pct": -9.7,
+      "exit_time": "2026-10-08T02:02:12.622226+00:00"
     }
   ],
   "alerted": {
@@ -254598,6 +254609,7 @@
     "0xBa4C9375C899Acb9B99b4A032A7756dD24EC6666": "2026-10-08T00:52:54.529642+00:00",
     "0xBDC4cE7c4718d20498e7D549751FF336690eb6D7": "2026-10-08T00:53:51.508157+00:00",
     "0xc61Ff46CcF3A38eb3055A3697C267276093B68c3": "2026-10-08T01:22:29.592137+00:00",
-    "0x5b6Ce079Cd0DAd8D0b7de3D73C8fdB5d63b093a2": "2026-10-08T01:47:10.641157+00:00"
+    "0x5b6Ce079Cd0DAd8D0b7de3D73C8fdB5d63b093a2": "2026-10-08T01:47:10.641157+00:00",
+    "7kEtLEZKffZ31AwzzZdNb8raWmTbCxzrcJTTNMczpump": "2026-10-08T02:02:12.622226+00:00"
   }
 }
