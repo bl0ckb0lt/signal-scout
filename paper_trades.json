@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Altruists",
-      "chain": "solana",
-      "address": "DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN",
-      "source": "new",
-      "entry_price": 0.0003867,
-      "peak_price": 0.0003867,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T15:21:09.321732+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "Gary",
       "chain": "solana",
       "address": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-08T15:21:11.256586+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.37,
+      "peak_volume_m5": 20617.2,
+      "milestones_hit": []
     },
     {
       "symbol": "PANDA",
@@ -48,11 +40,15 @@
       "address": "2bN9YoTKiejNonS4Q1EjhypvRfndZLEiYJZUHLwYpump",
       "source": "new",
       "entry_price": 0.0001085,
-      "peak_price": 0.0001085,
-      "trailing_active": false,
+      "peak_price": 0.0001394,
+      "trailing_active": true,
       "entry_time": "2026-10-08T15:21:13.226544+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.48,
+      "peak_volume_m5": 135886.3,
+      "milestones_hit": []
     },
     {
       "symbol": "Datacenter",
@@ -60,11 +56,15 @@
       "address": "0xb088071eAC4992C89F28E80F44f89a9b32107777",
       "source": "new",
       "entry_price": 0.0001952,
-      "peak_price": 0.0001952,
+      "peak_price": 0.0002224,
       "trailing_active": false,
       "entry_time": "2026-10-08T15:21:16.758355+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.93,
+      "peak_volume_m5": 25855.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -243212,6 +243212,25 @@
       "exit_price": 0.0003549,
       "exit_pct": 46.29,
       "exit_time": "2026-10-08T15:06:51.640459+00:00"
+    },
+    {
+      "symbol": "Altruists",
+      "chain": "solana",
+      "address": "DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN",
+      "source": "new",
+      "entry_price": 0.0003867,
+      "peak_price": 0.0003867,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T15:21:09.321732+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.08,
+      "peak_volume_m5": 57925.62,
+      "milestones_hit": [],
+      "exit_price": 0.0003284,
+      "exit_pct": -15.08,
+      "exit_time": "2026-10-08T15:22:37.917632+00:00"
     }
   ],
   "alerted": {
@@ -255536,6 +255555,7 @@
     "AW1uyuM7hxzwqBoes88BbWKJPF3Sg7Kbu3TqR42spump": "2026-10-08T13:56:54.256102+00:00",
     "0xd1706e80BD1dc29Ab8994E9318386C4687872739": "2026-10-08T14:46:34.088605+00:00",
     "0x37228ac23537e83bF442dE85109F0F023d4E7943": "2026-10-08T15:04:59.030653+00:00",
-    "0xB76CB608f898a90a0e20DBF730a3CeB40F51d789": "2026-10-08T15:06:51.640459+00:00"
+    "0xB76CB608f898a90a0e20DBF730a3CeB40F51d789": "2026-10-08T15:06:51.640459+00:00",
+    "DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN": "2026-10-08T15:22:37.917632+00:00"
   }
 }
