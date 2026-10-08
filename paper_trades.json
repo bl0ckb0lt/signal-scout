@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "attention",
-      "chain": "solana",
-      "address": "G8uXpbgbNTocG6gUjpg7TyGBCLbDEyJLh8Y9jabLWbwb",
-      "source": "new",
-      "entry_price": 0.0001085,
-      "peak_price": 0.0001085,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T10:11:13.682871+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "Trenchors",
       "chain": "base",
       "address": "0x73dfAac3f78d2708d533B248c71C96FFE98fEF51",
       "source": "new",
       "entry_price": 7.518e-05,
-      "peak_price": 7.518e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001026,
+      "trailing_active": true,
       "entry_time": "2026-10-08T10:11:15.532288+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 36.47,
+      "peak_volume_m5": 25664.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -242857,6 +242849,25 @@
       "exit_price": 0.0003652,
       "exit_pct": 0.63,
       "exit_time": "2026-10-08T10:02:21.300938+00:00"
+    },
+    {
+      "symbol": "attention",
+      "chain": "solana",
+      "address": "G8uXpbgbNTocG6gUjpg7TyGBCLbDEyJLh8Y9jabLWbwb",
+      "source": "new",
+      "entry_price": 0.0001085,
+      "peak_price": 0.0001085,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T10:11:13.682871+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -29.8,
+      "peak_volume_m5": 81796.37,
+      "milestones_hit": [],
+      "exit_price": 7.617e-05,
+      "exit_pct": -29.8,
+      "exit_time": "2026-10-08T10:17:56.158147+00:00"
     }
   ],
   "alerted": {
@@ -255164,6 +255175,7 @@
     "xsyrZHSQhhzPVydHvKZwz5NtjMYGpGaiK4L1qfapump": "2026-10-08T09:33:39.199550+00:00",
     "0x7422f86D11c2F3c8b99fdCFa1D49058323640F70": "2026-10-08T09:52:17.888408+00:00",
     "7thxAzq4B9KwPe4NqMNAntF2Njgqb9FTKQb4z6fYpump": "2026-10-08T09:53:16.851609+00:00",
-    "gwjkLiDxsP9oPmAqHaJZpDBRePYxmxJSv1LwpTQpump": "2026-10-08T10:02:21.300938+00:00"
+    "gwjkLiDxsP9oPmAqHaJZpDBRePYxmxJSv1LwpTQpump": "2026-10-08T10:02:21.300938+00:00",
+    "G8uXpbgbNTocG6gUjpg7TyGBCLbDEyJLh8Y9jabLWbwb": "2026-10-08T10:17:56.158147+00:00"
   }
 }
