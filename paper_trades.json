@@ -17,34 +17,6 @@
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "DUDU",
-      "chain": "robinhood",
-      "address": "0xB07D6a85aDd212A360C227894607Cc7778aafC65",
-      "source": "new",
-      "entry_price": 7.977e-05,
-      "peak_price": 9.142e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T17:31:00.963286+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 14.6,
-      "peak_volume_m5": 14335.22,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HOOKY",
-      "chain": "ethereum",
-      "address": "0x9f8d3CeCCb3ca886Cd43635D47611a248ea461d1",
-      "source": "new",
-      "entry_price": 0.0001538,
-      "peak_price": 0.0001538,
-      "trailing_active": false,
-      "entry_time": "2026-10-08T17:41:03.531141+00:00",
-      "score": 73,
-      "status": "open"
     }
   ],
   "closed": [
@@ -243536,6 +243508,44 @@
       "exit_price": 0.001179,
       "exit_pct": -15.18,
       "exit_time": "2026-10-08T17:36:53.228453+00:00"
+    },
+    {
+      "symbol": "DUDU",
+      "chain": "robinhood",
+      "address": "0xB07D6a85aDd212A360C227894607Cc7778aafC65",
+      "source": "new",
+      "entry_price": 7.977e-05,
+      "peak_price": 9.142e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T17:31:00.963286+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.3,
+      "peak_volume_m5": 14335.22,
+      "milestones_hit": [],
+      "exit_price": 6.836e-05,
+      "exit_pct": -14.3,
+      "exit_time": "2026-10-08T17:46:51.726289+00:00"
+    },
+    {
+      "symbol": "HOOKY",
+      "chain": "ethereum",
+      "address": "0x9f8d3CeCCb3ca886Cd43635D47611a248ea461d1",
+      "source": "new",
+      "entry_price": 0.0001538,
+      "peak_price": 0.0001538,
+      "trailing_active": false,
+      "entry_time": "2026-10-08T17:41:03.531141+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.63,
+      "peak_volume_m5": 16524.06,
+      "milestones_hit": [],
+      "exit_price": 0.000119,
+      "exit_pct": -22.63,
+      "exit_time": "2026-10-08T17:46:52.550307+00:00"
     }
   ],
   "alerted": {
@@ -255877,6 +255887,8 @@
     "0x30d6C3d03C2e950Bb05D10a6ae26b38C4E42B1Fe": "2026-10-08T16:49:56.963720+00:00",
     "9s6tPxbG3CGJQK1nD1SnwrmxWbYkm8jYaQ8c9vrApump": "2026-10-08T16:50:53.342170+00:00",
     "0xd421141b9d6afa274572a747e9a3fdd24ba8c400": "2026-10-08T17:05:56.496616+00:00",
-    "4QdbyFbAWvRQSz8qrxB5pZiS9BXUqmPKYCSkTu2Fpump": "2026-10-08T17:22:25.007225+00:00"
+    "4QdbyFbAWvRQSz8qrxB5pZiS9BXUqmPKYCSkTu2Fpump": "2026-10-08T17:22:25.007225+00:00",
+    "0xB07D6a85aDd212A360C227894607Cc7778aafC65": "2026-10-08T17:46:51.726289+00:00",
+    "0x9f8d3CeCCb3ca886Cd43635D47611a248ea461d1": "2026-10-08T17:46:52.550307+00:00"
   }
 }
