@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Babem",
-      "chain": "robinhood",
-      "address": "0xE95284F8c7018707cb6165c34930d5dcaF2B6dAE",
-      "source": "new",
-      "entry_price": 0.0002672,
-      "peak_price": 0.0002672,
-      "trailing_active": false,
-      "entry_time": "2026-10-09T03:20:50.365410+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "FRENCHCAT",
       "chain": "solana",
       "address": "k3TjSYCXLPMZBajZGNhAG3ccuE7L3PYMdPFifZqpump",
       "source": "new",
       "entry_price": 0.0002336,
-      "peak_price": 0.0002336,
+      "peak_price": 0.0002367,
       "trailing_active": false,
       "entry_time": "2026-10-09T03:20:52.199796+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.33,
+      "peak_volume_m5": 332948.67,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -244541,6 +244533,25 @@
       "exit_price": 0.0001008,
       "exit_pct": -13.18,
       "exit_time": "2026-10-09T03:12:38.562454+00:00"
+    },
+    {
+      "symbol": "Babem",
+      "chain": "robinhood",
+      "address": "0xE95284F8c7018707cb6165c34930d5dcaF2B6dAE",
+      "source": "new",
+      "entry_price": 0.0002672,
+      "peak_price": 0.0002672,
+      "trailing_active": false,
+      "entry_time": "2026-10-09T03:20:50.365410+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.33,
+      "peak_volume_m5": 65726.77,
+      "milestones_hit": [],
+      "exit_price": 0.0002209,
+      "exit_pct": -17.33,
+      "exit_time": "2026-10-09T03:21:51.900577+00:00"
     }
   ],
   "alerted": {
@@ -256935,6 +256946,7 @@
     "0xf30EAEc0F333D0AFAc16C145162A2BA8c72bf092": "2026-10-09T02:04:54.293217+00:00",
     "DQpmkWRMetuPVaioD4GYxsDsdm9VLWohWuMW85Dqpump": "2026-10-09T02:32:09.373050+00:00",
     "4At7e5owcjguMyeYCjsyG9U6urLpwHqTQgmai2jXpump": "2026-10-09T02:45:15.234831+00:00",
-    "0xadfB164B5dB92fB2f721719261c431185a49344F": "2026-10-09T03:12:38.562454+00:00"
+    "0xadfB164B5dB92fB2f721719261c431185a49344F": "2026-10-09T03:12:38.562454+00:00",
+    "0xE95284F8c7018707cb6165c34930d5dcaF2B6dAE": "2026-10-09T03:21:51.900577+00:00"
   }
 }
