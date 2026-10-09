@@ -24,23 +24,15 @@
       "address": "FfAYkFVhbm9oTYQpuRuJ6rTdVpCZy53qAKueRfrdpump",
       "source": "new",
       "entry_price": 0.0008256,
-      "peak_price": 0.0008256,
-      "trailing_active": false,
+      "peak_price": 0.001063,
+      "trailing_active": true,
       "entry_time": "2026-10-09T20:01:09.404014+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "Jarvis",
-      "chain": "solana",
-      "address": "9pZL5BtFgYFeSGrGMeMf8sKyNX1Mg4R7LjfbpLkJAYT",
-      "source": "new",
-      "entry_price": 8.939e-05,
-      "peak_price": 8.939e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-09T20:01:11.174815+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 28.75,
+      "peak_volume_m5": 115057.84,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -245829,6 +245821,25 @@
       "exit_price": 8.422e-05,
       "exit_pct": -16.53,
       "exit_time": "2026-10-09T19:42:25.200012+00:00"
+    },
+    {
+      "symbol": "Jarvis",
+      "chain": "solana",
+      "address": "9pZL5BtFgYFeSGrGMeMf8sKyNX1Mg4R7LjfbpLkJAYT",
+      "source": "new",
+      "entry_price": 8.939e-05,
+      "peak_price": 8.939e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-09T20:01:11.174815+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.99,
+      "peak_volume_m5": 1426.1,
+      "milestones_hit": [],
+      "exit_price": 7.957e-05,
+      "exit_pct": -10.99,
+      "exit_time": "2026-10-09T20:05:13.525861+00:00"
     }
   ],
   "alerted": {
@@ -258287,6 +258298,7 @@
     "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump": "2026-10-09T19:33:27.722004+00:00",
     "EHFJLG7CbNnnuPHXHNtdeWfRQ3UFwBfBZRe11hnppump": "2026-10-09T19:35:02.035146+00:00",
     "0xd577F45d1e43730955213a2aC3e513052D31fb03": "2026-10-09T19:42:24.530953+00:00",
-    "0xf9f7944aa311535fd86B7daA17e6d3e753915bD7": "2026-10-09T19:42:25.200012+00:00"
+    "0xf9f7944aa311535fd86B7daA17e6d3e753915bD7": "2026-10-09T19:42:25.200012+00:00",
+    "9pZL5BtFgYFeSGrGMeMf8sKyNX1Mg4R7LjfbpLkJAYT": "2026-10-09T20:05:13.525861+00:00"
   }
 }
