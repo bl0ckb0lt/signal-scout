@@ -8,23 +8,15 @@
       "address": "8dkma1dyJryHznaFKSZzoRu4Dmyy5SJAapQLRatipump",
       "source": "boost",
       "entry_price": 0.0001928,
-      "peak_price": 0.0001928,
-      "trailing_active": false,
+      "peak_price": 0.000263,
+      "trailing_active": true,
       "entry_time": "2026-10-09T16:01:04.695630+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "Sludge",
-      "chain": "solana",
-      "address": "CPN8PxvymFkL9kxVHuCPTzMuFaCmANPD2rPRKE3v482x",
-      "source": "new",
-      "entry_price": 0.0001079,
-      "peak_price": 0.0001079,
-      "trailing_active": false,
-      "entry_time": "2026-10-09T16:01:11.551108+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 36.41,
+      "peak_volume_m5": 62268.08,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -245276,6 +245268,25 @@
       "exit_price": 0.0001193,
       "exit_pct": 1.1,
       "exit_time": "2026-10-09T15:55:52.754332+00:00"
+    },
+    {
+      "symbol": "Sludge",
+      "chain": "solana",
+      "address": "CPN8PxvymFkL9kxVHuCPTzMuFaCmANPD2rPRKE3v482x",
+      "source": "new",
+      "entry_price": 0.0001079,
+      "peak_price": 0.0001079,
+      "trailing_active": false,
+      "entry_time": "2026-10-09T16:01:11.551108+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.65,
+      "peak_volume_m5": 36588.61,
+      "milestones_hit": [],
+      "exit_price": 8.994e-05,
+      "exit_pct": -16.65,
+      "exit_time": "2026-10-09T16:03:33.872858+00:00"
     }
   ],
   "alerted": {
@@ -257707,6 +257718,7 @@
     "0xa03f94553935d3e1fCC504F1Ee7Cf4E0bE7b98df": "2026-10-09T15:46:36.032215+00:00",
     "0x2826DBEAd83b34Bd36Fd0f2BD599a38da017687c": "2026-10-09T15:54:56.493091+00:00",
     "0x44E8e5d61E27e51CD18FF068661A80F8cdedf3Ee": "2026-10-09T15:55:52.080049+00:00",
-    "0x242EDD4e4CD50b13b46D950911BEEf96d0f9ceBd": "2026-10-09T15:55:52.754332+00:00"
+    "0x242EDD4e4CD50b13b46D950911BEEf96d0f9ceBd": "2026-10-09T15:55:52.754332+00:00",
+    "CPN8PxvymFkL9kxVHuCPTzMuFaCmANPD2rPRKE3v482x": "2026-10-09T16:03:33.872858+00:00"
   }
 }
