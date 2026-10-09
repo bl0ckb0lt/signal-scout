@@ -19,46 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "QPAD",
-      "chain": "solana",
-      "address": "FfAYkFVhbm9oTYQpuRuJ6rTdVpCZy53qAKueRfrdpump",
-      "source": "new",
-      "entry_price": 0.0008256,
-      "peak_price": 0.001474,
-      "trailing_active": true,
-      "entry_time": "2026-10-09T20:01:09.404014+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 78.54,
-      "peak_volume_m5": 178487.78,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "CLEDGER",
-      "chain": "ethereum",
-      "address": "0xc9C8C9DC789aFA08B9D0338F89602a84bcee20CC",
-      "source": "new",
-      "entry_price": 5.999e-05,
-      "peak_price": 5.999e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-09T20:10:19.725277+00:00",
-      "score": 64,
-      "status": "open"
-    },
-    {
       "symbol": "Oscar",
       "chain": "solana",
       "address": "8F6B9qfAPmygkxzYAdQe57qoCrSjGuCsfgbVHCeRpump",
       "source": "new",
       "entry_price": 0.0001852,
-      "peak_price": 0.0001852,
-      "trailing_active": false,
+      "peak_price": 0.0002215,
+      "trailing_active": true,
       "entry_time": "2026-10-09T20:10:21.521414+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.6,
+      "peak_volume_m5": 33361.23,
+      "milestones_hit": []
     },
     {
       "symbol": "QI",
@@ -66,11 +40,15 @@
       "address": "0xbC5AAcFA37daBd92af8606c9Eef307714aA995f5",
       "source": "new",
       "entry_price": 0.0001181,
-      "peak_price": 0.0001181,
+      "peak_price": 0.0001262,
       "trailing_active": false,
       "entry_time": "2026-10-09T20:10:23.202664+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.86,
+      "peak_volume_m5": 6073.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -245878,6 +245856,46 @@
       "exit_price": 7.957e-05,
       "exit_pct": -10.99,
       "exit_time": "2026-10-09T20:05:13.525861+00:00"
+    },
+    {
+      "symbol": "QPAD",
+      "chain": "solana",
+      "address": "FfAYkFVhbm9oTYQpuRuJ6rTdVpCZy53qAKueRfrdpump",
+      "source": "new",
+      "entry_price": 0.0008256,
+      "peak_price": 0.001474,
+      "trailing_active": true,
+      "entry_time": "2026-10-09T20:01:09.404014+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 51.16,
+      "peak_volume_m5": 178487.78,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.001248,
+      "exit_pct": 51.16,
+      "exit_time": "2026-10-09T20:11:46.395808+00:00"
+    },
+    {
+      "symbol": "CLEDGER",
+      "chain": "ethereum",
+      "address": "0xc9C8C9DC789aFA08B9D0338F89602a84bcee20CC",
+      "source": "new",
+      "entry_price": 5.999e-05,
+      "peak_price": 5.999e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-09T20:10:19.725277+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.15,
+      "peak_volume_m5": 7341.14,
+      "milestones_hit": [],
+      "exit_price": 4.67e-05,
+      "exit_pct": -22.15,
+      "exit_time": "2026-10-09T20:11:47.259720+00:00"
     }
   ],
   "alerted": {
@@ -258337,6 +258355,8 @@
     "EHFJLG7CbNnnuPHXHNtdeWfRQ3UFwBfBZRe11hnppump": "2026-10-09T19:35:02.035146+00:00",
     "0xd577F45d1e43730955213a2aC3e513052D31fb03": "2026-10-09T19:42:24.530953+00:00",
     "0xf9f7944aa311535fd86B7daA17e6d3e753915bD7": "2026-10-09T19:42:25.200012+00:00",
-    "9pZL5BtFgYFeSGrGMeMf8sKyNX1Mg4R7LjfbpLkJAYT": "2026-10-09T20:05:13.525861+00:00"
+    "9pZL5BtFgYFeSGrGMeMf8sKyNX1Mg4R7LjfbpLkJAYT": "2026-10-09T20:05:13.525861+00:00",
+    "FfAYkFVhbm9oTYQpuRuJ6rTdVpCZy53qAKueRfrdpump": "2026-10-09T20:11:46.395808+00:00",
+    "0xc9C8C9DC789aFA08B9D0338F89602a84bcee20CC": "2026-10-09T20:11:47.259720+00:00"
   }
 }
