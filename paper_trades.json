@@ -19,32 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "QPAWS",
-      "chain": "solana",
-      "address": "2fDAjAjyvCFATm5ERrJnyqqcqiZ9akV9vEFZLLGfpump",
-      "source": "new",
-      "entry_price": 0.0002015,
-      "peak_price": 0.0002313,
-      "trailing_active": false,
-      "entry_time": "2026-10-09T20:41:07.918786+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -0.4,
-      "peak_volume_m5": 38076.98,
-      "milestones_hit": []
-    },
-    {
       "symbol": "QI",
       "chain": "ethereum",
       "address": "0x5BeCd8D8cd9C36A3cC848cFC9055cdab2915F489",
       "source": "new",
       "entry_price": 0.0001948,
-      "peak_price": 0.0001948,
-      "trailing_active": false,
+      "peak_price": 0.0002271,
+      "trailing_active": true,
       "entry_time": "2026-10-09T21:01:04.997717+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.58,
+      "peak_volume_m5": 3027.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -246065,6 +246053,25 @@
       "exit_price": 0.002222,
       "exit_pct": -9.27,
       "exit_time": "2026-10-09T20:51:48.102062+00:00"
+    },
+    {
+      "symbol": "QPAWS",
+      "chain": "solana",
+      "address": "2fDAjAjyvCFATm5ERrJnyqqcqiZ9akV9vEFZLLGfpump",
+      "source": "new",
+      "entry_price": 0.0002015,
+      "peak_price": 0.0002313,
+      "trailing_active": false,
+      "entry_time": "2026-10-09T20:41:07.918786+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.5,
+      "peak_volume_m5": 38076.98,
+      "milestones_hit": [],
+      "exit_price": 0.0001622,
+      "exit_pct": -19.5,
+      "exit_time": "2026-10-09T21:04:18.865749+00:00"
     }
   ],
   "alerted": {
@@ -258535,6 +258542,7 @@
     "0x885823803BEB37C5Ed693B8f2F767A719b76d636": "2026-10-09T20:43:37.575867+00:00",
     "ThJsrUYige56LCtKbsZSUxx1HFyX1gMjfZTV8xppump": "2026-10-09T20:44:35.025664+00:00",
     "J6JbnCbTS4LTJ1J2z1Cf26EN68V1cGxjkH6Xvivipump": "2026-10-09T20:48:13.026366+00:00",
-    "9ioR1eGM3ciCs2XZVsvyn5vr4u2M2JufeNQfVa7MiXRC": "2026-10-09T20:51:48.102062+00:00"
+    "9ioR1eGM3ciCs2XZVsvyn5vr4u2M2JufeNQfVa7MiXRC": "2026-10-09T20:51:48.102062+00:00",
+    "2fDAjAjyvCFATm5ERrJnyqqcqiZ9akV9vEFZLLGfpump": "2026-10-09T21:04:18.865749+00:00"
   }
 }
