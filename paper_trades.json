@@ -24,23 +24,15 @@
       "address": "5K2t9ZU8XusUQ4w59hF3cCbgbxhVSK3GiSUdXpKXpump",
       "source": "new",
       "entry_price": 0.0002354,
-      "peak_price": 0.0002354,
+      "peak_price": 0.0002417,
       "trailing_active": false,
       "entry_time": "2026-10-10T17:41:08.047381+00:00",
       "score": 69,
-      "status": "open"
-    },
-    {
-      "symbol": "Pepper",
-      "chain": "solana",
-      "address": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
-      "source": "new",
-      "entry_price": 0.0002053,
-      "peak_price": 0.0002053,
-      "trailing_active": false,
-      "entry_time": "2026-10-10T17:41:09.713569+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.68,
+      "peak_volume_m5": 19009.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -247677,6 +247669,25 @@
       "exit_price": 0.0003767,
       "exit_pct": 26.84,
       "exit_time": "2026-10-10T17:23:55.725855+00:00"
+    },
+    {
+      "symbol": "Pepper",
+      "chain": "solana",
+      "address": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
+      "source": "new",
+      "entry_price": 0.0002053,
+      "peak_price": 0.0002053,
+      "trailing_active": false,
+      "entry_time": "2026-10-10T17:41:09.713569+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.15,
+      "peak_volume_m5": 31053.74,
+      "milestones_hit": [],
+      "exit_price": 0.0001824,
+      "exit_pct": -11.15,
+      "exit_time": "2026-10-10T17:42:17.313294+00:00"
     }
   ],
   "alerted": {
@@ -260229,6 +260240,7 @@
     "0x84C3eB3befb889DeBe99192c42dcbbFbD7Da761F": "2026-10-10T17:02:28.788578+00:00",
     "4gL5SoEobotrQLWkgCgPnpZjL2WHEfPF7QRxWYHKpump": "2026-10-10T17:03:09.151434+00:00",
     "0x722a35C7A8114AE548fF2286C9Aff69335888490": "2026-10-10T17:22:56.829118+00:00",
-    "G4P6ANtzssqX7ePN62y7NdY4Bideg3eAVDddkPYCpump": "2026-10-10T17:23:55.725855+00:00"
+    "G4P6ANtzssqX7ePN62y7NdY4Bideg3eAVDddkPYCpump": "2026-10-10T17:23:55.725855+00:00",
+    "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": "2026-10-10T17:42:17.313294+00:00"
   }
 }
