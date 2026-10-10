@@ -24,33 +24,15 @@
       "address": "0x722a35C7A8114AE548fF2286C9Aff69335888490",
       "source": "boost",
       "entry_price": 0.0001595,
-      "peak_price": 0.0001603,
+      "peak_price": 0.0001605,
       "trailing_active": false,
       "entry_time": "2026-10-10T17:00:55.746537+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.5,
-      "peak_volume_m5": 136.73,
+      "current_pct": 0.63,
+      "peak_volume_m5": 160.37,
       "milestones_hit": []
-    },
-    {
-      "symbol": "PPAD",
-      "chain": "solana",
-      "address": "4gL5SoEobotrQLWkgCgPnpZjL2WHEfPF7QRxWYHKpump",
-      "source": "new",
-      "entry_price": 9.899e-05,
-      "peak_price": 0.000176,
-      "trailing_active": true,
-      "entry_time": "2026-10-10T17:00:59.416027+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 77.8,
-      "peak_volume_m5": 6231.51,
-      "milestones_hit": [
-        50
-      ]
     }
   ],
   "closed": [
@@ -247626,6 +247608,27 @@
       "exit_price": 0.0001023,
       "exit_pct": -8.74,
       "exit_time": "2026-10-10T17:02:28.788578+00:00"
+    },
+    {
+      "symbol": "PPAD",
+      "chain": "solana",
+      "address": "4gL5SoEobotrQLWkgCgPnpZjL2WHEfPF7QRxWYHKpump",
+      "source": "new",
+      "entry_price": 9.899e-05,
+      "peak_price": 0.000176,
+      "trailing_active": true,
+      "entry_time": "2026-10-10T17:00:59.416027+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 63.65,
+      "peak_volume_m5": 10315.28,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000162,
+      "exit_pct": 63.65,
+      "exit_time": "2026-10-10T17:03:09.151434+00:00"
     }
   ],
   "alerted": {
@@ -260175,6 +260178,7 @@
     "0x71e86caf078Edb4e5A64e54C2602a35B543d3B10": "2026-10-10T16:34:51.674221+00:00",
     "0x3d4994342a5F0DdC855D2844e11f946d1543b5A5": "2026-10-10T16:42:59.393164+00:00",
     "HB85aXajb8AsFV2U3mmV3cThH295bJHKY1Mvkqdjpump": "2026-10-10T17:02:27.781928+00:00",
-    "0x84C3eB3befb889DeBe99192c42dcbbFbD7Da761F": "2026-10-10T17:02:28.788578+00:00"
+    "0x84C3eB3befb889DeBe99192c42dcbbFbD7Da761F": "2026-10-10T17:02:28.788578+00:00",
+    "4gL5SoEobotrQLWkgCgPnpZjL2WHEfPF7QRxWYHKpump": "2026-10-10T17:03:09.151434+00:00"
   }
 }
