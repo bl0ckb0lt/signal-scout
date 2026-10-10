@@ -14,7 +14,7 @@
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 12.25,
+      "current_pct": 6.55,
       "peak_volume_m5": 8337.95,
       "milestones_hit": []
     },
@@ -24,23 +24,15 @@
       "address": "DxVMvkFeTcmsa4PSDbiaTnW7a5rA1dX4TWfxWyftpump",
       "source": "new",
       "entry_price": 0.0001126,
-      "peak_price": 0.0001126,
-      "trailing_active": false,
+      "peak_price": 0.0001305,
+      "trailing_active": true,
       "entry_time": "2026-10-10T22:21:03.472919+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "LARPCHECK",
-      "chain": "solana",
-      "address": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
-      "source": "new",
-      "entry_price": 0.0001039,
-      "peak_price": 0.0001039,
-      "trailing_active": false,
-      "entry_time": "2026-10-10T22:21:05.216398+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.9,
+      "peak_volume_m5": 29767.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -248105,6 +248097,25 @@
       "exit_price": 0.0001288,
       "exit_pct": 23.02,
       "exit_time": "2026-10-10T22:16:47.260212+00:00"
+    },
+    {
+      "symbol": "LARPCHECK",
+      "chain": "solana",
+      "address": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
+      "source": "new",
+      "entry_price": 0.0001039,
+      "peak_price": 0.0001039,
+      "trailing_active": false,
+      "entry_time": "2026-10-10T22:21:05.216398+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -6.31,
+      "peak_volume_m5": 5773.37,
+      "milestones_hit": [],
+      "exit_price": 9.734e-05,
+      "exit_pct": -6.31,
+      "exit_time": "2026-10-10T22:26:31.560881+00:00"
     }
   ],
   "alerted": {
@@ -260679,6 +260690,7 @@
     "CgU6mugt2HXkjaunbaYrauJRRW9kSKbQXcBRzT7Vpump": "2026-10-10T22:08:39.564339+00:00",
     "B5uNPxEWB6WU3Rej33iDuX7yobZ5N4kXXckoj8KSpump": "2026-10-10T22:08:42.028030+00:00",
     "AGmKjJwXiu5wCC7fiDPptetoMCa7rYsSaYX2Cqxqpump": "2026-10-10T22:09:39.433370+00:00",
-    "0x9Fe7408cc82ecebAA50a23565D2cfa69016da33c": "2026-10-10T22:16:47.260212+00:00"
+    "0x9Fe7408cc82ecebAA50a23565D2cfa69016da33c": "2026-10-10T22:16:47.260212+00:00",
+    "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP": "2026-10-10T22:26:31.560881+00:00"
   }
 }
