@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Altai",
-      "chain": "robinhood",
-      "address": "0x2e31512F7559082C9193Fc4B7781b40b583B5D92",
-      "source": "new",
-      "entry_price": 0.0005206,
-      "peak_price": 0.0005206,
-      "trailing_active": false,
-      "entry_time": "2026-10-10T18:11:07.811381+00:00",
-      "score": 75,
-      "status": "open"
-    },
-    {
       "symbol": "MLM",
       "chain": "robinhood",
       "address": "0xCa6fe103393Cd5CD208F85F9175c14EFC36ad8AF",
       "source": "new",
       "entry_price": 0.0001999,
-      "peak_price": 0.0001999,
+      "peak_price": 0.0002212,
       "trailing_active": false,
       "entry_time": "2026-10-10T18:11:09.224386+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.66,
+      "peak_volume_m5": 50423.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -247756,6 +247748,25 @@
       "exit_price": 0.00567,
       "exit_pct": 10.1,
       "exit_time": "2026-10-10T18:05:51.982084+00:00"
+    },
+    {
+      "symbol": "Altai",
+      "chain": "robinhood",
+      "address": "0x2e31512F7559082C9193Fc4B7781b40b583B5D92",
+      "source": "new",
+      "entry_price": 0.0005206,
+      "peak_price": 0.0005206,
+      "trailing_active": false,
+      "entry_time": "2026-10-10T18:11:07.811381+00:00",
+      "score": 75,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.01,
+      "peak_volume_m5": 99253.54,
+      "milestones_hit": [],
+      "exit_price": 0.0004633,
+      "exit_pct": -11.01,
+      "exit_time": "2026-10-10T18:12:54.963569+00:00"
     }
   ],
   "alerted": {
@@ -260313,6 +260324,7 @@
     "0x392d21adc365031239b1d8cf5239f4a513b7e1a7": "2026-10-10T17:55:45.611299+00:00",
     "5K2t9ZU8XusUQ4w59hF3cCbgbxhVSK3GiSUdXpKXpump": "2026-10-10T18:00:52.828258+00:00",
     "0x400161e35C38480393aacAdB806FB0aE02De7777": "2026-10-10T18:01:57.890181+00:00",
-    "0x0850Ca883D8081732CdD4363A9920A49525d5fB4": "2026-10-10T18:05:51.982084+00:00"
+    "0x0850Ca883D8081732CdD4363A9920A49525d5fB4": "2026-10-10T18:05:51.982084+00:00",
+    "0x2e31512F7559082C9193Fc4B7781b40b583B5D92": "2026-10-10T18:12:54.963569+00:00"
   }
 }
