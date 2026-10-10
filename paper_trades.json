@@ -14,24 +14,8 @@
       "score": 86,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.47,
+      "current_pct": 9.59,
       "peak_volume_m5": 8337.95,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "CYBERINU",
-      "chain": "solana",
-      "address": "CgU6mugt2HXkjaunbaYrauJRRW9kSKbQXcBRzT7Vpump",
-      "source": "boost",
-      "entry_price": 0.0006777,
-      "peak_price": 0.001003,
-      "trailing_active": true,
-      "entry_time": "2026-10-10T21:41:03.204079+00:00",
-      "score": 95,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 48.0,
-      "peak_volume_m5": 54168.88,
       "milestones_hit": []
     },
     {
@@ -40,15 +24,17 @@
       "address": "AGmKjJwXiu5wCC7fiDPptetoMCa7rYsSaYX2Cqxqpump",
       "source": "new",
       "entry_price": 9.59e-05,
-      "peak_price": 0.0001395,
+      "peak_price": 0.0001519,
       "trailing_active": true,
       "entry_time": "2026-10-10T21:51:06.294512+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 45.46,
-      "peak_volume_m5": 27281.85,
-      "milestones_hit": []
+      "current_pct": 58.39,
+      "peak_volume_m5": 44371.61,
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "UNSPENT",
@@ -56,23 +42,15 @@
       "address": "0x9Fe7408cc82ecebAA50a23565D2cfa69016da33c",
       "source": "new",
       "entry_price": 0.0001047,
-      "peak_price": 0.0001047,
-      "trailing_active": false,
+      "peak_price": 0.0001288,
+      "trailing_active": true,
       "entry_time": "2026-10-10T22:01:12.708323+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "LLM",
-      "chain": "solana",
-      "address": "B5uNPxEWB6WU3Rej33iDuX7yobZ5N4kXXckoj8KSpump",
-      "source": "new",
-      "entry_price": 0.0001041,
-      "peak_price": 0.0001041,
-      "trailing_active": false,
-      "entry_time": "2026-10-10T22:01:14.501037+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.02,
+      "peak_volume_m5": 3762.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -248059,6 +248037,44 @@
       "exit_price": 0.002414,
       "exit_pct": 1.6,
       "exit_time": "2026-10-10T21:14:53.147765+00:00"
+    },
+    {
+      "symbol": "CYBERINU",
+      "chain": "solana",
+      "address": "CgU6mugt2HXkjaunbaYrauJRRW9kSKbQXcBRzT7Vpump",
+      "source": "boost",
+      "entry_price": 0.0006777,
+      "peak_price": 0.001003,
+      "trailing_active": true,
+      "entry_time": "2026-10-10T21:41:03.204079+00:00",
+      "score": 95,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 38.29,
+      "peak_volume_m5": 54168.88,
+      "milestones_hit": [],
+      "exit_price": 0.0009372,
+      "exit_pct": 38.29,
+      "exit_time": "2026-10-10T22:08:39.564339+00:00"
+    },
+    {
+      "symbol": "LLM",
+      "chain": "solana",
+      "address": "B5uNPxEWB6WU3Rej33iDuX7yobZ5N4kXXckoj8KSpump",
+      "source": "new",
+      "entry_price": 0.0001041,
+      "peak_price": 0.0001041,
+      "trailing_active": false,
+      "entry_time": "2026-10-10T22:01:14.501037+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.56,
+      "peak_volume_m5": 8483.97,
+      "milestones_hit": [],
+      "exit_price": 9.102e-05,
+      "exit_pct": -12.56,
+      "exit_time": "2026-10-10T22:08:42.028030+00:00"
     }
   ],
   "alerted": {
@@ -260629,6 +260645,8 @@
     "0xc47d1Cd62e6B1b2FA1BD56659d91fa70f7f58C92": "2026-10-10T20:50:57.103407+00:00",
     "0x959285e3b4E5C83DF0AB71f1f34482b9eA8e709F": "2026-10-10T20:53:00.210368+00:00",
     "0x67D7A706607e1342Ef5394a870f2637907D45dAD": "2026-10-10T21:13:34.963536+00:00",
-    "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC": "2026-10-10T21:14:53.147765+00:00"
+    "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC": "2026-10-10T21:14:53.147765+00:00",
+    "CgU6mugt2HXkjaunbaYrauJRRW9kSKbQXcBRzT7Vpump": "2026-10-10T22:08:39.564339+00:00",
+    "B5uNPxEWB6WU3Rej33iDuX7yobZ5N4kXXckoj8KSpump": "2026-10-10T22:08:42.028030+00:00"
   }
 }
