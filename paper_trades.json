@@ -14,28 +14,9 @@
       "score": 91,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 24.54,
+      "current_pct": 18.1,
       "peak_volume_m5": 59141.58,
       "milestones_hit": []
-    },
-    {
-      "symbol": "CPANC",
-      "chain": "robinhood",
-      "address": "0x67D7A706607e1342Ef5394a870f2637907D45dAD",
-      "source": "new",
-      "entry_price": 1.961e-06,
-      "peak_price": 4.116e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-10T21:01:08.433211+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 109.89,
-      "peak_volume_m5": 145552.6,
-      "milestones_hit": [
-        50,
-        100
-      ]
     },
     {
       "symbol": "QT",
@@ -47,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-10T21:11:12.549540+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.33,
+      "peak_volume_m5": 7266.33,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -247993,6 +247978,28 @@
       "exit_price": 5.651e-05,
       "exit_pct": -14.73,
       "exit_time": "2026-10-10T20:53:00.210368+00:00"
+    },
+    {
+      "symbol": "CPANC",
+      "chain": "robinhood",
+      "address": "0x67D7A706607e1342Ef5394a870f2637907D45dAD",
+      "source": "new",
+      "entry_price": 1.961e-06,
+      "peak_price": 4.116e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-10T21:01:08.433211+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 96.53,
+      "peak_volume_m5": 266415.14,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 3.854e-06,
+      "exit_pct": 96.53,
+      "exit_time": "2026-10-10T21:13:34.963536+00:00"
     }
   ],
   "alerted": {
@@ -260561,6 +260568,7 @@
     "BgTuXJ8hrMQdvnJhrixNR2bCRGf1TnhXcpseth7Cpump": "2026-10-10T20:09:50.446169+00:00",
     "QUALaRd6ZvZkt9NqJjVVN3MP23RtFNwDbJc3VDHcHwN": "2026-10-10T20:22:54.193234+00:00",
     "0xc47d1Cd62e6B1b2FA1BD56659d91fa70f7f58C92": "2026-10-10T20:50:57.103407+00:00",
-    "0x959285e3b4E5C83DF0AB71f1f34482b9eA8e709F": "2026-10-10T20:53:00.210368+00:00"
+    "0x959285e3b4E5C83DF0AB71f1f34482b9eA8e709F": "2026-10-10T20:53:00.210368+00:00",
+    "0x67D7A706607e1342Ef5394a870f2637907D45dAD": "2026-10-10T21:13:34.963536+00:00"
   }
 }
