@@ -17,24 +17,6 @@
       "current_pct": 0.18,
       "peak_volume_m5": 29.87,
       "milestones_hit": []
-    },
-    {
-      "symbol": "MGCMP",
-      "chain": "robinhood",
-      "address": "0x194FDfc35bb4Ce703815540A2469fFE8b9e1B3E9",
-      "source": "new",
-      "entry_price": 2.056e-06,
-      "peak_price": 3.565e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-10T05:01:07.117472+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 73.39,
-      "peak_volume_m5": 276735.57,
-      "milestones_hit": [
-        50
-      ]
     }
   ],
   "closed": [
@@ -246754,6 +246736,29 @@
       "exit_price": 0.0002239,
       "exit_pct": 24.25,
       "exit_time": "2026-10-10T05:02:28.004819+00:00"
+    },
+    {
+      "symbol": "MGCMP",
+      "chain": "robinhood",
+      "address": "0x194FDfc35bb4Ce703815540A2469fFE8b9e1B3E9",
+      "source": "new",
+      "entry_price": 2.056e-06,
+      "peak_price": 7.289e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-10T05:01:07.117472+00:00",
+      "score": 77,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 254.52,
+      "peak_volume_m5": 276735.57,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 7.289e-06,
+      "exit_pct": 254.52,
+      "exit_time": "2026-10-10T05:17:52.973236+00:00"
     }
   ],
   "alerted": {
@@ -259260,6 +259265,7 @@
     "3KoazdovJ15PFfzT9P51DaqeqANsMQ1fq9jkAzHmavvL": "2026-10-10T04:18:51.473200+00:00",
     "3QS7ujjZbsGo9gi5YjZG2UFUML6xwEfujiSMsuus5xn8": "2026-10-10T04:23:32.497274+00:00",
     "mGzw6zwvig3GitrCM6sGJXdRWeWz81X2vyzVH3Upump": "2026-10-10T04:56:36.164880+00:00",
-    "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump": "2026-10-10T05:02:28.004819+00:00"
+    "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump": "2026-10-10T05:02:28.004819+00:00",
+    "0x194FDfc35bb4Ce703815540A2469fFE8b9e1B3E9": "2026-10-10T05:17:52.973236+00:00"
   }
 }
