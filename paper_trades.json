@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SWOLF",
-      "chain": "robinhood",
-      "address": "0xe58534EFB6d253684C20A4Fc8C9b25E42EE2d492",
-      "source": "new",
-      "entry_price": 0.0002913,
-      "peak_price": 0.0002913,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T04:30:49.007526+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "VOLUMIZER",
       "chain": "solana",
       "address": "7W5KAUYmPc5PvdS1tvDHy8Lvt4ERXmzGue7yEoSNpump",
       "source": "new",
       "entry_price": 0.0001239,
-      "peak_price": 0.0001239,
+      "peak_price": 0.0001253,
       "trailing_active": false,
       "entry_time": "2026-10-11T04:30:52.375351+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.13,
+      "peak_volume_m5": 11996.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -248667,6 +248659,25 @@
       "exit_price": 1.654e-06,
       "exit_pct": -9.42,
       "exit_time": "2026-10-11T04:20:40.281368+00:00"
+    },
+    {
+      "symbol": "SWOLF",
+      "chain": "robinhood",
+      "address": "0xe58534EFB6d253684C20A4Fc8C9b25E42EE2d492",
+      "source": "new",
+      "entry_price": 0.0002913,
+      "peak_price": 0.0002913,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T04:30:49.007526+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.8,
+      "peak_volume_m5": 29162.03,
+      "milestones_hit": [],
+      "exit_price": 0.0002511,
+      "exit_pct": -13.8,
+      "exit_time": "2026-10-11T04:32:25.035896+00:00"
     }
   ],
   "alerted": {
@@ -261270,6 +261281,7 @@
     "7pnSMbX39yg9iGNQ7u5BRYs6EBVA7vfK5nMAqSFTpump": "2026-10-11T03:53:56.557349+00:00",
     "0x2ED6599031B783ED6dc6aF32beef93DF620F55d9": "2026-10-11T04:02:20.008945+00:00",
     "0x09b4d34Ac820E9E9319Ed2d02CE116C8B63F1ac6": "2026-10-11T04:03:52.970253+00:00",
-    "0x5EbDA74759d564D707221c2b1cD62A14fbe3970a": "2026-10-11T04:20:40.281368+00:00"
+    "0x5EbDA74759d564D707221c2b1cD62A14fbe3970a": "2026-10-11T04:20:40.281368+00:00",
+    "0xe58534EFB6d253684C20A4Fc8C9b25E42EE2d492": "2026-10-11T04:32:25.035896+00:00"
   }
 }
