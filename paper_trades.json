@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EMBERVALE",
-      "chain": "robinhood",
-      "address": "0x8c585D558A830843490fBd88BE459cE4E4e689E5",
-      "source": "new",
-      "entry_price": 0.0002724,
-      "peak_price": 0.0002724,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T21:01:03.120400+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "Playground",
       "chain": "solana",
       "address": "GxsGqd6t7SGp6jthERiJQn1G9YF8xfQbc7LooDfTpump",
       "source": "new",
       "entry_price": 0.000243,
-      "peak_price": 0.000243,
-      "trailing_active": false,
+      "peak_price": 0.0002967,
+      "trailing_active": true,
       "entry_time": "2026-10-11T21:01:04.899043+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "DOPA",
-      "chain": "robinhood",
-      "address": "0x819aA9D05597e6ad76bfe6170B7B951437eE227A",
-      "source": "new",
-      "entry_price": 0.0001571,
-      "peak_price": 0.0001571,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T21:01:06.334449+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.1,
+      "peak_volume_m5": 188674.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -249773,6 +249753,44 @@
       "exit_price": 6.507e-05,
       "exit_pct": -34.1,
       "exit_time": "2026-10-11T20:53:04.332324+00:00"
+    },
+    {
+      "symbol": "EMBERVALE",
+      "chain": "robinhood",
+      "address": "0x8c585D558A830843490fBd88BE459cE4E4e689E5",
+      "source": "new",
+      "entry_price": 0.0002724,
+      "peak_price": 0.0002724,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T21:01:03.120400+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.83,
+      "peak_volume_m5": 124339.0,
+      "milestones_hit": [],
+      "exit_price": 0.000232,
+      "exit_pct": -14.83,
+      "exit_time": "2026-10-11T21:02:08.875264+00:00"
+    },
+    {
+      "symbol": "DOPA",
+      "chain": "robinhood",
+      "address": "0x819aA9D05597e6ad76bfe6170B7B951437eE227A",
+      "source": "new",
+      "entry_price": 0.0001571,
+      "peak_price": 0.0001571,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T21:01:06.334449+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.36,
+      "peak_volume_m5": 13245.6,
+      "milestones_hit": [],
+      "exit_price": 0.0001424,
+      "exit_pct": -9.36,
+      "exit_time": "2026-10-11T21:02:10.651110+00:00"
     }
   ],
   "alerted": {
@@ -262432,6 +262450,8 @@
     "0x56B71B1D291844A45198A81bB08B2B9e24d3d888": "2026-10-11T20:16:52.475055+00:00",
     "0xd58387ABfE21c72203CBED48E4409BBb34571326": "2026-10-11T20:26:17.252909+00:00",
     "0xF872AA87Bd79267C6B7852e19A9Ec3EF493Cc8bf": "2026-10-11T20:46:57.097234+00:00",
-    "4JYQ2qyT3QDa1PsKLoviqehF1Vn7AihhuQHSRXsgpump": "2026-10-11T20:53:04.332324+00:00"
+    "4JYQ2qyT3QDa1PsKLoviqehF1Vn7AihhuQHSRXsgpump": "2026-10-11T20:53:04.332324+00:00",
+    "0x8c585D558A830843490fBd88BE459cE4E4e689E5": "2026-10-11T21:02:08.875264+00:00",
+    "0x819aA9D05597e6ad76bfe6170B7B951437eE227A": "2026-10-11T21:02:10.651110+00:00"
   }
 }
