@@ -3,47 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GHINT",
-      "chain": "robinhood",
-      "address": "0xe8EB19546c9559f2Ca12CB49354FF65ECdb5dC2f",
-      "source": "new",
-      "entry_price": 8.591e-07,
-      "peak_price": 2.213e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-11T14:20:59.958540+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 157.6,
-      "peak_volume_m5": 57249.87,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "DOPE",
       "chain": "robinhood",
       "address": "0x710eb0a2Bc365A41053A171f00682ecbeE6CFBAb",
       "source": "new",
       "entry_price": 0.0004461,
-      "peak_price": 0.0004461,
+      "peak_price": 0.0004719,
       "trailing_active": false,
       "entry_time": "2026-10-11T14:30:54.009945+00:00",
       "score": 85,
-      "status": "open"
-    },
-    {
-      "symbol": "DOPE",
-      "chain": "robinhood",
-      "address": "0xdDc627EC8b431332b0D1145A870ff10732E25728",
-      "source": "new",
-      "entry_price": 5.313e-05,
-      "peak_price": 5.313e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T14:30:58.714066+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.78,
+      "peak_volume_m5": 15297.69,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -249185,6 +249158,47 @@
       "exit_price": 0.0003511,
       "exit_pct": -23.19,
       "exit_time": "2026-10-11T13:41:38.599467+00:00"
+    },
+    {
+      "symbol": "GHINT",
+      "chain": "robinhood",
+      "address": "0xe8EB19546c9559f2Ca12CB49354FF65ECdb5dC2f",
+      "source": "new",
+      "entry_price": 8.591e-07,
+      "peak_price": 2.213e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-11T14:20:59.958540+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 142.23,
+      "peak_volume_m5": 90108.49,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 2.081e-06,
+      "exit_pct": 142.23,
+      "exit_time": "2026-10-11T14:32:53.067199+00:00"
+    },
+    {
+      "symbol": "DOPE",
+      "chain": "robinhood",
+      "address": "0xdDc627EC8b431332b0D1145A870ff10732E25728",
+      "source": "new",
+      "entry_price": 5.313e-05,
+      "peak_price": 5.313e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T14:30:58.714066+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.17,
+      "peak_volume_m5": 21686.28,
+      "milestones_hit": [],
+      "exit_price": 4.826e-05,
+      "exit_pct": -9.17,
+      "exit_time": "2026-10-11T14:32:54.109571+00:00"
     }
   ],
   "alerted": {
@@ -261814,6 +261828,8 @@
     "0xa89C0d9c44454D6B31ca875b52C278Db56Af7777": "2026-10-11T12:24:50.223190+00:00",
     "0x5A1F83E32B0eD55666E441F510A1DFc505F916b4": "2026-10-11T12:42:57.162192+00:00",
     "0x77853004960098d8033F6D0ABb8a114c8bd9b3Af": "2026-10-11T13:31:51.148612+00:00",
-    "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": "2026-10-11T13:41:38.599467+00:00"
+    "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": "2026-10-11T13:41:38.599467+00:00",
+    "0xe8EB19546c9559f2Ca12CB49354FF65ECdb5dC2f": "2026-10-11T14:32:53.067199+00:00",
+    "0xdDc627EC8b431332b0D1145A870ff10732E25728": "2026-10-11T14:32:54.109571+00:00"
   }
 }
