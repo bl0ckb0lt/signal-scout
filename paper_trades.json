@@ -14,21 +14,9 @@
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 21.14,
+      "current_pct": 13.74,
       "peak_volume_m5": 15297.69,
       "milestones_hit": []
-    },
-    {
-      "symbol": "DOPE",
-      "chain": "robinhood",
-      "address": "0x5aFebb4d6e0608236E731A5FafAF6dCA2e0C9437",
-      "source": "new",
-      "entry_price": 0.000192,
-      "peak_price": 0.000192,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T14:40:55.945296+00:00",
-      "score": 81,
-      "status": "open"
     },
     {
       "symbol": "SIC",
@@ -36,11 +24,15 @@
       "address": "DVoFvGB6zs8mV5hmZSzQynceY2YjEGYRiKPG9gv7pump",
       "source": "new",
       "entry_price": 0.0005208,
-      "peak_price": 0.0005208,
-      "trailing_active": false,
+      "peak_price": 0.0005992,
+      "trailing_active": true,
       "entry_time": "2026-10-11T14:40:57.751202+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.05,
+      "peak_volume_m5": 81044.29,
+      "milestones_hit": []
     },
     {
       "symbol": "INFLUENCE",
@@ -48,23 +40,15 @@
       "address": "0xa6b4BE1F75aF4F09C8d25A46a322109036a6DA9b",
       "source": "new",
       "entry_price": 0.0001488,
-      "peak_price": 0.0001488,
+      "peak_price": 0.0001543,
       "trailing_active": false,
       "entry_time": "2026-10-11T14:41:00.784392+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "Glorp",
-      "chain": "solana",
-      "address": "FdZRSoq4MfUPkqAi8mipJ9UaFYu8gfDCwCfw76YZpump",
-      "source": "new",
-      "entry_price": 0.0002082,
-      "peak_price": 0.0002082,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T14:41:02.618069+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.7,
+      "peak_volume_m5": 21760.78,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -249247,6 +249231,44 @@
       "exit_price": 4.826e-05,
       "exit_pct": -9.17,
       "exit_time": "2026-10-11T14:32:54.109571+00:00"
+    },
+    {
+      "symbol": "DOPE",
+      "chain": "robinhood",
+      "address": "0x5aFebb4d6e0608236E731A5FafAF6dCA2e0C9437",
+      "source": "new",
+      "entry_price": 0.000192,
+      "peak_price": 0.000192,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T14:40:55.945296+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.3,
+      "peak_volume_m5": 81098.25,
+      "milestones_hit": [],
+      "exit_price": 0.0001607,
+      "exit_pct": -16.3,
+      "exit_time": "2026-10-11T14:41:54.116825+00:00"
+    },
+    {
+      "symbol": "Glorp",
+      "chain": "solana",
+      "address": "FdZRSoq4MfUPkqAi8mipJ9UaFYu8gfDCwCfw76YZpump",
+      "source": "new",
+      "entry_price": 0.0002082,
+      "peak_price": 0.0002082,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T14:41:02.618069+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -25.22,
+      "peak_volume_m5": 121467.13,
+      "milestones_hit": [],
+      "exit_price": 0.0001557,
+      "exit_pct": -25.22,
+      "exit_time": "2026-10-11T14:41:56.208592+00:00"
     }
   ],
   "alerted": {
@@ -261878,6 +261900,8 @@
     "0x77853004960098d8033F6D0ABb8a114c8bd9b3Af": "2026-10-11T13:31:51.148612+00:00",
     "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": "2026-10-11T13:41:38.599467+00:00",
     "0xe8EB19546c9559f2Ca12CB49354FF65ECdb5dC2f": "2026-10-11T14:32:53.067199+00:00",
-    "0xdDc627EC8b431332b0D1145A870ff10732E25728": "2026-10-11T14:32:54.109571+00:00"
+    "0xdDc627EC8b431332b0D1145A870ff10732E25728": "2026-10-11T14:32:54.109571+00:00",
+    "0x5aFebb4d6e0608236E731A5FafAF6dCA2e0C9437": "2026-10-11T14:41:54.116825+00:00",
+    "FdZRSoq4MfUPkqAi8mipJ9UaFYu8gfDCwCfw76YZpump": "2026-10-11T14:41:56.208592+00:00"
   }
 }
