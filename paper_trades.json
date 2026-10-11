@@ -8,13 +8,13 @@
       "address": "0x710eb0a2Bc365A41053A171f00682ecbeE6CFBAb",
       "source": "new",
       "entry_price": 0.0004461,
-      "peak_price": 0.001038,
+      "peak_price": 0.00104,
       "trailing_active": true,
       "entry_time": "2026-10-11T14:30:54.009945+00:00",
       "score": 85,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 132.68,
+      "current_pct": 133.13,
       "peak_volume_m5": 15297.69,
       "milestones_hit": [
         50,
@@ -33,21 +33,9 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.6,
+      "current_pct": 6.49,
       "peak_volume_m5": 3987.93,
       "milestones_hit": []
-    },
-    {
-      "symbol": "ai",
-      "chain": "solana",
-      "address": "8oDatNBDRsQPjeNKELDT3QAnt84Go6RevnUDc2Sepump",
-      "source": "new",
-      "entry_price": 0.0001098,
-      "peak_price": 0.0001098,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T15:11:11.543244+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -249327,6 +249315,25 @@
       "exit_price": 2.771e-06,
       "exit_pct": -23.6,
       "exit_time": "2026-10-11T15:07:53.240804+00:00"
+    },
+    {
+      "symbol": "ai",
+      "chain": "solana",
+      "address": "8oDatNBDRsQPjeNKELDT3QAnt84Go6RevnUDc2Sepump",
+      "source": "new",
+      "entry_price": 0.0001098,
+      "peak_price": 0.0001098,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T15:11:11.543244+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.0,
+      "peak_volume_m5": 52740.22,
+      "milestones_hit": [],
+      "exit_price": 8.564e-05,
+      "exit_pct": -22.0,
+      "exit_time": "2026-10-11T15:12:30.389274+00:00"
     }
   ],
   "alerted": {
@@ -261963,6 +261970,7 @@
     "FdZRSoq4MfUPkqAi8mipJ9UaFYu8gfDCwCfw76YZpump": "2026-10-11T14:41:56.208592+00:00",
     "DVoFvGB6zs8mV5hmZSzQynceY2YjEGYRiKPG9gv7pump": "2026-10-11T14:47:26.420703+00:00",
     "0xa6b4BE1F75aF4F09C8d25A46a322109036a6DA9b": "2026-10-11T15:04:27.653873+00:00",
-    "0x32A8B5301849BD3ed0f9Fe492fcFBE3a85187024": "2026-10-11T15:07:53.240804+00:00"
+    "0x32A8B5301849BD3ed0f9Fe492fcFBE3a85187024": "2026-10-11T15:07:53.240804+00:00",
+    "8oDatNBDRsQPjeNKELDT3QAnt84Go6RevnUDc2Sepump": "2026-10-11T15:12:30.389274+00:00"
   }
 }
