@@ -4,27 +4,19 @@
   "open": [
     {
       "symbol": "Ollie",
-      "chain": "solana",
-      "address": "564TGXSRPH2a7vJvdp1uSaZ4M1qDmeKgoMZyfBvYpump",
-      "source": "new",
-      "entry_price": 0.0002196,
-      "peak_price": 0.0002196,
-      "trailing_active": false,
-      "entry_time": "2026-10-11T01:20:59.093001+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Ollie",
       "chain": "robinhood",
       "address": "0xB9e1B29b1e13327039473005347C24c2fdfe02A3",
       "source": "new",
       "entry_price": 3.466e-05,
-      "peak_price": 3.466e-05,
+      "peak_price": 3.723e-05,
       "trailing_active": false,
       "entry_time": "2026-10-11T01:21:00.532595+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.41,
+      "peak_volume_m5": 11423.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -248382,6 +248374,25 @@
       "exit_price": 0.0009743,
       "exit_pct": 22.03,
       "exit_time": "2026-10-11T01:09:43.167978+00:00"
+    },
+    {
+      "symbol": "Ollie",
+      "chain": "solana",
+      "address": "564TGXSRPH2a7vJvdp1uSaZ4M1qDmeKgoMZyfBvYpump",
+      "source": "new",
+      "entry_price": 0.0002196,
+      "peak_price": 0.0002196,
+      "trailing_active": false,
+      "entry_time": "2026-10-11T01:20:59.093001+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.67,
+      "peak_volume_m5": 103531.66,
+      "milestones_hit": [],
+      "exit_price": 0.000183,
+      "exit_pct": -16.67,
+      "exit_time": "2026-10-11T01:25:00.991308+00:00"
     }
   ],
   "alerted": {
@@ -260970,6 +260981,7 @@
     "3UVjAnc82dWnsUbFPXuE8Q5kCrCcm2ndnms4uNRJpump": "2026-10-11T00:15:52.931323+00:00",
     "3BAXtVzSRVnFHbdgJgBKQZaVvJpa6pLksAbBbXFppump": "2026-10-11T00:49:44.495255+00:00",
     "0xACbe4bA8603A74562Fc5cf233ae2f1B9856e496d": "2026-10-11T01:06:22.874101+00:00",
-    "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump": "2026-10-11T01:09:43.167978+00:00"
+    "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump": "2026-10-11T01:09:43.167978+00:00",
+    "564TGXSRPH2a7vJvdp1uSaZ4M1qDmeKgoMZyfBvYpump": "2026-10-11T01:25:00.991308+00:00"
   }
 }
