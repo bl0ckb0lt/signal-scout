@@ -3,40 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CA",
-      "chain": "robinhood",
-      "address": "0xe2A953b5CfD68563393C3dB89c4d5e746EA7Ea6f",
-      "source": "new",
-      "entry_price": 0.0002007,
-      "peak_price": 0.0002007,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T01:21:03.471557+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "REGGIE",
       "chain": "solana",
       "address": "95g11MvfN61ey9o8gTp4ek71L9iNUGGB6BVtjU39pump",
       "source": "new",
       "entry_price": 0.0001683,
-      "peak_price": 0.0001683,
+      "peak_price": 0.0001802,
       "trailing_active": false,
       "entry_time": "2026-10-12T01:21:05.061720+00:00",
       "score": 64,
-      "status": "open"
-    },
-    {
-      "symbol": "TAPEETH",
-      "chain": "ethereum",
-      "address": "0xaCE2e0179501A2bfad5F0fb230f38c87597D5e1b",
-      "source": "new",
-      "entry_price": 0.008577,
-      "peak_price": 0.008577,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T01:21:06.807766+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.07,
+      "peak_volume_m5": 11966.8,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -250165,6 +250145,44 @@
       "exit_price": 0.001677,
       "exit_pct": 279.33,
       "exit_time": "2026-10-12T01:10:55.685811+00:00"
+    },
+    {
+      "symbol": "CA",
+      "chain": "robinhood",
+      "address": "0xe2A953b5CfD68563393C3dB89c4d5e746EA7Ea6f",
+      "source": "new",
+      "entry_price": 0.0002007,
+      "peak_price": 0.0002007,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T01:21:03.471557+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.0,
+      "peak_volume_m5": 18944.64,
+      "milestones_hit": [],
+      "exit_price": 0.0001726,
+      "exit_pct": -14.0,
+      "exit_time": "2026-10-12T01:24:54.964612+00:00"
+    },
+    {
+      "symbol": "TAPEETH",
+      "chain": "ethereum",
+      "address": "0xaCE2e0179501A2bfad5F0fb230f38c87597D5e1b",
+      "source": "new",
+      "entry_price": 0.008577,
+      "peak_price": 0.008577,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T01:21:06.807766+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.88,
+      "peak_volume_m5": 3157.97,
+      "milestones_hit": [],
+      "exit_price": 0.007644,
+      "exit_pct": -10.88,
+      "exit_time": "2026-10-12T01:24:56.318917+00:00"
     }
   ],
   "alerted": {
@@ -262844,6 +262862,8 @@
     "0x167a53803597d702e425CA61F87b448C0219fF65": "2026-10-12T00:25:51.565198+00:00",
     "0x96795aB882f6EFf94d7FCc85Df508e35AFAd9eb3": "2026-10-12T00:52:36.453245+00:00",
     "2ikMciSZ1nK1X9E8X7U5trw3Tc9jW1Ud7FjrhAxPpump": "2026-10-12T01:02:17.134229+00:00",
-    "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump": "2026-10-12T01:10:55.685811+00:00"
+    "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump": "2026-10-12T01:10:55.685811+00:00",
+    "0xe2A953b5CfD68563393C3dB89c4d5e746EA7Ea6f": "2026-10-12T01:24:54.964612+00:00",
+    "0xaCE2e0179501A2bfad5F0fb230f38c87597D5e1b": "2026-10-12T01:24:56.318917+00:00"
   }
 }
