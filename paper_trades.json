@@ -1,27 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "SEAN",
-      "chain": "solana",
-      "address": "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump",
-      "source": "new",
-      "entry_price": 0.0004421,
-      "peak_price": 0.000969,
-      "trailing_active": true,
-      "entry_time": "2026-10-12T00:51:02.612307+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 119.18,
-      "peak_volume_m5": 203298.9,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -250125,6 +250105,29 @@
       "exit_price": 0.0002763,
       "exit_pct": 149.37,
       "exit_time": "2026-10-12T01:02:17.134229+00:00"
+    },
+    {
+      "symbol": "SEAN",
+      "chain": "solana",
+      "address": "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump",
+      "source": "new",
+      "entry_price": 0.0004421,
+      "peak_price": 0.001677,
+      "trailing_active": true,
+      "entry_time": "2026-10-12T00:51:02.612307+00:00",
+      "score": 77,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 279.33,
+      "peak_volume_m5": 203298.9,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.001677,
+      "exit_pct": 279.33,
+      "exit_time": "2026-10-12T01:10:55.685811+00:00"
     }
   ],
   "alerted": {
@@ -262803,6 +262806,7 @@
     "0x5455E2724Cd561aA931749508D0Fd2cB52a30548": "2026-10-12T00:23:20.351278+00:00",
     "0x167a53803597d702e425CA61F87b448C0219fF65": "2026-10-12T00:25:51.565198+00:00",
     "0x96795aB882f6EFf94d7FCc85Df508e35AFAd9eb3": "2026-10-12T00:52:36.453245+00:00",
-    "2ikMciSZ1nK1X9E8X7U5trw3Tc9jW1Ud7FjrhAxPpump": "2026-10-12T01:02:17.134229+00:00"
+    "2ikMciSZ1nK1X9E8X7U5trw3Tc9jW1Ud7FjrhAxPpump": "2026-10-12T01:02:17.134229+00:00",
+    "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump": "2026-10-12T01:10:55.685811+00:00"
   }
 }
