@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CASINU",
-      "chain": "solana",
-      "address": "9qj1HN5n227FeRnHiiHoyGjzDZqcGh3mCdFahywzpump",
-      "source": "boost",
-      "entry_price": 0.0002664,
-      "peak_price": 0.0002664,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T17:50:52.263853+00:00",
-      "score": 71,
-      "status": "open"
-    },
-    {
       "symbol": "MarsX",
       "chain": "solana",
       "address": "Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump",
       "source": "new",
       "entry_price": 0.0002488,
-      "peak_price": 0.0002488,
+      "peak_price": 0.0002514,
       "trailing_active": false,
       "entry_time": "2026-10-12T17:50:54.116523+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.05,
+      "peak_volume_m5": 172539.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -251355,6 +251347,25 @@
       "exit_price": 0.0001057,
       "exit_pct": -15.98,
       "exit_time": "2026-10-12T17:44:21.315731+00:00"
+    },
+    {
+      "symbol": "CASINU",
+      "chain": "solana",
+      "address": "9qj1HN5n227FeRnHiiHoyGjzDZqcGh3mCdFahywzpump",
+      "source": "boost",
+      "entry_price": 0.0002664,
+      "peak_price": 0.0002664,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T17:50:52.263853+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.07,
+      "peak_volume_m5": 59111.54,
+      "milestones_hit": [],
+      "exit_price": 0.0002449,
+      "exit_pct": -8.07,
+      "exit_time": "2026-10-12T17:51:30.598213+00:00"
     }
   ],
   "alerted": {
@@ -264095,6 +264106,7 @@
     "0x89dE9F6E2971e459DC4a754926059FFC69d3f5d0": "2026-10-12T17:13:24.230687+00:00",
     "mZkvmUh2SxGzipBkN8DcZE9hbWAHZXvjrDccGVxpump": "2026-10-12T17:32:42.258888+00:00",
     "3EFi7FeNcgmTWa9YgyHbfqFAUodLKg6xrQX3X2hFpump": "2026-10-12T17:42:32.198519+00:00",
-    "0x1e839c6b9CC3b53751737c37BBDA4175ED022C63": "2026-10-12T17:44:21.315731+00:00"
+    "0x1e839c6b9CC3b53751737c37BBDA4175ED022C63": "2026-10-12T17:44:21.315731+00:00",
+    "9qj1HN5n227FeRnHiiHoyGjzDZqcGh3mCdFahywzpump": "2026-10-12T17:51:30.598213+00:00"
   }
 }
