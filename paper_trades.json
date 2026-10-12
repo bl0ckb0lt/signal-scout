@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CAT89",
-      "chain": "solana",
-      "address": "7WSRd9ixYPhvqUoNUDew2tqasuD7JoXY2FNngtqppump",
-      "source": "new",
-      "entry_price": 0.0001662,
-      "peak_price": 0.0001662,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T09:21:10.491196+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "WORMPAD",
       "chain": "solana",
       "address": "7MKsF76rx5UMAdtUS1WLNeu4NYdpAfiCccV62upNworm",
       "source": "new",
       "entry_price": 0.0001438,
-      "peak_price": 0.0001438,
-      "trailing_active": false,
+      "peak_price": 0.000212,
+      "trailing_active": true,
       "entry_time": "2026-10-12T09:21:12.428512+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 47.43,
+      "peak_volume_m5": 55781.73,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -250715,6 +250707,25 @@
       "exit_price": 0.0002739,
       "exit_pct": 26.81,
       "exit_time": "2026-10-12T09:12:55.405951+00:00"
+    },
+    {
+      "symbol": "CAT89",
+      "chain": "solana",
+      "address": "7WSRd9ixYPhvqUoNUDew2tqasuD7JoXY2FNngtqppump",
+      "source": "new",
+      "entry_price": 0.0001662,
+      "peak_price": 0.0001662,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T09:21:10.491196+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.9,
+      "peak_volume_m5": 16837.16,
+      "milestones_hit": [],
+      "exit_price": 0.0001431,
+      "exit_pct": -13.9,
+      "exit_time": "2026-10-12T09:24:36.863429+00:00"
     }
   ],
   "alerted": {
@@ -263423,6 +263434,7 @@
     "0x949Cd192C78Df210B5840843E60c06a95b055a46": "2026-10-12T08:32:29.421860+00:00",
     "9Y8CL6shxYH9XcoqWUoP62Fw1gtX4jsvv9xst1bTpump": "2026-10-12T08:33:37.086603+00:00",
     "39fzweMMY4DRAgBQN61jbMGRoa2RBFTjAY3Vg95Epump": "2026-10-12T08:52:54.606462+00:00",
-    "0xa9daB5828E3bffFa4035c5f69fa92A9B771D92ed": "2026-10-12T09:12:55.405951+00:00"
+    "0xa9daB5828E3bffFa4035c5f69fa92A9B771D92ed": "2026-10-12T09:12:55.405951+00:00",
+    "7WSRd9ixYPhvqUoNUDew2tqasuD7JoXY2FNngtqppump": "2026-10-12T09:24:36.863429+00:00"
   }
 }
