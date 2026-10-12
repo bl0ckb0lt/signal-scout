@@ -8,13 +8,13 @@
       "address": "0x04ad72CfF4135E976E9d6D5545e23d476C9E0df5",
       "source": "boost",
       "entry_price": 0.0008107,
-      "peak_price": 0.0008107,
-      "trailing_active": false,
+      "peak_price": 0.0009836,
+      "trailing_active": true,
       "entry_time": "2026-10-12T19:10:59.582783+00:00",
       "score": 81,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -2.12,
+      "current_pct": 21.33,
       "peak_volume_m5": 20704.39,
       "milestones_hit": []
     },
@@ -28,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-12T19:21:11.726839+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.79,
+      "peak_volume_m5": 163593.05,
+      "milestones_hit": []
     },
     {
       "symbol": "SEANGUY",
@@ -36,23 +40,15 @@
       "address": "5qdvP3DxtNWWbXYgusu7YeFrefiuMr9kvKntfuNspump",
       "source": "new",
       "entry_price": 0.000303,
-      "peak_price": 0.000303,
+      "peak_price": 0.0003365,
       "trailing_active": false,
       "entry_time": "2026-10-12T19:21:13.446637+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "MARSINU",
-      "chain": "solana",
-      "address": "AVZL6g7Qw7958poF4yPFtURyqnRAbag46gs4AttRpump",
-      "source": "boost",
-      "entry_price": 0.0002275,
-      "peak_price": 0.0002275,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T19:21:15.819658+00:00",
-      "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.06,
+      "peak_volume_m5": 171024.27,
+      "milestones_hit": []
     },
     {
       "symbol": "VSWAP",
@@ -60,11 +56,15 @@
       "address": "4VScHuqZ13uma3S34iNkiSAQvZDEeGebjbM5bPcapump",
       "source": "boost",
       "entry_price": 0.0001434,
-      "peak_price": 0.0001434,
+      "peak_price": 0.0001525,
       "trailing_active": false,
       "entry_time": "2026-10-12T19:21:19.236933+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.35,
+      "peak_volume_m5": 92.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -251528,6 +251528,25 @@
       "exit_price": 0.000161,
       "exit_pct": -20.18,
       "exit_time": "2026-10-12T19:11:53.331864+00:00"
+    },
+    {
+      "symbol": "MARSINU",
+      "chain": "solana",
+      "address": "AVZL6g7Qw7958poF4yPFtURyqnRAbag46gs4AttRpump",
+      "source": "boost",
+      "entry_price": 0.0002275,
+      "peak_price": 0.0002275,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T19:21:15.819658+00:00",
+      "score": 71,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.32,
+      "peak_volume_m5": 31750.38,
+      "milestones_hit": [],
+      "exit_price": 0.0002063,
+      "exit_pct": -9.32,
+      "exit_time": "2026-10-12T19:22:43.887748+00:00"
     }
   ],
   "alerted": {
@@ -264275,6 +264294,7 @@
     "317FCQ6W6UUyVUGUc1oNFFR7GxyM3aFZ2P8s77nCpump": "2026-10-12T18:34:07.852427+00:00",
     "BihhV6n9X4BwfKMQSzsRzLgAvjMnvtFjseofZCNDiUoD": "2026-10-12T19:03:01.369280+00:00",
     "3DruFt8Bm8KPZjHWiqKFT5eLwy2RsGVTHDigtjLnpump": "2026-10-12T19:03:02.188536+00:00",
-    "H1hqLeM7YWs2JFHFJWkbQAcLyPh7DWfn7aUCwtGdpump": "2026-10-12T19:11:53.331864+00:00"
+    "H1hqLeM7YWs2JFHFJWkbQAcLyPh7DWfn7aUCwtGdpump": "2026-10-12T19:11:53.331864+00:00",
+    "AVZL6g7Qw7958poF4yPFtURyqnRAbag46gs4AttRpump": "2026-10-12T19:22:43.887748+00:00"
   }
 }
