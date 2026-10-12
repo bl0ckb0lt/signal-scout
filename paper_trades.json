@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DOPEBAT",
-      "chain": "solana",
-      "address": "3q2U15sSP4gy6PEYgmcVtEyurEHBhXgLre21NeHNpump",
-      "source": "new",
-      "entry_price": 0.0001589,
-      "peak_price": 0.0001589,
-      "trailing_active": false,
-      "entry_time": "2026-10-12T08:01:11.535465+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "TOKEN",
       "chain": "solana",
       "address": "4nio6Ykbfi7FqLMJ8Xgcz1hjqu1xAw8w5RMdi9AUpump",
       "source": "new",
       "entry_price": 0.0001057,
-      "peak_price": 0.0001057,
-      "trailing_active": false,
+      "peak_price": 0.0001221,
+      "trailing_active": true,
       "entry_time": "2026-10-12T08:01:13.328087+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.52,
+      "peak_volume_m5": 39712.65,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -250601,6 +250593,25 @@
       "exit_price": 5.537e-05,
       "exit_pct": 12.04,
       "exit_time": "2026-10-12T07:27:38.397796+00:00"
+    },
+    {
+      "symbol": "DOPEBAT",
+      "chain": "solana",
+      "address": "3q2U15sSP4gy6PEYgmcVtEyurEHBhXgLre21NeHNpump",
+      "source": "new",
+      "entry_price": 0.0001589,
+      "peak_price": 0.0001589,
+      "trailing_active": false,
+      "entry_time": "2026-10-12T08:01:11.535465+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.5,
+      "peak_volume_m5": 85536.05,
+      "milestones_hit": [],
+      "exit_price": 0.0001438,
+      "exit_pct": -9.5,
+      "exit_time": "2026-10-12T08:02:32.758048+00:00"
     }
   ],
   "alerted": {
@@ -263303,6 +263314,7 @@
     "HtRfvJ6M89MvoFCAHFFiDNA4gJWuj9cPxi8Ugo8kpump": "2026-10-12T07:12:39.734240+00:00",
     "EaqXJVr1aFPhMyTJbDCpwvTeiKc8x4gueFjFKKBvtcWY": "2026-10-12T07:13:51.186055+00:00",
     "0x8175810D00F9356A8F87A4A7b8FF7660087C7777": "2026-10-12T07:24:12.425681+00:00",
-    "0x2FA106a19585580A1c377Af92B50E7ea213AaCA9": "2026-10-12T07:27:38.397796+00:00"
+    "0x2FA106a19585580A1c377Af92B50E7ea213AaCA9": "2026-10-12T07:27:38.397796+00:00",
+    "3q2U15sSP4gy6PEYgmcVtEyurEHBhXgLre21NeHNpump": "2026-10-12T08:02:32.758048+00:00"
   }
 }
