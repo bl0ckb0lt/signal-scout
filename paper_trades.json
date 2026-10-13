@@ -24,46 +24,15 @@
       "address": "0xba41FF65Fd0a19Aa75dd4E6a04E9D3c15acaB887",
       "source": "new",
       "entry_price": 0.009305,
-      "peak_price": 0.01006,
+      "peak_price": 0.01008,
       "trailing_active": false,
       "entry_time": "2026-10-13T15:41:03.619254+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.78,
+      "current_pct": 8.33,
       "peak_volume_m5": 33141.42,
       "milestones_hit": []
-    },
-    {
-      "symbol": "FHSCAT",
-      "chain": "robinhood",
-      "address": "0x07B97ee688D2F8ACcb3F44c0CBDB20fB77D5E204",
-      "source": "new",
-      "entry_price": 1.909e-06,
-      "peak_price": 4.098e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-13T16:01:01.996052+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 114.67,
-      "peak_volume_m5": 201593.78,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
-      "symbol": "HAIR",
-      "chain": "ethereum",
-      "address": "0x491220192fAF8f72923b6f3661E48d4C1231527B",
-      "source": "new",
-      "entry_price": 0.0001082,
-      "peak_price": 0.0001082,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T16:11:04.324926+00:00",
-      "score": 78,
-      "status": "open"
     },
     {
       "symbol": "FLOW",
@@ -71,11 +40,15 @@
       "address": "0x14bF916031F738e077a6607a3416C380B364482F",
       "source": "new",
       "entry_price": 0.0001099,
-      "peak_price": 0.0001099,
+      "peak_price": 0.000117,
       "trailing_active": false,
       "entry_time": "2026-10-13T16:11:07.201214+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.46,
+      "peak_volume_m5": 10327.76,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252956,6 +252929,47 @@
       "exit_price": 0.0002536,
       "exit_pct": -18.01,
       "exit_time": "2026-10-13T16:02:40.946497+00:00"
+    },
+    {
+      "symbol": "FHSCAT",
+      "chain": "robinhood",
+      "address": "0x07B97ee688D2F8ACcb3F44c0CBDB20fB77D5E204",
+      "source": "new",
+      "entry_price": 1.909e-06,
+      "peak_price": 4.098e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-13T16:01:01.996052+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 73.55,
+      "peak_volume_m5": 302400.29,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 3.313e-06,
+      "exit_pct": 73.55,
+      "exit_time": "2026-10-13T16:12:51.437363+00:00"
+    },
+    {
+      "symbol": "HAIR",
+      "chain": "ethereum",
+      "address": "0x491220192fAF8f72923b6f3661E48d4C1231527B",
+      "source": "new",
+      "entry_price": 0.0001082,
+      "peak_price": 0.0001082,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T16:11:04.324926+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.69,
+      "peak_volume_m5": 4299.61,
+      "milestones_hit": [],
+      "exit_price": 9.447e-05,
+      "exit_pct": -12.69,
+      "exit_time": "2026-10-13T16:12:52.244824+00:00"
     }
   ],
   "alerted": {
@@ -265774,6 +265788,8 @@
     "AkuditQmcgxyKw68tnZb3UPwdDWxFEfQDiorurC9pump": "2026-10-13T15:42:56.388842+00:00",
     "FCVohFrokwz6rELLNgnQT426RbRjXQMy4RY6zrUjpump": "2026-10-13T15:44:50.915538+00:00",
     "0x8fc58fBa4Fe1590932F8f364eC9a21048b3c760c": "2026-10-13T15:45:39.349808+00:00",
-    "0xB39888cf57A4fB9D763A8873618540D56e9A7777": "2026-10-13T16:02:40.946497+00:00"
+    "0xB39888cf57A4fB9D763A8873618540D56e9A7777": "2026-10-13T16:02:40.946497+00:00",
+    "0x07B97ee688D2F8ACcb3F44c0CBDB20fB77D5E204": "2026-10-13T16:12:51.437363+00:00",
+    "0x491220192fAF8f72923b6f3661E48d4C1231527B": "2026-10-13T16:12:52.244824+00:00"
   }
 }
