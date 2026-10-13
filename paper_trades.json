@@ -30,21 +30,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -14.01,
+      "current_pct": -13.57,
       "peak_volume_m5": 43742.72,
       "milestones_hit": []
-    },
-    {
-      "symbol": "OSPREY",
-      "chain": "robinhood",
-      "address": "0x0A6E502e1550D04A53FE8d703ccFE76379503E01",
-      "source": "new",
-      "entry_price": 0.0001416,
-      "peak_price": 0.0001416,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T17:51:05.429639+00:00",
-      "score": 72,
-      "status": "open"
     },
     {
       "symbol": "KACY",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-13T17:51:07.361441+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.27,
+      "peak_volume_m5": 8893.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -253094,6 +253086,25 @@
       "exit_price": 0.0001617,
       "exit_pct": 64.31,
       "exit_time": "2026-10-13T17:13:36.958688+00:00"
+    },
+    {
+      "symbol": "OSPREY",
+      "chain": "robinhood",
+      "address": "0x0A6E502e1550D04A53FE8d703ccFE76379503E01",
+      "source": "new",
+      "entry_price": 0.0001416,
+      "peak_price": 0.0001416,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T17:51:05.429639+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.9,
+      "peak_volume_m5": 12536.93,
+      "milestones_hit": [],
+      "exit_price": 0.000129,
+      "exit_pct": -8.9,
+      "exit_time": "2026-10-13T17:51:39.566565+00:00"
     }
   ],
   "alerted": {
@@ -265920,6 +265931,7 @@
     "0xDc960518998BF3b50970f7b89B2353994557371f": "2026-10-13T16:23:10.613753+00:00",
     "7VJc41hYUpNHpLF5DAi9jdy5vT3Coq4xgVjQNaf1pump": "2026-10-13T16:42:44.283035+00:00",
     "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": "2026-10-13T17:12:06.414118+00:00",
-    "EZ7RFLpHv14NK8b6wQuRefLvspYTy1TFpj5756TKpump": "2026-10-13T17:13:36.958688+00:00"
+    "EZ7RFLpHv14NK8b6wQuRefLvspYTy1TFpj5756TKpump": "2026-10-13T17:13:36.958688+00:00",
+    "0x0A6E502e1550D04A53FE8d703ccFE76379503E01": "2026-10-13T17:51:39.566565+00:00"
   }
 }
