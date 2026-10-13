@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MARVIN",
-      "chain": "solana",
-      "address": "9HMuBjwKh3ZemM5k6EC43JiqYyMhaGLeTvuYycfUpump",
-      "source": "new",
-      "entry_price": 0.0003372,
-      "peak_price": 0.0003372,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T01:50:55.547215+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "ETHINU",
       "chain": "solana",
       "address": "4ERwUz3AKfBw2J34W8sBBsWh4ohXGvcD1qa7iKo7KeHm",
       "source": "new",
       "entry_price": 0.0001166,
-      "peak_price": 0.0001166,
-      "trailing_active": false,
+      "peak_price": 0.0001878,
+      "trailing_active": true,
       "entry_time": "2026-10-13T01:50:57.352618+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 61.06,
+      "peak_volume_m5": 50600.28,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -252011,6 +252005,25 @@
       "exit_price": 6.906e-05,
       "exit_pct": -6.37,
       "exit_time": "2026-10-13T01:18:59.810125+00:00"
+    },
+    {
+      "symbol": "MARVIN",
+      "chain": "solana",
+      "address": "9HMuBjwKh3ZemM5k6EC43JiqYyMhaGLeTvuYycfUpump",
+      "source": "new",
+      "entry_price": 0.0003372,
+      "peak_price": 0.0003372,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T01:50:55.547215+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -34.05,
+      "peak_volume_m5": 41890.3,
+      "milestones_hit": [],
+      "exit_price": 0.0002224,
+      "exit_pct": -34.05,
+      "exit_time": "2026-10-13T01:52:23.001358+00:00"
     }
   ],
   "alerted": {
@@ -264785,6 +264798,7 @@
     "B52xVCxWPKXSQ2KJM5JX6L8Z1bifTYLBEP2hwXNpwAGT": "2026-10-13T00:52:19.674768+00:00",
     "0x4CA5FeFd12f67D007Da9e7aA58c995fAD46f89D2": "2026-10-13T00:58:36.533539+00:00",
     "0x2f0ba60465dff5aaaD176CE29B22796FC03169f6": "2026-10-13T01:11:47.988972+00:00",
-    "0x99A7fB9bf26B166123A3a63fB03FfFCe80ca962c": "2026-10-13T01:18:59.810125+00:00"
+    "0x99A7fB9bf26B166123A3a63fB03FfFCe80ca962c": "2026-10-13T01:18:59.810125+00:00",
+    "9HMuBjwKh3ZemM5k6EC43JiqYyMhaGLeTvuYycfUpump": "2026-10-13T01:52:23.001358+00:00"
   }
 }
