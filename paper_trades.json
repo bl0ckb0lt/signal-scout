@@ -24,27 +24,15 @@
       "address": "0xba41FF65Fd0a19Aa75dd4E6a04E9D3c15acaB887",
       "source": "new",
       "entry_price": 0.009305,
-      "peak_price": 0.01013,
+      "peak_price": 0.01016,
       "trailing_active": false,
       "entry_time": "2026-10-13T15:41:03.619254+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.76,
+      "current_pct": 9.19,
       "peak_volume_m5": 37145.47,
       "milestones_hit": []
-    },
-    {
-      "symbol": "SFL",
-      "chain": "solana",
-      "address": "FqBavrjQvo9NT9P2q8YAFXtmwiM1oFebgyT3ivZipump",
-      "source": "new",
-      "entry_price": 0.0002539,
-      "peak_price": 0.0002539,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T16:21:08.146167+00:00",
-      "score": 76,
-      "status": "open"
     },
     {
       "symbol": "GMOTH",
@@ -56,7 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-13T16:21:11.045419+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.79,
+      "peak_volume_m5": 53860.27,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252997,6 +252989,25 @@
       "exit_price": 9.893e-05,
       "exit_pct": -9.98,
       "exit_time": "2026-10-13T16:14:07.700225+00:00"
+    },
+    {
+      "symbol": "SFL",
+      "chain": "solana",
+      "address": "FqBavrjQvo9NT9P2q8YAFXtmwiM1oFebgyT3ivZipump",
+      "source": "new",
+      "entry_price": 0.0002539,
+      "peak_price": 0.0002539,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T16:21:08.146167+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.78,
+      "peak_volume_m5": 257834.9,
+      "milestones_hit": [],
+      "exit_price": 0.0001859,
+      "exit_pct": -26.78,
+      "exit_time": "2026-10-13T16:22:30.049758+00:00"
     }
   ],
   "alerted": {
@@ -265818,6 +265829,7 @@
     "0xB39888cf57A4fB9D763A8873618540D56e9A7777": "2026-10-13T16:02:40.946497+00:00",
     "0x07B97ee688D2F8ACcb3F44c0CBDB20fB77D5E204": "2026-10-13T16:12:51.437363+00:00",
     "0x491220192fAF8f72923b6f3661E48d4C1231527B": "2026-10-13T16:12:52.244824+00:00",
-    "0x14bF916031F738e077a6607a3416C380B364482F": "2026-10-13T16:14:07.700225+00:00"
+    "0x14bF916031F738e077a6607a3416C380B364482F": "2026-10-13T16:14:07.700225+00:00",
+    "FqBavrjQvo9NT9P2q8YAFXtmwiM1oFebgyT3ivZipump": "2026-10-13T16:22:30.049758+00:00"
   }
 }
