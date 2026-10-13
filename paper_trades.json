@@ -24,31 +24,17 @@
       "address": "0xB9f53611316Fa2428Eb93c4Cc4dCcAe0D3977f79",
       "source": "boost",
       "entry_price": 0.0001527,
-      "peak_price": 0.0002279,
+      "peak_price": 0.0002418,
       "trailing_active": true,
       "entry_time": "2026-10-13T22:01:04.051311+00:00",
       "score": 77,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 49.25,
+      "current_pct": 58.35,
       "peak_volume_m5": 13507.61,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SEALCAT",
-      "chain": "solana",
-      "address": "DxnkB7w6f2eS1nfJH8ER1MeoR3apJZQKKA6sspzFpump",
-      "source": "new",
-      "entry_price": 0.0002939,
-      "peak_price": 0.0002939,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T22:11:14.023151+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -2.01,
-      "peak_volume_m5": 42437.07,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -253415,6 +253401,25 @@
       "exit_price": 0.0001027,
       "exit_pct": -16.16,
       "exit_time": "2026-10-13T22:17:20.918209+00:00"
+    },
+    {
+      "symbol": "SEALCAT",
+      "chain": "solana",
+      "address": "DxnkB7w6f2eS1nfJH8ER1MeoR3apJZQKKA6sspzFpump",
+      "source": "new",
+      "entry_price": 0.0002939,
+      "peak_price": 0.0002939,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T22:11:14.023151+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.89,
+      "peak_volume_m5": 42437.07,
+      "milestones_hit": [],
+      "exit_price": 0.0002472,
+      "exit_pct": -15.89,
+      "exit_time": "2026-10-13T22:19:03.133355+00:00"
     }
   ],
   "alerted": {
@@ -266258,6 +266263,7 @@
     "0x0f8B5B82A8A62137e4eA563A3709fE4Ca1fF1A2D": "2026-10-13T20:58:03.891671+00:00",
     "0x69E7778d46713e17572D610bDaca3943aa4e6219": "2026-10-13T21:07:04.441976+00:00",
     "Ct6HvaYv79FVwyr73MrEYNvLdtQouLquVmmZnuEkpump": "2026-10-13T21:29:09.682828+00:00",
-    "FY6CZ5JZMYcKfboBYKqqBVkhbknfjUELqAFiq2Qupump": "2026-10-13T22:17:20.918209+00:00"
+    "FY6CZ5JZMYcKfboBYKqqBVkhbknfjUELqAFiq2Qupump": "2026-10-13T22:17:20.918209+00:00",
+    "DxnkB7w6f2eS1nfJH8ER1MeoR3apJZQKKA6sspzFpump": "2026-10-13T22:19:03.133355+00:00"
   }
 }
