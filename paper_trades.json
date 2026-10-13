@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "YILONGMA",
-      "chain": "solana",
-      "address": "GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump",
-      "source": "new",
-      "entry_price": 0.0002675,
-      "peak_price": 0.0002893,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T10:21:17.845121+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 8.15,
-      "peak_volume_m5": 11415.29,
-      "milestones_hit": []
-    },
-    {
       "symbol": "ACHI",
       "chain": "solana",
       "address": "9awhVaut9ZTfJSfTrFn5u6sJ9XPGtmKJytnSJUrJpump",
       "source": "new",
       "entry_price": 0.0001465,
-      "peak_price": 0.0001465,
+      "peak_price": 0.0001531,
       "trailing_active": false,
       "entry_time": "2026-10-13T10:31:06.685728+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.51,
+      "peak_volume_m5": 29558.81,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252408,6 +252396,25 @@
       "exit_price": 0.0002038,
       "exit_pct": -26.11,
       "exit_time": "2026-10-13T10:13:27.543307+00:00"
+    },
+    {
+      "symbol": "YILONGMA",
+      "chain": "solana",
+      "address": "GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump",
+      "source": "new",
+      "entry_price": 0.0002675,
+      "peak_price": 0.0003141,
+      "trailing_active": true,
+      "entry_time": "2026-10-13T10:21:17.845121+00:00",
+      "score": 63,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 17.42,
+      "peak_volume_m5": 11415.29,
+      "milestones_hit": [],
+      "exit_price": 0.0003141,
+      "exit_pct": 17.42,
+      "exit_time": "2026-10-13T10:38:04.703968+00:00"
     }
   ],
   "alerted": {
@@ -265201,6 +265208,7 @@
     "0x7eC598F9F01b89885d9C1992ff45954b2986C418": "2026-10-13T09:23:09.181034+00:00",
     "0xBB43A3685fCD0FE4F88f7E4324B0B8a226050F94": "2026-10-13T09:51:44.871461+00:00",
     "2v52Jo1yC5MVaJxa6ZzESEvcdbs6yUhjgNefXLmvpump": "2026-10-13T10:02:29.256764+00:00",
-    "DLpb929gk6AJdAPHUYrdCXVvH2dikqsZXrCZQR17pump": "2026-10-13T10:13:27.543307+00:00"
+    "DLpb929gk6AJdAPHUYrdCXVvH2dikqsZXrCZQR17pump": "2026-10-13T10:13:27.543307+00:00",
+    "GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump": "2026-10-13T10:38:04.703968+00:00"
   }
 }
