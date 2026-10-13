@@ -1,24 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "EAXO",
-      "chain": "robinhood",
-      "address": "0xf43915600C989487295645B1097eB20a2CE95000",
-      "source": "new",
-      "entry_price": 1.389e-06,
-      "peak_price": 1.992e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-13T02:01:03.436703+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 43.41,
-      "peak_volume_m5": 87203.5,
-      "milestones_hit": []
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -252043,6 +252026,29 @@
       "exit_price": 0.0001762,
       "exit_pct": 51.11,
       "exit_time": "2026-10-13T01:56:50.163112+00:00"
+    },
+    {
+      "symbol": "EAXO",
+      "chain": "robinhood",
+      "address": "0xf43915600C989487295645B1097eB20a2CE95000",
+      "source": "new",
+      "entry_price": 1.389e-06,
+      "peak_price": 5.081e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-13T02:01:03.436703+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 265.8,
+      "peak_volume_m5": 87203.5,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 5.081e-06,
+      "exit_pct": 265.8,
+      "exit_time": "2026-10-13T02:20:21.826226+00:00"
     }
   ],
   "alerted": {
@@ -264819,6 +264825,7 @@
     "0x2f0ba60465dff5aaaD176CE29B22796FC03169f6": "2026-10-13T01:11:47.988972+00:00",
     "0x99A7fB9bf26B166123A3a63fB03FfFCe80ca962c": "2026-10-13T01:18:59.810125+00:00",
     "9HMuBjwKh3ZemM5k6EC43JiqYyMhaGLeTvuYycfUpump": "2026-10-13T01:52:23.001358+00:00",
-    "4ERwUz3AKfBw2J34W8sBBsWh4ohXGvcD1qa7iKo7KeHm": "2026-10-13T01:56:50.163112+00:00"
+    "4ERwUz3AKfBw2J34W8sBBsWh4ohXGvcD1qa7iKo7KeHm": "2026-10-13T01:56:50.163112+00:00",
+    "0xf43915600C989487295645B1097eB20a2CE95000": "2026-10-13T02:20:21.826226+00:00"
   }
 }
