@@ -14,7 +14,7 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 15.23,
+      "current_pct": 11.67,
       "peak_volume_m5": 28134.12,
       "milestones_hit": []
     },
@@ -24,35 +24,15 @@
       "address": "0xad139EfC707FdeB22CC9a83C181a3c164c1fcD5f",
       "source": "new",
       "entry_price": 0.0004146,
-      "peak_price": 0.0004146,
+      "peak_price": 0.0004366,
       "trailing_active": false,
       "entry_time": "2026-10-13T13:51:10.293861+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "SEALS",
-      "chain": "robinhood",
-      "address": "0x9baec1929acBEF65daE7E4685E9538588E375Ed1",
-      "source": "new",
-      "entry_price": 0.0004074,
-      "peak_price": 0.0004074,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T13:51:11.804522+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "COWE",
-      "chain": "solana",
-      "address": "DTBkv3GrfmUGtBHy5guQm2FmbYuWgtaDkW7XfJokpump",
-      "source": "new",
-      "entry_price": 0.0001573,
-      "peak_price": 0.0001573,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T13:51:13.793217+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.31,
+      "peak_volume_m5": 20055.27,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252565,6 +252545,44 @@
       "exit_price": 17.27,
       "exit_pct": -13.0,
       "exit_time": "2026-10-13T13:23:56.021250+00:00"
+    },
+    {
+      "symbol": "SEALS",
+      "chain": "robinhood",
+      "address": "0x9baec1929acBEF65daE7E4685E9538588E375Ed1",
+      "source": "new",
+      "entry_price": 0.0004074,
+      "peak_price": 0.0004074,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T13:51:11.804522+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.79,
+      "peak_volume_m5": 135796.49,
+      "milestones_hit": [],
+      "exit_price": 0.0003512,
+      "exit_pct": -13.79,
+      "exit_time": "2026-10-13T13:52:38.469978+00:00"
+    },
+    {
+      "symbol": "COWE",
+      "chain": "solana",
+      "address": "DTBkv3GrfmUGtBHy5guQm2FmbYuWgtaDkW7XfJokpump",
+      "source": "new",
+      "entry_price": 0.0001573,
+      "peak_price": 0.0001573,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T13:51:13.793217+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.68,
+      "peak_volume_m5": 10051.41,
+      "milestones_hit": [],
+      "exit_price": 0.0001405,
+      "exit_pct": -10.68,
+      "exit_time": "2026-10-13T13:52:39.284995+00:00"
     }
   ],
   "alerted": {
@@ -265364,6 +265382,8 @@
     "0x0DC4b09Cc94b8DB48BE05a095479ADeA2b846706": "2026-10-13T12:05:52.729576+00:00",
     "0x35a73B1C7eC11F342A3879f3B88AccB8eAe6028d": "2026-10-13T13:08:15.684900+00:00",
     "CENZ5FtB1qVKz9cSvYFeSiUCfmF3jrqCi6U9Je5Qpump": "2026-10-13T13:12:47.409306+00:00",
-    "0x691A1D51CbE2Ef08204e6baD00c41BeE534F8c4b": "2026-10-13T13:23:56.021250+00:00"
+    "0x691A1D51CbE2Ef08204e6baD00c41BeE534F8c4b": "2026-10-13T13:23:56.021250+00:00",
+    "0x9baec1929acBEF65daE7E4685E9538588E375Ed1": "2026-10-13T13:52:38.469978+00:00",
+    "DTBkv3GrfmUGtBHy5guQm2FmbYuWgtaDkW7XfJokpump": "2026-10-13T13:52:39.284995+00:00"
   }
 }
