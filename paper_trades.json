@@ -30,21 +30,9 @@
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.17,
+      "current_pct": 4.27,
       "peak_volume_m5": 24937.43,
       "milestones_hit": []
-    },
-    {
-      "symbol": "binancians",
-      "chain": "bsc",
-      "address": "0xB39888cf57A4fB9D763A8873618540D56e9A7777",
-      "source": "new",
-      "entry_price": 0.0003093,
-      "peak_price": 0.0003093,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T16:01:00.491796+00:00",
-      "score": 82,
-      "status": "open"
     },
     {
       "symbol": "FHSCAT",
@@ -52,11 +40,15 @@
       "address": "0x07B97ee688D2F8ACcb3F44c0CBDB20fB77D5E204",
       "source": "new",
       "entry_price": 1.909e-06,
-      "peak_price": 1.909e-06,
-      "trailing_active": false,
+      "peak_price": 2.783e-06,
+      "trailing_active": true,
       "entry_time": "2026-10-13T16:01:01.996052+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 45.78,
+      "peak_volume_m5": 175289.43,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252918,6 +252910,25 @@
       "exit_price": 6.859e-05,
       "exit_pct": -15.55,
       "exit_time": "2026-10-13T15:45:39.349808+00:00"
+    },
+    {
+      "symbol": "binancians",
+      "chain": "bsc",
+      "address": "0xB39888cf57A4fB9D763A8873618540D56e9A7777",
+      "source": "new",
+      "entry_price": 0.0003093,
+      "peak_price": 0.0003093,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T16:01:00.491796+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.01,
+      "peak_volume_m5": 47528.85,
+      "milestones_hit": [],
+      "exit_price": 0.0002536,
+      "exit_pct": -18.01,
+      "exit_time": "2026-10-13T16:02:40.946497+00:00"
     }
   ],
   "alerted": {
@@ -265735,6 +265746,7 @@
     "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": "2026-10-13T15:39:06.409558+00:00",
     "AkuditQmcgxyKw68tnZb3UPwdDWxFEfQDiorurC9pump": "2026-10-13T15:42:56.388842+00:00",
     "FCVohFrokwz6rELLNgnQT426RbRjXQMy4RY6zrUjpump": "2026-10-13T15:44:50.915538+00:00",
-    "0x8fc58fBa4Fe1590932F8f364eC9a21048b3c760c": "2026-10-13T15:45:39.349808+00:00"
+    "0x8fc58fBa4Fe1590932F8f364eC9a21048b3c760c": "2026-10-13T15:45:39.349808+00:00",
+    "0xB39888cf57A4fB9D763A8873618540D56e9A7777": "2026-10-13T16:02:40.946497+00:00"
   }
 }
