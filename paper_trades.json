@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "UNICORN",
-      "chain": "robinhood",
-      "address": "0xfd8e303dAC4a7298DE79F4d9e4E7433282696Ed7",
-      "source": "new",
-      "entry_price": 0.000278,
-      "peak_price": 0.000278,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T00:11:13.029944+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "hi",
       "chain": "solana",
       "address": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
       "source": "new",
       "entry_price": 0.0001711,
-      "peak_price": 0.0001711,
+      "peak_price": 0.0001777,
       "trailing_active": false,
       "entry_time": "2026-10-13T00:11:15.049785+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.86,
+      "peak_volume_m5": 36130.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -251878,6 +251870,25 @@
       "exit_price": 0.0001216,
       "exit_pct": -9.52,
       "exit_time": "2026-10-12T23:32:59.720555+00:00"
+    },
+    {
+      "symbol": "UNICORN",
+      "chain": "robinhood",
+      "address": "0xfd8e303dAC4a7298DE79F4d9e4E7433282696Ed7",
+      "source": "new",
+      "entry_price": 0.000278,
+      "peak_price": 0.000278,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T00:11:13.029944+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.02,
+      "peak_volume_m5": 32114.93,
+      "milestones_hit": [],
+      "exit_price": 0.0002279,
+      "exit_pct": -18.02,
+      "exit_time": "2026-10-13T00:12:38.467692+00:00"
     }
   ],
   "alerted": {
@@ -264645,6 +264656,7 @@
     "0xF138b2838C912EaAC12178F7F7319bc4c0306f11": "2026-10-12T23:12:27.840917+00:00",
     "B4rXJv2pRQvTfEsgtYfxqAsA6sUC8iVGEN1pN865pump": "2026-10-12T23:13:24.020316+00:00",
     "FXRDkcntDvxstU7fNEcy7PLc6EDncb3yNiKHPtVXpump": "2026-10-12T23:15:13.805933+00:00",
-    "CVxmNU5pseYjegY1D8GBk6J1y3cRj7JrCZDyd2z1pump": "2026-10-12T23:32:59.720555+00:00"
+    "CVxmNU5pseYjegY1D8GBk6J1y3cRj7JrCZDyd2z1pump": "2026-10-12T23:32:59.720555+00:00",
+    "0xfd8e303dAC4a7298DE79F4d9e4E7433282696Ed7": "2026-10-13T00:12:38.467692+00:00"
   }
 }
