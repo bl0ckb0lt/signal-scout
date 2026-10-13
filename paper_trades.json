@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WORM",
-      "chain": "robinhood",
-      "address": "0x0DC4b09Cc94b8DB48BE05a095479ADeA2b846706",
-      "source": "new",
-      "entry_price": 0.0002269,
-      "peak_price": 0.0002269,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T12:00:57.975748+00:00",
-      "score": 82,
-      "status": "open"
-    },
-    {
       "symbol": "SFFINU",
       "chain": "robinhood",
       "address": "0xBB43A3685fCD0FE4F88f7E4324B0B8a226050F94",
       "source": "new",
       "entry_price": 4.604e-05,
-      "peak_price": 4.604e-05,
+      "peak_price": 5.03e-05,
       "trailing_active": false,
       "entry_time": "2026-10-13T12:00:59.515346+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.25,
+      "peak_volume_m5": 185475.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -252442,6 +252434,25 @@
       "exit_price": 0.0001703,
       "exit_pct": 16.25,
       "exit_time": "2026-10-13T10:41:50.171439+00:00"
+    },
+    {
+      "symbol": "WORM",
+      "chain": "robinhood",
+      "address": "0x0DC4b09Cc94b8DB48BE05a095479ADeA2b846706",
+      "source": "new",
+      "entry_price": 0.0002269,
+      "peak_price": 0.0002269,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T12:00:57.975748+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.6,
+      "peak_volume_m5": 46029.42,
+      "milestones_hit": [],
+      "exit_price": 0.0001779,
+      "exit_pct": -21.6,
+      "exit_time": "2026-10-13T12:05:52.729576+00:00"
     }
   ],
   "alerted": {
@@ -265237,6 +265248,7 @@
     "2v52Jo1yC5MVaJxa6ZzESEvcdbs6yUhjgNefXLmvpump": "2026-10-13T10:02:29.256764+00:00",
     "DLpb929gk6AJdAPHUYrdCXVvH2dikqsZXrCZQR17pump": "2026-10-13T10:13:27.543307+00:00",
     "GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump": "2026-10-13T10:38:04.703968+00:00",
-    "9awhVaut9ZTfJSfTrFn5u6sJ9XPGtmKJytnSJUrJpump": "2026-10-13T10:41:50.171439+00:00"
+    "9awhVaut9ZTfJSfTrFn5u6sJ9XPGtmKJytnSJUrJpump": "2026-10-13T10:41:50.171439+00:00",
+    "0x0DC4b09Cc94b8DB48BE05a095479ADeA2b846706": "2026-10-13T12:05:52.729576+00:00"
   }
 }
