@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "FORGE",
-      "chain": "robinhood",
-      "address": "0x278FE8f5b4978f78Ed33d1d705e920fA67e17B55",
-      "source": "new",
-      "entry_price": 0.0005247,
-      "peak_price": 0.0005247,
-      "trailing_active": false,
-      "entry_time": "2026-10-13T00:40:55.838914+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "wAGENTS",
       "chain": "solana",
       "address": "B52xVCxWPKXSQ2KJM5JX6L8Z1bifTYLBEP2hwXNpwAGT",
       "source": "new",
       "entry_price": 9.754e-05,
-      "peak_price": 9.754e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001149,
+      "trailing_active": true,
       "entry_time": "2026-10-13T00:40:57.612939+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.8,
+      "peak_volume_m5": 19622.24,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -251916,6 +251908,25 @@
       "exit_price": 0.0002268,
       "exit_pct": 32.55,
       "exit_time": "2026-10-13T00:36:02.391431+00:00"
+    },
+    {
+      "symbol": "FORGE",
+      "chain": "robinhood",
+      "address": "0x278FE8f5b4978f78Ed33d1d705e920fA67e17B55",
+      "source": "new",
+      "entry_price": 0.0005247,
+      "peak_price": 0.0005247,
+      "trailing_active": false,
+      "entry_time": "2026-10-13T00:40:55.838914+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.06,
+      "peak_volume_m5": 1799.95,
+      "milestones_hit": [],
+      "exit_price": 0.0004719,
+      "exit_pct": -10.06,
+      "exit_time": "2026-10-13T00:45:55.645352+00:00"
     }
   ],
   "alerted": {
@@ -264685,6 +264696,7 @@
     "FXRDkcntDvxstU7fNEcy7PLc6EDncb3yNiKHPtVXpump": "2026-10-12T23:15:13.805933+00:00",
     "CVxmNU5pseYjegY1D8GBk6J1y3cRj7JrCZDyd2z1pump": "2026-10-12T23:32:59.720555+00:00",
     "0xfd8e303dAC4a7298DE79F4d9e4E7433282696Ed7": "2026-10-13T00:12:38.467692+00:00",
-    "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump": "2026-10-13T00:36:02.391431+00:00"
+    "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump": "2026-10-13T00:36:02.391431+00:00",
+    "0x278FE8f5b4978f78Ed33d1d705e920fA67e17B55": "2026-10-13T00:45:55.645352+00:00"
   }
 }
