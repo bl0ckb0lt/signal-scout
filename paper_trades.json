@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "KIMCHI",
-      "chain": "robinhood",
-      "address": "0x92DE9d3888953f3C6a55840F189C409976d9BBa1",
-      "source": "new",
-      "entry_price": 0.0002401,
-      "peak_price": 0.0002401,
-      "trailing_active": false,
-      "entry_time": "2026-10-14T17:41:02.405706+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "SHOUSE",
       "chain": "robinhood",
       "address": "0xF873b879ffcF903c536d334D8314CBb238D7B2Ac",
       "source": "new",
       "entry_price": 7.184e-05,
-      "peak_price": 7.184e-05,
+      "peak_price": 8.24e-05,
       "trailing_active": false,
       "entry_time": "2026-10-14T17:41:03.748327+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.7,
+      "peak_volume_m5": 11156.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -254799,6 +254791,25 @@
       "exit_price": 0.0002009,
       "exit_pct": -18.4,
       "exit_time": "2026-10-14T17:22:25.150546+00:00"
+    },
+    {
+      "symbol": "KIMCHI",
+      "chain": "robinhood",
+      "address": "0x92DE9d3888953f3C6a55840F189C409976d9BBa1",
+      "source": "new",
+      "entry_price": 0.0002401,
+      "peak_price": 0.0002401,
+      "trailing_active": false,
+      "entry_time": "2026-10-14T17:41:02.405706+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.87,
+      "peak_volume_m5": 31239.63,
+      "milestones_hit": [],
+      "exit_price": 0.0002092,
+      "exit_pct": -12.87,
+      "exit_time": "2026-10-14T17:41:51.270728+00:00"
     }
   ],
   "alerted": {
@@ -267712,6 +267723,7 @@
     "0x490c20b07a6CDD65775504D2A21f01c6B09A7777": "2026-10-14T16:53:06.308414+00:00",
     "0x8ffCB148B4fB419c12283f0E4198cBd765799C1E": "2026-10-14T16:53:47.996562+00:00",
     "1EwcGE6WrssiY2sKSadB5E5DE9WhPDQvBC6kev1EDGE": "2026-10-14T17:04:26.812365+00:00",
-    "7QB5fMj9RGZEfPgbRbJrqmAyyrHA8QCYMtWi87PKpump": "2026-10-14T17:22:25.150546+00:00"
+    "7QB5fMj9RGZEfPgbRbJrqmAyyrHA8QCYMtWi87PKpump": "2026-10-14T17:22:25.150546+00:00",
+    "0x92DE9d3888953f3C6a55840F189C409976d9BBa1": "2026-10-14T17:41:51.270728+00:00"
   }
 }
