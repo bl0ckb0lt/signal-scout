@@ -30,21 +30,9 @@
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.06,
+      "current_pct": 1.86,
       "peak_volume_m5": 651.94,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Stryker",
-      "chain": "solana",
-      "address": "E5468CXrwDaiU1pyf5pQ3cYECZhMJQQQZixsyRMXpump",
-      "source": "new",
-      "entry_price": 0.0001879,
-      "peak_price": 0.0001879,
-      "trailing_active": false,
-      "entry_time": "2026-10-14T00:20:56.936470+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "TXGYM",
@@ -52,11 +40,17 @@
       "address": "CLrFZt7o6bE3xFXkYQHVkQBoRZXidZ82xAixUnfoogym",
       "source": "new",
       "entry_price": 0.0002994,
-      "peak_price": 0.0002994,
-      "trailing_active": false,
+      "peak_price": 0.0004667,
+      "trailing_active": true,
       "entry_time": "2026-10-14T00:20:59.247871+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 55.88,
+      "peak_volume_m5": 357646.59,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -253577,6 +253571,25 @@
       "exit_price": 7.421e-06,
       "exit_pct": -10.89,
       "exit_time": "2026-10-14T00:09:38.295904+00:00"
+    },
+    {
+      "symbol": "Stryker",
+      "chain": "solana",
+      "address": "E5468CXrwDaiU1pyf5pQ3cYECZhMJQQQZixsyRMXpump",
+      "source": "new",
+      "entry_price": 0.0001879,
+      "peak_price": 0.0001879,
+      "trailing_active": false,
+      "entry_time": "2026-10-14T00:20:56.936470+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.56,
+      "peak_volume_m5": 70422.82,
+      "milestones_hit": [],
+      "exit_price": 0.0001643,
+      "exit_pct": -12.56,
+      "exit_time": "2026-10-14T00:24:23.879603+00:00"
     }
   ],
   "alerted": {
@@ -266427,6 +266440,7 @@
     "fvT29UywGTM7wgRv5RCYpjtH1N9QKCM9LXyw53Tpump": "2026-10-13T22:35:57.299117+00:00",
     "EkNTepoK82LoNErKteeyj1iJ86aPWDUcZKjmAY8mpump": "2026-10-13T22:43:54.744960+00:00",
     "3ZWo461YsQopTrdis9F7ykkapMowyQnKVGmEecsEpump": "2026-10-13T23:52:12.984677+00:00",
-    "0x2f8A8d8cda53cF078a39769A19294B4E4E57a7a7": "2026-10-14T00:09:38.295904+00:00"
+    "0x2f8A8d8cda53cF078a39769A19294B4E4E57a7a7": "2026-10-14T00:09:38.295904+00:00",
+    "E5468CXrwDaiU1pyf5pQ3cYECZhMJQQQZixsyRMXpump": "2026-10-14T00:24:23.879603+00:00"
   }
 }
