@@ -28,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-14T04:20:51.979320+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.53,
+      "peak_volume_m5": 36012.94,
+      "milestones_hit": []
     },
     {
       "symbol": "SI",
@@ -40,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-14T04:20:53.491115+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "Eikon",
-      "chain": "solana",
-      "address": "63A9mFGpX4Mws6TznZm4287P4vTsTxQ5NvcJPsbXpump",
-      "source": "new",
-      "entry_price": 0.0001461,
-      "peak_price": 0.0001461,
-      "trailing_active": false,
-      "entry_time": "2026-10-14T04:20:55.385450+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.04,
+      "peak_volume_m5": 55935.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -253961,6 +253957,25 @@
       "exit_price": 4.309e-06,
       "exit_pct": 318.35,
       "exit_time": "2026-10-14T04:20:02.498455+00:00"
+    },
+    {
+      "symbol": "Eikon",
+      "chain": "solana",
+      "address": "63A9mFGpX4Mws6TznZm4287P4vTsTxQ5NvcJPsbXpump",
+      "source": "new",
+      "entry_price": 0.0001461,
+      "peak_price": 0.0001461,
+      "trailing_active": false,
+      "entry_time": "2026-10-14T04:20:55.385450+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.88,
+      "peak_volume_m5": 41050.92,
+      "milestones_hit": [],
+      "exit_price": 0.0001302,
+      "exit_pct": -10.88,
+      "exit_time": "2026-10-14T04:21:56.194331+00:00"
     }
   ],
   "alerted": {
@@ -266831,6 +266846,7 @@
     "EMUZChJXbptGGLpQa8bTK6vD4B8tB2dVeQVY8SNTpump": "2026-10-14T03:13:36.670031+00:00",
     "2Luv5g5MxSUpFhDDqJodvtYGVSvSzwUtTrud1VuXpump": "2026-10-14T03:26:07.507355+00:00",
     "0x545Aba58bB6ddC068D6B9dfe50b642F9286B7777": "2026-10-14T04:11:51.390723+00:00",
-    "0x8a5193CC022F17dB37A4587d9084Eb33D8a40cEf": "2026-10-14T04:20:02.498455+00:00"
+    "0x8a5193CC022F17dB37A4587d9084Eb33D8a40cEf": "2026-10-14T04:20:02.498455+00:00",
+    "63A9mFGpX4Mws6TznZm4287P4vTsTxQ5NvcJPsbXpump": "2026-10-14T04:21:56.194331+00:00"
   }
 }
