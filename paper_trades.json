@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "VEILTROLL",
-      "chain": "solana",
-      "address": "3eHs8fw4hKdY2kaiGk6R5WVHCYvaq2kaL6Dc33Hppump",
-      "source": "new",
-      "entry_price": 0.0002066,
-      "peak_price": 0.0002066,
-      "trailing_active": false,
-      "entry_time": "2026-10-14T19:40:53.659150+00:00",
-      "score": 80,
-      "status": "open"
-    },
-    {
       "symbol": "ODDSINU",
       "chain": "robinhood",
       "address": "0x86E6a6583e3361676D48a00F02bD53831E94C1fe",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-14T19:40:55.179086+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.49,
+      "peak_volume_m5": 224728.89,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -255091,6 +255083,25 @@
       "exit_price": 0.0001806,
       "exit_pct": 12.45,
       "exit_time": "2026-10-14T19:32:52.276502+00:00"
+    },
+    {
+      "symbol": "VEILTROLL",
+      "chain": "solana",
+      "address": "3eHs8fw4hKdY2kaiGk6R5WVHCYvaq2kaL6Dc33Hppump",
+      "source": "new",
+      "entry_price": 0.0002066,
+      "peak_price": 0.0002066,
+      "trailing_active": false,
+      "entry_time": "2026-10-14T19:40:53.659150+00:00",
+      "score": 80,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.04,
+      "peak_volume_m5": 191571.53,
+      "milestones_hit": [],
+      "exit_price": 0.0001528,
+      "exit_pct": -26.04,
+      "exit_time": "2026-10-14T19:41:51.495622+00:00"
     }
   ],
   "alerted": {
@@ -268017,6 +268028,7 @@
     "0xEFdC5Dbed7C6Ff5a32266aCAaBb6aB77e63Bf7ED": "2026-10-14T19:04:12.700765+00:00",
     "79BsZySKboFFz6CvHpCxhe7Cpa3hwBr1nrbaXUCEpump": "2026-10-14T19:21:58.231243+00:00",
     "0xab1B3fB252ffAe10748D0dc7BB7D9cEeBCE69217": "2026-10-14T19:22:58.670277+00:00",
-    "6hYydY7KpFsCVGg2GRMLwY6N43xLgMTEXKuXrmCgpump": "2026-10-14T19:32:52.276502+00:00"
+    "6hYydY7KpFsCVGg2GRMLwY6N43xLgMTEXKuXrmCgpump": "2026-10-14T19:32:52.276502+00:00",
+    "3eHs8fw4hKdY2kaiGk6R5WVHCYvaq2kaL6Dc33Hppump": "2026-10-14T19:41:51.495622+00:00"
   }
 }
