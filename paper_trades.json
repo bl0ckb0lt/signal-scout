@@ -30,7 +30,7 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.43,
+      "current_pct": 5.38,
       "peak_volume_m5": 493.09,
       "milestones_hit": []
     },
@@ -40,29 +40,18 @@
       "address": "0x7c0495053F47Ec52eb4b678c4ad8f572dF745BFE",
       "source": "new",
       "entry_price": 0.0001248,
-      "peak_price": 0.0002438,
+      "peak_price": 0.0002575,
       "trailing_active": true,
       "entry_time": "2026-10-15T10:21:10.628061+00:00",
       "score": 63,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 95.35,
+      "current_pct": 106.33,
       "peak_volume_m5": 14651.29,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "HUMPH Robin",
-      "chain": "robinhood",
-      "address": "0xF093bD70221691B0C29b0D6427D2629cBa44D704",
-      "source": "boost",
-      "entry_price": 0.000222,
-      "peak_price": 0.000222,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T10:30:58.792631+00:00",
-      "score": 93,
-      "status": "open"
     }
   ],
   "closed": [
@@ -256132,6 +256121,25 @@
       "exit_price": 9.862e-05,
       "exit_pct": -60.93,
       "exit_time": "2026-10-15T10:03:27.122803+00:00"
+    },
+    {
+      "symbol": "HUMPH Robin",
+      "chain": "robinhood",
+      "address": "0xF093bD70221691B0C29b0D6427D2629cBa44D704",
+      "source": "boost",
+      "entry_price": 0.000222,
+      "peak_price": 0.000222,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T10:30:58.792631+00:00",
+      "score": 93,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.77,
+      "peak_volume_m5": 65020.98,
+      "milestones_hit": [],
+      "exit_price": 0.0001781,
+      "exit_pct": -19.77,
+      "exit_time": "2026-10-15T10:38:40.909333+00:00"
     }
   ],
   "alerted": {
@@ -269110,6 +269118,7 @@
     "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump": "2026-10-15T08:42:53.078200+00:00",
     "HUDmsj3BJ6EkbRBWpi2j8tzRLbv4xhho1x9AGw2Ypump": "2026-10-15T09:31:41.256006+00:00",
     "hornSiTqcyFr81fnNywbnRPbXhVJVjK2nugZZM4avLQ": "2026-10-15T09:52:26.000026+00:00",
-    "0x7c0f86c6F33119aE15c700179f53EeEAEF4e51E6": "2026-10-15T10:03:27.122803+00:00"
+    "0x7c0f86c6F33119aE15c700179f53EeEAEF4e51E6": "2026-10-15T10:03:27.122803+00:00",
+    "0xF093bD70221691B0C29b0D6427D2629cBa44D704": "2026-10-15T10:38:40.909333+00:00"
   }
 }
