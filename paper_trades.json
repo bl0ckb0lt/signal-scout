@@ -8,23 +8,17 @@
       "address": "GmRZNKavuh2KxpdQ3QL5jmZfQpJm8zvubdCR4ddQpump",
       "source": "boost",
       "entry_price": 0.0004479,
-      "peak_price": 0.0004479,
-      "trailing_active": false,
+      "peak_price": 0.0008304,
+      "trailing_active": true,
       "entry_time": "2026-10-15T22:31:04.508670+00:00",
       "score": 103,
-      "status": "open"
-    },
-    {
-      "symbol": "250",
-      "chain": "solana",
-      "address": "8ei8LWKAAfEfDa2xyRiLaYQzhAsmZSBSiov48Gyjpump",
-      "source": "new",
-      "entry_price": 0.0002221,
-      "peak_price": 0.0002221,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T22:31:06.203877+00:00",
-      "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 85.4,
+      "peak_volume_m5": 219153.7,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -257292,6 +257286,25 @@
       "exit_price": 0.00011,
       "exit_pct": -51.69,
       "exit_time": "2026-10-15T22:22:32.389648+00:00"
+    },
+    {
+      "symbol": "250",
+      "chain": "solana",
+      "address": "8ei8LWKAAfEfDa2xyRiLaYQzhAsmZSBSiov48Gyjpump",
+      "source": "new",
+      "entry_price": 0.0002221,
+      "peak_price": 0.0002221,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T22:31:06.203877+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.34,
+      "peak_volume_m5": 38203.25,
+      "milestones_hit": [],
+      "exit_price": 0.0001858,
+      "exit_pct": -16.34,
+      "exit_time": "2026-10-15T22:36:20.652715+00:00"
     }
   ],
   "alerted": {
@@ -270330,6 +270343,7 @@
     "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump": "2026-10-15T21:24:52.378536+00:00",
     "0x6ab5EB2FE87b18bbb5ee889e2428Da772f6FD1c3": "2026-10-15T21:42:14.780283+00:00",
     "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump": "2026-10-15T21:52:00.929249+00:00",
-    "0xFa601e5C8Da54FA01B4Bc4d4eAC08579740d9545": "2026-10-15T22:22:32.389648+00:00"
+    "0xFa601e5C8Da54FA01B4Bc4d4eAC08579740d9545": "2026-10-15T22:22:32.389648+00:00",
+    "8ei8LWKAAfEfDa2xyRiLaYQzhAsmZSBSiov48Gyjpump": "2026-10-15T22:36:20.652715+00:00"
   }
 }
