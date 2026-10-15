@@ -40,15 +40,17 @@
       "address": "5jofqTNTbRrT1qpjXJKQYLSSGijJbTwFCLrxLTaapump",
       "source": "new",
       "entry_price": 0.0001424,
-      "peak_price": 0.0002033,
+      "peak_price": 0.0002247,
       "trailing_active": true,
       "entry_time": "2026-10-15T04:20:59.168477+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 42.77,
+      "current_pct": 57.79,
       "peak_volume_m5": 42028.95,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     },
     {
       "symbol": "BABYDOPE",
@@ -56,27 +58,15 @@
       "address": "DoTNYbDHqs2xRcN7vkH2Tr7K6H7B6eSezNCPqjyapump",
       "source": "new",
       "entry_price": 0.0002051,
-      "peak_price": 0.0002845,
+      "peak_price": 0.0002949,
       "trailing_active": true,
       "entry_time": "2026-10-15T04:41:05.491034+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 38.71,
+      "current_pct": 43.78,
       "peak_volume_m5": 73557.83,
       "milestones_hit": []
-    },
-    {
-      "symbol": "starman",
-      "chain": "robinhood",
-      "address": "0x9eF71f3c2f2D2B0bae183fe4EBa12Ef333b069b2",
-      "source": "new",
-      "entry_price": 0.000225,
-      "peak_price": 0.000225,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T05:01:01.313832+00:00",
-      "score": 72,
-      "status": "open"
     }
   ],
   "closed": [
@@ -255875,6 +255865,25 @@
       "exit_price": 5.954e-06,
       "exit_pct": 71.49,
       "exit_time": "2026-10-15T04:50:37.900888+00:00"
+    },
+    {
+      "symbol": "starman",
+      "chain": "robinhood",
+      "address": "0x9eF71f3c2f2D2B0bae183fe4EBa12Ef333b069b2",
+      "source": "new",
+      "entry_price": 0.000225,
+      "peak_price": 0.000225,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T05:01:01.313832+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.33,
+      "peak_volume_m5": 22734.0,
+      "milestones_hit": [],
+      "exit_price": 0.000204,
+      "exit_pct": -9.33,
+      "exit_time": "2026-10-15T05:02:24.111774+00:00"
     }
   ],
   "alerted": {
@@ -268840,6 +268849,7 @@
     "FbKydFGVNWEfngPkLZwz7TXCvQz7oDEhANkDRBW3pump": "2026-10-15T03:51:48.144495+00:00",
     "F4dfnxRpH4ZDqXqfPcHm4Dqyk8s8TfqNuT8V95xpump": "2026-10-15T04:33:24.403078+00:00",
     "ABRTMgNqADDX1ZJWrCxXrVw6kUsgcAu62pUN8Tompump": "2026-10-15T04:33:25.170654+00:00",
-    "0xd24A370CF429014a61c8d82Ee24DD20B3c75DC03": "2026-10-15T04:50:37.900888+00:00"
+    "0xd24A370CF429014a61c8d82Ee24DD20B3c75DC03": "2026-10-15T04:50:37.900888+00:00",
+    "0x9eF71f3c2f2D2B0bae183fe4EBa12Ef333b069b2": "2026-10-15T05:02:24.111774+00:00"
   }
 }
