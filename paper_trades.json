@@ -35,40 +35,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HELLCAT",
-      "chain": "solana",
-      "address": "BwfhQdmN6ChQSvMagZTMtL15JCL9skyEpm1ukB57pump",
-      "source": "new",
-      "entry_price": 0.0001525,
-      "peak_price": 0.0002803,
-      "trailing_active": true,
-      "entry_time": "2026-10-15T11:11:01.751516+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 83.8,
-      "peak_volume_m5": 156744.27,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "dopewif",
-      "chain": "solana",
-      "address": "7iwzC5orRb13BZ4eML2KRPDPYRfEVHsWUW4uMUZfpump",
-      "source": "boost",
-      "entry_price": 0.0006106,
-      "peak_price": 0.0008822,
-      "trailing_active": true,
-      "entry_time": "2026-10-15T11:21:15.787331+00:00",
-      "score": 88,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 44.48,
-      "peak_volume_m5": 303604.53,
-      "milestones_hit": []
-    },
-    {
       "symbol": "RAM",
       "chain": "solana",
       "address": "7f1BBENnDzUBaCvp4ugWmMFU1G4pwGv7zQDkEKj4pump",
@@ -80,24 +46,8 @@
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.13,
-      "peak_volume_m5": 3547.48,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "LEND",
-      "chain": "bsc",
-      "address": "0x2a92793bd9DB5D2efC6060804D2277da57e76666",
-      "source": "new",
-      "entry_price": 8.6e-05,
-      "peak_price": 8.6e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T11:21:24.652865+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -5.01,
-      "peak_volume_m5": 5348.25,
+      "current_pct": -3.79,
+      "peak_volume_m5": 4095.51,
       "milestones_hit": []
     }
   ],
@@ -256285,6 +256235,65 @@
       "exit_price": 0.0004447,
       "exit_pct": -9.45,
       "exit_time": "2026-10-15T11:22:56.381494+00:00"
+    },
+    {
+      "symbol": "HELLCAT",
+      "chain": "solana",
+      "address": "BwfhQdmN6ChQSvMagZTMtL15JCL9skyEpm1ukB57pump",
+      "source": "new",
+      "entry_price": 0.0001525,
+      "peak_price": 0.0002803,
+      "trailing_active": true,
+      "entry_time": "2026-10-15T11:11:01.751516+00:00",
+      "score": 76,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 72.2,
+      "peak_volume_m5": 156744.27,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002626,
+      "exit_pct": 72.2,
+      "exit_time": "2026-10-15T11:23:55.085716+00:00"
+    },
+    {
+      "symbol": "dopewif",
+      "chain": "solana",
+      "address": "7iwzC5orRb13BZ4eML2KRPDPYRfEVHsWUW4uMUZfpump",
+      "source": "boost",
+      "entry_price": 0.0006106,
+      "peak_price": 0.0008822,
+      "trailing_active": true,
+      "entry_time": "2026-10-15T11:21:15.787331+00:00",
+      "score": 88,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 23.89,
+      "peak_volume_m5": 303604.53,
+      "milestones_hit": [],
+      "exit_price": 0.0007565,
+      "exit_pct": 23.89,
+      "exit_time": "2026-10-15T11:23:55.777351+00:00"
+    },
+    {
+      "symbol": "LEND",
+      "chain": "bsc",
+      "address": "0x2a92793bd9DB5D2efC6060804D2277da57e76666",
+      "source": "new",
+      "entry_price": 8.6e-05,
+      "peak_price": 8.6e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T11:21:24.652865+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.14,
+      "peak_volume_m5": 5348.25,
+      "milestones_hit": [],
+      "exit_price": 7.642e-05,
+      "exit_pct": -11.14,
+      "exit_time": "2026-10-15T11:23:56.878494+00:00"
     }
   ],
   "alerted": {
@@ -269269,6 +269278,9 @@
     "9pTGUwAhG3CLAcu8rZKgu8cQaeAdQRmkbbG8hfzzpump": "2026-10-15T11:02:48.988584+00:00",
     "AkqNPJ9tfNcTDywoi6SUNNL3tUGLBnPpGfGNUrgopump": "2026-10-15T11:03:55.807494+00:00",
     "0xD14ed422aaf6dAe2673Aa542EbF9cDA4929A8df7": "2026-10-15T11:04:57.976926+00:00",
-    "DxUbj2gg4fgD8cBhV9HFVpzYJAYMN6TdsHGREMAspump": "2026-10-15T11:22:56.381494+00:00"
+    "DxUbj2gg4fgD8cBhV9HFVpzYJAYMN6TdsHGREMAspump": "2026-10-15T11:22:56.381494+00:00",
+    "BwfhQdmN6ChQSvMagZTMtL15JCL9skyEpm1ukB57pump": "2026-10-15T11:23:55.085716+00:00",
+    "7iwzC5orRb13BZ4eML2KRPDPYRfEVHsWUW4uMUZfpump": "2026-10-15T11:23:55.777351+00:00",
+    "0x2a92793bd9DB5D2efC6060804D2277da57e76666": "2026-10-15T11:23:56.878494+00:00"
   }
 }
