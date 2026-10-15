@@ -24,23 +24,15 @@
       "address": "6rnnJiAXBTFf6vdd416HkBtGU3mGTCMoTGSU4HkSN7go",
       "source": "new",
       "entry_price": 0.0001205,
-      "peak_price": 0.0001205,
-      "trailing_active": false,
+      "peak_price": 0.0001661,
+      "trailing_active": true,
       "entry_time": "2026-10-15T15:01:14.095332+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "LONGY",
-      "chain": "robinhood",
-      "address": "0x19d833362f6b2443f8416f716077860763979D44",
-      "source": "new",
-      "entry_price": 6.478e-05,
-      "peak_price": 6.478e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T15:01:15.669539+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 37.84,
+      "peak_volume_m5": 27046.96,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -256537,6 +256529,25 @@
       "exit_price": 0.0001267,
       "exit_pct": -11.65,
       "exit_time": "2026-10-15T14:25:55.910752+00:00"
+    },
+    {
+      "symbol": "LONGY",
+      "chain": "robinhood",
+      "address": "0x19d833362f6b2443f8416f716077860763979D44",
+      "source": "new",
+      "entry_price": 6.478e-05,
+      "peak_price": 6.478e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T15:01:15.669539+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.08,
+      "peak_volume_m5": 3786.06,
+      "milestones_hit": [],
+      "exit_price": 5.825e-05,
+      "exit_pct": -10.08,
+      "exit_time": "2026-10-15T15:07:17.152118+00:00"
     }
   ],
   "alerted": {
@@ -269536,6 +269547,7 @@
     "0xDde35fCCC3b9D424C9F9A12164941ACB3A6B9094": "2026-10-15T13:55:18.605051+00:00",
     "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "2026-10-15T14:01:58.657637+00:00",
     "ALrNcQpz19ZZQLZVnrQvGu8G93KvWznGBdX7TAbX7ZeJ": "2026-10-15T14:03:45.838778+00:00",
-    "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": "2026-10-15T14:25:55.910752+00:00"
+    "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": "2026-10-15T14:25:55.910752+00:00",
+    "0x19d833362f6b2443f8416f716077860763979D44": "2026-10-15T15:07:17.152118+00:00"
   }
 }
