@@ -3,36 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ACat",
-      "chain": "solana",
-      "address": "266ZxiEW9Y2Lm33zNM7J2wnng5DJ7hHc7HQTXf2ipump",
-      "source": "new",
-      "entry_price": 0.0001517,
-      "peak_price": 0.0001643,
-      "trailing_active": false,
-      "entry_time": "2026-10-15T20:51:03.396590+00:00",
-      "score": 91,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -3.03,
-      "peak_volume_m5": 16964.52,
-      "milestones_hit": []
-    },
-    {
       "symbol": "GLFRT",
       "chain": "robinhood",
       "address": "0x6ff4b3065C59DEe75404c59AF4deD1A74a88f50E",
       "source": "new",
       "entry_price": 4.149e-06,
-      "peak_price": 5.602e-06,
+      "peak_price": 6.905e-06,
       "trailing_active": true,
       "entry_time": "2026-10-15T20:51:06.677982+00:00",
       "score": 72,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 35.02,
+      "current_pct": 66.43,
       "peak_volume_m5": 218852.04,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -257184,6 +257170,25 @@
       "exit_price": 8.631e-05,
       "exit_pct": -11.77,
       "exit_time": "2026-10-15T20:52:44.120686+00:00"
+    },
+    {
+      "symbol": "ACat",
+      "chain": "solana",
+      "address": "266ZxiEW9Y2Lm33zNM7J2wnng5DJ7hHc7HQTXf2ipump",
+      "source": "new",
+      "entry_price": 0.0001517,
+      "peak_price": 0.0001643,
+      "trailing_active": false,
+      "entry_time": "2026-10-15T20:51:03.396590+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.06,
+      "peak_volume_m5": 16964.52,
+      "milestones_hit": [],
+      "exit_price": 0.0001243,
+      "exit_pct": -18.06,
+      "exit_time": "2026-10-15T21:06:08.696356+00:00"
     }
   ],
   "alerted": {
@@ -270216,6 +270221,7 @@
     "ALDVtr9JeLjKH91fHFvLxFoyd7C6eLUxi9dUoN2FsWdD": "2026-10-15T20:32:25.912870+00:00",
     "0x1339646699Bc1c32F746D65DB6992b8e63e71E18": "2026-10-15T20:32:26.819866+00:00",
     "0x0f7c2E49022C8178a5Bc4d907fFAA869E0445847": "2026-10-15T20:42:14.690077+00:00",
-    "0xD93e54E9b4Bd5AdD9Fc9c1300e15922f0F6cFd4e": "2026-10-15T20:52:44.120686+00:00"
+    "0xD93e54E9b4Bd5AdD9Fc9c1300e15922f0F6cFd4e": "2026-10-15T20:52:44.120686+00:00",
+    "266ZxiEW9Y2Lm33zNM7J2wnng5DJ7hHc7HQTXf2ipump": "2026-10-15T21:06:08.696356+00:00"
   }
 }
