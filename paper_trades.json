@@ -35,35 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "BABYDOPE",
-      "chain": "solana",
-      "address": "DoTNYbDHqs2xRcN7vkH2Tr7K6H7B6eSezNCPqjyapump",
-      "source": "new",
-      "entry_price": 0.0002051,
-      "peak_price": 0.0004173,
-      "trailing_active": true,
-      "entry_time": "2026-10-15T04:41:05.491034+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 103.46,
-      "peak_volume_m5": 74738.52,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "FTR",
       "chain": "robinhood",
       "address": "0x56e3743B6537eB00c9b2B39A88955E678ce91Cfd",
       "source": "new",
       "entry_price": 0.0001359,
-      "peak_price": 0.0001359,
+      "peak_price": 0.0001389,
       "trailing_active": false,
       "entry_time": "2026-10-15T05:21:14.764330+00:00",
       "score": 62,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.21,
+      "peak_volume_m5": 37129.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -255902,6 +255887,28 @@
       "exit_price": 8.149e-05,
       "exit_pct": -42.77,
       "exit_time": "2026-10-15T05:04:17.846478+00:00"
+    },
+    {
+      "symbol": "BABYDOPE",
+      "chain": "solana",
+      "address": "DoTNYbDHqs2xRcN7vkH2Tr7K6H7B6eSezNCPqjyapump",
+      "source": "new",
+      "entry_price": 0.0002051,
+      "peak_price": 0.0004173,
+      "trailing_active": true,
+      "entry_time": "2026-10-15T04:41:05.491034+00:00",
+      "score": 83,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 99.27,
+      "peak_volume_m5": 74738.52,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004087,
+      "exit_pct": 99.27,
+      "exit_time": "2026-10-15T05:23:28.514098+00:00"
     }
   ],
   "alerted": {
@@ -268869,6 +268876,7 @@
     "ABRTMgNqADDX1ZJWrCxXrVw6kUsgcAu62pUN8Tompump": "2026-10-15T04:33:25.170654+00:00",
     "0xd24A370CF429014a61c8d82Ee24DD20B3c75DC03": "2026-10-15T04:50:37.900888+00:00",
     "0x9eF71f3c2f2D2B0bae183fe4EBa12Ef333b069b2": "2026-10-15T05:02:24.111774+00:00",
-    "5jofqTNTbRrT1qpjXJKQYLSSGijJbTwFCLrxLTaapump": "2026-10-15T05:04:17.846478+00:00"
+    "5jofqTNTbRrT1qpjXJKQYLSSGijJbTwFCLrxLTaapump": "2026-10-15T05:04:17.846478+00:00",
+    "DoTNYbDHqs2xRcN7vkH2Tr7K6H7B6eSezNCPqjyapump": "2026-10-15T05:23:28.514098+00:00"
   }
 }
