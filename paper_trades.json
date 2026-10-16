@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ELON",
-      "chain": "solana",
-      "address": "B2GESkSErPjuCq6n4LcaJP5v2z1kJnw3xHVZnop2sZx",
-      "source": "new",
-      "entry_price": 0.0004854,
-      "peak_price": 0.0004854,
-      "trailing_active": false,
-      "entry_time": "2026-10-16T18:11:09.949742+00:00",
-      "score": 92,
-      "status": "open"
-    },
-    {
       "symbol": "PAYLOAD",
       "chain": "robinhood",
       "address": "0x9353AC4DcF13630169E22188894dEB20aBF40E3a",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-16T18:11:17.655128+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -5.87,
+      "peak_volume_m5": 5065.26,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -258880,6 +258872,25 @@
       "exit_price": 0.001777,
       "exit_pct": -17.08,
       "exit_time": "2026-10-16T17:52:31.458639+00:00"
+    },
+    {
+      "symbol": "ELON",
+      "chain": "solana",
+      "address": "B2GESkSErPjuCq6n4LcaJP5v2z1kJnw3xHVZnop2sZx",
+      "source": "new",
+      "entry_price": 0.0004854,
+      "peak_price": 0.0004854,
+      "trailing_active": false,
+      "entry_time": "2026-10-16T18:11:09.949742+00:00",
+      "score": 92,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.55,
+      "peak_volume_m5": 52589.96,
+      "milestones_hit": [],
+      "exit_price": 0.0003711,
+      "exit_pct": -23.55,
+      "exit_time": "2026-10-16T18:14:07.696615+00:00"
     }
   ],
   "alerted": {
@@ -272000,6 +272011,7 @@
     "6Lhjx2NGdpGHj3PKoYp4tXKZTrptFpBG5d4P1DhNpump": "2026-10-16T17:27:10.919743+00:00",
     "2aqkYwRa1sZrpvZ5nottuVs3csGtXJEYsc9QRY9wpump": "2026-10-16T17:29:53.647928+00:00",
     "8FnBBoqYdVAps3Ekpvhr48sNkxsPVKq8iyzWDrYYpump": "2026-10-16T17:42:36.961970+00:00",
-    "3dgGDYKaab1pAZhaEC6gZQS3PrbZdShXMcoWeVZJpump": "2026-10-16T17:52:31.458639+00:00"
+    "3dgGDYKaab1pAZhaEC6gZQS3PrbZdShXMcoWeVZJpump": "2026-10-16T17:52:31.458639+00:00",
+    "B2GESkSErPjuCq6n4LcaJP5v2z1kJnw3xHVZnop2sZx": "2026-10-16T18:14:07.696615+00:00"
   }
 }
