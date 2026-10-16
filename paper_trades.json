@@ -3,36 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SILLY.EXE",
-      "chain": "solana",
-      "address": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
-      "source": "new",
-      "entry_price": 0.0001833,
-      "peak_price": 0.0002516,
-      "trailing_active": true,
-      "entry_time": "2026-10-16T19:21:13.085632+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 37.26,
-      "peak_volume_m5": 291009.99,
-      "milestones_hit": []
-    },
-    {
       "symbol": "HUGO",
       "chain": "robinhood",
       "address": "0xC8f0D1076b2135b33b980598D84E2c6584cfc9C4",
       "source": "new",
       "entry_price": 4.912e-05,
-      "peak_price": 4.912e-05,
-      "trailing_active": false,
+      "peak_price": 7.811e-05,
+      "trailing_active": true,
       "entry_time": "2026-10-16T19:31:03.813036+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -5.33,
+      "current_pct": 59.02,
       "peak_volume_m5": 24616.63,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -259078,6 +259064,25 @@
       "exit_price": 9.714e-05,
       "exit_pct": -21.98,
       "exit_time": "2026-10-16T19:31:56.969130+00:00"
+    },
+    {
+      "symbol": "SILLY.EXE",
+      "chain": "solana",
+      "address": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
+      "source": "new",
+      "entry_price": 0.0001833,
+      "peak_price": 0.0002516,
+      "trailing_active": true,
+      "entry_time": "2026-10-16T19:21:13.085632+00:00",
+      "score": 80,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 25.42,
+      "peak_volume_m5": 373351.32,
+      "milestones_hit": [],
+      "exit_price": 0.0002299,
+      "exit_pct": 25.42,
+      "exit_time": "2026-10-16T19:37:13.394193+00:00"
     }
   ],
   "alerted": {
@@ -272208,6 +272213,7 @@
     "pbeS17G29TM6kbS6pgezvnH8V8JXN3b6LYd6xRgyway": "2026-10-16T19:08:50.351644+00:00",
     "G4ea3acQYNUFa1VbYbe43Ppj12mXwCx5ra2KDCeypump": "2026-10-16T19:22:55.200853+00:00",
     "0xC5E3b544548D68968AAF348e3Ac922c5644d5C28": "2026-10-16T19:31:55.796868+00:00",
-    "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": "2026-10-16T19:31:56.969130+00:00"
+    "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": "2026-10-16T19:31:56.969130+00:00",
+    "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump": "2026-10-16T19:37:13.394193+00:00"
   }
 }
