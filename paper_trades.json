@@ -8,27 +8,15 @@
       "address": "GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump",
       "source": "new",
       "entry_price": 0.0001149,
-      "peak_price": 0.0001225,
-      "trailing_active": false,
+      "peak_price": 0.0001453,
+      "trailing_active": true,
       "entry_time": "2026-10-16T08:51:03.083444+00:00",
       "score": 76,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 6.61,
+      "current_pct": 26.46,
       "peak_volume_m5": 197891.17,
       "milestones_hit": []
-    },
-    {
-      "symbol": "STARMAN",
-      "chain": "solana",
-      "address": "DFPXxy17iwsnzmQd4oa5bQjdoEbi5ZJYmFVtBpkLpump",
-      "source": "new",
-      "entry_price": 0.0004325,
-      "peak_price": 0.0004325,
-      "trailing_active": false,
-      "entry_time": "2026-10-16T09:00:59.465605+00:00",
-      "score": 95,
-      "status": "open"
     }
   ],
   "closed": [
@@ -257894,6 +257882,25 @@
       "exit_price": 8.689e-05,
       "exit_pct": -30.1,
       "exit_time": "2026-10-16T07:22:56.039826+00:00"
+    },
+    {
+      "symbol": "STARMAN",
+      "chain": "solana",
+      "address": "DFPXxy17iwsnzmQd4oa5bQjdoEbi5ZJYmFVtBpkLpump",
+      "source": "new",
+      "entry_price": 0.0004325,
+      "peak_price": 0.0004325,
+      "trailing_active": false,
+      "entry_time": "2026-10-16T09:00:59.465605+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.12,
+      "peak_volume_m5": 198301.13,
+      "milestones_hit": [],
+      "exit_price": 0.0003455,
+      "exit_pct": -20.12,
+      "exit_time": "2026-10-16T09:02:35.914293+00:00"
     }
   ],
   "alerted": {
@@ -270963,6 +270970,7 @@
     "0xA061012D089D1a3a54a20AdC6C8fc9E4728da76E": "2026-10-16T06:23:55.281013+00:00",
     "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump": "2026-10-16T06:32:54.391294+00:00",
     "0x7920726344F85781aaAeF846232A28ccef0a21e4": "2026-10-16T06:34:47.047943+00:00",
-    "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump": "2026-10-16T07:22:56.039826+00:00"
+    "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump": "2026-10-16T07:22:56.039826+00:00",
+    "DFPXxy17iwsnzmQd4oa5bQjdoEbi5ZJYmFVtBpkLpump": "2026-10-16T09:02:35.914293+00:00"
   }
 }
