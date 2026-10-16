@@ -3,35 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DOPESTER",
-      "chain": "solana",
-      "address": "5k2utd3WLwfYoXmvReuwjxRdZnf8My5EN7G8SFBMpump",
-      "source": "new",
-      "entry_price": 0.000202,
-      "peak_price": 0.0004075,
-      "trailing_active": true,
-      "entry_time": "2026-10-16T20:30:57.100744+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 101.73,
-      "peak_volume_m5": 31941.3,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "NUBI",
       "chain": "solana",
       "address": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
       "source": "new",
       "entry_price": 0.002108,
-      "peak_price": 0.002108,
+      "peak_price": 0.002253,
       "trailing_active": false,
       "entry_time": "2026-10-16T21:01:09.428415+00:00",
       "score": 90,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 6.88,
+      "peak_volume_m5": 425364.96,
+      "milestones_hit": []
     },
     {
       "symbol": "mints",
@@ -39,23 +24,15 @@
       "address": "6UM6XAa9MaYR7K9Ece7P2RmjVTkwpZtLkX7SsGAXpump",
       "source": "new",
       "entry_price": 0.0001182,
-      "peak_price": 0.0001182,
+      "peak_price": 0.0001207,
       "trailing_active": false,
       "entry_time": "2026-10-16T21:01:13.210033+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Deer",
-      "chain": "robinhood",
-      "address": "0xD4f14E803db790246A92A64e73A9Dc63E8dD179F",
-      "source": "new",
-      "entry_price": 0.0005809,
-      "peak_price": 0.0005809,
-      "trailing_active": false,
-      "entry_time": "2026-10-16T21:01:14.673543+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.12,
+      "peak_volume_m5": 296841.57,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -259293,6 +259270,47 @@
       "exit_price": 0.001955,
       "exit_pct": -15.73,
       "exit_time": "2026-10-16T20:50:58.086425+00:00"
+    },
+    {
+      "symbol": "DOPESTER",
+      "chain": "solana",
+      "address": "5k2utd3WLwfYoXmvReuwjxRdZnf8My5EN7G8SFBMpump",
+      "source": "new",
+      "entry_price": 0.000202,
+      "peak_price": 0.0004075,
+      "trailing_active": true,
+      "entry_time": "2026-10-16T20:30:57.100744+00:00",
+      "score": 86,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 69.75,
+      "peak_volume_m5": 35977.28,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0003429,
+      "exit_pct": 69.75,
+      "exit_time": "2026-10-16T21:02:22.919044+00:00"
+    },
+    {
+      "symbol": "Deer",
+      "chain": "robinhood",
+      "address": "0xD4f14E803db790246A92A64e73A9Dc63E8dD179F",
+      "source": "new",
+      "entry_price": 0.0005809,
+      "peak_price": 0.0005809,
+      "trailing_active": false,
+      "entry_time": "2026-10-16T21:01:14.673543+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.31,
+      "peak_volume_m5": 86914.77,
+      "milestones_hit": [],
+      "exit_price": 0.0005268,
+      "exit_pct": -9.31,
+      "exit_time": "2026-10-16T21:02:24.511521+00:00"
     }
   ],
   "alerted": {
@@ -272432,6 +272450,8 @@
     "8jNrFaRyhNh8vccpSQ9o55R4hhinmFc1XfSWwDJhpump": "2026-10-16T20:12:53.449221+00:00",
     "0xe461639de74b2818d4Bc451Fd08549C7c31A1de4": "2026-10-16T20:12:54.106951+00:00",
     "AbrrBru4MGSTsWQ9yoxjzd5qv61W5LUv1fwrTWerpump": "2026-10-16T20:23:10.148825+00:00",
-    "5ubruMYpgKqw9ip5J1qrXbVGmMdn2VCsMg421B4bpump": "2026-10-16T20:32:54.270853+00:00"
+    "5ubruMYpgKqw9ip5J1qrXbVGmMdn2VCsMg421B4bpump": "2026-10-16T20:32:54.270853+00:00",
+    "5k2utd3WLwfYoXmvReuwjxRdZnf8My5EN7G8SFBMpump": "2026-10-16T21:02:22.919044+00:00",
+    "0xD4f14E803db790246A92A64e73A9Dc63E8dD179F": "2026-10-16T21:02:24.511521+00:00"
   }
 }
