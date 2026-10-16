@@ -8,23 +8,15 @@
       "address": "5ubruMYpgKqw9ip5J1qrXbVGmMdn2VCsMg421B4bpump",
       "source": "new",
       "entry_price": 0.0006542,
-      "peak_price": 0.0006542,
-      "trailing_active": false,
+      "peak_price": 0.0008127,
+      "trailing_active": true,
       "entry_time": "2026-10-16T20:21:09.168648+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "250",
-      "chain": "solana",
-      "address": "AbrrBru4MGSTsWQ9yoxjzd5qv61W5LUv1fwrTWerpump",
-      "source": "new",
-      "entry_price": 0.0002006,
-      "peak_price": 0.0002006,
-      "trailing_active": false,
-      "entry_time": "2026-10-16T20:21:13.061769+00:00",
-      "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 24.23,
+      "peak_volume_m5": 244507.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -259205,6 +259197,25 @@
       "exit_price": 0.0001975,
       "exit_pct": -9.32,
       "exit_time": "2026-10-16T20:12:54.106951+00:00"
+    },
+    {
+      "symbol": "250",
+      "chain": "solana",
+      "address": "AbrrBru4MGSTsWQ9yoxjzd5qv61W5LUv1fwrTWerpump",
+      "source": "new",
+      "entry_price": 0.0002006,
+      "peak_price": 0.0002006,
+      "trailing_active": false,
+      "entry_time": "2026-10-16T20:21:13.061769+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.87,
+      "peak_volume_m5": 17339.17,
+      "milestones_hit": [],
+      "exit_price": 0.0001808,
+      "exit_pct": -9.87,
+      "exit_time": "2026-10-16T20:23:10.148825+00:00"
     }
   ],
   "alerted": {
@@ -272342,6 +272353,7 @@
     "CfGjgbwnyPzdeuSj9kAD5aoCiBwfPrq13KDvQyz4pump": "2026-10-16T20:09:09.318979+00:00",
     "0x9B6a2C3E00F4bAABF2313217F5bFeAAe4E5C7a72": "2026-10-16T20:12:52.795808+00:00",
     "8jNrFaRyhNh8vccpSQ9o55R4hhinmFc1XfSWwDJhpump": "2026-10-16T20:12:53.449221+00:00",
-    "0xe461639de74b2818d4Bc451Fd08549C7c31A1de4": "2026-10-16T20:12:54.106951+00:00"
+    "0xe461639de74b2818d4Bc451Fd08549C7c31A1de4": "2026-10-16T20:12:54.106951+00:00",
+    "AbrrBru4MGSTsWQ9yoxjzd5qv61W5LUv1fwrTWerpump": "2026-10-16T20:23:10.148825+00:00"
   }
 }
