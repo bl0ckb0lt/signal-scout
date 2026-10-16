@@ -8,23 +8,15 @@
       "address": "7QRzND1VeyxCEgrsguepGwnSCJAQGP7naSGsY5sypump",
       "source": "new",
       "entry_price": 0.0001928,
-      "peak_price": 0.0001928,
-      "trailing_active": false,
+      "peak_price": 0.000227,
+      "trailing_active": true,
       "entry_time": "2026-10-16T16:50:52.647549+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "KURP",
-      "chain": "solana",
-      "address": "xpobox1HU5SKAr2RFxnT4t5SrF8WowmWnbWauCrpump",
-      "source": "new",
-      "entry_price": 0.0002696,
-      "peak_price": 0.0002696,
-      "trailing_active": false,
-      "entry_time": "2026-10-16T16:50:54.541581+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.74,
+      "peak_volume_m5": 87695.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -258648,6 +258640,25 @@
       "exit_price": 0.003187,
       "exit_pct": 103.51,
       "exit_time": "2026-10-16T16:32:36.825200+00:00"
+    },
+    {
+      "symbol": "KURP",
+      "chain": "solana",
+      "address": "xpobox1HU5SKAr2RFxnT4t5SrF8WowmWnbWauCrpump",
+      "source": "new",
+      "entry_price": 0.0002696,
+      "peak_price": 0.0002696,
+      "trailing_active": false,
+      "entry_time": "2026-10-16T16:50:54.541581+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.43,
+      "peak_volume_m5": 52217.61,
+      "milestones_hit": [],
+      "exit_price": 0.0002199,
+      "exit_pct": -18.43,
+      "exit_time": "2026-10-16T16:51:48.504375+00:00"
     }
   ],
   "alerted": {
@@ -271756,6 +271767,7 @@
     "EerxgTnkL6KCNjn8uKMby7ZR8zh91xftS3WFethopump": "2026-10-16T16:04:15.992245+00:00",
     "o6uNM43AVuQiaEszz6ZXCWerowNMZChyPTjuzUQpump": "2026-10-16T16:06:53.327868+00:00",
     "0x5601a422986034521330Bb4c799a8A3F29137777": "2026-10-16T16:11:46.100112+00:00",
-    "G3NKPRK3BVrNDPLCbtG53SibytphwDqiTrnaiUq9pump": "2026-10-16T16:32:36.825200+00:00"
+    "G3NKPRK3BVrNDPLCbtG53SibytphwDqiTrnaiUq9pump": "2026-10-16T16:32:36.825200+00:00",
+    "xpobox1HU5SKAr2RFxnT4t5SrF8WowmWnbWauCrpump": "2026-10-16T16:51:48.504375+00:00"
   }
 }
