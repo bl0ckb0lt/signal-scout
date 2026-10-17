@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AE",
-      "chain": "solana",
-      "address": "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk",
-      "source": "boost",
-      "entry_price": 0.0001422,
-      "peak_price": 0.0002061,
-      "trailing_active": true,
-      "entry_time": "2026-10-17T08:41:07.237250+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 44.94,
-      "peak_volume_m5": 49221.75,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PRIME",
       "chain": "robinhood",
       "address": "0x02F9852143C1EA658C8C340a0dB716184E060B80",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-17T08:50:55.694300+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.22,
+      "peak_volume_m5": 41962.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -260001,6 +259989,25 @@
       "exit_price": 0.0003157,
       "exit_pct": 23.42,
       "exit_time": "2026-10-17T07:21:54.074488+00:00"
+    },
+    {
+      "symbol": "AE",
+      "chain": "solana",
+      "address": "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk",
+      "source": "boost",
+      "entry_price": 0.0001422,
+      "peak_price": 0.0002061,
+      "trailing_active": true,
+      "entry_time": "2026-10-17T08:41:07.237250+00:00",
+      "score": 81,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 1.69,
+      "peak_volume_m5": 58321.27,
+      "milestones_hit": [],
+      "exit_price": 0.0001446,
+      "exit_pct": 1.69,
+      "exit_time": "2026-10-17T08:52:22.220218+00:00"
     }
   ],
   "alerted": {
@@ -273178,6 +273185,7 @@
     "0x9182f4791dd6ac83323a935760c5cfe2ad25361b": "2026-10-17T05:03:11.010436+00:00",
     "GFhszS7cFM4xmcfT4tBCSwcLHWAwj4yXhSwuTXKYpump": "2026-10-17T05:56:56.626390+00:00",
     "0xA1809D8ccB32980d173CC008aDf3aE78D2fc18d7": "2026-10-17T06:16:48.834071+00:00",
-    "0x842D603Cab1285c496d97c2790859Dd670eAE81C": "2026-10-17T07:21:54.074488+00:00"
+    "0x842D603Cab1285c496d97c2790859Dd670eAE81C": "2026-10-17T07:21:54.074488+00:00",
+    "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk": "2026-10-17T08:52:22.220218+00:00"
   }
 }
