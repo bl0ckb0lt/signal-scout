@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "CATIFY",
-      "chain": "solana",
-      "address": "BwMMU8aFzdCFyhyFFBp7Ao6RaKnF1iRAbsbCeZBqpump",
-      "source": "new",
-      "entry_price": 0.0001377,
-      "peak_price": 0.0001377,
-      "trailing_active": false,
-      "entry_time": "2026-10-17T00:31:07.442600+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "coms",
       "chain": "robinhood",
       "address": "0x177dAF3D674E358C5cB0fE335cA8C23E003843E3",
       "source": "new",
       "entry_price": 0.0002354,
-      "peak_price": 0.0002354,
+      "peak_price": 0.0002671,
       "trailing_active": false,
       "entry_time": "2026-10-17T00:31:10.878569+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.47,
+      "peak_volume_m5": 16464.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -259590,6 +259582,25 @@
       "exit_price": 0.000241,
       "exit_pct": 31.77,
       "exit_time": "2026-10-17T00:03:56.724682+00:00"
+    },
+    {
+      "symbol": "CATIFY",
+      "chain": "solana",
+      "address": "BwMMU8aFzdCFyhyFFBp7Ao6RaKnF1iRAbsbCeZBqpump",
+      "source": "new",
+      "entry_price": 0.0001377,
+      "peak_price": 0.0001377,
+      "trailing_active": false,
+      "entry_time": "2026-10-17T00:31:07.442600+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -98.37,
+      "peak_volume_m5": 68466.81,
+      "milestones_hit": [],
+      "exit_price": 2.241e-06,
+      "exit_pct": -98.37,
+      "exit_time": "2026-10-17T00:36:40.406580+00:00"
     }
   ],
   "alerted": {
@@ -272746,6 +272757,7 @@
     "Bocn19zAwZjXzWwAPXFeznskgkcZHxuG4jTgmzstpump": "2026-10-16T23:42:24.589571+00:00",
     "67XNNwE4WmSppfsjjoafNXUxb4oFRdQvDKNp2gmVpump": "2026-10-17T00:02:54.040413+00:00",
     "GatUtjrT1viodATZEZ6zgwTS4crJB3Uw4L11ho3wpump": "2026-10-17T00:02:54.769443+00:00",
-    "0x99c85356Ad1E5933668656F09D168B002a3e705F": "2026-10-17T00:03:56.724682+00:00"
+    "0x99c85356Ad1E5933668656F09D168B002a3e705F": "2026-10-17T00:03:56.724682+00:00",
+    "BwMMU8aFzdCFyhyFFBp7Ao6RaKnF1iRAbsbCeZBqpump": "2026-10-17T00:36:40.406580+00:00"
   }
 }
