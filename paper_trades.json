@@ -8,23 +8,15 @@
       "address": "0x96175d69d1f71406Dfd7A1773CB1Fe1E7FC974d6",
       "source": "new",
       "entry_price": 0.0002428,
-      "peak_price": 0.0002428,
+      "peak_price": 0.0002723,
       "trailing_active": false,
       "entry_time": "2026-10-17T14:31:05.491688+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "sol/acc",
-      "chain": "solana",
-      "address": "4hitw2qrw8vZa7Z9j1H4oDBPyvzD2XK1LZKHnLtJpump",
-      "source": "new",
-      "entry_price": 0.0001028,
-      "peak_price": 0.0001028,
-      "trailing_active": false,
-      "entry_time": "2026-10-17T14:31:07.488393+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.15,
+      "peak_volume_m5": 20451.71,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -260343,6 +260335,25 @@
       "exit_price": 9.087e-05,
       "exit_pct": -19.51,
       "exit_time": "2026-10-17T14:20:18.491271+00:00"
+    },
+    {
+      "symbol": "sol/acc",
+      "chain": "solana",
+      "address": "4hitw2qrw8vZa7Z9j1H4oDBPyvzD2XK1LZKHnLtJpump",
+      "source": "new",
+      "entry_price": 0.0001028,
+      "peak_price": 0.0001028,
+      "trailing_active": false,
+      "entry_time": "2026-10-17T14:31:07.488393+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.19,
+      "peak_volume_m5": 15197.37,
+      "milestones_hit": [],
+      "exit_price": 9.13e-05,
+      "exit_pct": -11.19,
+      "exit_time": "2026-10-17T14:32:00.967049+00:00"
     }
   ],
   "alerted": {
@@ -273537,6 +273548,7 @@
     "7VzWURCfosjxvT7KKM9gib5CzqnCg4vKU2UobGp3pump": "2026-10-17T13:28:52.402451+00:00",
     "7Qsbm71fSh9SCtZhh7SYQ2gVEBHwJ2CRKToa1Dkmpump": "2026-10-17T13:42:16.256164+00:00",
     "GxCEZaNR7FPUJq37Zov8tdFWWuwAiEeVqxGykbqNpump": "2026-10-17T13:57:10.295825+00:00",
-    "0x2eef2a627ac024cb9f545f6193b1940f0416a1de": "2026-10-17T14:20:18.491271+00:00"
+    "0x2eef2a627ac024cb9f545f6193b1940f0416a1de": "2026-10-17T14:20:18.491271+00:00",
+    "4hitw2qrw8vZa7Z9j1H4oDBPyvzD2XK1LZKHnLtJpump": "2026-10-17T14:32:00.967049+00:00"
   }
 }
