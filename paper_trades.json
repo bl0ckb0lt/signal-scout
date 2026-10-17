@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AE",
-      "chain": "solana",
-      "address": "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk",
-      "source": "boost",
-      "entry_price": 0.0001155,
-      "peak_price": 0.0001155,
-      "trailing_active": false,
-      "entry_time": "2026-10-17T11:00:56.828610+00:00",
-      "score": 85,
-      "status": "open"
-    },
-    {
       "symbol": "Gigabite",
       "chain": "solana",
       "address": "6tsykNmR3WDqouj9uVUFZRgR2Kpai4F1Qm1gAcirpump",
       "source": "new",
       "entry_price": 9.918e-05,
-      "peak_price": 9.918e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001161,
+      "trailing_active": true,
       "entry_time": "2026-10-17T11:01:00.125152+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.06,
+      "peak_volume_m5": 17589.47,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -260134,6 +260126,25 @@
       "exit_price": 4.879e-06,
       "exit_pct": 48.16,
       "exit_time": "2026-10-17T10:45:29.300232+00:00"
+    },
+    {
+      "symbol": "AE",
+      "chain": "solana",
+      "address": "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk",
+      "source": "boost",
+      "entry_price": 0.0001155,
+      "peak_price": 0.0001155,
+      "trailing_active": false,
+      "entry_time": "2026-10-17T11:00:56.828610+00:00",
+      "score": 85,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.42,
+      "peak_volume_m5": 7358.3,
+      "milestones_hit": [],
+      "exit_price": 9.422e-05,
+      "exit_pct": -18.42,
+      "exit_time": "2026-10-17T11:08:39.057772+00:00"
     }
   ],
   "alerted": {
@@ -273312,7 +273323,7 @@
     "GFhszS7cFM4xmcfT4tBCSwcLHWAwj4yXhSwuTXKYpump": "2026-10-17T05:56:56.626390+00:00",
     "0xA1809D8ccB32980d173CC008aDf3aE78D2fc18d7": "2026-10-17T06:16:48.834071+00:00",
     "0x842D603Cab1285c496d97c2790859Dd670eAE81C": "2026-10-17T07:21:54.074488+00:00",
-    "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk": "2026-10-17T08:52:22.220218+00:00",
+    "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk": "2026-10-17T11:08:39.057772+00:00",
     "0x02F9852143C1EA658C8C340a0dB716184E060B80": "2026-10-17T08:53:17.436725+00:00",
     "9rS42P1UYS6rjZLNFQQ5HmaknAxsU1phcVHTQ3dgpump": "2026-10-17T09:12:52.721705+00:00",
     "0x787873c9ae96855bdB032F6fF1Ef76a5e1Fc8aDC": "2026-10-17T09:23:46.953379+00:00",
