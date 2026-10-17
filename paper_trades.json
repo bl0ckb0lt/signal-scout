@@ -8,41 +8,17 @@
       "address": "0x99c85356Ad1E5933668656F09D168B002a3e705F",
       "source": "new",
       "entry_price": 0.0001829,
-      "peak_price": 0.0002766,
+      "peak_price": 0.0002915,
       "trailing_active": true,
       "entry_time": "2026-10-16T23:51:04.903026+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 51.23,
-      "peak_volume_m5": 16919.03,
+      "current_pct": 59.38,
+      "peak_volume_m5": 20747.36,
       "milestones_hit": [
         50
       ]
-    },
-    {
-      "symbol": "RoadsterX",
-      "chain": "solana",
-      "address": "67XNNwE4WmSppfsjjoafNXUxb4oFRdQvDKNp2gmVpump",
-      "source": "new",
-      "entry_price": 0.0002707,
-      "peak_price": 0.0002707,
-      "trailing_active": false,
-      "entry_time": "2026-10-17T00:01:10.117425+00:00",
-      "score": 86,
-      "status": "open"
-    },
-    {
-      "symbol": "SOLSTER",
-      "chain": "solana",
-      "address": "GatUtjrT1viodATZEZ6zgwTS4crJB3Uw4L11ho3wpump",
-      "source": "new",
-      "entry_price": 0.0001156,
-      "peak_price": 0.0001156,
-      "trailing_active": false,
-      "entry_time": "2026-10-17T00:01:12.869194+00:00",
-      "score": 83,
-      "status": "open"
     }
   ],
   "closed": [
@@ -259549,6 +259525,44 @@
       "exit_price": 0.0005141,
       "exit_pct": -9.36,
       "exit_time": "2026-10-16T23:42:24.589571+00:00"
+    },
+    {
+      "symbol": "RoadsterX",
+      "chain": "solana",
+      "address": "67XNNwE4WmSppfsjjoafNXUxb4oFRdQvDKNp2gmVpump",
+      "source": "new",
+      "entry_price": 0.0002707,
+      "peak_price": 0.0002707,
+      "trailing_active": false,
+      "entry_time": "2026-10-17T00:01:10.117425+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -56.11,
+      "peak_volume_m5": 150751.35,
+      "milestones_hit": [],
+      "exit_price": 0.0001188,
+      "exit_pct": -56.11,
+      "exit_time": "2026-10-17T00:02:54.040413+00:00"
+    },
+    {
+      "symbol": "SOLSTER",
+      "chain": "solana",
+      "address": "GatUtjrT1viodATZEZ6zgwTS4crJB3Uw4L11ho3wpump",
+      "source": "new",
+      "entry_price": 0.0001156,
+      "peak_price": 0.0001156,
+      "trailing_active": false,
+      "entry_time": "2026-10-17T00:01:12.869194+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.72,
+      "peak_volume_m5": 10543.9,
+      "milestones_hit": [],
+      "exit_price": 9.627e-05,
+      "exit_pct": -16.72,
+      "exit_time": "2026-10-17T00:02:54.769443+00:00"
     }
   ],
   "alerted": {
@@ -272702,6 +272716,8 @@
     "EUgnJFo9ki296cqL3f9FDoaeWdz39mF5nmyFjadpump": "2026-10-16T23:01:44.291476+00:00",
     "EcM5omn7pV2qk2TrW4McQ7voWBV8sYR8JpjSoTw9pump": "2026-10-16T23:22:40.656228+00:00",
     "C1rW6ETo5GiwW5YYL6es9pCwwo6M5B4WUaoh2HE7pump": "2026-10-16T23:32:43.087409+00:00",
-    "Bocn19zAwZjXzWwAPXFeznskgkcZHxuG4jTgmzstpump": "2026-10-16T23:42:24.589571+00:00"
+    "Bocn19zAwZjXzWwAPXFeznskgkcZHxuG4jTgmzstpump": "2026-10-16T23:42:24.589571+00:00",
+    "67XNNwE4WmSppfsjjoafNXUxb4oFRdQvDKNp2gmVpump": "2026-10-17T00:02:54.040413+00:00",
+    "GatUtjrT1viodATZEZ6zgwTS4crJB3Uw4L11ho3wpump": "2026-10-17T00:02:54.769443+00:00"
   }
 }
