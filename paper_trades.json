@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MEGA",
-      "chain": "solana",
-      "address": "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump",
-      "source": "new",
-      "entry_price": 0.0001598,
-      "peak_price": 0.0001598,
-      "trailing_active": false,
-      "entry_time": "2026-10-18T13:20:57.036371+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "ZDOG",
       "chain": "solana",
       "address": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
       "source": "new",
       "entry_price": 9.752e-05,
-      "peak_price": 9.752e-05,
+      "peak_price": 0.0001008,
       "trailing_active": false,
       "entry_time": "2026-10-18T13:21:01.176123+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.36,
+      "peak_volume_m5": 3668.56,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -261831,6 +261823,25 @@
       "exit_price": 0.0002644,
       "exit_pct": -15.8,
       "exit_time": "2026-10-18T12:53:52.255275+00:00"
+    },
+    {
+      "symbol": "MEGA",
+      "chain": "solana",
+      "address": "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump",
+      "source": "new",
+      "entry_price": 0.0001598,
+      "peak_price": 0.0001598,
+      "trailing_active": false,
+      "entry_time": "2026-10-18T13:20:57.036371+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.53,
+      "peak_volume_m5": 60743.49,
+      "milestones_hit": [],
+      "exit_price": 0.0001174,
+      "exit_pct": -26.53,
+      "exit_time": "2026-10-18T13:25:47.635111+00:00"
     }
   ],
   "alerted": {
@@ -275099,6 +275110,7 @@
     "HZLEZULB1bV6rgxm6dWMdPnftPw42KG72bwvPeEipump": "2026-10-18T10:28:22.976059+00:00",
     "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump": "2026-10-18T11:34:56.311766+00:00",
     "0x51136fEb1ab45d10D767A46c5F157e0466C45Dbe": "2026-10-18T12:20:54.482588+00:00",
-    "C1Hpcif5LiLfmnLY1f67op1x2mSP7Rht6HXB9mfbpump": "2026-10-18T12:53:52.255275+00:00"
+    "C1Hpcif5LiLfmnLY1f67op1x2mSP7Rht6HXB9mfbpump": "2026-10-18T12:53:52.255275+00:00",
+    "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump": "2026-10-18T13:25:47.635111+00:00"
   }
 }
