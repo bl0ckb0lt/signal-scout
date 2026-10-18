@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ESI",
-      "chain": "solana",
-      "address": "CfAqdHXiSbbCTVaxUdddujSUwh3V11DwbPs58fHbpump",
-      "source": "new",
-      "entry_price": 0.0004604,
-      "peak_price": 0.0009818,
-      "trailing_active": true,
-      "entry_time": "2026-10-18T03:01:13.133543+00:00",
-      "score": 95,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 113.25,
-      "peak_volume_m5": 206330.86,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "TSI",
       "chain": "robinhood",
       "address": "0xefcC5b12a1d76aAeD96bf13B325d3163A6023827",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-18T03:11:16.112993+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.57,
+      "peak_volume_m5": 16408.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -261406,6 +261391,28 @@
       "exit_price": 0.0009247,
       "exit_pct": 322.24,
       "exit_time": "2026-10-18T03:00:12.166950+00:00"
+    },
+    {
+      "symbol": "ESI",
+      "chain": "solana",
+      "address": "CfAqdHXiSbbCTVaxUdddujSUwh3V11DwbPs58fHbpump",
+      "source": "new",
+      "entry_price": 0.0004604,
+      "peak_price": 0.0009818,
+      "trailing_active": true,
+      "entry_time": "2026-10-18T03:01:13.133543+00:00",
+      "score": 95,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 79.08,
+      "peak_volume_m5": 206330.86,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0008245,
+      "exit_pct": 79.08,
+      "exit_time": "2026-10-18T03:13:39.886292+00:00"
     }
   ],
   "alerted": {
@@ -274654,6 +274661,7 @@
     "0x4F449c404dd989ce095891d209B2047451590CDB": "2026-10-18T01:57:55.315947+00:00",
     "0x2d725DBea16f786701ed44C64cb7aC6911e76041": "2026-10-18T01:58:51.151706+00:00",
     "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump": "2026-10-18T02:48:56.247255+00:00",
-    "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump": "2026-10-18T03:00:12.166950+00:00"
+    "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump": "2026-10-18T03:00:12.166950+00:00",
+    "CfAqdHXiSbbCTVaxUdddujSUwh3V11DwbPs58fHbpump": "2026-10-18T03:13:39.886292+00:00"
   }
 }
