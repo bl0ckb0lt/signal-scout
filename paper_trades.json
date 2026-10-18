@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Avengers",
-      "chain": "solana",
-      "address": "3EaYnwiPnJFcujMMp4trwYLyMNYjzNXWMfqf61cxpump",
-      "source": "new",
-      "entry_price": 0.0005095,
-      "peak_price": 0.0005095,
-      "trailing_active": false,
-      "entry_time": "2026-10-18T20:56:10.220344+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "EZECK",
       "chain": "solana",
       "address": "EYnMFdHmDpMhLwwe9f66tWD9UnWeG5726iAJVTxrpump",
       "source": "new",
       "entry_price": 0.000142,
-      "peak_price": 0.000142,
+      "peak_price": 0.0001594,
       "trailing_active": false,
       "entry_time": "2026-10-18T20:56:12.167393+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.25,
+      "peak_volume_m5": 131156.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -262311,6 +262303,25 @@
       "exit_price": 0.0002337,
       "exit_pct": -8.6,
       "exit_time": "2026-10-18T20:47:35.326934+00:00"
+    },
+    {
+      "symbol": "Avengers",
+      "chain": "solana",
+      "address": "3EaYnwiPnJFcujMMp4trwYLyMNYjzNXWMfqf61cxpump",
+      "source": "new",
+      "entry_price": 0.0005095,
+      "peak_price": 0.0005095,
+      "trailing_active": false,
+      "entry_time": "2026-10-18T20:56:10.220344+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.0,
+      "peak_volume_m5": 192460.49,
+      "milestones_hit": [],
+      "exit_price": 0.0004025,
+      "exit_pct": -21.0,
+      "exit_time": "2026-10-18T20:58:10.011569+00:00"
     }
   ],
   "alerted": {
@@ -275604,6 +275615,7 @@
     "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump": "2026-10-18T20:12:09.223723+00:00",
     "0x50dEd21bf0aB82C6Dd0Af8Ee3228D53d17881395": "2026-10-18T20:31:51.254262+00:00",
     "68R6PSWipAwGVmHpfvsCSfQG6chrqe7q4tA3uDoevJ2S": "2026-10-18T20:33:36.701603+00:00",
-    "2Cc5B2owbbR3oJnXmc1oYMfVEj1k5dRGfeQS1y1Lpump": "2026-10-18T20:47:35.326934+00:00"
+    "2Cc5B2owbbR3oJnXmc1oYMfVEj1k5dRGfeQS1y1Lpump": "2026-10-18T20:47:35.326934+00:00",
+    "3EaYnwiPnJFcujMMp4trwYLyMNYjzNXWMfqf61cxpump": "2026-10-18T20:58:10.011569+00:00"
   }
 }
