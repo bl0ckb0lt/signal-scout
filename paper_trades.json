@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "EMRUN",
-      "chain": "robinhood",
-      "address": "0x61ca50c67EC7cB9D3B374340511d62c10494154c",
-      "source": "new",
-      "entry_price": 8.272e-06,
-      "peak_price": 8.272e-06,
-      "trailing_active": false,
-      "entry_time": "2026-10-18T13:41:06.507952+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "MEGA",
       "chain": "solana",
       "address": "8dATxRTextAcaGxtWWUoTVApruNXtNS3Y74uD4Jzpump",
       "source": "new",
       "entry_price": 0.0001233,
-      "peak_price": 0.0001233,
-      "trailing_active": false,
+      "peak_price": 0.0001816,
+      "trailing_active": true,
       "entry_time": "2026-10-18T13:41:09.756207+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 47.28,
+      "peak_volume_m5": 104946.43,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -261888,6 +261880,25 @@
       "exit_price": 0.0003592,
       "exit_pct": -14.66,
       "exit_time": "2026-10-18T13:32:52.520416+00:00"
+    },
+    {
+      "symbol": "EMRUN",
+      "chain": "robinhood",
+      "address": "0x61ca50c67EC7cB9D3B374340511d62c10494154c",
+      "source": "new",
+      "entry_price": 8.272e-06,
+      "peak_price": 8.272e-06,
+      "trailing_active": false,
+      "entry_time": "2026-10-18T13:41:06.507952+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.68,
+      "peak_volume_m5": 70032.09,
+      "milestones_hit": [],
+      "exit_price": 7.306e-06,
+      "exit_pct": -11.68,
+      "exit_time": "2026-10-18T13:43:36.507402+00:00"
     }
   ],
   "alerted": {
@@ -275159,6 +275170,7 @@
     "C1Hpcif5LiLfmnLY1f67op1x2mSP7Rht6HXB9mfbpump": "2026-10-18T12:53:52.255275+00:00",
     "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump": "2026-10-18T13:25:47.635111+00:00",
     "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": "2026-10-18T13:26:31.841028+00:00",
-    "0x7061441A6cD1B2a320446B579431d781710ec732": "2026-10-18T13:32:52.520416+00:00"
+    "0x7061441A6cD1B2a320446B579431d781710ec732": "2026-10-18T13:32:52.520416+00:00",
+    "0x61ca50c67EC7cB9D3B374340511d62c10494154c": "2026-10-18T13:43:36.507402+00:00"
   }
 }
