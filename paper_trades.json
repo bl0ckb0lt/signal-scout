@@ -14,7 +14,7 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 27.32,
+      "current_pct": 15.97,
       "peak_volume_m5": 9476.37,
       "milestones_hit": []
     },
@@ -24,27 +24,15 @@
       "address": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
       "source": "new",
       "entry_price": 0.001967,
-      "peak_price": 0.002233,
-      "trailing_active": false,
+      "peak_price": 0.002738,
+      "trailing_active": true,
       "entry_time": "2026-10-18T22:50:52.170926+00:00",
       "score": 78,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 13.52,
+      "current_pct": 39.2,
       "peak_volume_m5": 66773.89,
       "milestones_hit": []
-    },
-    {
-      "symbol": "mucron",
-      "chain": "robinhood",
-      "address": "0x0329b80F3eC68aad63FBBA63b28fA9c5E7972C25",
-      "source": "new",
-      "entry_price": 0.0002671,
-      "peak_price": 0.0002671,
-      "trailing_active": false,
-      "entry_time": "2026-10-18T23:01:05.991186+00:00",
-      "score": 72,
-      "status": "open"
     }
   ],
   "closed": [
@@ -262502,6 +262490,25 @@
       "exit_price": 9.909e-05,
       "exit_pct": -2.47,
       "exit_time": "2026-10-18T22:43:01.155202+00:00"
+    },
+    {
+      "symbol": "mucron",
+      "chain": "robinhood",
+      "address": "0x0329b80F3eC68aad63FBBA63b28fA9c5E7972C25",
+      "source": "new",
+      "entry_price": 0.0002671,
+      "peak_price": 0.0002671,
+      "trailing_active": false,
+      "entry_time": "2026-10-18T23:01:05.991186+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.77,
+      "peak_volume_m5": 24204.75,
+      "milestones_hit": [],
+      "exit_price": 0.000241,
+      "exit_pct": -9.77,
+      "exit_time": "2026-10-18T23:03:33.110146+00:00"
     }
   ],
   "alerted": {
@@ -275804,6 +275811,7 @@
     "BxaCEL9DM7SgaNHYaTy7o812mBCvE1QHr4QZbU2cpump": "2026-10-18T21:56:48.173404+00:00",
     "0x883a6622CdDAe393ECD2F0c2EE1098DabA134089": "2026-10-18T22:41:55.164332+00:00",
     "2gLnaQN8Y73Qc62gMmX6WtJQjFnbvE7vgzUJ37WJpump": "2026-10-18T22:41:57.181260+00:00",
-    "JDWExL8BZmMF4kUwJxpguuZ6VS7CosKJYrvAP9gbVDUa": "2026-10-18T22:43:01.155202+00:00"
+    "JDWExL8BZmMF4kUwJxpguuZ6VS7CosKJYrvAP9gbVDUa": "2026-10-18T22:43:01.155202+00:00",
+    "0x0329b80F3eC68aad63FBBA63b28fA9c5E7972C25": "2026-10-18T23:03:33.110146+00:00"
   }
 }
