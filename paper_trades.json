@@ -14,7 +14,7 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 22.25,
+      "current_pct": 21.7,
       "peak_volume_m5": 2863.96,
       "milestones_hit": []
     },
@@ -35,34 +35,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ERC20T",
-      "chain": "ethereum",
-      "address": "0x25aFD59907DF52C3BB6D6C50e2EAdB224C83d783",
-      "source": "new",
-      "entry_price": 0.0001299,
-      "peak_price": 0.0002188,
-      "trailing_active": true,
-      "entry_time": "2026-10-19T20:41:05.286269+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 68.44,
-      "peak_volume_m5": 10378.94,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "WYRM",
       "chain": "robinhood",
       "address": "0xc366480dDeA385c2Ee001Aa7dbF1b67d04F8E6d2",
       "source": "new",
       "entry_price": 9.162e-05,
-      "peak_price": 9.162e-05,
+      "peak_price": 9.236e-05,
       "trailing_active": false,
       "entry_time": "2026-10-19T21:01:15.838518+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.81,
+      "peak_volume_m5": 2750.19,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -264336,6 +264322,27 @@
       "exit_price": 0.0001466,
       "exit_pct": -10.23,
       "exit_time": "2026-10-19T20:39:54.905421+00:00"
+    },
+    {
+      "symbol": "ERC20T",
+      "chain": "ethereum",
+      "address": "0x25aFD59907DF52C3BB6D6C50e2EAdB224C83d783",
+      "source": "new",
+      "entry_price": 0.0001299,
+      "peak_price": 0.0002188,
+      "trailing_active": true,
+      "entry_time": "2026-10-19T20:41:05.286269+00:00",
+      "score": 78,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 55.27,
+      "peak_volume_m5": 10378.94,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002017,
+      "exit_pct": 55.27,
+      "exit_time": "2026-10-19T21:02:38.268065+00:00"
     }
   ],
   "alerted": {
@@ -277730,6 +277737,7 @@
     "0x9a5Fde9B69CDC7156884c338c7F53B0BCd583089": "2026-10-19T20:32:16.289983+00:00",
     "Goqx3oFohWoTnuJbVhT7DcGfq6EjLrPyhTEuyHUZpump": "2026-10-19T20:34:50.502400+00:00",
     "A3sz1d8ffezULkbaTo1tjvAyhr2MPnQvUyJZDfugpump": "2026-10-19T20:34:51.316326+00:00",
-    "0xB908cEC388b7C24d5BB80b25e6e35a83fc69b888": "2026-10-19T20:39:54.905421+00:00"
+    "0xB908cEC388b7C24d5BB80b25e6e35a83fc69b888": "2026-10-19T20:39:54.905421+00:00",
+    "0x25aFD59907DF52C3BB6D6C50e2EAdB224C83d783": "2026-10-19T21:02:38.268065+00:00"
   }
 }
