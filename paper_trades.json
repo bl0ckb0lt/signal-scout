@@ -14,7 +14,7 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 26.32,
+      "current_pct": 26.13,
       "peak_volume_m5": 2863.96,
       "milestones_hit": []
     },
@@ -32,22 +32,6 @@
       "api_failures": 0,
       "current_pct": 0.0,
       "peak_volume_m5": 31423.03,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "e0e",
-      "chain": "ethereum",
-      "address": "0x0D3B9F4D2f46424174686f9279794F36d73E157c",
-      "source": "new",
-      "entry_price": 0.0001049,
-      "peak_price": 0.0001569,
-      "trailing_active": true,
-      "entry_time": "2026-10-19T22:11:12.489997+00:00",
-      "score": 77,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 49.57,
-      "peak_volume_m5": 2182.11,
       "milestones_hit": []
     }
   ],
@@ -264480,6 +264464,25 @@
       "exit_price": 0.001802,
       "exit_pct": 288.11,
       "exit_time": "2026-10-19T22:23:19.211840+00:00"
+    },
+    {
+      "symbol": "e0e",
+      "chain": "ethereum",
+      "address": "0x0D3B9F4D2f46424174686f9279794F36d73E157c",
+      "source": "new",
+      "entry_price": 0.0001049,
+      "peak_price": 0.0001569,
+      "trailing_active": true,
+      "entry_time": "2026-10-19T22:11:12.489997+00:00",
+      "score": 77,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 49.57,
+      "peak_volume_m5": 2182.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001569,
+      "exit_pct": 49.57,
+      "exit_time": "2026-10-19T22:27:00.481763+00:00"
     }
   ],
   "alerted": {
@@ -277882,6 +277885,7 @@
     "2xpFjJChu6zpAJDPqBzDNVDb6JLsfsksdr9mYZyMpump": "2026-10-19T21:52:55.825736+00:00",
     "3mmewUcttCpSJwVx9BcquZNmwEfJs4nZpKfTDXdipump": "2026-10-19T22:02:59.623636+00:00",
     "0x4Aa3b1247126D6A77B425B54D9591FFacCA4f5D2": "2026-10-19T22:15:46.094976+00:00",
-    "2tgNZbwupez8gnXbfFqC7ZxJLwE3tQ1nMbYwLMPqpump": "2026-10-19T22:23:19.211840+00:00"
+    "2tgNZbwupez8gnXbfFqC7ZxJLwE3tQ1nMbYwLMPqpump": "2026-10-19T22:23:19.211840+00:00",
+    "0x0D3B9F4D2f46424174686f9279794F36d73E157c": "2026-10-19T22:27:00.481763+00:00"
   }
 }
