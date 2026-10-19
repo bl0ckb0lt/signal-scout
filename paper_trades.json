@@ -14,21 +14,9 @@
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.27,
+      "current_pct": -0.26,
       "peak_volume_m5": 2863.96,
       "milestones_hit": []
-    },
-    {
-      "symbol": "FAUCET",
-      "chain": "solana",
-      "address": "EZYmWw5ZhNAAsm3RVrPUQJZkJu6W31YZFjV5LvW4pump",
-      "source": "new",
-      "entry_price": 8.687e-05,
-      "peak_price": 8.687e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-19T07:20:56.799444+00:00",
-      "score": 72,
-      "status": "open"
     },
     {
       "symbol": "SPSI",
@@ -36,11 +24,15 @@
       "address": "0x8AF78521aACe4794B55d88aD014Da2f49aA2E5CE",
       "source": "new",
       "entry_price": 9.474e-05,
-      "peak_price": 9.474e-05,
+      "peak_price": 0.0001088,
       "trailing_active": false,
       "entry_time": "2026-10-19T07:20:58.129427+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.84,
+      "peak_volume_m5": 19976.05,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -263170,6 +263162,25 @@
       "exit_price": 0.000277,
       "exit_pct": -18.58,
       "exit_time": "2026-10-19T06:33:15.290706+00:00"
+    },
+    {
+      "symbol": "FAUCET",
+      "chain": "solana",
+      "address": "EZYmWw5ZhNAAsm3RVrPUQJZkJu6W31YZFjV5LvW4pump",
+      "source": "new",
+      "entry_price": 8.687e-05,
+      "peak_price": 8.687e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-19T07:20:56.799444+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.94,
+      "peak_volume_m5": 6767.07,
+      "milestones_hit": [],
+      "exit_price": 7.042e-05,
+      "exit_pct": -18.94,
+      "exit_time": "2026-10-19T07:21:54.573273+00:00"
     }
   ],
   "alerted": {
@@ -276507,6 +276518,7 @@
     "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump": "2026-10-19T05:29:32.376109+00:00",
     "76w6yEXHp9MRFr8MNpSXY3PmLNeYktpiMy8HbUSkpump": "2026-10-19T06:22:30.189575+00:00",
     "8PDdpHqRavHphRYw6dauzidnx7M83g2gi4gbLn3wpump": "2026-10-19T06:29:00.792023+00:00",
-    "0x354c460f99B0439E8058cb456185ad5707a20b09": "2026-10-19T06:33:15.290706+00:00"
+    "0x354c460f99B0439E8058cb456185ad5707a20b09": "2026-10-19T06:33:15.290706+00:00",
+    "EZYmWw5ZhNAAsm3RVrPUQJZkJu6W31YZFjV5LvW4pump": "2026-10-19T07:21:54.573273+00:00"
   }
 }
