@@ -8,23 +8,15 @@
       "address": "J4dyfXc8EY3TXAeFdpAKZqWyW4S8XpdoABib7JMnpump",
       "source": "new",
       "entry_price": 0.0001004,
-      "peak_price": 0.0001004,
-      "trailing_active": false,
+      "peak_price": 0.0001179,
+      "trailing_active": true,
       "entry_time": "2026-10-19T00:41:08.841220+00:00",
       "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "Kim",
-      "chain": "robinhood",
-      "address": "0x19993E8A9c75c6104f0Bf2998784ea8154baF51c",
-      "source": "new",
-      "entry_price": 4.091e-05,
-      "peak_price": 4.091e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-19T00:41:10.237180+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.43,
+      "peak_volume_m5": 160981.95,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -262653,6 +262645,25 @@
       "exit_price": 9.092e-05,
       "exit_pct": -16.36,
       "exit_time": "2026-10-19T00:32:36.079769+00:00"
+    },
+    {
+      "symbol": "Kim",
+      "chain": "robinhood",
+      "address": "0x19993E8A9c75c6104f0Bf2998784ea8154baF51c",
+      "source": "new",
+      "entry_price": 4.091e-05,
+      "peak_price": 4.091e-05,
+      "trailing_active": false,
+      "entry_time": "2026-10-19T00:41:10.237180+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.62,
+      "peak_volume_m5": 7479.69,
+      "milestones_hit": [],
+      "exit_price": 3.452e-05,
+      "exit_pct": -15.62,
+      "exit_time": "2026-10-19T00:44:24.582225+00:00"
     }
   ],
   "alerted": {
@@ -275964,6 +275975,7 @@
     "0x6A9430fa1619A4413D1EF7d1FBE0487ae6132CA7": "2026-10-19T00:03:54.705723+00:00",
     "DNEVTVDoyVMjEBk4mXeDXZq2o6vv2yr6fKbjewbupump": "2026-10-19T00:12:46.699919+00:00",
     "0x098BD56A6010A7287fFdD592FaB6B44E12DB025C": "2026-10-19T00:16:01.590943+00:00",
-    "3cMZPaB4NrfZi9tZwDEwwnDjCBiXxbeAn9Q1GMrUpump": "2026-10-19T00:32:36.079769+00:00"
+    "3cMZPaB4NrfZi9tZwDEwwnDjCBiXxbeAn9Q1GMrUpump": "2026-10-19T00:32:36.079769+00:00",
+    "0x19993E8A9c75c6104f0Bf2998784ea8154baF51c": "2026-10-19T00:44:24.582225+00:00"
   }
 }
