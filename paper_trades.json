@@ -8,23 +8,15 @@
       "address": "0x098BD56A6010A7287fFdD592FaB6B44E12DB025C",
       "source": "new",
       "entry_price": 0.000274,
-      "peak_price": 0.000274,
-      "trailing_active": false,
+      "peak_price": 0.000355,
+      "trailing_active": true,
       "entry_time": "2026-10-19T00:10:51.776219+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "gm",
-      "chain": "solana",
-      "address": "DNEVTVDoyVMjEBk4mXeDXZq2o6vv2yr6fKbjewbupump",
-      "source": "new",
-      "entry_price": 0.00014,
-      "peak_price": 0.00014,
-      "trailing_active": false,
-      "entry_time": "2026-10-19T00:10:53.230197+00:00",
-      "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.56,
+      "peak_volume_m5": 25695.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -262596,6 +262588,25 @@
       "exit_price": 0.0001112,
       "exit_pct": -14.79,
       "exit_time": "2026-10-19T00:03:54.705723+00:00"
+    },
+    {
+      "symbol": "gm",
+      "chain": "solana",
+      "address": "DNEVTVDoyVMjEBk4mXeDXZq2o6vv2yr6fKbjewbupump",
+      "source": "new",
+      "entry_price": 0.00014,
+      "peak_price": 0.00014,
+      "trailing_active": false,
+      "entry_time": "2026-10-19T00:10:53.230197+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.21,
+      "peak_volume_m5": 37765.48,
+      "milestones_hit": [],
+      "exit_price": 0.0001271,
+      "exit_pct": -9.21,
+      "exit_time": "2026-10-19T00:12:46.699919+00:00"
     }
   ],
   "alerted": {
@@ -275904,6 +275915,7 @@
     "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump": "2026-10-18T23:06:18.900577+00:00",
     "0x2E4B48CD44fc3Dd15a9c4bD41B1F9964dC1eEf71": "2026-10-18T23:37:26.462324+00:00",
     "E4a2rTVJX1tv1ceNQbVixSQCcgkeCnWwyWz7nwG6pump": "2026-10-18T23:52:51.587669+00:00",
-    "0x6A9430fa1619A4413D1EF7d1FBE0487ae6132CA7": "2026-10-19T00:03:54.705723+00:00"
+    "0x6A9430fa1619A4413D1EF7d1FBE0487ae6132CA7": "2026-10-19T00:03:54.705723+00:00",
+    "DNEVTVDoyVMjEBk4mXeDXZq2o6vv2yr6fKbjewbupump": "2026-10-19T00:12:46.699919+00:00"
   }
 }
