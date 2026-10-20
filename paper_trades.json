@@ -8,11 +8,15 @@
       "address": "ADmo4PzQdTBgsfHad4ZMhy4Nzx7VxMhqkXiHP8kZpump",
       "source": "new",
       "entry_price": 0.002346,
-      "peak_price": 0.002346,
-      "trailing_active": false,
+      "peak_price": 0.003399,
+      "trailing_active": true,
       "entry_time": "2026-10-20T22:00:59.230684+00:00",
       "score": 85,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 44.88,
+      "peak_volume_m5": 496958.01,
+      "milestones_hit": []
     },
     {
       "symbol": "DAKITTY",
@@ -20,11 +24,15 @@
       "address": "AjSQ5K3cg27r8jFyEBvY2XneyPRn4vXRt37wA5KNpump",
       "source": "new",
       "entry_price": 0.0001413,
-      "peak_price": 0.0001413,
+      "peak_price": 0.0001578,
       "trailing_active": false,
       "entry_time": "2026-10-20T22:01:01.288443+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 11.68,
+      "peak_volume_m5": 28444.81,
+      "milestones_hit": []
     },
     {
       "symbol": "SXSI",
@@ -32,35 +40,15 @@
       "address": "1quFYDEfa3JhfKN5EG9rU97ahVXCVexNuHXUSvUpump",
       "source": "new",
       "entry_price": 0.0002926,
-      "peak_price": 0.0002926,
-      "trailing_active": false,
+      "peak_price": 0.0003788,
+      "trailing_active": true,
       "entry_time": "2026-10-20T22:01:03.270134+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "air",
-      "chain": "solana",
-      "address": "ECARsqfGxEQbsLhkJugMh1pQrDzM9iBMgtg22uNCpump",
-      "source": "new",
-      "entry_price": 0.0001803,
-      "peak_price": 0.0001803,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T22:01:06.320309+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "MOCHI",
-      "chain": "solana",
-      "address": "DkpZo28idZQj19FV1tDQXvukf7491KzYMKGqYcnepump",
-      "source": "new",
-      "entry_price": 0.0001569,
-      "peak_price": 0.0001569,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T22:01:08.299047+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.46,
+      "peak_volume_m5": 74314.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -266256,6 +266244,44 @@
       "exit_price": 0.0002687,
       "exit_pct": 9.14,
       "exit_time": "2026-10-20T21:45:15.489221+00:00"
+    },
+    {
+      "symbol": "air",
+      "chain": "solana",
+      "address": "ECARsqfGxEQbsLhkJugMh1pQrDzM9iBMgtg22uNCpump",
+      "source": "new",
+      "entry_price": 0.0001803,
+      "peak_price": 0.0001803,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T22:01:06.320309+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.15,
+      "peak_volume_m5": 17188.38,
+      "milestones_hit": [],
+      "exit_price": 0.0001602,
+      "exit_pct": -11.15,
+      "exit_time": "2026-10-20T22:02:49.539185+00:00"
+    },
+    {
+      "symbol": "MOCHI",
+      "chain": "solana",
+      "address": "DkpZo28idZQj19FV1tDQXvukf7491KzYMKGqYcnepump",
+      "source": "new",
+      "entry_price": 0.0001569,
+      "peak_price": 0.0001569,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T22:01:08.299047+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.08,
+      "peak_volume_m5": 86264.63,
+      "milestones_hit": [],
+      "exit_price": 0.0001097,
+      "exit_pct": -30.08,
+      "exit_time": "2026-10-20T22:02:50.410432+00:00"
     }
   ],
   "alerted": {
@@ -279749,6 +279775,8 @@
     "0x8b046926a7f875309117f749411e83c7e37ff73d": "2026-10-20T21:24:46.070795+00:00",
     "HukcUGZ7xNwD9kCxHhVUf5wLtG5rJmUgNTbi5iLqpump": "2026-10-20T21:32:38.992819+00:00",
     "0x19D2d2AC8c236a000368De4e9cA0B1E2877f4a1f": "2026-10-20T21:44:21.481670+00:00",
-    "2gJBAZVtxFcQzj3NQDKgqKbpECh6epSoq8Mzu4Fupump": "2026-10-20T21:45:15.489221+00:00"
+    "2gJBAZVtxFcQzj3NQDKgqKbpECh6epSoq8Mzu4Fupump": "2026-10-20T21:45:15.489221+00:00",
+    "ECARsqfGxEQbsLhkJugMh1pQrDzM9iBMgtg22uNCpump": "2026-10-20T22:02:49.539185+00:00",
+    "DkpZo28idZQj19FV1tDQXvukf7491KzYMKGqYcnepump": "2026-10-20T22:02:50.410432+00:00"
   }
 }
