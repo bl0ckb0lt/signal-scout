@@ -8,23 +8,15 @@
       "address": "2gJBAZVtxFcQzj3NQDKgqKbpECh6epSoq8Mzu4Fupump",
       "source": "new",
       "entry_price": 0.0002462,
-      "peak_price": 0.0002462,
-      "trailing_active": false,
+      "peak_price": 0.0003401,
+      "trailing_active": true,
       "entry_time": "2026-10-20T21:41:06.288647+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "LILPEPE",
-      "chain": "ethereum",
-      "address": "0x19D2d2AC8c236a000368De4e9cA0B1E2877f4a1f",
-      "source": "new",
-      "entry_price": 0.0001422,
-      "peak_price": 0.0001422,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T21:41:07.985123+00:00",
-      "score": 79,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 38.14,
+      "peak_volume_m5": 126705.66,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -266182,6 +266174,25 @@
       "exit_price": 0.0002247,
       "exit_pct": -8.62,
       "exit_time": "2026-10-20T21:32:38.992819+00:00"
+    },
+    {
+      "symbol": "LILPEPE",
+      "chain": "ethereum",
+      "address": "0x19D2d2AC8c236a000368De4e9cA0B1E2877f4a1f",
+      "source": "new",
+      "entry_price": 0.0001422,
+      "peak_price": 0.0001422,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T21:41:07.985123+00:00",
+      "score": 79,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.79,
+      "peak_volume_m5": 4972.89,
+      "milestones_hit": [],
+      "exit_price": 0.0001297,
+      "exit_pct": -8.79,
+      "exit_time": "2026-10-20T21:44:21.481670+00:00"
     }
   ],
   "alerted": {
@@ -279673,6 +279684,7 @@
     "J2qYrnmRdw8nyx8rFG5D94X2KPGvwzVi594paCkppump": "2026-10-20T20:29:49.264893+00:00",
     "0x3c8E2A03B8df7068FeA08E2c24701Ae619191111": "2026-10-20T20:45:56.855614+00:00",
     "0x8b046926a7f875309117f749411e83c7e37ff73d": "2026-10-20T21:24:46.070795+00:00",
-    "HukcUGZ7xNwD9kCxHhVUf5wLtG5rJmUgNTbi5iLqpump": "2026-10-20T21:32:38.992819+00:00"
+    "HukcUGZ7xNwD9kCxHhVUf5wLtG5rJmUgNTbi5iLqpump": "2026-10-20T21:32:38.992819+00:00",
+    "0x19D2d2AC8c236a000368De4e9cA0B1E2877f4a1f": "2026-10-20T21:44:21.481670+00:00"
   }
 }
