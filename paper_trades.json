@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "DEFERENCE",
-      "chain": "ethereum",
-      "address": "0x006fcd0160b699D8869851F5cc0603dE3FAfAa70",
-      "source": "new",
-      "entry_price": 0.0003984,
-      "peak_price": 0.0003984,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T16:30:56.886783+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "ARTEMI",
       "chain": "solana",
       "address": "7gUDvf45et6627atavR45Md4BjgYqJHMZe9EPqeR9Sya",
       "source": "new",
       "entry_price": 0.0001948,
-      "peak_price": 0.0001948,
+      "peak_price": 0.0002088,
       "trailing_active": false,
       "entry_time": "2026-10-20T16:30:59.837623+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.19,
+      "peak_volume_m5": 111504.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -265637,6 +265629,25 @@
       "exit_price": 8.474e-05,
       "exit_pct": -13.0,
       "exit_time": "2026-10-20T16:12:02.852739+00:00"
+    },
+    {
+      "symbol": "DEFERENCE",
+      "chain": "ethereum",
+      "address": "0x006fcd0160b699D8869851F5cc0603dE3FAfAa70",
+      "source": "new",
+      "entry_price": 0.0003984,
+      "peak_price": 0.0003984,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T16:30:56.886783+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.91,
+      "peak_volume_m5": 15026.76,
+      "milestones_hit": [],
+      "exit_price": 0.000335,
+      "exit_pct": -15.91,
+      "exit_time": "2026-10-20T16:31:57.631799+00:00"
     }
   ],
   "alerted": {
@@ -279099,6 +279110,7 @@
     "BjvruPbagrnmGKGbjWjSxVD3hYYeRE4VDSkfeysnpump": "2026-10-20T15:40:48.777900+00:00",
     "7LRu3HmrDxFcvaEHj9Fysxbfux2e8VWHx6UfDE9jpump": "2026-10-20T15:50:12.162367+00:00",
     "0xB073443A9F215C69d992924DfBc60bb601df3B79": "2026-10-20T15:57:50.586728+00:00",
-    "6VAyooNsKhyS4UeUR2LBH1A52NvouCgmVBru7n6ipump": "2026-10-20T16:12:02.852739+00:00"
+    "6VAyooNsKhyS4UeUR2LBH1A52NvouCgmVBru7n6ipump": "2026-10-20T16:12:02.852739+00:00",
+    "0x006fcd0160b699D8869851F5cc0603dE3FAfAa70": "2026-10-20T16:31:57.631799+00:00"
   }
 }
