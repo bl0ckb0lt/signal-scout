@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GTAa",
-      "chain": "solana",
-      "address": "G6dHfpt5nD77RBNgoKSMkSuH8KFHQif3KTPge9A2pump",
-      "source": "boost",
-      "entry_price": 0.0001407,
-      "peak_price": 0.0001407,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T17:11:09.447535+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "KAI",
       "chain": "solana",
       "address": "kai8sjSxmcxyEyXzy58bBmPFPB4bqZdGMty2ZosxJuP",
       "source": "new",
       "entry_price": 0.0002266,
-      "peak_price": 0.0002266,
+      "peak_price": 0.0002469,
       "trailing_active": false,
       "entry_time": "2026-10-20T17:11:11.126126+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.96,
+      "peak_volume_m5": 294320.87,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -265713,6 +265705,25 @@
       "exit_price": 8.575e-05,
       "exit_pct": -18.49,
       "exit_time": "2026-10-20T17:02:31.932226+00:00"
+    },
+    {
+      "symbol": "GTAa",
+      "chain": "solana",
+      "address": "G6dHfpt5nD77RBNgoKSMkSuH8KFHQif3KTPge9A2pump",
+      "source": "boost",
+      "entry_price": 0.0001407,
+      "peak_price": 0.0001407,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T17:11:09.447535+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.88,
+      "peak_volume_m5": 36670.57,
+      "milestones_hit": [],
+      "exit_price": 0.0001057,
+      "exit_pct": -24.88,
+      "exit_time": "2026-10-20T17:13:11.773534+00:00"
     }
   ],
   "alerted": {
@@ -279179,6 +279190,7 @@
     "0x006fcd0160b699D8869851F5cc0603dE3FAfAa70": "2026-10-20T16:31:57.631799+00:00",
     "7gUDvf45et6627atavR45Md4BjgYqJHMZe9EPqeR9Sya": "2026-10-20T16:33:55.699321+00:00",
     "0x4Fe9f3823791c8b187B81aB8B7398d793FEd28f6": "2026-10-20T16:52:43.797644+00:00",
-    "dirtyy3qnswmRjt6gzCTrwgYpVRgD7DGTyiJTZrQ85Q": "2026-10-20T17:02:31.932226+00:00"
+    "dirtyy3qnswmRjt6gzCTrwgYpVRgD7DGTyiJTZrQ85Q": "2026-10-20T17:02:31.932226+00:00",
+    "G6dHfpt5nD77RBNgoKSMkSuH8KFHQif3KTPge9A2pump": "2026-10-20T17:13:11.773534+00:00"
   }
 }
