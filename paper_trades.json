@@ -30,21 +30,9 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.64,
+      "current_pct": 8.5,
       "peak_volume_m5": 1762.04,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Pikachu",
-      "chain": "solana",
-      "address": "6gXN9N4yGwstzHHEABzpkPFWqZfpS9aBqMHewe5Vpump",
-      "source": "new",
-      "entry_price": 0.000135,
-      "peak_price": 0.000135,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T18:01:08.907850+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "RL",
@@ -52,11 +40,15 @@
       "address": "F7jZrB2aUG9v7rQY348F2EB9UvHLwV5tjEEL6B2ypump",
       "source": "new",
       "entry_price": 0.0002834,
-      "peak_price": 0.0002834,
+      "peak_price": 0.0002856,
       "trailing_active": false,
       "entry_time": "2026-10-20T18:01:15.628363+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.78,
+      "peak_volume_m5": 352054.51,
+      "milestones_hit": []
     },
     {
       "symbol": "CUMROCKET",
@@ -64,11 +56,15 @@
       "address": "CcfmQBZ6o3suCyd638CbjCVZtdsYHSwYnkHbPbSgpump",
       "source": "new",
       "entry_price": 0.0002127,
-      "peak_price": 0.0002127,
+      "peak_price": 0.0002283,
       "trailing_active": false,
       "entry_time": "2026-10-20T18:01:23.417838+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.33,
+      "peak_volume_m5": 22470.04,
+      "milestones_hit": []
     },
     {
       "symbol": "DEFERENCE",
@@ -76,11 +72,15 @@
       "address": "0xeE3a179974997acC5d7dbe8603f60B9E5981FCc4",
       "source": "new",
       "entry_price": 7.181e-05,
-      "peak_price": 7.181e-05,
+      "peak_price": 7.187e-05,
       "trailing_active": false,
       "entry_time": "2026-10-20T18:01:27.053760+00:00",
       "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.08,
+      "peak_volume_m5": 3422.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -265886,6 +265886,25 @@
       "exit_price": 0.0001193,
       "exit_pct": -8.86,
       "exit_time": "2026-10-20T17:56:15.829770+00:00"
+    },
+    {
+      "symbol": "Pikachu",
+      "chain": "solana",
+      "address": "6gXN9N4yGwstzHHEABzpkPFWqZfpS9aBqMHewe5Vpump",
+      "source": "new",
+      "entry_price": 0.000135,
+      "peak_price": 0.000135,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T18:01:08.907850+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.11,
+      "peak_volume_m5": 15723.37,
+      "milestones_hit": [],
+      "exit_price": 0.0001119,
+      "exit_pct": -17.11,
+      "exit_time": "2026-10-20T18:03:54.194274+00:00"
     }
   ],
   "alerted": {
@@ -279359,6 +279378,7 @@
     "0x901D8aFF53F19b75848c2b913A2a67AAA5AD7777": "2026-10-20T17:23:55.098991+00:00",
     "Df18xmSEf64DXaKMMfoCrJaEgqBKVc7rXfmKDyagpump": "2026-10-20T17:25:38.688972+00:00",
     "3WNuLjzMuUxDDwhoz8pfEQoUy96wNRrrMvcTsbynpump": "2026-10-20T17:52:22.996289+00:00",
-    "0x367a9dB294A5EE82EbC3783c61Cc14aC2287eE76": "2026-10-20T17:56:15.829770+00:00"
+    "0x367a9dB294A5EE82EbC3783c61Cc14aC2287eE76": "2026-10-20T17:56:15.829770+00:00",
+    "6gXN9N4yGwstzHHEABzpkPFWqZfpS9aBqMHewe5Vpump": "2026-10-20T18:03:54.194274+00:00"
   }
 }
