@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "API",
-      "chain": "robinhood",
-      "address": "0x23Dd8ea7C23058E75EE6DFeb5e66A826af27eb91",
-      "source": "new",
-      "entry_price": 0.0002573,
-      "peak_price": 0.0002832,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T09:51:09.835203+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 10.07,
-      "peak_volume_m5": 33824.54,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PROWLER",
       "chain": "solana",
       "address": "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
@@ -44,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-20T10:01:00.629486+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.17,
+      "peak_volume_m5": 172930.03,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -265253,6 +265241,25 @@
       "exit_price": 0.0003433,
       "exit_pct": 251.74,
       "exit_time": "2026-10-20T09:49:48.631784+00:00"
+    },
+    {
+      "symbol": "API",
+      "chain": "robinhood",
+      "address": "0x23Dd8ea7C23058E75EE6DFeb5e66A826af27eb91",
+      "source": "new",
+      "entry_price": 0.0002573,
+      "peak_price": 0.0002832,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T09:51:09.835203+00:00",
+      "score": 67,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.58,
+      "peak_volume_m5": 58342.21,
+      "milestones_hit": [],
+      "exit_price": 0.0002095,
+      "exit_pct": -18.58,
+      "exit_time": "2026-10-20T10:05:03.085189+00:00"
     }
   ],
   "alerted": {
@@ -278695,6 +278702,7 @@
     "2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump": "2026-10-20T08:42:30.105063+00:00",
     "BNc4CKrHeVMxKJSmdR22w5ZKngq7PVzwq4JJcazidTxg": "2026-10-20T08:53:15.194772+00:00",
     "AMoNBD7NgVbzmFnwu7PdcKAr3yypChVwS91Xuht4pump": "2026-10-20T09:18:46.777200+00:00",
-    "0xAAcBC156435DbaB7815a61bCcbA1c827e52A7777": "2026-10-20T09:49:48.631784+00:00"
+    "0xAAcBC156435DbaB7815a61bCcbA1c827e52A7777": "2026-10-20T09:49:48.631784+00:00",
+    "0x23Dd8ea7C23058E75EE6DFeb5e66A826af27eb91": "2026-10-20T10:05:03.085189+00:00"
   }
 }
