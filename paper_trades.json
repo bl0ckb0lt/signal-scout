@@ -19,32 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "NWOO",
-      "chain": "robinhood",
-      "address": "0xcf51cC8f5fAeD7399EEc9f2cF6DF2Bd5c28395Ee",
-      "source": "new",
-      "entry_price": 1.556e-06,
-      "peak_price": 1.889e-06,
-      "trailing_active": true,
-      "entry_time": "2026-10-20T01:21:17.235855+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 21.4,
-      "peak_volume_m5": 104654.98,
-      "milestones_hit": []
-    },
-    {
       "symbol": "COLLECTINU",
       "chain": "solana",
       "address": "HdPubR4cSU9Uhicx1VX7sAgtqTojfQ36CwCfFkGRpump",
       "source": "new",
       "entry_price": 0.0004842,
-      "peak_price": 0.0004842,
-      "trailing_active": false,
+      "peak_price": 0.0008206,
+      "trailing_active": true,
       "entry_time": "2026-10-20T01:31:08.893778+00:00",
       "score": 95,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 69.48,
+      "peak_volume_m5": 154878.2,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -264763,6 +264753,29 @@
       "exit_price": 8.299e-05,
       "exit_pct": 25.5,
       "exit_time": "2026-10-20T01:03:49.574407+00:00"
+    },
+    {
+      "symbol": "NWOO",
+      "chain": "robinhood",
+      "address": "0xcf51cC8f5fAeD7399EEc9f2cF6DF2Bd5c28395Ee",
+      "source": "new",
+      "entry_price": 1.556e-06,
+      "peak_price": 5.55e-06,
+      "trailing_active": true,
+      "entry_time": "2026-10-20T01:21:17.235855+00:00",
+      "score": 72,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 256.68,
+      "peak_volume_m5": 161786.26,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 5.55e-06,
+      "exit_pct": 256.68,
+      "exit_time": "2026-10-20T01:39:58.581343+00:00"
     }
   ],
   "alerted": {
@@ -278180,6 +278193,7 @@
     "7Fa5k2wZ5LKTXpNNUof7M8pqq1seCJbje137HgNipump": "2026-10-20T00:54:54.137796+00:00",
     "DhNeWY3MD9ttAxyXhSkAzXJDPFws8Hn9TbfoWJUmpump": "2026-10-20T00:54:55.843108+00:00",
     "ctJ2i4k7xcoKp6Tovb6AXSsC4AtLVJiTkfbd2GMpump": "2026-10-20T00:59:53.441812+00:00",
-    "0x3b092A9cAaC1aED19b41F6B580af926C7BaE32A5": "2026-10-20T01:03:49.574407+00:00"
+    "0x3b092A9cAaC1aED19b41F6B580af926C7BaE32A5": "2026-10-20T01:03:49.574407+00:00",
+    "0xcf51cC8f5fAeD7399EEc9f2cF6DF2Bd5c28395Ee": "2026-10-20T01:39:58.581343+00:00"
   }
 }
