@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Bonnie",
-      "chain": "solana",
-      "address": "8T2nkC9HQkgd2yjxc7Yn1LAietmXyZKbv1vR4FXDbonk",
-      "source": "new",
-      "entry_price": 0.0001402,
-      "peak_price": 0.0001402,
-      "trailing_active": false,
-      "entry_time": "2026-10-20T15:31:01.356697+00:00",
-      "score": 76,
-      "status": "open"
-    },
-    {
       "symbol": "JARVIS",
       "chain": "solana",
       "address": "BjvruPbagrnmGKGbjWjSxVD3hYYeRE4VDSkfeysnpump",
       "source": "new",
       "entry_price": 0.0002041,
-      "peak_price": 0.0002041,
-      "trailing_active": false,
+      "peak_price": 0.0002516,
+      "trailing_active": true,
       "entry_time": "2026-10-20T15:31:03.780901+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 23.27,
+      "peak_volume_m5": 23181.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -265542,6 +265534,25 @@
       "exit_price": 0.00128,
       "exit_pct": 104.18,
       "exit_time": "2026-10-20T14:35:03.161135+00:00"
+    },
+    {
+      "symbol": "Bonnie",
+      "chain": "solana",
+      "address": "8T2nkC9HQkgd2yjxc7Yn1LAietmXyZKbv1vR4FXDbonk",
+      "source": "new",
+      "entry_price": 0.0001402,
+      "peak_price": 0.0001402,
+      "trailing_active": false,
+      "entry_time": "2026-10-20T15:31:01.356697+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.19,
+      "peak_volume_m5": 21102.72,
+      "milestones_hit": [],
+      "exit_price": 0.0001161,
+      "exit_pct": -17.19,
+      "exit_time": "2026-10-20T15:39:58.984395+00:00"
     }
   ],
   "alerted": {
@@ -278999,6 +279010,7 @@
     "9UxFuKpeu6wRMnPkQgVNt2Gx7uTJTCDfYuLpceWmpump": "2026-10-20T14:02:33.718084+00:00",
     "0x4991dd06012eEe69aA509A279B0a4FD8261B1a58": "2026-10-20T14:32:33.198780+00:00",
     "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP": "2026-10-20T14:32:34.012685+00:00",
-    "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": "2026-10-20T14:35:03.161135+00:00"
+    "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": "2026-10-20T14:35:03.161135+00:00",
+    "8T2nkC9HQkgd2yjxc7Yn1LAietmXyZKbv1vR4FXDbonk": "2026-10-20T15:39:58.984395+00:00"
   }
 }
