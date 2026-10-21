@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PANGEA",
-      "chain": "ethereum",
-      "address": "0x6434e57e8d12B92bb4D0b1EFb3274748B75196ea",
-      "source": "new",
-      "entry_price": 0.0003847,
-      "peak_price": 0.0004295,
-      "trailing_active": false,
-      "entry_time": "2026-10-21T17:21:05.515916+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.65,
-      "peak_volume_m5": 8321.58,
-      "milestones_hit": []
-    },
-    {
       "symbol": "SHADOW",
       "chain": "solana",
       "address": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-21T17:31:06.771826+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.48,
+      "peak_volume_m5": 5090.21,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -267424,6 +267412,25 @@
       "exit_price": 0.0004304,
       "exit_pct": -10.41,
       "exit_time": "2026-10-21T17:22:36.772657+00:00"
+    },
+    {
+      "symbol": "PANGEA",
+      "chain": "ethereum",
+      "address": "0x6434e57e8d12B92bb4D0b1EFb3274748B75196ea",
+      "source": "new",
+      "entry_price": 0.0003847,
+      "peak_price": 0.0004295,
+      "trailing_active": false,
+      "entry_time": "2026-10-21T17:21:05.515916+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.14,
+      "peak_volume_m5": 21762.18,
+      "milestones_hit": [],
+      "exit_price": 0.000338,
+      "exit_pct": -12.14,
+      "exit_time": "2026-10-21T17:36:54.195368+00:00"
     }
   ],
   "alerted": {
@@ -280978,6 +280985,7 @@
     "0xFdA3Ee7553C5a7E8E9Bb78AAeC6cfC0a6CbD85D8": "2026-10-21T16:53:54.175756+00:00",
     "YKVRK6dCgdxbY4YhNf7Csr7a8JP9v78AWgtMqnwpump": "2026-10-21T17:02:52.687086+00:00",
     "0xA551dEF8a44ea423CaA58DA45b3F5764004286Ea": "2026-10-21T17:13:37.067848+00:00",
-    "0x30de7AE4c9578D110a97367EDe9F7765Cdce06ea": "2026-10-21T17:22:36.772657+00:00"
+    "0x30de7AE4c9578D110a97367EDe9F7765Cdce06ea": "2026-10-21T17:22:36.772657+00:00",
+    "0x6434e57e8d12B92bb4D0b1EFb3274748B75196ea": "2026-10-21T17:36:54.195368+00:00"
   }
 }
