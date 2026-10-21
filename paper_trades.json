@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Kimchi",
-      "chain": "ethereum",
-      "address": "0x24Ab897a8e50852d017A5EaC308b64843CaA6eA8",
-      "source": "new",
-      "entry_price": 0.0001978,
-      "peak_price": 0.0001978,
-      "trailing_active": false,
-      "entry_time": "2026-10-21T00:21:13.017802+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "UMI",
       "chain": "solana",
       "address": "8zemVcC8974xhtHva7wuY64B6viXsfj24b6LH41mpump",
       "source": "new",
       "entry_price": 0.000118,
-      "peak_price": 0.000118,
+      "peak_price": 0.0001303,
       "trailing_active": false,
       "entry_time": "2026-10-21T00:21:16.612052+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.42,
+      "peak_volume_m5": 5699.08,
+      "milestones_hit": []
     },
     {
       "symbol": "BabyKimchi",
@@ -32,11 +24,15 @@
       "address": "CzkL8THZY8m1fu77cdLuKqNjXtyiBDiv4YXVP3fNpump",
       "source": "new",
       "entry_price": 0.0001271,
-      "peak_price": 0.0001271,
+      "peak_price": 0.0001312,
       "trailing_active": false,
       "entry_time": "2026-10-21T00:21:18.618838+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.23,
+      "peak_volume_m5": 8254.6,
+      "milestones_hit": []
     },
     {
       "symbol": "umi",
@@ -44,11 +40,17 @@
       "address": "FijByc7PgS5FygnxUnsLThK85vEGYgZdJVTsowpZpump",
       "source": "new",
       "entry_price": 0.0001929,
-      "peak_price": 0.0001929,
-      "trailing_active": false,
+      "peak_price": 0.0003307,
+      "trailing_active": true,
       "entry_time": "2026-10-21T00:21:20.562151+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 71.44,
+      "peak_volume_m5": 75694.31,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -266461,6 +266463,25 @@
       "exit_price": 0.0002024,
       "exit_pct": -17.62,
       "exit_time": "2026-10-21T00:12:54.118031+00:00"
+    },
+    {
+      "symbol": "Kimchi",
+      "chain": "ethereum",
+      "address": "0x24Ab897a8e50852d017A5EaC308b64843CaA6eA8",
+      "source": "new",
+      "entry_price": 0.0001978,
+      "peak_price": 0.0001978,
+      "trailing_active": false,
+      "entry_time": "2026-10-21T00:21:13.017802+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.04,
+      "peak_volume_m5": 12158.34,
+      "milestones_hit": [],
+      "exit_price": 0.0001819,
+      "exit_pct": -8.04,
+      "exit_time": "2026-10-21T00:23:16.398308+00:00"
     }
   ],
   "alerted": {
@@ -279965,6 +279986,7 @@
     "Gv8hoq7fAmWEVjZmzi6KB15juyUkEK9ebt5nRkqxpump": "2026-10-20T23:36:47.959386+00:00",
     "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": "2026-10-21T00:01:57.861359+00:00",
     "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": "2026-10-21T00:11:59.516293+00:00",
-    "0x2Ed9665Eb2EE97973A838B14C17a2E95EBb309eF": "2026-10-21T00:12:54.118031+00:00"
+    "0x2Ed9665Eb2EE97973A838B14C17a2E95EBb309eF": "2026-10-21T00:12:54.118031+00:00",
+    "0x24Ab897a8e50852d017A5EaC308b64843CaA6eA8": "2026-10-21T00:23:16.398308+00:00"
   }
 }
