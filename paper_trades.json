@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "CYBER",
-      "chain": "solana",
-      "address": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
-      "source": "new",
-      "entry_price": 0.001073,
-      "peak_price": 0.001073,
-      "trailing_active": false,
-      "entry_time": "2026-10-21T22:50:51.350945+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "CI",
       "chain": "solana",
       "address": "7u4JmWrWG41kYkKpyqbuYJR4uZhE7oLCUMCGfNkNCFWq",
       "source": "new",
       "entry_price": 0.0001001,
-      "peak_price": 0.0001001,
-      "trailing_active": false,
+      "peak_price": 0.0001209,
+      "trailing_active": true,
       "entry_time": "2026-10-21T22:50:59.465783+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.78,
+      "peak_volume_m5": 57008.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -267958,6 +267950,25 @@
       "exit_price": 9.982e-05,
       "exit_pct": -18.11,
       "exit_time": "2026-10-21T22:46:10.890746+00:00"
+    },
+    {
+      "symbol": "CYBER",
+      "chain": "solana",
+      "address": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
+      "source": "new",
+      "entry_price": 0.001073,
+      "peak_price": 0.001073,
+      "trailing_active": false,
+      "entry_time": "2026-10-21T22:50:51.350945+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -20.68,
+      "peak_volume_m5": 94005.51,
+      "milestones_hit": [],
+      "exit_price": 0.0008511,
+      "exit_pct": -20.68,
+      "exit_time": "2026-10-21T23:00:06.239462+00:00"
     }
   ],
   "alerted": {
@@ -281539,6 +281550,7 @@
     "7555Qpbx1bNDTiRJ8jqhPSRGJmFqDyLLYSEkoy1ppump": "2026-10-21T22:22:11.310878+00:00",
     "BCwXmVMj4x2sG5z37oMnps2B1GrGVA9J7AFiBEShpump": "2026-10-21T22:26:34.878864+00:00",
     "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump": "2026-10-21T22:34:25.133172+00:00",
-    "DQnMXD198NYbyLzAr5ZDcgjfSgnTs3RsmmUyQotApump": "2026-10-21T22:46:10.890746+00:00"
+    "DQnMXD198NYbyLzAr5ZDcgjfSgnTs3RsmmUyQotApump": "2026-10-21T22:46:10.890746+00:00",
+    "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": "2026-10-21T23:00:06.239462+00:00"
   }
 }
