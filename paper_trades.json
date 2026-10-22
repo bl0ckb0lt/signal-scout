@@ -13,22 +13,10 @@
       "entry_time": "2026-10-21T19:00:52.184104+00:00",
       "score": 77,
       "status": "open",
-      "api_failures": 19,
+      "api_failures": 20,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "BTC",
-      "chain": "solana",
-      "address": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-      "source": "boost",
-      "entry_price": 0.0007023,
-      "peak_price": 0.0007023,
-      "trailing_active": false,
-      "entry_time": "2026-10-22T21:01:02.648903+00:00",
-      "score": 95,
-      "status": "open"
     }
   ],
   "closed": [
@@ -269470,6 +269458,25 @@
       "exit_price": 9.008e-05,
       "exit_pct": 27.38,
       "exit_time": "2026-10-22T20:32:56.427649+00:00"
+    },
+    {
+      "symbol": "BTC",
+      "chain": "solana",
+      "address": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
+      "source": "boost",
+      "entry_price": 0.0007023,
+      "peak_price": 0.0007023,
+      "trailing_active": false,
+      "entry_time": "2026-10-22T21:01:02.648903+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.42,
+      "peak_volume_m5": 71062.78,
+      "milestones_hit": [],
+      "exit_price": 0.0006151,
+      "exit_pct": -12.42,
+      "exit_time": "2026-10-22T21:01:57.352314+00:00"
     }
   ],
   "alerted": {
@@ -283130,6 +283137,7 @@
     "5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": "2026-10-22T19:43:26.982495+00:00",
     "0xDf76C675e419e52F41Df6885f9b156a6aCB00C08": "2026-10-22T19:46:01.298562+00:00",
     "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump": "2026-10-22T20:02:08.126048+00:00",
-    "0x863072e67e17f0a21aDd8314750fA13eded7f375": "2026-10-22T20:32:56.427649+00:00"
+    "0x863072e67e17f0a21aDd8314750fA13eded7f375": "2026-10-22T20:32:56.427649+00:00",
+    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": "2026-10-22T21:01:57.352314+00:00"
   }
 }
