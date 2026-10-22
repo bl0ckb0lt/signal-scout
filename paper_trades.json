@@ -19,28 +19,22 @@
       "milestones_hit": []
     },
     {
-      "symbol": "TRUMPOCEAN",
-      "chain": "solana",
-      "address": "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump",
-      "source": "new",
-      "entry_price": 0.000382,
-      "peak_price": 0.000382,
-      "trailing_active": false,
-      "entry_time": "2026-10-22T15:11:12.298781+00:00",
-      "score": 90,
-      "status": "open"
-    },
-    {
       "symbol": "SHAVCOIN",
       "chain": "solana",
       "address": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
       "source": "boost",
       "entry_price": 0.0004101,
-      "peak_price": 0.0004101,
-      "trailing_active": false,
+      "peak_price": 0.0007829,
+      "trailing_active": true,
       "entry_time": "2026-10-22T15:11:13.920389+00:00",
       "score": 86,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 90.9,
+      "peak_volume_m5": 60650.76,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -268961,6 +268955,25 @@
       "exit_price": 9.861e-05,
       "exit_pct": -10.03,
       "exit_time": "2026-10-22T15:02:39.701110+00:00"
+    },
+    {
+      "symbol": "TRUMPOCEAN",
+      "chain": "solana",
+      "address": "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump",
+      "source": "new",
+      "entry_price": 0.000382,
+      "peak_price": 0.000382,
+      "trailing_active": false,
+      "entry_time": "2026-10-22T15:11:12.298781+00:00",
+      "score": 90,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.69,
+      "peak_volume_m5": 106178.83,
+      "milestones_hit": [],
+      "exit_price": 0.0003068,
+      "exit_pct": -19.69,
+      "exit_time": "2026-10-22T15:14:44.518318+00:00"
     }
   ],
   "alerted": {
@@ -282594,6 +282607,7 @@
     "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": "2026-10-22T13:52:43.990753+00:00",
     "DMhsNrFYoKtENT2WKrF3JWC5P9VPg15kZ7qiRSxJpump": "2026-10-22T14:02:54.448652+00:00",
     "0xA2f6441c4839A7fD4eF8536b971ceD04c48A1CEA": "2026-10-22T14:34:16.852913+00:00",
-    "0x585eA2453e6198791Ce1D1a22F679aF08C87348B": "2026-10-22T15:02:39.701110+00:00"
+    "0x585eA2453e6198791Ce1D1a22F679aF08C87348B": "2026-10-22T15:02:39.701110+00:00",
+    "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump": "2026-10-22T15:14:44.518318+00:00"
   }
 }
