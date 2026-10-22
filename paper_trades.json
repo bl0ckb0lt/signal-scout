@@ -24,13 +24,13 @@
       "address": "yNePjCgkGu3tje7xbQvtennGZE6Y6gYccN2R4a2pump",
       "source": "new",
       "entry_price": 0.0002463,
-      "peak_price": 0.0002717,
+      "peak_price": 0.000272,
       "trailing_active": false,
       "entry_time": "2026-10-22T17:21:17.546605+00:00",
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 5.28,
+      "current_pct": 10.43,
       "peak_volume_m5": 6488.86,
       "milestones_hit": []
     },
@@ -40,23 +40,15 @@
       "address": "8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump",
       "source": "new",
       "entry_price": 0.0002632,
-      "peak_price": 0.0002632,
+      "peak_price": 0.0002675,
       "trailing_active": false,
       "entry_time": "2026-10-22T17:31:01.634216+00:00",
       "score": 80,
-      "status": "open"
-    },
-    {
-      "symbol": "NOWHEEL",
-      "chain": "solana",
-      "address": "86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump",
-      "source": "new",
-      "entry_price": 0.0003531,
-      "peak_price": 0.0003531,
-      "trailing_active": false,
-      "entry_time": "2026-10-22T17:31:03.566782+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.63,
+      "peak_volume_m5": 230337.98,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -269208,6 +269200,25 @@
       "exit_price": 0.0002985,
       "exit_pct": -26.64,
       "exit_time": "2026-10-22T17:14:23.789035+00:00"
+    },
+    {
+      "symbol": "NOWHEEL",
+      "chain": "solana",
+      "address": "86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump",
+      "source": "new",
+      "entry_price": 0.0003531,
+      "peak_price": 0.0003531,
+      "trailing_active": false,
+      "entry_time": "2026-10-22T17:31:03.566782+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.8,
+      "peak_volume_m5": 23339.36,
+      "milestones_hit": [],
+      "exit_price": 0.0003079,
+      "exit_pct": -12.8,
+      "exit_time": "2026-10-22T17:33:00.646347+00:00"
     }
   ],
   "alerted": {
@@ -282853,6 +282864,7 @@
     "B8oWh1zqjF45uoih7Ndq6138pwLvFTmyHDvxPD9opump": "2026-10-22T16:56:42.155255+00:00",
     "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": "2026-10-22T16:59:28.093906+00:00",
     "0xF90C4eAeF86A7DE48074AAfDd507fA6302Bf6b17": "2026-10-22T17:02:23.253317+00:00",
-    "EvqFzEDwp727wQVYaJTt6BH6QPnaStcK4EvKM7HLpump": "2026-10-22T17:14:23.789035+00:00"
+    "EvqFzEDwp727wQVYaJTt6BH6QPnaStcK4EvKM7HLpump": "2026-10-22T17:14:23.789035+00:00",
+    "86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump": "2026-10-22T17:33:00.646347+00:00"
   }
 }
