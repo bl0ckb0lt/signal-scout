@@ -13,22 +13,10 @@
       "entry_time": "2026-10-21T19:00:52.184104+00:00",
       "score": 77,
       "status": "open",
-      "api_failures": 21,
+      "api_failures": 22,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Kimchi",
-      "chain": "solana",
-      "address": "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK",
-      "source": "new",
-      "entry_price": 9.107e-05,
-      "peak_price": 9.107e-05,
-      "trailing_active": false,
-      "entry_time": "2026-10-22T21:11:10.031342+00:00",
-      "score": 71,
-      "status": "open"
     }
   ],
   "closed": [
@@ -269489,6 +269477,29 @@
       "exit_price": 0.0006151,
       "exit_pct": -12.42,
       "exit_time": "2026-10-22T21:01:57.352314+00:00"
+    },
+    {
+      "symbol": "Kimchi",
+      "chain": "solana",
+      "address": "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK",
+      "source": "new",
+      "entry_price": 9.107e-05,
+      "peak_price": 0.0003226,
+      "trailing_active": true,
+      "entry_time": "2026-10-22T21:11:10.031342+00:00",
+      "score": 71,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 254.23,
+      "peak_volume_m5": 186003.59,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0003226,
+      "exit_pct": 254.23,
+      "exit_time": "2026-10-22T21:19:56.024378+00:00"
     }
   ],
   "alerted": {
@@ -283150,6 +283161,7 @@
     "0xDf76C675e419e52F41Df6885f9b156a6aCB00C08": "2026-10-22T19:46:01.298562+00:00",
     "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump": "2026-10-22T20:02:08.126048+00:00",
     "0x863072e67e17f0a21aDd8314750fA13eded7f375": "2026-10-22T20:32:56.427649+00:00",
-    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": "2026-10-22T21:01:57.352314+00:00"
+    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": "2026-10-22T21:01:57.352314+00:00",
+    "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK": "2026-10-22T21:19:56.024378+00:00"
   }
 }
