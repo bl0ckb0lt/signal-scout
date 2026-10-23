@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-23T15:01:20.365661+00:00",
       "score": 95,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.53,
+      "peak_volume_m5": 63815.89,
+      "milestones_hit": []
     },
     {
       "symbol": "McSauce",
@@ -20,23 +24,15 @@
       "address": "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump",
       "source": "new",
       "entry_price": 0.0005961,
-      "peak_price": 0.0005961,
-      "trailing_active": false,
+      "peak_price": 0.0007993,
+      "trailing_active": true,
       "entry_time": "2026-10-23T15:01:23.975865+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "\u5bcc\u9014\u725b\u725b&\u5e01\u5b89",
-      "chain": "bsc",
-      "address": "0x46257650035abb700186965015856370b0067777",
-      "source": "new",
-      "entry_price": 0.0001637,
-      "peak_price": 0.0001637,
-      "trailing_active": false,
-      "entry_time": "2026-10-23T15:01:25.657068+00:00",
-      "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 34.09,
+      "peak_volume_m5": 160739.07,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -270289,6 +270285,25 @@
       "exit_price": 0.0002591,
       "exit_pct": -6.43,
       "exit_time": "2026-10-23T13:56:25.117154+00:00"
+    },
+    {
+      "symbol": "\u5bcc\u9014\u725b\u725b&\u5e01\u5b89",
+      "chain": "bsc",
+      "address": "0x46257650035abb700186965015856370b0067777",
+      "source": "new",
+      "entry_price": 0.0001637,
+      "peak_price": 0.0001637,
+      "trailing_active": false,
+      "entry_time": "2026-10-23T15:01:25.657068+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -30.67,
+      "peak_volume_m5": 37443.15,
+      "milestones_hit": [],
+      "exit_price": 0.0001135,
+      "exit_pct": -30.67,
+      "exit_time": "2026-10-23T15:02:54.267198+00:00"
     }
   ],
   "alerted": {
@@ -283991,6 +284006,7 @@
     "0x43637B9E9b45344295728fe436A29a913a8d3895": "2026-10-23T13:35:54.121145+00:00",
     "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": "2026-10-23T13:35:54.869991+00:00",
     "6V8ZLegByoWKpRCmfFtpK5mvMbZ5wFTSaajhr5Ckpump": "2026-10-23T13:46:53.115772+00:00",
-    "A3WqngzJwDfeuhd7vRtw9w367pGRF4tH4KVdmh34pump": "2026-10-23T13:56:25.117154+00:00"
+    "A3WqngzJwDfeuhd7vRtw9w367pGRF4tH4KVdmh34pump": "2026-10-23T13:56:25.117154+00:00",
+    "0x46257650035abb700186965015856370b0067777": "2026-10-23T15:02:54.267198+00:00"
   }
 }
