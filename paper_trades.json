@@ -8,27 +8,15 @@
       "address": "7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump",
       "source": "new",
       "entry_price": 0.0001368,
-      "peak_price": 0.0001503,
-      "trailing_active": false,
+      "peak_price": 0.0001703,
+      "trailing_active": true,
       "entry_time": "2026-10-23T20:01:15.420641+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 9.87,
+      "current_pct": 24.49,
       "peak_volume_m5": 49420.7,
       "milestones_hit": []
-    },
-    {
-      "symbol": "YMB",
-      "chain": "solana",
-      "address": "6T9cdyDT8cceci7uiTUsBeTF9tuYBNU4aEg31Mbzpump",
-      "source": "new",
-      "entry_price": 0.0002004,
-      "peak_price": 0.0002004,
-      "trailing_active": false,
-      "entry_time": "2026-10-23T20:11:23.187228+00:00",
-      "score": 91,
-      "status": "open"
     },
     {
       "symbol": "KIMCHICITY",
@@ -36,23 +24,15 @@
       "address": "Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump",
       "source": "new",
       "entry_price": 0.0001585,
-      "peak_price": 0.0001585,
+      "peak_price": 0.0001798,
       "trailing_active": false,
       "entry_time": "2026-10-23T20:11:26.986321+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "YMB",
-      "chain": "robinhood",
-      "address": "0xb48573C03fDEb8A4910B9d92872886eF42CDc80E",
-      "source": "new",
-      "entry_price": 0.0001598,
-      "peak_price": 0.0001598,
-      "trailing_active": false,
-      "entry_time": "2026-10-23T20:11:28.459349+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.44,
+      "peak_volume_m5": 90685.79,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -270692,6 +270672,44 @@
       "exit_price": 0.0006938,
       "exit_pct": 12.37,
       "exit_time": "2026-10-23T20:04:05.887161+00:00"
+    },
+    {
+      "symbol": "YMB",
+      "chain": "solana",
+      "address": "6T9cdyDT8cceci7uiTUsBeTF9tuYBNU4aEg31Mbzpump",
+      "source": "new",
+      "entry_price": 0.0002004,
+      "peak_price": 0.0002004,
+      "trailing_active": false,
+      "entry_time": "2026-10-23T20:11:23.187228+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.38,
+      "peak_volume_m5": 74596.32,
+      "milestones_hit": [],
+      "exit_price": 0.0001756,
+      "exit_pct": -12.38,
+      "exit_time": "2026-10-23T20:12:21.545273+00:00"
+    },
+    {
+      "symbol": "YMB",
+      "chain": "robinhood",
+      "address": "0xb48573C03fDEb8A4910B9d92872886eF42CDc80E",
+      "source": "new",
+      "entry_price": 0.0001598,
+      "peak_price": 0.0001598,
+      "trailing_active": false,
+      "entry_time": "2026-10-23T20:11:28.459349+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.64,
+      "peak_volume_m5": 52785.65,
+      "milestones_hit": [],
+      "exit_price": 0.0001428,
+      "exit_pct": -10.64,
+      "exit_time": "2026-10-23T20:12:22.607707+00:00"
     }
   ],
   "alerted": {
@@ -284414,6 +284432,8 @@
     "2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": "2026-10-23T19:12:34.839460+00:00",
     "HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": "2026-10-23T19:22:36.795558+00:00",
     "0x985ff6b07d77121ebbb4074c35b7a022d61123ad": "2026-10-23T19:44:25.636332+00:00",
-    "0x6b3f7c2AbAef2d64078384072F7C6A5Ef0a93722": "2026-10-23T20:04:05.887161+00:00"
+    "0x6b3f7c2AbAef2d64078384072F7C6A5Ef0a93722": "2026-10-23T20:04:05.887161+00:00",
+    "6T9cdyDT8cceci7uiTUsBeTF9tuYBNU4aEg31Mbzpump": "2026-10-23T20:12:21.545273+00:00",
+    "0xb48573C03fDEb8A4910B9d92872886eF42CDc80E": "2026-10-23T20:12:22.607707+00:00"
   }
 }
