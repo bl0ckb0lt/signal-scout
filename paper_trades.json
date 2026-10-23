@@ -8,23 +8,15 @@
       "address": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
       "source": "new",
       "entry_price": 0.0003539,
-      "peak_price": 0.0003539,
-      "trailing_active": false,
+      "peak_price": 0.000431,
+      "trailing_active": true,
       "entry_time": "2026-10-23T12:51:17.503597+00:00",
       "score": 77,
-      "status": "open"
-    },
-    {
-      "symbol": "eCat",
-      "chain": "solana",
-      "address": "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump",
-      "source": "new",
-      "entry_price": 0.0001688,
-      "peak_price": 0.0001688,
-      "trailing_active": false,
-      "entry_time": "2026-10-23T12:51:19.379206+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.79,
+      "peak_volume_m5": 11429.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -270104,6 +270096,25 @@
       "exit_price": 0.0001584,
       "exit_pct": 55.29,
       "exit_time": "2026-10-23T12:34:09.020334+00:00"
+    },
+    {
+      "symbol": "eCat",
+      "chain": "solana",
+      "address": "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump",
+      "source": "new",
+      "entry_price": 0.0001688,
+      "peak_price": 0.0001688,
+      "trailing_active": false,
+      "entry_time": "2026-10-23T12:51:19.379206+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.84,
+      "peak_volume_m5": 64388.73,
+      "milestones_hit": [],
+      "exit_price": 0.0001505,
+      "exit_pct": -10.84,
+      "exit_time": "2026-10-23T12:54:53.398908+00:00"
     }
   ],
   "alerted": {
@@ -283797,6 +283808,7 @@
     "7HYZgusu6h3DoNpa3a1A9vgWthnFXLQcdNaRadyepump": "2026-10-23T10:41:04.443726+00:00",
     "5EK3UpjrtDpxutsfh32bkmavZEn7iqAryhTUqNgVpump": "2026-10-23T11:54:11.320961+00:00",
     "dragons-2.nearlytrade.near": "2026-10-23T12:13:24.870007+00:00",
-    "0x1773E7CE32a89AdA9d81ACa4f5098012A95B80cF": "2026-10-23T12:34:09.020334+00:00"
+    "0x1773E7CE32a89AdA9d81ACa4f5098012A95B80cF": "2026-10-23T12:34:09.020334+00:00",
+    "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": "2026-10-23T12:54:53.398908+00:00"
   }
 }
