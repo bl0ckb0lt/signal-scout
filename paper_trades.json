@@ -30,7 +30,7 @@
       "score": 95,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.01,
+      "current_pct": 3.13,
       "peak_volume_m5": 51170.35,
       "milestones_hit": []
     },
@@ -40,30 +40,14 @@
       "address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
       "source": "new",
       "entry_price": 0.001084,
-      "peak_price": 0.001503,
+      "peak_price": 0.00158,
       "trailing_active": true,
       "entry_time": "2026-10-24T20:11:31.411239+00:00",
       "score": 95,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 38.65,
+      "current_pct": 45.76,
       "peak_volume_m5": 154227.41,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BEARSTR",
-      "chain": "ethereum",
-      "address": "0x794D04db975AdF3dba3d03109fedf7196f4BafF6",
-      "source": "new",
-      "entry_price": 0.0003232,
-      "peak_price": 0.0003232,
-      "trailing_active": false,
-      "entry_time": "2026-10-24T20:21:13.330038+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -6.19,
-      "peak_volume_m5": 28003.15,
       "milestones_hit": []
     }
   ],
@@ -272285,6 +272269,25 @@
       "exit_price": 9.29e-05,
       "exit_pct": -8.65,
       "exit_time": "2026-10-24T20:23:11.683151+00:00"
+    },
+    {
+      "symbol": "BEARSTR",
+      "chain": "ethereum",
+      "address": "0x794D04db975AdF3dba3d03109fedf7196f4BafF6",
+      "source": "new",
+      "entry_price": 0.0003232,
+      "peak_price": 0.0003232,
+      "trailing_active": false,
+      "entry_time": "2026-10-24T20:21:13.330038+00:00",
+      "score": 82,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.56,
+      "peak_volume_m5": 28003.15,
+      "milestones_hit": [],
+      "exit_price": 0.0002729,
+      "exit_pct": -15.56,
+      "exit_time": "2026-10-24T20:25:41.395986+00:00"
     }
   ],
   "alerted": {
@@ -286087,6 +286090,7 @@
     "0x17E9F61b0F1064aC2219759dC6F46a823e6aeCaB": "2026-10-24T19:06:46.946390+00:00",
     "8EWs5XXw3eh8y2GmFCKsE67R6r6YBD2HrvyT5WFSpump": "2026-10-24T19:38:48.088711+00:00",
     "58dhikS1m2BRCxjbAGQKCFzaRyujgP3MyKntX3hTpump": "2026-10-24T19:44:05.866889+00:00",
-    "DQSL3cVotoRw3fTG9bXwDnS7YuZz2bz9rjjtR8X9pump": "2026-10-24T20:23:11.683151+00:00"
+    "DQSL3cVotoRw3fTG9bXwDnS7YuZz2bz9rjjtR8X9pump": "2026-10-24T20:23:11.683151+00:00",
+    "0x794D04db975AdF3dba3d03109fedf7196f4BafF6": "2026-10-24T20:25:41.395986+00:00"
   }
 }
