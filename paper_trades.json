@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "baldcat",
-      "chain": "robinhood",
-      "address": "0xA5b527868dc7701c7F795750cbAc70B33D742479",
-      "source": "new",
-      "entry_price": 0.0003309,
-      "peak_price": 0.0003309,
-      "trailing_active": false,
-      "entry_time": "2026-10-24T02:31:13.076838+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "PRIVACY",
       "chain": "solana",
       "address": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
       "source": "new",
       "entry_price": 0.0001211,
-      "peak_price": 0.0001211,
+      "peak_price": 0.0001374,
       "trailing_active": false,
       "entry_time": "2026-10-24T02:31:14.846124+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.46,
+      "peak_volume_m5": 60671.12,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -271089,6 +271081,25 @@
       "exit_price": 9.954e-05,
       "exit_pct": -18.81,
       "exit_time": "2026-10-24T02:09:08.167740+00:00"
+    },
+    {
+      "symbol": "baldcat",
+      "chain": "robinhood",
+      "address": "0xA5b527868dc7701c7F795750cbAc70B33D742479",
+      "source": "new",
+      "entry_price": 0.0003309,
+      "peak_price": 0.0003309,
+      "trailing_active": false,
+      "entry_time": "2026-10-24T02:31:13.076838+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.11,
+      "peak_volume_m5": 37256.44,
+      "milestones_hit": [],
+      "exit_price": 0.0002809,
+      "exit_pct": -15.11,
+      "exit_time": "2026-10-24T02:33:55.649223+00:00"
     }
   ],
   "alerted": {
@@ -284833,6 +284844,7 @@
     "FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": "2026-10-24T01:08:13.628196+00:00",
     "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": "2026-10-24T01:23:39.708896+00:00",
     "HJcPYoVCbJM3mqMNRMNUDu4h7DiC7tb7WfJZfumvpump": "2026-10-24T01:24:34.003586+00:00",
-    "0x66D78bec283A969E291b42Dc2254d12f13A4B196": "2026-10-24T02:09:08.167740+00:00"
+    "0x66D78bec283A969E291b42Dc2254d12f13A4B196": "2026-10-24T02:09:08.167740+00:00",
+    "0xA5b527868dc7701c7F795750cbAc70B33D742479": "2026-10-24T02:33:55.649223+00:00"
   }
 }
