@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Trumpache",
-      "chain": "solana",
-      "address": "2MyJx6kJC9b6bEdQ7hBQfxFMG3Qo2E1ALweFF5Gkpump",
-      "source": "new",
-      "entry_price": 0.0004519,
-      "peak_price": 0.0004519,
-      "trailing_active": false,
-      "entry_time": "2026-10-24T14:11:24.441100+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "MI",
       "chain": "solana",
       "address": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-24T14:11:26.435807+00:00",
       "score": 82,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.72,
+      "peak_volume_m5": 12936.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -271740,6 +271732,25 @@
       "exit_price": 4.725e-05,
       "exit_pct": -17.34,
       "exit_time": "2026-10-24T13:14:15.622461+00:00"
+    },
+    {
+      "symbol": "Trumpache",
+      "chain": "solana",
+      "address": "2MyJx6kJC9b6bEdQ7hBQfxFMG3Qo2E1ALweFF5Gkpump",
+      "source": "new",
+      "entry_price": 0.0004519,
+      "peak_price": 0.0004519,
+      "trailing_active": false,
+      "entry_time": "2026-10-24T14:11:24.441100+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.24,
+      "peak_volume_m5": 290399.9,
+      "milestones_hit": [],
+      "exit_price": 0.0003785,
+      "exit_pct": -16.24,
+      "exit_time": "2026-10-24T14:13:51.469518+00:00"
     }
   ],
   "alerted": {
@@ -285515,6 +285526,7 @@
     "0x90964038632CdFE74A0e99D26d0CE4f324637777": "2026-10-24T12:36:48.181314+00:00",
     "4NR41C8JrtYXtWGrs1jja89zLozM9XC5g7F3oKkxpump": "2026-10-24T12:43:50.823377+00:00",
     "CdBsRQ3ySgxZwXUpTtrohBwsjTgtcHMKdK86Eqc8pump": "2026-10-24T13:02:27.437880+00:00",
-    "0xE7B83BC424A478Ecd2fbc8C03601510ff5B23917": "2026-10-24T13:14:15.622461+00:00"
+    "0xE7B83BC424A478Ecd2fbc8C03601510ff5B23917": "2026-10-24T13:14:15.622461+00:00",
+    "2MyJx6kJC9b6bEdQ7hBQfxFMG3Qo2E1ALweFF5Gkpump": "2026-10-24T14:13:51.469518+00:00"
   }
 }
