@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "Friendship",
-      "chain": "solana",
-      "address": "3XhLXLXvRtWF3T6TCggYV6NeA6AdWcttvwiMsnANpump",
-      "source": "new",
-      "entry_price": 0.0002902,
-      "peak_price": 0.0002902,
-      "trailing_active": false,
-      "entry_time": "2026-10-24T12:31:14.770174+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "\u5e01\u5b89\u4e16\u754c",
       "chain": "bsc",
       "address": "0x90964038632CdFE74A0e99D26d0CE4f324637777",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-24T12:31:16.291972+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.7,
+      "peak_volume_m5": 15612.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -271645,6 +271637,25 @@
       "exit_price": 0.0001453,
       "exit_pct": -7.28,
       "exit_time": "2026-10-24T12:15:58.761611+00:00"
+    },
+    {
+      "symbol": "Friendship",
+      "chain": "solana",
+      "address": "3XhLXLXvRtWF3T6TCggYV6NeA6AdWcttvwiMsnANpump",
+      "source": "new",
+      "entry_price": 0.0002902,
+      "peak_price": 0.0002902,
+      "trailing_active": false,
+      "entry_time": "2026-10-24T12:31:14.770174+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.67,
+      "peak_volume_m5": 20622.13,
+      "milestones_hit": [],
+      "exit_price": 0.0002244,
+      "exit_pct": -22.67,
+      "exit_time": "2026-10-24T12:32:32.153904+00:00"
     }
   ],
   "alerted": {
@@ -285415,6 +285426,7 @@
     "BPEtujorjTND3qWFPT4jgz73Acr1SadgGyRYSUmHpump": "2026-10-24T10:56:14.848839+00:00",
     "Db18cw8mqfuGgkprg6NvzmXYpftcNdQ7yWK48CsSpump": "2026-10-24T11:02:52.792829+00:00",
     "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT": "2026-10-24T11:23:09.194670+00:00",
-    "2qhbbkSpYXib41zdPGRtWFzRkSr2Mt3Lue3MrYnFpump": "2026-10-24T11:52:41.896038+00:00"
+    "2qhbbkSpYXib41zdPGRtWFzRkSr2Mt3Lue3MrYnFpump": "2026-10-24T11:52:41.896038+00:00",
+    "3XhLXLXvRtWF3T6TCggYV6NeA6AdWcttvwiMsnANpump": "2026-10-24T12:32:32.153904+00:00"
   }
 }
