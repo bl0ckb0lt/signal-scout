@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HCAT",
-      "chain": "solana",
-      "address": "3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump",
-      "source": "new",
-      "entry_price": 0.0001648,
-      "peak_price": 0.0001648,
-      "trailing_active": false,
-      "entry_time": "2026-10-24T20:41:30.085441+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "bbCoin",
       "chain": "solana",
       "address": "AQBTDs9tw2Qf1Mk2NGC6xyrHPpXDLZyh2xigsynzpump",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-24T20:41:31.730148+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.1,
+      "peak_volume_m5": 134198.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -272339,6 +272331,25 @@
       "exit_price": 0.0006149,
       "exit_pct": 41.36,
       "exit_time": "2026-10-24T20:38:34.176625+00:00"
+    },
+    {
+      "symbol": "HCAT",
+      "chain": "solana",
+      "address": "3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump",
+      "source": "new",
+      "entry_price": 0.0001648,
+      "peak_price": 0.0001648,
+      "trailing_active": false,
+      "entry_time": "2026-10-24T20:41:30.085441+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -47.47,
+      "peak_volume_m5": 26292.04,
+      "milestones_hit": [],
+      "exit_price": 8.657e-05,
+      "exit_pct": -47.47,
+      "exit_time": "2026-10-24T20:42:54.662596+00:00"
     }
   ],
   "alerted": {
@@ -286145,6 +286156,7 @@
     "0x794D04db975AdF3dba3d03109fedf7196f4BafF6": "2026-10-24T20:25:41.395986+00:00",
     "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": "2026-10-24T20:26:39.153183+00:00",
     "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump": "2026-10-24T20:37:31.573753+00:00",
-    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": "2026-10-24T20:38:34.176625+00:00"
+    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": "2026-10-24T20:38:34.176625+00:00",
+    "3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": "2026-10-24T20:42:54.662596+00:00"
   }
 }
