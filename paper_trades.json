@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SPCXDOGE",
-      "chain": "solana",
-      "address": "213G3ovPFKCz7rmiPbrhmKGWGrD27kkZcYaeMfaFpump",
-      "source": "new",
-      "entry_price": 0.0003642,
-      "peak_price": 0.0003642,
-      "trailing_active": false,
-      "entry_time": "2026-10-25T04:51:29.972705+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "BILLIONS",
       "chain": "solana",
       "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
       "source": "new",
       "entry_price": 0.0001741,
-      "peak_price": 0.0001741,
+      "peak_price": 0.0001957,
       "trailing_active": false,
       "entry_time": "2026-10-25T04:51:33.186350+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 12.41,
+      "peak_volume_m5": 162162.36,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -272852,6 +272844,25 @@
       "exit_price": 0.0001568,
       "exit_pct": -8.62,
       "exit_time": "2026-10-25T04:36:30.503625+00:00"
+    },
+    {
+      "symbol": "SPCXDOGE",
+      "chain": "solana",
+      "address": "213G3ovPFKCz7rmiPbrhmKGWGrD27kkZcYaeMfaFpump",
+      "source": "new",
+      "entry_price": 0.0003642,
+      "peak_price": 0.0003642,
+      "trailing_active": false,
+      "entry_time": "2026-10-25T04:51:29.972705+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -35.61,
+      "peak_volume_m5": 199339.78,
+      "milestones_hit": [],
+      "exit_price": 0.0002345,
+      "exit_pct": -35.61,
+      "exit_time": "2026-10-25T04:52:45.970469+00:00"
     }
   ],
   "alerted": {
@@ -286684,6 +286695,7 @@
     "6uEpcGrKa9S3AupEeDPiGPGvpzgFYxqeLVbXMsJCpump": "2026-10-25T03:42:52.608786+00:00",
     "2Qm9Pgq23GNAdxZRpzb5WHCNxRNLMjeWSr6uULvwpump": "2026-10-25T03:52:40.054466+00:00",
     "3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": "2026-10-25T04:16:56.474995+00:00",
-    "0x02490Da78a7CfD2AEC604A99f710372772E7C12d": "2026-10-25T04:36:30.503625+00:00"
+    "0x02490Da78a7CfD2AEC604A99f710372772E7C12d": "2026-10-25T04:36:30.503625+00:00",
+    "213G3ovPFKCz7rmiPbrhmKGWGrD27kkZcYaeMfaFpump": "2026-10-25T04:52:45.970469+00:00"
   }
 }
