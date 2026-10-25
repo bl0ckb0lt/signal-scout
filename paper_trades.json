@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "TRUMP",
-      "chain": "solana",
-      "address": "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump",
-      "source": "new",
-      "entry_price": 0.0002241,
-      "peak_price": 0.0002241,
-      "trailing_active": false,
-      "entry_time": "2026-10-25T03:31:10.441285+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "METACAT",
       "chain": "solana",
       "address": "6uEpcGrKa9S3AupEeDPiGPGvpzgFYxqeLVbXMsJCpump",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-25T03:31:12.023537+00:00",
       "score": 80,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.88,
+      "peak_volume_m5": 246286.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -272757,6 +272749,25 @@
       "exit_price": 0.0001728,
       "exit_pct": -9.77,
       "exit_time": "2026-10-25T02:52:52.684467+00:00"
+    },
+    {
+      "symbol": "TRUMP",
+      "chain": "solana",
+      "address": "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump",
+      "source": "new",
+      "entry_price": 0.0002241,
+      "peak_price": 0.0002241,
+      "trailing_active": false,
+      "entry_time": "2026-10-25T03:31:10.441285+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.54,
+      "peak_volume_m5": 15806.16,
+      "milestones_hit": [],
+      "exit_price": 0.000196,
+      "exit_pct": -12.54,
+      "exit_time": "2026-10-25T03:37:21.079359+00:00"
     }
   ],
   "alerted": {
@@ -286584,6 +286595,7 @@
     "Hu7rBHqUrH17iJcQxBg4c3nu5BgBR88mKn7bDuc7pump": "2026-10-25T02:07:28.757079+00:00",
     "8zsFH5cS1YT93nhb3ZWzCYk7gvADt7Nqc9P2PgGUpump": "2026-10-25T02:22:40.593917+00:00",
     "BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": "2026-10-25T02:43:58.258034+00:00",
-    "6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump": "2026-10-25T02:52:52.684467+00:00"
+    "6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump": "2026-10-25T02:52:52.684467+00:00",
+    "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump": "2026-10-25T03:37:21.079359+00:00"
   }
 }
