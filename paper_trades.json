@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "ASSETS",
-      "chain": "solana",
-      "address": "45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump",
-      "source": "new",
-      "entry_price": 0.0005637,
-      "peak_price": 0.0005637,
-      "trailing_active": false,
-      "entry_time": "2026-10-25T14:51:32.137747+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "OREN",
       "chain": "bsc",
       "address": "0xA79Df6f3A6dB822AA5dA2ea3A81F18938e5be36D",
       "source": "new",
       "entry_price": 0.003594,
-      "peak_price": 0.003594,
-      "trailing_active": false,
+      "peak_price": 0.004379,
+      "trailing_active": true,
       "entry_time": "2026-10-25T14:51:33.884040+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.84,
+      "peak_volume_m5": 21752.77,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -273256,6 +273248,25 @@
       "exit_price": 0.0001095,
       "exit_pct": -18.41,
       "exit_time": "2026-10-25T14:22:51.879189+00:00"
+    },
+    {
+      "symbol": "ASSETS",
+      "chain": "solana",
+      "address": "45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump",
+      "source": "new",
+      "entry_price": 0.0005637,
+      "peak_price": 0.0005637,
+      "trailing_active": false,
+      "entry_time": "2026-10-25T14:51:32.137747+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.05,
+      "peak_volume_m5": 38090.64,
+      "milestones_hit": [],
+      "exit_price": 0.0004845,
+      "exit_pct": -14.05,
+      "exit_time": "2026-10-25T14:52:42.726944+00:00"
     }
   ],
   "alerted": {
@@ -287109,6 +287120,7 @@
     "6S3EZbPxC8JdxKe3hFyRb3BSC1nvajAR3uX1u6tWpump": "2026-10-25T13:20:52.094760+00:00",
     "0xB2c8724b4868A02daD41B8FBDE57E95DdD70493e": "2026-10-25T14:02:33.463461+00:00",
     "0x0642C6D67F32467CFe577E68FbcaacF43De62f0e": "2026-10-25T14:03:14.076904+00:00",
-    "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev": "2026-10-25T14:22:51.879189+00:00"
+    "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev": "2026-10-25T14:22:51.879189+00:00",
+    "45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump": "2026-10-25T14:52:42.726944+00:00"
   }
 }
