@@ -19,18 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "SHITCOIN",
-      "chain": "solana",
-      "address": "5Z44AmfPsU8AQ8AR3VVVuaE9CxhkSzHzJ4dPfaxxpump",
-      "source": "new",
-      "entry_price": 0.0001796,
-      "peak_price": 0.0001796,
-      "trailing_active": false,
-      "entry_time": "2026-10-26T13:10:58.928254+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "SPILL",
       "chain": "solana",
       "address": "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump",
@@ -40,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-26T13:11:02.110071+00:00",
       "score": 79,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.71,
+      "peak_volume_m5": 115986.53,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -274764,6 +274756,25 @@
       "exit_price": 6.341e-05,
       "exit_pct": -29.02,
       "exit_time": "2026-10-26T13:03:57.753272+00:00"
+    },
+    {
+      "symbol": "SHITCOIN",
+      "chain": "solana",
+      "address": "5Z44AmfPsU8AQ8AR3VVVuaE9CxhkSzHzJ4dPfaxxpump",
+      "source": "new",
+      "entry_price": 0.0001796,
+      "peak_price": 0.0001796,
+      "trailing_active": false,
+      "entry_time": "2026-10-26T13:10:58.928254+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -31.96,
+      "peak_volume_m5": 67759.89,
+      "milestones_hit": [],
+      "exit_price": 0.0001222,
+      "exit_pct": -31.96,
+      "exit_time": "2026-10-26T13:12:51.090708+00:00"
     }
   ],
   "alerted": {
@@ -288693,6 +288704,7 @@
     "ECW3x9jPetgg587DMKDP8uVJS9EyoGfcZN7wdaQmpump": "2026-10-26T11:52:17.914081+00:00",
     "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": "2026-10-26T11:56:43.889691+00:00",
     "3P1CM6VJFrqPgewDgFvkJY1qrWR3tmsUT1AKkYbRpump": "2026-10-26T12:51:47.315703+00:00",
-    "3jfYCFZVsoWJChXFNW3dQJUAWcpcRY2XvmUKS87p4MET": "2026-10-26T13:03:57.753272+00:00"
+    "3jfYCFZVsoWJChXFNW3dQJUAWcpcRY2XvmUKS87p4MET": "2026-10-26T13:03:57.753272+00:00",
+    "5Z44AmfPsU8AQ8AR3VVVuaE9CxhkSzHzJ4dPfaxxpump": "2026-10-26T13:12:51.090708+00:00"
   }
 }
