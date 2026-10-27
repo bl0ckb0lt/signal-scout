@@ -24,27 +24,15 @@
       "address": "0xa727Ad163A58098716fBce31752e75f18613c8F8",
       "source": "new",
       "entry_price": 9.275e-05,
-      "peak_price": 0.0001054,
-      "trailing_active": false,
+      "peak_price": 0.0001337,
+      "trailing_active": true,
       "entry_time": "2026-10-27T07:10:50.762870+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 11.48,
+      "current_pct": 44.15,
       "peak_volume_m5": 6348.6,
       "milestones_hit": []
-    },
-    {
-      "symbol": "wiener",
-      "chain": "solana",
-      "address": "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump",
-      "source": "new",
-      "entry_price": 0.0001575,
-      "peak_price": 0.0001575,
-      "trailing_active": false,
-      "entry_time": "2026-10-27T07:30:52.320415+00:00",
-      "score": 73,
-      "status": "open"
     }
   ],
   "closed": [
@@ -276197,6 +276185,25 @@
       "exit_price": 0.0001528,
       "exit_pct": -14.64,
       "exit_time": "2026-10-27T06:45:12.576761+00:00"
+    },
+    {
+      "symbol": "wiener",
+      "chain": "solana",
+      "address": "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump",
+      "source": "new",
+      "entry_price": 0.0001575,
+      "peak_price": 0.0001575,
+      "trailing_active": false,
+      "entry_time": "2026-10-27T07:30:52.320415+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -17.02,
+      "peak_volume_m5": 10353.95,
+      "milestones_hit": [],
+      "exit_price": 0.0001307,
+      "exit_pct": -17.02,
+      "exit_time": "2026-10-27T07:33:49.441258+00:00"
     }
   ],
   "alerted": {
@@ -290198,6 +290205,7 @@
     "ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": "2026-10-27T05:16:02.263494+00:00",
     "2qQVrHpQaWzGf8iGYbpVUjYELYN2Q911XQWxFbsGpump": "2026-10-27T06:11:40.386319+00:00",
     "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump": "2026-10-27T06:21:45.823158+00:00",
-    "9vphGHJXi6LSwRYGxvLSaenLK4J3DYjpGrmpqRLkpump": "2026-10-27T06:45:12.576761+00:00"
+    "9vphGHJXi6LSwRYGxvLSaenLK4J3DYjpGrmpqRLkpump": "2026-10-27T06:45:12.576761+00:00",
+    "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": "2026-10-27T07:33:49.441258+00:00"
   }
 }
