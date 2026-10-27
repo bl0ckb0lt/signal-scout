@@ -13,7 +13,7 @@
       "entry_time": "2026-10-24T06:41:11.925889+00:00",
       "score": 91,
       "status": "open",
-      "api_failures": 13,
+      "api_failures": 14,
       "current_pct": -5.63,
       "peak_volume_m5": 362.66,
       "milestones_hit": []
@@ -32,22 +32,6 @@
       "api_failures": 0,
       "current_pct": 0.0,
       "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "Leverage",
-      "chain": "solana",
-      "address": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
-      "source": "new",
-      "entry_price": 0.00012,
-      "peak_price": 0.00012,
-      "trailing_active": false,
-      "entry_time": "2026-10-27T03:41:06.926616+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -4.58,
-      "peak_volume_m5": 17576.19,
       "milestones_hit": []
     }
   ],
@@ -276030,6 +276014,25 @@
       "exit_price": 0.0002145,
       "exit_pct": -11.91,
       "exit_time": "2026-10-27T03:42:32.497975+00:00"
+    },
+    {
+      "symbol": "Leverage",
+      "chain": "solana",
+      "address": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
+      "source": "new",
+      "entry_price": 0.00012,
+      "peak_price": 0.00012,
+      "trailing_active": false,
+      "entry_time": "2026-10-27T03:41:06.926616+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -42.1,
+      "peak_volume_m5": 22787.81,
+      "milestones_hit": [],
+      "exit_price": 6.948e-05,
+      "exit_pct": -42.1,
+      "exit_time": "2026-10-27T03:47:13.215663+00:00"
     }
   ],
   "alerted": {
@@ -290022,6 +290025,7 @@
     "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": "2026-10-27T02:52:40.159201+00:00",
     "HZFrwE8NrqehL54sG5ob9L3kUTSSUVSyS5E7PHUPpump": "2026-10-27T03:10:00.496115+00:00",
     "2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump": "2026-10-27T03:21:47.080926+00:00",
-    "0xDB5867e0F68f29C4c3e77BEFe59773eBB4c99d20": "2026-10-27T03:42:32.497975+00:00"
+    "0xDB5867e0F68f29C4c3e77BEFe59773eBB4c99d20": "2026-10-27T03:42:32.497975+00:00",
+    "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V": "2026-10-27T03:47:13.215663+00:00"
   }
 }
