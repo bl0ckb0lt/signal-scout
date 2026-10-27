@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Frongus",
-      "chain": "solana",
-      "address": "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump",
-      "source": "new",
-      "entry_price": 0.0001872,
-      "peak_price": 0.0003954,
-      "trailing_active": true,
-      "entry_time": "2026-10-27T19:01:06.621705+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 111.22,
-      "peak_volume_m5": 123923.73,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "SCOPE",
       "chain": "robinhood",
       "address": "0x65E1dE65832C94D314BfA408Cf63511329a2C1E6",
@@ -33,7 +14,7 @@
       "score": 64,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 4.56,
+      "current_pct": 4.4,
       "peak_volume_m5": 9017.26,
       "milestones_hit": []
     }
@@ -276941,6 +276922,29 @@
       "exit_price": 0.0001113,
       "exit_pct": -25.9,
       "exit_time": "2026-10-27T19:02:23.822595+00:00"
+    },
+    {
+      "symbol": "Frongus",
+      "chain": "solana",
+      "address": "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump",
+      "source": "new",
+      "entry_price": 0.0001872,
+      "peak_price": 0.0006971,
+      "trailing_active": true,
+      "entry_time": "2026-10-27T19:01:06.621705+00:00",
+      "score": 76,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 272.38,
+      "peak_volume_m5": 356600.59,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.0006971,
+      "exit_pct": 272.38,
+      "exit_time": "2026-10-27T19:16:17.885806+00:00"
     }
   ],
   "alerted": {
@@ -290981,6 +290985,7 @@
     "BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": "2026-10-27T17:53:40.559671+00:00",
     "FWQx8Q8Nxtc6S4YkcuUcT7eFPHYdAox8V1UZQ4YWpump": "2026-10-27T18:33:27.996864+00:00",
     "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": "2026-10-27T18:37:07.204043+00:00",
-    "EVcoZp3PwQmrFTijE1iGaAtBnTxb3a2ZYDeErQ1rpump": "2026-10-27T19:02:23.822595+00:00"
+    "EVcoZp3PwQmrFTijE1iGaAtBnTxb3a2ZYDeErQ1rpump": "2026-10-27T19:02:23.822595+00:00",
+    "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": "2026-10-27T19:16:17.885806+00:00"
   }
 }
