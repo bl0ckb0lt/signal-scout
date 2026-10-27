@@ -24,13 +24,13 @@
       "address": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
       "source": "new",
       "entry_price": 0.0001032,
-      "peak_price": 0.0001323,
+      "peak_price": 0.0001364,
       "trailing_active": true,
       "entry_time": "2026-10-27T12:00:57.878763+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 28.2,
+      "current_pct": 32.17,
       "peak_volume_m5": 20644.56,
       "milestones_hit": []
     },
@@ -44,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-27T12:11:08.354400+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "SOL",
-      "chain": "solana",
-      "address": "2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump",
-      "source": "new",
-      "entry_price": 0.0001887,
-      "peak_price": 0.0001887,
-      "trailing_active": false,
-      "entry_time": "2026-10-27T12:11:10.708193+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.76,
+      "peak_volume_m5": 22390.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -276403,6 +276395,25 @@
       "exit_price": 9.501e-05,
       "exit_pct": -9.94,
       "exit_time": "2026-10-27T11:32:29.544809+00:00"
+    },
+    {
+      "symbol": "SOL",
+      "chain": "solana",
+      "address": "2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump",
+      "source": "new",
+      "entry_price": 0.0001887,
+      "peak_price": 0.0001887,
+      "trailing_active": false,
+      "entry_time": "2026-10-27T12:11:10.708193+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.94,
+      "peak_volume_m5": 142006.85,
+      "milestones_hit": [],
+      "exit_price": 0.0001624,
+      "exit_pct": -13.94,
+      "exit_time": "2026-10-27T12:14:00.185017+00:00"
     }
   ],
   "alerted": {
@@ -290414,6 +290425,7 @@
     "5XapX9FpytfrwqY8Y7mNStwrur8u5fNnJjEcJNXZpump": "2026-10-27T10:02:32.724416+00:00",
     "5bDtxo7ytnRQUTi72XNfzYA2YWCSdmRbQ3mgKJozpump": "2026-10-27T10:36:31.842646+00:00",
     "0xF6f60aE92645B439f9a32C0729776a68e84A3Dc3": "2026-10-27T10:51:51.943031+00:00",
-    "GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": "2026-10-27T11:32:29.544809+00:00"
+    "GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": "2026-10-27T11:32:29.544809+00:00",
+    "2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump": "2026-10-27T12:14:00.185017+00:00"
   }
 }
