@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SCOPE",
-      "chain": "robinhood",
-      "address": "0x65E1dE65832C94D314BfA408Cf63511329a2C1E6",
-      "source": "new",
-      "entry_price": 0.001294,
-      "peak_price": 0.001354,
-      "trailing_active": false,
-      "entry_time": "2026-10-27T19:01:07.970894+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.33,
-      "peak_volume_m5": 9017.26,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PENISINU",
       "chain": "solana",
       "address": "Gv2KWBcDsFBXodR7zddeyTVPhRnsuSXeNK4VrzSjpump",
       "source": "new",
       "entry_price": 0.0002695,
-      "peak_price": 0.0002695,
+      "peak_price": 0.0002991,
       "trailing_active": false,
       "entry_time": "2026-10-28T20:01:08.482690+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 10.98,
+      "peak_volume_m5": 96901.62,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -278720,6 +278708,25 @@
       "exit_price": 0.0003214,
       "exit_pct": -13.21,
       "exit_time": "2026-10-28T19:56:53.676428+00:00"
+    },
+    {
+      "symbol": "SCOPE",
+      "chain": "robinhood",
+      "address": "0x65E1dE65832C94D314BfA408Cf63511329a2C1E6",
+      "source": "new",
+      "entry_price": 0.001294,
+      "peak_price": 0.001354,
+      "trailing_active": false,
+      "entry_time": "2026-10-27T19:01:07.970894+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -83.33,
+      "peak_volume_m5": 9017.26,
+      "milestones_hit": [],
+      "exit_price": 0.0002157,
+      "exit_pct": -83.33,
+      "exit_time": "2026-10-28T20:02:32.538464+00:00"
     }
   ],
   "alerted": {
@@ -292853,6 +292860,7 @@
     "D3XYLErK4f8xszFDwuCZy4PzYxz64iHkEZ24bYiHpump": "2026-10-28T19:42:19.906758+00:00",
     "AHtLsp84S3ThHeNgcqg1jXaE9M6FSXKW8oj7WjYkXhot": "2026-10-28T19:46:22.540283+00:00",
     "7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump": "2026-10-28T19:47:22.805030+00:00",
-    "0x1e635120FE4441702D826369114f0665C49Ded5E": "2026-10-28T19:56:53.676428+00:00"
+    "0x1e635120FE4441702D826369114f0665C49Ded5E": "2026-10-28T19:56:53.676428+00:00",
+    "0x65E1dE65832C94D314BfA408Cf63511329a2C1E6": "2026-10-28T20:02:32.538464+00:00"
   }
 }
