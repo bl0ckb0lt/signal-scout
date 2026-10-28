@@ -19,36 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "INVISIBLE",
-      "chain": "solana",
-      "address": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
-      "source": "new",
-      "entry_price": 0.000113,
-      "peak_price": 0.0002176,
-      "trailing_active": true,
-      "entry_time": "2026-10-28T00:51:11.556753+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 92.57,
-      "peak_volume_m5": 122727.55,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
-      "symbol": "CATUS",
-      "chain": "solana",
-      "address": "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump",
-      "source": "new",
-      "entry_price": 0.0002124,
-      "peak_price": 0.0002124,
-      "trailing_active": false,
-      "entry_time": "2026-10-28T01:01:11.364088+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "Frongus",
       "chain": "ethereum",
       "address": "0xab713B4A819E6890DF6cC8817D26cb5CD07cB2c7",
@@ -58,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-28T01:01:15.243281+00:00",
       "score": 61,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.82,
+      "peak_volume_m5": 6441.3,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -277443,6 +277417,46 @@
       "exit_price": 0.0003552,
       "exit_pct": -14.59,
       "exit_time": "2026-10-28T00:54:40.571140+00:00"
+    },
+    {
+      "symbol": "INVISIBLE",
+      "chain": "solana",
+      "address": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
+      "source": "new",
+      "entry_price": 0.000113,
+      "peak_price": 0.0002176,
+      "trailing_active": true,
+      "entry_time": "2026-10-28T00:51:11.556753+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 56.64,
+      "peak_volume_m5": 122727.55,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.000177,
+      "exit_pct": 56.64,
+      "exit_time": "2026-10-28T01:02:20.713226+00:00"
+    },
+    {
+      "symbol": "CATUS",
+      "chain": "solana",
+      "address": "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump",
+      "source": "new",
+      "entry_price": 0.0002124,
+      "peak_price": 0.0002124,
+      "trailing_active": false,
+      "entry_time": "2026-10-28T01:01:11.364088+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.82,
+      "peak_volume_m5": 14197.86,
+      "milestones_hit": [],
+      "exit_price": 0.0001788,
+      "exit_pct": -15.82,
+      "exit_time": "2026-10-28T01:02:21.519638+00:00"
     }
   ],
   "alerted": {
@@ -291508,6 +291522,8 @@
     "J2hFoWkCd61Fyh19XUYZYSTf8Dpm9WyepDQYffY7pump": "2026-10-27T23:46:35.746298+00:00",
     "0xe65A236A3111F6d3cA4058083985D3df02551bf9": "2026-10-27T23:52:22.455411+00:00",
     "0x19331523fFce415111Bc0F493907eE4616F7c3d5": "2026-10-28T00:52:39.404037+00:00",
-    "4vyJ8NujPevAPrB34otEBbP8Z7oHLPrZfEhgrW94pump": "2026-10-28T00:54:40.571140+00:00"
+    "4vyJ8NujPevAPrB34otEBbP8Z7oHLPrZfEhgrW94pump": "2026-10-28T00:54:40.571140+00:00",
+    "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": "2026-10-28T01:02:20.713226+00:00",
+    "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": "2026-10-28T01:02:21.519638+00:00"
   }
 }
