@@ -30,7 +30,7 @@
       "score": 65,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 0.51,
+      "current_pct": 3.01,
       "peak_volume_m5": 2251.43,
       "milestones_hit": []
     },
@@ -46,7 +46,7 @@
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 9.01,
+      "current_pct": 11.79,
       "peak_volume_m5": 30490.5,
       "milestones_hit": []
     },
@@ -60,19 +60,11 @@
       "trailing_active": false,
       "entry_time": "2026-10-28T19:11:06.689654+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "HOUSECOIN",
-      "chain": "solana",
-      "address": "DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump",
-      "source": "new",
-      "entry_price": 0.0001451,
-      "peak_price": 0.0001451,
-      "trailing_active": false,
-      "entry_time": "2026-10-28T19:11:08.586553+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -10.72,
+      "peak_volume_m5": 70316.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -278610,6 +278602,25 @@
       "exit_price": 0.0001096,
       "exit_pct": -23.41,
       "exit_time": "2026-10-28T19:05:19.343130+00:00"
+    },
+    {
+      "symbol": "HOUSECOIN",
+      "chain": "solana",
+      "address": "DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump",
+      "source": "new",
+      "entry_price": 0.0001451,
+      "peak_price": 0.0001451,
+      "trailing_active": false,
+      "entry_time": "2026-10-28T19:11:08.586553+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.2,
+      "peak_volume_m5": 89194.7,
+      "milestones_hit": [],
+      "exit_price": 0.0001303,
+      "exit_pct": -10.2,
+      "exit_time": "2026-10-28T19:12:12.392767+00:00"
     }
   ],
   "alerted": {
@@ -292735,6 +292746,7 @@
     "0xe726D8968083DfAaa559892870cEBd6806Fb2245": "2026-10-28T18:33:38.881584+00:00",
     "0xd7c80dCCE5B45b04d744DdBb0070374830dCab45": "2026-10-28T18:40:21.078720+00:00",
     "AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": "2026-10-28T18:52:37.236458+00:00",
-    "0x9601Fd1cF7CdfC007269deE6F5d2bE6333C9BedE": "2026-10-28T19:05:19.343130+00:00"
+    "0x9601Fd1cF7CdfC007269deE6F5d2bE6333C9BedE": "2026-10-28T19:05:19.343130+00:00",
+    "DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": "2026-10-28T19:12:12.392767+00:00"
   }
 }
