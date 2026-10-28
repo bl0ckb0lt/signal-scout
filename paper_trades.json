@@ -24,27 +24,15 @@
       "address": "0xbC5fcCd0602CD09Dc8dCBFB78F354f1ceea67777",
       "source": "new",
       "entry_price": 0.0003519,
-      "peak_price": 0.0003878,
-      "trailing_active": false,
+      "peak_price": 0.0005056,
+      "trailing_active": true,
       "entry_time": "2026-10-28T10:51:07.827369+00:00",
       "score": 65,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 10.2,
-      "peak_volume_m5": 12334.47,
+      "current_pct": 43.68,
+      "peak_volume_m5": 42047.33,
       "milestones_hit": []
-    },
-    {
-      "symbol": "Stonker",
-      "chain": "solana",
-      "address": "JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK",
-      "source": "new",
-      "entry_price": 0.0001372,
-      "peak_price": 0.0001372,
-      "trailing_active": false,
-      "entry_time": "2026-10-28T11:01:05.946313+00:00",
-      "score": 68,
-      "status": "open"
     }
   ],
   "closed": [
@@ -277910,6 +277898,25 @@
       "exit_price": 0.0001622,
       "exit_pct": 29.66,
       "exit_time": "2026-10-28T09:52:49.201970+00:00"
+    },
+    {
+      "symbol": "Stonker",
+      "chain": "solana",
+      "address": "JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK",
+      "source": "new",
+      "entry_price": 0.0001372,
+      "peak_price": 0.0001372,
+      "trailing_active": false,
+      "entry_time": "2026-10-28T11:01:05.946313+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.35,
+      "peak_volume_m5": 65172.28,
+      "milestones_hit": [],
+      "exit_price": 0.000123,
+      "exit_pct": -10.35,
+      "exit_time": "2026-10-28T11:06:53.364017+00:00"
     }
   ],
   "alerted": {
@@ -292000,6 +292007,7 @@
     "2c4VipmtKosP7crkd13QEjeaRtFoPc395YjTvQL1pump": "2026-10-28T08:56:22.016284+00:00",
     "0xE0165A1b3d8f9E276b0746AdCB9c7094CBd05785": "2026-10-28T08:58:40.386918+00:00",
     "BoE8kzCqnX4BnEUYdWh9A9tWfjbFKhnMrA5cWPvNpump": "2026-10-28T09:04:14.469716+00:00",
-    "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump": "2026-10-28T09:52:49.201970+00:00"
+    "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump": "2026-10-28T09:52:49.201970+00:00",
+    "JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK": "2026-10-28T11:06:53.364017+00:00"
   }
 }
