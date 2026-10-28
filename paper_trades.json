@@ -24,27 +24,17 @@
       "address": "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump",
       "source": "new",
       "entry_price": 0.0001484,
-      "peak_price": 0.0001913,
+      "peak_price": 0.0002259,
       "trailing_active": true,
       "entry_time": "2026-10-28T07:51:03.483265+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 28.91,
+      "current_pct": 52.22,
       "peak_volume_m5": 42976.19,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "BLACKTOBER",
-      "chain": "solana",
-      "address": "5LMyiFBjSRVdMYngdAEiGWzEZMTDMUftpZ5J2Erdpump",
-      "source": "new",
-      "entry_price": 0.0001483,
-      "peak_price": 0.0001483,
-      "trailing_active": false,
-      "entry_time": "2026-10-28T08:00:59.629531+00:00",
-      "score": 72,
-      "status": "open"
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -277775,6 +277765,25 @@
       "exit_price": 0.0002756,
       "exit_pct": -24.64,
       "exit_time": "2026-10-28T07:53:04.632080+00:00"
+    },
+    {
+      "symbol": "BLACKTOBER",
+      "chain": "solana",
+      "address": "5LMyiFBjSRVdMYngdAEiGWzEZMTDMUftpZ5J2Erdpump",
+      "source": "new",
+      "entry_price": 0.0001483,
+      "peak_price": 0.0001483,
+      "trailing_active": false,
+      "entry_time": "2026-10-28T08:00:59.629531+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.24,
+      "peak_volume_m5": 216443.58,
+      "milestones_hit": [],
+      "exit_price": 0.0001168,
+      "exit_pct": -21.24,
+      "exit_time": "2026-10-28T08:02:23.713784+00:00"
     }
   ],
   "alerted": {
@@ -291858,6 +291867,7 @@
     "0xa64A35f0760eeBD7D50261FAb9C05bD953200168": "2026-10-28T06:34:06.349223+00:00",
     "0x492DF03466ba0b65a3747E8080f0b05314c64148": "2026-10-28T06:50:24.861946+00:00",
     "0xF8F636eb3822585EBD747Fa93847831ceB18c92e": "2026-10-28T07:36:39.430591+00:00",
-    "7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": "2026-10-28T07:53:04.632080+00:00"
+    "7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": "2026-10-28T07:53:04.632080+00:00",
+    "5LMyiFBjSRVdMYngdAEiGWzEZMTDMUftpZ5J2Erdpump": "2026-10-28T08:02:23.713784+00:00"
   }
 }
