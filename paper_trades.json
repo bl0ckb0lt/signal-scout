@@ -8,23 +8,15 @@
       "address": "0x0491832E234407CFE17b0ae1c01D559fB3862839",
       "source": "new",
       "entry_price": 0.0003692,
-      "peak_price": 0.0003692,
+      "peak_price": 0.0003853,
       "trailing_active": false,
       "entry_time": "2026-10-29T02:51:12.364750+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "0",
-      "chain": "solana",
-      "address": "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec",
-      "source": "new",
-      "entry_price": 0.0001803,
-      "peak_price": 0.0001803,
-      "trailing_active": false,
-      "entry_time": "2026-10-29T02:51:14.177439+00:00",
-      "score": 64,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 4.36,
+      "peak_volume_m5": 37135.86,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -279102,6 +279094,25 @@
       "exit_price": 0.0002358,
       "exit_pct": 57.3,
       "exit_time": "2026-10-29T02:34:48.046014+00:00"
+    },
+    {
+      "symbol": "0",
+      "chain": "solana",
+      "address": "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec",
+      "source": "new",
+      "entry_price": 0.0001803,
+      "peak_price": 0.0001803,
+      "trailing_active": false,
+      "entry_time": "2026-10-29T02:51:14.177439+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.72,
+      "peak_volume_m5": 5238.56,
+      "milestones_hit": [],
+      "exit_price": 0.0001195,
+      "exit_pct": -33.72,
+      "exit_time": "2026-10-29T02:52:27.289348+00:00"
     }
   ],
   "alerted": {
@@ -293254,6 +293265,7 @@
     "0x88428d2Ec9746933F65d23ab7a50369ea179E826": "2026-10-29T01:12:51.325731+00:00",
     "0x086A4ce508debe170331693254143F3da1190a7D": "2026-10-29T02:11:55.389134+00:00",
     "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": "2026-10-29T02:32:41.666400+00:00",
-    "0x937E76BEa6ABeFE3Acc3cE806dC3B6648Cc07c04": "2026-10-29T02:34:48.046014+00:00"
+    "0x937E76BEa6ABeFE3Acc3cE806dC3B6648Cc07c04": "2026-10-29T02:34:48.046014+00:00",
+    "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": "2026-10-29T02:52:27.289348+00:00"
   }
 }
