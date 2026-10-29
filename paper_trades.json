@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "HASHTAG",
-      "chain": "solana",
-      "address": "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump",
-      "source": "new",
-      "entry_price": 0.0001292,
-      "peak_price": 0.0001292,
-      "trailing_active": false,
-      "entry_time": "2026-10-29T08:00:58.462444+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -9.44,
-      "peak_volume_m5": 2320.81,
-      "milestones_hit": []
-    },
-    {
       "symbol": "PODCAT",
       "chain": "solana",
       "address": "6xcLnAebDFLgPDBrVrGzHEcMvjVQfMW6yQL4NvECpump",
       "source": "new",
       "entry_price": 0.000203,
-      "peak_price": 0.000203,
-      "trailing_active": false,
+      "peak_price": 0.0002663,
+      "trailing_active": true,
       "entry_time": "2026-10-29T08:11:11.786585+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 31.18,
+      "peak_volume_m5": 100870.31,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -279353,6 +279341,25 @@
       "exit_price": 9.8e-05,
       "exit_pct": -13.88,
       "exit_time": "2026-10-29T07:32:01.876359+00:00"
+    },
+    {
+      "symbol": "HASHTAG",
+      "chain": "solana",
+      "address": "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump",
+      "source": "new",
+      "entry_price": 0.0001292,
+      "peak_price": 0.0001292,
+      "trailing_active": false,
+      "entry_time": "2026-10-29T08:00:58.462444+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -15.09,
+      "peak_volume_m5": 2320.81,
+      "milestones_hit": [],
+      "exit_price": 0.0001097,
+      "exit_pct": -15.09,
+      "exit_time": "2026-10-29T08:12:47.545522+00:00"
     }
   ],
   "alerted": {
@@ -293518,6 +293525,7 @@
     "0x7bC1351274763Cefb1c394150F1EC2CD8a93E306": "2026-10-29T06:28:00.399850+00:00",
     "Fxyj1MSfyE8PCsVUWmXTHCWmCKFK7dkvgkd6HvuHpump": "2026-10-29T06:42:18.869446+00:00",
     "0xCaFc9248A0eF89398b6771b59eA8db5049E3806b": "2026-10-29T06:55:20.759531+00:00",
-    "DPb1vNz5wXuYCv27S85zZ8sGh6NTfU6gMYRFYA7Jpump": "2026-10-29T07:32:01.876359+00:00"
+    "DPb1vNz5wXuYCv27S85zZ8sGh6NTfU6gMYRFYA7Jpump": "2026-10-29T07:32:01.876359+00:00",
+    "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump": "2026-10-29T08:12:47.545522+00:00"
   }
 }
