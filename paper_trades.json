@@ -8,23 +8,15 @@
       "address": "0x642145ccEB5B76bc9Ac4B4705711a76c876EAe3D",
       "source": "new",
       "entry_price": 7.693e-05,
-      "peak_price": 7.693e-05,
-      "trailing_active": false,
+      "peak_price": 0.0001001,
+      "trailing_active": true,
       "entry_time": "2026-10-30T14:31:01.016684+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "Kim",
-      "chain": "solana",
-      "address": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-      "source": "new",
-      "entry_price": 0.0001946,
-      "peak_price": 0.0001946,
-      "trailing_active": false,
-      "entry_time": "2026-10-30T14:31:02.813214+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 30.12,
+      "peak_volume_m5": 22783.97,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -280928,6 +280920,25 @@
       "exit_price": 0.0001531,
       "exit_pct": -16.84,
       "exit_time": "2026-10-30T14:23:27.151083+00:00"
+    },
+    {
+      "symbol": "Kim",
+      "chain": "solana",
+      "address": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
+      "source": "new",
+      "entry_price": 0.0001946,
+      "peak_price": 0.0001946,
+      "trailing_active": false,
+      "entry_time": "2026-10-30T14:31:02.813214+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.03,
+      "peak_volume_m5": 31141.05,
+      "milestones_hit": [],
+      "exit_price": 0.0001673,
+      "exit_pct": -14.03,
+      "exit_time": "2026-10-30T14:36:56.659754+00:00"
     }
   ],
   "alerted": {
@@ -295174,6 +295185,7 @@
     "0x5D7ceb89297680E71441d2Aa199AE2A372EdA548": "2026-10-30T11:32:15.281796+00:00",
     "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": "2026-10-30T12:05:46.704946+00:00",
     "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": "2026-10-30T14:23:26.254647+00:00",
-    "0x7F56aD80a6201DB430d3660f13a981c22A44F2Cd": "2026-10-30T14:23:27.151083+00:00"
+    "0x7F56aD80a6201DB430d3660f13a981c22A44F2Cd": "2026-10-30T14:23:27.151083+00:00",
+    "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": "2026-10-30T14:36:56.659754+00:00"
   }
 }
