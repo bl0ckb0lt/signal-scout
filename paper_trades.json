@@ -8,23 +8,15 @@
       "address": "J5jxG3PFaWpj6BLEQExyC6FSqSvaTKNdQ9G3sZwBpump",
       "source": "new",
       "entry_price": 0.0002997,
-      "peak_price": 0.0002997,
-      "trailing_active": false,
+      "peak_price": 0.0003514,
+      "trailing_active": true,
       "entry_time": "2026-10-30T21:30:52.632543+00:00",
       "score": 83,
-      "status": "open"
-    },
-    {
-      "symbol": "TUSK",
-      "chain": "solana",
-      "address": "8uBobWMhu6hRUn4jaA4kjcgWCjTxgHwHJtPgBePXpump",
-      "source": "new",
-      "entry_price": 0.0001195,
-      "peak_price": 0.0001195,
-      "trailing_active": false,
-      "entry_time": "2026-10-30T21:30:54.378272+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 17.25,
+      "peak_volume_m5": 58071.84,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -281464,6 +281456,25 @@
       "exit_price": 0.00171,
       "exit_pct": 18.5,
       "exit_time": "2026-10-30T20:33:10.013774+00:00"
+    },
+    {
+      "symbol": "TUSK",
+      "chain": "solana",
+      "address": "8uBobWMhu6hRUn4jaA4kjcgWCjTxgHwHJtPgBePXpump",
+      "source": "new",
+      "entry_price": 0.0001195,
+      "peak_price": 0.0001195,
+      "trailing_active": false,
+      "entry_time": "2026-10-30T21:30:54.378272+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.8,
+      "peak_volume_m5": 47351.69,
+      "milestones_hit": [],
+      "exit_price": 0.0001042,
+      "exit_pct": -12.8,
+      "exit_time": "2026-10-30T21:33:56.086795+00:00"
     }
   ],
   "alerted": {
@@ -295738,6 +295749,7 @@
     "B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump": "2026-10-30T19:52:44.727866+00:00",
     "0xE1afbA9C9898b09F9b8073d5F5CB9D1279FE8e83": "2026-10-30T20:24:57.869492+00:00",
     "2WVthqDUqTfmKniBvXz2guGwCAJSNTHKGnebUeBvpump": "2026-10-30T20:32:20.516819+00:00",
-    "0x189b14fd8068003041625642f9ffC3D7Adab0938": "2026-10-30T20:33:10.013774+00:00"
+    "0x189b14fd8068003041625642f9ffC3D7Adab0938": "2026-10-30T20:33:10.013774+00:00",
+    "8uBobWMhu6hRUn4jaA4kjcgWCjTxgHwHJtPgBePXpump": "2026-10-30T21:33:56.086795+00:00"
   }
 }
