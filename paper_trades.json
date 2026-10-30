@@ -14,7 +14,7 @@
       "score": 87,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 7.66,
+      "current_pct": -1.09,
       "peak_volume_m5": 45596.51,
       "milestones_hit": []
     },
@@ -24,27 +24,15 @@
       "address": "0xBA2d6C9Fa53730Cdcb6Ba8bBACb82B476c177556",
       "source": "new",
       "entry_price": 0.0001887,
-      "peak_price": 0.0002221,
+      "peak_price": 0.0002497,
       "trailing_active": true,
       "entry_time": "2026-10-30T17:41:08.839024+00:00",
       "score": 71,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 17.7,
-      "peak_volume_m5": 49023.16,
+      "current_pct": 32.33,
+      "peak_volume_m5": 58568.68,
       "milestones_hit": []
-    },
-    {
-      "symbol": "AgenC",
-      "chain": "robinhood",
-      "address": "0x9D70fb5fF955700ba00e862B629b9B4716860441",
-      "source": "new",
-      "entry_price": 0.0001227,
-      "peak_price": 0.0001227,
-      "trailing_active": false,
-      "entry_time": "2026-10-30T17:51:08.975356+00:00",
-      "score": 73,
-      "status": "open"
     }
   ],
   "closed": [
@@ -281252,6 +281240,25 @@
       "exit_price": 0.0002315,
       "exit_pct": -27.63,
       "exit_time": "2026-10-30T17:37:35.052434+00:00"
+    },
+    {
+      "symbol": "AgenC",
+      "chain": "robinhood",
+      "address": "0x9D70fb5fF955700ba00e862B629b9B4716860441",
+      "source": "new",
+      "entry_price": 0.0001227,
+      "peak_price": 0.0001227,
+      "trailing_active": false,
+      "entry_time": "2026-10-30T17:51:08.975356+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.43,
+      "peak_volume_m5": 29461.59,
+      "milestones_hit": [],
+      "exit_price": 0.0001099,
+      "exit_pct": -10.43,
+      "exit_time": "2026-10-30T17:55:19.107525+00:00"
     }
   ],
   "alerted": {
@@ -295514,6 +295521,7 @@
     "0x8FC8dde78bCe3F50345cfdCbB102E5D8702A63aD": "2026-10-30T17:16:54.140988+00:00",
     "52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": "2026-10-30T17:20:42.134111+00:00",
     "2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump": "2026-10-30T17:26:49.144529+00:00",
-    "5izHfawy4Rg1Vjm27F3ieHzmkEtWWyVNenhFFDPvpump": "2026-10-30T17:37:35.052434+00:00"
+    "5izHfawy4Rg1Vjm27F3ieHzmkEtWWyVNenhFFDPvpump": "2026-10-30T17:37:35.052434+00:00",
+    "0x9D70fb5fF955700ba00e862B629b9B4716860441": "2026-10-30T17:55:19.107525+00:00"
   }
 }
