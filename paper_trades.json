@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WASTED",
-      "chain": "solana",
-      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "source": "boost",
-      "entry_price": 0.0001644,
-      "peak_price": 0.0001644,
-      "trailing_active": false,
-      "entry_time": "2026-10-30T23:51:02.767722+00:00",
-      "score": 84,
-      "status": "open"
-    },
-    {
       "symbol": "AgenC",
       "chain": "solana",
       "address": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
       "source": "boost",
       "entry_price": 0.001244,
-      "peak_price": 0.001244,
-      "trailing_active": false,
+      "peak_price": 0.001441,
+      "trailing_active": true,
       "entry_time": "2026-10-30T23:51:04.363268+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.84,
+      "peak_volume_m5": 106947.1,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -281635,6 +281627,25 @@
       "exit_price": 0.0002447,
       "exit_pct": 12.14,
       "exit_time": "2026-10-30T23:12:48.979712+00:00"
+    },
+    {
+      "symbol": "WASTED",
+      "chain": "solana",
+      "address": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "source": "boost",
+      "entry_price": 0.0001644,
+      "peak_price": 0.0001644,
+      "trailing_active": false,
+      "entry_time": "2026-10-30T23:51:02.767722+00:00",
+      "score": 84,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.1,
+      "peak_volume_m5": 7701.31,
+      "milestones_hit": [],
+      "exit_price": 0.000133,
+      "exit_pct": -19.1,
+      "exit_time": "2026-10-30T23:57:39.691991+00:00"
     }
   ],
   "alerted": {
@@ -295903,7 +295914,7 @@
     "0x4a4B0bB2843dfd351653232f9f458A0f37F47777": "2026-10-30T18:05:14.371745+00:00",
     "0x6643671259c34D63A37844dBba11dd45e532bFe6": "2026-10-30T18:13:03.265681+00:00",
     "5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump": "2026-10-30T18:32:20.402424+00:00",
-    "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": "2026-10-30T18:32:21.205353+00:00",
+    "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": "2026-10-30T23:57:39.691991+00:00",
     "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": "2026-10-30T19:02:57.804442+00:00",
     "BK4sWbteR1EhULXACs7khW1dasdF9LEkjuS9BAV3pump": "2026-10-30T19:33:38.254288+00:00",
     "B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump": "2026-10-30T19:52:44.727866+00:00",
