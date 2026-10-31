@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PUMPE",
-      "chain": "solana",
-      "address": "7Nr1NvVdsczHyLsVT1z3uAJ1tLBL7n6PkP8fYkFbpump",
-      "source": "new",
-      "entry_price": 0.0001516,
-      "peak_price": 0.0001516,
-      "trailing_active": false,
-      "entry_time": "2026-10-31T14:30:58.088414+00:00",
-      "score": 73,
-      "status": "open"
-    },
-    {
       "symbol": "MINIMAL",
       "chain": "ethereum",
       "address": "0xdD848259d36A1cb5BA4Fb1758d69059eFF7F97ea",
       "source": "new",
       "entry_price": 0.0001594,
-      "peak_price": 0.0001594,
+      "peak_price": 0.0001689,
       "trailing_active": false,
       "entry_time": "2026-10-31T14:30:59.826912+00:00",
       "score": 59,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.96,
+      "peak_volume_m5": 9715.06,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -282291,6 +282283,25 @@
       "exit_price": 7.157e-05,
       "exit_pct": -85.14,
       "exit_time": "2026-10-31T13:32:30.882834+00:00"
+    },
+    {
+      "symbol": "PUMPE",
+      "chain": "solana",
+      "address": "7Nr1NvVdsczHyLsVT1z3uAJ1tLBL7n6PkP8fYkFbpump",
+      "source": "new",
+      "entry_price": 0.0001516,
+      "peak_price": 0.0001516,
+      "trailing_active": false,
+      "entry_time": "2026-10-31T14:30:58.088414+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.22,
+      "peak_volume_m5": 9021.56,
+      "milestones_hit": [],
+      "exit_price": 0.0001361,
+      "exit_pct": -10.22,
+      "exit_time": "2026-10-31T14:36:00.317109+00:00"
     }
   ],
   "alerted": {
@@ -296606,6 +296617,7 @@
     "0x457bAdeE84b6bE7539458eac993983058C7f7777": "2026-10-31T13:23:53.706916+00:00",
     "0x48C3ad446D572E209857e8E1C8b19d39A7Ffea42": "2026-10-31T13:27:03.241323+00:00",
     "5EH4bo9k5omHfD1mRSKfpUsSgPRyeRjaaFdhHGq1pump": "2026-10-31T13:29:37.038225+00:00",
-    "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump": "2026-10-31T13:32:30.882834+00:00"
+    "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump": "2026-10-31T13:32:30.882834+00:00",
+    "7Nr1NvVdsczHyLsVT1z3uAJ1tLBL7n6PkP8fYkFbpump": "2026-10-31T14:36:00.317109+00:00"
   }
 }
