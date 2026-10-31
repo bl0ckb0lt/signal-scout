@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SIS",
-      "chain": "solana",
-      "address": "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
-      "source": "boost",
-      "entry_price": 0.0007884,
-      "peak_price": 0.0007884,
-      "trailing_active": false,
-      "entry_time": "2026-10-31T22:30:49.156624+00:00",
-      "score": 91,
-      "status": "open"
-    },
-    {
       "symbol": "\u0421\u043e\u0431\u0430\u043a\u0430",
       "chain": "robinhood",
       "address": "0xd91ea00dff121a9A510113C5B2a5248644e87668",
       "source": "new",
       "entry_price": 0.0001213,
-      "peak_price": 0.0001213,
+      "peak_price": 0.0001284,
       "trailing_active": false,
       "entry_time": "2026-10-31T22:30:52.409930+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 5.85,
+      "peak_volume_m5": 19061.18,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -282909,6 +282901,25 @@
       "exit_price": 0.0001721,
       "exit_pct": -13.69,
       "exit_time": "2026-10-31T22:12:15.598160+00:00"
+    },
+    {
+      "symbol": "SIS",
+      "chain": "solana",
+      "address": "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
+      "source": "boost",
+      "entry_price": 0.0007884,
+      "peak_price": 0.0007884,
+      "trailing_active": false,
+      "entry_time": "2026-10-31T22:30:49.156624+00:00",
+      "score": 91,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.86,
+      "peak_volume_m5": 77448.56,
+      "milestones_hit": [],
+      "exit_price": 0.0006791,
+      "exit_pct": -13.86,
+      "exit_time": "2026-10-31T22:32:48.748333+00:00"
     }
   ],
   "alerted": {
@@ -297247,7 +297258,7 @@
     "0x8eE7e7E4Fc43d459DB5F4c70F786B4F0D8D3903B": "2026-10-31T19:09:24.358153+00:00",
     "GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump": "2026-10-31T19:12:54.018933+00:00",
     "0xFEdCb1513b389B1c4d243F85c56557E86De0905F": "2026-10-31T19:21:07.069498+00:00",
-    "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": "2026-10-31T19:25:53.169726+00:00",
+    "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": "2026-10-31T22:32:48.748333+00:00",
     "8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump": "2026-10-31T19:32:46.371684+00:00",
     "762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": "2026-10-31T20:12:20.811264+00:00",
     "0x104eFfAfBF3f4f120a03846d4B18616F8ce5Ce03": "2026-10-31T20:21:47.620663+00:00",
