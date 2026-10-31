@@ -8,33 +8,18 @@
       "address": "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump",
       "source": "new",
       "entry_price": 0.0004815,
-      "peak_price": 0.0009442,
+      "peak_price": 0.0009673,
       "trailing_active": true,
       "entry_time": "2026-10-31T12:20:50.260081+00:00",
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 96.1,
+      "current_pct": 100.89,
       "peak_volume_m5": 3044.08,
       "milestones_hit": [
-        50
+        50,
+        100
       ]
-    },
-    {
-      "symbol": "NIL",
-      "chain": "solana",
-      "address": "5EH4bo9k5omHfD1mRSKfpUsSgPRyeRjaaFdhHGq1pump",
-      "source": "new",
-      "entry_price": 0.0001303,
-      "peak_price": 0.0001472,
-      "trailing_active": false,
-      "entry_time": "2026-10-31T13:11:16.978295+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 11.97,
-      "peak_volume_m5": 8463.05,
-      "milestones_hit": []
     }
   ],
   "closed": [
@@ -282260,6 +282245,25 @@
       "exit_price": 0.0003517,
       "exit_pct": 36.8,
       "exit_time": "2026-10-31T13:27:03.241323+00:00"
+    },
+    {
+      "symbol": "NIL",
+      "chain": "solana",
+      "address": "5EH4bo9k5omHfD1mRSKfpUsSgPRyeRjaaFdhHGq1pump",
+      "source": "new",
+      "entry_price": 0.0001303,
+      "peak_price": 0.0001472,
+      "trailing_active": false,
+      "entry_time": "2026-10-31T13:11:16.978295+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.36,
+      "peak_volume_m5": 9037.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001181,
+      "exit_pct": -9.36,
+      "exit_time": "2026-10-31T13:29:37.038225+00:00"
     }
   ],
   "alerted": {
@@ -296573,6 +296577,7 @@
     "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": "2026-10-31T11:12:48.446404+00:00",
     "8WNQQvdcPaNMn6mJLpT64SEMBoDFyjKsHmbB5tknpump": "2026-10-31T12:33:42.956680+00:00",
     "0x457bAdeE84b6bE7539458eac993983058C7f7777": "2026-10-31T13:23:53.706916+00:00",
-    "0x48C3ad446D572E209857e8E1C8b19d39A7Ffea42": "2026-10-31T13:27:03.241323+00:00"
+    "0x48C3ad446D572E209857e8E1C8b19d39A7Ffea42": "2026-10-31T13:27:03.241323+00:00",
+    "5EH4bo9k5omHfD1mRSKfpUsSgPRyeRjaaFdhHGq1pump": "2026-10-31T13:29:37.038225+00:00"
   }
 }
