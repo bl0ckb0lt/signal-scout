@@ -14,24 +14,8 @@
       "score": 59,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.79,
+      "current_pct": -1.41,
       "peak_volume_m5": 7077.65,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "HALLOWCHAN",
-      "chain": "solana",
-      "address": "8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump",
-      "source": "new",
-      "entry_price": 0.000181,
-      "peak_price": 0.0001932,
-      "trailing_active": false,
-      "entry_time": "2026-10-31T20:40:59.525400+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 6.74,
-      "peak_volume_m5": 32417.3,
       "milestones_hit": []
     },
     {
@@ -40,15 +24,17 @@
       "address": "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump",
       "source": "boost",
       "entry_price": 0.00025,
-      "peak_price": 0.0003617,
+      "peak_price": 0.0003867,
       "trailing_active": true,
       "entry_time": "2026-10-31T20:41:01.420210+00:00",
       "score": 82,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 44.68,
-      "peak_volume_m5": 39131.2,
-      "milestones_hit": []
+      "current_pct": 54.68,
+      "peak_volume_m5": 83906.53,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -282815,6 +282801,25 @@
       "exit_price": 0.0002233,
       "exit_pct": 29.08,
       "exit_time": "2026-10-31T20:21:47.620663+00:00"
+    },
+    {
+      "symbol": "HALLOWCHAN",
+      "chain": "solana",
+      "address": "8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump",
+      "source": "new",
+      "entry_price": 0.000181,
+      "peak_price": 0.0001932,
+      "trailing_active": false,
+      "entry_time": "2026-10-31T20:40:59.525400+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.49,
+      "peak_volume_m5": 32417.3,
+      "milestones_hit": [],
+      "exit_price": 0.0001584,
+      "exit_pct": -12.49,
+      "exit_time": "2026-10-31T20:57:49.428364+00:00"
     }
   ],
   "alerted": {
@@ -297156,6 +297161,7 @@
     "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": "2026-10-31T19:25:53.169726+00:00",
     "8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump": "2026-10-31T19:32:46.371684+00:00",
     "762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": "2026-10-31T20:12:20.811264+00:00",
-    "0x104eFfAfBF3f4f120a03846d4B18616F8ce5Ce03": "2026-10-31T20:21:47.620663+00:00"
+    "0x104eFfAfBF3f4f120a03846d4B18616F8ce5Ce03": "2026-10-31T20:21:47.620663+00:00",
+    "8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": "2026-10-31T20:57:49.428364+00:00"
   }
 }
