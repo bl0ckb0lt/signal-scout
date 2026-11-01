@@ -8,31 +8,17 @@
       "address": "EZZ4WS7XXKgWP2btL2iTjHz4of9PT16tCDMd1LTCpump",
       "source": "new",
       "entry_price": 0.0003289,
-      "peak_price": 0.0003574,
-      "trailing_active": false,
+      "peak_price": 0.0005539,
+      "trailing_active": true,
       "entry_time": "2026-11-01T21:50:57.533392+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 8.67,
+      "current_pct": 68.41,
       "peak_volume_m5": 64466.46,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "URIEL",
-      "chain": "ethereum",
-      "address": "0x114c3473D43d320c4F093F5CE5ecf32F2a2EE407",
-      "source": "new",
-      "entry_price": 0.01161,
-      "peak_price": 0.01174,
-      "trailing_active": false,
-      "entry_time": "2026-11-01T22:01:03.460036+00:00",
-      "score": 59,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.12,
-      "peak_volume_m5": 116.81,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -283904,6 +283890,25 @@
       "exit_price": 0.000143,
       "exit_pct": -14.11,
       "exit_time": "2026-11-01T22:04:46.159061+00:00"
+    },
+    {
+      "symbol": "URIEL",
+      "chain": "ethereum",
+      "address": "0x114c3473D43d320c4F093F5CE5ecf32F2a2EE407",
+      "source": "new",
+      "entry_price": 0.01161,
+      "peak_price": 0.01174,
+      "trailing_active": false,
+      "entry_time": "2026-11-01T22:01:03.460036+00:00",
+      "score": 59,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -78.51,
+      "peak_volume_m5": 7043.9,
+      "milestones_hit": [],
+      "exit_price": 0.002495,
+      "exit_pct": -78.51,
+      "exit_time": "2026-11-01T22:11:01.670990+00:00"
     }
   ],
   "alerted": {
@@ -298300,6 +298305,7 @@
     "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd": "2026-11-01T21:22:01.389096+00:00",
     "0x8769552533E94518fc86142eAa8027A91EcA45f2": "2026-11-01T21:31:39.110193+00:00",
     "jM9r9PJFyPaMEbhGZPbDeZJiysn2pfyz5TzdDs5pump": "2026-11-01T21:41:55.117068+00:00",
-    "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": "2026-11-01T22:04:46.159061+00:00"
+    "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": "2026-11-01T22:04:46.159061+00:00",
+    "0x114c3473D43d320c4F093F5CE5ecf32F2a2EE407": "2026-11-01T22:11:01.670990+00:00"
   }
 }
