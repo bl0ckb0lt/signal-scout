@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Warcoin",
-      "chain": "robinhood",
-      "address": "0x1F596fBd564B11437d0E54da248CD15045c78C08",
-      "source": "new",
-      "entry_price": 0.000123,
-      "peak_price": 0.000123,
-      "trailing_active": false,
-      "entry_time": "2026-11-02T12:20:55.322181+00:00",
-      "score": 72,
-      "status": "open"
-    },
-    {
       "symbol": "\u5e01\u5b89\u9b42",
       "chain": "bsc",
       "address": "0x58Dc8085B2518C4C1C543b116cAEC08E1B527777",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-02T12:20:56.913704+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 0.0,
+      "peak_volume_m5": 5065.58,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -284404,6 +284396,25 @@
       "exit_price": 0.0001154,
       "exit_pct": -12.84,
       "exit_time": "2026-11-02T12:15:01.381530+00:00"
+    },
+    {
+      "symbol": "Warcoin",
+      "chain": "robinhood",
+      "address": "0x1F596fBd564B11437d0E54da248CD15045c78C08",
+      "source": "new",
+      "entry_price": 0.000123,
+      "peak_price": 0.000123,
+      "trailing_active": false,
+      "entry_time": "2026-11-02T12:20:55.322181+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -24.28,
+      "peak_volume_m5": 19930.86,
+      "milestones_hit": [],
+      "exit_price": 9.313e-05,
+      "exit_pct": -24.28,
+      "exit_time": "2026-11-02T12:21:54.931592+00:00"
     }
   ],
   "alerted": {
@@ -298825,6 +298836,7 @@
     "ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": "2026-11-02T07:44:55.167148+00:00",
     "0x7561eF0418003dd81c5C6cE62087079a60800a28": "2026-11-02T11:41:32.733917+00:00",
     "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": "2026-11-02T11:44:23.710539+00:00",
-    "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump": "2026-11-02T12:15:01.381530+00:00"
+    "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump": "2026-11-02T12:15:01.381530+00:00",
+    "0x1F596fBd564B11437d0E54da248CD15045c78C08": "2026-11-02T12:21:54.931592+00:00"
   }
 }
