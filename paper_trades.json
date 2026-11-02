@@ -8,23 +8,15 @@
       "address": "Ei19qkvBM3amMyrveNLqKSPB1ESMEUQ6MrqDYwZVpump",
       "source": "new",
       "entry_price": 0.0001925,
-      "peak_price": 0.0001925,
-      "trailing_active": false,
+      "peak_price": 0.0002775,
+      "trailing_active": true,
       "entry_time": "2026-11-02T20:01:08.012916+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "CAPY",
-      "chain": "solana",
-      "address": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
-      "source": "new",
-      "entry_price": 0.0002863,
-      "peak_price": 0.0002863,
-      "trailing_active": false,
-      "entry_time": "2026-11-02T20:01:13.085246+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 44.16,
+      "peak_volume_m5": 43924.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -284976,6 +284968,25 @@
       "exit_price": 0.0002507,
       "exit_pct": 20.36,
       "exit_time": "2026-11-02T19:52:31.368467+00:00"
+    },
+    {
+      "symbol": "CAPY",
+      "chain": "solana",
+      "address": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
+      "source": "new",
+      "entry_price": 0.0002863,
+      "peak_price": 0.0002863,
+      "trailing_active": false,
+      "entry_time": "2026-11-02T20:01:13.085246+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.15,
+      "peak_volume_m5": 162215.55,
+      "milestones_hit": [],
+      "exit_price": 0.0002458,
+      "exit_pct": -14.15,
+      "exit_time": "2026-11-02T20:02:34.960918+00:00"
     }
   ],
   "alerted": {
@@ -299427,6 +299438,7 @@
     "0x91D18743F5F4d7765932616198489f333B3A17BD": "2026-11-02T18:55:13.981630+00:00",
     "5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": "2026-11-02T19:24:38.954409+00:00",
     "0x4daDdA8db5525B08E68cb0f42afdd47277ed3161": "2026-11-02T19:42:23.649950+00:00",
-    "H4gHnZ3NCU7Z9XQwGX6YYJNyieGEW8pqwGRUcdSxpump": "2026-11-02T19:52:31.368467+00:00"
+    "H4gHnZ3NCU7Z9XQwGX6YYJNyieGEW8pqwGRUcdSxpump": "2026-11-02T19:52:31.368467+00:00",
+    "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": "2026-11-02T20:02:34.960918+00:00"
   }
 }
