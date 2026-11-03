@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MSTRT",
-      "chain": "solana",
-      "address": "2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump",
-      "source": "new",
-      "entry_price": 0.000149,
-      "peak_price": 0.000149,
-      "trailing_active": false,
-      "entry_time": "2026-11-03T21:21:31.289101+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "Sexbot",
       "chain": "solana",
       "address": "6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump",
       "source": "new",
       "entry_price": 0.0001144,
-      "peak_price": 0.0001144,
+      "peak_price": 0.0001247,
       "trailing_active": false,
       "entry_time": "2026-11-03T21:21:35.291948+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.0,
+      "peak_volume_m5": 188627.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -286435,6 +286427,25 @@
       "exit_price": 0.000347,
       "exit_pct": -12.26,
       "exit_time": "2026-11-03T21:10:15.840677+00:00"
+    },
+    {
+      "symbol": "MSTRT",
+      "chain": "solana",
+      "address": "2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump",
+      "source": "new",
+      "entry_price": 0.000149,
+      "peak_price": 0.000149,
+      "trailing_active": false,
+      "entry_time": "2026-11-03T21:21:31.289101+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.43,
+      "peak_volume_m5": 12613.01,
+      "milestones_hit": [],
+      "exit_price": 0.0001275,
+      "exit_pct": -14.43,
+      "exit_time": "2026-11-03T21:26:25.117103+00:00"
     }
   ],
   "alerted": {
@@ -300962,6 +300973,7 @@
     "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": "2026-11-03T20:15:02.105909+00:00",
     "796Jj7bdqkqGmYaUQq9QTvjB6eBkEkkjHQ4LdVJJpump": "2026-11-03T20:34:47.570761+00:00",
     "0xD59C42D27968142f9b9D01F089e156247b537D55": "2026-11-03T21:04:22.906656+00:00",
-    "7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump": "2026-11-03T21:10:15.840677+00:00"
+    "7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump": "2026-11-03T21:10:15.840677+00:00",
+    "2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump": "2026-11-03T21:26:25.117103+00:00"
   }
 }
