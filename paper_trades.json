@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "XDG",
-      "chain": "solana",
-      "address": "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ",
-      "source": "new",
-      "entry_price": 0.0001662,
-      "peak_price": 0.0002665,
-      "trailing_active": true,
-      "entry_time": "2026-11-03T08:01:08.165159+00:00",
-      "score": 63,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 60.35,
-      "peak_volume_m5": 25477.59,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "e/acc",
       "chain": "hyperevm",
       "address": "0xE8a69191e661920cd3FcFDeaA48F44EFD971C0Bd",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-03T08:10:50.582612+00:00",
       "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.41,
+      "peak_volume_m5": 850.4,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -285615,6 +285601,27 @@
       "exit_price": 9.569e-05,
       "exit_pct": -15.69,
       "exit_time": "2026-11-03T07:32:11.476078+00:00"
+    },
+    {
+      "symbol": "XDG",
+      "chain": "solana",
+      "address": "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ",
+      "source": "new",
+      "entry_price": 0.0001662,
+      "peak_price": 0.0002665,
+      "trailing_active": true,
+      "entry_time": "2026-11-03T08:01:08.165159+00:00",
+      "score": 63,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 40.55,
+      "peak_volume_m5": 25477.59,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0002336,
+      "exit_pct": 40.55,
+      "exit_time": "2026-11-03T08:16:02.386656+00:00"
     }
   ],
   "alerted": {
@@ -300099,6 +300106,7 @@
     "0x76347aAc4f2BEe7469Cea69D996e894866e7846d": "2026-11-03T06:28:20.407461+00:00",
     "Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": "2026-11-03T06:45:44.609873+00:00",
     "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": "2026-11-03T07:12:56.834403+00:00",
-    "4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": "2026-11-03T07:32:11.476078+00:00"
+    "4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": "2026-11-03T07:32:11.476078+00:00",
+    "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": "2026-11-03T08:16:02.386656+00:00"
   }
 }
