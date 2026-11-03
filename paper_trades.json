@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SARAH",
-      "chain": "solana",
-      "address": "4LT4uDp694w7soJerjRjSEVr2884J33EjLNG1WGzcash",
-      "source": "new",
-      "entry_price": 0.0002152,
-      "peak_price": 0.0002152,
-      "trailing_active": false,
-      "entry_time": "2026-11-03T16:11:03.820457+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "underdog",
       "chain": "robinhood",
       "address": "0x0f91E699c363742Dc0488604D88cFe77bF96DEda",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-03T16:11:05.281641+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.85,
+      "peak_volume_m5": 39435.04,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -286012,6 +286004,25 @@
       "exit_price": 0.0001552,
       "exit_pct": 36.86,
       "exit_time": "2026-11-03T16:02:54.957274+00:00"
+    },
+    {
+      "symbol": "SARAH",
+      "chain": "solana",
+      "address": "4LT4uDp694w7soJerjRjSEVr2884J33EjLNG1WGzcash",
+      "source": "new",
+      "entry_price": 0.0002152,
+      "peak_price": 0.0002152,
+      "trailing_active": false,
+      "entry_time": "2026-11-03T16:11:03.820457+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.36,
+      "peak_volume_m5": 51331.42,
+      "milestones_hit": [],
+      "exit_price": 0.0001929,
+      "exit_pct": -10.36,
+      "exit_time": "2026-11-03T16:12:08.867163+00:00"
     }
   ],
   "alerted": {
@@ -300517,6 +300528,7 @@
     "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": "2026-11-03T15:28:22.675807+00:00",
     "0x7710C60eC8aaDE9eefaC0a9f7d0082cDF6d0c688": "2026-11-03T15:36:41.937002+00:00",
     "Bj3zX42qBrgae5XD1Vb5eVkYghF6G9MKuQXx53XXZwUV": "2026-11-03T15:44:57.166460+00:00",
-    "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": "2026-11-03T16:02:54.957274+00:00"
+    "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": "2026-11-03T16:02:54.957274+00:00",
+    "4LT4uDp694w7soJerjRjSEVr2884J33EjLNG1WGzcash": "2026-11-03T16:12:08.867163+00:00"
   }
 }
