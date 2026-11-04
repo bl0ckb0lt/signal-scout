@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GAVELDROP",
-      "chain": "solana",
-      "address": "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
-      "source": "new",
-      "entry_price": 0.0007806,
-      "peak_price": 0.0008017,
-      "trailing_active": false,
-      "entry_time": "2026-11-04T23:41:02.555263+00:00",
-      "score": 95,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 2.7,
-      "peak_volume_m5": 67783.52,
-      "milestones_hit": []
-    },
-    {
       "symbol": "ABTC",
       "chain": "robinhood",
       "address": "0x0093b7F3ddb50425d2Aa7bD48e57A880236F0368",
       "source": "new",
       "entry_price": 0.0001347,
-      "peak_price": 0.0001347,
-      "trailing_active": false,
+      "peak_price": 0.0001999,
+      "trailing_active": true,
       "entry_time": "2026-11-04T23:51:06.289775+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 48.4,
+      "peak_volume_m5": 18612.84,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -287712,6 +287700,25 @@
       "exit_price": 0.0001211,
       "exit_pct": -14.96,
       "exit_time": "2026-11-04T23:22:45.075391+00:00"
+    },
+    {
+      "symbol": "GAVELDROP",
+      "chain": "solana",
+      "address": "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
+      "source": "new",
+      "entry_price": 0.0007806,
+      "peak_price": 0.0008017,
+      "trailing_active": false,
+      "entry_time": "2026-11-04T23:41:02.555263+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.27,
+      "peak_volume_m5": 72755.57,
+      "milestones_hit": [],
+      "exit_price": 0.000677,
+      "exit_pct": -13.27,
+      "exit_time": "2026-11-04T23:56:47.044843+00:00"
     }
   ],
   "alerted": {
@@ -302305,6 +302312,7 @@
     "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": "2026-11-04T22:55:56.673479+00:00",
     "6z3cf9nDuxdA9xyccx8m8SonWdZGH5s9kbqAeaV5gajt": "2026-11-04T22:56:45.756876+00:00",
     "H7N5zQwiBMDHxqn3r93VSSqUqHgFUQCU8yRiuGRcpump": "2026-11-04T23:15:52.359406+00:00",
-    "33CW4Q8xLSBYKmA55rQfEWPA8DSGVwSRQfo2pSs1pump": "2026-11-04T23:22:45.075391+00:00"
+    "33CW4Q8xLSBYKmA55rQfEWPA8DSGVwSRQfo2pSs1pump": "2026-11-04T23:22:45.075391+00:00",
+    "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": "2026-11-04T23:56:47.044843+00:00"
   }
 }
