@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AI",
-      "chain": "solana",
-      "address": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
-      "source": "new",
-      "entry_price": 0.000102,
-      "peak_price": 0.0002469,
-      "trailing_active": true,
-      "entry_time": "2026-11-04T19:11:01.413581+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 142.06,
-      "peak_volume_m5": 89673.22,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "GHOST",
       "chain": "solana",
       "address": "42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-04T19:21:11.579145+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.26,
+      "peak_volume_m5": 3000.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -287461,6 +287446,28 @@
       "exit_price": 9.352e-05,
       "exit_pct": -13.81,
       "exit_time": "2026-11-04T18:42:54.030996+00:00"
+    },
+    {
+      "symbol": "AI",
+      "chain": "solana",
+      "address": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
+      "source": "new",
+      "entry_price": 0.000102,
+      "peak_price": 0.0002469,
+      "trailing_active": true,
+      "entry_time": "2026-11-04T19:11:01.413581+00:00",
+      "score": 83,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 108.73,
+      "peak_volume_m5": 90418.15,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0002129,
+      "exit_pct": 108.73,
+      "exit_time": "2026-11-04T19:23:08.208577+00:00"
     }
   ],
   "alerted": {
@@ -302041,6 +302048,7 @@
     "0x69156EF2EC33D24EfB29c1a2FA84967BE618cCbF": "2026-11-04T18:19:51.244009+00:00",
     "HgxUveqC7TzuV98JkuygPTakN3ojTVpKGEjqtiY3pump": "2026-11-04T18:22:57.531244+00:00",
     "LWSYx94hV8NaFujStsqRZNsd1V8PkasADLTfiWjbfix": "2026-11-04T18:23:54.909851+00:00",
-    "8h88ucUAF5o6CEr8rphy9rwNPD7gt2qBEmCv81SCpump": "2026-11-04T18:42:54.030996+00:00"
+    "8h88ucUAF5o6CEr8rphy9rwNPD7gt2qBEmCv81SCpump": "2026-11-04T18:42:54.030996+00:00",
+    "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": "2026-11-04T19:23:08.208577+00:00"
   }
 }
