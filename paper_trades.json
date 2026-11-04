@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AIB",
-      "chain": "solana",
-      "address": "HgxUveqC7TzuV98JkuygPTakN3ojTVpKGEjqtiY3pump",
-      "source": "new",
-      "entry_price": 0.0003899,
-      "peak_price": 0.0003899,
-      "trailing_active": false,
-      "entry_time": "2026-11-04T18:20:51.543679+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "FIX",
       "chain": "solana",
       "address": "LWSYx94hV8NaFujStsqRZNsd1V8PkasADLTfiWjbfix",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-04T18:20:55.484532+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.76,
+      "peak_volume_m5": 22311.01,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -287397,6 +287389,25 @@
       "exit_price": 0.0001158,
       "exit_pct": -14.79,
       "exit_time": "2026-11-04T18:19:51.244009+00:00"
+    },
+    {
+      "symbol": "AIB",
+      "chain": "solana",
+      "address": "HgxUveqC7TzuV98JkuygPTakN3ojTVpKGEjqtiY3pump",
+      "source": "new",
+      "entry_price": 0.0003899,
+      "peak_price": 0.0003899,
+      "trailing_active": false,
+      "entry_time": "2026-11-04T18:20:51.543679+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -45.4,
+      "peak_volume_m5": 45068.66,
+      "milestones_hit": [],
+      "exit_price": 0.0002129,
+      "exit_pct": -45.4,
+      "exit_time": "2026-11-04T18:22:57.531244+00:00"
     }
   ],
   "alerted": {
@@ -301974,6 +301985,7 @@
     "0xEf50274Cfe89D3BBddD52544f2f1a0EF15a3259f": "2026-11-04T17:00:44.303314+00:00",
     "7xP2r4Vtjy5opBZjbPcCc4N7BkRhhQddqsFQDpDopump": "2026-11-04T17:05:24.859402+00:00",
     "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": "2026-11-04T18:12:58.111988+00:00",
-    "0x69156EF2EC33D24EfB29c1a2FA84967BE618cCbF": "2026-11-04T18:19:51.244009+00:00"
+    "0x69156EF2EC33D24EfB29c1a2FA84967BE618cCbF": "2026-11-04T18:19:51.244009+00:00",
+    "HgxUveqC7TzuV98JkuygPTakN3ojTVpKGEjqtiY3pump": "2026-11-04T18:22:57.531244+00:00"
   }
 }
