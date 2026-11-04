@@ -3,25 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "AMD",
-      "chain": "robinhood",
-      "address": "0xEC1493a171fdAb7cEc3056e37C6aF39a7e7C1Cb6",
-      "source": "new",
-      "entry_price": 3.591e-05,
-      "peak_price": 0.0001016,
-      "trailing_active": true,
-      "entry_time": "2026-11-04T12:50:49.346901+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 182.93,
-      "peak_volume_m5": 43768.25,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "BunThing",
       "chain": "robinhood",
       "address": "0xb6b0ad4345B2a4ac5D2365ee46Ac2a5D284393BC",
@@ -31,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-04T13:10:59.708478+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -2.82,
+      "peak_volume_m5": 28868.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -287116,6 +287101,28 @@
       "exit_price": 0.0001199,
       "exit_pct": -11.84,
       "exit_time": "2026-11-04T12:58:31.405327+00:00"
+    },
+    {
+      "symbol": "AMD",
+      "chain": "robinhood",
+      "address": "0xEC1493a171fdAb7cEc3056e37C6aF39a7e7C1Cb6",
+      "source": "new",
+      "entry_price": 3.591e-05,
+      "peak_price": 0.0001016,
+      "trailing_active": true,
+      "entry_time": "2026-11-04T12:50:49.346901+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 145.36,
+      "peak_volume_m5": 43768.25,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 8.811e-05,
+      "exit_pct": 145.36,
+      "exit_time": "2026-11-04T13:11:52.299993+00:00"
     }
   ],
   "alerted": {
@@ -301678,6 +301685,7 @@
     "0xb47DB73293380088A1d78fb5c51BF9038f217777": "2026-11-04T10:18:44.217317+00:00",
     "3Y2TGH3AvFFEL48rZfCgtiNJZJ84Eu75akYWmhyXpump": "2026-11-04T12:32:28.839899+00:00",
     "0xd5E0ba2A6DB0afa6F26bde38637Ad1AE50F77777": "2026-11-04T12:37:14.069631+00:00",
-    "0x938d767f1cd789850867a881fdf09631f2e43714": "2026-11-04T12:58:31.405327+00:00"
+    "0x938d767f1cd789850867a881fdf09631f2e43714": "2026-11-04T12:58:31.405327+00:00",
+    "0xEC1493a171fdAb7cEc3056e37C6aF39a7e7C1Cb6": "2026-11-04T13:11:52.299993+00:00"
   }
 }
