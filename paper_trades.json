@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MI",
-      "chain": "robinhood",
-      "address": "0xE9Ece98Ff3711773b220d2038aFA21026B35702c",
-      "source": "new",
-      "entry_price": 0.001621,
-      "peak_price": 0.002242,
-      "trailing_active": true,
-      "entry_time": "2026-11-05T21:40:58.956261+00:00",
-      "score": 67,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 38.31,
-      "peak_volume_m5": 31281.9,
-      "milestones_hit": []
-    },
-    {
       "symbol": "COGE",
       "chain": "solana",
       "address": "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-05T22:00:53.189253+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.04,
+      "peak_volume_m5": 109522.49,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -288730,6 +288718,25 @@
       "exit_price": 9.962e-05,
       "exit_pct": 22.55,
       "exit_time": "2026-11-05T21:53:53.750962+00:00"
+    },
+    {
+      "symbol": "MI",
+      "chain": "robinhood",
+      "address": "0xE9Ece98Ff3711773b220d2038aFA21026B35702c",
+      "source": "new",
+      "entry_price": 0.001621,
+      "peak_price": 0.002242,
+      "trailing_active": true,
+      "entry_time": "2026-11-05T21:40:58.956261+00:00",
+      "score": 67,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 19.74,
+      "peak_volume_m5": 31281.9,
+      "milestones_hit": [],
+      "exit_price": 0.001941,
+      "exit_pct": 19.74,
+      "exit_time": "2026-11-05T22:01:57.039269+00:00"
     }
   ],
   "alerted": {
@@ -303375,6 +303382,7 @@
     "0x0eF403F174dD27eD8510BcDFf97C8afC8F7a635E": "2026-11-05T20:24:37.179482+00:00",
     "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": "2026-11-05T20:36:46.752748+00:00",
     "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": "2026-11-05T21:20:49.323333+00:00",
-    "0xaFdA71A7060018Bb052c73CAC5881f059fFeCccC": "2026-11-05T21:53:53.750962+00:00"
+    "0xaFdA71A7060018Bb052c73CAC5881f059fFeCccC": "2026-11-05T21:53:53.750962+00:00",
+    "0xE9Ece98Ff3711773b220d2038aFA21026B35702c": "2026-11-05T22:01:57.039269+00:00"
   }
 }
