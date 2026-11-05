@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BAOFA",
-      "chain": "bsc",
-      "address": "0xe01e91b99b7D68A25f8F868f971bdEd4aF9c211e",
-      "source": "new",
-      "entry_price": 0.0001503,
-      "peak_price": 0.0001564,
-      "trailing_active": false,
-      "entry_time": "2026-11-05T00:30:58.852303+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 4.06,
-      "peak_volume_m5": 37.81,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CALL",
       "chain": "solana",
       "address": "7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump",
       "source": "new",
       "entry_price": 0.0001229,
-      "peak_price": 0.0001229,
-      "trailing_active": false,
+      "peak_price": 0.0001485,
+      "trailing_active": true,
       "entry_time": "2026-11-05T00:41:02.476929+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.83,
+      "peak_volume_m5": 47756.5,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -287750,6 +287738,25 @@
       "exit_price": 0.0001825,
       "exit_pct": 35.49,
       "exit_time": "2026-11-04T23:57:47.176998+00:00"
+    },
+    {
+      "symbol": "BAOFA",
+      "chain": "bsc",
+      "address": "0xe01e91b99b7D68A25f8F868f971bdEd4aF9c211e",
+      "source": "new",
+      "entry_price": 0.0001503,
+      "peak_price": 0.0001564,
+      "trailing_active": false,
+      "entry_time": "2026-11-05T00:30:58.852303+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -12.31,
+      "peak_volume_m5": 1659.02,
+      "milestones_hit": [],
+      "exit_price": 0.0001318,
+      "exit_pct": -12.31,
+      "exit_time": "2026-11-05T00:45:11.074536+00:00"
     }
   ],
   "alerted": {
@@ -302345,6 +302352,7 @@
     "H7N5zQwiBMDHxqn3r93VSSqUqHgFUQCU8yRiuGRcpump": "2026-11-04T23:15:52.359406+00:00",
     "33CW4Q8xLSBYKmA55rQfEWPA8DSGVwSRQfo2pSs1pump": "2026-11-04T23:22:45.075391+00:00",
     "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": "2026-11-04T23:56:47.044843+00:00",
-    "0x0093b7F3ddb50425d2Aa7bD48e57A880236F0368": "2026-11-04T23:57:47.176998+00:00"
+    "0x0093b7F3ddb50425d2Aa7bD48e57A880236F0368": "2026-11-04T23:57:47.176998+00:00",
+    "0xe01e91b99b7D68A25f8F868f971bdEd4aF9c211e": "2026-11-05T00:45:11.074536+00:00"
   }
 }
