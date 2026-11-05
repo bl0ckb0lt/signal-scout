@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "LEEROY",
-      "chain": "robinhood",
-      "address": "0xfDBe4BA7060d85B71A1ECa33011E0cfD0723e103",
-      "source": "new",
-      "entry_price": 4.343e-05,
-      "peak_price": 7.256e-05,
-      "trailing_active": true,
-      "entry_time": "2026-11-05T06:31:03.256279+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 67.07,
-      "peak_volume_m5": 20542.39,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "ASOL",
       "chain": "solana",
       "address": "An2r9uFsEeHDhxhbkzFWVNtKB7LwHuEkCRUqqNTJpump",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-05T06:40:54.908703+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.12,
+      "peak_volume_m5": 17332.25,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -288058,6 +288044,27 @@
       "exit_price": 4.153e-06,
       "exit_pct": -96.69,
       "exit_time": "2026-11-05T05:02:12.578785+00:00"
+    },
+    {
+      "symbol": "LEEROY",
+      "chain": "robinhood",
+      "address": "0xfDBe4BA7060d85B71A1ECa33011E0cfD0723e103",
+      "source": "new",
+      "entry_price": 4.343e-05,
+      "peak_price": 7.256e-05,
+      "trailing_active": true,
+      "entry_time": "2026-11-05T06:31:03.256279+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 55.91,
+      "peak_volume_m5": 20542.39,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 6.771e-05,
+      "exit_pct": 55.91,
+      "exit_time": "2026-11-05T06:42:01.376319+00:00"
     }
   ],
   "alerted": {
@@ -302669,6 +302676,7 @@
     "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": "2026-11-05T03:48:57.344819+00:00",
     "F49ncWoGVf2EYpg4iqbkhuMvyLRgJYSrTMT3jCUSpump": "2026-11-05T03:53:53.104405+00:00",
     "0x5553C613404FD37bD6b1996Ca0924632AF58aD2D": "2026-11-05T04:41:35.950629+00:00",
-    "6xfCD17nTqpVtDwwALjFnchqxzQMMhocF7wELxC3pump": "2026-11-05T05:02:12.578785+00:00"
+    "6xfCD17nTqpVtDwwALjFnchqxzQMMhocF7wELxC3pump": "2026-11-05T05:02:12.578785+00:00",
+    "0xfDBe4BA7060d85B71A1ECa33011E0cfD0723e103": "2026-11-05T06:42:01.376319+00:00"
   }
 }
