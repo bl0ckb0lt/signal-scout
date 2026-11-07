@@ -8,23 +8,15 @@
       "address": "iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump",
       "source": "new",
       "entry_price": 0.000105,
-      "peak_price": 0.000105,
+      "peak_price": 0.0001145,
       "trailing_active": false,
       "entry_time": "2026-11-07T11:40:58.365180+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "trauma",
-      "chain": "solana",
-      "address": "FHCntFVzzGmbcUNmf1jBGaBsi4duboB1cwjg4yrcpump",
-      "source": "new",
-      "entry_price": 0.0001059,
-      "peak_price": 0.0001059,
-      "trailing_active": false,
-      "entry_time": "2026-11-07T11:41:00.040595+00:00",
-      "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.05,
+      "peak_volume_m5": 25903.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -290403,6 +290395,25 @@
       "exit_price": 0.0002009,
       "exit_pct": 25.41,
       "exit_time": "2026-11-07T10:13:13.360803+00:00"
+    },
+    {
+      "symbol": "trauma",
+      "chain": "solana",
+      "address": "FHCntFVzzGmbcUNmf1jBGaBsi4duboB1cwjg4yrcpump",
+      "source": "new",
+      "entry_price": 0.0001059,
+      "peak_price": 0.0001059,
+      "trailing_active": false,
+      "entry_time": "2026-11-07T11:41:00.040595+00:00",
+      "score": 73,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.78,
+      "peak_volume_m5": 54110.67,
+      "milestones_hit": [],
+      "exit_price": 9.448e-05,
+      "exit_pct": -10.78,
+      "exit_time": "2026-11-07T11:44:38.855569+00:00"
     }
   ],
   "alerted": {
@@ -305134,6 +305145,7 @@
     "DFq4aBnZkNd4PcKaSb37wRpaUGKAFUXenGbd78pTpump": "2026-11-07T08:21:54.622420+00:00",
     "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump": "2026-11-07T09:02:56.679113+00:00",
     "Bxw3zJMXDhm7VLNLMsFTuG5Csh5qGFruUvRH5C6ypump": "2026-11-07T10:12:38.703918+00:00",
-    "LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": "2026-11-07T10:13:13.360803+00:00"
+    "LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": "2026-11-07T10:13:13.360803+00:00",
+    "FHCntFVzzGmbcUNmf1jBGaBsi4duboB1cwjg4yrcpump": "2026-11-07T11:44:38.855569+00:00"
   }
 }
