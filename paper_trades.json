@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Mars",
-      "chain": "bsc",
-      "address": "0xDb7c7b453eD4f2d456d2FdbE870F384085417777",
-      "source": "new",
-      "entry_price": 0.0001558,
-      "peak_price": 0.0001558,
-      "trailing_active": false,
-      "entry_time": "2026-11-08T16:10:50.030795+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "A/ACC",
       "chain": "elysium",
       "address": "0xAACC5bc6EA24CB753E5C2D48C88f7e361a50AACC",
       "source": "new",
       "entry_price": 0.001543,
-      "peak_price": 0.001543,
+      "peak_price": 0.001573,
       "trailing_active": false,
       "entry_time": "2026-11-08T16:10:51.428722+00:00",
       "score": 58,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 1.94,
+      "peak_volume_m5": 2805.28,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -291672,6 +291664,25 @@
       "exit_price": 6.389e-07,
       "exit_pct": 5.57,
       "exit_time": "2026-11-08T15:51:44.355018+00:00"
+    },
+    {
+      "symbol": "Mars",
+      "chain": "bsc",
+      "address": "0xDb7c7b453eD4f2d456d2FdbE870F384085417777",
+      "source": "new",
+      "entry_price": 0.0001558,
+      "peak_price": 0.0001558,
+      "trailing_active": false,
+      "entry_time": "2026-11-08T16:10:50.030795+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.77,
+      "peak_volume_m5": 36898.54,
+      "milestones_hit": [],
+      "exit_price": 0.0001141,
+      "exit_pct": -26.77,
+      "exit_time": "2026-11-08T16:12:34.188313+00:00"
     }
   ],
   "alerted": {
@@ -306468,6 +306479,7 @@
     "0xE3ab8c9cD91eBAC84CAB40dC5Ae352eE4078F68A": "2026-11-08T14:22:33.860726+00:00",
     "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": "2026-11-08T15:42:33.723827+00:00",
     "7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump": "2026-11-08T15:46:54.049645+00:00",
-    "0x10c693B4c66e0495fdb9E21933e9D74E26A06D0F": "2026-11-08T15:51:44.355018+00:00"
+    "0x10c693B4c66e0495fdb9E21933e9D74E26A06D0F": "2026-11-08T15:51:44.355018+00:00",
+    "0xDb7c7b453eD4f2d456d2FdbE870F384085417777": "2026-11-08T16:12:34.188313+00:00"
   }
 }
