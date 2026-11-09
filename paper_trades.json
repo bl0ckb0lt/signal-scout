@@ -3,32 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Nvidiass",
-      "chain": "solana",
-      "address": "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump",
-      "source": "new",
-      "entry_price": 0.0003059,
-      "peak_price": 0.0003438,
-      "trailing_active": false,
-      "entry_time": "2026-11-09T02:21:07.210998+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 12.39,
-      "peak_volume_m5": 15240.77,
-      "milestones_hit": []
-    },
-    {
       "symbol": "QUINN",
       "chain": "robinhood",
       "address": "0x8453B2bC1E586BEb12FA1Ffd01594d287cBC6587",
       "source": "new",
       "entry_price": 6.253e-05,
-      "peak_price": 6.253e-05,
-      "trailing_active": false,
+      "peak_price": 0.00011,
+      "trailing_active": true,
       "entry_time": "2026-11-09T02:31:07.319495+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 75.92,
+      "peak_volume_m5": 169328.96,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -292100,6 +292090,25 @@
       "exit_price": 0.0001111,
       "exit_pct": -10.33,
       "exit_time": "2026-11-09T02:23:05.870328+00:00"
+    },
+    {
+      "symbol": "Nvidiass",
+      "chain": "solana",
+      "address": "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump",
+      "source": "new",
+      "entry_price": 0.0003059,
+      "peak_price": 0.0003438,
+      "trailing_active": false,
+      "entry_time": "2026-11-09T02:21:07.210998+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.51,
+      "peak_volume_m5": 15240.77,
+      "milestones_hit": [],
+      "exit_price": 0.0002401,
+      "exit_pct": -21.51,
+      "exit_time": "2026-11-09T02:38:57.839804+00:00"
     }
   ],
   "alerted": {
@@ -306918,6 +306927,7 @@
     "B32gQ1hRs6ZHG2Tv6N8PLtESBa1rcKufatp8gb38pump": "2026-11-09T01:46:31.103402+00:00",
     "0x0d4a117DCCCE7bA3d0A475EC9068c20c35310FD8": "2026-11-09T01:58:06.180072+00:00",
     "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": "2026-11-09T02:10:50.512726+00:00",
-    "7WZ9HiHWoiFRAj4gip3fCKNGuBZMZQAubVE9kbCTpump": "2026-11-09T02:23:05.870328+00:00"
+    "7WZ9HiHWoiFRAj4gip3fCKNGuBZMZQAubVE9kbCTpump": "2026-11-09T02:23:05.870328+00:00",
+    "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump": "2026-11-09T02:38:57.839804+00:00"
   }
 }
