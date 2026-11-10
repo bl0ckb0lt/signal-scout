@@ -8,23 +8,15 @@
       "address": "0x5D1Cf9e55C65f685F64F090E6A34BEC6F8A66f40",
       "source": "new",
       "entry_price": 8.549e-05,
-      "peak_price": 8.549e-05,
-      "trailing_active": false,
+      "peak_price": 0.000125,
+      "trailing_active": true,
       "entry_time": "2026-11-10T14:31:00.465921+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "LEASE",
-      "chain": "robinhood",
-      "address": "0x14c23EB992cF789a4E6ad57B49b27c888BDFC430",
-      "source": "new",
-      "entry_price": 2.671e-06,
-      "peak_price": 2.671e-06,
-      "trailing_active": false,
-      "entry_time": "2026-11-10T14:31:01.818148+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 46.22,
+      "peak_volume_m5": 31908.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -293534,6 +293526,25 @@
       "exit_price": 4.697e-05,
       "exit_pct": -10.87,
       "exit_time": "2026-11-10T14:15:18.239514+00:00"
+    },
+    {
+      "symbol": "LEASE",
+      "chain": "robinhood",
+      "address": "0x14c23EB992cF789a4E6ad57B49b27c888BDFC430",
+      "source": "new",
+      "entry_price": 2.671e-06,
+      "peak_price": 2.671e-06,
+      "trailing_active": false,
+      "entry_time": "2026-11-10T14:31:01.818148+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -11.61,
+      "peak_volume_m5": 425289.66,
+      "milestones_hit": [],
+      "exit_price": 2.361e-06,
+      "exit_pct": -11.61,
+      "exit_time": "2026-11-10T14:33:00.769149+00:00"
     }
   ],
   "alerted": {
@@ -308424,6 +308435,7 @@
     "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": "2026-11-10T10:22:40.283627+00:00",
     "0x6c8B1913ac3af9E15833c8954Ef3cf324732bc6C": "2026-11-10T13:05:16.706845+00:00",
     "0x98587c314B67742643561D077B14d2023c7676bE": "2026-11-10T13:26:48.855925+00:00",
-    "0x8AABB9f787a9663922587f94Fef207DD6B57c858": "2026-11-10T14:15:18.239514+00:00"
+    "0x8AABB9f787a9663922587f94Fef207DD6B57c858": "2026-11-10T14:15:18.239514+00:00",
+    "0x14c23EB992cF789a4E6ad57B49b27c888BDFC430": "2026-11-10T14:33:00.769149+00:00"
   }
 }
