@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "HOLD",
-      "chain": "solana",
-      "address": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
-      "source": "new",
-      "entry_price": 0.0002805,
-      "peak_price": 0.0003285,
-      "trailing_active": true,
-      "entry_time": "2026-11-10T22:31:04.475970+00:00",
-      "score": 72,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 17.11,
-      "peak_volume_m5": 215249.99,
-      "milestones_hit": []
-    },
-    {
       "symbol": "KMEOW",
       "chain": "elysium",
       "address": "0x974703fF38a70eE7Dd84cD565b561cC85879b5fA",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-10T22:50:58.845017+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -4.0,
+      "peak_volume_m5": 44810.27,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -293943,6 +293931,25 @@
       "exit_price": 0.0002349,
       "exit_pct": 180.68,
       "exit_time": "2026-11-10T22:22:05.559996+00:00"
+    },
+    {
+      "symbol": "HOLD",
+      "chain": "solana",
+      "address": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
+      "source": "new",
+      "entry_price": 0.0002805,
+      "peak_price": 0.0003285,
+      "trailing_active": true,
+      "entry_time": "2026-11-10T22:31:04.475970+00:00",
+      "score": 72,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 4.56,
+      "peak_volume_m5": 215249.99,
+      "milestones_hit": [],
+      "exit_price": 0.0002933,
+      "exit_pct": 4.56,
+      "exit_time": "2026-11-10T22:51:50.063347+00:00"
     }
   ],
   "alerted": {
@@ -308854,6 +308861,7 @@
     "BYCNogKA4DjbhBa2LaVWLPyszFDzDsUNSYdLqdNnpump": "2026-11-10T20:32:57.007754+00:00",
     "0x09D306BEC92048bc0B5d0f792Cd048CA6A5AC815": "2026-11-10T20:43:38.421292+00:00",
     "BK8ZXzXsVLJzsDdy1paM8Dbcd3qAhMQWcSWq3M6Ypump": "2026-11-10T21:51:44.094209+00:00",
-    "0xB34F088c78f426Fc1B3CAB280d02108187F96315": "2026-11-10T22:22:05.559996+00:00"
+    "0xB34F088c78f426Fc1B3CAB280d02108187F96315": "2026-11-10T22:22:05.559996+00:00",
+    "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": "2026-11-10T22:51:50.063347+00:00"
   }
 }
