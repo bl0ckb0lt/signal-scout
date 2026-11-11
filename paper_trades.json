@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "ORBYN",
-      "chain": "robinhood",
-      "address": "0x55caaEb3814D50d9d57086A2bFa82b2953b08660",
-      "source": "new",
-      "entry_price": 1.345e-06,
-      "peak_price": 1.345e-06,
-      "trailing_active": false,
-      "entry_time": "2026-11-11T11:00:49.593292+00:00",
-      "score": 79,
-      "status": "open"
-    },
-    {
       "symbol": "ZERO",
       "chain": "bsc",
       "address": "0xFA6C988fC94B46fe3005dede52252C1206A30000",
       "source": "new",
       "entry_price": 0.000241,
-      "peak_price": 0.000241,
+      "peak_price": 0.000262,
       "trailing_active": false,
       "entry_time": "2026-11-11T11:00:51.495440+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 8.71,
+      "peak_volume_m5": 60072.45,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -294418,6 +294410,25 @@
       "exit_price": 1.607e-06,
       "exit_pct": -9.77,
       "exit_time": "2026-11-11T08:51:39.766696+00:00"
+    },
+    {
+      "symbol": "ORBYN",
+      "chain": "robinhood",
+      "address": "0x55caaEb3814D50d9d57086A2bFa82b2953b08660",
+      "source": "new",
+      "entry_price": 1.345e-06,
+      "peak_price": 1.345e-06,
+      "trailing_active": false,
+      "entry_time": "2026-11-11T11:00:49.593292+00:00",
+      "score": 79,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -23.64,
+      "peak_volume_m5": 13607.99,
+      "milestones_hit": [],
+      "exit_price": 1.027e-06,
+      "exit_pct": -23.64,
+      "exit_time": "2026-11-11T11:02:19.005257+00:00"
     }
   ],
   "alerted": {
@@ -309354,6 +309365,6 @@
     "GAV37UD3cvysYvvPSeKboFKwarG387RvznM3BBhBpump": "2026-11-11T06:07:38.693338+00:00",
     "0xBe1D2E9e2d0819c693a9Be099F05Fc6Ce1D21710": "2026-11-11T07:23:29.845611+00:00",
     "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": "2026-11-11T07:45:55.272838+00:00",
-    "0x55caaEb3814D50d9d57086A2bFa82b2953b08660": "2026-11-11T08:51:39.766696+00:00"
+    "0x55caaEb3814D50d9d57086A2bFa82b2953b08660": "2026-11-11T11:02:19.005257+00:00"
   }
 }
