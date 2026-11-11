@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "NIHAO",
-      "chain": "solana",
-      "address": "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
-      "source": "boost",
-      "entry_price": 0.002019,
-      "peak_price": 0.003804,
-      "trailing_active": true,
-      "entry_time": "2026-11-11T00:21:04.016329+00:00",
-      "score": 90,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 88.41,
-      "peak_volume_m5": 188652.68,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "duh",
       "chain": "robinhood",
       "address": "0x5308fb0b4Fb0819EB6e65cf11023019482fba3f3",
       "source": "new",
       "entry_price": 0.0002318,
-      "peak_price": 0.0002318,
-      "trailing_active": false,
+      "peak_price": 0.0002775,
+      "trailing_active": true,
       "entry_time": "2026-11-11T00:41:10.317044+00:00",
       "score": 67,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.72,
+      "peak_volume_m5": 32860.68,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -294040,6 +294026,27 @@
       "exit_price": 0.0001996,
       "exit_pct": -14.33,
       "exit_time": "2026-11-11T00:23:36.855281+00:00"
+    },
+    {
+      "symbol": "NIHAO",
+      "chain": "solana",
+      "address": "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
+      "source": "boost",
+      "entry_price": 0.002019,
+      "peak_price": 0.003804,
+      "trailing_active": true,
+      "entry_time": "2026-11-11T00:21:04.016329+00:00",
+      "score": 90,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 64.88,
+      "peak_volume_m5": 188652.68,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.003329,
+      "exit_pct": 64.88,
+      "exit_time": "2026-11-11T00:42:57.876671+00:00"
     }
   ],
   "alerted": {
@@ -308956,6 +308963,7 @@
     "0x974703fF38a70eE7Dd84cD565b561cC85879b5fA": "2026-11-10T22:56:21.421213+00:00",
     "0x2C59cECF92f60F8988c1AeFCc85f1D440648a7D1": "2026-11-10T23:31:55.838861+00:00",
     "CRhbTris4J34SXobaLFnrEv2RD3dD99ddGdiPPzgpump": "2026-11-11T00:06:49.724388+00:00",
-    "0x60548E7434485d132A7fd5aA6888bA1676053f96": "2026-11-11T00:23:36.855281+00:00"
+    "0x60548E7434485d132A7fd5aA6888bA1676053f96": "2026-11-11T00:23:36.855281+00:00",
+    "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": "2026-11-11T00:42:57.876671+00:00"
   }
 }
