@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SYMB",
-      "chain": "elysium",
-      "address": "0x6668AA70A1F1a9E6e096Ae73eFe21Fe876855799",
-      "source": "new",
-      "entry_price": 8.752e-05,
-      "peak_price": 9.318e-05,
-      "trailing_active": false,
-      "entry_time": "2026-11-12T22:47:56.940608+00:00",
-      "score": 64,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 0.87,
-      "peak_volume_m5": 991.3,
-      "milestones_hit": []
-    },
-    {
       "symbol": "CSI",
       "chain": "solana",
       "address": "2FbqgFEWTwTRqZCemnf4AaP9tmhHKha3oqMjCNmcpump",
       "source": "new",
       "entry_price": 0.000179,
-      "peak_price": 0.000179,
-      "trailing_active": false,
+      "peak_price": 0.0002419,
+      "trailing_active": true,
       "entry_time": "2026-11-12T23:00:54.934504+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 35.14,
+      "peak_volume_m5": 68047.72,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -296001,6 +295989,25 @@
       "exit_price": 0.0002469,
       "exit_pct": 73.87,
       "exit_time": "2026-11-12T22:49:14.999547+00:00"
+    },
+    {
+      "symbol": "SYMB",
+      "chain": "elysium",
+      "address": "0x6668AA70A1F1a9E6e096Ae73eFe21Fe876855799",
+      "source": "new",
+      "entry_price": 8.752e-05,
+      "peak_price": 9.318e-05,
+      "trailing_active": false,
+      "entry_time": "2026-11-12T22:47:56.940608+00:00",
+      "score": 64,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.29,
+      "peak_volume_m5": 1019.56,
+      "milestones_hit": [],
+      "exit_price": 7.501e-05,
+      "exit_pct": -14.29,
+      "exit_time": "2026-11-12T23:07:40.767411+00:00"
     }
   ],
   "alerted": {
@@ -311018,6 +311025,7 @@
     "9QtxNyxsS4aM6kNecXfNoRQd36hvnEk4vjzzGoAppump": "2026-11-12T21:12:47.079092+00:00",
     "2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": "2026-11-12T21:43:07.484152+00:00",
     "a9zoLRHvqn12KiGxERC298Gr2rS8YQxuMuN9VFMpump": "2026-11-12T22:03:01.421669+00:00",
-    "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": "2026-11-12T22:49:14.999547+00:00"
+    "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": "2026-11-12T22:49:14.999547+00:00",
+    "0x6668AA70A1F1a9E6e096Ae73eFe21Fe876855799": "2026-11-12T23:07:40.767411+00:00"
   }
 }
