@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "GIGAPIG",
-      "chain": "solana",
-      "address": "C5FZzEgtkydKztCMwD5FzfmDVhb7V6VjTzGjurLjpump",
-      "source": "new",
-      "entry_price": 0.0001132,
-      "peak_price": 0.0001132,
-      "trailing_active": false,
-      "entry_time": "2026-11-12T12:31:02.184619+00:00",
-      "score": 78,
-      "status": "open"
-    },
-    {
       "symbol": "FLC",
       "chain": "robinhood",
       "address": "0xEe437dafE918b343027072Dc171bf366a95b9CB0",
       "source": "new",
       "entry_price": 0.000144,
-      "peak_price": 0.000144,
+      "peak_price": 0.0001555,
       "trailing_active": false,
       "entry_time": "2026-11-12T12:31:03.655704+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.99,
+      "peak_volume_m5": 24767.34,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -295402,6 +295394,25 @@
       "exit_price": 4.122e-05,
       "exit_pct": -12.32,
       "exit_time": "2026-11-12T10:29:50.582785+00:00"
+    },
+    {
+      "symbol": "GIGAPIG",
+      "chain": "solana",
+      "address": "C5FZzEgtkydKztCMwD5FzfmDVhb7V6VjTzGjurLjpump",
+      "source": "new",
+      "entry_price": 0.0001132,
+      "peak_price": 0.0001132,
+      "trailing_active": false,
+      "entry_time": "2026-11-12T12:31:02.184619+00:00",
+      "score": 78,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.75,
+      "peak_volume_m5": 27571.98,
+      "milestones_hit": [],
+      "exit_price": 8.745e-05,
+      "exit_pct": -22.75,
+      "exit_time": "2026-11-12T12:32:58.198145+00:00"
     }
   ],
   "alerted": {
@@ -310388,6 +310399,7 @@
     "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": "2026-11-12T07:01:32.451375+00:00",
     "0x67e739297EA49c8FCAA0f0B87c3CE0d401Ede078": "2026-11-12T07:04:18.076212+00:00",
     "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": "2026-11-12T09:42:19.755772+00:00",
-    "0x4CBFDD197EE9d89Df36279Aa5fD0e221648E5DB3": "2026-11-12T10:29:50.582785+00:00"
+    "0x4CBFDD197EE9d89Df36279Aa5fD0e221648E5DB3": "2026-11-12T10:29:50.582785+00:00",
+    "C5FZzEgtkydKztCMwD5FzfmDVhb7V6VjTzGjurLjpump": "2026-11-12T12:32:58.198145+00:00"
   }
 }
