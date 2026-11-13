@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SIRIUS",
-      "chain": "solana",
-      "address": "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump",
-      "source": "new",
-      "entry_price": 0.0001664,
-      "peak_price": 0.00018,
-      "trailing_active": false,
-      "entry_time": "2026-11-13T18:30:55.614900+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 8.17,
-      "peak_volume_m5": 13917.23,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BAWSAQ",
       "chain": "solana",
       "address": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
       "source": "new",
       "entry_price": 0.0002056,
-      "peak_price": 0.0002056,
-      "trailing_active": false,
+      "peak_price": 0.0002471,
+      "trailing_active": true,
       "entry_time": "2026-11-13T18:37:30.672637+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 20.18,
+      "peak_volume_m5": 85053.35,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -296968,6 +296956,25 @@
       "exit_price": 8.886e-05,
       "exit_pct": -9.03,
       "exit_time": "2026-11-13T18:23:58.864304+00:00"
+    },
+    {
+      "symbol": "SIRIUS",
+      "chain": "solana",
+      "address": "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump",
+      "source": "new",
+      "entry_price": 0.0001664,
+      "peak_price": 0.00018,
+      "trailing_active": false,
+      "entry_time": "2026-11-13T18:30:55.614900+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.74,
+      "peak_volume_m5": 13917.23,
+      "milestones_hit": [],
+      "exit_price": 0.0001219,
+      "exit_pct": -26.74,
+      "exit_time": "2026-11-13T18:39:08.863503+00:00"
     }
   ],
   "alerted": {
@@ -312033,6 +312040,7 @@
     "CJ28UpzC21EkXDsZaTARLR3VGGQPoXb88u7LAmVJpump": "2026-11-13T17:03:58.514163+00:00",
     "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump": "2026-11-13T17:12:35.120599+00:00",
     "FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWEQ67dGoWpump": "2026-11-13T18:03:15.834032+00:00",
-    "0x15F1b01d0c657dB250f7aCD35F19622203c91ee6": "2026-11-13T18:23:58.864304+00:00"
+    "0x15F1b01d0c657dB250f7aCD35F19622203c91ee6": "2026-11-13T18:23:58.864304+00:00",
+    "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump": "2026-11-13T18:39:08.863503+00:00"
   }
 }
