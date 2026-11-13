@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "securititty",
-      "chain": "solana",
-      "address": "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump",
-      "source": "new",
-      "entry_price": 0.0001303,
-      "peak_price": 0.0001303,
-      "trailing_active": false,
-      "entry_time": "2026-11-13T23:00:59.283759+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "CSI",
       "chain": "solana",
       "address": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
       "source": "new",
       "entry_price": 0.0004375,
-      "peak_price": 0.0004375,
+      "peak_price": 0.0004472,
       "trailing_active": false,
       "entry_time": "2026-11-13T23:01:02.558321+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 2.22,
+      "peak_volume_m5": 10685.59,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -297271,6 +297263,25 @@
       "exit_price": 0.0005538,
       "exit_pct": -18.04,
       "exit_time": "2026-11-13T22:52:44.180151+00:00"
+    },
+    {
+      "symbol": "securititty",
+      "chain": "solana",
+      "address": "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump",
+      "source": "new",
+      "entry_price": 0.0001303,
+      "peak_price": 0.0001303,
+      "trailing_active": false,
+      "entry_time": "2026-11-13T23:00:59.283759+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.66,
+      "peak_volume_m5": 17521.45,
+      "milestones_hit": [],
+      "exit_price": 0.0001125,
+      "exit_pct": -13.66,
+      "exit_time": "2026-11-13T23:07:51.835340+00:00"
     }
   ],
   "alerted": {
@@ -312352,6 +312363,7 @@
     "0xDdcB678b4d54aaC9837a4B6Fa2E75d0144DA463D": "2026-11-13T21:50:57.315008+00:00",
     "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": "2026-11-13T22:07:56.219315+00:00",
     "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": "2026-11-13T22:47:31.867514+00:00",
-    "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": "2026-11-13T22:52:44.180151+00:00"
+    "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": "2026-11-13T22:52:44.180151+00:00",
+    "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump": "2026-11-13T23:07:51.835340+00:00"
   }
 }
