@@ -8,14 +8,14 @@
       "address": "12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump",
       "source": "new",
       "entry_price": 0.0001109,
-      "peak_price": 0.0001146,
-      "trailing_active": false,
+      "peak_price": 0.0001407,
+      "trailing_active": true,
       "entry_time": "2026-11-13T14:41:01.210994+00:00",
       "score": 68,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 3.34,
-      "peak_volume_m5": 5616.14,
+      "current_pct": 26.87,
+      "peak_volume_m5": 8668.7,
       "milestones_hit": []
     },
     {
@@ -28,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-13T14:50:58.093768+00:00",
       "score": 91,
-      "status": "open"
-    },
-    {
-      "symbol": "PaperInu",
-      "chain": "solana",
-      "address": "Ej8JSHqEz3Z3eSLsZJjEv2Hd2c4iEMAENWbDcdQbpump",
-      "source": "new",
-      "entry_price": 0.0002732,
-      "peak_price": 0.0002732,
-      "trailing_active": false,
-      "entry_time": "2026-11-13T14:50:59.997446+00:00",
-      "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -11.84,
+      "peak_volume_m5": 39153.32,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -296631,6 +296623,25 @@
       "exit_price": 0.0001308,
       "exit_pct": -19.95,
       "exit_time": "2026-11-13T14:32:33.034556+00:00"
+    },
+    {
+      "symbol": "PaperInu",
+      "chain": "solana",
+      "address": "Ej8JSHqEz3Z3eSLsZJjEv2Hd2c4iEMAENWbDcdQbpump",
+      "source": "new",
+      "entry_price": 0.0002732,
+      "peak_price": 0.0002732,
+      "trailing_active": false,
+      "entry_time": "2026-11-13T14:50:59.997446+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.4,
+      "peak_volume_m5": 57403.25,
+      "milestones_hit": [],
+      "exit_price": 0.0002202,
+      "exit_pct": -19.4,
+      "exit_time": "2026-11-13T14:52:46.510432+00:00"
     }
   ],
   "alerted": {
@@ -311678,6 +311689,7 @@
     "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump": "2026-11-13T12:42:13.646071+00:00",
     "0xB69eD26Addd625E06f384D4F3a6af2bB1baFE5fd": "2026-11-13T13:22:48.644326+00:00",
     "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": "2026-11-13T14:32:32.390815+00:00",
-    "HPMha7L36iZvacktJWU32Kfft1q2sQHAXXmcL6xkpump": "2026-11-13T14:32:33.034556+00:00"
+    "HPMha7L36iZvacktJWU32Kfft1q2sQHAXXmcL6xkpump": "2026-11-13T14:32:33.034556+00:00",
+    "Ej8JSHqEz3Z3eSLsZJjEv2Hd2c4iEMAENWbDcdQbpump": "2026-11-13T14:52:46.510432+00:00"
   }
 }
