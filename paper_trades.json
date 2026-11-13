@@ -3,32 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "SHARKBUX",
-      "chain": "solana",
-      "address": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
-      "source": "boost",
-      "entry_price": 0.0003943,
-      "peak_price": 0.0004245,
-      "trailing_active": false,
-      "entry_time": "2026-11-13T00:31:05.162087+00:00",
-      "score": 89,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 7.66,
-      "peak_volume_m5": 9485.09,
-      "milestones_hit": []
-    },
-    {
       "symbol": "AI",
       "chain": "robinhood",
       "address": "0x01a360D9E91f4A60561C257797360B42BeF5b7E5",
       "source": "new",
       "entry_price": 4.774e-05,
-      "peak_price": 4.774e-05,
-      "trailing_active": false,
+      "peak_price": 8.178e-05,
+      "trailing_active": true,
       "entry_time": "2026-11-13T00:41:10.750324+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 71.3,
+      "peak_volume_m5": 9695.53,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -296058,6 +296048,25 @@
       "exit_price": 0.0001797,
       "exit_pct": -19.88,
       "exit_time": "2026-11-12T23:21:07.973810+00:00"
+    },
+    {
+      "symbol": "SHARKBUX",
+      "chain": "solana",
+      "address": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+      "source": "boost",
+      "entry_price": 0.0003943,
+      "peak_price": 0.0004245,
+      "trailing_active": false,
+      "entry_time": "2026-11-13T00:31:05.162087+00:00",
+      "score": 89,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -26.17,
+      "peak_volume_m5": 14738.73,
+      "milestones_hit": [],
+      "exit_price": 0.0002911,
+      "exit_pct": -26.17,
+      "exit_time": "2026-11-13T00:49:34.660503+00:00"
     }
   ],
   "alerted": {
@@ -311078,6 +311087,7 @@
     "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": "2026-11-12T22:49:14.999547+00:00",
     "0x6668AA70A1F1a9E6e096Ae73eFe21Fe876855799": "2026-11-12T23:07:40.767411+00:00",
     "2FbqgFEWTwTRqZCemnf4AaP9tmhHKha3oqMjCNmcpump": "2026-11-12T23:08:29.976274+00:00",
-    "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump": "2026-11-12T23:21:07.973810+00:00"
+    "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump": "2026-11-12T23:21:07.973810+00:00",
+    "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": "2026-11-13T00:49:34.660503+00:00"
   }
 }
