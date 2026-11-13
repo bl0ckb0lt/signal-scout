@@ -3,34 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BANDIT",
-      "chain": "robinhood",
-      "address": "0x1965dF93faCE551075633F3dB4dCE64B2899729A",
-      "source": "new",
-      "entry_price": 6.984e-05,
-      "peak_price": 0.0001112,
-      "trailing_active": true,
-      "entry_time": "2026-11-13T01:30:50.103684+00:00",
-      "score": 73,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 59.22,
-      "peak_volume_m5": 22665.85,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "GTA6",
       "chain": "ethereum",
       "address": "0xDe0B3C502C922618233b72484511d58A61474714",
       "source": "new",
       "entry_price": 0.0001132,
-      "peak_price": 0.0001132,
-      "trailing_active": false,
+      "peak_price": 0.0001465,
+      "trailing_active": true,
       "entry_time": "2026-11-13T01:40:58.092205+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 29.42,
+      "peak_volume_m5": 5055.11,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -296180,6 +296166,27 @@
       "exit_price": 0.0001263,
       "exit_pct": -22.75,
       "exit_time": "2026-11-13T01:12:16.434008+00:00"
+    },
+    {
+      "symbol": "BANDIT",
+      "chain": "robinhood",
+      "address": "0x1965dF93faCE551075633F3dB4dCE64B2899729A",
+      "source": "new",
+      "entry_price": 6.984e-05,
+      "peak_price": 0.0001112,
+      "trailing_active": true,
+      "entry_time": "2026-11-13T01:30:50.103684+00:00",
+      "score": 73,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 51.06,
+      "peak_volume_m5": 22665.85,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001055,
+      "exit_pct": 51.06,
+      "exit_time": "2026-11-13T01:46:39.182415+00:00"
     }
   ],
   "alerted": {
@@ -311206,6 +311213,7 @@
     "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump": "2026-11-13T00:54:20.071647+00:00",
     "2eBGQFFjmARa2kPECwLhMiuz7WZaSvgncH3nSruLpump": "2026-11-13T01:04:56.726818+00:00",
     "AY2P2J79jdLWib4yYwMDApCmq9GorZhddDXerca3pump": "2026-11-13T01:12:15.765118+00:00",
-    "0x5bfbF026757945ee2aAA9efd1b50Ae630f064c2b": "2026-11-13T01:12:16.434008+00:00"
+    "0x5bfbF026757945ee2aAA9efd1b50Ae630f064c2b": "2026-11-13T01:12:16.434008+00:00",
+    "0x1965dF93faCE551075633F3dB4dCE64B2899729A": "2026-11-13T01:46:39.182415+00:00"
   }
 }
