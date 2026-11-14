@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "BBTB",
-      "chain": "robinhood",
-      "address": "0xc9938cf96cCa6C74DC021E28FC5a2f3e92c2601F",
-      "source": "new",
-      "entry_price": 0.0002209,
-      "peak_price": 0.0002209,
-      "trailing_active": false,
-      "entry_time": "2026-11-14T02:10:58.339710+00:00",
-      "score": 77,
-      "status": "open"
-    },
-    {
       "symbol": "Chunkee",
       "chain": "solana",
       "address": "5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-14T02:11:00.065046+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.4,
+      "peak_volume_m5": 11114.91,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -297388,6 +297380,25 @@
       "exit_price": 0.001396,
       "exit_pct": -7.55,
       "exit_time": "2026-11-14T01:42:51.117000+00:00"
+    },
+    {
+      "symbol": "BBTB",
+      "chain": "robinhood",
+      "address": "0xc9938cf96cCa6C74DC021E28FC5a2f3e92c2601F",
+      "source": "new",
+      "entry_price": 0.0002209,
+      "peak_price": 0.0002209,
+      "trailing_active": false,
+      "entry_time": "2026-11-14T02:10:58.339710+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.77,
+      "peak_volume_m5": 15476.2,
+      "milestones_hit": [],
+      "exit_price": 0.0001971,
+      "exit_pct": -10.77,
+      "exit_time": "2026-11-14T02:11:32.308911+00:00"
     }
   ],
   "alerted": {
@@ -312474,6 +312485,7 @@
     "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump": "2026-11-13T23:08:50.500362+00:00",
     "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": "2026-11-13T23:22:20.870905+00:00",
     "0x26040E441a7369cCC7bD8bfE96F596DF4dB87777": "2026-11-14T00:52:55.878692+00:00",
-    "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": "2026-11-14T01:12:39.559781+00:00"
+    "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": "2026-11-14T01:12:39.559781+00:00",
+    "0xc9938cf96cCa6C74DC021E28FC5a2f3e92c2601F": "2026-11-14T02:11:32.308911+00:00"
   }
 }
