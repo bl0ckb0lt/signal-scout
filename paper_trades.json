@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "DOJE",
-      "chain": "solana",
-      "address": "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
-      "source": "new",
-      "entry_price": 0.0001772,
-      "peak_price": 0.0001828,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T00:00:55.358069+00:00",
-      "score": 83,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 3.16,
-      "peak_volume_m5": 7851.28,
-      "milestones_hit": []
-    },
-    {
       "symbol": "FOMO",
       "chain": "robinhood",
       "address": "0x32e6aeb2B976963387061f0fcfb98eAAd051208d",
       "source": "new",
       "entry_price": 0.0002056,
-      "peak_price": 0.0002056,
+      "peak_price": 0.0002352,
       "trailing_active": false,
       "entry_time": "2026-11-15T00:10:54.926414+00:00",
       "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 14.4,
+      "peak_volume_m5": 20879.75,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -297985,6 +297973,25 @@
       "exit_price": 0.0001373,
       "exit_pct": -8.77,
       "exit_time": "2026-11-14T23:54:56.151132+00:00"
+    },
+    {
+      "symbol": "DOJE",
+      "chain": "solana",
+      "address": "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+      "source": "new",
+      "entry_price": 0.0001772,
+      "peak_price": 0.0001828,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T00:00:55.358069+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.33,
+      "peak_volume_m5": 10121.11,
+      "milestones_hit": [],
+      "exit_price": 0.0001589,
+      "exit_pct": -10.33,
+      "exit_time": "2026-11-15T00:16:50.290448+00:00"
     }
   ],
   "alerted": {
@@ -313102,6 +313109,7 @@
     "0x2A7550287Ca81E82623183aDA9238e425f7EB7b0": "2026-11-14T22:07:53.643678+00:00",
     "GQBMCgxisVmdxxpu8r8fXeYmavWBG9fnHhGGGELwpump": "2026-11-14T23:01:45.102683+00:00",
     "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": "2026-11-14T23:45:35.326021+00:00",
-    "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": "2026-11-14T23:54:56.151132+00:00"
+    "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": "2026-11-14T23:54:56.151132+00:00",
+    "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": "2026-11-15T00:16:50.290448+00:00"
   }
 }
