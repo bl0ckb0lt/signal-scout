@@ -28,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-15T18:11:00.650451+00:00",
       "score": 81,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -7.22,
+      "peak_volume_m5": 4639.59,
+      "milestones_hit": []
     },
     {
       "symbol": "HODL",
@@ -36,23 +40,17 @@
       "address": "0xF9937d6266E96bDDf3a195b55061965DF24A6097",
       "source": "new",
       "entry_price": 4.102e-05,
-      "peak_price": 4.102e-05,
-      "trailing_active": false,
+      "peak_price": 6.754e-05,
+      "trailing_active": true,
       "entry_time": "2026-11-15T18:11:02.043463+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "GTA",
-      "chain": "ethereum",
-      "address": "0x4e24be275f937D656f50e8026cAf62cc4baAeaf0",
-      "source": "new",
-      "entry_price": 0.0002911,
-      "peak_price": 0.0002911,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T18:11:03.986176+00:00",
-      "score": 69,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 64.65,
+      "peak_volume_m5": 17228.22,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -298491,6 +298489,25 @@
       "exit_price": 0.0001432,
       "exit_pct": -59.54,
       "exit_time": "2026-11-15T16:02:25.426636+00:00"
+    },
+    {
+      "symbol": "GTA",
+      "chain": "ethereum",
+      "address": "0x4e24be275f937D656f50e8026cAf62cc4baAeaf0",
+      "source": "new",
+      "entry_price": 0.0002911,
+      "peak_price": 0.0002911,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T18:11:03.986176+00:00",
+      "score": 69,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -5.43,
+      "peak_volume_m5": 6635.11,
+      "milestones_hit": [],
+      "exit_price": 0.0002753,
+      "exit_pct": -5.43,
+      "exit_time": "2026-11-15T18:16:37.702144+00:00"
     }
   ],
   "alerted": {
@@ -313631,6 +313648,7 @@
     "0x7416d80d391D49FB96F4FE6145247Ae91eE4b957": "2026-11-15T15:31:41.156850+00:00",
     "0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8": "2026-11-15T15:45:38.469251+00:00",
     "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": "2026-11-15T15:47:28.560619+00:00",
-    "0x76c31c7ADD0b6b8736660228B6718d57e0f57777": "2026-11-15T16:02:25.426636+00:00"
+    "0x76c31c7ADD0b6b8736660228B6718d57e0f57777": "2026-11-15T16:02:25.426636+00:00",
+    "0x4e24be275f937D656f50e8026cAf62cc4baAeaf0": "2026-11-15T18:16:37.702144+00:00"
   }
 }
