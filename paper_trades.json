@@ -8,23 +8,15 @@
       "address": "0xD984d7EdE4fcff0772BA90FC6Bae3c5123Ff1FF4",
       "source": "new",
       "entry_price": 6.751e-07,
-      "peak_price": 6.751e-07,
-      "trailing_active": false,
+      "peak_price": 7.788e-07,
+      "trailing_active": true,
       "entry_time": "2026-11-15T02:40:44.893871+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "NUREMBERG",
-      "chain": "robinhood",
-      "address": "0x8d729c2d08a3dE7AfeAb186896260cd7180664C5",
-      "source": "new",
-      "entry_price": 0.000218,
-      "peak_price": 0.000218,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T02:40:47.832179+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.36,
+      "peak_volume_m5": 67646.58,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -298114,6 +298106,25 @@
       "exit_price": 0.0004756,
       "exit_pct": -25.71,
       "exit_time": "2026-11-15T02:12:31.390338+00:00"
+    },
+    {
+      "symbol": "NUREMBERG",
+      "chain": "robinhood",
+      "address": "0x8d729c2d08a3dE7AfeAb186896260cd7180664C5",
+      "source": "new",
+      "entry_price": 0.000218,
+      "peak_price": 0.000218,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T02:40:47.832179+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.95,
+      "peak_volume_m5": 37726.22,
+      "milestones_hit": [],
+      "exit_price": 0.0001963,
+      "exit_pct": -9.95,
+      "exit_time": "2026-11-15T02:42:14.003759+00:00"
     }
   ],
   "alerted": {
@@ -313238,6 +313249,7 @@
     "0x65987eD655dE5BA5cD33c0450035BC78952e070d": "2026-11-15T00:39:55.771886+00:00",
     "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "2026-11-15T00:51:52.549412+00:00",
     "GWfkt89PP92cA1eg4NMRE2FqftZPwLgFyY2YRNLwpump": "2026-11-15T01:36:43.632186+00:00",
-    "CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": "2026-11-15T02:12:31.390338+00:00"
+    "CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": "2026-11-15T02:12:31.390338+00:00",
+    "0x8d729c2d08a3dE7AfeAb186896260cd7180664C5": "2026-11-15T02:42:14.003759+00:00"
   }
 }
