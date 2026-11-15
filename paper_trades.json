@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "HSI",
-      "chain": "robinhood",
-      "address": "0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8",
-      "source": "new",
-      "entry_price": 6.104e-05,
-      "peak_price": 6.104e-05,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T15:40:54.143866+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
       "symbol": "BUTTHOLE",
       "chain": "solana",
       "address": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
       "source": "new",
       "entry_price": 0.0006624,
-      "peak_price": 0.0006624,
-      "trailing_active": false,
+      "peak_price": 0.0007833,
+      "trailing_active": true,
       "entry_time": "2026-11-15T15:40:55.784487+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 18.25,
+      "peak_volume_m5": 36395.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -298422,6 +298414,25 @@
       "exit_price": 7.871e-05,
       "exit_pct": 8.25,
       "exit_time": "2026-11-15T15:31:41.156850+00:00"
+    },
+    {
+      "symbol": "HSI",
+      "chain": "robinhood",
+      "address": "0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8",
+      "source": "new",
+      "entry_price": 6.104e-05,
+      "peak_price": 6.104e-05,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T15:40:54.143866+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -18.61,
+      "peak_volume_m5": 12869.48,
+      "milestones_hit": [],
+      "exit_price": 4.968e-05,
+      "exit_pct": -18.61,
+      "exit_time": "2026-11-15T15:45:38.469251+00:00"
     }
   ],
   "alerted": {
@@ -313559,6 +313570,7 @@
     "0x8591630493B1e720C0dDaC9bf9eA1222BD8896CD": "2026-11-15T11:32:45.502488+00:00",
     "93hTYKGhD43KeW4eQVtpL95WKUZpdEXE2F3XCpNipump": "2026-11-15T13:52:28.149995+00:00",
     "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": "2026-11-15T15:12:36.142409+00:00",
-    "0x7416d80d391D49FB96F4FE6145247Ae91eE4b957": "2026-11-15T15:31:41.156850+00:00"
+    "0x7416d80d391D49FB96F4FE6145247Ae91eE4b957": "2026-11-15T15:31:41.156850+00:00",
+    "0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8": "2026-11-15T15:45:38.469251+00:00"
   }
 }
