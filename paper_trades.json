@@ -30,21 +30,9 @@
       "score": 73,
       "status": "open",
       "api_failures": 0,
-      "current_pct": -0.27,
+      "current_pct": -0.37,
       "peak_volume_m5": 12084.96,
       "milestones_hit": []
-    },
-    {
-      "symbol": "HENSEN",
-      "chain": "solana",
-      "address": "FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump",
-      "source": "new",
-      "entry_price": 0.0001498,
-      "peak_price": 0.0001498,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T21:11:00.517090+00:00",
-      "score": 83,
-      "status": "open"
     },
     {
       "symbol": "NCAT",
@@ -52,11 +40,15 @@
       "address": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
       "source": "new",
       "entry_price": 0.0001214,
-      "peak_price": 0.0001214,
+      "peak_price": 0.0001375,
       "trailing_active": false,
       "entry_time": "2026-11-15T21:11:04.596500+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 13.26,
+      "peak_volume_m5": 16742.84,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -298687,6 +298679,25 @@
       "exit_price": 0.0001391,
       "exit_pct": -21.19,
       "exit_time": "2026-11-15T20:41:47.544752+00:00"
+    },
+    {
+      "symbol": "HENSEN",
+      "chain": "solana",
+      "address": "FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump",
+      "source": "new",
+      "entry_price": 0.0001498,
+      "peak_price": 0.0001498,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T21:11:00.517090+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -99.06,
+      "peak_volume_m5": 19442.88,
+      "milestones_hit": [],
+      "exit_price": 1.408e-06,
+      "exit_pct": -99.06,
+      "exit_time": "2026-11-15T21:13:52.996762+00:00"
     }
   ],
   "alerted": {
@@ -313837,6 +313848,7 @@
     "Da5Gbwd8GCuKwd5fv4pk7bBh12UKjUg5iH3VthDWCity": "2026-11-15T20:11:41.385386+00:00",
     "BDPm9gPHCRyo2qjcRrYPsXexmbRwuuHQZo2qhhYXpump": "2026-11-15T20:12:20.288242+00:00",
     "7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump": "2026-11-15T20:36:52.344019+00:00",
-    "CnXTC8NutHZq2zaPqYz6bxuLYnq775EnvUBHjRqxpump": "2026-11-15T20:41:47.544752+00:00"
+    "CnXTC8NutHZq2zaPqYz6bxuLYnq775EnvUBHjRqxpump": "2026-11-15T20:41:47.544752+00:00",
+    "FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump": "2026-11-15T21:13:52.996762+00:00"
   }
 }
