@@ -24,23 +24,15 @@
       "address": "0x370BeCaBA7374412212291E255Ca10c6Ea73289B",
       "source": "new",
       "entry_price": 9.908e-05,
-      "peak_price": 9.908e-05,
+      "peak_price": 0.0001028,
       "trailing_active": false,
       "entry_time": "2026-11-15T19:11:01.267339+00:00",
       "score": 78,
-      "status": "open"
-    },
-    {
-      "symbol": "Anthropig",
-      "chain": "solana",
-      "address": "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
-      "source": "new",
-      "entry_price": 0.0004421,
-      "peak_price": 0.0004421,
-      "trailing_active": false,
-      "entry_time": "2026-11-15T19:11:02.895345+00:00",
-      "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 3.75,
+      "peak_volume_m5": 4379.22,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -298538,6 +298530,25 @@
       "exit_price": 0.000116,
       "exit_pct": -10.91,
       "exit_time": "2026-11-15T18:35:47.647381+00:00"
+    },
+    {
+      "symbol": "Anthropig",
+      "chain": "solana",
+      "address": "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
+      "source": "new",
+      "entry_price": 0.0004421,
+      "peak_price": 0.0004421,
+      "trailing_active": false,
+      "entry_time": "2026-11-15T19:11:02.895345+00:00",
+      "score": 74,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.77,
+      "peak_volume_m5": 4984.46,
+      "milestones_hit": [],
+      "exit_price": 0.0003989,
+      "exit_pct": -9.77,
+      "exit_time": "2026-11-15T19:13:07.322321+00:00"
     }
   ],
   "alerted": {
@@ -313681,6 +313692,7 @@
     "0x76c31c7ADD0b6b8736660228B6718d57e0f57777": "2026-11-15T16:02:25.426636+00:00",
     "0x4e24be275f937D656f50e8026cAf62cc4baAeaf0": "2026-11-15T18:16:37.702144+00:00",
     "0xF9937d6266E96bDDf3a195b55061965DF24A6097": "2026-11-15T18:22:27.581954+00:00",
-    "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": "2026-11-15T18:35:47.647381+00:00"
+    "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": "2026-11-15T18:35:47.647381+00:00",
+    "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": "2026-11-15T19:13:07.322321+00:00"
   }
 }
