@@ -19,32 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "GTAVI",
-      "chain": "solana",
-      "address": "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump",
-      "source": "boost",
-      "entry_price": 9.966e-05,
-      "peak_price": 9.966e-05,
-      "trailing_active": false,
-      "entry_time": "2026-11-16T00:01:01.952343+00:00",
-      "score": 92,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -9.47,
-      "peak_volume_m5": 1663.33,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BFS",
       "chain": "robinhood",
       "address": "0x9487aa2899C08678fd6D127E8ffd1940FEAA8937",
       "source": "new",
       "entry_price": 6.689e-05,
-      "peak_price": 6.689e-05,
-      "trailing_active": false,
+      "peak_price": 8.191e-05,
+      "trailing_active": true,
       "entry_time": "2026-11-16T00:10:52.673400+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 22.45,
+      "peak_volume_m5": 16466.92,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -298865,6 +298853,25 @@
       "exit_price": 0.0001172,
       "exit_pct": -13.31,
       "exit_time": "2026-11-16T00:06:57.027408+00:00"
+    },
+    {
+      "symbol": "GTAVI",
+      "chain": "solana",
+      "address": "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump",
+      "source": "boost",
+      "entry_price": 9.966e-05,
+      "peak_price": 9.966e-05,
+      "trailing_active": false,
+      "entry_time": "2026-11-16T00:01:01.952343+00:00",
+      "score": 92,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.96,
+      "peak_volume_m5": 1892.48,
+      "milestones_hit": [],
+      "exit_price": 8.475e-05,
+      "exit_pct": -14.96,
+      "exit_time": "2026-11-16T00:14:46.357692+00:00"
     }
   ],
   "alerted": {
@@ -314024,6 +314031,7 @@
     "6SAFNdumKYNWVsuM116C7XQSVaJaxkFRbmrxHrNipump": "2026-11-15T22:26:35.934474+00:00",
     "0xd08aB4BD4d436f9198B0368C3041fc1e89eC1AA5": "2026-11-15T23:22:08.629580+00:00",
     "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump": "2026-11-15T23:35:53.452110+00:00",
-    "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": "2026-11-16T00:06:57.027408+00:00"
+    "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": "2026-11-16T00:06:57.027408+00:00",
+    "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump": "2026-11-16T00:14:46.357692+00:00"
   }
 }
