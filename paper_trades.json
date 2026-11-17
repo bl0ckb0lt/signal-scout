@@ -3,28 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "JVOLT",
-      "chain": "solana",
-      "address": "ANNzAQ2ADnquKGoKMsMt3ByLASo93pFnA23D8KW7pump",
-      "source": "new",
-      "entry_price": 0.0005057,
-      "peak_price": 0.0005057,
-      "trailing_active": false,
-      "entry_time": "2026-11-17T14:10:53.195044+00:00",
-      "score": 95,
-      "status": "open"
-    },
-    {
       "symbol": "POPO",
       "chain": "ethereum",
       "address": "0xdad1Eb15a33E9002b893454432D806e9108c1873",
       "source": "new",
       "entry_price": 9.92e-05,
-      "peak_price": 9.92e-05,
+      "peak_price": 0.0001067,
       "trailing_active": false,
       "entry_time": "2026-11-17T14:10:55.092033+00:00",
       "score": 71,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 7.56,
+      "peak_volume_m5": 1297.71,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -300074,6 +300066,25 @@
       "exit_price": 7.066e-05,
       "exit_pct": -8.78,
       "exit_time": "2026-11-17T13:55:58.976388+00:00"
+    },
+    {
+      "symbol": "JVOLT",
+      "chain": "solana",
+      "address": "ANNzAQ2ADnquKGoKMsMt3ByLASo93pFnA23D8KW7pump",
+      "source": "new",
+      "entry_price": 0.0005057,
+      "peak_price": 0.0005057,
+      "trailing_active": false,
+      "entry_time": "2026-11-17T14:10:53.195044+00:00",
+      "score": 95,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -99.67,
+      "peak_volume_m5": 34331.05,
+      "milestones_hit": [],
+      "exit_price": 1.68e-06,
+      "exit_pct": -99.67,
+      "exit_time": "2026-11-17T14:17:14.100760+00:00"
     }
   ],
   "alerted": {
@@ -315296,6 +315307,7 @@
     "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": "2026-11-17T08:26:41.016738+00:00",
     "6efK9juKa6x9sZEsB6iWJ5mTMhqrexeQRyp7DkDEpump": "2026-11-17T12:12:36.321415+00:00",
     "0x086b86243FF5CC112A0a38B9daB4ebAe359d08e7": "2026-11-17T13:02:30.685412+00:00",
-    "0x7DD40e527bFeb4FAfE406e51c0316E2c908D5019": "2026-11-17T13:55:58.976388+00:00"
+    "0x7DD40e527bFeb4FAfE406e51c0316E2c908D5019": "2026-11-17T13:55:58.976388+00:00",
+    "ANNzAQ2ADnquKGoKMsMt3ByLASo93pFnA23D8KW7pump": "2026-11-17T14:17:14.100760+00:00"
   }
 }
