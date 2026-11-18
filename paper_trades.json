@@ -8,23 +8,15 @@
       "address": "6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump",
       "source": "new",
       "entry_price": 0.001053,
-      "peak_price": 0.001053,
-      "trailing_active": false,
+      "peak_price": 0.001256,
+      "trailing_active": true,
       "entry_time": "2026-11-18T17:20:59.023350+00:00",
       "score": 95,
-      "status": "open"
-    },
-    {
-      "symbol": "APCY",
-      "chain": "solana",
-      "address": "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC",
-      "source": "new",
-      "entry_price": 0.0001744,
-      "peak_price": 0.0001744,
-      "trailing_active": false,
-      "entry_time": "2026-11-18T17:21:00.839139+00:00",
-      "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 19.28,
+      "peak_volume_m5": 124925.39,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -301019,6 +301011,25 @@
       "exit_price": 0.0001533,
       "exit_pct": -14.93,
       "exit_time": "2026-11-18T17:06:46.200113+00:00"
+    },
+    {
+      "symbol": "APCY",
+      "chain": "solana",
+      "address": "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC",
+      "source": "new",
+      "entry_price": 0.0001744,
+      "peak_price": 0.0001744,
+      "trailing_active": false,
+      "entry_time": "2026-11-18T17:21:00.839139+00:00",
+      "score": 76,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -19.38,
+      "peak_volume_m5": 34606.59,
+      "milestones_hit": [],
+      "exit_price": 0.0001406,
+      "exit_pct": -19.38,
+      "exit_time": "2026-11-18T17:26:15.312185+00:00"
     }
   ],
   "alerted": {
@@ -316290,6 +316301,7 @@
     "0x639c53Cfe74C94F0c961b69cC69630D9eBCC7777": "2026-11-18T16:12:34.492744+00:00",
     "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "2026-11-18T16:35:00.997436+00:00",
     "6NZx1nyZ5bu8haaVtp3CLybcvKQ77JJpiUou6Faypump": "2026-11-18T16:40:40.969724+00:00",
-    "97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": "2026-11-18T17:06:46.200113+00:00"
+    "97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": "2026-11-18T17:06:46.200113+00:00",
+    "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": "2026-11-18T17:26:15.312185+00:00"
   }
 }
