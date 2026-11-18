@@ -8,23 +8,15 @@
       "address": "6NZx1nyZ5bu8haaVtp3CLybcvKQ77JJpiUou6Faypump",
       "source": "new",
       "entry_price": 0.0006667,
-      "peak_price": 0.0006667,
-      "trailing_active": false,
+      "peak_price": 0.0008113,
+      "trailing_active": true,
       "entry_time": "2026-11-18T16:30:55.783436+00:00",
       "score": 87,
-      "status": "open"
-    },
-    {
-      "symbol": "Apocrycoin",
-      "chain": "solana",
-      "address": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
-      "source": "new",
-      "entry_price": 0.000168,
-      "peak_price": 0.000168,
-      "trailing_active": false,
-      "entry_time": "2026-11-18T16:30:59.627174+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.69,
+      "peak_volume_m5": 36915.29,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -300962,6 +300954,25 @@
       "exit_price": 0.0002146,
       "exit_pct": -43.39,
       "exit_time": "2026-11-18T16:12:34.492744+00:00"
+    },
+    {
+      "symbol": "Apocrycoin",
+      "chain": "solana",
+      "address": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+      "source": "new",
+      "entry_price": 0.000168,
+      "peak_price": 0.000168,
+      "trailing_active": false,
+      "entry_time": "2026-11-18T16:30:59.627174+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -8.45,
+      "peak_volume_m5": 21927.55,
+      "milestones_hit": [],
+      "exit_price": 0.0001538,
+      "exit_pct": -8.45,
+      "exit_time": "2026-11-18T16:35:00.997436+00:00"
     }
   ],
   "alerted": {
@@ -316230,6 +316241,7 @@
     "0xCf917551c463e538eb0872B06C175dCC2540B783": "2026-11-18T15:23:45.240480+00:00",
     "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": "2026-11-18T15:54:02.664551+00:00",
     "7smnsneWsBMPZ4PDftadFBLf62SsH921BstHiM9wpump": "2026-11-18T15:54:52.076890+00:00",
-    "0x639c53Cfe74C94F0c961b69cC69630D9eBCC7777": "2026-11-18T16:12:34.492744+00:00"
+    "0x639c53Cfe74C94F0c961b69cC69630D9eBCC7777": "2026-11-18T16:12:34.492744+00:00",
+    "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "2026-11-18T16:35:00.997436+00:00"
   }
 }
