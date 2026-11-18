@@ -12,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-18T20:13:21.527146+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.91,
+      "peak_volume_m5": 809.47,
+      "milestones_hit": []
     },
     {
       "symbol": "QUIT",
@@ -24,19 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-18T20:13:25.774935+00:00",
       "score": 72,
-      "status": "open"
-    },
-    {
-      "symbol": "VC",
-      "chain": "solana",
-      "address": "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj",
-      "source": "new",
-      "entry_price": 0.0001256,
-      "peak_price": 0.0001256,
-      "trailing_active": false,
-      "entry_time": "2026-11-18T20:13:27.638437+00:00",
-      "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.27,
+      "peak_volume_m5": 9922.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -301183,6 +301179,25 @@
       "exit_price": 5.115e-05,
       "exit_pct": -28.54,
       "exit_time": "2026-11-18T19:02:39.166537+00:00"
+    },
+    {
+      "symbol": "VC",
+      "chain": "solana",
+      "address": "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj",
+      "source": "new",
+      "entry_price": 0.0001256,
+      "peak_price": 0.0001256,
+      "trailing_active": false,
+      "entry_time": "2026-11-18T20:13:27.638437+00:00",
+      "score": 63,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -21.96,
+      "peak_volume_m5": 14875.78,
+      "milestones_hit": [],
+      "exit_price": 9.802e-05,
+      "exit_pct": -21.96,
+      "exit_time": "2026-11-18T20:14:43.135441+00:00"
     }
   ],
   "alerted": {
@@ -316462,6 +316477,7 @@
     "0x5659250b7aaC8f66701c7655dA16070EcaD6355e": "2026-11-18T18:11:53.340354+00:00",
     "GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump": "2026-11-18T18:21:56.628240+00:00",
     "0xAb5559d647DDeb46A8cf7Cc452372AFEB4556E12": "2026-11-18T18:43:38.430635+00:00",
-    "0xB200000000000000000000FC69049724CBAa631f": "2026-11-18T19:02:39.166537+00:00"
+    "0xB200000000000000000000FC69049724CBAa631f": "2026-11-18T19:02:39.166537+00:00",
+    "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj": "2026-11-18T20:14:43.135441+00:00"
   }
 }
