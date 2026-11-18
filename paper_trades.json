@@ -8,23 +8,17 @@
       "address": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
       "source": "new",
       "entry_price": 0.0007025,
-      "peak_price": 0.0007025,
-      "trailing_active": false,
+      "peak_price": 0.001367,
+      "trailing_active": true,
       "entry_time": "2026-11-18T23:51:03.601726+00:00",
       "score": 85,
-      "status": "open"
-    },
-    {
-      "symbol": "GTALIFE",
-      "chain": "robinhood",
-      "address": "0x2Fe2e090Af226dB875082c46ebab2823f3e417d7",
-      "source": "new",
-      "entry_price": 0.0001836,
-      "peak_price": 0.0001836,
-      "trailing_active": false,
-      "entry_time": "2026-11-18T23:51:04.928536+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 94.59,
+      "peak_volume_m5": 181814.51,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -301304,6 +301298,25 @@
       "exit_price": 0.0003535,
       "exit_pct": 33.8,
       "exit_time": "2026-11-18T22:25:04.460388+00:00"
+    },
+    {
+      "symbol": "GTALIFE",
+      "chain": "robinhood",
+      "address": "0x2Fe2e090Af226dB875082c46ebab2823f3e417d7",
+      "source": "new",
+      "entry_price": 0.0001836,
+      "peak_price": 0.0001836,
+      "trailing_active": false,
+      "entry_time": "2026-11-18T23:51:04.928536+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -14.27,
+      "peak_volume_m5": 29332.19,
+      "milestones_hit": [],
+      "exit_price": 0.0001574,
+      "exit_pct": -14.27,
+      "exit_time": "2026-11-18T23:57:44.144809+00:00"
     }
   ],
   "alerted": {
@@ -316590,6 +316603,7 @@
     "EhjRG9DDTeP9z9N8UByx1FGpXNCVKidHXsVwkQ4jpump": "2026-11-18T20:43:00.384272+00:00",
     "3YyNSd5dAe5hbKu83syLCjZKWYD9d94EGYCfEWNkpump": "2026-11-18T21:25:40.347990+00:00",
     "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump": "2026-11-18T21:55:57.699450+00:00",
-    "Eyp4dHQD8oLLF4XLyA1QDcFxSYxQSFnphiujRvugpump": "2026-11-18T22:25:04.460388+00:00"
+    "Eyp4dHQD8oLLF4XLyA1QDcFxSYxQSFnphiujRvugpump": "2026-11-18T22:25:04.460388+00:00",
+    "0x2Fe2e090Af226dB875082c46ebab2823f3e417d7": "2026-11-18T23:57:44.144809+00:00"
   }
 }
