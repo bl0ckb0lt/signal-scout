@@ -3,24 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PIPI",
-      "chain": "robinhood",
-      "address": "0x2f8b16A7188ec9a2Ef562Af1a1Ec374EA938cEc8",
-      "source": "new",
-      "entry_price": 8.916e-05,
-      "peak_price": 0.0001718,
-      "trailing_active": true,
-      "entry_time": "2026-11-19T15:10:53.547518+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 92.69,
-      "peak_volume_m5": 17930.43,
-      "milestones_hit": [
-        50
-      ]
-    },
-    {
       "symbol": "AI",
       "chain": "solana",
       "address": "EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat",
@@ -30,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-19T15:51:10.707245+00:00",
       "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.51,
+      "peak_volume_m5": 119011.85,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -301721,6 +301707,27 @@
       "exit_price": 0.001636,
       "exit_pct": -10.06,
       "exit_time": "2026-11-19T13:13:21.852754+00:00"
+    },
+    {
+      "symbol": "PIPI",
+      "chain": "robinhood",
+      "address": "0x2f8b16A7188ec9a2Ef562Af1a1Ec374EA938cEc8",
+      "source": "new",
+      "entry_price": 8.916e-05,
+      "peak_price": 0.0001718,
+      "trailing_active": true,
+      "entry_time": "2026-11-19T15:10:53.547518+00:00",
+      "score": 68,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 41.21,
+      "peak_volume_m5": 20029.38,
+      "milestones_hit": [
+        50
+      ],
+      "exit_price": 0.0001259,
+      "exit_pct": 41.21,
+      "exit_time": "2026-11-19T15:52:34.830993+00:00"
     }
   ],
   "alerted": {
@@ -317027,6 +317034,7 @@
     "0xec3Cd8b19C2BDdAdBbc22e58dBCffa2fB6957777": "2026-11-19T12:23:14.204147+00:00",
     "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": "2026-11-19T12:35:03.493406+00:00",
     "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": "2026-11-19T13:12:43.982864+00:00",
-    "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump": "2026-11-19T13:13:21.852754+00:00"
+    "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump": "2026-11-19T13:13:21.852754+00:00",
+    "0x2f8b16A7188ec9a2Ef562Af1a1Ec374EA938cEc8": "2026-11-19T15:52:34.830993+00:00"
   }
 }
