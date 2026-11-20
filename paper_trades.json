@@ -3,18 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "MONKE",
-      "chain": "solana",
-      "address": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
-      "source": "new",
-      "entry_price": 0.0001158,
-      "peak_price": 0.0001158,
-      "trailing_active": false,
-      "entry_time": "2026-11-20T23:11:10.104479+00:00",
-      "score": 81,
-      "status": "open"
-    },
-    {
       "symbol": "Bust",
       "chain": "solana",
       "address": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
@@ -24,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-20T23:11:11.899275+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -3.86,
+      "peak_volume_m5": 21287.13,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -302828,6 +302820,25 @@
       "exit_price": 0.0004851,
       "exit_pct": -12.97,
       "exit_time": "2026-11-20T21:14:35.211742+00:00"
+    },
+    {
+      "symbol": "MONKE",
+      "chain": "solana",
+      "address": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+      "source": "new",
+      "entry_price": 0.0001158,
+      "peak_price": 0.0001158,
+      "trailing_active": false,
+      "entry_time": "2026-11-20T23:11:10.104479+00:00",
+      "score": 81,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -13.84,
+      "peak_volume_m5": 8121.15,
+      "milestones_hit": [],
+      "exit_price": 9.977e-05,
+      "exit_pct": -13.84,
+      "exit_time": "2026-11-20T23:13:56.142420+00:00"
     }
   ],
   "alerted": {
@@ -318191,6 +318202,7 @@
     "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": "2026-11-20T21:05:16.899105+00:00",
     "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": "2026-11-20T21:12:30.755883+00:00",
     "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": "2026-11-20T21:13:37.842818+00:00",
-    "GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump": "2026-11-20T21:14:35.211742+00:00"
+    "GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump": "2026-11-20T21:14:35.211742+00:00",
+    "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump": "2026-11-20T23:13:56.142420+00:00"
   }
 }
