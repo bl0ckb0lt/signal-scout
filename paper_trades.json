@@ -19,28 +19,20 @@
       "milestones_hit": []
     },
     {
-      "symbol": "CLAWDIA",
-      "chain": "solana",
-      "address": "BjvD62CeknCCn94ciFN5aHPoNvSmcXvVHr8XonBpump",
-      "source": "new",
-      "entry_price": 0.0001842,
-      "peak_price": 0.0001842,
-      "trailing_active": false,
-      "entry_time": "2026-11-21T20:51:07.394848+00:00",
-      "score": 83,
-      "status": "open"
-    },
-    {
       "symbol": "HOUSE",
       "chain": "robinhood",
       "address": "0x3408E3462396a6f29790e83507b8Ef5a8b5Ae317",
       "source": "new",
       "entry_price": 7.805e-05,
-      "peak_price": 7.805e-05,
+      "peak_price": 8.571e-05,
       "trailing_active": false,
       "entry_time": "2026-11-21T20:51:10.416614+00:00",
       "score": 63,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 9.81,
+      "peak_volume_m5": 10378.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -303325,6 +303317,25 @@
       "exit_price": 0.0001426,
       "exit_pct": -13.58,
       "exit_time": "2026-11-21T20:12:21.954090+00:00"
+    },
+    {
+      "symbol": "CLAWDIA",
+      "chain": "solana",
+      "address": "BjvD62CeknCCn94ciFN5aHPoNvSmcXvVHr8XonBpump",
+      "source": "new",
+      "entry_price": 0.0001842,
+      "peak_price": 0.0001842,
+      "trailing_active": false,
+      "entry_time": "2026-11-21T20:51:07.394848+00:00",
+      "score": 83,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -33.98,
+      "peak_volume_m5": 57748.45,
+      "milestones_hit": [],
+      "exit_price": 0.0001216,
+      "exit_pct": -33.98,
+      "exit_time": "2026-11-21T20:52:24.067814+00:00"
     }
   ],
   "alerted": {
@@ -318711,6 +318722,7 @@
     "0xf5871567fc19C7FE003642DEe754cdE7B137f370": "2026-11-21T15:45:56.787979+00:00",
     "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": "2026-11-21T16:06:34.452126+00:00",
     "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": "2026-11-21T16:40:56.052525+00:00",
-    "0x8bAF69d14707631fd33c3a7CEd81eE615c9dcADA": "2026-11-21T20:12:21.954090+00:00"
+    "0x8bAF69d14707631fd33c3a7CEd81eE615c9dcADA": "2026-11-21T20:12:21.954090+00:00",
+    "BjvD62CeknCCn94ciFN5aHPoNvSmcXvVHr8XonBpump": "2026-11-21T20:52:24.067814+00:00"
   }
 }
