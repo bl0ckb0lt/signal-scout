@@ -19,22 +19,6 @@
       "milestones_hit": []
     },
     {
-      "symbol": "time",
-      "chain": "solana",
-      "address": "Ak8pAMMeiqbu3tyE2MU33o8W2RfhLk1hXYsscnFkpump",
-      "source": "new",
-      "entry_price": 0.000143,
-      "peak_price": 0.0001706,
-      "trailing_active": true,
-      "entry_time": "2026-11-22T00:41:02.678952+00:00",
-      "score": 81,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 19.3,
-      "peak_volume_m5": 64039.8,
-      "milestones_hit": []
-    },
-    {
       "symbol": "TYW",
       "chain": "robinhood",
       "address": "0x3a5e55015F79F7c627e25Eb6Ec73efC5F20DC35C",
@@ -44,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-22T00:50:56.921113+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -6.82,
+      "peak_volume_m5": 10563.41,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -303521,6 +303509,25 @@
       "exit_price": 1.351e-06,
       "exit_pct": -99.74,
       "exit_time": "2026-11-22T00:25:18.577418+00:00"
+    },
+    {
+      "symbol": "time",
+      "chain": "solana",
+      "address": "Ak8pAMMeiqbu3tyE2MU33o8W2RfhLk1hXYsscnFkpump",
+      "source": "new",
+      "entry_price": 0.000143,
+      "peak_price": 0.0001706,
+      "trailing_active": true,
+      "entry_time": "2026-11-22T00:41:02.678952+00:00",
+      "score": 81,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 1.54,
+      "peak_volume_m5": 64039.8,
+      "milestones_hit": [],
+      "exit_price": 0.0001452,
+      "exit_pct": 1.54,
+      "exit_time": "2026-11-22T00:52:46.285953+00:00"
     }
   ],
   "alerted": {
@@ -318917,6 +318924,7 @@
     "0x38AB22fFFCF6940fC4b23dD301AB898d84287777": "2026-11-21T23:02:37.371891+00:00",
     "EMjVCbyVHVZ88zvmQPVZffB6Nk2eksS6aCACGVGnpump": "2026-11-21T23:41:28.433397+00:00",
     "0x1a92d31439555c28Eac75dF0301f2e1CDa726DA3": "2026-11-21T23:49:43.013623+00:00",
-    "GY23CdhszidJZpLyNQ9PB63HPXq8RXqhnLtUYUH7pump": "2026-11-22T00:25:18.577418+00:00"
+    "GY23CdhszidJZpLyNQ9PB63HPXq8RXqhnLtUYUH7pump": "2026-11-22T00:25:18.577418+00:00",
+    "Ak8pAMMeiqbu3tyE2MU33o8W2RfhLk1hXYsscnFkpump": "2026-11-22T00:52:46.285953+00:00"
   }
 }
