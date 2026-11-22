@@ -3,22 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "WAT",
-      "chain": "robinhood",
-      "address": "0xaf23dDAB9816984c5Fc686A8D5FF90e5D8b04b5E",
-      "source": "new",
-      "entry_price": 5.774e-05,
-      "peak_price": 5.774e-05,
-      "trailing_active": false,
-      "entry_time": "2026-11-21T19:11:02.499009+00:00",
-      "score": 68,
-      "status": "open",
-      "api_failures": 23,
-      "current_pct": -4.94,
-      "peak_volume_m5": 0,
-      "milestones_hit": []
-    },
-    {
       "symbol": "COPIUM",
       "chain": "solana",
       "address": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
@@ -28,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-22T22:30:53.120271+00:00",
       "score": 73,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.56,
+      "peak_volume_m5": 6862.83,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -303815,6 +303803,25 @@
       "exit_price": 0.0001667,
       "exit_pct": 39.85,
       "exit_time": "2026-11-22T22:20:57.965187+00:00"
+    },
+    {
+      "symbol": "WAT",
+      "chain": "robinhood",
+      "address": "0xaf23dDAB9816984c5Fc686A8D5FF90e5D8b04b5E",
+      "source": "new",
+      "entry_price": 5.774e-05,
+      "peak_price": 5.774e-05,
+      "trailing_active": false,
+      "entry_time": "2026-11-21T19:11:02.499009+00:00",
+      "score": 68,
+      "status": "STALE",
+      "api_failures": 24,
+      "current_pct": -4.94,
+      "peak_volume_m5": 0,
+      "milestones_hit": [],
+      "exit_price": 5.4887644e-05,
+      "exit_pct": -4.94,
+      "exit_time": "2026-11-22T22:31:26.558488+00:00"
     }
   ],
   "alerted": {
@@ -319226,6 +319233,7 @@
     "0x008694B930738a06ad90390867aF72AFa8CE90B6": "2026-11-22T20:06:31.163267+00:00",
     "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": "2026-11-22T21:47:40.708465+00:00",
     "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": "2026-11-22T21:54:10.397541+00:00",
-    "0xBAb2701D3C30Ff32c773AA4F4A72ED6935D47777": "2026-11-22T22:20:57.965187+00:00"
+    "0xBAb2701D3C30Ff32c773AA4F4A72ED6935D47777": "2026-11-22T22:20:57.965187+00:00",
+    "0xaf23dDAB9816984c5Fc686A8D5FF90e5D8b04b5E": "2026-11-22T22:31:26.558488+00:00"
   }
 }
