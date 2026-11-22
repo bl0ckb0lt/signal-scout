@@ -13,22 +13,10 @@
       "entry_time": "2026-11-21T19:11:02.499009+00:00",
       "score": 68,
       "status": "open",
-      "api_failures": 16,
+      "api_failures": 17,
       "current_pct": -4.94,
       "peak_volume_m5": 0,
       "milestones_hit": []
-    },
-    {
-      "symbol": "MINELIUS",
-      "chain": "solana",
-      "address": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
-      "source": "new",
-      "entry_price": 0.0006879,
-      "peak_price": 0.0006879,
-      "trailing_active": false,
-      "entry_time": "2026-11-22T21:40:49.568251+00:00",
-      "score": 85,
-      "status": "open"
     }
   ],
   "closed": [
@@ -303752,6 +303740,29 @@
       "exit_price": 9.775e-05,
       "exit_pct": -15.0,
       "exit_time": "2026-11-22T20:06:31.163267+00:00"
+    },
+    {
+      "symbol": "MINELIUS",
+      "chain": "solana",
+      "address": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+      "source": "new",
+      "entry_price": 0.0006879,
+      "peak_price": 0.002572,
+      "trailing_active": true,
+      "entry_time": "2026-11-22T21:40:49.568251+00:00",
+      "score": 85,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 273.89,
+      "peak_volume_m5": 172424.43,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.002572,
+      "exit_pct": 273.89,
+      "exit_time": "2026-11-22T21:47:40.708465+00:00"
     }
   ],
   "alerted": {
@@ -319160,6 +319171,7 @@
     "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "2026-11-22T17:42:40.969597+00:00",
     "0x6dD29AB185A3F1Bce575608b01d7874Cd59C0beB": "2026-11-22T18:42:32.612404+00:00",
     "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": "2026-11-22T19:12:03.938028+00:00",
-    "0x008694B930738a06ad90390867aF72AFa8CE90B6": "2026-11-22T20:06:31.163267+00:00"
+    "0x008694B930738a06ad90390867aF72AFa8CE90B6": "2026-11-22T20:06:31.163267+00:00",
+    "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": "2026-11-22T21:47:40.708465+00:00"
   }
 }
