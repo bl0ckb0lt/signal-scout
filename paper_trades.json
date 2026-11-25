@@ -3,28 +3,22 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Pompompurin",
-      "chain": "solana",
-      "address": "H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump",
-      "source": "new",
-      "entry_price": 0.0006963,
-      "peak_price": 0.0006963,
-      "trailing_active": false,
-      "entry_time": "2026-11-25T20:31:06.370041+00:00",
-      "score": 87,
-      "status": "open"
-    },
-    {
       "symbol": "OnlyUp",
       "chain": "solana",
       "address": "H4eqZumNhGk7LKLB5QpJb84EYZ1yHbEg9HiwwLqkpump",
       "source": "new",
       "entry_price": 0.0003881,
-      "peak_price": 0.0003881,
-      "trailing_active": false,
+      "peak_price": 0.0006094,
+      "trailing_active": true,
       "entry_time": "2026-11-25T20:31:08.047548+00:00",
       "score": 78,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 57.02,
+      "peak_volume_m5": 65349.33,
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -305720,6 +305714,25 @@
       "exit_price": 0.0004835,
       "exit_pct": -34.34,
       "exit_time": "2026-11-25T19:42:18.017388+00:00"
+    },
+    {
+      "symbol": "Pompompurin",
+      "chain": "solana",
+      "address": "H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump",
+      "source": "new",
+      "entry_price": 0.0006963,
+      "peak_price": 0.0006963,
+      "trailing_active": false,
+      "entry_time": "2026-11-25T20:31:06.370041+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -28.09,
+      "peak_volume_m5": 108996.03,
+      "milestones_hit": [],
+      "exit_price": 0.0005007,
+      "exit_pct": -28.09,
+      "exit_time": "2026-11-25T20:37:07.000927+00:00"
     }
   ],
   "alerted": {
@@ -321227,6 +321240,7 @@
     "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump": "2026-11-25T18:42:08.084909+00:00",
     "437T35ficBfJK9N8GH4gWbiHb86AsRJRkQjARd7Ppump": "2026-11-25T18:43:03.526082+00:00",
     "59efB6GMHMbsA4Z4GSZkYkmqjSHePn9xi1iRNzeepump": "2026-11-25T19:23:24.282764+00:00",
-    "8F9LwX8HWHnrad1rEXagpW5xrZZJ16RjSJ1HYPb6pump": "2026-11-25T19:42:18.017388+00:00"
+    "8F9LwX8HWHnrad1rEXagpW5xrZZJ16RjSJ1HYPb6pump": "2026-11-25T19:42:18.017388+00:00",
+    "H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump": "2026-11-25T20:37:07.000927+00:00"
   }
 }
