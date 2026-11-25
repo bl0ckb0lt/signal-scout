@@ -8,23 +8,15 @@
       "address": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
       "source": "new",
       "entry_price": 0.0001243,
-      "peak_price": 0.0001243,
-      "trailing_active": false,
+      "peak_price": 0.0001434,
+      "trailing_active": true,
       "entry_time": "2026-11-25T02:01:11.572337+00:00",
       "score": 76,
-      "status": "open"
-    },
-    {
-      "symbol": "SPCat",
-      "chain": "robinhood",
-      "address": "0x48c42923C4AEd77BDaBD0E29f4bFaAac29aD9F33",
-      "source": "new",
-      "entry_price": 0.0001726,
-      "peak_price": 0.0001726,
-      "trailing_active": false,
-      "entry_time": "2026-11-25T02:01:12.903423+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 15.37,
+      "peak_volume_m5": 123035.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -305317,6 +305309,25 @@
       "exit_price": 0.0003624,
       "exit_pct": -13.16,
       "exit_time": "2026-11-25T01:48:39.993082+00:00"
+    },
+    {
+      "symbol": "SPCat",
+      "chain": "robinhood",
+      "address": "0x48c42923C4AEd77BDaBD0E29f4bFaAac29aD9F33",
+      "source": "new",
+      "entry_price": 0.0001726,
+      "peak_price": 0.0001726,
+      "trailing_active": false,
+      "entry_time": "2026-11-25T02:01:12.903423+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -43.55,
+      "peak_volume_m5": 17010.32,
+      "milestones_hit": [],
+      "exit_price": 9.744e-05,
+      "exit_pct": -43.55,
+      "exit_time": "2026-11-25T02:02:28.637278+00:00"
     }
   ],
   "alerted": {
@@ -320804,6 +320815,7 @@
     "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump": "2026-11-25T00:39:08.367911+00:00",
     "E35iEA2yLLHc1tjm6et1Z3YuH8DhxJYWtWezPHgSpump": "2026-11-25T01:10:55.645640+00:00",
     "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": "2026-11-25T01:25:00.779890+00:00",
-    "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump": "2026-11-25T01:48:39.993082+00:00"
+    "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump": "2026-11-25T01:48:39.993082+00:00",
+    "0x48c42923C4AEd77BDaBD0E29f4bFaAac29aD9F33": "2026-11-25T02:02:28.637278+00:00"
   }
 }
