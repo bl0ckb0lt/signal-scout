@@ -1,32 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "UBI",
-      "chain": "robinhood",
-      "address": "0xD15ca6138dA4b3236c0Adc31c87EB3026Fa25006",
-      "source": "new",
-      "entry_price": 0.0002457,
-      "peak_price": 0.0002457,
-      "trailing_active": false,
-      "entry_time": "2026-11-26T02:51:30.438531+00:00",
-      "score": 68,
-      "status": "open"
-    },
-    {
-      "symbol": "NETHER",
-      "chain": "solana",
-      "address": "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq",
-      "source": "new",
-      "entry_price": 0.0001186,
-      "peak_price": 0.0001186,
-      "trailing_active": false,
-      "entry_time": "2026-11-26T02:51:32.040319+00:00",
-      "score": 68,
-      "status": "open"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -306137,6 +306112,44 @@
       "exit_price": 0.0001576,
       "exit_pct": -11.51,
       "exit_time": "2026-11-26T02:43:53.537696+00:00"
+    },
+    {
+      "symbol": "UBI",
+      "chain": "robinhood",
+      "address": "0xD15ca6138dA4b3236c0Adc31c87EB3026Fa25006",
+      "source": "new",
+      "entry_price": 0.0002457,
+      "peak_price": 0.0002457,
+      "trailing_active": false,
+      "entry_time": "2026-11-26T02:51:30.438531+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.54,
+      "peak_volume_m5": 20196.35,
+      "milestones_hit": [],
+      "exit_price": 0.0002198,
+      "exit_pct": -10.54,
+      "exit_time": "2026-11-26T02:52:27.120945+00:00"
+    },
+    {
+      "symbol": "NETHER",
+      "chain": "solana",
+      "address": "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq",
+      "source": "new",
+      "entry_price": 0.0001186,
+      "peak_price": 0.0001186,
+      "trailing_active": false,
+      "entry_time": "2026-11-26T02:51:32.040319+00:00",
+      "score": 68,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -67.72,
+      "peak_volume_m5": 57320.72,
+      "milestones_hit": [],
+      "exit_price": 3.829e-05,
+      "exit_pct": -67.72,
+      "exit_time": "2026-11-26T02:52:27.985919+00:00"
     }
   ],
   "alerted": {
@@ -321665,6 +321678,8 @@
     "ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump": "2026-11-26T02:02:37.970073+00:00",
     "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": "2026-11-26T02:02:38.697351+00:00",
     "0x2200734A8CBffF8A5cF09FDDC807730c568Ebe3b": "2026-11-26T02:22:25.462710+00:00",
-    "0x43Aaa68c687dFd5C4e9765DFCE62312a8385Ede5": "2026-11-26T02:43:53.537696+00:00"
+    "0x43Aaa68c687dFd5C4e9765DFCE62312a8385Ede5": "2026-11-26T02:43:53.537696+00:00",
+    "0xD15ca6138dA4b3236c0Adc31c87EB3026Fa25006": "2026-11-26T02:52:27.120945+00:00",
+    "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq": "2026-11-26T02:52:27.985919+00:00"
   }
 }
