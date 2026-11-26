@@ -3,35 +3,23 @@
   "paused": false,
   "open": [
     {
-      "symbol": "PUMPDOG",
-      "chain": "solana",
-      "address": "73R7L2jLfnweJTXxTiccHMZV6mECaVELPUy3PkHopump",
-      "source": "new",
-      "entry_price": 0.000206,
-      "peak_price": 0.0004314,
-      "trailing_active": true,
-      "entry_time": "2026-11-26T00:51:02.007470+00:00",
-      "score": 78,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 109.42,
-      "peak_volume_m5": 66195.91,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    },
-    {
       "symbol": "Zero",
       "chain": "solana",
       "address": "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump",
       "source": "new",
       "entry_price": 0.0002586,
-      "peak_price": 0.0002586,
-      "trailing_active": false,
+      "peak_price": 0.0006156,
+      "trailing_active": true,
       "entry_time": "2026-11-26T01:01:11.636207+00:00",
       "score": 76,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 138.05,
+      "peak_volume_m5": 119783.33,
+      "milestones_hit": [
+        50,
+        100
+      ]
     }
   ],
   "closed": [
@@ -306003,6 +305991,28 @@
       "exit_price": 0.0005593,
       "exit_pct": 131.31,
       "exit_time": "2026-11-26T00:49:36.310603+00:00"
+    },
+    {
+      "symbol": "PUMPDOG",
+      "chain": "solana",
+      "address": "73R7L2jLfnweJTXxTiccHMZV6mECaVELPUy3PkHopump",
+      "source": "new",
+      "entry_price": 0.000206,
+      "peak_price": 0.0004909,
+      "trailing_active": true,
+      "entry_time": "2026-11-26T00:51:02.007470+00:00",
+      "score": 78,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 138.3,
+      "peak_volume_m5": 66195.91,
+      "milestones_hit": [
+        50,
+        100
+      ],
+      "exit_price": 0.0004909,
+      "exit_pct": 138.3,
+      "exit_time": "2026-11-26T01:09:54.424254+00:00"
     }
   ],
   "alerted": {
@@ -321524,6 +321534,7 @@
     "0xDeE9557Af2b54c57ea31d31D792f9fb26bE5BB85": "2026-11-25T23:01:57.502297+00:00",
     "BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": "2026-11-25T23:05:16.108200+00:00",
     "5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump": "2026-11-26T00:44:52.154059+00:00",
-    "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": "2026-11-26T00:49:36.310603+00:00"
+    "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": "2026-11-26T00:49:36.310603+00:00",
+    "73R7L2jLfnweJTXxTiccHMZV6mECaVELPUy3PkHopump": "2026-11-26T01:09:54.424254+00:00"
   }
 }
