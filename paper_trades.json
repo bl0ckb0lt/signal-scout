@@ -3,38 +3,6 @@
   "paused": false,
   "open": [
     {
-      "symbol": "Cateball",
-      "chain": "solana",
-      "address": "Bb38n8AVLMh9amo8qtjLvqE8nPtfs8GEsyzg1pC6pump",
-      "source": "new",
-      "entry_price": 0.0009557,
-      "peak_price": 0.001187,
-      "trailing_active": true,
-      "entry_time": "2026-11-26T21:41:07.928314+00:00",
-      "score": 82,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 24.2,
-      "peak_volume_m5": 17926.04,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "SpaceXCoin",
-      "chain": "bsc",
-      "address": "0x219c3Fc73909F33f254d509B739b749C03A87777",
-      "source": "new",
-      "entry_price": 0.000122,
-      "peak_price": 0.0001234,
-      "trailing_active": false,
-      "entry_time": "2026-11-26T21:51:39.010940+00:00",
-      "score": 87,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 1.15,
-      "peak_volume_m5": 30484.46,
-      "milestones_hit": []
-    },
-    {
       "symbol": "MNTR6900",
       "chain": "elysium",
       "address": "0xB0B3Ac8801F6b3904f51a0ED2e2953D0D540280C",
@@ -44,7 +12,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-26T22:01:05.608357+00:00",
       "score": 74,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -1.5,
+      "peak_volume_m5": 2275.2,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -306750,6 +306722,44 @@
       "exit_price": 0.0001368,
       "exit_pct": -17.54,
       "exit_time": "2026-11-26T21:22:35.975422+00:00"
+    },
+    {
+      "symbol": "Cateball",
+      "chain": "solana",
+      "address": "Bb38n8AVLMh9amo8qtjLvqE8nPtfs8GEsyzg1pC6pump",
+      "source": "new",
+      "entry_price": 0.0009557,
+      "peak_price": 0.001187,
+      "trailing_active": true,
+      "entry_time": "2026-11-26T21:41:07.928314+00:00",
+      "score": 82,
+      "status": "TSL",
+      "api_failures": 0,
+      "current_pct": 2.03,
+      "peak_volume_m5": 17926.04,
+      "milestones_hit": [],
+      "exit_price": 0.0009751,
+      "exit_pct": 2.03,
+      "exit_time": "2026-11-26T22:02:05.914559+00:00"
+    },
+    {
+      "symbol": "SpaceXCoin",
+      "chain": "bsc",
+      "address": "0x219c3Fc73909F33f254d509B739b749C03A87777",
+      "source": "new",
+      "entry_price": 0.000122,
+      "peak_price": 0.0001234,
+      "trailing_active": false,
+      "entry_time": "2026-11-26T21:51:39.010940+00:00",
+      "score": 87,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -22.33,
+      "peak_volume_m5": 30484.46,
+      "milestones_hit": [],
+      "exit_price": 9.476e-05,
+      "exit_pct": -22.33,
+      "exit_time": "2026-11-26T22:02:06.738134+00:00"
     }
   ],
   "alerted": {
@@ -322307,6 +322317,8 @@
     "ChYn9ZpCUzrwd8rcpUtr7K7iKgDWUfJijM4xwxBCpump": "2026-11-26T20:45:10.092607+00:00",
     "CFX1gH7CKYwqYXrfDkS2MUxJcEhs8PT63DyRA1chpump": "2026-11-26T20:46:01.333429+00:00",
     "0x4d55e30049A6a2e2fa2f2a99aF50FdAd95308650": "2026-11-26T20:57:24.470275+00:00",
-    "9SVj5ZTAL41tqswVNwT1TT9yv3oSHYMYv8zqoHtPpump": "2026-11-26T21:22:35.975422+00:00"
+    "9SVj5ZTAL41tqswVNwT1TT9yv3oSHYMYv8zqoHtPpump": "2026-11-26T21:22:35.975422+00:00",
+    "Bb38n8AVLMh9amo8qtjLvqE8nPtfs8GEsyzg1pC6pump": "2026-11-26T22:02:05.914559+00:00",
+    "0x219c3Fc73909F33f254d509B739b749C03A87777": "2026-11-26T22:02:06.738134+00:00"
   }
 }
