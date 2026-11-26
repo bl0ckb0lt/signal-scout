@@ -28,7 +28,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-26T20:01:08.511489+00:00",
       "score": 83,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -0.93,
+      "peak_volume_m5": 13694.3,
+      "milestones_hit": []
     },
     {
       "symbol": "Dogeball",
@@ -40,19 +44,11 @@
       "trailing_active": false,
       "entry_time": "2026-11-26T20:01:10.446987+00:00",
       "score": 82,
-      "status": "open"
-    },
-    {
-      "symbol": "Kuro",
-      "chain": "ethereum",
-      "address": "0x0f286934B3edA6f4863df62E3AC25b1928f2104A",
-      "source": "new",
-      "entry_price": 0.001347,
-      "peak_price": 0.001347,
-      "trailing_active": false,
-      "entry_time": "2026-11-26T20:01:12.058079+00:00",
-      "score": 77,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": -9.41,
+      "peak_volume_m5": 79592.46,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -306606,6 +306602,25 @@
       "exit_price": 0.0001448,
       "exit_pct": -13.55,
       "exit_time": "2026-11-26T19:50:40.461617+00:00"
+    },
+    {
+      "symbol": "Kuro",
+      "chain": "ethereum",
+      "address": "0x0f286934B3edA6f4863df62E3AC25b1928f2104A",
+      "source": "new",
+      "entry_price": 0.001347,
+      "peak_price": 0.001347,
+      "trailing_active": false,
+      "entry_time": "2026-11-26T20:01:12.058079+00:00",
+      "score": 77,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -9.28,
+      "peak_volume_m5": 30097.85,
+      "milestones_hit": [],
+      "exit_price": 0.001222,
+      "exit_pct": -9.28,
+      "exit_time": "2026-11-26T20:02:14.212126+00:00"
     }
   ],
   "alerted": {
@@ -322155,6 +322170,7 @@
     "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump": "2026-11-26T17:19:57.979606+00:00",
     "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump": "2026-11-26T17:52:36.151386+00:00",
     "Gvo9widdpuyi2XsWm9gAepfcBR54c7XrrSSdwF2Mpump": "2026-11-26T19:32:28.215798+00:00",
-    "HYFbbfv771xSRXyF2rRdf6eQzucLhrSHd2JkE12vpump": "2026-11-26T19:50:40.461617+00:00"
+    "HYFbbfv771xSRXyF2rRdf6eQzucLhrSHd2JkE12vpump": "2026-11-26T19:50:40.461617+00:00",
+    "0x0f286934B3edA6f4863df62E3AC25b1928f2104A": "2026-11-26T20:02:14.212126+00:00"
   }
 }
