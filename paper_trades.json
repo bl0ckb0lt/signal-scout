@@ -1,27 +1,7 @@
 {
   "last_update_id": 146423266,
   "paused": false,
-  "open": [
-    {
-      "symbol": "KAI",
-      "chain": "solana",
-      "address": "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump",
-      "source": "new",
-      "entry_price": 0.0009314,
-      "peak_price": 0.00227,
-      "trailing_active": true,
-      "entry_time": "2026-11-27T01:01:07.623667+00:00",
-      "score": 80,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 143.72,
-      "peak_volume_m5": 187265.2,
-      "milestones_hit": [
-        50,
-        100
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "PIC",
@@ -306953,6 +306933,29 @@
       "exit_price": 0.001042,
       "exit_pct": -8.19,
       "exit_time": "2026-11-27T00:48:29.826837+00:00"
+    },
+    {
+      "symbol": "KAI",
+      "chain": "solana",
+      "address": "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump",
+      "source": "new",
+      "entry_price": 0.0009314,
+      "peak_price": 0.003284,
+      "trailing_active": true,
+      "entry_time": "2026-11-27T01:01:07.623667+00:00",
+      "score": 80,
+      "status": "HARD_TP",
+      "api_failures": 0,
+      "current_pct": 252.59,
+      "peak_volume_m5": 187265.2,
+      "milestones_hit": [
+        200,
+        50,
+        100
+      ],
+      "exit_price": 0.003284,
+      "exit_pct": 252.59,
+      "exit_time": "2026-11-27T01:19:04.432145+00:00"
     }
   ],
   "alerted": {
@@ -322522,6 +322525,7 @@
     "0xe39cce705e2cb41d4fc59ca73498bb305c2c3539": "2026-11-27T00:03:56.727022+00:00",
     "2VeUSgG7uyFdEvvPVn8vhBWDagegU3mZ6pL51r9Bvv2r": "2026-11-27T00:14:01.123014+00:00",
     "0x48E3620E58300CFA34DB5fa7132E875AA26549F9": "2026-11-27T00:22:30.283969+00:00",
-    "0x0e2f3213e26352d5Db82e034B271845faaFB5fAe": "2026-11-27T00:48:29.826837+00:00"
+    "0x0e2f3213e26352d5Db82e034B271845faaFB5fAe": "2026-11-27T00:48:29.826837+00:00",
+    "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": "2026-11-27T01:19:04.432145+00:00"
   }
 }
