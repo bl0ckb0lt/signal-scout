@@ -8,31 +8,17 @@
       "address": "GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump",
       "source": "new",
       "entry_price": 0.000229,
-      "peak_price": 0.0003287,
+      "peak_price": 0.0003685,
       "trailing_active": true,
       "entry_time": "2026-11-27T13:40:56.331850+00:00",
       "score": 83,
       "status": "open",
       "api_failures": 0,
-      "current_pct": 43.54,
+      "current_pct": 60.92,
       "peak_volume_m5": 37235.83,
-      "milestones_hit": []
-    },
-    {
-      "symbol": "WINSTON",
-      "chain": "solana",
-      "address": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
-      "source": "new",
-      "entry_price": 0.0001496,
-      "peak_price": 0.0001691,
-      "trailing_active": false,
-      "entry_time": "2026-11-27T13:40:58.578959+00:00",
-      "score": 76,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": 10.09,
-      "peak_volume_m5": 60097.27,
-      "milestones_hit": []
+      "milestones_hit": [
+        50
+      ]
     }
   ],
   "closed": [
@@ -307296,6 +307282,25 @@
       "exit_price": 1.723e-06,
       "exit_pct": -98.93,
       "exit_time": "2026-11-27T13:42:22.148121+00:00"
+    },
+    {
+      "symbol": "WINSTON",
+      "chain": "solana",
+      "address": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+      "source": "new",
+      "entry_price": 0.0001496,
+      "peak_price": 0.0001691,
+      "trailing_active": false,
+      "entry_time": "2026-11-27T13:40:58.578959+00:00",
+      "score": 76,
+      "status": "VOL_DECAY",
+      "api_failures": 0,
+      "current_pct": 8.22,
+      "peak_volume_m5": 60097.27,
+      "milestones_hit": [],
+      "exit_price": 0.0001619,
+      "exit_pct": 8.22,
+      "exit_time": "2026-11-27T14:03:32.966340+00:00"
     }
   ],
   "alerted": {
@@ -322882,6 +322887,7 @@
     "0xc448040E04B4b3c542d1e457630eAb3833c836e9": "2026-11-27T13:01:58.536413+00:00",
     "0x3C6FCFf6d86F62DA4D10f1bA903698c74a4821fd": "2026-11-27T13:32:02.224140+00:00",
     "0xC5C9933c424C2bf7F8BD231F2BF9b3592893ee41": "2026-11-27T13:32:59.370147+00:00",
-    "0xBDCC8c816C5309BaC1440384405c2f4260DC415A": "2026-11-27T13:42:22.148121+00:00"
+    "0xBDCC8c816C5309BaC1440384405c2f4260DC415A": "2026-11-27T13:42:22.148121+00:00",
+    "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": "2026-11-27T14:03:32.966340+00:00"
   }
 }
