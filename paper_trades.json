@@ -8,23 +8,15 @@
       "address": "92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump",
       "source": "new",
       "entry_price": 0.0003525,
-      "peak_price": 0.0003525,
-      "trailing_active": false,
+      "peak_price": 0.0004289,
+      "trailing_active": true,
       "entry_time": "2026-11-27T16:11:10.657829+00:00",
       "score": 73,
-      "status": "open"
-    },
-    {
-      "symbol": "ElyAnt",
-      "chain": "elysium",
-      "address": "0xaF3aeF0f536027DB44FB0c05adFFBf1C0BaC9519",
-      "source": "new",
-      "entry_price": 0.0001515,
-      "peak_price": 0.0001515,
-      "trailing_active": false,
-      "entry_time": "2026-11-27T16:11:11.999916+00:00",
-      "score": 72,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 21.67,
+      "peak_volume_m5": 72154.94,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -307406,6 +307398,25 @@
       "exit_price": 0.0006456,
       "exit_pct": 51.83,
       "exit_time": "2026-11-27T15:51:56.485357+00:00"
+    },
+    {
+      "symbol": "ElyAnt",
+      "chain": "elysium",
+      "address": "0xaF3aeF0f536027DB44FB0c05adFFBf1C0BaC9519",
+      "source": "new",
+      "entry_price": 0.0001515,
+      "peak_price": 0.0001515,
+      "trailing_active": false,
+      "entry_time": "2026-11-27T16:11:11.999916+00:00",
+      "score": 72,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -16.96,
+      "peak_volume_m5": 639831.75,
+      "milestones_hit": [],
+      "exit_price": 0.0001258,
+      "exit_pct": -16.96,
+      "exit_time": "2026-11-27T16:12:29.739797+00:00"
     }
   ],
   "alerted": {
@@ -322998,6 +323009,7 @@
     "0x68c7a3BC173e53eD56F7807b4ad39b1B2a33FfFF": "2026-11-27T14:22:34.352640+00:00",
     "0x13d3FDFb6fF58c79bc8821ab9A7700b78a319373": "2026-11-27T15:02:37.001992+00:00",
     "DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump": "2026-11-27T15:11:40.887569+00:00",
-    "0xd543Bd91893FC0dC3edfDEe9089964bBec3c1942": "2026-11-27T15:51:56.485357+00:00"
+    "0xd543Bd91893FC0dC3edfDEe9089964bBec3c1942": "2026-11-27T15:51:56.485357+00:00",
+    "0xaF3aeF0f536027DB44FB0c05adFFBf1C0BaC9519": "2026-11-27T16:12:29.739797+00:00"
   }
 }
