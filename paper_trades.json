@@ -3,32 +3,20 @@
   "paused": false,
   "open": [
     {
-      "symbol": "TIMMY",
-      "chain": "solana",
-      "address": "6yiZmaeQSW3FUHYjqtzZFNSM6Xy4zJ89XeQRcg6mpump",
-      "source": "new",
-      "entry_price": 0.0001469,
-      "peak_price": 0.0001469,
-      "trailing_active": false,
-      "entry_time": "2026-11-28T17:31:18.561294+00:00",
-      "score": 86,
-      "status": "open",
-      "api_failures": 0,
-      "current_pct": -1.57,
-      "peak_volume_m5": 2539.22,
-      "milestones_hit": []
-    },
-    {
       "symbol": "BOTH",
       "chain": "elysium",
       "address": "0x24AA05259dE51C28eb31B436060f701b393c6966",
       "source": "new",
       "entry_price": 8.497e-05,
-      "peak_price": 8.497e-05,
-      "trailing_active": false,
+      "peak_price": 9.911e-05,
+      "trailing_active": true,
       "entry_time": "2026-11-28T18:01:02.523389+00:00",
       "score": 68,
-      "status": "open"
+      "status": "open",
+      "api_failures": 0,
+      "current_pct": 16.64,
+      "peak_volume_m5": 10851.54,
+      "milestones_hit": []
     }
   ],
   "closed": [
@@ -308368,6 +308356,25 @@
       "exit_price": 6.083e-05,
       "exit_pct": -8.39,
       "exit_time": "2026-11-28T16:31:49.095878+00:00"
+    },
+    {
+      "symbol": "TIMMY",
+      "chain": "solana",
+      "address": "6yiZmaeQSW3FUHYjqtzZFNSM6Xy4zJ89XeQRcg6mpump",
+      "source": "new",
+      "entry_price": 0.0001469,
+      "peak_price": 0.0001469,
+      "trailing_active": false,
+      "entry_time": "2026-11-28T17:31:18.561294+00:00",
+      "score": 86,
+      "status": "SL",
+      "api_failures": 0,
+      "current_pct": -10.21,
+      "peak_volume_m5": 2539.22,
+      "milestones_hit": [],
+      "exit_price": 0.0001319,
+      "exit_pct": -10.21,
+      "exit_time": "2026-11-28T18:07:35.272211+00:00"
     }
   ],
   "alerted": {
@@ -324009,6 +324016,7 @@
     "0xE34B4a94bC7B76AA296501D9061154D10e8a1d78": "2026-11-28T14:52:21.865312+00:00",
     "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump": "2026-11-28T15:53:07.347480+00:00",
     "0x87919e12238FbBc429D55126133C77C6C07fdf91": "2026-11-28T15:55:54.047137+00:00",
-    "0x4A6C7019EDd2BA872C22A235A19D6bA99c869372": "2026-11-28T16:31:49.095878+00:00"
+    "0x4A6C7019EDd2BA872C22A235A19D6bA99c869372": "2026-11-28T16:31:49.095878+00:00",
+    "6yiZmaeQSW3FUHYjqtzZFNSM6Xy4zJ89XeQRcg6mpump": "2026-11-28T18:07:35.272211+00:00"
   }
 }
